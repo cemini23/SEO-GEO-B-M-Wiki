@@ -14,7 +14,7 @@ A reusable prompt template for evaluating a list of GitHub repositories before a
 
 ---
 
-You are auditing a list of GitHub repositories for adoption into a local-business SEO + GEO/AEO + web-design + social-media workspace. The workspace is a knowledge hub for the operator of two physical barbershops in Davie, Florida who is new to Claude and wants assistance with: updating their website, replying to Google/Yelp/Facebook reviews, optimizing their Google Business Profile, posting to Instagram/TikTok/Facebook, ranking in the local 3-pack, and being correctly cited by AI answer engines (ChatGPT, Claude, Perplexity, Google AI Overviews). The workspace is laptop-only (no remote server, no team distribution) and the operator has no engineering staff — anything proposed must be runnable by a non-coder, or it gets routed to "research-only, do not adopt."
+You are auditing a list of GitHub repositories for adoption into a local-business SEO + GEO/AEO + web-design + social-media workspace. The workspace is a knowledge hub for brick-and-mortar operators (single- or multi-location) who want assistance with: updating their website, replying to Google/Yelp/Facebook reviews, optimizing their Google Business Profile, posting to Instagram/TikTok/Facebook, ranking in the local 3-pack, and being correctly cited by AI answer engines (ChatGPT, Claude, Perplexity, Google AI Overviews). The wiki uses a barbershop running example for concreteness, but findings should generalize across local-service categories (restaurants, dental, auto, salons, gyms, retail). Assume the operator has no engineering staff — anything proposed must be runnable by a non-coder, or it gets routed to "research-only, do not adopt."
 
 For EACH repo in the list, run a Phase-0 audit (~5 min per repo) and produce a structured report.
 
@@ -64,7 +64,7 @@ For EACH repo in the list, run a Phase-0 audit (~5 min per repo) and produce a s
 - **Website / CMS plugins**: Compatibility with current platform version? Page-builder conflicts (Elementor / Divi / Beaver Builder)? Maintenance status? Auto-update breakage history?
 - **Social-media tools**: Instagram / TikTok / Facebook API access status (heavily restricted as of 2024-2025)? Algorithmic-reach impact of scheduled posts vs native? Watermark / branded-content compliance?
 - **AI content tools**: Generic GPT wrapper or has local-business specialization? Does it know `BarberShop` ≠ `Salon` ≠ `Hair Salon` for schema purposes? AI-detection-flagged output (hurts E-E-A-T)?
-- **Scraper / SERP tools**: Headless browser or HTTP-only? Captcha handling? Rate-limit awareness? Stores raw HTML or just parsed output? Can it sample from a specific lat/long (needed for "Davie FL barbershop" to match what a local user sees)?
+- **Scraper / SERP tools**: Headless browser or HTTP-only? Captcha handling? Rate-limit awareness? Stores raw HTML or just parsed output? Can it sample from a specific lat/long (needed for `[category] [city] [st]` queries to match what a local user actually sees)?
 - **GEO/AEO tools**: Measures actual AI-engine citations (queries the engines) or just heuristics? Which engines (ChatGPT / Claude / Perplexity / Gemini / AI Overviews)? Frequency of measurement? Cost per measurement?
 
 **5. Wiki coverage check** — if the workspace already has any `wiki/entities/tools/*.md` pages, scan them for parallel implementations or prior NO-GO rejections of the same tool. (Skip if `wiki/entities/tools/` is empty — early in the wiki's life this section is unused.)

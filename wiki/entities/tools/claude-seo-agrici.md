@@ -12,6 +12,7 @@ related:
   - concepts/citation-building.md
   - concepts/claude-platforms.md
   - concepts/competitor-analysis-local.md
+  - concepts/on-page-seo-local.md
   - entities/tools/local-falcon.md
   - entities/tools/geo-seo-claude.md
 maturity: validated
@@ -29,6 +30,7 @@ updated: 2026-05-07
 - @concepts/citation-building.md
 - @concepts/claude-platforms.md
 - @concepts/competitor-analysis-local.md
+- @concepts/on-page-seo-local.md
 - @entities/tools/local-falcon.md
 - @entities/tools/geo-seo-claude.md
 
@@ -63,11 +65,11 @@ The audit rejected [aaron-he-zhu/seo-geo-claude-skills](https://github.com/aaron
 
 The repo specifically implements **doorway-page prevention** — programmatic warning at 30 generated location pages, hard stop at 50. This is unusually disciplined for an open-source SEO tool (most don't bother) and aligns directly with this workspace's hard-policy boundaries (no doorway pages, no thin city-clone content). See @concepts/on-page-seo-local.md.
 
-### Use for the two-shop operator
+### Use for a multi-location operator
 
 - Run `/seo nap <shop-1-business-name>` and `/seo nap <shop-2-business-name>` quarterly to catch citation drift across Yelp / Apple / Bing / etc.
-- Run `/seo grid <shop-1-gbp-url>` and `<shop-2-gbp-url>` monthly. The grid output reveals which of the two shops is dominating which neighborhoods of Davie + Broward, informing per-shop GBP optimization priorities.
-- Run `/seo competitors davie` to enumerate the local-pack competitors. Pipe the output to the per-competitor capture in @concepts/competitor-analysis-local.md.
+- Run `/seo grid <shop-1-gbp-url>` and `<shop-2-gbp-url>` monthly. The grid output reveals which of the locations is dominating which neighborhoods of the operator's service area, informing per-location GBP optimization priorities.
+- Run `/seo competitors <city>` to enumerate the local-pack competitors. Pipe the output to the per-competitor capture in @concepts/competitor-analysis-local.md.
 
 ### Install path and platform context
 

@@ -24,9 +24,9 @@ Stub entity page for Semrush — a major commercial SEO suite covering keyword r
 
 ## Narrative
 
-Semrush is the largest of the all-in-one SEO platforms, with feature breadth that covers most of what a small-business operator + a freelance SEO consultant might need. For a single barbershop, the cost is steep relative to the use case (`[NEEDS VERIFICATION 2026-05-07]` for current pricing); the operator can get most of the day-to-day value from the free GSC + free GBP Performance + a much cheaper grid-rank tracker (Local Falcon) without buying Semrush.
+Semrush is the largest of the all-in-one SEO platforms, with feature breadth that covers most of what a small-business operator + a freelance SEO consultant might need. For a single brick-and-mortar location, the cost is steep relative to the use case (`[NEEDS VERIFICATION 2026-05-07]` for current pricing); the operator can get most of the day-to-day value from the free GSC + free GBP Performance + a much cheaper grid-rank tracker (Local Falcon) without buying Semrush.
 
-Where Semrush specifically earns its cost for a local barbershop: (a) competitor SERP-overlap analysis ("which keywords does the top-ranking competitor in Davie rank for that we don't?"), (b) backlink-gap analysis (what citation/link sources do top competitors have that we don't), (c) one-time audits.
+Where Semrush specifically earns its cost for a local brick-and-mortar: (a) competitor SERP-overlap analysis ("which keywords does the top-ranking local competitor rank for that we don't?"), (b) backlink-gap analysis (what citation/link sources do top competitors have that we don't), (c) one-time audits.
 
 Defer adoption decision until: ingest pass with operator's competitor list confirms Semrush would surface enough actionable insight to justify a 1-month subscription cycle.
 

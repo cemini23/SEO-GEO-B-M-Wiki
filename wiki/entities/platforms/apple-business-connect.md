@@ -6,6 +6,7 @@ keywords: [apple business connect, ABC, apple maps, siri, business directory]
 related:
   - concepts/local-seo-foundations.md
   - concepts/near-me-search.md
+  - concepts/citation-building.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -15,6 +16,7 @@ updated: 2026-05-07
 
 - @concepts/local-seo-foundations.md
 - @concepts/near-me-search.md
+- @concepts/citation-building.md
 
 ## Raw Concept
 
@@ -26,7 +28,7 @@ Apple Business Connect (ABC) is the canonical surface for managing how a busines
 
 For a barbershop, the ABC listing should mirror the GBP listing: same NAP, same hours, same category, same photos. The "showcase" feature lets operators publish promotional cards visible in Apple Maps. Apple's review-equivalent feed is integrated with Yelp data, not a native Apple review system — this is a key difference from GBP.
 
-ABC is one of the highest-priority **citation surfaces** to claim because (a) it's free, (b) it directly powers iPhone-user voice queries, (c) iPhones have substantial market share in South Florida specifically. See @concepts/local-seo-foundations.md.
+ABC is one of the highest-priority **citation surfaces** to claim because (a) it's free, (b) it directly powers iPhone-user voice queries, (c) iPhone has substantial market share across most US metro markets — claiming ABC captures the iPhone segment of "near me" voice search. See @concepts/local-seo-foundations.md.
 
 ## Snippets
 

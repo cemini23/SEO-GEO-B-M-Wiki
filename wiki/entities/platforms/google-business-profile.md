@@ -9,6 +9,7 @@ related:
   - concepts/reviews-reputation-management.md
   - concepts/near-me-search.md
   - concepts/review-response-templates.md
+  - concepts/citation-building.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -21,6 +22,7 @@ updated: 2026-05-07
 - @concepts/reviews-reputation-management.md
 - @concepts/near-me-search.md
 - @concepts/review-response-templates.md
+- @concepts/citation-building.md
 
 ## Raw Concept
 
@@ -34,7 +36,7 @@ Entity page for the Google Business Profile platform itself — what it is as a 
 
 - **Google Search local pack / map pack** — the 3-listing block that appears above organic results for local-intent queries
 - **Google Maps** — the primary listing on the map and in the side panel
-- **Knowledge Panel** — the right-hand side panel on branded queries ("ShopName Davie")
+- **Knowledge Panel** — the right-hand side panel on branded queries (e.g. "ShopName [city]")
 - **Google Assistant** voice answers
 - **Google AI Overviews** — increasingly cited
 - **Google Lens** / image search — when users photograph a storefront
@@ -84,7 +86,7 @@ For a two-shop operator: each location is a separate listing requiring separate 
 
 The page-level boundaries are at @concepts/reviews-reputation-management.md (review policy) and @concepts/google-business-profile.md (listing-content policy). The high-level rules:
 
-- **No keyword stuffing in business name** — name must match real signage, not "Davie Barber Shop - Best Fades & Beard Trims"
+- **No keyword stuffing in business name** — name must match real signage, not "[City] Barber Shop - Best Fades & Beard Trims"
 - **No fake addresses / virtual offices** — must serve customers at the listed address (or, for service-area businesses, must be physically based there)
 - **No multiple listings for same location** — duplicate listings get merged or suppressed
 - **No review gating, no fake reviews, no fake services** — see @concepts/reviews-reputation-management.md

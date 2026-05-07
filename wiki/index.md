@@ -59,7 +59,7 @@ Catalog of all wiki pages. Search this first when answering a query. Pages group
 
 ### Markets
 
-- [davie-florida](entities/markets/davie-florida.md) — Davie / Broward County context; adjacent cities; cultural notes
+- [local-market-template](entities/markets/local-market-template.md) — fillable template for the operator's local market: city/county context, adjacent municipalities, demographic + cultural notes
 
 ### Platforms
 

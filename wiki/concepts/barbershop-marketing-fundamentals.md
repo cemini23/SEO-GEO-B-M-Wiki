@@ -7,7 +7,7 @@ related:
   - concepts/social-media-for-barbershops.md
   - concepts/website-essentials-local-business.md
   - concepts/reviews-reputation-management.md
-  - entities/markets/davie-florida.md
+  - entities/markets/local-market-template.md
   - entities/companies/shop-1.md
   - entities/companies/shop-2.md
   - entities/platforms/instagram.md
@@ -21,7 +21,7 @@ updated: 2026-05-07
 - @concepts/social-media-for-barbershops.md
 - @concepts/website-essentials-local-business.md
 - @concepts/reviews-reputation-management.md
-- @entities/markets/davie-florida.md
+- @entities/markets/local-market-template.md
 - @entities/companies/shop-1.md
 - @entities/companies/shop-2.md
 - @entities/platforms/instagram.md
@@ -36,7 +36,7 @@ Barbershops have a few industry-specific characteristics that shape every market
 
 ### High-frequency, high-LTV, taste-bound
 
-- **Visit frequency**: typical men's haircut cadence is **2-6 weeks** (fades faster, longer styles slower). `[NEEDS VERIFICATION 2026-05-07]` for current Davie-market average.
+- **Visit frequency**: typical men's haircut cadence is **2-6 weeks** (fades faster, longer styles slower). `[NEEDS VERIFICATION 2026-05-07]` for current local-market average — varies by region and demographic.
 - **Customer LTV**: a customer who visits every 4 weeks at $35/cut for 2 years = $910 lifetime. Acquisition cost of even $50-100 pays back fast.
 - **Taste-bound**: customers don't switch barbers casually — once a customer finds someone who cuts their hair the way they want, switching costs are high (verbal description + risk of bad cut). Both protective for the operator (low churn) and a barrier (acquisition is harder; customers loyal to a competitor are sticky).
 
@@ -55,7 +55,7 @@ Unlike many local businesses with adjacent online revenue (restaurant delivery, 
 
 (Specific to this wiki's primary user.)
 
-A two-shop operator in the same city (Davie, FL) faces decisions that single-shop operators don't:
+A two-shop operator in the same city faces decisions that single-shop operators don't:
 
 - **Brand consolidation vs per-shop differentiation**: shared brand and marketing (one IG, one website with two locations) vs distinct brands per shop. Most multi-shop operators consolidate; differentiation only makes sense if the two shops target meaningfully different demographics.
 - **Service-area cannibalization**: if the two shops are <5 miles apart, they compete in the same local pack for "barbershop near me" queries. This is acceptable (better that two of the operator's own shops own the top-3 than competitors do), but means each shop's individual ranking is harder to push above the other.
@@ -64,14 +64,14 @@ A two-shop operator in the same city (Davie, FL) faces decisions that single-sho
 
 See @entities/companies/shop-1.md and @entities/companies/shop-2.md for the placeholder shop pages; replace with real data on first session with operator.
 
-### Davie, Florida market context
+### Local market context
 
-Specific market characteristics affect strategy. See @entities/markets/davie-florida.md (currently a stub):
+Specific market characteristics affect strategy. See @entities/markets/local-market-template.md (operator fills in):
 - Population, demographics, age skew
-- Barbershop competitor density (likely high — South Florida has a dense local barber scene)
-- Adjacent neighborhoods to target (Plantation, Cooper City, Sunrise, Fort Lauderdale, Pembroke Pines)
-- Seasonal patterns (snowbirds in winter, year-round demand otherwise)
-- Cultural / language considerations (Davie has significant Hispanic and Caribbean populations; bilingual signage / IG content / reviews can be material)
+- Barbershop competitor density (varies wildly by region — dense urban / suburban metros support more shops per square mile than smaller towns)
+- Adjacent neighborhoods to target (cities or unincorporated areas within a ~5-15-minute drive)
+- Seasonal patterns (snowbird / college / tourist markets have predictable seasonality; many markets are year-round-stable)
+- Cultural / language considerations (in markets with significant non-English-speaking communities, bilingual signage / IG content / reviews can be a real differentiator)
 
 ### The marketing stack for a typical operator
 
@@ -107,4 +107,4 @@ This wiki does NOT help with:
 
 ## Snippets
 
-(none yet — populate via ingest of barbershop-industry trade reports + multi-location-operator case studies + Davie/Broward demographic data)
+(none yet — populate via ingest of barbershop-industry trade reports + multi-location-operator case studies + the operator's local-market demographic data)

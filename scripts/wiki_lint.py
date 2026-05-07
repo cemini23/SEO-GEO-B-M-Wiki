@@ -23,6 +23,10 @@ from collections import defaultdict
 parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 parser.add_argument("--verify-age-days", type=int, default=7,
                     help="Flag [NEEDS VERIFICATION YYYY-MM-DD] tags older than this many days (default: 7)")
+parser.add_argument("--strict", action="store_true",
+                    help="Exit non-zero if any wiki-breaking issues found "
+                         "(bidirectional gaps, dangling links, missing @path mentions, "
+                         "missing frontmatter / type / maturity). For CI use.")
 args = parser.parse_args()
 TODAY = date.today()
 
@@ -264,3 +268,23 @@ if undated_verifications:
         print(f"    - {page}:{line_num}  {snippet}")
     if len(undated_verifications) > 20:
         print(f"    ... and {len(undated_verifications)-20} more")
+
+# -- strict-mode exit code -------------------------------------------------
+# CI uses --strict to fail the build on wiki-breaking signals. Orphans,
+# cited-unread stubs, and stale NEEDS VERIFICATION tags are NOT counted —
+# they're research / drift signals, not breakage.
+if args.strict:
+    breaking = (
+        len(gaps)
+        + len(dangling)
+        + len(missing_mentions)
+        + len(no_frontmatter)
+        + len(no_type)
+        + len(no_maturity)
+    )
+    print()
+    if breaking > 0:
+        print(f"--strict: {breaking} wiki-breaking issue(s) found — failing.")
+        sys.exit(1)
+    print("--strict: no wiki-breaking issues — passing.")
+    sys.exit(0)

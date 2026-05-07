@@ -6,6 +6,7 @@ keywords: [content strategy, blog, FAQ, local content, voice search, AI citation
 related:
   - concepts/website-essentials-local-business.md
   - concepts/generative-engine-optimization.md
+  - concepts/on-page-seo-local.md
   - entities/tools/marketingskills.md
   - entities/tools/seomachine.md
   - sources/aggarwal-2024-geo-paper.md
@@ -18,6 +19,7 @@ updated: 2026-05-07
 
 - @concepts/website-essentials-local-business.md
 - @concepts/generative-engine-optimization.md
+- @concepts/on-page-seo-local.md
 - @entities/tools/marketingskills.md
 - @entities/tools/seomachine.md
 - @sources/aggarwal-2024-geo-paper.md
@@ -32,10 +34,10 @@ A barbershop website is conversion-first; content marketing is secondary. But ta
 
 Content categories that work for barbershops:
 
-1. **FAQ pages / sections** — direct answers to common pre-visit questions. "What's the difference between a fade and a taper?" "How long does a haircut take?" "Do I need an appointment?" "How much should I tip a barber in Davie FL?" Each Q is a separate H2 with a 50-150-word answer below. Wrap in `FAQPage` schema (see @concepts/schema-markup-local.md).
+1. **FAQ pages / sections** — direct answers to common pre-visit questions. "What's the difference between a fade and a taper?" "How long does a haircut take?" "Do I need an appointment?" "How much should I tip a barber?" Each Q is a separate H2 with a 50-150-word answer below. Wrap in `FAQPage` schema (see @concepts/schema-markup-local.md).
 2. **Style guides / inspiration** — "10 fade variations explained with photos." Visual + educational; Pinterest-friendly.
 3. **Maintenance / care content** — "How to keep your fade looking fresh between cuts." Builds trust + shows expertise.
-4. **Local content** — "Best post-cut food spots in Davie." Local-relevance signal + neighborhood backlinking opportunity.
+4. **Local content** — "Best post-cut food spots in [CITY]." Local-relevance signal + neighborhood backlinking opportunity.
 5. **Team / barber spotlights** — bios, specialties, IG handles. E-E-A-T signal.
 6. **Before/after gallery posts** — same content as IG, optimized for the website's image + alt-text + schema.
 

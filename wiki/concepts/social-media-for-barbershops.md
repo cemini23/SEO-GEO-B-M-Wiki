@@ -40,7 +40,7 @@ Barbershops are one of a small set of B&M categories where **Instagram is essent
 | YouTube Shorts | Long-tail discovery | Medium | Reels/TikTok content can be cross-posted; YouTube SEO is a separate game |
 | Google Business Profile (Posts) | Direct funnel | Medium | Not "social media" in the conventional sense, but a posting surface — see @concepts/google-business-profile.md |
 
-X (Twitter), LinkedIn, Pinterest: low priority for barbershops in most markets. `[NEEDS VERIFICATION 2026-05-07]` for the Davie market specifically.
+X (Twitter), LinkedIn, Pinterest: low priority for barbershops in most markets. `[NEEDS VERIFICATION 2026-05-07]` for the operator's specific market.
 
 ### Content categories that work in this vertical
 
@@ -49,7 +49,7 @@ X (Twitter), LinkedIn, Pinterest: low priority for barbershops in most markets. 
 3. **Style tutorials / tips** — "how to keep your fade looking fresh between cuts," "beard maintenance at home." Educational content has long-tail discovery and feeds GEO/AEO citations (see @concepts/generative-engine-optimization.md).
 4. **Team / personality content** — barber bios, "day in the shop," team banter. Builds the relationship that moves a one-time visit into repeat-customer territory.
 5. **Customer testimonials** — short video reviews from happy customers (with permission). Higher trust than text reviews because the reviewer is visible.
-6. **Local content** — "best spots for a coffee after your cut in Davie," local sports reactions, charity / community involvement. Local content lifts both social engagement and local SEO ranking signals via increased branded-search and engagement-with-local-content.
+6. **Local content** — "best spots for a coffee after your cut in [CITY]," local sports reactions, charity / community involvement. Local content lifts both social engagement and local SEO ranking signals via increased branded-search and engagement-with-local-content.
 7. **Booking-prompt content** — "limited slots Saturday, book via the link in bio." Use sparingly (every 4th-5th post max); too much hard-sell suppresses reach.
 
 ### Posting cadence
@@ -69,7 +69,7 @@ A two-shop operator should consider whether each shop has its own IG/TikTok acco
 
 A common-but-load-bearing question: how many hashtags, which ones?
 
-- Mix of **broad-industry** (#barbershop, #fade, #barber) and **local-specific** (#daviefl, #davieflorida, #browardcounty, #southflorida, #fortlauderdalebarber)
+- Mix of **broad-industry** (#barbershop, #fade, #barber) and **local-specific** (#[city][st], #[city][full-state], #[county]county, #[region], #[nearby-major-city]barber)
 - 5-10 hashtags per post is the conventional 2024-2026 range `[NEEDS VERIFICATION 2026-05-07]`; older "30 hashtags" advice is dated
 - TikTok hashtag strategy is different from Instagram — fewer, more specific, more trend-driven
 
@@ -85,7 +85,7 @@ A common-but-load-bearing question: how many hashtags, which ones?
 - **Don't post identical content across all platforms** — each platform's algorithm penalizes obvious cross-posting (especially TikTok if it detects the watermark of an Instagram Reel). Re-edit the same source clip per platform.
 - **Don't buy followers** — Instagram and TikTok both filter inflated counts down over time, and the engagement ratio gets worse.
 - **Don't auto-DM new followers** — high-friction and feels spammy.
-- **Don't chase virality at the cost of local relevance** — a TikTok that goes viral with users in another country drives no chair-bookings in Davie.
+- **Don't chase virality at the cost of local relevance** — a TikTok that goes viral with users in another country drives no chair-bookings in the operator's city.
 
 ## Snippets
 

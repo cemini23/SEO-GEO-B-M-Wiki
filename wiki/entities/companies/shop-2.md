@@ -2,10 +2,10 @@
 title: Shop 2 — Operator's Second Barbershop (PLACEHOLDER)
 type: entity
 tags: [company, barbershop, operator-shop, placeholder]
-keywords: [shop 2, davie, operator, barbershop, placeholder]
+keywords: [shop 2, operator, barbershop, placeholder]
 related:
   - concepts/barbershop-marketing-fundamentals.md
-  - entities/markets/davie-florida.md
+  - entities/markets/local-market-template.md
   - entities/companies/shop-1.md
 maturity: draft
 created: 2026-05-07
@@ -15,7 +15,7 @@ updated: 2026-05-07
 ## Relations
 
 - @concepts/barbershop-marketing-fundamentals.md
-- @entities/markets/davie-florida.md
+- @entities/markets/local-market-template.md
 - @entities/companies/shop-1.md
 
 ## Raw Concept

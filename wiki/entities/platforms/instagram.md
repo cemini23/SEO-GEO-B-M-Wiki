@@ -62,7 +62,7 @@ What's *less* important than commonly believed:
 For a two-shop operator: Instagram does not natively support multi-location business profiles like GBP does. Options:
 
 1. **Single brand account** + per-location detail in posts/Stories. Easier to grow; less location-specific.
-2. **Per-shop accounts** (e.g. `@shopname.davie.east`, `@shopname.davie.west`). More authentic for each neighborhood; double the work; harder to grow.
+2. **Per-shop accounts** (e.g. `@shopname.<neighborhood-1>`, `@shopname.<neighborhood-2>`). More authentic for each neighborhood; double the work; harder to grow.
 3. **Brand + per-shop accounts simultaneously**. Most expensive in time; sometimes worthwhile for franchises.
 
 See @concepts/social-media-for-barbershops.md for the recommendation framework.
@@ -83,7 +83,7 @@ The link-in-bio destination is the alternative funnel — typically a Linktree /
 ### Policy + ToS
 
 - **Branded content**: paid promotion needs disclosure
-- **Before/after with minors**: requires parental consent; some markets have stricter rules (`[NEEDS VERIFICATION 2026-05-07]` for Florida specifics)
+- **Before/after with minors**: requires parental consent; some US states + non-US markets have stricter rules (`[NEEDS VERIFICATION 2026-05-07]` for the operator's specific jurisdiction)
 - **DM auto-replies**: bots that auto-DM are forbidden; native auto-reply for "out of hours" is fine
 - **Buying followers**: forbidden; Meta filters out fake follows over time
 

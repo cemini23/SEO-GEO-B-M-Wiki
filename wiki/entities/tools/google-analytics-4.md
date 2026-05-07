@@ -22,7 +22,7 @@ Stub entity page for Google Analytics 4 — Google's free website-analytics plat
 
 GA4 is event-based (every interaction is an event), unlike Universal Analytics's session-based model. For a barbershop website, the load-bearing setup is: (a) book / call / direction-click / message events configured as conversions, (b) traffic-source attribution (so the operator can see what share of bookings came from organic vs IG vs paid), (c) per-page conversion-rate to spot under-performing location pages.
 
-Privacy / consent requirements: GA4 with default settings collects data that may require a cookie banner for compliance with state privacy laws (Florida's pending consumer-data law `[NEEDS VERIFICATION 2026-05-07]`). Server-side / consent-mode setup is more complex than legacy Analytics.
+Privacy / consent requirements: GA4 with default settings collects data that may require a cookie banner for compliance with state / regional privacy laws (CCPA, CPRA, GDPR, plus the growing patchwork of US state consumer-data laws — `[NEEDS VERIFICATION 2026-05-07]` for the operator's specific jurisdiction). Server-side / consent-mode setup is more complex than legacy Analytics.
 
 GA4 is for the **website**. GBP traffic is a separate analytics surface; phone calls from GBP need call-tracking integration (CallRail, Marchex, or platform-native) to attribute correctly.
 

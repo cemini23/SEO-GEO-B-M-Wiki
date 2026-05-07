@@ -4,7 +4,7 @@ This file is the **schema**: it tells you (the LLM) how to operate this workspac
 
 ## Purpose
 
-Local knowledge hub for **SEO, local search (geographic SEO), Generative Engine Optimization (GEO/AEO), web design, and social media** — scoped to the operator of two barbershops in Davie, Florida.
+Local knowledge hub for **SEO, local search (geographic SEO), Generative Engine Optimization (GEO/AEO), web design, and social media** — scoped to brick-and-mortar operators (single- or multi-location) who need to rank in local search, be cited correctly by AI engines, and run their owned + earned digital surfaces. The wiki uses a barbershop running example throughout because that's the seed domain it was built from, but the principles, tools, and playbooks generalize to any local service business — restaurants, dental clinics, auto shops, salons, gyms, retail.
 
 The wiki is a librarian that **manages, curates, and applies** that knowledge:
 
@@ -20,8 +20,8 @@ This is a laptop-only workspace. No remote servers, no team distribution. Everyt
 
 This domain has a vocabulary collision. **Both meanings are in scope** for this wiki:
 
-- **Geographic SEO** — ranking for location-bound queries ("barbershop near me", "fade haircut Davie FL"). The classical local-search discipline: Google Business Profile, NAP consistency, citations, the local pack / map pack, reviews, geo-targeted on-page content.
-- **Generative Engine Optimization (GEO) / Answer Engine Optimization (AEO)** — getting cited and accurately represented in answers from ChatGPT, Claude, Perplexity, Google AI Overviews, Gemini. A 2024+ discipline; rapidly mattering for "best barber in Davie" type queries that increasingly resolve in AI surfaces before users click anywhere.
+- **Geographic SEO** — ranking for location-bound queries ("barbershop near me", "fade haircut [city] [st]"). The classical local-search discipline: Google Business Profile, NAP consistency, citations, the local pack / map pack, reviews, geo-targeted on-page content.
+- **Generative Engine Optimization (GEO) / Answer Engine Optimization (AEO)** — getting cited and accurately represented in answers from ChatGPT, Claude, Perplexity, Google AI Overviews, Gemini. A 2024+ discipline; rapidly mattering for "best [category] in [city]" type queries that increasingly resolve in AI surfaces before users click anywhere.
 
 When the wiki refers to "GEO" without qualifier, default to **geographic SEO** unless context makes the AI-engine variant clear. Tag pages with `geo-search` vs `geo-aeo` to disambiguate.
 
@@ -70,7 +70,7 @@ SEO:GEO B&M Business/
   .claude/                          # Claude Code per-project state (gitignored)
 ```
 
-Pages can be nested inside `entities/` when `Domain > Topic > Subtopic` hierarchy is warranted (e.g. `entities/platforms/google-business-profile.md`, `entities/tools/local-falcon.md`, `entities/markets/davie-florida.md`, `entities/companies/<shop-slug>.md`). `concepts/` and `sources/` are flat by convention.
+Pages can be nested inside `entities/` when `Domain > Topic > Subtopic` hierarchy is warranted (e.g. `entities/platforms/google-business-profile.md`, `entities/tools/local-falcon.md`, `entities/markets/<operator-city-state>.md` — fork from `entities/markets/local-market-template.md`, `entities/companies/<shop-slug>.md`). `concepts/` and `sources/` are flat by convention.
 
 ## Wiki page format
 
@@ -109,7 +109,7 @@ updated: 2026-05-06
 ### Page-type quick reference
 
 - **Source page** (`wiki/sources/<slug>.md`) — one per ingested source. Raw Concept fields: title / author / type / location / retrieved / pages / read-status (skimmed | read | deep-read | unread-stub).
-- **Entity page** (`wiki/entities/<category>/<slug>.md`) — platforms (GBP, Yelp, Instagram, TikTok, Facebook, Apple Business Connect, Bing Places), tools (GSC, GA4, BrightLocal, Local Falcon, Semrush, Ahrefs, Moz, Whitespark, schema generators, WordPress plugins), markets (Davie FL, Broward County, surrounding cities), companies (the operator's two shops + competitors). Raw Concept: what prompted the page + which sources synthesize into it.
+- **Entity page** (`wiki/entities/<category>/<slug>.md`) — platforms (GBP, Yelp, Instagram, TikTok, Facebook, Apple Business Connect, Bing Places), tools (GSC, GA4, BrightLocal, Local Falcon, Semrush, Ahrefs, Moz, Whitespark, schema generators, WordPress plugins), markets (operator's city, county, surrounding cities — fillable from `entities/markets/local-market-template.md`), companies (the operator's location(s) + competitors). Raw Concept: what prompted the page + which sources synthesize into it.
 - **Concept page** (`wiki/concepts/<slug>.md`) — local-SEO foundations (NAP, citations, local pack), GBP optimization, reviews + reputation, schema markup, on-page SEO for local, geographic targeting, GEO/AEO (generative-engine optimization), social-media playbooks, website essentials, content strategy, competitor analysis, barbershop-industry marketing patterns. Raw Concept: the question or topic the page answers.
 - **Brief page** (`briefs/<YYYY-MM-DD>_<slug>.md`) — deliverable. Body sections: `## Target` (claude.ai | Claude Desktop | hands-on) / `## Summary` / `## Body` / `## Sources`. Examples: a review-response template pack, an Instagram caption batch, a GBP-post calendar, a service-page rewrite, a competitor SERP analysis.
 

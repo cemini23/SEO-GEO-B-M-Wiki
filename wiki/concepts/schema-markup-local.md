@@ -8,6 +8,7 @@ related:
   - concepts/website-essentials-local-business.md
   - concepts/google-business-profile.md
   - concepts/generative-engine-optimization.md
+  - concepts/on-page-seo-local.md
   - entities/tools/yoast-seo.md
   - entities/tools/geo-seo-claude.md
   - sources/aggarwal-2024-geo-paper.md
@@ -22,6 +23,7 @@ updated: 2026-05-07
 - @concepts/website-essentials-local-business.md
 - @concepts/google-business-profile.md
 - @concepts/generative-engine-optimization.md
+- @concepts/on-page-seo-local.md
 - @entities/tools/yoast-seo.md
 - @entities/tools/geo-seo-claude.md
 - @sources/aggarwal-2024-geo-paper.md
@@ -48,11 +50,11 @@ Schema.org is the shared vocabulary for structured data on the web — a way to 
 | Schema type | Where it lives | Why it matters |
 |-------------|---------------|----------------|
 | `BarberShop` (extends `LocalBusiness`) | Homepage + each per-location page | Defines the entity itself: name, address, hours, phone, geo |
-| `Service` | Each service-detail page (or as `hasOfferCatalog` on the LocalBusiness) | Defines what's offered + price; AI-engine-friendly for "haircut prices Davie" type queries |
+| `Service` | Each service-detail page (or as `hasOfferCatalog` on the LocalBusiness) | Defines what's offered + price; AI-engine-friendly for "haircut prices [city]" type queries |
 | `FAQPage` | Any page with FAQ content | Surfaces in SERP as expandable accordion; preferentially cited by AI engines per Aggarwal 2024 |
 | `BreadcrumbList` | Every page (auto-generated) | Site navigation in SERP; helps Google understand site structure |
 | `WebSite` + `SearchAction` | Homepage only | Enables sitelinks search box in SERP |
-| `Person` | Per-barber bio pages (if any) | E-E-A-T signal; AI engines name the barber when answering "who's the best fade specialist in Davie" |
+| `Person` | Per-barber bio pages (if any) | E-E-A-T signal; AI engines name the barber when answering "who's the best fade specialist in [city]" |
 | `Review` / `aggregateRating` | ONLY if displaying real on-page reviews | Surfaces star count in SERP — but **never fake these**; structured-data spam violation gets manual penalty |
 
 ### The full BarberShop JSON-LD template
@@ -64,28 +66,28 @@ Drop this in the `<head>` of each per-location page (homepage if single location
 {
   "@context": "https://schema.org",
   "@type": "BarberShop",
-  "@id": "https://YOURSHOP.COM/locations/davie/#barbershop",
+  "@id": "https://YOURSHOP.COM/locations/CITY-SLUG/#barbershop",
   "name": "SHOP NAME",
   "image": [
     "https://YOURSHOP.COM/images/storefront-1x1.jpg",
     "https://YOURSHOP.COM/images/storefront-4x3.jpg",
     "https://YOURSHOP.COM/images/storefront-16x9.jpg"
   ],
-  "url": "https://YOURSHOP.COM/locations/davie/",
-  "telephone": "+1-954-XXX-XXXX",
+  "url": "https://YOURSHOP.COM/locations/CITY-SLUG/",
+  "telephone": "+1-555-XXX-XXXX",
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "STREET ADDRESS",
-    "addressLocality": "Davie",
-    "addressRegion": "FL",
-    "postalCode": "33324",
+    "addressLocality": "CITY",
+    "addressRegion": "ST",
+    "postalCode": "ZIP",
     "addressCountry": "US"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 26.0628,
-    "longitude": -80.2331
+    "latitude": 0.0000,
+    "longitude": 0.0000
   },
   "openingHoursSpecification": [
     {
@@ -180,13 +182,13 @@ Drop this in the `<head>` of each per-location page (homepage if single location
 
 **Critical fields explained**:
 
-- `@id` — stable canonical URI for the entity. Use `https://yourshop.com/locations/davie/#barbershop` form (page URL + fragment). Required so Google can de-duplicate the same entity across pages.
+- `@id` — stable canonical URI for the entity. Use `https://yourshop.com/locations/CITY-SLUG/#barbershop` form (page URL + fragment). Required so Google can de-duplicate the same entity across pages.
 - `image` — supply 1:1, 4:3, and 16:9 ratio versions of the storefront photo. Google Rich Results expects the array.
-- `priceRange` — use `$` / `$$` / `$$$` (dollar signs, not numeric). For Davie barbershop, `$$` is appropriate (~$30-50 cuts).
-- `geo.latitude` / `geo.longitude` — Davie center is roughly `26.0628 / -80.2331`; replace with shop-exact coordinates from Google Maps "right-click → What's here?"
+- `priceRange` — use `$` / `$$` / `$$$` (dollar signs, not numeric). For a typical barbershop in a mid-priced market, `$$` is appropriate (~$30-50 cuts); adjust to `$` or `$$$` based on the operator's actual price points.
+- `geo.latitude` / `geo.longitude` — replace with shop-exact coordinates from Google Maps "right-click → What's here?" (down to 4 decimal places is enough — that's ~10m precision).
 - `openingHoursSpecification` — use 24-hour format strings. Closed days are simply omitted.
 - `sameAs` — array of canonical URLs to the same entity on other platforms. Critical for entity disambiguation. The GBP `sameAs` URL uses the Google Place ID format; obtain Place ID from [Google's Place ID finder tool](https://developers.google.com/maps/documentation/places/web-service/place-id).
-- `hasOfferCatalog` — service menu. Each `Offer` wraps a `Service` with explicit `price` + `priceCurrency`. AI engines extract these for "barbershop prices in Davie" queries.
+- `hasOfferCatalog` — service menu. Each `Offer` wraps a `Service` with explicit `price` + `priceCurrency`. AI engines extract these for "barbershop prices in [city]" queries.
 
 ### FAQPage schema (paste on the FAQ page)
 
@@ -201,7 +203,7 @@ Drop this in the `<head>` of each per-location page (homepage if single location
       "name": "Do I need an appointment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We accept walk-ins and appointments. Walk-ins are first-come-first-served; Saturdays usually have wait times of 30–60 minutes. Appointments can be booked at YOURSHOP.COM/book or by calling 954-XXX-XXXX."
+        "text": "We accept walk-ins and appointments. Walk-ins are first-come-first-served; Saturdays usually have wait times of 30–60 minutes. Appointments can be booked at YOURSHOP.COM/book or by calling 555-XXX-XXXX."
       }
     },
     {
@@ -245,7 +247,7 @@ Drop this in the `<head>` of each per-location page (homepage if single location
 
 ### Multi-location pattern (Shop 1 + Shop 2)
 
-If both shops share one website domain (e.g., `yourshop.com/locations/davie-east/` + `yourshop.com/locations/davie-west/`):
+If both shops share one website domain (e.g., `yourshop.com/locations/[city]-east/` + `yourshop.com/locations/[city]-west/`):
 
 - Each location page gets its own `BarberShop` block with that location's `@id`, address, geo, hours
 - Homepage adds an `Organization` schema referring to both locations:
@@ -264,8 +266,8 @@ If both shops share one website domain (e.g., `yourshop.com/locations/davie-east
     "https://www.facebook.com/YOURPAGE"
   ],
   "subOrganization": [
-    { "@id": "https://yourshop.com/locations/davie-east/#barbershop" },
-    { "@id": "https://yourshop.com/locations/davie-west/#barbershop" }
+    { "@id": "https://yourshop.com/locations/CITY-EAST/#barbershop" },
+    { "@id": "https://yourshop.com/locations/CITY-WEST/#barbershop" }
   ]
 }
 </script>

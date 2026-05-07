@@ -32,7 +32,7 @@ updated: 2026-05-07
 
 ## Raw Concept
 
-Concept hub for the 2024-emerging discipline of **getting cited correctly in AI-engine answers** — Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini, Copilot. For a local barbershop in 2026, this is no longer a niche concern: an increasing share of "best barber in Davie" / "barbershop near me that does fades" / "what should I expect at a fade haircut" queries resolve in an AI surface *before* the user clicks anywhere. Sources will be ingested progressively. This page frames the SHAPE of the discipline, with `[NEEDS VERIFICATION 2026-05-07]` tags throughout because this field moves fast.
+Concept hub for the 2024-emerging discipline of **getting cited correctly in AI-engine answers** — Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini, Copilot. For a local brick-and-mortar business in 2026, this is no longer a niche concern: an increasing share of "best barber near me" / "barbershop near me that does fades" / "what should I expect at a fade haircut" queries resolve in an AI surface *before* the user clicks anywhere. Sources will be ingested progressively. This page frames the SHAPE of the discipline, with `[NEEDS VERIFICATION 2026-05-07]` tags throughout because this field moves fast.
 
 ## Narrative
 
@@ -40,7 +40,7 @@ Concept hub for the 2024-emerging discipline of **getting cited correctly in AI-
 
 ### What GEO/AEO is, in 2026
 
-When a user asks an AI engine — "best barbershop in Davie FL," "where can I get a hot towel shave near me," "is [shop name] any good" — the engine assembles an answer from:
+When a user asks an AI engine — "best barbershop in [CITY, ST]," "where can I get a hot towel shave near me," "is [shop name] any good" — the engine assembles an answer from:
 
 1. **Search results it pulls** (most engines now do live retrieval — Google's AI Overviews, Perplexity, ChatGPT browsing, Claude with web tools, Gemini)
 2. **Training data** (less relevant for time-sensitive queries; mostly relevant for evergreen "what is a fade" type Q's)
@@ -82,7 +82,7 @@ The paper also validates several intuitions: **keyword stuffing actively hurts**
 - **Mention density across independent sources** — being listed in Yelp, Bing Places, Apple Business Connect, Yellow Pages, Foursquare, Yext partners, niche local directories. The same NAP across many surfaces gives engines high-confidence entity resolution. See @concepts/citation-building.md.
 - **Reviews with real review text** — review text is parsed; aggregate sentiment + frequent themes ("great fades," "fast service," "kid-friendly") become summary phrases the engine attributes to the business. `[TENTATIVE]` for direct citation in 2026; `[CONFIRMED]` for sentiment-summary surfacing.
 - **Wikipedia mention** — disproportionate weight for general entity recognition. Most local barbershops don't qualify for Wikipedia. Skip unless the shop has unusual notability.
-- **Reddit / forum mentions** — engines (especially ChatGPT, Perplexity) lean on Reddit for "what's the best X near Y" answers. Organic mentions in `r/Davie`, `r/Broward`, `r/SouthFlorida`, `r/Barber` etc. are valuable; obviously buying them or astroturfing violates platform policy and is detectable.
+- **Reddit / forum mentions** — engines (especially ChatGPT, Perplexity) lean on Reddit for "what's the best X near Y" answers. Organic mentions in city / region / industry subreddits (e.g. `r/<your-city>`, `r/<your-state>`, `r/Barber`) are valuable; obviously buying them or astroturfing violates platform policy and is detectable.
 - **Press / local news** — a feature in a local paper, magazine, or neighborhood blog is high-trust for engines.
 
 ### What's confused / contested (flag and revisit)
@@ -98,10 +98,10 @@ In rough priority order:
 1. Get GBP completeness to 100% (see @concepts/google-business-profile.md). This is the foundation — GBP feeds Google AI Overviews and is referenced by other engines.
 2. Add proper schema markup to the website — `LocalBusiness` / `BarberShop`, `Service`, `FAQPage`. See @concepts/schema-markup-local.md.
 3. Ensure NAP consistency across at least the **top-10 citation sources** for the local market (see @concepts/citation-building.md).
-4. Publish FAQ-format content answering real questions: "what's the difference between a fade and a taper," "do I need an appointment," "how often should I get my hair cut," "what should I tip a barber in Davie FL." See @concepts/content-strategy-local.md.
+4. Publish FAQ-format content answering real questions: "what's the difference between a fade and a taper," "do I need an appointment," "how often should I get my hair cut," "what should I tip a barber." See @concepts/content-strategy-local.md.
 5. Encourage real review text (not just star ratings) — the text is what gets parsed for sentiment summaries.
 6. Pursue legitimate third-party mentions: be in 2-3 high-trust local directories, be mentioned in any local-newsletter / community-blog opportunity that arises.
-7. Periodically *test* citations: query each major engine with the realistic queries a customer would use ("best barbershop in Davie FL," "barber Davie Florida fade," "[shop name] reviews"), capture the answers, note whether the shop is mentioned and whether the mention is accurate. This is the core measurement loop.
+7. Periodically *test* citations: query each major engine with the realistic queries a customer would use ("best barbershop in [CITY, ST]," "barber [city] fade," "[shop name] reviews"), capture the answers, note whether the shop is mentioned and whether the mention is accurate. This is the core measurement loop.
 8. **Apply Aggarwal's top-3 methods** to the homepage + each location page: rewrite for fluency (concise, varied sentences — outsource the polish to a marketing skill like @entities/tools/marketingskills.md if needed), insert relevant statistics (review count, years in business, neighborhood-tenure, customer-volume metrics), add quotations (from real customer reviews — paraphrased as a "what customers say" block — *not* fabricated). For long-form content, the conditional-GO @entities/tools/seomachine.md is the option once content marketing is in scope.
 9. **Run citability audits with @entities/tools/geo-seo-claude.md**: this Claude Code skill specifically scores a URL's GEO-readiness (citability scoring, schema validation, AI-crawler accessibility). Treat the score as heuristic — the ground truth is the actual citation behavior of each engine — but the audits flag concrete gaps to fix.
 

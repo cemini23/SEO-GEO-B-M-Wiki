@@ -24,9 +24,9 @@ Stub entity page for Local Falcon — a leading grid-based local-pack rank track
 
 ## Narrative
 
-The core insight Local Falcon embodies: a single rank check ("we're #2 for `barbershop davie`") is misleading because the local pack is location-dependent — the same query returns different results from different lat/long origins, even within the same city. Local Falcon runs the query from a configurable grid (3×3, 5×5, 7×7, 9×9, etc., centered on the business) and produces a heatmap showing where the listing dominates and where competitors do.
+The core insight Local Falcon embodies: a single rank check ("we're #2 for `[category] [city]`") is misleading because the local pack is location-dependent — the same query returns different results from different lat/long origins, even within the same city. Local Falcon runs the query from a configurable grid (3×3, 5×5, 7×7, 9×9, etc., centered on the business) and produces a heatmap showing where the listing dominates and where competitors do.
 
-For a two-shop operator in Davie, this is especially useful: each shop's individual catchment can be visualized and overlaps mapped. Local Falcon also reports change-over-time (which grid points improved or worsened week-over-week).
+For a multi-location operator, this is especially useful: each location's individual catchment can be visualized and overlaps mapped. Local Falcon also reports change-over-time (which grid points improved or worsened week-over-week).
 
 Pricing model is per-scan (`[NEEDS VERIFICATION 2026-05-07]` for current rates). Phase-0 audit notes: scrape-vs-API method matters for data freshness; Local Falcon historically performs live searches per scan rather than caching.
 

@@ -50,9 +50,9 @@ First content-bearing ingest. Three documents arrived in `research to be indexed
 
 ---
 
-## [2026-05-07] scaffold | initial wiki seeded for Davie barbershop operator
+## [2026-05-07] scaffold | initial wiki seeded for local brick-and-mortar barbershop operator
 
-HEAVY-mode wiki scaffolding for friend's two-shop barbershop business in Davie, FL. Workspace at `~/Desktop/projects/SEO:GEO B&M Business/`. Modeled on OSINT-workspace + 3D-printing-wiki precedents.
+HEAVY-mode wiki scaffolding for a brick-and-mortar local-services SEO/GEO knowledge hub (seed domain: a two-shop barbershop business). Modeled on OSINT-workspace + 3D-printing-wiki precedents. Designed to generalize across local-service categories (restaurants, dental, auto, salons, gyms, retail) — the barbershop examples are illustrative, not scope-limiting.
 
 **Top-level files**:
 - `CLAUDE.md` — schema (folder layout, page format, ingest/query/lint operations, MCP tools, distribution rules, hard policy boundaries, Phase-0 audit pattern, session-start ritual)
@@ -86,7 +86,7 @@ HEAVY-mode wiki scaffolding for friend's two-shop barbershop business in Davie, 
 
 **Entity stubs**:
 - `entities/companies/shop-1.md` + `shop-2.md` — operator-fillable placeholders; shop-2 has "Relationship to Shop 1" section
-- `entities/markets/davie-florida.md` — Davie/Broward context, adjacent cities, cultural notes
+- `entities/markets/local-market-template.md` — fillable template for the operator's market: city/county context, adjacent municipalities, cultural notes, citation directories
 - `entities/platforms/{google-business-profile,instagram,yelp,tiktok,facebook,apple-business-connect,bing-places}.md` — 7 platform entities
 - `entities/tools/{google-search-console,google-analytics-4,local-falcon,semrush,ahrefs,brightlocal}.md` — 6 tool entities
 

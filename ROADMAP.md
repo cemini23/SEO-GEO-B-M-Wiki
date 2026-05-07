@@ -25,7 +25,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 **Seed wiki coverage (Tier 1, hubs)**:
 - Local SEO foundations + Google Business Profile + reviews + website essentials + social media + GEO/AEO + barbershop-marketing + near-me search — 8 concept hubs
-- GBP + Instagram + Davie FL market + 2 operator-shop placeholder entities — 4 entity hubs
+- GBP + Instagram + local-market-template + 2 operator-shop placeholder entities — 4 entity hubs
 
 **Seed wiki coverage (Tier 2, stubs)**:
 - Platform stubs: Yelp, TikTok, Facebook, Apple Business Connect, Bing Places
@@ -34,7 +34,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 **Scope still to populate (subsequent ingest passes — once operator drops sources):**
 - Operator's two shops — replace placeholder entity pages with real names, addresses, GBP URLs, current website URLs, current social handles, current review counts
-- Davie market deep-dive — real competitor list (5-10 nearby barbershops), local citation directories worth pursuing, Davie/Broward demographic context
+- Local-market deep-dive — fork `entities/markets/local-market-template.md` to a market-specific page filled with the operator's city/county data: real competitor list (5-10 nearby businesses in same category), local citation directories worth pursuing, demographic context
 - Whichever specific topics the operator's source drops emphasize — could be heavy on schema/JSON-LD, heavy on Instagram Reels, heavy on review acquisition, heavy on website rebuild — direction follows the operator's actual research priorities
 
 ---
@@ -69,7 +69,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 **Higher priority — once operator drops first sources:**
 
 - Replace operator-shop placeholder entity pages with real shop names, addresses, websites, GBP URLs, review URLs (Yelp / Google / Facebook), Instagram handles
-- Pull current state of each shop: live competitor list (Davie SERP for "barbershop", "fade haircut", "men's haircut Davie"), current review counts + ratings + recent review themes, GBP completeness audit, website-essentials audit
+- Pull current state of each shop: live competitor list (local SERP for the operator's primary queries — "[category]", "[primary-service]", "[primary-service] [city]"), current review counts + ratings + recent review themes, GBP completeness audit, website-essentials audit
 - Pick first ingest cluster from operator's drop. Likely candidates given typical priorities: GBP optimization deep-dive, review acquisition + response playbook, schema markup for `BarberShop`, Instagram Reels strategy, local-pack ranking factors current-as-of-2026
 - **GEO playbook brief** — once shop data is in place: a brief that applies Aggarwal's top-3 methods (Quotation, Statistics, Fluency) to each shop's homepage + location pages with concrete copy suggestions. Currently blocked on shop data + website state.
 - **Citability baseline brief** — once Claude Code is installed, run `geo-seo-claude` against the shop's current website + each location page; capture the baseline scores; use as the before/after measurement for the GEO playbook work. Blocked on operator installing Claude Code.

@@ -48,8 +48,8 @@ For a barbershop, **the majority of high-intent customer-acquisition traffic com
 
 Two implications:
 
-1. **Optimizing for `barbershop davie fl` is necessary but not sufficient**. The query in the user's head is rarely typed in full; Google fills in "davie fl" from device location. The optimization target is therefore the *implicit* version: rank when a user in Davie searches `barbershop` with no city qualifier.
-2. **Distance from the user's current location is one of the dominant ranking factors**. The local pack changes block-by-block. A user standing on University Drive sees a different 3-pack than a user at I-595 / Pine Island Road, even though both are "in Davie." This means **rank tracking must be grid-based** (sample multiple lat/long points across the service area), not single-point. Tools like Local Falcon explicitly target this; see @entities/platforms/google-business-profile.md and tool entity pages once written.
+1. **Optimizing for `barbershop [city] [st]` is necessary but not sufficient**. The query in the user's head is rarely typed in full; Google fills in "[city] [st]" from device location. The optimization target is therefore the *implicit* version: rank when a user in the operator's city searches `barbershop` with no city qualifier.
+2. **Distance from the user's current location is one of the dominant ranking factors**. The local pack changes block-by-block. A user on one major arterial sees a different 3-pack than a user a couple miles away on a different arterial, even though both are "in the same city." This means **rank tracking must be grid-based** (sample multiple lat/long points across the service area), not single-point. Tools like Local Falcon explicitly target this; see @entities/platforms/google-business-profile.md and tool entity pages once written.
 
 ### The three Google ranking signals for local
 

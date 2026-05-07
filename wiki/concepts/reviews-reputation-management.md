@@ -7,6 +7,7 @@ related:
   - concepts/local-seo-foundations.md
   - concepts/google-business-profile.md
   - concepts/review-response-templates.md
+  - concepts/citation-building.md
   - entities/platforms/google-business-profile.md
   - entities/platforms/yelp.md
   - entities/platforms/facebook.md
@@ -21,6 +22,7 @@ updated: 2026-05-07
 - @concepts/local-seo-foundations.md
 - @concepts/google-business-profile.md
 - @concepts/review-response-templates.md
+- @concepts/citation-building.md
 - @entities/platforms/google-business-profile.md
 - @entities/platforms/yelp.md
 - @entities/platforms/facebook.md

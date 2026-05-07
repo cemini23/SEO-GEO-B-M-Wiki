@@ -43,9 +43,9 @@ Marketing Skills is a curated set of marketing-framework prompts/skills designed
 
 ### How it helps the operator
 
-For a Davie barbershop, this means:
+For a local brick-and-mortar (the running barbershop example used throughout this wiki), this means:
 
-1. **One-time setup**: define the `product-marketing-context` file with the shop's positioning (Davie barbershop, Hispanic+Caribbean cultural fluency, fade-specialty, two-shop network, etc.), audience (working professionals + university students at NSU + traditional barbershop regulars), differentiators, and brand voice. This becomes the substrate for every subsequent skill invocation.
+1. **One-time setup**: define the `product-marketing-context` file with the shop's positioning (city/neighborhood, cultural/language fluencies, specialty services, single-vs-multi-location network, etc.), audience (the shop's actual demographic mix — working professionals, students at any nearby university, traditional regulars), differentiators, and brand voice. This becomes the substrate for every subsequent skill invocation.
 2. **Recurring use**: tasks like "draft an Instagram caption for this fade photo," "write a 3-touch email reactivation sequence for lapsed customers," "respond to this Google review using PAS framework" — Claude Code consults the context file first, applies the named framework, and produces output that's on-brand and on-message rather than generic.
 
 ### Frameworks included (representative — verify against current repo)

@@ -65,7 +65,7 @@ Every review falls into one of five buckets. Each has a different template + dif
 
 **Inbound**:
 
-> "Best barber in Davie!"  
+> "Best barber in town!"  
 > — ★★★★★, Anonymous, Google
 
 **Response template**:

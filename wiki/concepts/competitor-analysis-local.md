@@ -26,7 +26,7 @@ Stub concept page for the **methodology** of analyzing local competitors — wha
 
 ## Narrative
 
-For a Davie barbershop, "competitors" means: the 5-10 barbershops that consistently appear in the local-pack 3-pack for the operator's target queries (`barbershop davie`, `barbershop near me` from Davie geo, `mens haircut davie`, `fade davie`, `barber broward county`). The list is **derived from the SERP**, not from the operator's intuition about which businesses are competing.
+For a local barbershop, "competitors" means: the 5-10 barbershops that consistently appear in the local-pack 3-pack for the operator's target queries (`barbershop [city]`, `barbershop near me` typed from inside the operator's geo, `mens haircut [city]`, `fade [city]`, `barber [county]`). The list is **derived from the SERP**, not from the operator's intuition about which businesses are competing.
 
 **Capture pass** (one-time + revisit quarterly):
 

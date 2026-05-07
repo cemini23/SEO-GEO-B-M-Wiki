@@ -14,7 +14,7 @@ related:
   - concepts/local-pack-rankings.md
   - concepts/competitor-analysis-local.md
   - entities/platforms/google-business-profile.md
-  - entities/markets/davie-florida.md
+  - entities/markets/local-market-template.md
   - entities/tools/google-search-console.md
   - entities/tools/semrush.md
   - entities/tools/ahrefs.md
@@ -42,7 +42,7 @@ updated: 2026-05-07
 - @concepts/local-pack-rankings.md
 - @concepts/competitor-analysis-local.md
 - @entities/platforms/google-business-profile.md
-- @entities/markets/davie-florida.md
+- @entities/markets/local-market-template.md
 - @entities/tools/google-search-console.md
 - @entities/tools/semrush.md
 - @entities/tools/ahrefs.md
@@ -60,7 +60,7 @@ Hub page for the entire local-SEO domain — the discipline of getting a physica
 
 ## Narrative
 
-**Local SEO** is the discipline of ranking a brick-and-mortar business in geographically-bounded search queries (e.g. `barbershop davie fl`, `barber near me`, `mens haircut 33324`). It overlaps with general SEO but has a parallel track of ranking signals centered on **Google Business Profile (GBP)**, the **local pack / map pack** (the three-listing block above the organic results on geographic queries), and Google Maps itself. See @concepts/google-business-profile.md for the GBP-specific deep-dive and @entities/platforms/google-business-profile.md for the platform entity.
+**Local SEO** is the discipline of ranking a brick-and-mortar business in geographically-bounded search queries (e.g. `[CATEGORY] [CITY]`, `[CATEGORY] near me`, `[CATEGORY] [ZIP]`). It overlaps with general SEO but has a parallel track of ranking signals centered on **Google Business Profile (GBP)**, the **local pack / map pack** (the three-listing block above the organic results on geographic queries), and Google Maps itself. See @concepts/google-business-profile.md for the GBP-specific deep-dive and @entities/platforms/google-business-profile.md for the platform entity.
 
 The classical foundations are:
 
@@ -76,11 +76,11 @@ The classical foundations are:
 
 6. **Behavioral / engagement signals** — clicks, calls, direction-requests, photo views, website visits, "Book" button taps. GBP exposes this in the Performance dashboard. Whether Google uses these as ranking signals (vs only as success metrics) is debated; what's not debated is they're the bottom of the funnel that converts impressions to chair-bookings. See @entities/platforms/google-business-profile.md.
 
-7. **Service-area / location-page coverage** — for a multi-location operator (e.g. two shops in different parts of Davie, or one shop ranking for multiple Broward neighborhoods), this means dedicated location pages on the website with unique content per location, not duplicate-with-city-name-swap pages. See @concepts/on-page-seo-local.md.
+7. **Service-area / location-page coverage** — for a multi-location operator (e.g. two shops in different parts of one city, or one shop ranking for multiple neighborhoods of the surrounding county), this means dedicated location pages on the website with unique content per location, not duplicate-with-city-name-swap pages. See @concepts/on-page-seo-local.md.
 
-The 2024-2026 development that bolts onto local SEO: **Generative Engine Optimization (GEO/AEO)** — getting the business correctly cited in AI-engine answers (ChatGPT, Claude, Perplexity, Google AI Overviews). For "best barber in Davie" type queries, AI surfaces increasingly answer before the user clicks anywhere. The signals overlap with classical local SEO (citations + NAP + reviews) but add: structured-data clarity, content-with-direct-answers format, third-party mention density on the open web. See @concepts/generative-engine-optimization.md.
+The 2024-2026 development that bolts onto local SEO: **Generative Engine Optimization (GEO/AEO)** — getting the business correctly cited in AI-engine answers (ChatGPT, Claude, Perplexity, Google AI Overviews). For "best [category] in [city]" type queries, AI surfaces increasingly answer before the user clicks anywhere. The signals overlap with classical local SEO (citations + NAP + reviews) but add: structured-data clarity, content-with-direct-answers format, third-party mention density on the open web. See @concepts/generative-engine-optimization.md.
 
-The geographic context for this wiki — Davie, Florida — is in @entities/markets/davie-florida.md (currently a stub; populate with operator's local competitor set + nearby-city expansion strategy).
+The operator's specific market context lives in @entities/markets/local-market-template.md (a fillable template; the operator copies and renames to `<your-city>-<your-state>.md` and populates with local competitor set + nearby-city expansion strategy).
 
 ## Snippets
 
