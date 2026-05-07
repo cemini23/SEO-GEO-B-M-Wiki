@@ -60,6 +60,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 | 2026-05-07 | Tier-1 + Tier-2 wiki seeds | 8 concept hubs + 4 entity hubs + ~12 entity stubs + ~6 concept stubs; bidirectional graph established for the operator's first ingest pass to extend |
 | 2026-05-07 | First ingest pass: Aggarwal 2024 GEO paper + 21-repo audit | 9 pages created (3 sources + 5 tool entities + 1 concept), 12 edited (GEO concept enriched, 11 backlinks), index/log updated, raw sources moved to gitignored `raw-sources/`. GEO concept upgraded `draft → validated`. |
 | 2026-05-07 | Adoption brief staged: tool-adoption-handoff | First operator-shippable deliverable: install Claude Code + 4 skills + Yoast (if WP). Resolves the ambiguity about whether audit findings are MCPs (they aren't). |
+| 2026-05-07 | Lint scripts ported (`wiki_lint.py`, `wiki_gap_detect.py`, `preingest_check.py`) + first run + cleanup | Caught 19 bidirectional backlink gaps + 1 dangling link + 2 missing `read_status` fields the manual ingest pass missed. Wiki now passes all 7 lint checks (only intentional off-topic orphan remains). |
 
 ---
 
@@ -70,7 +71,6 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 - Replace operator-shop placeholder entity pages with real shop names, addresses, websites, GBP URLs, review URLs (Yelp / Google / Facebook), Instagram handles
 - Pull current state of each shop: live competitor list (Davie SERP for "barbershop", "fade haircut", "men's haircut Davie"), current review counts + ratings + recent review themes, GBP completeness audit, website-essentials audit
 - Pick first ingest cluster from operator's drop. Likely candidates given typical priorities: GBP optimization deep-dive, review acquisition + response playbook, schema markup for `BarberShop`, Instagram Reels strategy, local-pack ranking factors current-as-of-2026
-- Lint scripts (port `wiki_lint.py` / `preingest_check.py` / `wiki_gap_detect.py` from sister wikis) — domain-agnostic, will work on this wiki out of the box
 - **GEO playbook brief** — once shop data is in place: a brief that applies Aggarwal's top-3 methods (Quotation, Statistics, Fluency) to each shop's homepage + location pages with concrete copy suggestions. Currently blocked on shop data + website state.
 - **Citability baseline brief** — once Claude Code is installed, run `geo-seo-claude` against the shop's current website + each location page; capture the baseline scores; use as the before/after measurement for the GEO playbook work. Blocked on operator installing Claude Code.
 
