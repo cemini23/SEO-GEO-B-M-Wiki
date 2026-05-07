@@ -109,12 +109,23 @@ If a tool you find on GitHub does any of those, the Phase-0 audit will mark it N
 
 ## Companion app: Easy Review
 
-The wiki is a thinking tool — knowledge you read and feed into Claude. **Easy Review** is the human-in-the-loop execution surface for the two highest-volume operator tasks the wiki points you at:
+The wiki is a thinking tool — knowledge you read and feed into Claude. **[Easy Review](https://github.com/cemini23/Easy-Review)** is the operator-facing automation surface that consumes this wiki's review-response framework and applies it at scale. The two repos are designed to be discovered and adopted together.
 
-1. **Review reply drafting** — pulls in 1–5 star reviews, drafts 3 response options per review (Empathetic / Professional / Brief) via Gemini Flash, and presents them in a Tinder-style approve / edit / skip UI optimized for phone + tablet. Every send is operator-approved — no auto-posting, no review gating.
-2. **Customer re-engagement** — ingests a guest CSV (export from Square / Booksy / Vagaro / your CRM), flags "slipping regulars" (last visit >45 days), drafts personalized SMS invites the operator approves before sending. No mass blasts.
+What it does (v0, paste-flow):
 
-Easy Review is a separate Next.js + Supabase + Gemini Flash app developed alongside the wiki, not bundled with it. The wiki tells you *what* to do; Easy Review helps you *do* it while staying within the policy boundaries (no review gating, no fake reviews, no incentivized reviews) that the wiki enforces. See `wiki/entities/tools/easy-review.md` for the full scope + integration notes.
+1. Operator pastes a Google / Yelp / Facebook review into the form
+2. App categorizes against the wiki's 5-category framework (5★-specific / 5★-generic / 4★ / 3★-mixed / 1-2★-complaint / 1★-likely-fake) — see `wiki/concepts/review-response-templates.md`
+3. Gemini 2.0 Flash drafts a reply using the wiki's response templates
+4. Operator edits, regenerates, or approves
+5. Approved reply is committed back to *this wiki repo* as a brief markdown file — the wiki gains a feedback loop of real production replies, the operator gets a tool
+
+v1 will add live Google Business Profile API integration so reviews flow in automatically and replies post directly. v0 stays paste-and-paste so any operator can validate the loop with no GBP write access required.
+
+**Stack:** Next.js 15 · TypeScript · Tailwind 4 · PocketBase · Gemini 2.0 Flash · Octokit. Both repos are intentionally public.
+
+Boundary discipline matches the wiki: no auto-posting, no review gating, no fake reviews. Every Post click is the operator's. The 1★-likely-fake category is never AI-drafted — the operator decides per @concepts/reviews-reputation-management.md guidance.
+
+See `wiki/entities/tools/easy-review.md` for full integration notes.
 
 ## Contributing / forking
 
