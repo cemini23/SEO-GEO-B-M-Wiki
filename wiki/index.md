@@ -48,6 +48,7 @@ Catalog of all wiki pages. Search this first when answering a query. Pages group
 ### Meta / setup
 
 - [claude-platforms](concepts/claude-platforms.md) — Claude Desktop (MCP servers) vs Claude Code (Agent Skills) distinction + install paths for both surfaces
+- [obsidian-navigation](concepts/obsidian-navigation.md) — operator's guide to reading the wiki in Obsidian (vault setup, recommended plugins, search/tags/graph workflow)
 
 ## Entities
 
