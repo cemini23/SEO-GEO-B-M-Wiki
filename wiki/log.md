@@ -10,6 +10,20 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-08] add | easy-review companion app entity page + README mention
+
+Easy Review is being built in a parallel Claude Code session — a Next.js 15 + TypeScript + Tailwind + Supabase + Gemini Flash micro-app for review-reply drafting (3 tone options per review, Tinder-style approve/edit UI) + customer re-engagement (slipping-regulars CSV → personalized SMS drafts). Human-in-the-loop on every send; no auto-posting, no review gating, no bulk SMS blasts.
+
+The wiki and Easy Review are deliberately separate: wiki = thinking tool (markdown, no build, broad scope); Easy Review = software (backend, auth, deploy cycle, narrow scope). Documenting Easy Review here so wiki recommendations can reference the tool by name where relevant (review-acquisition / review-response / first-90-days Week 3 / GBP integration).
+
+- New page: `wiki/entities/tools/easy-review.md`, maturity: draft, ~600 words. Covers tech stack, two features, where it fits in the wiki's recommendations, boundary discipline, current state (mock data, no prod deploy, GBP API integration pending OAuth), why-separate-from-wiki, Phase-0 N/A (in-house companion, not third-party adoption).
+- README.md gained a "Companion app: Easy Review" section between the "What the wiki does NOT do for you" guardrail section and "Contributing / forking", framing Easy Review as the operator-approved automation surface that respects the same policy boundaries the wiki enforces.
+- 5 pages received bidirectional backlinks: `concepts/reviews-reputation-management.md` + `concepts/review-response-templates.md` + `concepts/first-90-days-playbook.md` + `concepts/session-1-facilitator-notes.md` + `entities/platforms/google-business-profile.md`.
+- index.md Tools subsection now lists easy-review alphabetically between claude-seo-agrici and geo-seo-claude.
+- Updated dates bumped to 2026-05-08 on all 5 backlinked pages.
+
+---
+
 ## [2026-05-08] add | session-1-facilitator-notes (pre-meeting script for the operator-facilitator)
 
 Single-purpose page distinct from the playbook: scripts the **facilitator's** behavior during the first in-person intake meeting (90 min). Pre-meeting prep, session opener, ordered .env-walkthrough sequence, live `/seo maps` diagnostic, baseline-screenshot capture, wrap with Week-1 prioritization, and post-meeting between-session work. Includes a "common landmines" section (managed-by-another-user GBP, missing website credentials, personal-vs-business IG account, etc.) and a "what NOT to do during the meeting" guardrail list.

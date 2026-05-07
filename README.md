@@ -107,6 +107,15 @@ This pattern has shipped clean rejections of credible-looking but wrong-fit tool
 
 If a tool you find on GitHub does any of those, the Phase-0 audit will mark it NO-GO.
 
+## Companion app: Easy Review
+
+The wiki is a thinking tool — knowledge you read and feed into Claude. **Easy Review** is the human-in-the-loop execution surface for the two highest-volume operator tasks the wiki points you at:
+
+1. **Review reply drafting** — pulls in 1–5 star reviews, drafts 3 response options per review (Empathetic / Professional / Brief) via Gemini Flash, and presents them in a Tinder-style approve / edit / skip UI optimized for phone + tablet. Every send is operator-approved — no auto-posting, no review gating.
+2. **Customer re-engagement** — ingests a guest CSV (export from Square / Booksy / Vagaro / your CRM), flags "slipping regulars" (last visit >45 days), drafts personalized SMS invites the operator approves before sending. No mass blasts.
+
+Easy Review is a separate Next.js + Supabase + Gemini Flash app developed alongside the wiki, not bundled with it. The wiki tells you *what* to do; Easy Review helps you *do* it while staying within the policy boundaries (no review gating, no fake reviews, no incentivized reviews) that the wiki enforces. See `wiki/entities/tools/easy-review.md` for the full scope + integration notes.
+
 ## Contributing / forking
 
 This is intended as a fork-and-adapt template. Fork it, fill in your `.env`, run the wiki for your business, and (optionally) open a PR back if you discover a generally-useful concept page, tool entity, or workflow improvement that other B&M operators would benefit from.

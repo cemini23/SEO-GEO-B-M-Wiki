@@ -10,6 +10,7 @@ related:
   - entities/markets/local-market-template.md
   - entities/platforms/google-business-profile.md
   - entities/tools/claude-seo-agrici.md
+  - entities/tools/easy-review.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
@@ -23,6 +24,7 @@ updated: 2026-05-08
 - @entities/markets/local-market-template.md
 - @entities/platforms/google-business-profile.md
 - @entities/tools/claude-seo-agrici.md
+- @entities/tools/easy-review.md
 
 ## Raw Concept
 

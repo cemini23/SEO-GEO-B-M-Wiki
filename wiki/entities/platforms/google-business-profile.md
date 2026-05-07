@@ -12,6 +12,7 @@ related:
   - concepts/citation-building.md
   - concepts/first-90-days-playbook.md
   - concepts/session-1-facilitator-notes.md
+  - entities/tools/easy-review.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -27,6 +28,7 @@ updated: 2026-05-08
 - @concepts/citation-building.md
 - @concepts/first-90-days-playbook.md
 - @concepts/session-1-facilitator-notes.md
+- @entities/tools/easy-review.md
 
 ## Raw Concept
 

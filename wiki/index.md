@@ -90,6 +90,7 @@ If you're new to this wiki:
 - [ahrefs](entities/tools/ahrefs.md) — backlink + content-gap analysis
 - [brightlocal](entities/tools/brightlocal.md) — citation-building + local rank-tracking + audit suite
 - [claude-seo-agrici](entities/tools/claude-seo-agrici.md) — Claude Code skill: GBP audit, NAP sweeps, geo-grid rank tracking, doorway-page safeguards (GO 2026-05-07)
+- [easy-review](entities/tools/easy-review.md) — companion app (Next.js + Supabase + Gemini Flash): review-reply drafting (3 tone options) + VIP re-engagement (slipping-regulars CSV → SMS drafts); human-in-the-loop, no auto-posting
 - [geo-seo-claude](entities/tools/geo-seo-claude.md) — Claude Code skill: citability scoring, AI-crawler analysis, schema validation (GO 2026-05-07)
 - [google-analytics-4](entities/tools/google-analytics-4.md) — website analytics: traffic, engagement, conversions
 - [google-search-console](entities/tools/google-search-console.md) — search performance + technical SEO + indexing diagnostics

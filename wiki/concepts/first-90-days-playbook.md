@@ -28,6 +28,7 @@ related:
   - entities/tools/google-search-console.md
   - entities/tools/google-analytics-4.md
   - concepts/session-1-facilitator-notes.md
+  - entities/tools/easy-review.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08
@@ -59,6 +60,7 @@ updated: 2026-05-08
 - @entities/tools/google-search-console.md
 - @entities/tools/google-analytics-4.md
 - @concepts/session-1-facilitator-notes.md
+- @entities/tools/easy-review.md
 
 ## Raw Concept
 

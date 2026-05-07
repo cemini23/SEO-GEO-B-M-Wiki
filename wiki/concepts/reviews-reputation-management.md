@@ -13,6 +13,7 @@ related:
   - entities/platforms/facebook.md
   - concepts/barbershop-marketing-fundamentals.md
   - concepts/first-90-days-playbook.md
+  - entities/tools/easy-review.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -29,6 +30,7 @@ updated: 2026-05-08
 - @entities/platforms/facebook.md
 - @concepts/barbershop-marketing-fundamentals.md
 - @concepts/first-90-days-playbook.md
+- @entities/tools/easy-review.md
 
 ## Raw Concept
 
