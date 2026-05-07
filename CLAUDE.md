@@ -174,6 +174,16 @@ Human/LLM judgment still needed for:
 - **Contradictions** — two pages making incompatible claims (e.g. "respond to negative reviews within 24h" vs "wait 48h to draft a measured reply"). Flag with `[NEEDS VERIFICATION]` and note on both pages
 - **Stale claims** — superseded by newer Google updates or platform changes. Move to `[RETRACTED]` with pointer
 
+### Easy Review brief ingestion (closes the wiki ↔ app loop)
+
+The [Easy Review companion app](https://github.com/cemini23/Easy-Review) commits operator-approved review replies back to this wiki at `briefs/YYYY-MM-DD_<id>.md` via Octokit. Periodically (monthly cadence, or whenever ≥10 new briefs accumulate), aggregate them into observed-pattern updates on @concepts/review-response-templates.md. The full procedure lives at `prompts/ingest-easy-review-briefs.md` — Claude reads it and runs the workflow on demand.
+
+Trigger: user prompts "ingest easy review briefs" or you notice `ls briefs/*.md | wc -l` is meaningfully higher than the count at the last `## [...] ingest | easy-review-briefs` log entry.
+
+This is the wiki's "apply layer feeds back to curate layer" loop made concrete. Without it, briefs accumulate as a silent log nobody reads.
+
+**Note on `briefs/` and `.gitignore`:** the wiki's `.gitignore` lists `briefs/` so local one-off staging stays out of the repo, but Octokit-pushed briefs (created via the GitHub API, not via local working copy) become tracked files in the repo regardless. Both modes coexist: tracked briefs from Easy Review are visible on GitHub + ingestible by this workflow; untracked local-staging briefs stay personal to the operator.
+
 ## External research — MCP tools
 
 When the wiki + raw sources can't answer, or when verifying an unverified URL:

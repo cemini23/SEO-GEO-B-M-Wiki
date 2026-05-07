@@ -191,6 +191,33 @@ The `marketingskills` Claude Code skill (see @entities/tools/marketingskills.md)
 
 The skill is starting-fodder, not the final draft. Always edit before posting.
 
+### Production patterns (from Easy Review briefs)
+
+This section is the wiki's feedback loop with the [Easy Review companion app](https://github.com/cemini23/Easy-Review). When operators approve a draft in Easy Review, the app commits a brief to `briefs/YYYY-MM-DD_<id>.md` in this repo. Periodically (monthly cadence), the brief ingestion workflow at `prompts/ingest-easy-review-briefs.md` aggregates the briefs and updates this section with patterns observed across real production replies.
+
+**How the loop works:**
+
+1. Operator pastes a review into Easy Review → AI drafts a reply → operator edits + approves
+2. Easy Review commits the approved reply to `briefs/` via Octokit (filename: `YYYY-MM-DD_<gbp-review-id>.md`)
+3. Wiki ingestion (run by Claude on demand using the prompt above) reads the briefs, groups by category × vertical, and updates this section with house-style patterns
+4. Future drafts (Easy Review's Gemini prompt + Claude review-response sessions) get sharper because the templates above can incorporate the descriptive patterns surfaced here
+
+**Current state:** awaiting first ingest. No briefs yet — this section will populate after Easy Review is deployed and the first ~10 approved replies accumulate. `[NEEDS VERIFICATION 2026-05-07]` once briefs land.
+
+**Per-group sub-sections will appear here** with format:
+
+```
+#### <Category> · <Vertical> · N briefs · ingested YYYY-MM-DD
+- House openings: ...
+- Median length: N words
+- Specificity rate: ...
+- House phrases: ...
+- Anti-pattern alerts: ...
+- Wiki recommendation: ...
+```
+
+See `prompts/ingest-easy-review-briefs.md` for the full ingestion procedure (including PII discipline — patterns get aggregated, customer names stay in the original briefs and are not reproduced here).
+
 ## Snippets
 
 (none yet — fill from real review interactions and ingested 2024-2026 review-response best-practice articles. `[NEEDS VERIFICATION 2026-05-07]` for the 2026-current state of GBP's AI-summary review weighting.)
