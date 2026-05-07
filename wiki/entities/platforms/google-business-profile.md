@@ -11,6 +11,7 @@ related:
   - concepts/review-response-templates.md
   - concepts/citation-building.md
   - concepts/first-90-days-playbook.md
+  - concepts/session-1-facilitator-notes.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -25,6 +26,7 @@ updated: 2026-05-08
 - @concepts/review-response-templates.md
 - @concepts/citation-building.md
 - @concepts/first-90-days-playbook.md
+- @concepts/session-1-facilitator-notes.md
 
 ## Raw Concept
 

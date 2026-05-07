@@ -36,6 +36,7 @@ If you're new to this wiki:
 ### Operator-onboarding playbook
 
 - [first-90-days-playbook](concepts/first-90-days-playbook.md) — week-by-week + month-by-month priority sequencing across every hub in this wiki; read this BEFORE drilling into any individual concept page
+- [session-1-facilitator-notes](concepts/session-1-facilitator-notes.md) — script for the facilitator (the person running the wiki on behalf of the operator) for the first in-person intake meeting; ~90-min flow + landmines + post-meeting checklist
 
 ### Tier-1 hubs (foundational)
 

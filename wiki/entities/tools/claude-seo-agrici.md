@@ -16,6 +16,7 @@ related:
   - entities/tools/local-falcon.md
   - entities/tools/geo-seo-claude.md
   - concepts/first-90-days-playbook.md
+  - concepts/session-1-facilitator-notes.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08
@@ -35,6 +36,7 @@ updated: 2026-05-08
 - @entities/tools/local-falcon.md
 - @entities/tools/geo-seo-claude.md
 - @concepts/first-90-days-playbook.md
+- @concepts/session-1-facilitator-notes.md
 
 ## Raw Concept
 

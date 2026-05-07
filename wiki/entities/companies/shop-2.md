@@ -8,6 +8,7 @@ related:
   - concepts/first-90-days-playbook.md
   - entities/markets/local-market-template.md
   - entities/companies/shop-1.md
+  - concepts/session-1-facilitator-notes.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -19,6 +20,7 @@ updated: 2026-05-08
 - @concepts/first-90-days-playbook.md
 - @entities/markets/local-market-template.md
 - @entities/companies/shop-1.md
+- @concepts/session-1-facilitator-notes.md
 
 ## Raw Concept
 

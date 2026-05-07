@@ -27,9 +27,10 @@ related:
   - entities/tools/claude-seo-agrici.md
   - entities/tools/google-search-console.md
   - entities/tools/google-analytics-4.md
+  - concepts/session-1-facilitator-notes.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 ## Relations
@@ -57,6 +58,7 @@ updated: 2026-05-07
 - @entities/tools/claude-seo-agrici.md
 - @entities/tools/google-search-console.md
 - @entities/tools/google-analytics-4.md
+- @concepts/session-1-facilitator-notes.md
 
 ## Raw Concept
 

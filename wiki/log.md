@@ -10,6 +10,17 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-08] add | session-1-facilitator-notes (pre-meeting script for the operator-facilitator)
+
+Single-purpose page distinct from the playbook: scripts the **facilitator's** behavior during the first in-person intake meeting (90 min). Pre-meeting prep, session opener, ordered .env-walkthrough sequence, live `/seo maps` diagnostic, baseline-screenshot capture, wrap with Week-1 prioritization, and post-meeting between-session work. Includes a "common landmines" section (managed-by-another-user GBP, missing website credentials, personal-vs-business IG account, etc.) and a "what NOT to do during the meeting" guardrail list.
+
+- New page: `wiki/concepts/session-1-facilitator-notes.md`, maturity: validated, ~1700 words
+- 6 referenced pages received bidirectional backlinks (playbook + shop-1/shop-2 + market template + GBP entity + claude-seo-agrici)
+- index.md "Operator-onboarding playbook" subsection now lists both playbook + facilitator notes
+- Lint state: 43 pages (was 42), 285 outbound edges (was 272), 0 breaking issues
+
+---
+
 ## [2026-05-08] enrich | first-90-days playbook + index polish + thin-page expansion + shop-2 parity
 
 Pre-handoff polish pass. Wiki was structurally clean (0 lint failures) but lacked sequencing for a new operator and had some thin pages.
