@@ -13,9 +13,10 @@ related:
   - entities/tools/geo-seo-claude.md
   - entities/tools/marketingskills.md
   - entities/tools/seomachine.md
+  - concepts/first-90-days-playbook.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 ## Relations
@@ -29,6 +30,7 @@ updated: 2026-05-07
 - @entities/tools/geo-seo-claude.md
 - @entities/tools/marketingskills.md
 - @entities/tools/seomachine.md
+- @concepts/first-90-days-playbook.md
 
 ## Raw Concept
 

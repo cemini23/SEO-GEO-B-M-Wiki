@@ -1,12 +1,21 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 # Wiki Index
 
 Catalog of all wiki pages. Search this first when answering a query. Pages grouped by type; within each group, alphabetical by slug.
+
+## Start here
+
+If you're new to this wiki:
+
+1. Read [README.md](../README.md) at the repo root for the project overview.
+2. Open [.env.example](../.env.example) — fill in what you have for your business.
+3. Read [first-90-days-playbook](concepts/first-90-days-playbook.md) — the sequencing playbook that orders every other page in this wiki by priority.
+4. Read [local-seo-foundations](concepts/local-seo-foundations.md) for the conceptual frame, then drill into specific hubs as the playbook directs.
 
 ## Sources
 
@@ -24,6 +33,10 @@ Catalog of all wiki pages. Search this first when answering a query. Pages group
 
 ## Concepts
 
+### Operator-onboarding playbook
+
+- [first-90-days-playbook](concepts/first-90-days-playbook.md) — week-by-week + month-by-month priority sequencing across every hub in this wiki; read this BEFORE drilling into any individual concept page
+
 ### Tier-1 hubs (foundational)
 
 - [barbershop-marketing-fundamentals](concepts/barbershop-marketing-fundamentals.md) — industry context: visit frequency, customer LTV, two-shop dynamics, marketing-stack priority
@@ -35,7 +48,7 @@ Catalog of all wiki pages. Search this first when answering a query. Pages group
 - [social-media-for-barbershops](concepts/social-media-for-barbershops.md) — IG/TikTok/FB/YouTube Shorts platform priority + content categories + cadence
 - [website-essentials-local-business](concepts/website-essentials-local-business.md) — must-have pages, mobile UX, Core Web Vitals, schema attachment, CTA hierarchy
 
-### Tier-2 deep-dives (stubs to populate)
+### Tier-2 deep-dives
 
 - [citation-building](concepts/citation-building.md) — directory listings + NAP consistency across the citation web
 - [competitor-analysis-local](concepts/competitor-analysis-local.md) — methodology for SERP-derived competitor capture + gap analysis

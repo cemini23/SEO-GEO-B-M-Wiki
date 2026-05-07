@@ -1,12 +1,37 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+---
+
+## [2026-05-08] enrich | first-90-days playbook + index polish + thin-page expansion + shop-2 parity
+
+Pre-handoff polish pass. Wiki was structurally clean (0 lint failures) but lacked sequencing for a new operator and had some thin pages.
+
+**New page**:
+- `wiki/concepts/first-90-days-playbook.md` — 1773-word week-by-week / month-by-month sequencing playbook bridging every hub. Day-zero pre-flight + Week 1 GBP foundation + Week 2 NAP/citations + Week 3 reviews + Week 4 website + Month 2 content/on-page + Month 3 measurement + recurring cadence + omissions + when-not-to-apply. maturity: validated.
+
+**Expanded (3 thin concept pages)**:
+- `wiki/concepts/competitor-analysis-local.md` — 368 → 806 words. Added "How to identify the competitor set" (3 converging methods), structured per-competitor capture template, six-gap framework with cross-references, quarterly refresh workflow.
+- `wiki/concepts/local-pack-rankings.md` — 344 → 804 words. Added cluster→hub mapping table, multi-shop per-listing dynamics, common pack-rank mistakes section.
+- `wiki/concepts/content-strategy-local.md` — 302 → 791 words. Added editorial calendar table, AI-content workflow (the only acceptable pattern), cross-platform repurposing pattern.
+
+**Structural parity**:
+- `wiki/entities/companies/shop-2.md` — 220 → 547 words. Replaced "(Same fields as shop-1)" stubs with full mirrored placeholder structure including service-area-overlap risk callout for multi-shop operators.
+
+**Bidirectional backlink closure**:
+- 22 hub/entity pages received `concepts/first-90-days-playbook.md` in their `related:` frontmatter + `## Relations` body. Atomically applied via Python helper.
+
+**Index polish**:
+- `wiki/index.md` — Added "Start here" section pointing to README, .env.example, playbook, foundations. Renamed "Tier-2 deep-dives (stubs to populate)" → "Tier-2 deep-dives" (no longer stubs). Added "Operator-onboarding playbook" subsection ahead of Tier-1 hubs.
+
+**Lint state**: 42 pages (was 41), 272 outbound edges (was 226), 0 breaking issues. Strict CI passes.
 
 ---
 

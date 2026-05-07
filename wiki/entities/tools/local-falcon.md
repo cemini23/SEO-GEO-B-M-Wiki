@@ -7,9 +7,10 @@ related:
   - concepts/near-me-search.md
   - concepts/local-pack-rankings.md
   - entities/tools/claude-seo-agrici.md
+  - concepts/first-90-days-playbook.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 ## Relations
@@ -17,6 +18,7 @@ updated: 2026-05-07
 - @concepts/near-me-search.md
 - @concepts/local-pack-rankings.md
 - @entities/tools/claude-seo-agrici.md
+- @concepts/first-90-days-playbook.md
 
 ## Raw Concept
 
