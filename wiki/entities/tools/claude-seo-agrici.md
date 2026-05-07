@@ -11,7 +11,9 @@ related:
   - concepts/local-pack-rankings.md
   - concepts/citation-building.md
   - concepts/claude-platforms.md
+  - concepts/competitor-analysis-local.md
   - entities/tools/local-falcon.md
+  - entities/tools/geo-seo-claude.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07
@@ -26,7 +28,9 @@ updated: 2026-05-07
 - @concepts/local-pack-rankings.md
 - @concepts/citation-building.md
 - @concepts/claude-platforms.md
+- @concepts/competitor-analysis-local.md
 - @entities/tools/local-falcon.md
+- @entities/tools/geo-seo-claude.md
 
 ## Raw Concept
 

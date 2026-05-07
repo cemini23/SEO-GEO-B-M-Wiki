@@ -11,8 +11,9 @@ related:
   - entities/tools/seomachine.md
   - concepts/generative-engine-optimization.md
   - concepts/local-seo-foundations.md
-  - prompts/github-repo-eval.md
+  - concepts/claude-platforms.md
 maturity: validated
+read_status: deep-read
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -26,6 +27,7 @@ updated: 2026-05-07
 - @entities/tools/seomachine.md
 - @concepts/generative-engine-optimization.md
 - @concepts/local-seo-foundations.md
+- @concepts/claude-platforms.md
 
 ## Raw Concept
 

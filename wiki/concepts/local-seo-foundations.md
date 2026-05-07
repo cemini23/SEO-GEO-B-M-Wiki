@@ -20,6 +20,10 @@ related:
   - entities/tools/ahrefs.md
   - entities/tools/brightlocal.md
   - entities/tools/claude-seo-agrici.md
+  - entities/tools/yoast-seo.md
+  - entities/platforms/apple-business-connect.md
+  - entities/platforms/bing-places.md
+  - concepts/website-essentials-local-business.md
   - sources/github-repo-audit-2026-05-07.md
 maturity: draft
 created: 2026-05-07
@@ -44,6 +48,10 @@ updated: 2026-05-07
 - @entities/tools/ahrefs.md
 - @entities/tools/brightlocal.md
 - @entities/tools/claude-seo-agrici.md
+- @entities/tools/yoast-seo.md
+- @entities/platforms/apple-business-connect.md
+- @entities/platforms/bing-places.md
+- @concepts/website-essentials-local-business.md
 - @sources/github-repo-audit-2026-05-07.md
 
 ## Raw Concept

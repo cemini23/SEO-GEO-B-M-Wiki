@@ -10,6 +10,7 @@ related:
   - entities/tools/claude-seo-agrici.md
   - entities/tools/geo-seo-claude.md
   - entities/tools/seomachine.md
+  - concepts/generative-engine-optimization.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07
@@ -23,6 +24,7 @@ updated: 2026-05-07
 - @entities/tools/claude-seo-agrici.md
 - @entities/tools/geo-seo-claude.md
 - @entities/tools/seomachine.md
+- @concepts/generative-engine-optimization.md
 
 ## Raw Concept
 

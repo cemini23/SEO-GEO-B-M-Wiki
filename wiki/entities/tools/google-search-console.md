@@ -6,6 +6,7 @@ keywords: [google search console, GSC, indexing, query report, performance, sear
 related:
   - concepts/local-seo-foundations.md
   - concepts/on-page-seo-local.md
+  - concepts/website-essentials-local-business.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -15,6 +16,7 @@ updated: 2026-05-07
 
 - @concepts/local-seo-foundations.md
 - @concepts/on-page-seo-local.md
+- @concepts/website-essentials-local-business.md
 
 ## Raw Concept
 

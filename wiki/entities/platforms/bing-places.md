@@ -5,6 +5,7 @@ tags: [platform, microsoft, bing, bing-places, directory]
 keywords: [bing places, microsoft, bing maps, bing search, copilot, edge]
 related:
   - concepts/local-seo-foundations.md
+  - concepts/near-me-search.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -13,6 +14,7 @@ updated: 2026-05-07
 ## Relations
 
 - @concepts/local-seo-foundations.md
+- @concepts/near-me-search.md
 
 ## Raw Concept
 

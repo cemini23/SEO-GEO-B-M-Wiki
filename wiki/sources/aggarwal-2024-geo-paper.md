@@ -7,7 +7,9 @@ related:
   - concepts/generative-engine-optimization.md
   - concepts/content-strategy-local.md
   - concepts/schema-markup-local.md
+  - entities/tools/geo-seo-claude.md
 maturity: validated
+read_status: deep-read
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -17,6 +19,7 @@ updated: 2026-05-07
 - @concepts/generative-engine-optimization.md
 - @concepts/content-strategy-local.md
 - @concepts/schema-markup-local.md
+- @entities/tools/geo-seo-claude.md
 
 ## Raw Concept
 

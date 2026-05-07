@@ -9,6 +9,8 @@ related:
   - concepts/social-media-for-barbershops.md
   - concepts/review-response-templates.md
   - concepts/claude-platforms.md
+  - concepts/generative-engine-optimization.md
+  - entities/tools/seomachine.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07
@@ -21,6 +23,8 @@ updated: 2026-05-07
 - @concepts/social-media-for-barbershops.md
 - @concepts/review-response-templates.md
 - @concepts/claude-platforms.md
+- @concepts/generative-engine-optimization.md
+- @entities/tools/seomachine.md
 
 ## Raw Concept
 

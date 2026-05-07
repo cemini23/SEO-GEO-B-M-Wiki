@@ -6,6 +6,7 @@ keywords: [local falcon, grid rank tracking, geogrid, local pack rank, near-me t
 related:
   - concepts/near-me-search.md
   - concepts/local-pack-rankings.md
+  - entities/tools/claude-seo-agrici.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -15,6 +16,7 @@ updated: 2026-05-07
 
 - @concepts/near-me-search.md
 - @concepts/local-pack-rankings.md
+- @entities/tools/claude-seo-agrici.md
 
 ## Raw Concept
 

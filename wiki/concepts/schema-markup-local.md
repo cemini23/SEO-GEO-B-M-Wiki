@@ -10,6 +10,7 @@ related:
   - concepts/generative-engine-optimization.md
   - entities/tools/yoast-seo.md
   - entities/tools/geo-seo-claude.md
+  - sources/aggarwal-2024-geo-paper.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -23,6 +24,7 @@ updated: 2026-05-07
 - @concepts/generative-engine-optimization.md
 - @entities/tools/yoast-seo.md
 - @entities/tools/geo-seo-claude.md
+- @sources/aggarwal-2024-geo-paper.md
 
 ## Raw Concept
 

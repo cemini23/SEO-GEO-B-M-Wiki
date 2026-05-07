@@ -8,6 +8,7 @@ related:
   - entities/platforms/instagram.md
   - entities/platforms/tiktok.md
   - entities/platforms/facebook.md
+  - entities/tools/marketingskills.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -19,6 +20,7 @@ updated: 2026-05-07
 - @entities/platforms/instagram.md
 - @entities/platforms/tiktok.md
 - @entities/platforms/facebook.md
+- @entities/tools/marketingskills.md
 
 ## Raw Concept
 

@@ -5,6 +5,7 @@ tags: [off-topic, optimization-algorithms, math]
 keywords: [linear congruential generator, deterministic optimization, meta-heuristic]
 related: []
 maturity: draft
+read_status: skimmed
 created: 2026-05-07
 updated: 2026-05-07
 ---

@@ -10,6 +10,7 @@ related:
   - entities/platforms/google-business-profile.md
   - entities/platforms/yelp.md
   - entities/platforms/facebook.md
+  - concepts/barbershop-marketing-fundamentals.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -23,6 +24,7 @@ updated: 2026-05-07
 - @entities/platforms/google-business-profile.md
 - @entities/platforms/yelp.md
 - @entities/platforms/facebook.md
+- @concepts/barbershop-marketing-fundamentals.md
 
 ## Raw Concept
 

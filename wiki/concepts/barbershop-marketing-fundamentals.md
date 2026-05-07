@@ -10,6 +10,7 @@ related:
   - entities/markets/davie-florida.md
   - entities/companies/shop-1.md
   - entities/companies/shop-2.md
+  - entities/platforms/instagram.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -23,6 +24,7 @@ updated: 2026-05-07
 - @entities/markets/davie-florida.md
 - @entities/companies/shop-1.md
 - @entities/companies/shop-2.md
+- @entities/platforms/instagram.md
 
 ## Raw Concept
 
