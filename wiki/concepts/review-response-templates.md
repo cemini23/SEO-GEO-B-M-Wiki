@@ -1,12 +1,15 @@
 ---
 title: Review Response Templates
 type: concept
-tags: [reviews, reputation-management, templates, brief-fodder]
-keywords: [review response, review reply, 5-star response, 1-star response, negative review, GBP response]
+tags: [reviews, reputation-management, templates, brief-fodder, hub]
+keywords: [review response, review reply, 5-star response, 1-star response, negative review, GBP response, yelp response, fake review]
 related:
   - concepts/reviews-reputation-management.md
   - entities/tools/marketingskills.md
-maturity: draft
+  - entities/platforms/google-business-profile.md
+  - entities/platforms/yelp.md
+  - entities/platforms/facebook.md
+maturity: validated
 created: 2026-05-07
 updated: 2026-05-07
 ---
@@ -15,63 +18,175 @@ updated: 2026-05-07
 
 - @concepts/reviews-reputation-management.md
 - @entities/tools/marketingskills.md
+- @entities/platforms/google-business-profile.md
+- @entities/platforms/yelp.md
+- @entities/platforms/facebook.md
 
 ## Raw Concept
 
-Stub concept page for **review-response templates** — frameworks for drafting consistent, on-brand, policy-compliant responses to GBP / Yelp / Facebook reviews. Templates here become starting points for briefs that the operator paste-and-edits, not auto-posted boilerplate. Populate from real review interactions over time + 2024-2026 review-response best-practice guides.
+Concept hub for **review-response templates** — a working library of draft frameworks for responding to GBP / Yelp / Facebook reviews. The full discipline + policy boundaries (acquisition, monitoring, gating prohibitions) live at @concepts/reviews-reputation-management.md. This page is the **template library**: starting points the operator paste-and-edits, never auto-posts.
+
+Operator's stated use case is "answer reviews." This is one of the highest-frequency tasks the wiki needs to support.
 
 ## Narrative
 
-The full discipline + boundaries are at @concepts/reviews-reputation-management.md. This page is the **template library**.
+### The 5 review categories
 
-Skeletons (to fill in once the operator has live reviews):
+Every review falls into one of five buckets. Each has a different template + different operational rules:
 
-### 5-star template (skeleton)
+| Category | Frequency | Response goal |
+|----------|-----------|---------------|
+| 5-star, specific praise | Most common (good shop) | Reinforce + thank, low effort, vary wording |
+| 4-star, "would recommend but…" | Common | Acknowledge the gap, invite return |
+| 3-star, mixed | Uncommon | Take seriously, route to private channel |
+| 1-2 star, real complaint | Rare but high-stakes | De-escalate publicly, fix privately |
+| 1-star, likely fake / policy-violating | Inevitable over time | Hold the line, do NOT engage emotionally |
 
-> Thanks so much for the kind words, [Name]! Glad you enjoyed your [service — e.g. fade / beard trim / haircut] with [Barber name if mentioned]. We'll see you next time at [Shop name].
+### Template 1 — 5-star with specific praise
 
-Variation rules:
-- Reference the specific service if it's named in the review
-- Use the customer's first name only (privacy + tone)
-- Avoid generic "thanks for the review" responses that sound auto-posted
-- Don't include shop URL or links (looks promotional)
+**Inbound (real-feeling example)**:
 
-### 4-star template (skeleton)
+> "Joey was great! Got me cleaned up for my brother's wedding next week. Quick fade, beard trim. Will be back."  
+> — ★★★★★, Mike R., Google
 
-> Appreciate the feedback, [Name]. Glad [the part they liked] worked out for you. If there's anything we can do better next time, let us know — happy to make sure your next visit is a 5.
+**Response template**:
 
-### 3-star or lower template (skeleton)
+> Thanks for the love, Mike — appreciate you trusting us with the wedding cut! Joey will be glad to hear it. See you next time.
 
-> Hi [Name], thanks for taking the time to share this — and sorry the experience didn't meet expectations. We'd like to learn more about [the specific issue mentioned] so we can address it. Could you reach out at [phone / email]? — [Operator name], [Shop name]
+**Variation rules**:
+- Reference the specific service mentioned (fade, beard trim) in 1 of every 3 responses, not all (otherwise it looks templated)
+- If a barber's name is in the review, name them back ("Joey will be glad to hear it"). Personal accountability + cross-barber discoverability for the customer's next visit.
+- Use first name only (privacy + warmth)
+- 1-2 sentences max
+- Don't include the shop name in the response (it's already attributed to your listing) unless you're disambiguating between Shop 1 and Shop 2
+- Don't include URLs, prices, or promo codes (looks transactional + may flag platform spam filters)
 
-Rules:
-- Acknowledge the experience as described, without confirming disputed details
-- Offer a private channel
-- Do not get defensive; do not argue facts publicly
-- Sign with operator name when responding to a 1-3 star (signals personal accountability)
+### Template 2 — 5-star, generic ("Best barber!" / "Great cut!")
 
-### 1-star + likely-fake template (skeleton)
+**Inbound**:
 
-If the review violates platform policy (mentions a competitor, contains a slur, references events that didn't happen at this business, or is from an account that has reviewed many businesses suspiciously fast):
+> "Best barber in Davie!"  
+> — ★★★★★, Anonymous, Google
 
-(Public response, while in parallel disputing through platform process)
+**Response template**:
 
-> Hi [Name], we don't have a record of [the event described] at [Shop name] — we'd like to understand more. Could you contact us directly at [phone / email] so we can look into this? We take all feedback seriously and want to make this right if there's been an issue. — [Operator name], [Shop name]
+> Appreciate it! Thanks for the support — see you for the next one.
 
-Rules:
-- Don't accuse the reviewer of being fake publicly (looks bad regardless of whether they are)
-- Do flag through the platform's report-violation flow
+**Rules**:
+- 1 sentence is enough; padding makes it look auto-generated
+- Resist the urge to upsell ("come back for our XYZ service!") — feels mercenary
 
-### Template-handling rules
+### Template 3 — 4-star with implicit feedback
 
-- **Operator reads + sends every response** — never auto-post
-- **Vary the wording** — Google's pattern detection notices boilerplate
-- **Match tone to the review's tone** — over-formal responses to casual reviews feel stiff
-- **Keep responses short** — 2-3 sentences for positive, 3-5 for negative; longer = looks defensive
-- **Respond within ~48 hours** — recency-of-response is a visible signal to future readers
+**Inbound**:
 
-Briefs in `briefs/` will eventually be specific deliverables: "draft responses to current pending reviews on Shop 1's GBP" type asks.
+> "Cut was good, place was a little crowded but worth the wait."  
+> — ★★★★☆, Sarah T., Google
+
+**Response template**:
+
+> Thanks Sarah — glad the cut hit. The Saturday rush is real; if midweek works for you, walk-in waits are typically way shorter. Either way, see you next time.
+
+**Rules**:
+- Acknowledge the negative observation directly (don't pretend it wasn't there)
+- If there's a practical mitigation (slower day, online booking, etc.), mention it lightly
+- End on the future-visit pivot
+
+### Template 4 — 3-star or lower, real complaint
+
+**Inbound**:
+
+> "Wait was 45 minutes past my appointment time. Cut was fine but I had to leave for work before they finished cleaning up the back. Won't be back."  
+> — ★★☆☆☆, Carlos M., Google
+
+**Response template**:
+
+> Hey Carlos, thanks for flagging this — that wait is way out of line for an appointment, and you shouldn't have had to choose between a finish and getting to work. I'd like to look into what happened. Can you reach out at [phone] or [email]? — [Operator name]
+
+**Rules**:
+- **Acknowledge the specific issue as described** ("that wait is way out of line"), without confirming disputed details ("our records show…" — never publicly)
+- **Take responsibility for the OPERATIONAL gap** (the wait), even if the cut was fine. The customer's complaint is about the experience, not the haircut.
+- **Offer a private channel** — phone or email, not DM (DM channels vary by platform; phone is universal)
+- **Sign with the operator's first name** — signals personal accountability vs corporate boilerplate
+- **DO NOT**:
+  - Get defensive ("we were short-staffed because…")
+  - Argue facts publicly ("you actually arrived 20 minutes late…")
+  - Offer a free service publicly ("come back for a free cut!" — this looks like bribing for review removal, which violates GBP policy)
+  - Use "I'm sorry you feel that way" (passive-aggressive; reads as not-actually-sorry)
+
+**The follow-up that matters more than the public response**: actually call/email the customer, listen, fix the operational gap, and offer a remedy privately (free cut, scheduling-priority next visit, whatever's appropriate). If they update the review afterward, great. If they don't, you've still done the right thing operationally.
+
+### Template 5 — 1-star, likely fake or policy-violating
+
+**Signs a review is likely fake**:
+- Reviewer's profile shows reviews of many businesses across distant cities in a short window
+- Review describes events that don't match your shop (wrong barber name, wrong neighborhood, wrong service offering)
+- Review mentions a competitor by name
+- Review uses slurs or attacks individuals
+- Review came in immediately after a customer was refused service or a known dispute
+- Review profile is brand-new with this as their only review
+
+**Inbound (likely fake)**:
+
+> "Worst place ever. Manager was rude. Place is filthy."  
+> — ★☆☆☆☆, John D., Google (account created 3 days ago, no other reviews)
+
+**Response template**:
+
+> Hi John — we want to take this seriously, but we don't have a record of you visiting us. Could you reach out at [phone] or [email] with the date of your appointment so we can look into what happened? — [Operator name]
+
+**Parallel actions** (do these regardless of public response):
+- **GBP**: 3-dot menu on the review → Report review → "Off-topic" / "Spam" / "Conflict of interest" as appropriate. Google's review-removal SLA: usually a few days; success rate varies (low for ambiguous cases, higher for clear policy violations).
+- **Yelp**: similar Report flow; Yelp is famously strict about not removing reviews unless they're clearly fraudulent
+- **Facebook**: Report flow → "Fake review" / "Hate speech"
+
+**Rules**:
+- **Don't accuse the reviewer of being fake publicly** — looks bad to readers regardless of whether they are. Phrase it as "we don't have a record of you visiting"
+- **Don't get angry** — your response is permanent and visible to every future customer evaluating you
+- **Don't engage in back-and-forth** — one calm response, then escalate via platform reporting
+- **Don't ask other customers to flag the review** — review-stacking on the reporter side can trigger penalties
+
+### When NOT to respond at all
+
+- **Pure-text 5-star with no content** ("good") — you can respond, but skipping it doesn't hurt; the rating is what counters search rankings, not the comment
+- **Reviews older than 30 days** — diminishing returns; only respond if it changes a future customer's read of the page
+- **Reviews on a platform you've decided not to invest in** — pick your battles; if Yelp drives <5% of your customers, prioritize GBP responses
+
+### Platform-specific quirks
+
+**Google Business Profile**:
+- Responses appear under the review with "Response from the owner"
+- 4096 character limit (effectively unbounded for these templates)
+- Edit-able after posting (no version history shown to readers)
+- AI-summary feature in 2026 weighs review SENTIMENT and response presence, not response WORDING
+
+**Yelp**:
+- Yelp historically de-prioritizes "review responses" in their algorithm; the response is more visible to a reader than to the algorithm
+- Yelp filter often hides responses from "not yet established" business pages — verify your responses are visible
+- Don't message reviewers via Yelp Direct Message unless they explicitly invite it; Yelp Code of Conduct restricts solicitation
+
+**Facebook**:
+- Recommendations (FB's review equivalent) get fewer responses by convention; matching that conventional silence is fine for 5-star, less fine for 1-star
+- FB's review-removal flow is the slowest and most opaque of the three
+
+### Cadence + workflow
+
+- **Daily check** (5 min): GBP "Reviews" tab, Yelp dashboard, Facebook Page reviews tab
+- **Respond within 48 hours** for any 4-star or below; within a week for 5-star
+- **Operator reads + sends every response** — even if drafted by Claude/marketingskills, the human edits + posts. **Never auto-post.**
+- **Track the operational gaps**: a complaint about wait time → flag for staffing review; a complaint about a specific barber → 1:1 conversation with that barber; a complaint about cleanliness → walk the floor
+
+### Working with marketingskills (Claude Code)
+
+The `marketingskills` Claude Code skill (see @entities/tools/marketingskills.md) has built-in review-response prompt patterns. Workflow:
+
+1. In Claude Code: `/marketing review-response` (or whatever the slug is from the marketingskills README)
+2. Paste the inbound review verbatim
+3. Skill returns 2-3 draft responses calibrated to the shop's `product-marketing-context` file (brand voice, shop name, etc.)
+4. Operator picks one, edits, posts
+
+The skill is starting-fodder, not the final draft. Always edit before posting.
 
 ## Snippets
 
-(none yet — fill from real review interactions)
+(none yet — fill from real review interactions and ingested 2024-2026 review-response best-practice articles. `[NEEDS VERIFICATION 2026-05-07]` for the 2026-current state of GBP's AI-summary review weighting.)

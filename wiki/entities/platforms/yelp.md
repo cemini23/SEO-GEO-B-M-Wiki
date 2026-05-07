@@ -5,6 +5,7 @@ tags: [platform, yelp, reviews, directory]
 keywords: [yelp, yelp for business, reviews, recommended-vs-not-recommended filter]
 related:
   - concepts/reviews-reputation-management.md
+  - concepts/review-response-templates.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -13,6 +14,7 @@ updated: 2026-05-07
 ## Relations
 
 - @concepts/reviews-reputation-management.md
+- @concepts/review-response-templates.md
 
 ## Raw Concept
 

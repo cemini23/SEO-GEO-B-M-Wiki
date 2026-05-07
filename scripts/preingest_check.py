@@ -211,8 +211,8 @@ def build_wiki_index():
             idx["url"][n].append(rel)
         if location:
             # parse the basename out of the location string
-            # supports "research for cemini/foo.pdf", "/opt/cemini-bulk/research/foo.pdf",
-            # "cemini-librarian:/opt/cemini-bulk/research/foo.pdf", "foo.pdf"
+            # supports forms like "raw-sources/foo.pdf", "/abs/path/foo.pdf",
+            # "remote-host:/path/to/foo.pdf", or just "foo.pdf"
             bn = os.path.basename(location.strip("`'\"").split()[-1] if location else "")
             if bn:
                 idx["location_basename"][bn.lower()].append(rel)

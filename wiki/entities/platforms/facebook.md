@@ -6,6 +6,7 @@ keywords: [facebook, facebook page, recommendations, meta business suite, FB]
 related:
   - concepts/social-media-for-barbershops.md
   - concepts/reviews-reputation-management.md
+  - concepts/review-response-templates.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -15,6 +16,7 @@ updated: 2026-05-07
 
 - @concepts/social-media-for-barbershops.md
 - @concepts/reviews-reputation-management.md
+- @concepts/review-response-templates.md
 
 ## Raw Concept
 
