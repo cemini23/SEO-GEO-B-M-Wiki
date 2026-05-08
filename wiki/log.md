@@ -2,11 +2,31 @@
 title: Operations Log
 type: log
 updated: 2026-05-08
+last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+---
+
+## [2026-05-08] ingest | easy-review-briefs (1 new since cold-start; dry-run)
+
+First easy-review-briefs ingest pass — establishes the cutoff baseline for future cadence (≥10 briefs OR monthly per `prompts/ingest-easy-review-briefs.md`). Triggered as a procedure-validation dry-run, not by threshold; below the ≥3-brief minimum for pattern extraction so `concepts/review-response-templates.md` is unchanged this pass.
+
+- 1 brief read: `briefs/2026-05-08_manual_17.md` (5★ specific praise, barbershop, posted via paste-flow + Groq fallback after Gemini quota exhaustion)
+- 0 new pattern observations added to @concepts/review-response-templates.md (single-brief group below ≥3 threshold)
+- Anti-pattern alerts: 0 — reply respects all hard rules (3 sentences, no URLs/prices/promos, first-name-only, business name only in sign-off)
+- Vertical coverage: barbershop=1
+- Categories present: 5star_specific=1
+
+**Procedure issues surfaced + fixed in Easy Review:**
+- `prompts/ingest-easy-review-briefs.md` line 26 expected `operator_vertical` in brief frontmatter; serializer only encoded it inside `tags[]`. Fixed in Easy-Review commit `e9d0fb6`: explicit `operator_vertical:` field added to brief YAML frontmatter going forward. The 1 existing brief on disk pre-dates the fix; future cutoff-based ingests will skip it, so no backfill needed.
+- Author whitespace produced double-space artifacts in the brief title line (`title: GBP reply —  Mike R.`). Same Easy-Review commit trims author before templating.
+- Both fixes are TDD-covered (`tests/lib/wiki-brief.test.ts`, 5/5 green; full suite 36/36).
+
+**Loop validated:** paste → Groq draft → operator approve → Octokit → wiki repo → manual `git pull` → ingest dry-run end-to-end. Next ingest happens when the brief count reaches ≥3 in any single category × vertical group OR monthly, whichever first.
 
 ---
 
