@@ -1,5 +1,5 @@
 {
-  "_comment_top": "Claude Desktop MCP config template for the SEO/GEO/B&M Business workspace. Copy this file to ~/Library/Application Support/Claude/claude_desktop_config.json (macOS) or %APPDATA%\\Claude\\claude_desktop_config.json (Windows), then replace the YOUR_*_HERE placeholders with real values. Restart Claude Desktop after editing. The file in this workspace is the committed example; the actual config lives in the OS-managed Claude Desktop folder.",
+  "_comment_top": "Claude Desktop MCP config template for the SEO/GEO/B&M Business workspace. Copy this file to ~/Library/Application Support/Claude/claude_desktop_config.json (macOS) or %APPDATA%\\Claude\\claude_desktop_config.json (Windows), then replace the YOUR_*_HERE placeholders with real values. The filesystem path on line 12 is where you cloned this repo — common examples: macOS '/Users/yourname/Documents/SEO-GEO-B-M-Wiki', Windows 'C:\\\\Users\\\\yourname\\\\Documents\\\\SEO-GEO-B-M-Wiki', Linux '/home/yourname/code/SEO-GEO-B-M-Wiki'. Restart Claude Desktop after editing. The file in this workspace is the committed example; the actual config lives in the OS-managed Claude Desktop folder.",
 
   "_comment_what_each_server_does": "filesystem = lets Claude Desktop read this wiki folder so you can ask things like 'what's in concepts/google-business-profile.md?' | brave-search = web search for SEO research and competitor lookups | playwright = browser automation for inspecting GBP listings, taking competitor screenshots, walking through schema validators | context7 = up-to-date docs for WordPress/Wix/Squarespace/schema.org",
 
@@ -9,7 +9,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "/Users/YOUR_USERNAME_HERE/Desktop/projects/SEO:GEO B&M Business"
+        "YOUR_ABSOLUTE_PATH_TO_CLONED_REPO_HERE"
       ]
     },
 

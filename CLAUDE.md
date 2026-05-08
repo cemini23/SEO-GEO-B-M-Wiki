@@ -48,7 +48,7 @@ Staging/output lives outside the wiki:
 ## Folder layout
 
 ```
-SEO:GEO B&M Business/
+SEO-GEO-B-M-Wiki/                   # repo root (folder name when cloned from GitHub)
   CLAUDE.md                         # this file — the schema
   LESSONS.md                        # meta-lessons (how we work)
   ROADMAP.md                        # active workstreams + decisions + done log

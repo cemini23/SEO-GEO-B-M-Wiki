@@ -26,7 +26,7 @@ This page exists because the wiki uses two non-Obsidian-native conventions (`@`-
 
 1. **Install Obsidian** — download from [obsidian.md](https://obsidian.md). Free for personal use. Mac / Windows / Linux / iPad / iPhone all supported.
 
-2. **Open this folder as a vault** — from Obsidian's home screen → "Open folder as vault" → select `~/Desktop/projects/SEO:GEO B&M Business/`. The whole workspace becomes your vault. Obsidian auto-creates a `.obsidian/` config folder (already gitignored — your personal Obsidian settings stay on your machine).
+2. **Open this folder as a vault** — from Obsidian's home screen → "Open folder as vault" → select wherever you cloned the repo (e.g. `~/Documents/SEO-GEO-B-M-Wiki/` on macOS/Linux, `C:\Users\yourname\Documents\SEO-GEO-B-M-Wiki\` on Windows). The whole workspace becomes your vault. Obsidian auto-creates a `.obsidian/` config folder (already gitignored — your personal Obsidian settings stay on your machine).
 
 3. **Recommended core settings**:
    - Settings → Files & Links → "Default location for new attachments": `In subfolder under current folder`
@@ -119,7 +119,7 @@ If you want graph view + backlinks to work, you can convert all `@<folder>/<slug
 
 Obsidian's mobile app reads markdown vaults from iCloud / Google Drive / Dropbox. To use the wiki on mobile:
 
-1. Move (or symlink) `~/Desktop/projects/SEO:GEO B&M Business/` into iCloud Drive
+1. Move (or symlink) your cloned `SEO-GEO-B-M-Wiki/` folder into iCloud Drive (or Google Drive / Dropbox if you prefer)
 2. On iPad/iPhone Obsidian → "Open vault from cloud storage" → select the same folder
 3. Edits on mobile sync back to the laptop via iCloud
 
