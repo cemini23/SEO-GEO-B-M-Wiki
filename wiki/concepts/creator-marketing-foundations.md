@@ -17,6 +17,11 @@ related:
   - entities/companies/friend-1.md
   - concepts/first-90-days-playbook.md
   - sources/creator-economy-2026-report.md
+  - entities/platforms/fanvue.md
+  - entities/platforms/fansly.md
+  - entities/platforms/passes.md
+  - entities/platforms/patreon.md
+  - entities/platforms/niche.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -72,11 +77,25 @@ Each stage has distinct tactics:
 | Platform | Role in creator marketing | Priority for new creators |
 |----------|-------------------------------|--------------------------------|
 | **OnlyFans** | Core subscription platform | Essential — where revenue happens |
+| **Fanvue** | AI-native alternative; 80-85% creator share, built-in AI tools | High for AI creators — best for virtual influencers |
 | **Twitter/X** | Primary external promotion | Essential — most permissive of NSFW teasers |
 | **Reddit** | High-converting niche communities | High — but high ban risk; learn rules first |
+| **Patreon** | Mainstream subscriptions; 10% fee, SFW public-facing | Medium — best for non-NSFW creators |
+| **Fansly** | OnlyFans alternative with internal discovery | Medium — good secondary platform |
+| **Passes** | Lowest fee (10%), most complete feature set | Medium — maximize take-home pay |
+| **Niche** | AI-model platform; simplicity + stability | Low/Medium — alternative to Fanvue |
 | **Instagram** | Visual portfolio, SFW brand building | Medium — no NSFW links allowed |
 | **TikTok** | Viral reach, younger demographics | Medium — no NSFW; SFW teasers only |
 | **Linktree/Beacons** | Bio link hub for all platforms | Essential — single link for bio |
+
+**Platform selection by creator type:**
+
+| Creator type | Recommended primary | Recommended secondary |
+|--------------|----------------------|-------------------------|
+| **Traditional NSFW** | OnlyFans | Fansly, Reddit, Twitter/X |
+| **AI/Virtual influencer** | Fanvue | Niche, Twitter/X, Reddit |
+| **Mainstream/SFW** | Patreon | Instagram, TikTok, Twitter/X |
+| **Low-fee focused** | Passes (10%) | OnlyFans, Fansly |
 
 ### Content pillars for image-based creators
 

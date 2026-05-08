@@ -103,10 +103,15 @@ If you're new to this wiki:
 - [facebook](entities/platforms/facebook.md) — FB Page + reviews + community discovery
 - [google-business-profile](entities/platforms/google-business-profile.md) — primary local listing platform; surfaces in Search/Maps/Knowledge Panel/AI Overviews
 - [instagram](entities/platforms/instagram.md) — visual-first social platform; Reels/Feed/Stories; saves > shares > watch-time signals
+- [fanvue](entities/platforms/fanvue.md) — AI-powered creator platform; virtual influencers, AI chat agents, 80-85% creator share, immediate payouts
 - [onlyfans](entities/platforms/onlyfans.md) — subscription content platform; monthly tiers, PPV, DM monetization, creator economy hub
+- [passes](entities/platforms/passes.md) — lowest-fee OnlyFans alternative; 10% platform fee, most complete feature set
+- [patreon](entities/platforms/patreon.md) — mainstream subscription platform; 10% flat fee, AI content allowed with disclosure, SFW public-facing
 - [reddit](entities/platforms/reddit.md) — community-driven promotion; subreddits, karma building, high-converting but high ban risk
 - [tiktok](entities/platforms/tiktok.md) — short-video discovery; barbershop-friendly transformation content
 - [twitter-x](entities/platforms/twitter-x.md) — primary external promotion for creators; SFW teasers, algorithm behavior, traffic conversion to OnlyFans
+- [fansly](entities/platforms/fansly.md) — OnlyFans alternative with internal discovery; identical feature set, 20% fee, browse-based creator discovery
+- [niche](entities/platforms/niche.md) — AI-model platform for virtual influencers; simplicity, stability, creator control, alternative to Fanvue
 - [yelp](entities/platforms/yelp.md) — review-led directory; Apple Maps + Alexa data partner
 
 ### Tools

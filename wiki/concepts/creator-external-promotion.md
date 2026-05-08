@@ -13,6 +13,11 @@ related:
   - entities/platforms/tiktok.md
   - entities/platforms/onlyfans.md
   - entities/companies/friend-1.md
+  - entities/platforms/fanvue.md
+  - entities/platforms/fansly.md
+  - entities/platforms/passes.md
+  - entities/platforms/patreon.md
+  - entities/platforms/niche.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
