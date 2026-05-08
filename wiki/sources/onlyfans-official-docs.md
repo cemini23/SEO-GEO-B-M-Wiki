@@ -4,6 +4,7 @@ type: source
 tags: [onlyfans, official-docs, platform-mechanics]
 keywords: [onlyfans, verification, payout, tiers, content-policy]
 read_status: read
+maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
 ---

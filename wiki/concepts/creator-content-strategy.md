@@ -8,8 +8,10 @@ related:
   - concepts/creator-audience-growth.md
   - concepts/creator-retention.md
   - concepts/creator-external-promotion.md
+  - concepts/ai-assitance-guardrails.md
   - entities/platforms/onlyfans.md
   - entities/platforms/twitter-x.md
+  - entities/platforms/reddit.md
   - entities/platforms/instagram.md
   - entities/companies/friend-1.md
 maturity: draft

@@ -4,6 +4,7 @@ type: source
 tags: [creator-economy, onlyfans, statistics, benchmarks, market-data]
 keywords: [creator economy, onlyfans, earnings, demographics, revenue, growth]
 read_status: read
+maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
 ---

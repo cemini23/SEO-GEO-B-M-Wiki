@@ -14,9 +14,40 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 **Status:** Adoption brief staged at `briefs/2026-05-07_tool-adoption-handoff.md`. Awaiting operator's "yes, let's install" plus first-session shop-data collection (still gated by W1 open decisions).
 
-### W3 — Creator marketing expansion (NEW)
+### W3 — Creator marketing expansion
 
-**Status:** Wiki scope expanded to include creator marketing (OnlyFans/subscription content platforms). 8 new pages created (3 platforms: OnlyFans, Twitter/X, Reddit; 5 concepts: creator-marketing-foundations, audience-growth, content-strategy, retention, external-promotion; 1 entity: friend-1). Index updated. Awaiting friend's real data to fill entity page.
+**Status:** COMPLETE (2026-05-08). Wiki scope expanded to include creator marketing (OnlyFans/subscription content platforms).
+
+**Pages created:**
+- `wiki/entities/platforms/onlyfans.md` — OnlyFans platform mechanics, monetization, policies
+- `wiki/entities/platforms/twitter-x.md` — Twitter/X algorithm, NSFW policy, monetization
+- `wiki/entities/platforms/reddit.md` — Reddit subreddits, karma building, 10:1 rule
+- `wiki/concepts/creator-marketing-foundations.md` — Hub page with 90-day timeline
+- `wiki/concepts/creator-audience-growth.md` — Follower-to-subscriber conversion
+- `wiki/concepts/creator-content-strategy.md` — Posting cadence, PPV vs subscription
+- `wiki/concepts/creator-retention.md` — Churn reduction, DM responsiveness
+- `wiki/concepts/creator-external-promotion.md` — Traffic from Twitter/X, Reddit, TikTok, Instagram
+- `wiki/concepts/ai-assistance-guardrails.md` — AI content guidelines, policy compliance
+- `wiki/entities/companies/friend-1.md` — Placeholder for OnlyFans creator friend
+
+**Source pages created:**
+- `wiki/sources/onlyfans-official-docs.md`
+- `wiki/sources/creator-economy-2026-report.md`
+- `wiki/sources/ai-detection-platforms-2026.md`
+- `wiki/sources/onlyfans-tos-violations-case-studies.md`
+- `wiki/sources/twitter-x-creator-guide-2026.md`
+- `wiki/sources/reddit-creator-promotion-2026.md`
+
+**Briefs created:**
+- `briefs/2026-05-08_onlyfans-account-setup.md`
+- `briefs/2026-05-08_onlyfans-launch-strategy.md`
+- `briefs/2026-05-08_ai-content-workflow.md`
+
+**Wiki lint:** Bidirectional gaps reduced from 20 to ~14 (pre-existing gaps in local-SEO pages). All creator-marketing pages now have proper cross-links.
+
+**Next steps (awaiting friend's data):**
+- Fill real handles, metrics, goals in `friend-1.md`
+- Execute launch strategy with real account credentials
 
 **New pages created (2026-05-08):**
 - `wiki/entities/platforms/onlyfans.md` — OnlyFans platform mechanics, monetization, policies

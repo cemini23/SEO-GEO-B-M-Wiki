@@ -8,6 +8,7 @@ related:
   - concepts/barbershop-marketing-fundamentals.md
   - concepts/creator-external-promotion.md
   - concepts/creator-marketing-foundations.md
+  - concepts/creator-content-strategy.md
   - concepts/meta-ads-local.md
 maturity: draft
 created: 2026-05-07

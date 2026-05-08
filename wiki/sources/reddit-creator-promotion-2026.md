@@ -4,6 +4,7 @@ type: source
 tags: [reddit, creator-promotion, self-promotion, karma-building]
 keywords: [reddit, self-promotion, karma, subreddit, creator marketing]
 read_status: read
+maturity: draft
 related:
   - entities/platforms/reddit.md
 created: 2026-05-08

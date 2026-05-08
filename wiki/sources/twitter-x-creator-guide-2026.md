@@ -4,6 +4,7 @@ type: source
 tags: [twitter, x, creator-promotion, algorithm-2026]
 keywords: [twitter, x, creator economy, algorithm, engagement, sfw-promotion]
 read_status: read
+maturity: draft
 related:
   - entities/platforms/twitter-x.md
 created: 2026-05-08

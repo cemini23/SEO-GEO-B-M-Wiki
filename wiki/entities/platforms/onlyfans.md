@@ -9,11 +9,14 @@ related:
   - concepts/creator-content-strategy.md
   - concepts/creator-retention.md
   - concepts/creator-external-promotion.md
+  - concepts/ai-assitance-guardrails.md
   - entities/platforms/twitter-x.md
   - entities/platforms/reddit.md
   - entities/companies/friend-1.md
   - sources/onlyfans-official-docs.md
   - sources/creator-economy-2026-report.md
+  - sources/ai-detection-platforms-2026.md
+  - sources/onlyfans-tos-violations-case-studies.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
