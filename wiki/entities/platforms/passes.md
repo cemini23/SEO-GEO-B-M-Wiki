@@ -8,8 +8,10 @@ related:
   - concepts/creator-content-strategy.md
   - concepts/creator-external-promotion.md
   - concepts/creator-audience-growth.md
+  - concepts/creator-retention.md
   - entities/platforms/onlyfans.md
   - entities/platforms/fansly.md
+  - entities/companies/friend-1.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

@@ -8,6 +8,8 @@ related:
   - concepts/creator-content-strategy.md
   - concepts/creator-external-promotion.md
   - entities/platforms/fanvue.md
+  - entities/companies/friend-1.md
+  - entities/platforms/onlyfans.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

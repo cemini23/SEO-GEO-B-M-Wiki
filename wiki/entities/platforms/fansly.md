@@ -12,6 +12,7 @@ related:
   - entities/platforms/onlyfans.md
   - entities/platforms/fanvue.md
   - entities/platforms/passes.md
+  - entities/companies/friend-1.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

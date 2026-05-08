@@ -9,6 +9,8 @@ related:
   - concepts/creator-marketing-foundations.md
   - entities/platforms/onlyfans.md
   - entities/platforms/twitter-x.md
+  - entities/platforms/fanvue.md
+  - entities/platforms/patreon.md
   - sources/ai-detection-platforms-2026.md
   - sources/onlyfans-tos-violations-case-studies.md
 maturity: draft

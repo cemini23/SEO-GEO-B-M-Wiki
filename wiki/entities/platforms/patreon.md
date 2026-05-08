@@ -6,10 +6,12 @@ keywords: [patreon, subscription, creator economy, memberships, mainstream, ai c
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-content-strategy.md
+  - concepts/creator-audience-growth.md
   - concepts/creator-retention.md
   - concepts/creator-external-promotion.md
   - concepts/ai-assitance-guardrails.md
   - entities/platforms/onlyfans.md
+  - entities/companies/friend-1.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
