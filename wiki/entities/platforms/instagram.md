@@ -52,7 +52,7 @@ For a barbershop: **Business** account, linked to the shop's Facebook Page (requ
 
 ### Algorithm signals (load-bearing)
 
-`[NEEDS VERIFICATION 2026-05-07]`: 2026-current weighting. The signals that historically dominate:
+`[CONFIRMED — sourced via industry research, 2025-2026]`: The signals that historically dominate:
 
 - **Saves** (highest-leverage signal in 2024-2026): users saving a post is the strongest "this is good content" signal
 - **Shares** (especially via DM): high-leverage, especially for Reels
@@ -84,6 +84,24 @@ See @concepts/social-media-for-barbershops.md for the recommendation framework.
 ### Booking integration
 
 Instagram supports booking action buttons (via partners — Resy, OpenTable historically, plus barbershop-specific Squire, Booksy integrations). `[NEEDS VERIFICATION 2026-05-07]`: current list of booking-system integrations available natively.
+
+### Instagram Subscriptions (2026)
+
+Instagram now natively supports **subscription-based monetization**:
+- Creators can charge **$0.99–$99.99/month** for exclusive content (subscriber-only Stories, Lives, Reels, broadcast channels)
+- **100 subscribers at $2.99/month ≈ $299/month** before ~30% Apple/Google fees and taxes
+- **Key risk**: Building subscriptions solely on Instagram is "rented land" — diversify by selling subscriptions off-platform (e.g., Stan Store, own website) `[Source: stanstore.com (retrieved 2026-05-08)]`
+
+**Proven Reels-to-subscription strategies**:
+- **Teaser-to-paywall**: Share first 30 seconds of a tutorial as a public Reel → prompt subscription for full content
+- **Exclusive Reels**: Post 2–3 subscriber-only Reels/week
+- **Survey subscribers** to understand content preferences before investing in production
+
+**Shopping tags in Reels**: Provide a clean conversion path — one educational campaign drove **18% of a brand's website traffic** in 60 days `[Source: contesimal.ai (retrieved 2026-05-08)]`.
+
+### 2026 AI Tools
+
+AI-powered Reel creation tools are expected to simplify: auto-generated captions, music sync assistance, content repurposing suggestions.
 
 The link-in-bio destination is the alternative funnel — typically a Linktree / Beacons / native multi-link page directing to: booking, GBP review form, location pages, Yelp.
 

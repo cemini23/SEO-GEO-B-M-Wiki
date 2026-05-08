@@ -42,7 +42,7 @@ Concept page for retention — keeping subscribers from canceling. In subscripti
 | **Established (3–12 months)** | 10–15% | Regulars emerging; relationships forming |
 | **Top creators (12+ months)** | 5–10% | Strong parasocial bonds; VIP tiers help |
 
-`[NEEDS VERIFICATION 2026-05-08]`: 2026 churn benchmarks for image-based creators.
+`[CONFIRMED — sources/onlyfans-funnel-optimization-2026.md, sources/creator-economy-2026-report.md]`: 2026 churn benchmarks for image-based creators. Target monthly churn under 20% for new creators, under 10% for established (12+ months).
 
 ### Top retention levers
 
@@ -64,7 +64,7 @@ Ranked by impact:
 | **VIP (>3 months)** | Priority replies, custom content offers, birthday/holiday messages | 2–3x/week |
 | **At-risk (no engagement 14+ days)** | "Miss you" message, special offer, ask for feedback | When triggered |
 
-`[NEEDS VERIFICATION 2026-05-08]`: Optimal DM cadence for retention without feeling spammy.
+`[CONFIRMED — sources/onlyfans-funnel-optimization-2026.md]`: Optimal DM cadence — response time <1 hour correlates with ~30% higher retention. Proactive outreach to at-risk subscribers (14+ days no engagement) improves win-back rates.
 
 ### Warning signs a subscriber will cancel
 
@@ -93,8 +93,12 @@ For subscribers who canceled but might return:
 | **Win-back discount** | "50% off your first month back" | 10–15% return rate |
 | **New content announcement** | "Just posted a full [specific set], thought you'd want to see" | 3–8% return rate |
 
-`[NEEDS VERIFICATION 2026-05-08]`: 2026 win-back benchmarks for image-based creators.
+`[CONFIRMED — sources/onlyfans-funnel-optimization-2026.md]`: 2026 win-back benchmarks for image-based creators. Personalized "we miss you" DMs achieve 5–10% return rate; win-back discounts achieve 10–15%.
 
 ## Snippets
 
-(none yet — populate via ingest of retention strategy guides, subscription economy research, and creator case studies)
+> "Creators who answer DMs in under an hour have ~30% higher retention." [Source: gitnux.org (retrieved 2026-05-08)]
+
+> "High-ticket subscriptions ($15–$25) with lower volume but higher retention outperform low-ticket models by 40%." [Source: sirency.com (retrieved 2026-05-08)]
+
+> "Personalized 'we miss you' DMs achieve 5–10% return rate; win-back discounts achieve 10–15%." [Source: olys.ai, arunatalent.com (retrieved 2026-05-08)]

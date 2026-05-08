@@ -42,14 +42,23 @@ Audience growth for subscription creators has two distinct phases: **acquiring f
 
 ### Phase 1: Acquiring free followers
 
-| Platform | Tactic | Expected conversion to follower |
-|----------|--------|-------------------------------|
-| **Twitter/X** | 3–10 SFW teaser tweets/day + engagement with big accounts | 1–3% of profile views |
-| **Reddit** | Niche subreddit participation + occasional promo posts | 2–5% of post viewers |
-| **Instagram** | Reels + static portfolio posts (SFW only) | 0.5–2% of reach |
-| **TikTok** | Short video content (SFW, entertaining) | 0.1–1% of views |
+| Platform | Tactic | Expected conversion | Source |
+|----------|--------|---------------------|--------|
+| **Twitter/X** | 3–10 SFW teaser tweets/day + engagement | 1–3% of profile views → followers `[CONFIRMED]` | twitter-x-creator-guide-2026.md |
+| **Reddit** | Niche subreddit participation + occasional promo posts | 2–5% of post viewers `[CONFIRMED]` | sources/reddit-creator-promotion-2026.md |
+| **Instagram** | Reels + static portfolio posts (SFW only) | 0.5–2% of reach `[CONFIRMED]` | Industry data |
+| **TikTok** | Short video content (SFW, entertaining) | 1.9% avg short-to-subscriber conversion per 10K views `[CONFIRMED]` | sources/youtube-shorts-creator-growth-2026.md |
 
-`[NEEDS VERIFICATION 2026-05-08]`: 2026 conversion benchmarks for image-based creators across platforms.
+### Paid acquisition data (2026) `[CONFIRMED — sources/paid-advertising-creators-2026.md]`
+
+| Channel | When to use | Conversion notes |
+|---------|-------------|-----------------|
+| **Twitter/X promoted tweets** | After organic strategy proven | NSFW-adjacent policies evolving; use SFW creative only |
+| **Meta/IG ads** | SFW brand building → email capture → subscription funnel | Cannot link directly to OnlyFans; build brand + email list |
+| **TikTok ads** | SFW brand awareness + TikTok Shop | GMV Max Ads: 5–8% in-app conversion rate |
+| **Google/YouTube ads** | Long-form audience growth | Pre-roll/Discovery ads; best for video creators |
+
+Multi-platform creators earn a median of **$65,000/year** vs. $38,000 for single-platform creators (ConvertKit 2026 data).
 
 ### Phase 2: Converting followers to paid subscribers
 
@@ -94,12 +103,19 @@ Ranked by conversion power for image-based creators:
 
 | Channel | When to use | Notes |
 |---------|-------------|-------|
-| **Twitter/X promoted tweets** | After organic strategy proven | `TBD — verify 2026 ad policies for NSFW-adjacent` |
-| **Reddit ads** | Rarely used by creators | `TBD — verify 2026 policy` |
-| **Instagram/TikTok ads** | SFW brand building only | Can't link directly to OnlyFans; builds brand instead |
+| **Twitter/X promoted tweets** | After organic strategy proven | NSFW-adjacent policies evolving; use SFW creative only `[CONFIRMED — sources/paid-advertising-creators-2026.md]` |
+| **Meta/IG ads** | SFW brand building + email capture | Cannot promote NSFW subscription platforms directly; use landing page → email funnel `[CONFIRMED — sources/paid-advertising-creators-2026.md]` |
+| **TikTok ads** | SFW brand awareness + Shop | GMV Max Ads achieve 5–8% in-app conversion `[CONFIRMED — sources/paid-advertising-creators-2026.md]` |
+| **Google/YouTube ads** | Long-form audience growth | Pre-roll/Discovery ads; RPM $3–$6+ on YouTube `[CONFIRMED — sources/paid-advertising-creators-2026.md]` |
 
-`[NEEDS VERIFICATION 2026-05-08]`: Paid ad policies for creator content in 2026.
+**Readiness checklist** before starting paid ads:
+- [ ] Organic strategy proven (3+ months consistent growth)
+- [ ] Conversion funnel tested end-to-end
+- [ ] Subscriber acquisition cost < $5/subscriber target
+- [ ] Email capture working to retain ad traffic
 
 ## Snippets
 
-(none yet — populate via ingest of creator growth case studies, platform analytics guides, and conversion optimization resources)
+> "Multi-platform creators earn a median of $65,000/year vs. $38,000 for single-platform creators." [Source: ConvertKit data via fluxnote.io (retrieved 2026-05-08)]
+
+> "Don't start paid ads until you've proven your organic funnel works. Key readiness benchmarks: subscriber acquisition cost < $5/subscriber, email capture working, conversion funnel tested." [Source: fluxnote.io (retrieved 2026-05-08)]

@@ -66,7 +66,7 @@ Twitter/X is the most creator-friendly platform for promotion:
 
 **Critical rule**: Never put the direct OnlyFans URL in tweets — use "link in bio" text + bio link. Twitter's algorithm deprioritizes tweets with external links.
 
-`[NEEDS VERIFICATION 2026-05-08]`: 2026 Twitter algorithm behavior with external links and NSFW-sensitive content.
+`[CONFIRMED — sources/twitter-x-creator-guide-2026.md]`: Despite X officially claiming removal of link penalties in October 2025, data shows near-total suppression for non-Premium accounts since March 2026. Suppression achieved through delayed redirects, in-app browsing friction, and engagement-based algorithmic demotion. Premium accounts get 10x more reach than free.
 
 ### Reddit promotion strategy
 
@@ -105,17 +105,18 @@ TikTok is pure SFW entertainment — viral reach possible but no direct NSFW pro
 | **Educational content** | "How I set up lighting," "my camera gear" | Longer-tail discovery |
 | **Bio link** | Linktree with OF link | Only place to funnel traffic |
 
-`[NEEDS VERIFICATION 2026-05-08]`: 2026 TikTok algorithm preferences and creator-monetization features.
+`[CONFIRMED — sources/tiktok-marketing-2026.md]`: 2026 TikTok algorithm preferences confirmed: tiered distribution (100→1K→10K→100K), follower-first testing, 70% completion threshold for viral push, Creativity Program Beta replaces Creator Fund, longer content (1–3 min) favored, original audio gets discovery boost.
 
 ### Link management
 
 | Tool | Purpose | Notes |
 |------|---------|-------|
 | **Linktree** | Simple multi-link hub | Free tier works; upgrade for analytics |
-| **Beacons** | Multi-link hub + email capture | Better analytics than Linktree |
+| **Beacons** | Multi-link hub + email capture | Better analytics than Linktree; integrates with email marketing `[Source: creator-et.com]` |
+| **Stan Store** | Link-in-bio + subscription sales | Built for creators; includes email capture + product/link pages |
 | **Native IG links** | Instagram's built-in multi-link | `TBD — verify 2026 availability for creators` |
 
-All external platforms should point to **one link** (the link-in-bio tool), which then offers the OnlyFans link plus other platforms.
+All external platforms should point to **one link** (the link-in-bio tool), which then offers the OnlyFans link plus other platforms. For image-based creators, **Stan Store** or **Beacons** are preferred because they include email capture — critical for audience ownership (see @concepts/creator-marketing-foundations.md#email-marketing).
 
 ### What NOT to do (platform ban magnets)
 
@@ -127,8 +128,33 @@ All external platforms should point to **one link** (the link-in-bio tool), whic
 | **Spammy posting** | Algorithm demotion | Subreddit ban | Algorithm demotion | Algorithm demotion |
 | **Ignoring platform rules** | Suspension | Sitewide ban | Disabled account | Shadowban |
 
-`[NEEDS VERIFICATION 2026-05-08]`: Platform-specific enforcement patterns and appeal processes in 2026.
+**Paid ads overview** `[CONFIRMED — sources/paid-advertising-creators-2026.md]`:
+
+| Channel | When to use | Notes |
+|---------|-------------|-------|
+| **Meta/IG/FB ads** | After organic strategy proven; SFW brand building only | Cannot directly promote NSFW subscription platforms; use landing page + email funnel. Meta Creator Fast Track (2026): $1K–$3K/month for top creators |
+| **TikTok ads** | SFW brand awareness + Shop | GMV Max Ads achieve 5–8% in-app conversion; Spark Ads boost organic posts |
+| **Google/YouTube ads** | Long-form audience growth | Pre-roll/Discovery ads; RPM $3–$6+ on long-form |
+| **Reddit ads** | Niche community targeting | Promoted posts in relevant subreddits; rarely used by creators |
+
+**When to start paid ads** (don't start until): organic strategy is proven (3+ months), conversion funnel is tested, you know your subscriber acquisition cost (target <$5/subscriber), and email capture is working.
+
+### What NOT to do (platform ban magnets)
+
+| Action | Twitter/X | Reddit | Instagram | TikTok |
+|--------|-----------|--------|-------------|--------|
+| **Direct NSFW in posts** | Sensitive flag | Often banned | Banned | Banned |
+| **Too many external links** | Shadowban risk | Spam filter | OK (bio only) | OK (bio only) |
+| **Bought followers** | Detection + ban | N/A | Detection + ban | Detection + ban |
+| **Spammy posting** | Algorithm demotion | Subreddit ban | Algorithm demotion | Algorithm demotion |
+| **Ignoring platform rules** | Suspension | Sitewide ban | Disabled account | Shadowban |
 
 ## Snippets
 
-(none yet — populate via ingest of platform promotion guides, creator case studies, and 2024–2026 algorithm analysis)
+> "Multi-platform creators earn a median of $65,000/year vs. $38,000 for single-platform creators." [Source: ConvertKit data via fluxnote.io (retrieved 2026-05-08)]
+
+> "Reddit delivers the highest-converting traffic (3–8%), followed by Twitter/X (2–5%), Instagram (1–3%), and TikTok (0.5–2%)." [Source: arunatalent.com, February 2026 (retrieved 2026-05-08)]
+
+> "Optimized OnlyFans funnels achieve 8–15% conversion vs. <2% average for most creators." [Source: olys.ai, March 2026 (retrieved 2026-05-08)]
+
+> "Creators who answer DMs in under an hour have ~30% higher retention." [Source: gitnux.org (retrieved 2026-05-08)]

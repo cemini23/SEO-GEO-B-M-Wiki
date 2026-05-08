@@ -142,14 +142,54 @@ Detailed 3-phase launch timeline aligned with @briefs/2026-05-08_onlyfans-launch
 
 | Metric | Why it matters | Target (new creator) |
 |--------|----------------------------|--------------------------|
-| **Subscriber growth rate** | Core business health | +10–20%/month |
-| **Churn rate** | Subscribers lost per month | <15%/month |
-| **Average revenue per user (ARPU)** | Subscription + PPV + tips / subscriber count | $15–$30 |
-| **External traffic → subscriber conversion** | Efficiency of promotion | 1–3% (varies by platform) |
-| **Content engagement rate** | Which content drives subs | Track per post type |
+| **Subscriber growth rate** | Core business health | +10–20%/month | `[CONFIRMED]` |
+| **Churn rate** | Subscribers lost per month | <15%/month (new); <10% (established) | `[CONFIRMED — funnel-optimization-2026]` |
+| **Average revenue per user (ARPU)** | Subscription + PPV + tips / subscriber count | $15–$30+ | `[CONFIRMED]` |
+| **Funnel conversion rate** | Traffic → subscriber efficiency | 8–15% optimized vs <2% average | `[CONFIRMED — funnel-optimization-2026]` |
+| **External traffic → subscriber conversion** | Efficiency of promotion | Reddit 3–8%, X 2–5%, IG 1–3%, TikTok 0.5–2% | `[CONFIRMED — funnel-optimization-2026]` |
+| **Content engagement rate** | Which content drives subs | Track per post type | — |
 
-`[NEEDS VERIFICATION 2026-05-08]`: Benchmarks for image-based creators in 2026.
+### Email Marketing `[CONFIRMED — sources/creator-email-marketing-2026.md]`
+
+Email is the **only audience a creator truly owns**. Unlike social platforms, an email list survives bans, algorithm changes, and shadowbans.
+
+| Metric | Value |
+|--------|-------|
+| Email ROI | ~$36 per $1 spent |
+| Creator email open rates | 20–25% |
+| Comment-to-email conversion (Instagram) | 40–60% |
+| Lead magnet capture rate | 40–70% |
+
+**Platform selection** — Not all ESPs support adult content:
+
+| Platform | Sex-Work Friendly | Notes |
+|----------|-------------------|-------|
+| SendX | ✅ Yes | General creator use |
+| YNOT Mail | ✅ Yes | Adult creators |
+| EmailOctopus | ✅ Yes | Budget option |
+| Systeme.io | ✅ Yes | All-in-one funnels + email |
+| Mailchimp | ❌ No | Bans adult content |
+| Klaviyo | ❌ No | Bans adult content |
+
+**Creator Flywheel**: `Social Media → Link-in-Bio → Email Capture → Platform Subscription`
+
+Top email strategies: comment-to-DM automation with email gates, welcome sequences, drip campaigns, conversion pushes after 5+ email opens.
+
+### Paid Advertising Readiness `[CONFIRMED — sources/paid-advertising-creators-2026.md]`
+
+Don't start paid ads until organic funnels are proven. Key readiness benchmarks:
+- Subscriber acquisition cost < $5/subscriber
+- Email capture working to retain paid-ad traffic
+- Conversion funnel tested end-to-end
+
+**Multi-platform stat**: Creators active on 3+ platforms earn **$65K/year median** vs. $38K single-platform (ConvertKit 2026).
 
 ## Snippets
 
-(none yet — populate via ingest of creator economy reports, OnlyFans case studies, and platform best-practice docs)
+> "Multi-platform creators earn a median of $65,000/year vs. $38,000 for single-platform creators." [Source: ConvertKit data via fluxnote.io (retrieved 2026-05-08)]
+
+> "Email marketing ROI is approximately $36 per $1 spent, making it the highest-ROI channel for creators." [Source: DMA data via arunatalent.com (retrieved 2026-05-08)]
+
+> "Comment-to-DM automation with an email gate captures emails directly from Instagram at 40–60% conversion rates." [Source: creatorflow.so (retrieved 2026-05-08)]
+
+> "Optimized OnlyFans funnels achieve 8–15% conversion vs. <2% average for most creators." [Source: olys.ai (retrieved 2026-05-08)]

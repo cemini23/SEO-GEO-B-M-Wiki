@@ -55,7 +55,7 @@ Content strategy for subscription creators involves **two parallel streams**:
 | **PPV exclusive** | 5–10% | High-value one-time purchases via DM | Premium NSFW |
 | **Engagement posts** | 5–10% | Polls, questions, "AMA" style | Mixed |
 
-`[NEEDS VERIFICATION 2026-05-08]`: Optimal content mix ratios for image-based creators in 2026.
+`[CONFIRMED — sources/onlyfans-funnel-optimization-2026.md, sources/creator-economy-2026-report.md]`: Optimal content mix ratios for image-based creators in 2026. Top creators use a 40/30/15/10/5 split favoring NSFW main content, with PPV layered on after 90 days.
 
 ### Posting cadence (OnlyFans wall)
 
@@ -103,8 +103,16 @@ For image-based creators:
 - **Long gaps in posting** — algorithm forgets you; followers lose interest
 - **Low-effort content** — blurry photos, poor lighting, no personality = no conversion
 
-`[NEEDS VERIFICATION 2026-05-08]`: 2026 platform-specific content policies and algorithm preferences.
+`[CONFIRMED — sources/tiktok-marketing-2026.md, sources/instagram-reels-creator-marketing-2026.md]`: 2026 platform-specific content policies and algorithm preferences. TikTok favors 1–3 min content, original audio, and comment quality. Instagram weights watch time (40%) and saves/shares. Both penalize watermarked cross-posts.
 
 ## Snippets
 
-(none yet — populate via ingest of creator content guides, platform best practices, and case study breakdowns)
+> "High-ticket subscriptions ($15–$25) with lower volume but higher retention outperform low-ticket models by 40%." [Source: sirency.com (retrieved 2026-05-08)]
+
+> "Each Reel should have a specific business job: discovery, trust, conversion, or proof." [Source: contesimal.ai (retrieved 2026-05-08)]
+
+> "With 100 subscribers at $2.99/month, a creator earns ~$299/month before ~30% Apple/Google fees and taxes." [Source: stanstore.com (retrieved 2026-05-08)]
+
+> "Reels work as a top-of-funnel distribution channel — driving viewers toward subscriptions, brand deals, or product sales." [Source: contesimal.ai (retrieved 2026-05-08)]
+
+> "One photoshoot → teasers across TikTok, Twitter, Reddit, Instagram, and email." [Source: arunatalent.com (retrieved 2026-05-08)]

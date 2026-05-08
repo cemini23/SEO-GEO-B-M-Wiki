@@ -38,6 +38,16 @@ If you're new to this wiki:
 - [onlyfans-official-docs](sources/onlyfans-official-docs.md) — OnlyFans Help Center summary: verification, payout structure, 80/20 split, PPV pricing, 2026 policy updates (AI/disclosure, deepfake ban)
 - [creator-economy-2026-report](sources/creator-economy-2026-report.md) — 2026 benchmarks: 4.63M creators, $7.22B platform revenue, power-law distribution, top 1% earnings $49K/year, PPV dominance (59% of top earnings)
 
+### Creator promotion & marketing
+
+- [tiktok-marketing-2026](sources/tiktok-marketing-2026.md) — TikTok algorithm mechanics, Creativity Program Beta, content strategy, monetization streams, 2026 US deal implications
+- [instagram-reels-creator-marketing-2026](sources/instagram-reels-creator-marketing-2026.md) — Reels algorithm signals, subscription integration, teaser-to-paywall funnel, income stacking
+- [creator-email-marketing-2026](sources/creator-email-marketing-2026.md) — ESP comparison (sex-work-friendly vs banned), list building strategies, automation flows, 30-day starter plan
+- [youtube-shorts-creator-growth-2026](sources/youtube-shorts-creator-growth-2026.md) — Hybrid strategy (Shorts → subscribers → long-form), conversion data, monetization reality, posting cadence
+- [paid-advertising-creators-2026](sources/paid-advertising-creators-2026.md) — Meta Creator Fast Track, TikTok GMV Max Ads, Google/YouTube ads, when to start paid, common mistakes
+- [onlyfans-funnel-optimization-2026](sources/onlyfans-funnel-optimization-2026.md) — Full funnel stages, traffic source conversion rates (Reddit 3–8%, X 2–5%, IG 1–3%), value ladder, retention economics
+- [ai-detection-enforcement-2026](sources/ai-detection-enforcement-2026.md) — OnlyFans AI policy, platform comparison (OF/Fansly/Fanvue), TAKE IT DOWN Act, compliance checklist
+
 ## Concepts
 
 ### Operator-onboarding playbook

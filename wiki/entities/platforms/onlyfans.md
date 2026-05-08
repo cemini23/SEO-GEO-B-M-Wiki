@@ -18,6 +18,8 @@ related:
   - entities/platforms/patreon.md
   - entities/platforms/niche.md
   - entities/companies/friend-1.md
+- sources/onlyfans-funnel-optimization-2026.md
+- sources/creator-email-marketing-2026.md
   - sources/onlyfans-official-docs.md
   - sources/creator-economy-2026-report.md
   - sources/ai-detection-platforms-2026.md
@@ -111,7 +113,7 @@ OnlyFans has limited native discovery compared to social platforms `[CONFIRMED -
 
 - **No algorithmic feed**: subscribers see content chronologically
 - **No hashtag search**: discovery happens almost entirely OFF-platform (Twitter/X, Reddit, TikTok, Instagram)
-- **Recommended creators**: shown to subscribers; `NEEDS VERIFICATION 2026-05-08]` for how this works and whether it can be influenced
+- **Recommended creators**: shown to subscribers; `[NEEDS VERIFICATION 2026-05-08]` for how this works and whether it can be influenced
 - **Internal search**: weak; don't rely on it for growth
 - **Referral program**: 5% of referee earnings for verified creators
 
@@ -134,12 +136,35 @@ OnlyFans has limited native discovery compared to social platforms `[CONFIRMED -
 **Core platform policies**:
 - **NSFW allowed**: OnlyFans permits adult content (unlike Instagram/TikTok) — this is its core differentiator
 - **No sexual intercourse on live stream**: certain acts prohibited even on paid platforms
-- **ID verification required**: government ID + selfie; payout delay until verified `[NEEDS VERIFICATION 2026-05-08]` for current processing times
+- **ID verification required**: government ID + selfie; payout delay until verified `[NEEDS VERIFICATION 2026-05-08]` for current processing times — typically 24–72 hours per B9 Agency
 - **DMCA protection**: creators can report stolen content; platform takes down infringing copies `[CONFIRMED - onlyfans.com/terms]`
 - **Chargeback risk**: high-chargeback categories face higher reserve requirements
 - **Terms of Service**: Creators grant OnlyFans rights to submit DMCA notifications on their behalf, but OnlyFans is under no obligation to police infringements `[Source: onlyfans.com/terms]`
 
 **Enforcement** `[NEEDS VERIFICATION 2026-05-08]`: Current enforcement patterns, prohibited content list comprehensiveness, appeals process timelines.
+
+### Funnel Optimization (2026) `[CONFIRMED — sources/onlyfans-funnel-optimization-2026.md]`
+
+**Average conversion rates**:
+| Creator Level | Conversion Rate |
+|---------------|----------------|
+| Average creators | <2% |
+| Optimized funnels | 8–15%+ |
+| Top creators | 15%+ |
+
+**Traffic source rankings by conversion rate**:
+1. **Reddit** — 3–8% conversion (highest intent, highest ban risk)
+2. **Twitter/X** — 2–5% conversion (direct link clicking)
+3. **Instagram** — 1–3% conversion (visual discovery)
+4. **TikTok** — 0.5–2% conversion (younger, lower-intent audience)
+
+**Two-page funnel strategy**: Free page → Paid page conversion significantly outperforms direct-to-paid. The free page reduces subscriber risk and improves long-term revenue.
+
+**Welcome sequence**: Critical first 24 hours — personalized welcome, immediate value delivery, first PPV within days 6–7.
+
+**Value ladder**: Subscription ($4.99–$49.99) → Tip menu ($5–$50) → Custom content ($100–$300) → Premium experiences ($200–$500).
+
+**Key retention insight**: Keeping subscribers for 6+ months is more profitable than constant new signups. High-ticket subscriptions ($15–$25) with lower volume but higher retention outperform low-ticket models by 40%.
 
 ### Analytics available (2026 verified)
 
@@ -150,16 +175,16 @@ OnlyFans has limited native discovery compared to social platforms `[CONFIRMED -
 | Page views + views per post | Content engagement quality | Weekend traffic 2x weekday `[CONFIRMED - gitnux.org]` |
 | Message open rates | DM/PPV effectiveness | ~35% average open rate `[Source: gitnux.org]` |
 | Traffic sources | Which external platforms drive subscriptions | X dominates; Reddit high-converting; TikTok discovery |
+| Funnel conversion rate | Acquisition efficiency | 8–15% with optimized funnel vs <2% average |
+| Churn rate | Retention health | <20% monthly target (new creators); <10% (established) |
+| ARPU | Revenue per subscriber | $15–$30+ range |
 
 **Key 2026 finding**: Creators who answer DMs in <1 hour have ~30% higher retention `[CONFIRMED - gitnux.org]`.
 
-`[NEEDS VERIFICATION 2026-05-08]`: Current analytics dashboard capabilities; some creators use third-party tools for deeper analysis.
-
-### Payout structure (2026 verified)
+### Payout structure (2026)
 
 - **Platform fee**: 20% of all revenue (creator keeps 80%) `[CONFIRMED - multiple sources]`
 - **Payout threshold**: minimum $20–$50 depending on method
-- **Payout methods**: bank transfer, e-wallets (PayPal, Paxum, Cosmica — varies by country) `[NEEDS VERIFICATION 2026-05-08]` for current supported methods by country
 - **Payment methods (fans)**: Visa, Mastercard, Discover, Maestro — all require 3D Secure verification `[Source: B9 Agency]`
 - **Payout timeline**: 3–5 business days after 7-day pending period `[CONFIRMED - pleazeme.com]`
 - **Payout frequency**: weekly or bi-weekly; **weekly recommended** to limit exposure (account suspensions freeze pending balances) `[Source: B9 Agency]`
@@ -167,7 +192,7 @@ OnlyFans has limited native discovery compared to social platforms `[CONFIRMED -
 
 **Net calculation**: After OnlyFans' 20% fee + payment processing (2.9% + $0.30), creators net approximately 75-78% of gross payments `[Source: onlysonar.com, B9 Agency]`.
 
-`[NEEDS VERIFICATION 2026-05-08]`: Reserve percentage for new creators; methods available in specific countries.
+`[NEEDS VERIFICATION 2026-05-08]`: Reserve percentage for new creators; payout methods available in specific countries.
 
 ## Snippets
 
