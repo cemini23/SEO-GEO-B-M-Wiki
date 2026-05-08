@@ -16,21 +16,28 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 ### W3 — Creator marketing expansion
 
-**Status:** COMPLETE (2026-05-08). Wiki scope expanded to include creator marketing (OnlyFans/subscription content platforms).
+**Status:** COMPLETE (2026-05-08). Wiki scope expanded to include creator marketing (OnlyFans/subscription/Ai content platforms).
 
-**Pages created:**
-- `wiki/entities/platforms/onlyfans.md` — OnlyFans platform mechanics, monetization, policies
-- `wiki/entities/platforms/twitter-x.md` — Twitter/X algorithm, NSFW policy, monetization
-- `wiki/entities/platforms/reddit.md` — Reddit subreddits, karma building, 10:1 rule
-- `wiki/concepts/creator-marketing-foundations.md` — Hub page with 90-day timeline
-- `wiki/concepts/creator-audience-growth.md` — Follower-to-subscriber conversion
-- `wiki/concepts/creator-content-strategy.md` — Posting cadence, PPV vs subscription
-- `wiki/concepts/creator-retention.md` — Churn reduction, DM responsiveness
-- `wiki/concepts/creator-external-promotion.md` — Traffic from Twitter/X, Reddit, TikTok, Instagram
-- `wiki/concepts/ai-assistance-guardrails.md` — AI content guidelines, policy compliance
-- `wiki/entities/companies/friend-1.md` — Placeholder for OnlyFans creator friend
+**Core platform pages created (5):**
+- `wiki/entities/platforms/onlyfans.md` — platform mechanics, 80/20 split, PPV, tiers, policies
+- `wiki/entities/platforms/twitter-x.md` — algorithm (Grok), NSFW tiers, engagement signals, monetization
+- `wiki/entities/platforms/reddit.md` — 10:1 self-promotion rule, karma building, subreddit strategy
+- `wiki/entities/platforms/fanvue.md` — AI-native platform, 80-85% creator share, AI chat agents, $100M run rate
+- `wiki/entities/platforms/patreon.md` — mainstream subscriptions, 10% fee, AI content policy, Adult/18+ tiers
+- `wiki/entities/platforms/fansly.md` — OnlyFans alternative with internal discovery, browse-based
+- `wiki/entities/platforms/passes.md` — lowest fee (10%), most complete feature set
+- `wiki/entities/platforms/niche.md` — AI-model platform, simplicity + stability (Fanvue alternative)
 
-**Source pages created:**
+**Concept pages created (7):**
+- `wiki/concepts/creator-marketing-foundations.md` — hub page, funnel, platform selection matrix, creator type guide
+- `wiki/concepts/creator-audience-growth.md` — follower-to-subscriber conversion
+- `wiki/concepts/creator-content-strategy.md` — posting cadence, PPV vs subscription mix, content pillars
+- `wiki/concepts/creator-retention.md` — churn reduction, DM responsiveness, VIP tiers
+- `wiki/concepts/creator-external-promotion.md` — traffic from Twitter/X, Reddit, TikTok, Instagram
+- `wiki/concepts/ai-assistance-guardrails.md` — safe AI usage, what NOT to do, Claude workflow
+- `wiki/entities/companies/friend-1.md` — creator entity with platform comparison table + action items
+
+**Source pages created (6):**
 - `wiki/sources/onlyfans-official-docs.md`
 - `wiki/sources/creator-economy-2026-report.md`
 - `wiki/sources/ai-detection-platforms-2026.md`
@@ -38,16 +45,27 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 - `wiki/sources/twitter-x-creator-guide-2026.md`
 - `wiki/sources/reddit-creator-promotion-2026.md`
 
-**Briefs created:**
-- `briefs/2026-05-08_onlyfans-account-setup.md`
-- `briefs/2026-05-08_onlyfans-launch-strategy.md`
-- `briefs/2026-05-08_ai-content-workflow.md`
+**Briefs created (3):**
+- `briefs/2026-05-08_onlyfans-account-setup.md` — step-by-step OnlyFans setup with verification tips
+- `briefs/2026-05-08_onlyfans-launch-strategy.md` — 90-day content calendar + milestones
+- `briefs/2026-05-08_ai-content-workflow.md` — AI-assisted content workflow with safety guardrails
 
-**Wiki lint:** Bidirectional gaps reduced from 20 to ~14 (pre-existing gaps in local-SEO pages). All creator-marketing pages now have proper cross-links.
+**Wiki lint:** 70 pages indexed. 19 asymmetric gaps remain (all pre-existing local-SEO issues). All new creator-marketing pages have full bidirectional cross-links. Frontmatter quality: 0 missing fields.
+
+**Platform comparison (for friend's decision):**
+| Platform | Fee | AI Content | Best For |
+|-----------|-----|-----------|----------|
+| OnlyFans | 20% | Allowed w/ disclosure | Traditional NSFW |
+| Fanvue | 15-20% | Explicitly supported | AI/virtual influencers |
+| Fansly | 20% | Allowed w/ disclosure | Browse discovery |
+| Passes | 10% | Allowed w/ disclosure | Fee-conscious creators |
+| Patreon | 10% flat | SFW public; Adult/18+ only | Mainstream/SFW |
+| Niche | Competitive | Supported | AI models, simplicity |
 
 **Next steps (awaiting friend's data):**
 - Fill real handles, metrics, goals in `friend-1.md`
-- Execute launch strategy with real account credentials
+- Choose primary platform (OnlyFans or Fanvue) based on AI content needs
+- Execute launch strategy per `briefs/2026-05-08_onlyfans-launch-strategy.md`
 
 **New pages created (2026-05-08):**
 - `wiki/entities/platforms/onlyfans.md` — OnlyFans platform mechanics, monetization, policies
