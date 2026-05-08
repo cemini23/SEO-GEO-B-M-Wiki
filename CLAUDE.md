@@ -4,7 +4,13 @@ This file is the **schema**: it tells you (the LLM) how to operate this workspac
 
 ## Purpose
 
-Local knowledge hub for **SEO, local search (geographic SEO), Generative Engine Optimization (GEO/AEO), web design, and social media** — scoped to brick-and-mortar operators (single- or multi-location) who need to rank in local search, be cited correctly by AI engines, and run their owned + earned digital surfaces. The wiki uses a barbershop running example throughout because that's the seed domain it was built from, but the principles, tools, and playbooks generalize to any local service business — restaurants, dental clinics, auto shops, salons, gyms, retail.
+Local knowledge hub for **SEO, local search (geographic SEO), Generative Engine Optimization (GEO/AEO), web design, and social media** — scoped to two verticals:
+
+1. **Brick-and-mortar operators** (single- or multi-location) who need to rank in local search, be cited correctly by AI engines, and run their owned + earned digital surfaces. The wiki uses a barbershop running example throughout because that's the seed domain it was built from, but the principles, tools, and playbooks generalize to any local service business — restaurants, dental clinics, auto shops, salons, gyms, retail.
+
+2. **Creator-marketing operators** (subscription content platforms like OnlyFans, Patreon, Buy Me a Coffee) who need to grow an audience, convert free followers to paid subscribers, retain existing subscribers, and drive external traffic from social platforms (Twitter/X, Reddit, TikTok, Instagram) to their subscription page. The wiki uses a friends OnlyFans creator as a running example, but the principles generalize to any image-based subscription content creator.
+
+The wiki is a librarian that **manages, curates, and applies** that knowledge:
 
 The wiki is a librarian that **manages, curates, and applies** that knowledge:
 
@@ -132,6 +138,28 @@ updated: 2026-05-06
 - `[TENTATIVE]` — single source or untested in this market
 - `[NEEDS VERIFICATION YYYY-MM-DD]` — plausible but untested. **Always include the date** so staleness can be flagged. Important here because Google's algorithms + GBP features change quickly; a 2-year-old "best practice" may be wrong now.
 - `[RETRACTED]` — previously believed, now disproven (e.g. an algorithm change made it obsolete; a tactic got penalized). Keep in place with a note; don't delete
+
+## Related Wikis
+
+When a query needs data from another wiki, reference it using the `@wiki-alias/path/to/page.md` syntax. The LLM resolves these by reading the other wiki's files directly.
+
+| Alias | Path | Description |
+|-------|------|-------------|
+| `image-gen-wiki` | `/Users/claudiobarone/Desktop/projects/Image gen/wiki/` | Uncensored local image generation research, model cataloging, workflow tooling, persona/character ops |
+| `osint-wiki` | `/Users/claudiobarone/Desktop/OSINT WORKSPACE/wiki/` | OSINT and financial research (includes conductor/librarian service) |
+
+### Cross-wiki link syntax
+
+- Use `@wiki-alias/path/to/page.md` for cross-wiki references (e.g., `@image-gen-wiki/entities/models/pony-v6.md`)
+- Bidirectional: if SEO:GEO page A references Image Gen page B, add a matching `@seo-wiki/...` backlink on page B
+- When creating a stub in another wiki, note the cross-wiki dependency in `## Relations`
+
+### Using the OSINT conductor/librarian for unified search
+
+The OSINT workspace includes a **conductor** (MCP server that routes queries) + **librarian** (kb-server that serves wikis). To query across all three wikis:
+1. Sync all wikis to the librarian: `rsync -avz wiki/ cemini-librarian:/opt/cemini-wiki/seo-geo-wiki/wiki/`
+2. Run `kb ingest` on the librarian to reindex
+3. Use `conductor_query` tool (exposed via OSINT's `conductor/mcp_server.py`) to query across all wikis
 
 ## Operations
 

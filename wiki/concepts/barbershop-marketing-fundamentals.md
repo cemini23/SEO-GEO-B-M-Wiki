@@ -12,6 +12,10 @@ related:
   - entities/companies/shop-2.md
   - entities/platforms/instagram.md
   - concepts/first-90-days-playbook.md
+  - concepts/customer-retention-barbershop.md
+  - concepts/google-ads-local.md
+  - concepts/meta-ads-local.md
+  - concepts/promotional-campaigns-barbershop.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -26,7 +30,11 @@ updated: 2026-05-08
 - @entities/companies/shop-1.md
 - @entities/companies/shop-2.md
 - @entities/platforms/instagram.md
-- @concepts/first-90-days-playbook.md
+- @concepts/first-90-days-playbook.md`
+- @concepts/customer-retention-barbershop.md`
+- @concepts/google-ads-local.md`
+- @concepts/meta-ads-local.md`
+- @concepts/promotional-campaigns-barbershop.md`
 
 ## Raw Concept
 

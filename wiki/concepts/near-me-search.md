@@ -13,6 +13,7 @@ related:
   - entities/tools/local-falcon.md
   - entities/tools/claude-seo-agrici.md
   - concepts/first-90-days-playbook.md
+  - concepts/google-ads-local.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -23,6 +24,7 @@ updated: 2026-05-08
 - @concepts/local-seo-foundations.md
 - @concepts/google-business-profile.md
 - @concepts/local-pack-rankings.md
+- @concepts/google-ads-local.md
 - @entities/platforms/google-business-profile.md
 - @entities/platforms/apple-business-connect.md
 - @entities/platforms/bing-places.md

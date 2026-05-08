@@ -14,6 +14,26 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 **Status:** Adoption brief staged at `briefs/2026-05-07_tool-adoption-handoff.md`. Awaiting operator's "yes, let's install" plus first-session shop-data collection (still gated by W1 open decisions).
 
+### W3 — Creator marketing expansion (NEW)
+
+**Status:** Wiki scope expanded to include creator marketing (OnlyFans/subscription content platforms). 8 new pages created (3 platforms: OnlyFans, Twitter/X, Reddit; 5 concepts: creator-marketing-foundations, audience-growth, content-strategy, retention, external-promotion; 1 entity: friend-1). Index updated. Awaiting friend's real data to fill entity page.
+
+**New pages created (2026-05-08):**
+- `wiki/entities/platforms/onlyfans.md` — OnlyFans platform mechanics, monetization, policies
+- `wiki/entities/platforms/twitter-x.md` — Twitter/X external promotion strategy
+- `wiki/entities/platforms/reddit.md` — Reddit community promotion, karma building
+- `wiki/concepts/creator-marketing-foundations.md` — Hub page for creator funnel
+- `wiki/concepts/creator-audience-growth.md` — Follower-to-subscriber conversion
+- `wiki/concepts/creator-content-strategy.md` — Posting cadence, PPV vs subscription mix
+- `wiki/concepts/creator-retention.md` — Churn reduction, DM responsiveness
+- `wiki/concepts/creator-external-promotion.md` — Traffic from Twitter/X, Reddit, TikTok, Instagram
+- `wiki/entities/companies/friend-1.md` — Placeholder for OnlyFans creator friend
+
+**Next steps (once friend provides data):**
+- Fill in real handles, metrics, goals in `friend-1.md`
+- Ingest sources on OnlyFans best practices, creator economy reports
+- Build first 90-day playbook for the friend's launch
+
 **Tools adopted via 2026-05-07 audit:**
 - Yoast SEO (WordPress plugin, GO) — needs operator's website to be WordPress; verify in first session
 - claude-seo-agrici (Claude Code skill, GO) — local-SEO/GBP/NAP/grid-tracking

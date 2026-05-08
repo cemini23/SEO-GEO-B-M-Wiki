@@ -15,6 +15,7 @@ related:
   - entities/platforms/tiktok.md
   - entities/companies/friend-1.md
   - concepts/first-90-days-playbook.md
+  - sources/creator-economy-2026-report.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -30,6 +31,7 @@ updated: 2026-05-08
 - @entities/platforms/twitter-x.md
 - @entities/platforms/reddit.md
 - @entities/companies/friend-1.md
+- @sources/creator-economy-2026-report.md
 
 ## Raw Concept
 

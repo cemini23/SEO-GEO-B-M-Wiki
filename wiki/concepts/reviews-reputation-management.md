@@ -14,6 +14,7 @@ related:
   - concepts/barbershop-marketing-fundamentals.md
   - concepts/first-90-days-playbook.md
   - entities/tools/easy-review.md
+  - concepts/customer-retention-barbershop.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -29,6 +30,7 @@ updated: 2026-05-08
 - @entities/platforms/yelp.md
 - @entities/platforms/facebook.md
 - @concepts/barbershop-marketing-fundamentals.md
+- @concepts/customer-retention-barbershop.md
 - @concepts/first-90-days-playbook.md
 - @entities/tools/easy-review.md
 

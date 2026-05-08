@@ -10,6 +10,7 @@ related:
   - entities/platforms/facebook.md
   - entities/tools/marketingskills.md
   - concepts/first-90-days-playbook.md
+  - concepts/meta-ads-local.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08

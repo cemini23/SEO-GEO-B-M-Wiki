@@ -1,20 +1,26 @@
 ---
 title: Instagram (Platform)
 type: entity
-tags: [platform, social-media, meta, instagram]
-keywords: [instagram, reels, stories, IG, meta, social, portfolio]
+tags: [platform, social-media, meta, instagram, creator-promotion]
+keywords: [instagram, reels, stories, IG, meta, social, portfolio, creator promotion]
 related:
   - concepts/social-media-for-barbershops.md
   - concepts/barbershop-marketing-fundamentals.md
+  - concepts/creator-external-promotion.md
+  - concepts/creator-marketing-foundations.md
+  - concepts/meta-ads-local.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 ## Relations
 
 - @concepts/social-media-for-barbershops.md
 - @concepts/barbershop-marketing-fundamentals.md
+- @concepts/creator-external-promotion.md
+- @concepts/meta-ads-local.md
+- @concepts/creator-marketing-foundations.md
 
 ## Raw Concept
 

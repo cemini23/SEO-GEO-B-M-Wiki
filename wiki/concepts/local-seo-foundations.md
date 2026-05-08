@@ -13,6 +13,8 @@ related:
   - concepts/on-page-seo-local.md
   - concepts/local-pack-rankings.md
   - concepts/competitor-analysis-local.md
+  - concepts/google-ads-local.md
+  - concepts/meta-ads-local.md
   - entities/platforms/google-business-profile.md
   - entities/markets/local-market-template.md
   - entities/tools/google-search-console.md
@@ -54,7 +56,9 @@ updated: 2026-05-08
 - @entities/platforms/bing-places.md
 - @concepts/website-essentials-local-business.md
 - @sources/github-repo-audit-2026-05-07.md
-- @concepts/first-90-days-playbook.md
+- @concepts/first-90-days-playbook.md`
+- @concepts/google-ads-local.md`
+- @concepts/meta-ads-local.md`
 
 ## Raw Concept
 

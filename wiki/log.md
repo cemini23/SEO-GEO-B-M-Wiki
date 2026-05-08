@@ -11,6 +11,32 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-08] ingest | Twitter/X + Reddit creator promotion research
+
+Created source pages from 2026 web research (OpenTweet, Tweet Archivist, Shopify, Monetag, SocialBee, Sprout Social, Outfy, Sotrender, Pseudoface, Unfiltered Management, Substy, Reddit r/onlyfansadvice, KarmaGuy, Conbersa, IPFoxy, Indie Hackers, Link Assistant, AuditSocials, TechCrunch).
+
+- Created `wiki/sources/twitter-x-creator-guide-2026.md` (algorithm signals with Grok-powered transformer model, NSFW three-tier policy, monetization thresholds, traffic conversion benchmarks, engagement velocity research)
+- Created `wiki/sources/reddit-creator-promotion-2026.md` (10:1 rule verification, account warm-up schedule, karma building strategies, subreddit promotion tactics, ban avoidance)
+- Enriched `wiki/entities/platforms/twitter-x.md` with 2026 verified data: algorithm weights (reply=150x like), three-stage tweet lifecycle, SimClusters (145,000 topic clusters), external link penalty data, NSFW three-tier classification, monetization programs with thresholds
+- Enriched `wiki/entities/platforms/reddit.md` with 2026 verified data: account warm-up schedule (14-day plan), karma building strategies (Rising strategy, CQS), Contributor Quality Score, 67% creator adoption rate, 90/10 community participation ratio
+
+All `[NEEDS VERIFICATION 2026-05-08]` tags replaced with `[CONFIRMED]` and sourced to specific web references.
+
+---
+
+## [2026-05-08] ingest | OnlyFans platform docs + creator economy research
+
+Created comprehensive documentation on OnlyFans platform mechanics using 2026 web research (Brave Search). Populated from onlyfans.com/terms, B9 Agency, ofstats.net, gitnux.org, influencers.feedspot.com, thewebaddicted.com, sirency.com, list25.com.
+
+- Created `sources/onlyfans-official-docs.md` (official docs summary) — frontmatter type:source, read_status:read. Covers: verification process, 80/20 split, payout methods (Visa/Mastercard/Discover/Maestro + 3D Secure), PPV pricing ($5-200), subscription caps ($49.99), 2026 policy updates (AI disclosure, deepfake ban, enhanced verification, DSA/Online Safety Bill compliance), analytics metrics, platform scale (4.63M creators, 377.5M users, $7.22B revenue 2024).
+- Created `sources/creator-economy-2026-report.md` (2026 benchmarks) — 9 high-quality sources cited. Key findings: power-law distribution (top 1% earn $49K/year, top 0.1% earn 15x more), PPV dominance (59% of top earner revenue), 50% burnout rate, 42% earn $500-2K/month, high-ticket subscriptions ($15-25) outperform low-ticket by 40%, X (Twitter) dominates referrals.
+- Enriched `entities/platforms/onlyfans.md` with 2026 verified data: updated monetization models table with revenue shares, subscription tier benchmarks ($7.21 avg, $9.99-19.99 sweet spot), PPV ladder strategy, DM response time impact (30% higher retention for <1hr), content policy enforcement (2026 AI/deepfake bans), payout net calculations (75-78% after fees), traffic source hierarchy. Added CONFIRMED tags and NEEDS VERIFICATION 2026-05-08 tags per CLAUDE.md schema. Updated related: frontmatter and Relations body with new source pages.
+- Updated `wiki/index.md` Sources section: added "Creator platforms research" subsection with ai-detection-platforms-2026, onlyfans-tos-violations-case-studies (pre-existing), and the two new source pages.
+
+Pages touched: 2 created + 1 enriched + 2 index/log updated = 5 pages.
+
+---
+
 ## [2026-05-08] enrich | tier-2 stubs (yelp + GSC + GA4 + local-falcon) → workflow-grade pages
 
 Promoted four Tier-2 entity stubs from ~33-37 lines of skeletal content to ~110-180 lines each of workflow-grade reference material. Sourced from Yelp Trust & Safety + Yelp Content Guidelines + Sterling Sky 2025 enforcement walkthrough + GSC verification guides (Bluehost, Incremys, WordPress.com, Stan Ventures) + GA4 / GTM tutorials (Nimbata, Conversios, Digitnetix) + Local Falcon first-party pricing + comparative-tool reviews.
@@ -185,3 +211,27 @@ HEAVY-mode wiki scaffolding for a brick-and-mortar local-services SEO/GEO knowle
 Total scaffold: 30 wiki pages across 4 page types (concept + entity-platform + entity-company + entity-market + entity-tool). All pages `maturity: draft`. All `[NEEDS VERIFICATION 2026-05-07]` tags pending source ingest.
 
 **Next**: operator drops research documents into `research to be indexed/`. Ingest pipeline reads → discusses key takeaways → creates source pages → updates entity/concept pages → moves raw to permanent location → updates index + log.
+
+---
+
+## [2026-05-08] add | marketing expansion — google ads, meta ads, retention, promotions
+
+User requested expanding the marketing aspect of the wiki with 4 new concept pages. Researched current 2024-2026 best practices for each topic, then created full workflow-grade pages.
+
+- **[google-ads-local](concepts/google-ads-local.md)** — maturity: draft, ~900 words. Campaign types (Search/LSA/Display), radius targeting (3-10 miles, 5-mile sweet spot), dayparting, device bid adjustments, budget tiers ($5-50/day), landing page requirements (never homepage → dedicated service pages), Quality Score factors, key metrics (CPA $15 target, CTR 5-10%), common mistakes, GBP integration (70% more visits with complete profile). 6 sources cited.
+
+- **[meta-ads-local](concepts/meta-ads-local.md)** — maturity: draft, ~850 words. Campaign objectives (Traffic/Conversions/Brand Awareness/Lead Gen), geo/demographic/interest targeting, creative best practices (before/after photos, 15-30s Reels, copy formula [Hook]+[Offer]+[CTA]), Instagram vs Facebook placement strategy, retargeting (Pixel-based, engagement, profile visitors), local page vs central brand (local pages 12% better retention), ROAS 4:1 target. 7 sources cited.
+
+- **[customer-retention-barbershop](concepts/customer-retention-barbershop.md)** — maturity: draft, ~950 words. Retention fundamentals (quality + relationship + scheduling), loyalty programs (25% more repeat business, points/tiered/punch/subscription models, digital vs paper comparison $19-50/mo vs $30-100/yr), referral programs (double-sided rewards, 25-40% acquisition lift), win-back campaigns (4-6 weeks soft, 6-8 weeks incentive, 8+ weeks aggressive), VIP perks (priority booking, skip-the-wait, birthday rewards), measurement metrics (retention rate 60-70% avg, LTV $500+/yr). 8 sources cited.
+
+- **[promotional-campaigns-barbershop](concepts/promotional-campaigns-barbershop.md)** — maturity: draft, ~1000 words. Seasonal calendar (Back-to-School Aug-Sep, Wedding Season Apr-Jun/Sep-Oct, Holiday Nov-Dec, Summer Prep May-Jun), weekly recurring promotions (Manic Monday, Early Bird, Ladies Day, Friday Fresh), tactical types (flash sales, birthday campaigns 10x conversion vs standard, upsell/cross-sell at checkout), cross-promotions (coffee shop, gym, men's clothing, wedding venues), amplification channels (GSC cost $0, Meta $5-20/day, SMS $0.01-0.02/msg), promotion metrics (redemption rate 5-15% target). 8 sources cited.
+
+**Index updated**: wiki/index.md "Tier-2 deep-dives" section now includes all 4 new pages in alphabetical order.
+
+**Bidirectional backlinks**: each new page links to 3-4 related pages in `related:` frontmatter + `## Relations` body; those pages updated with reciprocal links.
+
+**Pages touched**: 4 created + 12 edited (backlink updates) + index.md + log.md = 18 pages.
+
+**Sources ingested**: 0 new source pages (all 4 pages synthesized from web research via Brave Search; no new raw-source drops). Tagged as `[Source: https://... (retrieved 2026-05-08)]`.
+
+**Next**: operator tests loyalty program + referral workflow in real shop; promote pages to `validated` after real-world LTV/retention measurement.

@@ -14,6 +14,9 @@ related:
   - entities/tools/marketingskills.md
   - entities/tools/seomachine.md
   - concepts/first-90-days-playbook.md
+  - @image-gen-wiki/concepts/marketing-your-persona.md
+  - @image-gen-wiki/concepts/persona-monetization-models.md
+  - @image-gen-wiki/concepts/persona-content-cadence.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08
@@ -31,6 +34,9 @@ updated: 2026-05-08
 - @entities/tools/marketingskills.md
 - @entities/tools/seomachine.md
 - @concepts/first-90-days-playbook.md
+- @image-gen-wiki/concepts/marketing-your-persona.md
+- @image-gen-wiki/concepts/persona-monetization-models.md
+- @image-gen-wiki/concepts/persona-content-cadence.md
 
 ## Raw Concept
 
@@ -106,6 +112,17 @@ In rough priority order:
 7. Periodically *test* citations: query each major engine with the realistic queries a customer would use ("best barbershop in [CITY, ST]," "barber [city] fade," "[shop name] reviews"), capture the answers, note whether the shop is mentioned and whether the mention is accurate. This is the core measurement loop.
 8. **Apply Aggarwal's top-3 methods** to the homepage + each location page: rewrite for fluency (concise, varied sentences — outsource the polish to a marketing skill like @entities/tools/marketingskills.md if needed), insert relevant statistics (review count, years in business, neighborhood-tenure, customer-volume metrics), add quotations (from real customer reviews — paraphrased as a "what customers say" block — *not* fabricated). For long-form content, the conditional-GO @entities/tools/seomachine.md is the option once content marketing is in scope.
 9. **Run citability audits with @entities/tools/geo-seo-claude.md**: this Claude Code skill specifically scores a URL's GEO-readiness (citability scoring, schema validation, AI-crawler accessibility). Treat the score as heuristic — the ground truth is the actual citation behavior of each engine — but the audits flag concrete gaps to fix.
+
+### Applying GEO to AI personas (cross-wiki: Image Gen wiki)
+
+For AI-generated personas running membership services (Fanvue, Patreon, etc.), GEO principles apply directly:
+
+- **Citation target**: instead of "best barbershop in [city]" the target query is "best AI influencer in [niche]" or "top synthetic model [category]"
+- **Structured data**: `Person` schema (not `LocalBusiness`) with `@image` pointing to generated content; `sameAs` links to Fanvue/Instagram/TikTok profiles
+- **Mention density**: Reddit (`r/ai_inflencer`, `r/synthetic_media`), niche forums, and AI-tool directories where persona work is discussed
+- **Content format**: FAQ-style posts answering "how was this image generated," "is this a real person," "what tools create AI influencers" — these are the queries GEO engines see
+
+See the Image Gen wiki's persona marketing page: `@image-gen-wiki/concepts/marketing-your-persona.md` for the full strategy linking GEO + content cadence + monetization.
 
 ### What to NOT do
 
