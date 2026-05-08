@@ -11,6 +11,8 @@ related:
   - concepts/on-page-seo-local.md
   - entities/tools/yoast-seo.md
   - entities/tools/geo-seo-claude.md
+  - entities/tools/google-search-console.md
+  - entities/platforms/yelp.md
   - sources/aggarwal-2024-geo-paper.md
   - concepts/first-90-days-playbook.md
 maturity: validated
@@ -27,6 +29,8 @@ updated: 2026-05-08
 - @concepts/on-page-seo-local.md
 - @entities/tools/yoast-seo.md
 - @entities/tools/geo-seo-claude.md
+- @entities/tools/google-search-console.md
+- @entities/platforms/yelp.md
 - @sources/aggarwal-2024-geo-paper.md
 - @concepts/first-90-days-playbook.md
 

@@ -10,6 +10,7 @@ related:
   - concepts/content-strategy-local.md
   - concepts/citation-building.md
   - entities/tools/google-search-console.md
+  - entities/tools/google-analytics-4.md
   - entities/tools/semrush.md
   - entities/tools/ahrefs.md
   - entities/tools/yoast-seo.md
@@ -28,6 +29,7 @@ updated: 2026-05-08
 - @concepts/content-strategy-local.md
 - @concepts/citation-building.md
 - @entities/tools/google-search-console.md
+- @entities/tools/google-analytics-4.md
 - @entities/tools/semrush.md
 - @entities/tools/ahrefs.md
 - @entities/tools/yoast-seo.md

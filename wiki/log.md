@@ -11,6 +11,22 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-08] enrich | tier-2 stubs (yelp + GSC + GA4 + local-falcon) → workflow-grade pages
+
+Promoted four Tier-2 entity stubs from ~33-37 lines of skeletal content to ~110-180 lines each of workflow-grade reference material. Sourced from Yelp Trust & Safety + Yelp Content Guidelines + Sterling Sky 2025 enforcement walkthrough + GSC verification guides (Bluehost, Incremys, WordPress.com, Stan Ventures) + GA4 / GTM tutorials (Nimbata, Conversios, Digitnetix) + Local Falcon first-party pricing + comparative-tool reviews.
+
+- @entities/platforms/yelp.md — added: Recommendation Software (the official term for the filter) and its 2024 LLM-enhanced detection; full Don't-Ask-For-Reviews policy quote with operator-side examples; 2025 enforcement shift from hidden search penalty to public Consumer Alerts; Apple Maps + Siri data-partnership context (why Yelp matters even to operators who don't compete on it); cross-platform interaction with Easy Review (no public response API → manual workflow only).
+- @entities/tools/google-search-console.md — added: Domain vs URL-prefix property comparison + DNS-TXT recommendation for stability; the four reports operators actually use (Performance Queries, Indexing Pages, URL Inspection, Enhancements); GSC ↔ GA4 integration; common operator mistakes including verification-element drop-during-redesign.
+- @entities/tools/google-analytics-4.md — added: 2024 conversion → "key event" rename; the four key events a B&M website should track (`click_to_call`, `get_directions`, `book_appointment`, `contact_form_submit`); GTM-as-only-sane-stack rationale; GBP-traffic-invisible-by-default attribution gotcha + UTM workaround; Consent Mode v2 (mandatory for EEA traffic since March 2024).
+- @entities/tools/local-falcon.md — added: full credit-pricing table (3×3=9 → 21×21 grids); credit-expiry "breakage" trap on monthly plans + workarounds; Falcon AI + AI Visibility Tracking (2025) + GSC Query Groups integration; Phase-0 audit table per CLAUDE.md schema; comparison to free alternative @entities/tools/claude-seo-agrici.md.
+
+- 4 pages updated; maturity stays `draft` (further upgrade to `validated` requires real-world operator testing in production)
+- 0 new related: edges added (existing cross-link graph already covered the natural neighbors)
+- 1 backlink added (yelp ↔ schema-markup-local — both already pointed at each other indirectly via reviews-reputation-management; making it bidirectional)
+- Lint: 0 orphans (excluding the 1 expected slcg-paper-off-topic), 0 bidirectional gaps, 0 dangling links, 0 cited-unread stubs, 0 stale [NEEDS VERIFICATION] tags
+
+---
+
 ## [2026-05-08] ingest | easy-review-briefs (1 new since cold-start; dry-run)
 
 First easy-review-briefs ingest pass — establishes the cutoff baseline for future cadence (≥10 briefs OR monthly per `prompts/ingest-easy-review-briefs.md`). Triggered as a procedure-validation dry-run, not by threshold; below the ≥3-brief minimum for pattern extraction so `concepts/review-response-templates.md` is unchanged this pass.

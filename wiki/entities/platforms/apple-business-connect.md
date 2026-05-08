@@ -7,9 +7,10 @@ related:
   - concepts/local-seo-foundations.md
   - concepts/near-me-search.md
   - concepts/citation-building.md
+  - entities/platforms/yelp.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 ## Relations
@@ -17,6 +18,7 @@ updated: 2026-05-07
 - @concepts/local-seo-foundations.md
 - @concepts/near-me-search.md
 - @concepts/citation-building.md
+- @entities/platforms/yelp.md
 
 ## Raw Concept
 
