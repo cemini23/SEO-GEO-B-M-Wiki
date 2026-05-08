@@ -31,6 +31,11 @@ If you're new to this wiki:
 
 - [slcg-paper-off-topic](sources/slcg-paper-off-topic.md) — S-LCG deterministic-optimization math paper; off-topic for barbershop SEO; recorded for ingest-completeness
 
+### Creator platforms research
+
+- [ai-detection-platforms-2026](sources/ai-detection-platforms-2026.md) — AI detection tools (Hive Moderation, Reality Defender, CloudSEK), OnlyFans 2026 enforcement, biometric verification, detection accuracy rates
+- [onlyfans-tos-violations-case-studies](sources/onlyfans-tos-violations-case-studies.md) — ToS violation patterns, ban triggers, DMCA takedown process, appeal process, 2026 policy updates
+
 ## Concepts
 
 ### Operator-onboarding playbook
@@ -54,10 +59,23 @@ If you're new to this wiki:
 - [citation-building](concepts/citation-building.md) — directory listings + NAP consistency across the citation web
 - [competitor-analysis-local](concepts/competitor-analysis-local.md) — methodology for SERP-derived competitor capture + gap analysis
 - [content-strategy-local](concepts/content-strategy-local.md) — beyond transactional pages: FAQ, style guides, local content for GEO/AEO + long-tail
+- [customer-retention-barbershop](concepts/customer-retention-barbershop.md) — loyalty programs, referral systems, win-back campaigns, VIP perks
+- [google-ads-local](concepts/google-ads-local.md) — paid search for barbershops: Local Services Ads, search campaigns, geo-targeting, landing pages
 - [local-pack-rankings](concepts/local-pack-rankings.md) — the 3-pack: documented + studied ranking factors, per-listing dynamics
+- [meta-ads-local](concepts/meta-ads-local.md) — Facebook/Instagram paid ads: local targeting, creative strategy, retargeting, multi-location
 - [on-page-seo-local](concepts/on-page-seo-local.md) — title tags, headers, location pages, internal linking, E-E-A-T
+- [promotional-campaigns-barbershop](concepts/promotional-campaigns-barbershop.md) — seasonal promotions, early-bird specials, cross-promotions, flash sales
 - [review-response-templates](concepts/review-response-templates.md) — frameworks for 5-star / 4-star / 3-or-lower / 1-star-likely-fake responses
 - [schema-markup-local](concepts/schema-markup-local.md) — `LocalBusiness` / `BarberShop` / `Service` / `FAQPage` JSON-LD specifics
+
+### Creator marketing (new vertical)
+
+- [creator-marketing-foundations](concepts/creator-marketing-foundations.md) — hub page: funnel (free → paid), platform selection, content pillars, first 90 days
+- [creator-audience-growth](concepts/creator-audience-growth.md) — getting new subscribers, converting free followers to paid, follower-to-subscriber ratios
+- [creator-content-strategy](concepts/creator-content-strategy.md) — what to post where, PPV vs subscription-only mix, posting cadence
+- [creator-retention](concepts/creator-retention.md) — keeping subscribers from churning, DM responsiveness, VIP tiers, win-back campaigns
+- [creator-external-promotion](concepts/creator-external-promotion.md) — driving traffic from Twitter/X, Reddit, TikTok, Instagram to OnlyFans
+- [ai-assistance-guardrails](concepts/ai-assistance-guardrails.md) — AI assistance guardrails for creators: what NOT to do, what TO do, human-in-the-loop rule, Claude-specific workflow
 
 ### Meta / setup
 
@@ -66,8 +84,9 @@ If you're new to this wiki:
 
 ## Entities
 
-### Companies (operator's shops)
+### Companies
 
+- [friend-1](entities/companies/friend-1.md) — placeholder; OnlyFans creator, image-based subscription content, new to platform
 - [shop-1](entities/companies/shop-1.md) — placeholder; operator to fill in legal name, address, GBP URL, etc.
 - [shop-2](entities/companies/shop-2.md) — placeholder; includes "Relationship to Shop 1" section (brand strategy, distance, shared resources)
 
@@ -82,7 +101,10 @@ If you're new to this wiki:
 - [facebook](entities/platforms/facebook.md) — FB Page + reviews + community discovery
 - [google-business-profile](entities/platforms/google-business-profile.md) — primary local listing platform; surfaces in Search/Maps/Knowledge Panel/AI Overviews
 - [instagram](entities/platforms/instagram.md) — visual-first social platform; Reels/Feed/Stories; saves > shares > watch-time signals
+- [onlyfans](entities/platforms/onlyfans.md) — subscription content platform; monthly tiers, PPV, DM monetization, creator economy hub
+- [reddit](entities/platforms/reddit.md) — community-driven promotion; subreddits, karma building, high-converting but high ban risk
 - [tiktok](entities/platforms/tiktok.md) — short-video discovery; barbershop-friendly transformation content
+- [twitter-x](entities/platforms/twitter-x.md) — primary external promotion for creators; SFW teasers, algorithm behavior, traffic conversion to OnlyFans
 - [yelp](entities/platforms/yelp.md) — review-led directory; Apple Maps + Alexa data partner
 
 ### Tools
