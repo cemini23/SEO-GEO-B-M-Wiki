@@ -35,6 +35,8 @@ If you're new to this wiki:
 
 - [ai-detection-platforms-2026](sources/ai-detection-platforms-2026.md) — AI detection tools (Hive Moderation, Reality Defender, CloudSEK), OnlyFans 2026 enforcement, biometric verification, detection accuracy rates
 - [onlyfans-tos-violations-case-studies](sources/onlyfans-tos-violations-case-studies.md) — ToS violation patterns, ban triggers, DMCA takedown process, appeal process, 2026 policy updates
+- [onlyfans-official-docs](sources/onlyfans-official-docs.md) — OnlyFans Help Center summary: verification, payout structure, 80/20 split, PPV pricing, 2026 policy updates (AI/disclosure, deepfake ban)
+- [creator-economy-2026-report](sources/creator-economy-2026-report.md) — 2026 benchmarks: 4.63M creators, $7.22B platform revenue, power-law distribution, top 1% earnings $49K/year, PPV dominance (59% of top earnings)
 
 ## Concepts
 
