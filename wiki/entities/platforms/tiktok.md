@@ -1,18 +1,22 @@
 ---
 title: TikTok (Platform)
 type: entity
-tags: [platform, social-media, tiktok, short-video]
-keywords: [tiktok, short video, algorithm, FYP, for-you-page, vertical video]
+tags: [platform, social-media, tiktok, short-video, creator-promotion]
+keywords: [tiktok, short video, algorithm, FYP, for-you-page, vertical video, creator promotion]
 related:
   - concepts/social-media-for-barbershops.md
+  - concepts/creator-external-promotion.md
+  - concepts/creator-marketing-foundations.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 ## Relations
 
 - @concepts/social-media-for-barbershops.md
+- @concepts/creator-external-promotion.md
+- @concepts/creator-marketing-foundations.md
 
 ## Raw Concept
 

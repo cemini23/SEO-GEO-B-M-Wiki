@@ -10,6 +10,10 @@ created: 2026-05-08
 updated: 2026-05-08
 ---
 
+## Relations
+
+- @entities/platforms/twitter-x.md
+
 ## Raw Concept
 
 Researched Twitter/X creator monetization and promotion strategies for 2026. Searched: "Twitter creator monetization 2026", "X platform creator best practices", "Twitter algorithm 2026 engagement", "X platform NSFW content policy 2026". Sources include OpenTweet, Tweet Archivist, Shopify, Monetag, SocialBee, Sprout Social, Outfy, Sotrender, and the X Help Center documentation.

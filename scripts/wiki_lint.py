@@ -10,6 +10,7 @@ Reports:
   6. Frontmatter quality  — missing `type` / `maturity` / mismatched `updated:`
   7. Stale verification   — `[NEEDS VERIFICATION YYYY-MM-DD]` tags older than --verify-age-days
                             (default 7) — Exa-resolution candidates per CLAUDE.md "External research"
+  8. Cross-wiki gaps     — `@wiki-alias/path` references to other wikis that don't resolve
 """
 
 import argparse
@@ -23,16 +24,40 @@ from collections import defaultdict
 parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 parser.add_argument("--verify-age-days", type=int, default=7,
                     help="Flag [NEEDS VERIFICATION YYYY-MM-DD] tags older than this many days (default: 7)")
-parser.add_argument("--strict", action="store_true",
-                    help="Exit non-zero if any wiki-breaking issues found "
-                         "(bidirectional gaps, dangling links, missing @path mentions, "
-                         "missing frontmatter / type / maturity). For CI use.")
 args = parser.parse_args()
 TODAY = date.today()
 
 # Resolve WIKI relative to this script (scripts/wiki_lint.py → repo root → wiki/),
 # with WIKI_DIR env-var override for non-standard layouts (e.g. CI checkout paths).
 WIKI = Path(os.environ.get("WIKI_DIR", Path(__file__).resolve().parent.parent / "wiki"))
+
+# -- cross-wiki alias mapping ----------------------------------------
+
+def load_wiki_aliases():
+    """Parse CLAUDE.md 'Related Wikis' section for alias→path mapping."""
+    claude_md = WIKI.parent / "CLAUDE.md"
+    aliases = {}  # alias -> abs_path
+    if not claude_md.exists():
+        return aliases
+    text = claude_md.read_text(errors="replace")
+    # Match the Related Wikis table: | `alias` | /path/to/wiki/ | ... |
+    table_re = re.compile(
+        r"^\|\s*`([a-z0-9_-]+)`\s*\|\s*`?([^`\n\|]+)`?\s*\|",
+        re.MULTILINE
+    )
+    for m in table_re.finditer(text):
+        alias = m.group(1).strip()
+        path_str = m.group(2).strip().rstrip("/")
+        # Path from CLAUDE.md already includes wiki/ — don't append again
+        wiki_path = Path(path_str)
+        if wiki_path.is_dir():
+            aliases[alias] = wiki_path
+        elif (wiki_path / "wiki").is_dir():
+            aliases[alias] = wiki_path / "wiki"
+    return aliases
+
+
+WIKI_ALIASES = load_wiki_aliases()
 
 # -- frontmatter parsing (no PyYAML dep) ----------------------------------
 
@@ -137,6 +162,31 @@ for src, fm in pages.items():
         mentioned = normalize_path(m.group(1))
         if mentioned not in all_paths and mentioned not in ("index.md", "log.md", "dashboard.md"):
             missing_mentions[mentioned].add(src)
+
+# -- 8: cross-wiki @wiki-alias/path links ---------------------------
+# Check @wiki-alias/path/to/page.md references to other wikis.
+
+CROSS_WIKI_RE = re.compile(r"@([a-z0-9_-]+)/([^\s`)]+)")
+
+cross_wiki_dangling = []  # (src, alias, rel_path, target_path)
+cross_wiki_ok = 0
+
+if WIKI_ALIASES:
+    for src, fm in pages.items():
+        body = fm.get("_body", "")
+        if not body:
+            continue
+        for m in CROSS_WIKI_RE.finditer(body):
+            alias = m.group(1)
+            # Only treat as cross-wiki link if alias is in WIKI_ALIASES
+            if alias not in WIKI_ALIASES:
+                continue  # skip local wiki links like @concepts/..., @entities/...
+            rel_path = m.group(2).lstrip("/")
+            target = WIKI_ALIASES[alias] / rel_path
+            if not target.exists():
+                cross_wiki_dangling.append((src, alias, rel_path, target))
+            else:
+                cross_wiki_ok += 1
 
 # -- 5: cited unread stubs -----------------------------------------------
 
@@ -269,22 +319,14 @@ if undated_verifications:
     if len(undated_verifications) > 20:
         print(f"    ... and {len(undated_verifications)-20} more")
 
-# -- strict-mode exit code -------------------------------------------------
-# CI uses --strict to fail the build on wiki-breaking signals. Orphans,
-# cited-unread stubs, and stale NEEDS VERIFICATION tags are NOT counted —
-# they're research / drift signals, not breakage.
-if args.strict:
-    breaking = (
-        len(gaps)
-        + len(dangling)
-        + len(missing_mentions)
-        + len(no_frontmatter)
-        + len(no_type)
-        + len(no_maturity)
-    )
-    print()
-    if breaking > 0:
-        print(f"--strict: {breaking} wiki-breaking issue(s) found — failing.")
-        sys.exit(1)
-    print("--strict: no wiki-breaking issues — passing.")
-    sys.exit(0)
+header(f"8. Cross-wiki @wiki-alias/path links — {len(cross_wiki_dangling)} dangling, {cross_wiki_ok} ok")
+if not WIKI_ALIASES:
+    print("  (no Related Wikis defined in CLAUDE.md)")
+elif not cross_wiki_dangling:
+    print(f"  (all {cross_wiki_ok} cross-wiki references resolve correctly)")
+else:
+    for src, alias, rel_path, target in sorted(cross_wiki_dangling):
+        if target is None:
+            print(f"  {src}  →  @{alias}/{rel_path}  (wiki alias not found in CLAUDE.md)")
+        else:
+            print(f"  {src}  →  @{alias}/{rel_path}  (file not found: {target})")

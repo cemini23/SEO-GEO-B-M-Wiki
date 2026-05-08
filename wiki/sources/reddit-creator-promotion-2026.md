@@ -10,6 +10,10 @@ created: 2026-05-08
 updated: 2026-05-08
 ---
 
+## Relations
+
+- @entities/platforms/reddit.md
+
 ## Raw Concept
 
 Researched Reddit self-promotion rules, karma building, and ban avoidance for creators in 2026. Searched: "Reddit self-promotion guide 2026 10:1 rule karma building", "how to promote on Reddit without ban 2026 OnlyFans creators", "Reddit karma building guide 2026 new account strategy". Sources include Pseudoface, Unfiltered Management, Substy, Reddit r/onlyfansadvice, npprteam, KarmaGuy, Conbersa, IPFoxy, Indie Hackers, and Link Assistant.
