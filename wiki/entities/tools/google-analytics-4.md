@@ -7,7 +7,9 @@ related:
   - concepts/website-essentials-local-business.md
   - concepts/first-90-days-playbook.md
   - entities/tools/google-search-console.md
-  - concepts/on-page-seo-local.md
+  - concepts/on-page-seo-local.md  - entities/platforms/yelp.md
+  - log.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -19,6 +21,9 @@ updated: 2026-05-08
 - @concepts/first-90-days-playbook.md
 - @entities/tools/google-search-console.md
 - @concepts/on-page-seo-local.md
+- @entities/platforms/yelp.md
+- @log.md
+
 
 ## Raw Concept
 

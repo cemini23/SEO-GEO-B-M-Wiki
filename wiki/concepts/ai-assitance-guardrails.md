@@ -21,6 +21,8 @@ updated: 2026-05-08
 ## Relations
 @briefs/2026-05-08_ai-content-workflow.md
 @concepts/creator-content-strategy.md
+- @entities/platforms/fanvue.md
+
 
 ## Raw Concept
 Created as part of Task 5 of the OnlyFans creator launch plan to define safe AI usage practices for content creators. Synthesized from platform policies, Claude's acceptable use guidelines, and creator workflow best practices.

@@ -9,7 +9,8 @@ related:
   - concepts/creator-external-promotion.md
   - concepts/creator-marketing-foundations.md
   - concepts/creator-content-strategy.md
-  - concepts/meta-ads-local.md
+  - concepts/meta-ads-local.md  - sources/instagram-reels-creator-marketing-2026.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -22,6 +23,9 @@ updated: 2026-05-08
 - @concepts/creator-external-promotion.md
 - @concepts/meta-ads-local.md
 - @concepts/creator-marketing-foundations.md
+- @concepts/creator-content-strategy.md
+- @sources/instagram-reels-creator-marketing-2026.md
+
 
 ## Raw Concept
 

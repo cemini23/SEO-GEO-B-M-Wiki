@@ -18,7 +18,12 @@ related:
   - entities/platforms/fansly.md
   - entities/platforms/passes.md
   - entities/platforms/patreon.md
-  - entities/platforms/niche.md
+  - entities/platforms/niche.md  - entities/platforms/tiktok.md
+  - sources/instagram-reels-creator-marketing-2026.md
+  - sources/onlyfans-funnel-optimization-2026.md
+  - sources/tiktok-marketing-2026.md
+  - sources/youtube-shorts-creator-growth-2026.md
+
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -33,6 +38,20 @@ updated: 2026-05-08
 - @entities/platforms/twitter-x.md
 - @entities/platforms/instagram.md
 - @entities/companies/friend-1.md
+- @concepts/ai-assitance-guardrails.md
+- @concepts/creator-external-promotion.md
+- @entities/platforms/fansly.md
+- @entities/platforms/fanvue.md
+- @entities/platforms/niche.md
+- @entities/platforms/passes.md
+- @entities/platforms/patreon.md
+- @entities/platforms/reddit.md
+- @entities/platforms/tiktok.md
+- @sources/instagram-reels-creator-marketing-2026.md
+- @sources/onlyfans-funnel-optimization-2026.md
+- @sources/tiktok-marketing-2026.md
+- @sources/youtube-shorts-creator-growth-2026.md
+
 
 ## Raw Concept
 

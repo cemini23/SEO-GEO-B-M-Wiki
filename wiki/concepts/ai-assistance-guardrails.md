@@ -8,7 +8,8 @@ related:
   - entities/platforms/onlyfans.md
   - entities/platforms/twitter-x.md
   - sources/ai-detection-platforms-2026.md
-  - sources/onlyfans-tos-violations-case-studies.md
+  - sources/onlyfans-tos-violations-case-studies.md  - sources/ai-detection-enforcement-2026.md
+
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -21,6 +22,8 @@ updated: 2026-05-08
 - @entities/platforms/twitter-x.md
 - @sources/ai-detection-platforms-2026.md
 - @sources/onlyfans-tos-violations-case-studies.md
+- @sources/ai-detection-enforcement-2026.md
+
 
 ## Raw Concept
 

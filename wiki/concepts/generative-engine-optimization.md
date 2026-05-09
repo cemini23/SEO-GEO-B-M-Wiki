@@ -13,7 +13,10 @@ related:
   - entities/tools/geo-seo-claude.md
   - entities/tools/marketingskills.md
   - entities/tools/seomachine.md
-  - concepts/first-90-days-playbook.md
+  - concepts/first-90-days-playbook.md  - concepts/social-media-for-barbershops.md
+  - entities/tools/google-search-console.md
+  - entities/tools/local-falcon.md
+
   - @image-gen-wiki/concepts/marketing-your-persona.md
   - @image-gen-wiki/concepts/persona-monetization-models.md
   - @image-gen-wiki/concepts/persona-content-cadence.md
@@ -37,6 +40,10 @@ updated: 2026-05-08
 - @image-gen-wiki/concepts/marketing-your-persona.md
 - @image-gen-wiki/concepts/persona-monetization-models.md
 - @image-gen-wiki/concepts/persona-content-cadence.md
+- @concepts/social-media-for-barbershops.md
+- @entities/tools/google-search-console.md
+- @entities/tools/local-falcon.md
+
 
 ## Raw Concept
 

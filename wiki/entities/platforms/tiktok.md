@@ -6,7 +6,8 @@ keywords: [tiktok, short video, algorithm, FYP, for-you-page, vertical video, cr
 related:
   - concepts/social-media-for-barbershops.md
   - concepts/creator-external-promotion.md
-  - concepts/creator-marketing-foundations.md
+  - concepts/creator-marketing-foundations.md  - sources/youtube-shorts-creator-growth-2026.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -20,6 +21,8 @@ updated: 2026-05-08
 - @concepts/creator-audience-growth.md
 - @concepts/creator-content-strategy.md
 - @sources/tiktok-marketing-2026.md
+- @sources/youtube-shorts-creator-growth-2026.md
+
 
 ## Raw Concept
 

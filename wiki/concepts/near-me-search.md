@@ -13,7 +13,8 @@ related:
   - entities/tools/local-falcon.md
   - entities/tools/claude-seo-agrici.md
   - concepts/first-90-days-playbook.md
-  - concepts/google-ads-local.md
+  - concepts/google-ads-local.md  - entities/markets/local-market-template.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -31,6 +32,8 @@ updated: 2026-05-08
 - @entities/tools/local-falcon.md
 - @entities/tools/claude-seo-agrici.md
 - @concepts/first-90-days-playbook.md
+- @entities/markets/local-market-template.md
+
 
 ## Raw Concept
 

@@ -13,7 +13,8 @@ related:
   - entities/platforms/onlyfans.md
   - entities/platforms/fansly.md
   - entities/platforms/niche.md
-  - entities/companies/friend-1.md
+  - entities/companies/friend-1.md  - sources/ai-detection-enforcement-2026.md
+
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -26,6 +27,10 @@ updated: 2026-05-08
 - @concepts/creator-external-promotion.md
 - @concepts/ai-assitance-guardrails.md
 - @entities/platforms/onlyfans.md
+- @entities/platforms/fansly.md
+- @entities/platforms/niche.md
+- @sources/ai-detection-enforcement-2026.md
+
 
 ## Raw Concept
 

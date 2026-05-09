@@ -21,7 +21,11 @@ related:
   - entities/platforms/fansly.md
   - entities/platforms/passes.md
   - entities/platforms/patreon.md
-  - entities/platforms/niche.md
+  - entities/platforms/niche.md  - concepts/ai-assistance-guardrails.md
+  - sources/ai-detection-enforcement-2026.md
+  - sources/creator-email-marketing-2026.md
+  - sources/paid-advertising-creators-2026.md
+
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -38,6 +42,18 @@ updated: 2026-05-08
 - @entities/platforms/reddit.md
 - @entities/companies/friend-1.md
 - @sources/creator-economy-2026-report.md
+- @concepts/ai-assistance-guardrails.md
+- @entities/platforms/fansly.md
+- @entities/platforms/fanvue.md
+- @entities/platforms/instagram.md
+- @entities/platforms/niche.md
+- @entities/platforms/passes.md
+- @entities/platforms/patreon.md
+- @entities/platforms/tiktok.md
+- @sources/ai-detection-enforcement-2026.md
+- @sources/creator-email-marketing-2026.md
+- @sources/paid-advertising-creators-2026.md
+
 
 ## Raw Concept
 

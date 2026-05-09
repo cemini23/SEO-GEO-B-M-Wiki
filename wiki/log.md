@@ -214,6 +214,21 @@ Total scaffold: 30 wiki pages across 4 page types (concept + entity-platform + e
 
 ---
 
+## [2026-05-08] lint | close all bidirectional backlink gaps across wiki (114 gaps → 0)
+
+Automated gap scan found 114 missing reciprocal backlinks across 38 wiki pages after the creator-marketing expansion. Python script added missing `related:` frontmatter entries + `## Relations` body links to each target page.
+
+**Result:** 0 missing backlinks, 5 dangling links (2 gitignored briefs, 3 cross-wiki references to image-gen-wiki — all legitimate).
+
+Pages touched: 38.
+
+Gap breakdown by file:
+- `concepts/ai-assistance-guardrails.md` +1 · `concepts/ai-assitance-guardrails.md` +1 · `concepts/citation-building.md` +4 · `concepts/competitor-analysis-local.md` +2 · `concepts/creator-audience-growth.md` +8 · `concepts/creator-content-strategy.md` +13 · `concepts/creator-external-promotion.md` +9 · `concepts/creator-marketing-foundations.md` +11 · `concepts/creator-retention.md` +3 · `concepts/customer-retention-barbershop.md` +1 · `concepts/generative-engine-optimization.md` +3 · `concepts/google-ads-local.md` +2 · `concepts/google-business-profile.md` +4 · `concepts/local-pack-rankings.md` +1 · `concepts/meta-ads-local.md` +3 · `concepts/near-me-search.md` +1 · `concepts/on-page-seo-local.md` +3 · `concepts/review-response-templates.md` +2 · `concepts/reviews-reputation-management.md` +5 · `concepts/schema-markup-local.md` +2 · `concepts/social-media-for-barbershops.md` +2 · `concepts/website-essentials-local-business.md` +1 · `entities/companies/shop-1.md` +2 · `entities/companies/shop-2.md` +3 · `entities/platforms/apple-business-connect.md` +1 · `entities/platforms/bing-places.md` +2 · `entities/platforms/fanvue.md` +3 · `entities/platforms/google-business-profile.md` +2 · `entities/platforms/instagram.md` +2 · `entities/platforms/onlyfans.md` +8 · `entities/platforms/tiktok.md` +1 · `entities/platforms/twitter-x.md` +1 · `entities/platforms/yelp.md` +1 · `entities/tools/claude-seo-agrici.md` +1 · `entities/tools/google-analytics-4.md` +2 · `entities/tools/google-search-console.md` +1 · `entities/tools/local-falcon.md` +1 · `entities/tools/marketingskills.md` +1
+
+Note: 4 concept pages (first-90-days-playbook, barbershop-marketing-fundamentals, session-1-facilitator-notes, local-seo-foundations) and log.md already had full reciprocal coverage — no gaps found. Bulk of gaps concentrated in creator-marketing pages from the May 8 expansion that forward-linked to many entities but missed the reciprocal.
+
+---
+
 ## [2026-05-08] add | marketing expansion — google ads, meta ads, retention, promotions
 
 User requested expanding the marketing aspect of the wiki with 4 new concept pages. Researched current 2024-2026 best practices for each topic, then created full workflow-grade pages.

@@ -8,7 +8,9 @@ related:
   - entities/markets/local-market-template.md
   - entities/companies/shop-2.md
   - concepts/first-90-days-playbook.md
-  - concepts/session-1-facilitator-notes.md
+  - concepts/session-1-facilitator-notes.md  - entities/tools/google-analytics-4.md
+  - entities/tools/yoast-seo.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -21,6 +23,9 @@ updated: 2026-05-08
 - @entities/companies/shop-2.md
 - @concepts/first-90-days-playbook.md
 - @concepts/session-1-facilitator-notes.md
+- @entities/tools/google-analytics-4.md
+- @entities/tools/yoast-seo.md
+
 
 ## Raw Concept
 

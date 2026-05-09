@@ -12,7 +12,9 @@ related:
   - concepts/citation-building.md
   - concepts/first-90-days-playbook.md
   - concepts/session-1-facilitator-notes.md
-  - entities/tools/easy-review.md
+  - entities/tools/easy-review.md  - concepts/google-ads-local.md
+  - concepts/local-pack-rankings.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -29,6 +31,9 @@ updated: 2026-05-08
 - @concepts/first-90-days-playbook.md
 - @concepts/session-1-facilitator-notes.md
 - @entities/tools/easy-review.md
+- @concepts/google-ads-local.md
+- @concepts/local-pack-rankings.md
+
 
 ## Raw Concept
 

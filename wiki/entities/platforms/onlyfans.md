@@ -18,12 +18,14 @@ related:
   - entities/platforms/patreon.md
   - entities/platforms/niche.md
   - entities/companies/friend-1.md
-- sources/onlyfans-funnel-optimization-2026.md
-- sources/creator-email-marketing-2026.md
+  - sources/onlyfans-funnel-optimization-2026.md
+  - sources/creator-email-marketing-2026.md
   - sources/onlyfans-official-docs.md
   - sources/creator-economy-2026-report.md
   - sources/ai-detection-platforms-2026.md
-  - sources/onlyfans-tos-violations-case-studies.md
+  - sources/onlyfans-tos-violations-case-studies.md  - concepts/ai-assistance-guardrails.md
+  - sources/ai-detection-enforcement-2026.md
+
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -41,6 +43,15 @@ updated: 2026-05-08
 - @entities/companies/friend-1.md
 - @sources/onlyfans-official-docs.md
 - @sources/creator-economy-2026-report.md
+- @concepts/ai-assistance-guardrails.md
+- @entities/platforms/fansly.md
+- @entities/platforms/fanvue.md
+- @entities/platforms/passes.md
+- @sources/ai-detection-enforcement-2026.md
+- @sources/ai-detection-platforms-2026.md
+- @sources/onlyfans-funnel-optimization-2026.md
+- @sources/onlyfans-tos-violations-case-studies.md
+
 
 ## Raw Concept
 

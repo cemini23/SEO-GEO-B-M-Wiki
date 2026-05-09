@@ -10,7 +10,8 @@ related:
   - concepts/review-response-templates.md
   - concepts/claude-platforms.md
   - concepts/generative-engine-optimization.md
-  - entities/tools/seomachine.md
+  - entities/tools/seomachine.md  - entities/tools/geo-seo-claude.md
+
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07
@@ -25,6 +26,8 @@ updated: 2026-05-07
 - @concepts/claude-platforms.md
 - @concepts/generative-engine-optimization.md
 - @entities/tools/seomachine.md
+- @entities/tools/geo-seo-claude.md
+
 
 ## Raw Concept
 

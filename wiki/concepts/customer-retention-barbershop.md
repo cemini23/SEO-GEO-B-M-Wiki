@@ -6,7 +6,8 @@ keywords: [loyalty program, customer retention, referral program, win-back, re-e
 related:
   - concepts/barbershop-marketing-fundamentals.md
   - concepts/social-media-for-barbershops.md
-  - concepts/reviews-reputation-management.md
+  - concepts/reviews-reputation-management.md  - concepts/promotional-campaigns-barbershop.md
+
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -17,6 +18,8 @@ updated: 2026-05-08
 - @concepts/barbershop-marketing-fundamentals.md — retention is frequency-driven in this industry
 - @concepts/social-media-for-barbershops.md — social channels for retention campaigns
 - @concepts/reviews-reputation-management.md — reviews as retention + referral drivers
+- @concepts/promotional-campaigns-barbershop.md
+
 
 ## Raw Concept
 

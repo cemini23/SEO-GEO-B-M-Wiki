@@ -11,7 +11,11 @@ related:
   - concepts/near-me-search.md
   - entities/platforms/google-business-profile.md
   - entities/tools/claude-seo-agrici.md
-  - concepts/first-90-days-playbook.md
+  - concepts/first-90-days-playbook.md  - concepts/barbershop-marketing-fundamentals.md
+  - concepts/generative-engine-optimization.md
+  - concepts/obsidian-navigation.md
+  - concepts/social-media-for-barbershops.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -27,6 +31,11 @@ updated: 2026-05-08
 - @entities/platforms/google-business-profile.md
 - @entities/tools/claude-seo-agrici.md
 - @concepts/first-90-days-playbook.md
+- @concepts/barbershop-marketing-fundamentals.md
+- @concepts/generative-engine-optimization.md
+- @concepts/obsidian-navigation.md
+- @concepts/social-media-for-barbershops.md
+
 
 ## Raw Concept
 

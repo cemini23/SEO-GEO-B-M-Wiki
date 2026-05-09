@@ -9,7 +9,8 @@ related:
   - entities/tools/claude-seo-agrici.md
   - concepts/first-90-days-playbook.md
   - concepts/competitor-analysis-local.md
-  - entities/tools/google-search-console.md
+  - entities/tools/google-search-console.md  - log.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -23,6 +24,8 @@ updated: 2026-05-08
 - @concepts/first-90-days-playbook.md
 - @concepts/competitor-analysis-local.md
 - @entities/tools/google-search-console.md
+- @log.md
+
 
 ## Raw Concept
 

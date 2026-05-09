@@ -6,7 +6,9 @@ keywords: [bing places, microsoft, bing maps, bing search, copilot, edge]
 related:
   - concepts/local-seo-foundations.md
   - concepts/near-me-search.md
-  - concepts/citation-building.md
+  - concepts/citation-building.md  - concepts/first-90-days-playbook.md
+  - entities/tools/google-search-console.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -17,6 +19,9 @@ updated: 2026-05-07
 - @concepts/local-seo-foundations.md
 - @concepts/near-me-search.md
 - @concepts/citation-building.md
+- @concepts/first-90-days-playbook.md
+- @entities/tools/google-search-console.md
+
 
 ## Raw Concept
 

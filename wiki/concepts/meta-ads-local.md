@@ -7,7 +7,10 @@ related:
   - concepts/social-media-for-barbershops.md
   - concepts/barbershop-marketing-fundamentals.md
   - entities/platforms/instagram.md
-  - entities/platforms/facebook.md
+  - entities/platforms/facebook.md  - concepts/local-seo-foundations.md
+  - concepts/promotional-campaigns-barbershop.md
+  - sources/paid-advertising-creators-2026.md
+
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -19,6 +22,10 @@ updated: 2026-05-08
 - @concepts/barbershop-marketing-fundamentals.md — Meta ads as acquisition engine
 - @entities/platforms/instagram.md — Instagram ad placement specifics
 - @entities/platforms/facebook.md — Facebook ad placement specifics
+- @concepts/local-seo-foundations.md
+- @concepts/promotional-campaigns-barbershop.md
+- @sources/paid-advertising-creators-2026.md
+
 
 ## Raw Concept
 

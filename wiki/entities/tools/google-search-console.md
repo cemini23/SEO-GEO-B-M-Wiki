@@ -10,7 +10,8 @@ related:
   - concepts/first-90-days-playbook.md
   - concepts/schema-markup-local.md
   - entities/tools/google-analytics-4.md
-  - entities/tools/local-falcon.md
+  - entities/tools/local-falcon.md  - log.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -25,6 +26,8 @@ updated: 2026-05-08
 - @concepts/schema-markup-local.md
 - @entities/tools/google-analytics-4.md
 - @entities/tools/local-falcon.md
+- @log.md
+
 
 ## Raw Concept
 

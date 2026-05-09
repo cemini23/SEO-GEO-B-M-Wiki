@@ -7,7 +7,9 @@ related:
   - concepts/local-seo-foundations.md
   - concepts/near-me-search.md
   - entities/platforms/google-business-profile.md
-  - concepts/on-page-seo-local.md
+  - concepts/on-page-seo-local.md  - concepts/barbershop-marketing-fundamentals.md
+  - concepts/promotional-campaigns-barbershop.md
+
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -19,6 +21,9 @@ updated: 2026-05-08
 - @concepts/near-me-search.md — bidding on "near me" and city-modified queries
 - @entities/platforms/google-business-profile.md — complete GBP = 70% more likely to convert from ads
 - @concepts/on-page-seo-local.md — landing page quality affects Quality Score
+- @concepts/barbershop-marketing-fundamentals.md
+- @concepts/promotional-campaigns-barbershop.md
+
 
 ## Raw Concept
 

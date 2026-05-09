@@ -10,7 +10,9 @@ related:
   - entities/platforms/yelp.md
   - entities/platforms/facebook.md
   - concepts/first-90-days-playbook.md
-  - entities/tools/easy-review.md
+  - entities/tools/easy-review.md  - concepts/local-pack-rankings.md
+  - log.md
+
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08
@@ -25,6 +27,9 @@ updated: 2026-05-08
 - @entities/platforms/facebook.md
 - @concepts/first-90-days-playbook.md
 - @entities/tools/easy-review.md
+- @concepts/local-pack-rankings.md
+- @log.md
+
 
 ## Raw Concept
 

@@ -15,7 +15,10 @@ related:
   - entities/tools/ahrefs.md
   - entities/tools/yoast-seo.md
   - entities/tools/claude-seo-agrici.md
-  - concepts/first-90-days-playbook.md
+  - concepts/first-90-days-playbook.md  - concepts/google-ads-local.md
+  - concepts/local-pack-rankings.md
+  - concepts/near-me-search.md
+
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08
@@ -35,6 +38,10 @@ updated: 2026-05-08
 - @entities/tools/yoast-seo.md
 - @entities/tools/claude-seo-agrici.md
 - @concepts/first-90-days-playbook.md
+- @concepts/google-ads-local.md
+- @concepts/local-pack-rankings.md
+- @concepts/near-me-search.md
+
 
 ## Raw Concept
 

@@ -10,7 +10,8 @@ related:
   - entities/platforms/facebook.md
   - entities/tools/marketingskills.md
   - concepts/first-90-days-playbook.md
-  - concepts/meta-ads-local.md
+  - concepts/meta-ads-local.md  - concepts/customer-retention-barbershop.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -24,6 +25,9 @@ updated: 2026-05-08
 - @entities/platforms/facebook.md
 - @entities/tools/marketingskills.md
 - @concepts/first-90-days-playbook.md
+- @concepts/customer-retention-barbershop.md
+- @concepts/meta-ads-local.md
+
 
 ## Raw Concept
 

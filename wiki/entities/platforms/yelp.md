@@ -8,7 +8,8 @@ related:
   - concepts/review-response-templates.md
   - concepts/citation-building.md
   - concepts/schema-markup-local.md
-  - entities/platforms/apple-business-connect.md
+  - entities/platforms/apple-business-connect.md  - log.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -21,6 +22,8 @@ updated: 2026-05-08
 - @concepts/citation-building.md
 - @concepts/schema-markup-local.md
 - @entities/platforms/apple-business-connect.md
+- @log.md
+
 
 ## Raw Concept
 

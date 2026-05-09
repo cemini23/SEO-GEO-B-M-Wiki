@@ -14,7 +14,11 @@ related:
   - entities/platforms/facebook.md
   - entities/tools/brightlocal.md
   - entities/tools/claude-seo-agrici.md
-  - concepts/first-90-days-playbook.md
+  - concepts/first-90-days-playbook.md  - concepts/competitor-analysis-local.md
+  - concepts/generative-engine-optimization.md
+  - concepts/local-pack-rankings.md
+  - entities/markets/local-market-template.md
+
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08
@@ -33,6 +37,11 @@ updated: 2026-05-08
 - @entities/tools/brightlocal.md
 - @entities/tools/claude-seo-agrici.md
 - @concepts/first-90-days-playbook.md
+- @concepts/competitor-analysis-local.md
+- @concepts/generative-engine-optimization.md
+- @concepts/local-pack-rankings.md
+- @entities/markets/local-market-template.md
+
 
 ## Raw Concept
 

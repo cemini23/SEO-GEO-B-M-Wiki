@@ -14,7 +14,12 @@ related:
   - concepts/barbershop-marketing-fundamentals.md
   - concepts/first-90-days-playbook.md
   - entities/tools/easy-review.md
-  - concepts/customer-retention-barbershop.md
+  - concepts/customer-retention-barbershop.md  - concepts/local-pack-rankings.md
+  - concepts/near-me-search.md
+  - concepts/session-1-facilitator-notes.md
+  - concepts/social-media-for-barbershops.md
+  - entities/tools/marketingskills.md
+
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
@@ -33,6 +38,12 @@ updated: 2026-05-08
 - @concepts/customer-retention-barbershop.md
 - @concepts/first-90-days-playbook.md
 - @entities/tools/easy-review.md
+- @concepts/local-pack-rankings.md
+- @concepts/near-me-search.md
+- @concepts/session-1-facilitator-notes.md
+- @concepts/social-media-for-barbershops.md
+- @entities/tools/marketingskills.md
+
 
 ## Raw Concept
 
