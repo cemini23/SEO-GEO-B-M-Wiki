@@ -25,6 +25,11 @@ related:
   - sources/tiktok-marketing-2026.md
   - sources/youtube-shorts-creator-growth-2026.md
   - sources/fanvue-gtm-blueprint-2026.md
+  - sources/viral-content-strategy-2026.md
+  - sources/instagram-reels-algorithm-2026.md
+  - sources/tiktok-algorithm-mechanics-2026.md
+  - concepts/viral-content-mechanics.md
+  - concepts/creator-content-flywheel.md
 
 maturity: draft
 created: 2026-05-08
@@ -37,6 +42,8 @@ updated: 2026-05-08
 - @concepts/creator-audience-growth.md
 - @concepts/creator-retention.md
 - @concepts/creator-external-promotion.md
+- @concepts/viral-content-mechanics.md
+- @concepts/creator-content-flywheel.md
 - @concepts/synthetic-creator-gtm.md
 - @concepts/creator-aesthetic-positioning.md
 - @entities/platforms/onlyfans.md
@@ -55,6 +62,9 @@ updated: 2026-05-08
 - @sources/tiktok-marketing-2026.md
 - @sources/youtube-shorts-creator-growth-2026.md
 - @sources/fanvue-gtm-blueprint-2026.md
+- @sources/viral-content-strategy-2026.md
+- @sources/instagram-reels-algorithm-2026.md
+- @sources/tiktok-algorithm-mechanics-2026.md
 
 
 ## Raw Concept
@@ -127,6 +137,46 @@ For image-based creators:
 - **Low-effort content** — blurry photos, poor lighting, no personality = no conversion
 
 `[CONFIRMED — sources/tiktok-marketing-2026.md, sources/instagram-reels-creator-marketing-2026.md]`: 2026 platform-specific content policies and algorithm preferences. TikTok favors 1–3 min content, original audio, and comment quality. Instagram weights watch time (40%) and saves/shares. Both penalize watermarked cross-posts.
+
+### Viral Content Patterns (2026)
+
+Five content structures that reliably trigger algorithmic amplification, adapted for creator marketing:
+
+| Pattern | How It Works | Best Platform | Creator Example |
+|---------|-------------|---------------|-----------------|
+| **Delayed Reveal** | Hook → build tension → payoff at the end | TikTok, Reels | "Wait for the final look..." (outfit transformation) |
+| **Controversy Loop** | Take a debatable stance → invite comments | TikTok, X | "Unpopular opinion: [niche topic] is overrated because..." |
+| **Save-Worthy Tutorial** | Teach something → viewers bookmark for later | Reels, TikTok | "How I set up my lighting — save this for your next shoot" |
+| **Relatable Story Arc** | Personal narrative → emotional connection → shares | TikTok, YouTube | "Nobody talks about what your first month on OF is really like" |
+| **Unexpected Comparison** | Side-by-side or "before vs after" → curiosity gap | Reels (carousel), TikTok | "$10 content vs $50 PPV — here's the actual difference" |
+
+### The Hook Framework
+
+Every piece of content needs to survive Phase 1 of algorithmic testing (first 0.5–3 seconds). Use a **3-part hook formula**:
+
+1. **Specific claim** — "This is why your content isn't growing"
+2. **Who it's for** — "for creators posting daily with under 1K followers"
+3. **What changes** — "I'm going to show you the 3 tweaks that tripled my reach"
+
+**Key principles:**
+- Start with the payoff, not the setup
+- Frame 1 must have movement, bold text, or a provocative verbal statement
+- Create a curiosity gap — don't reveal the answer immediately
+- Cut ruthlessly — every extra second lowers completion rate
+- Signal what's coming ("but first...", "here's what nobody tells you...")
+
+### Algorithmic Content Calendar Integration
+
+Map content types to algorithmic strengths:
+
+| Day | Content Goal | Format | Why |
+|-----|-------------|--------|-----|
+| **Mon** | Discovery (new followers) | Trending-sound Reel/TikTok | Algorithms push trending audio to new audiences |
+| **Tue** | Engagement (comments) | Controversy/opinion post | Debate drives comment velocity |
+| **Wed** | Value (saves) | Tutorial/how-to carousel | Saves = highest-weighted satisfaction signal on IG |
+| **Thu** | Connection (parasocial) | Behind-the-scenes Story + Reel | Builds loyalty → retention |
+| **Fri** | Conversion (subscribers) | Teaser set → "full on OF" | Weekend = 2x traffic on OF |
+| **Sat-Sun** | Volume + PPV | Main NSFW content + occasional PPV | Weekend traffic spike on all platforms |
 
 ## Snippets
 

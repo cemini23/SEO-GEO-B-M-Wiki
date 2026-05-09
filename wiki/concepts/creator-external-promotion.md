@@ -7,6 +7,8 @@ related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-audience-growth.md
   - concepts/creator-content-strategy.md
+  - concepts/viral-content-mechanics.md
+  - concepts/creator-content-flywheel.md
   - entities/platforms/twitter-x.md
   - entities/platforms/reddit.md
   - entities/platforms/instagram.md
@@ -20,9 +22,12 @@ related:
   - entities/platforms/niche.md
   - sources/creator-email-marketing-2026.md
   - sources/instagram-reels-creator-marketing-2026.md
+  - sources/instagram-reels-algorithm-2026.md
   - sources/paid-advertising-creators-2026.md
   - sources/tiktok-marketing-2026.md
+  - sources/tiktok-algorithm-mechanics-2026.md
   - sources/youtube-shorts-creator-growth-2026.md
+  - sources/viral-content-strategy-2026.md
 
 maturity: draft
 created: 2026-05-08
@@ -34,22 +39,27 @@ updated: 2026-05-08
 - @concepts/creator-marketing-foundations.md
 - @concepts/creator-audience-growth.md
 - @concepts/creator-content-strategy.md
+- @concepts/viral-content-mechanics.md
+- @concepts/creator-content-flywheel.md
 - @entities/platforms/twitter-x.md
 - @entities/platforms/reddit.md
 - @entities/platforms/instagram.md
 - @entities/platforms/tiktok.md
 - @entities/platforms/onlyfans.md
 - @entities/companies/friend-1.md
-- @entities/platforms/fansly.md
 - @entities/platforms/fanvue.md
+- @entities/platforms/fansly.md
 - @entities/platforms/passes.md
 - @entities/platforms/patreon.md
+- @entities/platforms/niche.md
 - @sources/creator-email-marketing-2026.md
-- @sources/fanvue-gtm-blueprint-2026.md
 - @sources/instagram-reels-creator-marketing-2026.md
+- @sources/instagram-reels-algorithm-2026.md
 - @sources/paid-advertising-creators-2026.md
 - @sources/tiktok-marketing-2026.md
+- @sources/tiktok-algorithm-mechanics-2026.md
 - @sources/youtube-shorts-creator-growth-2026.md
+- @sources/viral-content-strategy-2026.md
 
 
 ## Raw Concept
@@ -124,7 +134,54 @@ TikTok is pure SFW entertainment — viral reach possible but no direct NSFW pro
 
 `[CONFIRMED — sources/tiktok-marketing-2026.md]`: 2026 TikTok algorithm preferences confirmed: tiered distribution (100→1K→10K→100K), follower-first testing, 70% completion threshold for viral push, Creativity Program Beta replaces Creator Fund, longer content (1–3 min) favored, original audio gets discovery boost.
 
-### Link management
+### Algorithmic promotion strategies (2026)
+
+Each platform's algorithm rewards different behaviors. Align your promotion strategy accordingly:
+
+**TikTok algorithm alignment:**
+- Hook in first 0.5–1 second (movement, bold text, provocative statement)
+- Target 70%+ completion rate — the primary viral gate in 2026
+- Use original audio for discovery boost
+- Post 1–3 min content (longer content now favored over pure short-form)
+- Engagement velocity matters: rapid likes/shares/comments in first hour triggers wider distribution
+- Trending sounds + unique twist > copying trending formats verbatim
+
+**Instagram Reels algorithm alignment:**
+- Watch time is the #1 confirmed ranking signal (Adam Mosseri, Jan 2025)
+- **DM shares are the most heavily weighted distribution signal** — create "send this to someone who..." content
+- Reels 7–90 seconds have highest viral potential
+- Carousels extend engagement time (algorithm rewards)
+- Post 3–5 Reels/week minimum — consistency signals reliability
+- Never use TikTok watermarks (content won't be recommended to new audiences)
+- "Your Algorithm" feature (Dec 2025) means content must consistently satisfy individual users
+
+**X/Twitter algorithm alignment:**
+- "link in bio" tweets outperform direct-link tweets (near-total link suppression for non-Premium since March 2026)
+- Premium accounts get ~10x more reach than free
+- Threads and engagement tweets (replies to big accounts in your niche) build visibility
+- Focus on conversation, not broadcasting
+
+**YouTube Shorts algorithm alignment:**
+- Satisfaction signals over raw views — watch time and audience retention are primary
+- Consistent scheduling = 67% faster subscriber growth
+- AI-generated content shows 70% lower audience retention — avoid over-reliance on AI
+
+### Paid ads readiness checklist
+
+Don't start paid promotion until:
+- [ ] Organic strategy is proven (3+ months of consistent growth)
+- [ ] Conversion funnel tested end-to-end
+- [ ] Subscriber acquisition cost < $5/subscriber target
+- [ ] Email capture working to retain ad traffic
+- [ ] Posting cadence and content quality are stable
+
+**Channel-specific notes** `[CONFIRMED — sources/paid-advertising-creators-2026.md]`:
+
+| Channel | Best approach | Notes |
+|---------|--------------|-------|
+| **Meta/IG/FB ads** | SFW brand building → email capture → subscription funnel | Cannot link directly to OnlyFans; landing page required. Creator Fast Track: $1K–$3K/month |
+| **TikTok ads** | SFW brand awareness + TikTok Shop | GMV Max Ads: 5–8% conversion; Spark Ads boost organic posts |
+| **Google/YouTube ads** | Long-form audience growth | Pre-roll/Discovery; RPM $3–$6+ |
 
 | Tool | Purpose | Notes |
 |------|---------|-------|
@@ -134,27 +191,6 @@ TikTok is pure SFW entertainment — viral reach possible but no direct NSFW pro
 | **Native IG links** | Instagram's built-in multi-link | `TBD — verify 2026 availability for creators` |
 
 All external platforms should point to **one link** (the link-in-bio tool), which then offers the OnlyFans link plus other platforms. For image-based creators, **Stan Store** or **Beacons** are preferred because they include email capture — critical for audience ownership (see @concepts/creator-marketing-foundations.md#email-marketing).
-
-### What NOT to do (platform ban magnets)
-
-| Action | Twitter/X | Reddit | Instagram | TikTok |
-|--------|-----------|--------|-------------|--------|
-| **Direct NSFW in posts** | Sensitive flag | Often banned | Banned | Banned |
-| **Too many external links** | Shadowban risk | Spam filter | OK (bio only) | OK (bio only) |
-| **Bought followers** | Detection + ban | N/A | Detection + ban | Detection + ban |
-| **Spammy posting** | Algorithm demotion | Subreddit ban | Algorithm demotion | Algorithm demotion |
-| **Ignoring platform rules** | Suspension | Sitewide ban | Disabled account | Shadowban |
-
-**Paid ads overview** `[CONFIRMED — sources/paid-advertising-creators-2026.md]`:
-
-| Channel | When to use | Notes |
-|---------|-------------|-------|
-| **Meta/IG/FB ads** | After organic strategy proven; SFW brand building only | Cannot directly promote NSFW subscription platforms; use landing page + email funnel. Meta Creator Fast Track (2026): $1K–$3K/month for top creators |
-| **TikTok ads** | SFW brand awareness + Shop | GMV Max Ads achieve 5–8% in-app conversion; Spark Ads boost organic posts |
-| **Google/YouTube ads** | Long-form audience growth | Pre-roll/Discovery ads; RPM $3–$6+ on long-form |
-| **Reddit ads** | Niche community targeting | Promoted posts in relevant subreddits; rarely used by creators |
-
-**When to start paid ads** (don't start until): organic strategy is proven (3+ months), conversion funnel is tested, you know your subscriber acquisition cost (target <$5/subscriber), and email capture is working.
 
 ### What NOT to do (platform ban magnets)
 

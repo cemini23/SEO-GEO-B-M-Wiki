@@ -7,6 +7,8 @@ related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-content-strategy.md
   - concepts/creator-audience-growth.md
+  - concepts/synthetic-creator-gtm.md
+  - concepts/creator-aesthetic-positioning.md
   - entities/platforms/onlyfans.md
   - entities/companies/friend-1.md
   - entities/platforms/fanvue.md
@@ -15,6 +17,8 @@ related:
   - entities/platforms/patreon.md
   - sources/creator-email-marketing-2026.md
   - sources/onlyfans-funnel-optimization-2026.md
+  - sources/onlyfans-retention-systems-2026.md
+  - sources/viral-content-strategy-2026.md
   - sources/fanvue-gtm-blueprint-2026.md
 
 maturity: draft
@@ -37,24 +41,13 @@ updated: 2026-05-08
 - @entities/platforms/passes.md
 - @sources/creator-email-marketing-2026.md
 - @sources/onlyfans-funnel-optimization-2026.md
+- @sources/onlyfans-retention-systems-2026.md
+- @sources/viral-content-strategy-2026.md
 - @sources/fanvue-gtm-blueprint-2026.md
-
-maturity: draft
-created: 2026-05-08
-updated: 2026-05-08
----
-
-## Relations
-
-- @concepts/creator-marketing-foundations.md
-- @concepts/creator-content-strategy.md
-- @concepts/creator-audience-growth.md
-- @entities/platforms/onlyfans.md
-- @entities/companies/friend-1.md
-- @entities/platforms/patreon.md
-- @sources/creator-email-marketing-2026.md
-- @sources/onlyfans-funnel-optimization-2026.md
-
+  - @concepts/creator-content-flywheel.md
+  - @concepts/viral-content-mechanics.md
+  - @concepts/creator-aesthetic-positioning.md
+  - @concepts/synthetic-creator-gtm.md
 
 ## Raw Concept
 
@@ -78,12 +71,27 @@ Concept page for retention — keeping subscribers from canceling. In subscripti
 
 Ranked by impact:
 
-1. **DM responsiveness** — replying to subscriber DMs within 24h (same-day is better) is the #1 retention driver. Subscribers who get a reply are 3–5x less likely to cancel.
-2. **Consistent content quality** — subscribers cancel when content becomes repetitive, low-effort, or stops posting.
-3. **Personalized touches** — remembering subscriber names, preferences, previous conversations. Parasocial bond = retention.
-4. **Tier upgrades** — moving $10 subscribers to $25+ VIP tiers. Higher-tier subscribers churn at half the rate.
+1. **DM responsiveness** — replying within 1 hour is optimal; same-day baseline. Subscribers who get a reply are 3–5x less likely to cancel. Response time <1 hour correlates with ~30% higher retention. `[CONFIRMED — sources/onlyfans-retention-systems-2026.md]`
+2. **Consistent content quality** — subscribers cancel when content becomes repetitive, low-effort, or stops posting. **3+ days without new posts = immediate churn risk.**
+3. **Personalized touches** — remembering subscriber names, preferences, previous conversations. Parasocial bond = retention. "Subscribers who feel seen are worth far more than a fleeting crowd."
+4. **Tier upgrades** — moving $10 subscribers to $25+ VIP tiers. Higher-tier subscribers churn at **half the rate** of base-tier.
 5. **Exclusive drops for existing subscribers** — "subscribers-only early access" or "loyalty discount after 3 months."
-6. **PPV done right** — occasional premium content via DM. Too much = annoyance; too little = leaving money on the table.
+6. **Strategic PPV** — occasional premium content via DM. Open rates ~35%. Too much = "nickel-and-diming" annoyance → cancellations; too little = leaving money on the table.
+7. **Bundled promotions** — never discount more than 50% on any bundle. Below that attracts deal-hunters with zero loyalty who churn at bundle expiration. `[CONFIRMED — sources/onlyfans-retention-systems-2026.md]`
+
+### Subscriber lifecycle & churn windows
+
+The first 2 weeks after subscription determine long-term retention. Subscribers who don't receive immediate value in week 1 churn at **3x the rate** of those who do.
+
+| Subscriber age | Risk level | Monthly churn | Strategy |
+|----------------|-----------|---------------|----------|
+| **Days 1–7** | Critical | Up to 25% | Welcome flow, immediate value delivery |
+| **Week 2–4** | High | 15–20% | Onboarding DMs, preference questions |
+| **Month 1–3** | Medium | 10–15% | Regular engagement, content variety |
+| **Month 3–6** | Low-medium | 5–10% | VIP tiers, loyalty rewards |
+| **Month 6+** | Low | 3–5% | Parasocial bond, personalized content |
+
+`[CONFIRMED — sources/onlyfans-retention-systems-2026.md]`: Subscriber lifecycle data from B9 Agency managed creator accounts (50+ creators). First 2 weeks are the critical retention window.
 
 ### The DM retention system
 
@@ -93,17 +101,24 @@ Ranked by impact:
 | **Regular (1–3 months)** | Personal check-ins, remember details from last conversation | 1–2x/week |
 | **VIP (>3 months)** | Priority replies, custom content offers, birthday/holiday messages | 2–3x/week |
 | **At-risk (no engagement 14+ days)** | "Miss you" message, special offer, ask for feedback | When triggered |
+| **Canceled (win-back)** | Personalized "we miss you" + incentive | 30 days after cancel |
 
-`[CONFIRMED — sources/onlyfans-funnel-optimization-2026.md]`: Optimal DM cadence — response time <1 hour correlates with ~30% higher retention. Proactive outreach to at-risk subscribers (14+ days no engagement) improves win-back rates.
+**Response time benchmarks** `[CONFIRMED — sources/onlyfans-retention-systems-2026.md]`:
+- Response time <1 hour → ~30% higher retention
+- Same-day response is baseline; same-hour is ideal
+- Proactive DMs outperform reactive ones
 
 ### Warning signs a subscriber will cancel
 
-- **No login for 10+ days** (check OnlyFans analytics)
-- **No DM replies for 14+ days**
-- **Downgrade from VIP to lower tier**
-- **Negative feedback** ("content is repetitive," "posting less")
+| Signal | Detection method | Intervention window |
+|--------|-----------------|-------------------|
+| No login for 10+ days | OnlyFans analytics | 24h |
+| No DM replies for 14+ days | Manual/dashboard check | 24h |
+| Downgrade from VIP to lower tier | Tier tracking | 48h |
+| Negative feedback | DM monitoring | 24h |
+| Declining PPV open rates | Engagement analytics | 1 week |
 
-**Intervention**: Proactive DM within 24h of detecting warning sign. Offer something extra, ask for feedback, make them feel valued.
+**Intervention**: Proactive DM within 24h of detecting warning sign. Offer something extra, ask for feedback, make them feel valued before they're gone.
 
 ### What drives cancellations (avoid these)
 

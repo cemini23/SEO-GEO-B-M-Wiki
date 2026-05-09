@@ -11,6 +11,13 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-09] brief | Creator Marketing 24-Hour Sprint
+
+Time-boxed punch list for creator marketing operations. Covers OF account audit, content calendar, link-in-bio & email capture setup, platform optimization (X, IG, TikTok, Reddit), DM retention templates, PPV strategy, viral content prep, analytics review, and competitor spot-check. Linked from @concepts/creator-marketing-foundations.md.
+
+- Created `briefs/2026-05-09_creator-24hr-sprint.md` — 24-hour sprint punch list (24 blocks × 1 hour)
+- Updated `wiki/concepts/creator-marketing-foundations.md` — added backlink to sprint brief in frontmatter + Relations section
+
 ## [2026-05-08] ingest | Fanvue GTM Blueprint — synthetic creator monetization strategy
 
 Created comprehensive source page and synthesized 4-pillar GTM strategy for launching a synthetic AI creator on Fanvue.

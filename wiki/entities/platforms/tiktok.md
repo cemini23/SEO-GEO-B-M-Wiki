@@ -8,6 +8,7 @@ related:
   - concepts/creator-external-promotion.md
   - concepts/creator-marketing-foundations.md
   - concepts/creator-audience-growth.md
+  - concepts/creator-content-strategy.md
   - sources/youtube-shorts-creator-growth-2026.md
 
 maturity: draft

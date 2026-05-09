@@ -8,7 +8,7 @@ related:
   - concepts/creator-content-strategy.md
   - concepts/creator-retention.md
   - concepts/creator-external-promotion.md
-  - concepts/ai-assitance-guardrails.md
+  - concepts/ai-assistance-guardrails.md
   - entities/platforms/onlyfans.md
   - entities/platforms/twitter-x.md
   - entities/platforms/reddit.md
@@ -23,11 +23,14 @@ related:
   - entities/platforms/patreon.md
   - entities/platforms/niche.md
   - concepts/synthetic-creator-gtm.md
-  - concepts/creator-aesthetic-positioning.md  - concepts/ai-assitance-guardrails.md
+  - concepts/creator-aesthetic-positioning.md
+  - concepts/creator-content-flywheel.md
+  - concepts/viral-content-mechanics.md
   - sources/fanvue-gtm-blueprint-2026.md
   - sources/ai-detection-enforcement-2026.md
   - sources/creator-email-marketing-2026.md
   - sources/paid-advertising-creators-2026.md
+  - briefs/2026-05-09_creator-24hr-sprint.md
 
 maturity: draft
 created: 2026-05-08
@@ -59,6 +62,7 @@ updated: 2026-05-08
 - @sources/ai-detection-enforcement-2026.md
 - @sources/creator-email-marketing-2026.md
 - @sources/paid-advertising-creators-2026.md
+- @briefs/2026-05-09_creator-24hr-sprint.md
 
 
 ## Raw Concept
