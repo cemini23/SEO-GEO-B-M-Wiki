@@ -1,17 +1,15 @@
 ---
-title: Shop 2 — Operator's Second Barbershop (PLACEHOLDER)
-type: entity
-tags: [company, barbershop, operator-shop, placeholder]
-keywords: [shop 2, operator, barbershop, placeholder]
 related:
   - concepts/barbershop-marketing-fundamentals.md
   - concepts/first-90-days-playbook.md
   - entities/markets/local-market-template.md
   - entities/companies/shop-1.md
-  - concepts/session-1-facilitator-notes.md  - entities/tools/google-analytics-4.md
+  - concepts/session-1-facilitator-notes.md
+  - entities/tools/google-analytics-4.md
   - entities/tools/marketingskills.md
   - entities/tools/yoast-seo.md
 
+  - concepts/local-pack-rankings.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08

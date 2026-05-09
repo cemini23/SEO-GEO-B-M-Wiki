@@ -1,13 +1,10 @@
 ---
-title: "Instagram Reels Creator Marketing Strategy 2026"
-type: source
-tags: [instagram, reels, creator-economy, subscriptions, monetization]
-keywords: [instagram reels, subscriptions, creator monetization, 2026, stan store]
 related:
   - entities/platforms/instagram.md
   - concepts/creator-external-promotion.md
   - concepts/creator-content-strategy.md
   - concepts/creator-audience-growth.md
+  - concepts/creator-content-flywheel.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

@@ -1,8 +1,5 @@
 ---
-title: Review Response Templates
-type: concept
-tags: [reviews, reputation-management, templates, brief-fodder, hub]
-keywords: [review response, review reply, 5-star response, 1-star response, negative review, GBP response, yelp response, fake review]
+
 related:
   - concepts/reviews-reputation-management.md
   - entities/tools/marketingskills.md
@@ -10,12 +7,13 @@ related:
   - entities/platforms/yelp.md
   - entities/platforms/facebook.md
   - concepts/first-90-days-playbook.md
-  - entities/tools/easy-review.md  - concepts/local-pack-rankings.md
-  - log.md
+  - entities/tools/easy-review.md
+  - concepts/local-pack-rankings.md
 
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

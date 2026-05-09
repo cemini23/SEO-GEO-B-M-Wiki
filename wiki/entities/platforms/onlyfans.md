@@ -1,8 +1,5 @@
 ---
-title: OnlyFans (Platform)
-type: entity
-tags: [platform, creator-economy, subscription, onlyfans, nsfw]
-keywords: [onlyfans, subscription, creator economy, ppv, fans, content monetization]
+
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-audience-growth.md
@@ -23,12 +20,15 @@ related:
   - sources/onlyfans-official-docs.md
   - sources/creator-economy-2026-report.md
   - sources/ai-detection-platforms-2026.md
-  - sources/onlyfans-tos-violations-case-studies.md  - concepts/ai-assistance-guardrails.md
+  - sources/onlyfans-tos-violations-case-studies.md
+  - concepts/ai-assistance-guardrails.md
   - sources/ai-detection-enforcement-2026.md
 
+  - sources/fanvue-gtm-blueprint-2026.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
+
 ---
 
 ## Relations

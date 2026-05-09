@@ -1,8 +1,4 @@
 ---
-title: GEO SEO Claude (Trabzada — GEO/AEO Skill)
-type: entity
-tags: [seo-tooling, geo-aeo, generative-engine-optimization-tool, claude-code-skill]
-keywords: [geo-seo-claude, ai crawler analysis, citability scoring, perplexity optimization, answer engine optimization, schema validation]
 related:
   - sources/github-repo-audit-2026-05-07.md
   - sources/aggarwal-2024-geo-paper.md
@@ -10,6 +6,7 @@ related:
   - concepts/schema-markup-local.md
   - concepts/claude-platforms.md
   - entities/tools/claude-seo-agrici.md
+  - entities/tools/marketingskills.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07

@@ -1,8 +1,4 @@
 ---
-title: Creator Audience Growth
-type: concept
-tags: [creator-economy, audience-growth, onlyfans, subscriptions, conversion]
-keywords: [audience growth, followers, subscribers, conversion, onlyfans, twitter, reddit]
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-content-strategy.md
@@ -26,6 +22,7 @@ related:
   - sources/tiktok-marketing-2026.md
   - sources/youtube-shorts-creator-growth-2026.md
 
+  - sources/fanvue-gtm-blueprint-2026.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

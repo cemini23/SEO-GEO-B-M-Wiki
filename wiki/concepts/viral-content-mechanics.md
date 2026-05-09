@@ -1,8 +1,4 @@
 ---
-title: Viral Content Mechanics
-type: concept
-tags: [viral-content, algorithm, content-strategy, engagement, cross-platform]
-keywords: [viral, algorithm signals, completion rate, saves, shares, hooks, engagement velocity]
 related:
   - sources/viral-content-strategy-2026.md
   - sources/tiktok-algorithm-mechanics-2026.md
@@ -13,6 +9,7 @@ related:
   - concepts/creator-audience-growth.md
   - concepts/creator-retention.md
   - concepts/creator-marketing-foundations.md
+  - concepts/creator-content-flywheel.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

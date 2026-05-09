@@ -1,12 +1,17 @@
 ---
-title: Instagram Reels Algorithm & Growth Strategy 2026
+title: "Instagram Reels Algorithm (2026)"
 type: source
-tags: [instagram, reels, algorithm, watch-time, growth-strategy]
-keywords: [Instagram Reels, algorithm 2026, watch time, DM shares, carousels, growth]
+tags: [instagram, reels, algorithm, creator-economy, viral-content]
+keywords: [Instagram Reels, algorithm ranking, watch time, DM shares, Meta algorithm]
+related:
+  - concepts/creator-content-flywheel.md
+  - concepts/creator-content-strategy.md
+  - concepts/creator-external-promotion.md
+  - concepts/viral-content-mechanics.md
+maturity: draft
 read_status: deep-read
-maturity: validated
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-09
 ---
 
 ## Relations

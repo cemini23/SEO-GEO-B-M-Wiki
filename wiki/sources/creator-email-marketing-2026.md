@@ -1,13 +1,10 @@
 ---
-title: "Creator Email Marketing & List Building 2026"
-type: source
-tags: [email-marketing, list-building, creator-economy, onlyfans, patreon, conversion]
-keywords: [email marketing, creator, list building, onlyfans, patreon, conversion, 2026]
 related:
   - concepts/creator-external-promotion.md
   - concepts/creator-audience-growth.md
   - concepts/creator-retention.md
   - concepts/creator-marketing-foundations.md
+  - entities/platforms/onlyfans.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

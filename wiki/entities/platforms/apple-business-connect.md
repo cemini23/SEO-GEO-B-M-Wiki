@@ -1,4 +1,5 @@
 ---
+
 title: Apple Business Connect (Platform)
 type: entity
 tags: [platform, apple, apple-business-connect, apple-maps, directory]
@@ -7,11 +8,13 @@ related:
   - concepts/local-seo-foundations.md
   - concepts/near-me-search.md
   - concepts/citation-building.md
-  - entities/platforms/yelp.md  - concepts/first-90-days-playbook.md
+  - entities/platforms/yelp.md
+  - concepts/first-90-days-playbook.md
 
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

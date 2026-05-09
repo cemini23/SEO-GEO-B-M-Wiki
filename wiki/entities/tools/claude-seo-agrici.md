@@ -1,8 +1,5 @@
 ---
-title: Claude SEO (Agrici — Local Engine)
-type: entity
-tags: [seo-tooling, local-pack-rank-tracker, gbp-tool, citation-builder, claude-code-skill]
-keywords: [claude-seo, geo-grid rank tracking, nap consistency, gbp audit, doorway page prevention]
+
 related:
   - sources/github-repo-audit-2026-05-07.md
   - concepts/local-seo-foundations.md
@@ -16,11 +13,12 @@ related:
   - entities/tools/local-falcon.md
   - entities/tools/geo-seo-claude.md
   - concepts/first-90-days-playbook.md
-  - concepts/session-1-facilitator-notes.md  - log.md
+  - concepts/session-1-facilitator-notes.md
 
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

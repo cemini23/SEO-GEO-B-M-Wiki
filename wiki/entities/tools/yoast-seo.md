@@ -1,8 +1,4 @@
 ---
-title: Yoast SEO (WordPress Plugin)
-type: entity
-tags: [seo-tooling, wordpress, on-page-seo, schema-generator, gui-tool]
-keywords: [yoast, wordpress seo plugin, xml sitemap, json-ld schema, meta tags, readability]
 related:
   - sources/github-repo-audit-2026-05-07.md
   - concepts/website-essentials-local-business.md
@@ -10,6 +6,8 @@ related:
   - concepts/schema-markup-local.md
   - concepts/local-seo-foundations.md
   - concepts/claude-platforms.md
+  - entities/companies/shop-1.md
+  - entities/companies/shop-2.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07

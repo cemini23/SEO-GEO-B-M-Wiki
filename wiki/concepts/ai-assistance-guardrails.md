@@ -1,18 +1,17 @@
 ---
-title: AI Assistance Guardrails for Creators
-type: concept
-tags: [ai-assistance, guardrails, creator-economy, policy-compliance]
-keywords: [ai assistance, claude, content creation, policy compliance, detection-avoidance]
+
 related:
   - concepts/creator-marketing-foundations.md
   - entities/platforms/onlyfans.md
   - entities/platforms/twitter-x.md
   - sources/ai-detection-platforms-2026.md
-  - sources/onlyfans-tos-violations-case-studies.md  - sources/ai-detection-enforcement-2026.md
+  - sources/onlyfans-tos-violations-case-studies.md
+  - sources/ai-detection-enforcement-2026.md
 
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
+
 ---
 
 ## Relations

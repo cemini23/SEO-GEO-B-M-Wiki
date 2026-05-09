@@ -1,13 +1,8 @@
 ---
-title: AI Detection on Content Platforms 2026
-type: source
-tags: [ai-detection, platform-policy, content-moderation]
-keywords: [ai detection, onlyfans, content moderation, policy-violation]
-read_status: read
-maturity: draft
 related:
   - entities/platforms/onlyfans.md
   - concepts/ai-assistance-guardrails.md
+  - concepts/ai-assitance-guardrails.md
 created: 2026-05-08
 updated: 2026-05-08
 ---

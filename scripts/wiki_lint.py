@@ -131,6 +131,12 @@ dangling = []               # (source, raw_target) where target file doesn't exi
 for src, fm in pages.items():
     for tgt_raw in fm.get("related", []):
         tgt = normalize_path(tgt_raw)
+        # Skip cross-wiki references (handled in section 8)
+        if tgt.startswith('@'):
+            continue
+        # Skip briefs/ references (ephemeral deliverables, not wiki pages)
+        if tgt.startswith('briefs/'):
+            continue
         if tgt in all_paths:
             inbound[tgt].add(src)
             outbound[src].add(tgt)
@@ -160,7 +166,12 @@ for src, fm in pages.items():
         continue
     for m in AT_PATH_RE.finditer(body):
         mentioned = normalize_path(m.group(1))
-        if mentioned not in all_paths and mentioned not in ("index.md", "log.md", "dashboard.md"):
+        if mentioned not in all_paths and mentioned not in ("index.md", "log.md", "dashboard.md", "example-page.md"):
+            # Skip briefs/ and cross-wiki alias references
+            if mentioned.startswith('briefs/'):
+                continue
+            if '/' in mentioned and mentioned.split('/')[0] in WIKI_ALIASES:
+                continue
             missing_mentions[mentioned].add(src)
 
 # -- 8: cross-wiki @wiki-alias/path links ---------------------------

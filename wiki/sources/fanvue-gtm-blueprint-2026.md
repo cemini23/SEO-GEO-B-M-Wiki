@@ -1,8 +1,4 @@
 ---
-title: "Strategic Go-To-Market Blueprint for Synthetic Media Personas: 2026 Fanvue Integration and Market Optimization"
-type: source
-tags: [fanvue, synthetic-creator, go-to-market, geo, ai-persona, monetization, 2026]
-keywords: [fanvue, synthetic media, AI creator, go-to-market, generative engine optimization, monetization strategy, virtual influencer]
 related:
   - concepts/synthetic-creator-gtm.md
   - concepts/creator-aesthetic-positioning.md
@@ -15,6 +11,7 @@ related:
   - entities/platforms/fanvue.md
   - entities/platforms/onlyfans.md
   - entities/companies/friend-1.md
+  - concepts/creator-content-flywheel.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

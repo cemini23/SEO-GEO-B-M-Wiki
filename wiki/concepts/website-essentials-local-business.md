@@ -1,8 +1,5 @@
 ---
-title: Website Essentials for a Local Business
-type: concept
-tags: [web-design, local-seo, website, hub]
-keywords: [homepage, location pages, services, mobile UX, CTA, page speed, core web vitals, INP]
+
 related:
   - concepts/local-seo-foundations.md
   - concepts/schema-markup-local.md
@@ -12,11 +9,13 @@ related:
   - entities/tools/google-analytics-4.md
   - entities/tools/google-search-console.md
   - entities/tools/yoast-seo.md
-  - concepts/first-90-days-playbook.md  - concepts/local-pack-rankings.md
+  - concepts/first-90-days-playbook.md
+  - concepts/local-pack-rankings.md
 
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

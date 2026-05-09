@@ -1,19 +1,18 @@
 ---
-title: Shop 1 — Operator's First Barbershop (PLACEHOLDER)
-type: entity
-tags: [company, barbershop, operator-shop, placeholder]
-keywords: [shop 1, operator, barbershop, placeholder]
+
 related:
   - concepts/barbershop-marketing-fundamentals.md
   - entities/markets/local-market-template.md
   - entities/companies/shop-2.md
   - concepts/first-90-days-playbook.md
-  - concepts/session-1-facilitator-notes.md  - entities/tools/google-analytics-4.md
+  - concepts/session-1-facilitator-notes.md
+  - entities/tools/google-analytics-4.md
   - entities/tools/yoast-seo.md
 
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

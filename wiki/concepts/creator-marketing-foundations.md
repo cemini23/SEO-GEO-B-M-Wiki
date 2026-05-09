@@ -1,8 +1,4 @@
 ---
-title: Creator Marketing Foundations
-type: concept
-tags: [creator-economy, marketing, onlyfans, subscription, hub]
-keywords: [creator marketing, onlyfans, subscription, funnel, audience growth, retention]
 related:
   - concepts/creator-audience-growth.md
   - concepts/creator-content-strategy.md
@@ -32,6 +28,8 @@ related:
   - sources/paid-advertising-creators-2026.md
   - briefs/2026-05-09_creator-24hr-sprint.md
 
+  - concepts/ai-assitance-guardrails.md
+  - concepts/generative-engine-optimization.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

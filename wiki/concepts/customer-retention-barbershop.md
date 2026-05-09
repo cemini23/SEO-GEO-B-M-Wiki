@@ -1,16 +1,15 @@
 ---
-title: Customer Retention for Barbershops
-type: concept
-tags: [retention, loyalty, referrals, client-lifetime-value]
-keywords: [loyalty program, customer retention, referral program, win-back, re-engagement]
+
 related:
   - concepts/barbershop-marketing-fundamentals.md
   - concepts/social-media-for-barbershops.md
-  - concepts/reviews-reputation-management.md  - concepts/promotional-campaigns-barbershop.md
+  - concepts/reviews-reputation-management.md
+  - concepts/promotional-campaigns-barbershop.md
 
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
+
 ---
 
 ## Relations

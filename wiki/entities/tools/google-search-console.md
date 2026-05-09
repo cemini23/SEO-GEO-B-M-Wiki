@@ -1,8 +1,5 @@
 ---
-title: Google Search Console (Tool)
-type: entity
-tags: [tool, google, search-console, gsc, seo-audit]
-keywords: [google search console, GSC, indexing, query report, performance, search appearance, structured data validation]
+
 related:
   - concepts/local-seo-foundations.md
   - concepts/on-page-seo-local.md
@@ -10,11 +7,14 @@ related:
   - concepts/first-90-days-playbook.md
   - concepts/schema-markup-local.md
   - entities/tools/google-analytics-4.md
-  - entities/tools/local-falcon.md  - log.md
+  - entities/tools/local-falcon.md
 
+  - concepts/generative-engine-optimization.md
+  - entities/platforms/bing-places.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

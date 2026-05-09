@@ -1,18 +1,17 @@
 ---
-title: Google Ads for Local Barbershops
-type: concept
-tags: [paid-search, google-ads, local-seo, customer-acquisition]
-keywords: [google ads, ppc, local services ads, search campaigns, geo-targeting]
+
 related:
   - concepts/local-seo-foundations.md
   - concepts/near-me-search.md
   - entities/platforms/google-business-profile.md
-  - concepts/on-page-seo-local.md  - concepts/barbershop-marketing-fundamentals.md
+  - concepts/on-page-seo-local.md
+  - concepts/barbershop-marketing-fundamentals.md
   - concepts/promotional-campaigns-barbershop.md
 
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
+
 ---
 
 ## Relations

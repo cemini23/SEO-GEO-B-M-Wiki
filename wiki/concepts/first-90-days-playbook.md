@@ -1,8 +1,4 @@
 ---
-title: First 90 Days Playbook
-type: concept
-tags: [playbook, onboarding, operator-guide, sequencing, priority-order]
-keywords: [first 90 days, playbook, onboarding, where to start, priority order, local SEO sequencing]
 related:
   - concepts/local-seo-foundations.md
   - concepts/google-business-profile.md
@@ -29,6 +25,9 @@ related:
   - entities/tools/google-analytics-4.md
   - concepts/session-1-facilitator-notes.md
   - entities/tools/easy-review.md
+  - concepts/creator-marketing-foundations.md
+  - entities/platforms/apple-business-connect.md
+  - entities/platforms/bing-places.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08

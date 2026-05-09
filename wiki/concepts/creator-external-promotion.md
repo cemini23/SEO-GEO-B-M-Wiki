@@ -1,8 +1,4 @@
 ---
-title: Creator External Promotion
-type: concept
-tags: [creator-economy, promotion, twitter, reddit, instagram, tiktok, traffic]
-keywords: [external promotion, twitter, x, reddit, instagram, tiktok, traffic driving, onlyfans]
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-audience-growth.md
@@ -29,6 +25,8 @@ related:
   - sources/youtube-shorts-creator-growth-2026.md
   - sources/viral-content-strategy-2026.md
 
+  - concepts/synthetic-creator-gtm.md
+  - sources/fanvue-gtm-blueprint-2026.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

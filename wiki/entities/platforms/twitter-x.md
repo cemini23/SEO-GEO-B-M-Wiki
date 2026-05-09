@@ -1,8 +1,5 @@
 ---
-title: Twitter / X (Platform)
-type: entity
-tags: [platform, social-media, twitter, x, creator-promotion]
-keywords: [twitter, x, elon musk, tweets, threads, creator promotion, sfw, nsfw]
+
 related:
   - concepts/creator-external-promotion.md
   - concepts/creator-marketing-foundations.md
@@ -13,11 +10,13 @@ related:
   - entities/companies/friend-1.md
   - sources/twitter-x-creator-guide-2026.md
   - entities/platforms/fanvue.md
-  - entities/platforms/fansly.md  - concepts/ai-assistance-guardrails.md
+  - entities/platforms/fansly.md
+  - concepts/ai-assistance-guardrails.md
 
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
+
 ---
 
 ## Relations

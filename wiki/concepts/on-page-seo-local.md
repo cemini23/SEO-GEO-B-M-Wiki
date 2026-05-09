@@ -1,8 +1,5 @@
 ---
-title: On-Page SEO for Local Business
-type: concept
-tags: [seo, on-page, local-seo, content, geo-search, hub]
-keywords: [on-page SEO, title tags, meta descriptions, headers, location pages, internal linking, E-E-A-T, doorway pages]
+
 related:
   - concepts/local-seo-foundations.md
   - concepts/website-essentials-local-business.md
@@ -15,13 +12,15 @@ related:
   - entities/tools/ahrefs.md
   - entities/tools/yoast-seo.md
   - entities/tools/claude-seo-agrici.md
-  - concepts/first-90-days-playbook.md  - concepts/google-ads-local.md
+  - concepts/first-90-days-playbook.md
+  - concepts/google-ads-local.md
   - concepts/local-pack-rankings.md
   - concepts/near-me-search.md
 
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

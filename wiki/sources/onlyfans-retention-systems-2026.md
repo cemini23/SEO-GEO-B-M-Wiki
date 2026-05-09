@@ -1,12 +1,16 @@
 ---
-title: OnlyFans Retention Systems & Churn Reduction 2026
+title: "OnlyFans Retention Systems (2026)"
 type: source
-tags: [onlyfans, retention, churn, win-back, subscriber-management]
-keywords: [OnlyFans retention, churn reduction, subscriber engagement, DM strategy, win-back]
+tags: [onlyfans, retention, creator-economy, subscriber-lifecycle, churn]
+keywords: [OnlyFans retention, subscriber churn, DM strategy, win-back, retention levers]
+related:
+  - concepts/creator-content-flywheel.md
+  - concepts/creator-retention.md
+  - concepts/viral-content-mechanics.md
+maturity: draft
 read_status: deep-read
-maturity: validated
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-09
 ---
 
 ## Relations

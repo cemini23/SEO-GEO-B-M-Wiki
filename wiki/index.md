@@ -82,6 +82,10 @@ If you're new to this wiki:
 - [review-response-templates](concepts/review-response-templates.md) — frameworks for 5-star / 4-star / 3-or-lower / 1-star-likely-fake responses
 - [schema-markup-local](concepts/schema-markup-local.md) — `LocalBusiness` / `BarberShop` / `Service` / `FAQPage` JSON-LD specifics
 
+### Briefs
+
+- [creator-launch-decision-hub](briefs/2026-05-09_creator-launch-decision-hub.md) — 24-hour launch-day decision resource: platform choice, pricing, content strategy, AI guardrails, retention, revenue projections, action checklist (bridges SEO:GEO + Image Gen wikis)
+
 ### Creator marketing (new vertical)
 
 - [creator-marketing-foundations](concepts/creator-marketing-foundations.md) — hub page: funnel (free → paid), platform selection, content pillars, first 90 days

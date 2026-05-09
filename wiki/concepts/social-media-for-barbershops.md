@@ -1,8 +1,5 @@
 ---
-title: Social Media for Barbershops
-type: concept
-tags: [social-media, marketing, barbershop, hub]
-keywords: [instagram, tiktok, facebook, reels, before-after, barber portfolio, social-media-strategy]
+
 related:
   - concepts/barbershop-marketing-fundamentals.md
   - entities/platforms/instagram.md
@@ -10,11 +7,16 @@ related:
   - entities/platforms/facebook.md
   - entities/tools/marketingskills.md
   - concepts/first-90-days-playbook.md
-  - concepts/meta-ads-local.md  - concepts/customer-retention-barbershop.md
+  - concepts/meta-ads-local.md
+  - concepts/customer-retention-barbershop.md
 
+  - concepts/generative-engine-optimization.md
+  - concepts/google-business-profile.md
+  - concepts/reviews-reputation-management.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

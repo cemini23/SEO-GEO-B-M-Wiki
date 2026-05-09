@@ -1,8 +1,5 @@
 ---
-title: Google Business Profile (Optimization Concept)
-type: concept
-tags: [seo, local-seo, google-business-profile, hub, geo-search]
-keywords: [GBP, GMB, local pack, map pack, primary category, attributes, posts, photos]
+
 related:
   - concepts/local-seo-foundations.md
   - concepts/reviews-reputation-management.md
@@ -11,7 +8,8 @@ related:
   - concepts/near-me-search.md
   - entities/platforms/google-business-profile.md
   - entities/tools/claude-seo-agrici.md
-  - concepts/first-90-days-playbook.md  - concepts/barbershop-marketing-fundamentals.md
+  - concepts/first-90-days-playbook.md
+  - concepts/barbershop-marketing-fundamentals.md
   - concepts/generative-engine-optimization.md
   - concepts/obsidian-navigation.md
   - concepts/social-media-for-barbershops.md
@@ -19,6 +17,7 @@ related:
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

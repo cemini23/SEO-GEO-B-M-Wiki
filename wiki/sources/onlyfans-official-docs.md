@@ -1,12 +1,14 @@
 ---
-title: OnlyFans Official Docs Summary
+title: "OnlyFans Official Documentation & Platform Mechanics"
 type: source
-tags: [onlyfans, official-docs, platform-mechanics]
-keywords: [onlyfans, verification, payout, tiers, content-policy]
-read_status: read
+tags: [onlyfans, platform-docs, creator-economy, monetization]
+keywords: [OnlyFans, verification, payout, PPV, subscription pricing, content policy]
+related:
+  - entities/platforms/onlyfans.md
 maturity: draft
+read_status: deep-read
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-09
 ---
 
 ## Relations

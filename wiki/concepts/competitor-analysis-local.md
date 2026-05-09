@@ -1,17 +1,15 @@
 ---
-title: Competitor Analysis for Local Business
-type: concept
-tags: [seo, competitor, analysis, local-seo, methodology]
-keywords: [competitor analysis, SERP analysis, GBP audit, citation gap, content gap, backlink gap]
 related:
   - concepts/local-seo-foundations.md
   - entities/tools/semrush.md
   - entities/tools/ahrefs.md
   - entities/tools/claude-seo-agrici.md
   - entities/tools/local-falcon.md
-  - concepts/first-90-days-playbook.md  - concepts/session-1-facilitator-notes.md
+  - concepts/first-90-days-playbook.md
+  - concepts/session-1-facilitator-notes.md
   - entities/markets/local-market-template.md
 
+  - concepts/citation-building.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08

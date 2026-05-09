@@ -1,12 +1,15 @@
 ---
-title: Creator Economy 2026 Report — OnlyFans Benchmarks
+title: "Creator Economy Statistics & Benchmarks (2026)"
 type: source
-tags: [creator-economy, onlyfans, statistics, benchmarks, market-data]
-keywords: [creator economy, onlyfans, earnings, demographics, revenue, growth]
-read_status: read
+tags: [creator-economy, statistics, onlyfans, benchmarks]
+keywords: [creator economy, OnlyFans statistics, creator earnings, subscriber demographics]
+related:
+  - concepts/creator-marketing-foundations.md
+  - entities/platforms/onlyfans.md
 maturity: draft
+read_status: deep-read
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-09
 ---
 
 ## Relations

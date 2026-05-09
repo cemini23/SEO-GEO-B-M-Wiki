@@ -1,8 +1,5 @@
 ---
-title: Schema Markup for Local Business
-type: concept
-tags: [seo, schema, structured-data, json-ld, geo-search, geo-aeo, hub]
-keywords: [schema, JSON-LD, LocalBusiness, BarberShop, Service, FAQPage, Review, structured data, rich results]
+
 related:
   - concepts/local-seo-foundations.md
   - concepts/website-essentials-local-business.md
@@ -14,12 +11,14 @@ related:
   - entities/tools/google-search-console.md
   - entities/platforms/yelp.md
   - sources/aggarwal-2024-geo-paper.md
-  - concepts/first-90-days-playbook.md  - concepts/content-strategy-local.md
+  - concepts/first-90-days-playbook.md
+  - concepts/content-strategy-local.md
   - concepts/local-pack-rankings.md
 
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

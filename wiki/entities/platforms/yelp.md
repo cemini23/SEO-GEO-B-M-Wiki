@@ -1,15 +1,12 @@
 ---
-title: Yelp (Platform)
-type: entity
-tags: [platform, yelp, reviews, directory]
-keywords: [yelp, yelp for business, recommendation software, recommended-vs-not-recommended filter, consumer alert, review solicitation]
 related:
   - concepts/reviews-reputation-management.md
   - concepts/review-response-templates.md
   - concepts/citation-building.md
   - concepts/schema-markup-local.md
-  - entities/platforms/apple-business-connect.md  - log.md
+  - entities/platforms/apple-business-connect.md
 
+  - entities/tools/google-analytics-4.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08

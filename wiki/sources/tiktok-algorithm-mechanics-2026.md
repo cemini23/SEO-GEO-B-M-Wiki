@@ -1,12 +1,17 @@
 ---
-title: TikTok Algorithm Mechanics 2026
+title: "TikTok Algorithm Mechanics (2026)"
 type: source
-tags: [tiktok, algorithm, viral, short-form-video, content-strategy]
-keywords: [TikTok algorithm, viral content, completion rate, FYP, 2026, interest graph]
+tags: [tiktok, algorithm, creator-economy, viral-content]
+keywords: [TikTok algorithm, interest graph, completion rate, For You page, content distribution]
+related:
+  - concepts/creator-content-flywheel.md
+  - concepts/creator-content-strategy.md
+  - concepts/creator-external-promotion.md
+  - concepts/viral-content-mechanics.md
+maturity: draft
 read_status: deep-read
-maturity: validated
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-09
 ---
 
 ## Relations

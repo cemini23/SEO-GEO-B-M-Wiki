@@ -1,8 +1,4 @@
 ---
-title: Friend-1 (Creator Entity)
-type: entity
-tags: [creator, onlyfans, image-based, subscription, new-creator]
-keywords: [onlyfans, creator, image-based, subscription, new creator, friend]
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-audience-growth.md
@@ -17,6 +13,9 @@ related:
   - entities/platforms/passes.md
   - entities/platforms/patreon.md
   - entities/platforms/niche.md
+  - concepts/creator-aesthetic-positioning.md
+  - concepts/synthetic-creator-gtm.md
+  - sources/fanvue-gtm-blueprint-2026.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -77,6 +76,7 @@ New OnlyFans creator focused on image-based content (photography, exclusive visu
 - [ ] Build Reddit karma (4+ weeks) before any promotion posts
 - [ ] Define content niches and posting schedule
 - [ ] Set subscription tiers and pricing
+- [ ] Use @briefs/2026-05-09_creator-launch-decision-hub.md to finalize platform choice and pricing today
 
 `[NEEDS VERIFICATION 2026-05-08]`: Fill in real data during first operator session.
 

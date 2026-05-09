@@ -1,8 +1,4 @@
 ---
-title: Creator Content Strategy
-type: concept
-tags: [creator-economy, content-strategy, onlyfans, posting-cadence]
-keywords: [content strategy, onlyfans, posting schedule, ppv, subscription, sfw, nsfw]
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-audience-growth.md
@@ -31,6 +27,8 @@ related:
   - concepts/viral-content-mechanics.md
   - concepts/creator-content-flywheel.md
 
+  - concepts/creator-aesthetic-positioning.md
+  - concepts/synthetic-creator-gtm.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

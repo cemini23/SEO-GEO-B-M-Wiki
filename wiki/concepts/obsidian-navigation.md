@@ -1,11 +1,8 @@
 ---
-title: Navigating This Wiki in Obsidian
-type: concept
-tags: [meta, obsidian, setup, navigation, hub]
-keywords: [obsidian, vault, wikilinks, graph view, backlinks, search, tags, frontmatter, plugins]
 related:
   - concepts/claude-platforms.md
   - concepts/obsidian-integration.md
+  - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-09
@@ -133,9 +130,9 @@ This workspace ships two scripts that make the wiki Obsidian-native:
 | Script | What it does | Run when |
 |--------|-------------|----------|
 | `scripts/obsidian-setup.sh` | Creates a vault, symlinks `wiki/`, writes recommended `.obsidian/` config (app.json, core plugins, community plugins list) | First time setting up Obsidian for this wiki; or after `git pull` on a new machine |
-| `scripts/obsidian-link-convert.py` | Bidirectional converter: `@path.md` ↔ `[[wikilink]]` — safe, backup-first, dry-run mode built in | Before converting link style; see note below |
+| `scripts/obsidian-link-convert.py` | Bidirectional converter: `@example-page.md` ↔ `[[wikilink]]` — safe, backup-first, dry-run mode built in | Before converting link style; see note below |
 
-**Conversion note:** The default wiki convention uses `@path.md` annotations for cross-links (script-friendly, lint-enforced). Obsidian graph view only sees `[[wikilinks]]`. The converter translates **only links that resolve to real pages** — it won't break anything. But:
+**Conversion note:** The default wiki convention uses `@example-page.md` annotations for cross-links (script-friendly, lint-enforced). Obsidian graph view only sees `[[wikilinks]]`. The converter translates **only links that resolve to real pages** — it won't break anything. But:
 
 1. Always run `--report` first: `python3 scripts/obsidian-link-convert.py --report`
 2. Backups are automatic (stored in `.obsidian-convert-backups/` with timestamps)

@@ -1,15 +1,13 @@
 ---
-title: Google Analytics 4 (Tool)
-type: entity
-tags: [tool, google, analytics, ga4]
-keywords: [google analytics, GA4, conversion tracking, attribution, events, click-to-call, consent mode]
 related:
   - concepts/website-essentials-local-business.md
   - concepts/first-90-days-playbook.md
   - entities/tools/google-search-console.md
-  - concepts/on-page-seo-local.md  - entities/platforms/yelp.md
-  - log.md
+  - concepts/on-page-seo-local.md
+  - entities/platforms/yelp.md
 
+  - entities/companies/shop-1.md
+  - entities/companies/shop-2.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08

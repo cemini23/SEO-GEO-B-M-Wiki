@@ -1,8 +1,4 @@
 ---
-title: Local Market (Template)
-type: entity
-tags: [market, geographic, template, geo-search]
-keywords: [local market, market profile, demographics, local competition, service area]
 related:
   - concepts/local-seo-foundations.md
   - concepts/barbershop-marketing-fundamentals.md
@@ -10,6 +6,9 @@ related:
   - entities/companies/shop-2.md
   - concepts/first-90-days-playbook.md
   - concepts/session-1-facilitator-notes.md
+  - concepts/citation-building.md
+  - concepts/competitor-analysis-local.md
+  - concepts/near-me-search.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08

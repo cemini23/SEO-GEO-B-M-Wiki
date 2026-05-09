@@ -1,8 +1,4 @@
 ---
-title: Fanvue (Platform)
-type: entity
-tags: [platform, creator-economy, ai-content, subscription, nsfw]
-keywords: [fanvue, ai content, virtual influencers, creator monetization, subscription, chatbots]
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-content-strategy.md
@@ -17,6 +13,9 @@ related:
   - sources/fanvue-gtm-blueprint-2026.md
   - sources/ai-detection-enforcement-2026.md
 
+  - concepts/creator-aesthetic-positioning.md
+  - concepts/synthetic-creator-gtm.md
+  - entities/platforms/twitter-x.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

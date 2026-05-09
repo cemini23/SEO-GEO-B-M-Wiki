@@ -1,8 +1,4 @@
 ---
-title: Local Pack Rankings (3-Pack)
-type: concept
-tags: [seo, local-seo, local-pack, map-pack, ranking-factors, geo-search]
-keywords: [local pack, 3-pack, map pack, ranking factors, relevance, distance, prominence]
 related:
   - concepts/local-seo-foundations.md
   - concepts/google-business-profile.md
@@ -10,8 +6,16 @@ related:
   - entities/tools/local-falcon.md
   - entities/tools/brightlocal.md
   - entities/tools/claude-seo-agrici.md
-  - concepts/first-90-days-playbook.md  - entities/companies/shop-2.md
+  - concepts/first-90-days-playbook.md
+  - entities/companies/shop-2.md
 
+  - concepts/citation-building.md
+  - concepts/on-page-seo-local.md
+  - concepts/schema-markup-local.md
+  - entities/platforms/google-business-profile.md
+  - concepts/review-response-templates.md
+  - concepts/reviews-reputation-management.md
+  - concepts/website-essentials-local-business.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08

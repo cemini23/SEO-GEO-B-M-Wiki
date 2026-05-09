@@ -1,8 +1,4 @@
 ---
-title: Content Strategy for Local Business
-type: concept
-tags: [seo, content, local-seo, blog, FAQ, geo-aeo]
-keywords: [content strategy, blog, FAQ, local content, voice search, AI citations, helpful content]
 related:
   - concepts/website-essentials-local-business.md
   - concepts/generative-engine-optimization.md
@@ -11,6 +7,7 @@ related:
   - entities/tools/seomachine.md
   - sources/aggarwal-2024-geo-paper.md
   - concepts/first-90-days-playbook.md
+  - concepts/schema-markup-local.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08

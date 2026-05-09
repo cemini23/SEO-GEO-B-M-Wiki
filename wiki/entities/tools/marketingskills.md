@@ -1,8 +1,5 @@
 ---
-title: Marketing Skills (Claude Code Agent Skill)
-type: entity
-tags: [seo-tooling, ai-content-tool, claude-code-skill, copywriting, social-media-copy]
-keywords: [marketing skills, claude code plugin, brand voice, PAS framework, product marketing context, localized content]
+
 related:
   - sources/github-repo-audit-2026-05-07.md
   - concepts/content-strategy-local.md
@@ -10,11 +7,15 @@ related:
   - concepts/review-response-templates.md
   - concepts/claude-platforms.md
   - concepts/generative-engine-optimization.md
-  - entities/tools/seomachine.md  - entities/tools/geo-seo-claude.md
+  - entities/tools/seomachine.md
+  - entities/tools/geo-seo-claude.md
 
+  - concepts/reviews-reputation-management.md
+  - entities/companies/shop-2.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07
+
 ---
 
 ## Relations

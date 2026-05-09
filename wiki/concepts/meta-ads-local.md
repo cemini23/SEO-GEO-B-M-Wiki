@@ -1,19 +1,18 @@
 ---
-title: Meta Ads for Local Barbershops
-type: concept
-tags: [paid-social, meta-ads, facebook-ads, instagram-ads, customer-acquisition]
-keywords: [facebook ads, instagram ads, meta business, local targeting, retargeting]
+
 related:
   - concepts/social-media-for-barbershops.md
   - concepts/barbershop-marketing-fundamentals.md
   - entities/platforms/instagram.md
-  - entities/platforms/facebook.md  - concepts/local-seo-foundations.md
+  - entities/platforms/facebook.md
+  - concepts/local-seo-foundations.md
   - concepts/promotional-campaigns-barbershop.md
   - sources/paid-advertising-creators-2026.md
 
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
+
 ---
 
 ## Relations

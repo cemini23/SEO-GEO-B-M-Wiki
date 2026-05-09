@@ -1,8 +1,4 @@
 ---
-title: Creator Retention Strategies
-type: concept
-tags: [creator-economy, retention, churn, onlyfans, subscribers]
-keywords: [retention, churn, subscriber loyalty, onlyfans, dm engagement, vip]
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-content-strategy.md
@@ -21,6 +17,8 @@ related:
   - sources/viral-content-strategy-2026.md
   - sources/fanvue-gtm-blueprint-2026.md
 
+  - concepts/creator-content-flywheel.md
+  - concepts/viral-content-mechanics.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

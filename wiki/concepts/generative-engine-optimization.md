@@ -1,8 +1,4 @@
 ---
-title: Generative Engine Optimization (GEO / AEO)
-type: concept
-tags: [seo, geo-aeo, generative-engine-optimization, answer-engine-optimization, hub]
-keywords: [GEO, AEO, AI overviews, ChatGPT, Claude, Perplexity, AI citations, structured data]
 related:
   - concepts/local-seo-foundations.md
   - concepts/schema-markup-local.md
@@ -24,6 +20,8 @@ related:
   - @image-gen-wiki/concepts/marketing-your-persona.md
   - @image-gen-wiki/concepts/persona-monetization-models.md
   - @image-gen-wiki/concepts/persona-content-cadence.md
+  - concepts/citation-building.md
+  - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-08

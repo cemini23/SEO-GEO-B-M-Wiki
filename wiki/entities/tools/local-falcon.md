@@ -1,19 +1,18 @@
 ---
-title: Local Falcon (Tool)
-type: entity
-tags: [tool, local-seo, rank-tracking, grid-tracking]
-keywords: [local falcon, grid rank tracking, geogrid, local pack rank, near-me tracking, falcon ai, geo-grid scan, ai visibility]
+
 related:
   - concepts/near-me-search.md
   - concepts/local-pack-rankings.md
   - entities/tools/claude-seo-agrici.md
   - concepts/first-90-days-playbook.md
   - concepts/competitor-analysis-local.md
-  - entities/tools/google-search-console.md  - log.md
+  - entities/tools/google-search-console.md
 
+  - concepts/generative-engine-optimization.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

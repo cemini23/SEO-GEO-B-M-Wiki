@@ -1,13 +1,8 @@
 ---
-title: OnlyFans ToS Violations - Case Studies
-type: source
-tags: [onlyfans, tos, policy-violations, case-studies]
-keywords: [onlyfans, banned accounts, policy violations, creator cases]
-read_status: read
-maturity: draft
 related:
   - entities/platforms/onlyfans.md
   - concepts/ai-assistance-guardrails.md
+  - concepts/ai-assitance-guardrails.md
 created: 2026-05-08
 updated: 2026-05-08
 ---

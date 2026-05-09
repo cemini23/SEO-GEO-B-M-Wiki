@@ -1,8 +1,12 @@
 # SEO / GEO / B&M Business Wiki
 
-A structured knowledge hub for **local brick-and-mortar operators** — single- or multi-location — who want to rank in local search, be cited correctly by AI engines, and run their owned + earned digital surfaces (website, Google Business Profile, reviews, social).
+A structured knowledge hub spanning two verticals:
 
-The wiki uses a barbershop running example throughout because that's the seed domain it was built from, but the principles, tools, and playbooks generalize to any local-service business: restaurants, dental clinics, auto shops, salons, gyms, retail.
+1. **Local brick-and-mortar operators** — single- or multi-location businesses who want to rank in local search, be cited correctly by AI engines, and run their owned + earned digital surfaces (website, Google Business Profile, reviews, social).
+
+2. **Content creator-marketing operators** — subscription-platform creators (OnlyFans, Patreon, Buy Me a Coffee) who need to grow an audience, convert free followers to paid subscribers, retain existing subscribers, and drive external traffic from social platforms (Twitter/X, Reddit, TikTok, Instagram) to their subscription page.
+
+The wiki uses a **barbershop** running example for B&M and a **friends OnlyFans creator** for content creator marketing — because those are the seed domains it was built from — but the principles, tools, and playbooks generalize to any local-service business (restaurants, dental clinics, auto shops, salons, gyms, retail) and any image-based subscription content creator.
 
 ## What this is (and isn't)
 
@@ -17,6 +21,7 @@ It is **not**:
 ## Audience
 
 - **The B&M operator** — small business owner who wants better local visibility but doesn't have an in-house marketing team. You don't need to be technical; you do need to be willing to fill in your business data and try the suggestions.
+- **The content creator-marketing operator** — subscription-platform creator who wants to grow subscribers and social-to-platform conversion without a dedicated marketing team. The same wiki structure applies; the playbooks differ.
 - **The AI assistant working with the operator** — Claude or a similar model loading this wiki as context to answer questions, draft copy, and produce briefs.
 
 ## Quickstart
@@ -76,6 +81,8 @@ Staging lives outside the wiki:
 
 ## What the operator needs to gather
 
+### B&M operator
+
 The full intake checklist is in `.env.example`. It covers:
 
 - **Business identity** (legal name, DBA, primary GBP category, year founded, languages, price tier, top services, differentiators, target demographic)
@@ -89,12 +96,24 @@ The full intake checklist is in `.env.example`. It covers:
 
 You don't need to fill everything in on day one. The first session usually covers (a) business identity + location 1, (b) GBP status, (c) website state, (d) top 2-3 known competitors. The rest gets filled in as you work through the wiki.
 
+### Creator-marketing operator
+
+No `.env.example` template for creators yet (tracked in ROADMAP). The first session typically captures:
+
+- **Creator identity** (stage name, niche/category, subscription platform, years active, content style, target demographic, differentiators vs. competitors in same niche)
+- **Subscription platform profile** (OnlyFans / Patreon / Buy Me a Coffee URL, current subscriber count, subscription price, renewal rate if known, PPV / tip / custom-content revenue breakdown)
+- **Social presence** (Twitter/X, Reddit, TikTok, Instagram, Telegram handles, with current follower counts and which platforms drive the most conversions)
+- **Link-in-bio / funnel** (link-in-bio tool used — Linktree, Beacons, custom landing page — plus the conversion path from social post to subscription page)
+- **Content strategy snapshot** (posting cadence per platform, content mix — teasers, full-length, PPV, customs — and what's currently working or stalled)
+- **Known competitors** (3-5 creators in the same niche, with links to their socials and subscription pages)
+- **Goals + constraints** (top 3 90-day goals — e.g. double Reddit-to-OF conversion, grow TikTok to 50k, reduce churn — plus hard constraints like anonymity requirements, time budget, content-production limits)
+
 ## How a typical workflow looks
 
-1. **Drop a source** into `research to be indexed/` (an article on local SEO, a competitor's website screenshot, a Google policy doc, a PDF you paid for, etc.)
+1. **Drop a source** into `research to be indexed/` (an article on local SEO or creator marketing, a competitor's GBP listing or Instagram profile screenshot, a Google policy doc, a PDF you paid for, etc.)
 2. **Ask the AI** to ingest it — it reads the source, discusses key takeaways with you, then creates a `wiki/sources/<slug>.md` page and updates the relevant entity / concept pages with new facts + cross-links.
-3. **Query the wiki** when you face a real decision — "should I respond to this 1-star review?", "what schema should my homepage have?", "how do I rank for [category] near me?". The AI reads the relevant wiki pages and synthesizes an answer with inline citations.
-4. **Ship a brief** when you have a deliverable to produce — the AI drafts it in `briefs/` and you paste it into your CMS, GBP dashboard, Instagram, or wherever it goes.
+3. **Query the wiki** when you face a real decision — "should I respond to this 1-star review?", "what schema should my homepage have?", "how do I rank for [category] near me?", "how do I convert more Reddit followers to OnlyFans subscribers?", "what TikTok posting cadence drives the most external traffic?".
+4. **Ship a brief** when you have a deliverable to produce — the AI drafts it in `briefs/` and you paste it into your CMS, GBP dashboard, Instagram, subscription page, or wherever it goes.
 5. **Periodically lint** with `python3 scripts/wiki_lint.py` to catch broken cross-links, missing backlinks, stale verification tags.
 
 ## Lint + ingest scripts
@@ -116,7 +135,9 @@ This pattern has shipped clean rejections of credible-looking but wrong-fit tool
 - Talk to GBP / Yelp / Facebook on your behalf via dashboard automation. (Suspension risk; we don't build it.)
 - Generate fake reviews or fake citations. (Google policy violation; we explicitly forbid it.)
 - Build doorway pages or thin city-clone content. (Helpful Content Update will penalize.)
-- Promise specific rank or revenue outcomes. (No one credible does.)
+- Auto-post or auto-DM on social platforms on your behalf. (Platform ToS violation; suspension risk.)
+- Generate fake engagement, fake followers, or bot-driven traffic. (Damages algorithmic reach and violates platform policies.)
+- Promise specific rank, subscriber, or revenue outcomes. (No one credible does.)
 
 If a tool you find on GitHub does any of those, the Phase-0 audit will mark it NO-GO.
 
@@ -142,7 +163,7 @@ See `wiki/entities/tools/easy-review.md` for full integration notes.
 
 ## Contributing / forking
 
-This is intended as a fork-and-adapt template. Fork it, fill in your `.env`, run the wiki for your business, and (optionally) open a PR back if you discover a generally-useful concept page, tool entity, or workflow improvement that other B&M operators would benefit from.
+This is intended as a fork-and-adapt template. Fork it, fill in your `.env`, run the wiki for your business or creator brand, and (optionally) open a PR back if you discover a generally-useful concept page, tool entity, or workflow improvement that other operators (B&M or creator-marketing) would benefit from.
 
 The wiki structure (CLAUDE.md schema + lint scripts) and cross-domain concept pages are the parts most worth contributing back. Operator-specific data (your business identity, competitor list, local market) stays in your fork.
 

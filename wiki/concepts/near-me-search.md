@@ -1,8 +1,5 @@
 ---
-title: "Near Me" Search Behavior
-type: concept
-tags: [seo, local-seo, search-intent, mobile, hub, geo-search]
-keywords: [near me, mobile search, local intent, voice search, implicit location, local pack]
+
 related:
   - concepts/local-seo-foundations.md
   - concepts/google-business-profile.md
@@ -13,11 +10,15 @@ related:
   - entities/tools/local-falcon.md
   - entities/tools/claude-seo-agrici.md
   - concepts/first-90-days-playbook.md
-  - concepts/google-ads-local.md  - entities/markets/local-market-template.md
+  - concepts/google-ads-local.md
+  - entities/markets/local-market-template.md
 
+  - concepts/on-page-seo-local.md
+  - concepts/reviews-reputation-management.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

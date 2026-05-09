@@ -1,8 +1,4 @@
 ---
-title: Creator Aesthetic Positioning — "Imperfect by Design"
-type: concept
-tags: [visual-strategy, ai-content, synthetic-creator, aesthetic, trust, fanvue]
-keywords: [imperfect by design, AI aesthetic, synthetic creator visuals, anti-AI slop, visual trust, brand positioning]
 related:
   - sources/fanvue-gtm-blueprint-2026.md
   - concepts/synthetic-creator-gtm.md
@@ -10,6 +6,8 @@ related:
   - concepts/creator-content-strategy.md
   - entities/platforms/fanvue.md
   - entities/companies/friend-1.md
+  - concepts/creator-content-flywheel.md
+  - concepts/creator-retention.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

@@ -1,4 +1,5 @@
 ---
+
 title: Reviews and Reputation Management
 type: concept
 tags: [seo, local-seo, reviews, reputation, hub]
@@ -14,7 +15,8 @@ related:
   - concepts/barbershop-marketing-fundamentals.md
   - concepts/first-90-days-playbook.md
   - entities/tools/easy-review.md
-  - concepts/customer-retention-barbershop.md  - concepts/local-pack-rankings.md
+  - concepts/customer-retention-barbershop.md
+  - concepts/local-pack-rankings.md
   - concepts/near-me-search.md
   - concepts/session-1-facilitator-notes.md
   - concepts/social-media-for-barbershops.md
@@ -23,6 +25,7 @@ related:
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

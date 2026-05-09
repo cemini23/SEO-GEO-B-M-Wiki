@@ -1,8 +1,5 @@
 ---
-title: Google Business Profile (Platform)
-type: entity
-tags: [platform, google, gbp, local-seo, geo-search]
-keywords: [GBP, GMB, google business profile, google maps, local pack, knowledge panel]
+
 related:
   - concepts/google-business-profile.md
   - concepts/local-seo-foundations.md
@@ -12,12 +9,14 @@ related:
   - concepts/citation-building.md
   - concepts/first-90-days-playbook.md
   - concepts/session-1-facilitator-notes.md
-  - entities/tools/easy-review.md  - concepts/google-ads-local.md
+  - entities/tools/easy-review.md
+  - concepts/google-ads-local.md
   - concepts/local-pack-rankings.md
 
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
+
 ---
 
 ## Relations

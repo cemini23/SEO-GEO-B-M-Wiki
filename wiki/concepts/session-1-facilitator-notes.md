@@ -1,8 +1,4 @@
 ---
-title: Session 1 — Facilitator Notes (Operator Onboarding)
-type: concept
-tags: [facilitator, session-notes, onboarding, operator-meeting, in-person]
-keywords: [session 1, first meeting, onboarding session, facilitator script, intake meeting]
 related:
   - concepts/first-90-days-playbook.md
   - entities/companies/shop-1.md
@@ -11,6 +7,8 @@ related:
   - entities/platforms/google-business-profile.md
   - entities/tools/claude-seo-agrici.md
   - entities/tools/easy-review.md
+  - concepts/reviews-reputation-management.md
+  - concepts/competitor-analysis-local.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

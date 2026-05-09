@@ -11,6 +11,15 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+---
+
+## [2026-05-09] brief | Creator Launch Decision Hub — 24-hour sprint resource
+
+Compiled all critical decision-support resources from both the SEO:GEO wiki and the Image Gen wiki into a single launch-day reference document. Covers: platform choice (OnlyFans vs Fanvue vs Passes vs Patreon with compliance comparison), pricing strategy (subscription tiers + PPV ladder), content mix (wall + external platforms), AI assistance guardrails (what Claude can/can't safely do), conversion/retention benchmarks, 90-day revenue projections, realistic cost breakdown, and a day-by-day action checklist. Cross-wiki bridge document linking @wiki-alias/image-gen-wiki sources where needed.
+
+- Created `briefs/2026-05-09_creator-launch-decision-hub.md` — 7-section decision hub (platform, pricing, content, AI guardrails, retention, revenue, action plan)
+- Updated `wiki/index.md` — added brief to index
+
 ## [2026-05-09] brief | Creator Marketing 24-Hour Sprint
 
 Time-boxed punch list for creator marketing operations. Covers OF account audit, content calendar, link-in-bio & email capture setup, platform optimization (X, IG, TikTok, Reddit), DM retention templates, PPV strategy, viral content prep, analytics review, and competitor spot-check. Linked from @concepts/creator-marketing-foundations.md.

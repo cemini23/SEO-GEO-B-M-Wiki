@@ -1,8 +1,4 @@
 ---
-title: Fansly (Platform)
-type: entity
-tags: [platform, creator-economy, subscription, nsfw, onlyfans-alternative]
-keywords: [fansly, onlyfans alternative, creator monetization, subscription, ppv, internal discovery]
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-content-strategy.md
@@ -13,6 +9,7 @@ related:
   - entities/platforms/fanvue.md
   - entities/platforms/passes.md
   - entities/companies/friend-1.md
+  - entities/platforms/twitter-x.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

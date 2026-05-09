@@ -1,12 +1,18 @@
 ---
-title: Viral Content Strategy Research 2026
+title: "Viral Content Strategy (2026)"
 type: source
-tags: [viral-content, social-media, algorithm, content-strategy, cross-platform]
-keywords: [viral content, social media strategy, algorithm signals, 2026, engagement, shares, saves]
+tags: [viral-content, social-media-algorithms, creator-economy, content-strategy]
+keywords: [viral content, TikTok algorithm, Instagram Reels, content hooks, completion rate, virality 2026]
+related:
+  - concepts/creator-content-flywheel.md
+  - concepts/creator-content-strategy.md
+  - concepts/creator-external-promotion.md
+  - concepts/creator-retention.md
+  - concepts/viral-content-mechanics.md
+maturity: draft
 read_status: deep-read
-maturity: validated
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-09
 ---
 
 ## Relations

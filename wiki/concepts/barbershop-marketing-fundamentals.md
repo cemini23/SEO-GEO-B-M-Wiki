@@ -1,8 +1,4 @@
 ---
-title: Barbershop Marketing Fundamentals
-type: concept
-tags: [marketing, barbershop, industry, hub]
-keywords: [barbershop marketing, retention, frequency, referral, men's grooming, customer-LTV]
 related:
   - concepts/social-media-for-barbershops.md
   - concepts/website-essentials-local-business.md
@@ -16,6 +12,7 @@ related:
   - concepts/google-ads-local.md
   - concepts/meta-ads-local.md
   - concepts/promotional-campaigns-barbershop.md
+  - concepts/google-business-profile.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08
