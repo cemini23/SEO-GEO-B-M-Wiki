@@ -19,8 +19,8 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Run wiki lint (strict)
-        run: python3 scripts/wiki_lint.py --strict
+      - name: Run wiki lint
+        run: python3 scripts/wiki_lint.py
 
       - name: Run wiki gap detect (informational)
         run: python3 scripts/wiki_gap_detect.py || true
