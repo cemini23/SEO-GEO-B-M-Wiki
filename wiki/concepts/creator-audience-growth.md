@@ -7,16 +7,18 @@ related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-content-strategy.md
   - concepts/creator-external-promotion.md
+  - concepts/creator-content-flywheel.md
   - concepts/creator-retention.md
+  - concepts/viral-content-mechanics.md
   - entities/platforms/onlyfans.md
   - entities/platforms/twitter-x.md
   - entities/platforms/reddit.md
-  - entities/platforms/onlyfans.md
   - entities/companies/friend-1.md
   - entities/platforms/fanvue.md
   - entities/platforms/fansly.md
   - entities/platforms/passes.md
-  - entities/platforms/patreon.md  - entities/platforms/tiktok.md
+  - entities/platforms/patreon.md
+  - entities/platforms/tiktok.md
   - sources/creator-email-marketing-2026.md
   - sources/instagram-reels-creator-marketing-2026.md
   - sources/onlyfans-funnel-optimization-2026.md
@@ -34,6 +36,8 @@ updated: 2026-05-08
 - @concepts/creator-marketing-foundations.md
 - @concepts/creator-content-strategy.md
 - @concepts/creator-external-promotion.md
+- @concepts/creator-content-flywheel.md
+- @concepts/viral-content-mechanics.md
 - @entities/platforms/onlyfans.md
 - @entities/platforms/twitter-x.md
 - @entities/platforms/reddit.md
