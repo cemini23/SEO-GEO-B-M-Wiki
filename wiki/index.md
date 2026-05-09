@@ -97,6 +97,7 @@ If you're new to this wiki:
 
 - [claude-platforms](concepts/claude-platforms.md) — Claude Desktop (MCP servers) vs Claude Code (Agent Skills) distinction + install paths for both surfaces
 - [obsidian-navigation](concepts/obsidian-navigation.md) — operator's guide to reading the wiki in Obsidian (vault setup, recommended plugins, search/tags/graph workflow)
+- [obsidian-integration](concepts/obsidian-integration.md) — full integration guide: setup scripts, link conversion, portability, transfer to new readers
 
 ## Entities
 

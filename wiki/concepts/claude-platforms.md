@@ -12,6 +12,7 @@ related:
   - entities/tools/seomachine.md
   - concepts/generative-engine-optimization.md
   - concepts/obsidian-navigation.md
+  - concepts/obsidian-integration.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07

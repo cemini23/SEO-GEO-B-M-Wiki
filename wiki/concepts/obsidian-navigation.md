@@ -5,9 +5,10 @@ tags: [meta, obsidian, setup, navigation, hub]
 keywords: [obsidian, vault, wikilinks, graph view, backlinks, search, tags, frontmatter, plugins]
 related:
   - concepts/claude-platforms.md
+  - concepts/obsidian-integration.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-09
 ---
 
 ## Relations
@@ -124,6 +125,24 @@ Obsidian's mobile app reads markdown vaults from iCloud / Google Drive / Dropbox
 3. Edits on mobile sync back to the laptop via iCloud
 
 This is operator-side workflow — out of scope for this wiki to enforce. Mentioned because the operator may want to consult the wiki between client appointments without booting a laptop.
+
+### Obsidian integration tooling
+
+This workspace ships two scripts that make the wiki Obsidian-native:
+
+| Script | What it does | Run when |
+|--------|-------------|----------|
+| `scripts/obsidian-setup.sh` | Creates a vault, symlinks `wiki/`, writes recommended `.obsidian/` config (app.json, core plugins, community plugins list) | First time setting up Obsidian for this wiki; or after `git pull` on a new machine |
+| `scripts/obsidian-link-convert.py` | Bidirectional converter: `@path.md` ↔ `[[wikilink]]` — safe, backup-first, dry-run mode built in | Before converting link style; see note below |
+
+**Conversion note:** The default wiki convention uses `@path.md` annotations for cross-links (script-friendly, lint-enforced). Obsidian graph view only sees `[[wikilinks]]`. The converter translates **only links that resolve to real pages** — it won't break anything. But:
+
+1. Always run `--report` first: `python3 scripts/obsidian-link-convert.py --report`
+2. Backups are automatic (stored in `.obsidian-convert-backups/` with timestamps)
+3. If you convert, update the lint script's body-mention check (#4) to match the new format
+4. All links live in both formats' equivalents: the YAML `related:` field is the source of truth for bidirectional integrity regardless of body format
+
+See also: @concepts/obsidian-integration.md (dedicated integration overview page).
 
 ### What NOT to do in Obsidian
 
