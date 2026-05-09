@@ -21,7 +21,10 @@ related:
   - entities/platforms/fansly.md
   - entities/platforms/passes.md
   - entities/platforms/patreon.md
-  - entities/platforms/niche.md  - concepts/ai-assistance-guardrails.md
+  - entities/platforms/niche.md
+  - concepts/synthetic-creator-gtm.md
+  - concepts/creator-aesthetic-positioning.md  - concepts/ai-assitance-guardrails.md
+  - sources/fanvue-gtm-blueprint-2026.md
   - sources/ai-detection-enforcement-2026.md
   - sources/creator-email-marketing-2026.md
   - sources/paid-advertising-creators-2026.md
@@ -47,9 +50,12 @@ updated: 2026-05-08
 - @entities/platforms/fanvue.md
 - @entities/platforms/instagram.md
 - @entities/platforms/niche.md
+- @concepts/synthetic-creator-gtm.md
+- @concepts/creator-aesthetic-positioning.md
 - @entities/platforms/passes.md
 - @entities/platforms/patreon.md
 - @entities/platforms/tiktok.md
+- @sources/fanvue-gtm-blueprint-2026.md
 - @sources/ai-detection-enforcement-2026.md
 - @sources/creator-email-marketing-2026.md
 - @sources/paid-advertising-creators-2026.md

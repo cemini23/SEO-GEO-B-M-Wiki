@@ -13,9 +13,13 @@ related:
   - entities/tools/geo-seo-claude.md
   - entities/tools/marketingskills.md
   - entities/tools/seomachine.md
-  - concepts/first-90-days-playbook.md  - concepts/social-media-for-barbershops.md
+  - concepts/first-90-days-playbook.md
+  - concepts/creator-marketing-foundations.md
+  - concepts/synthetic-creator-gtm.md
+  - concepts/social-media-for-barbershops.md
   - entities/tools/google-search-console.md
   - entities/tools/local-falcon.md
+  - sources/fanvue-gtm-blueprint-2026.md
 
   - @image-gen-wiki/concepts/marketing-your-persona.md
   - @image-gen-wiki/concepts/persona-monetization-models.md
@@ -37,12 +41,15 @@ updated: 2026-05-08
 - @entities/tools/marketingskills.md
 - @entities/tools/seomachine.md
 - @concepts/first-90-days-playbook.md
+- @concepts/creator-marketing-foundations.md
+- @concepts/synthetic-creator-gtm.md
 - @image-gen-wiki/concepts/marketing-your-persona.md
 - @image-gen-wiki/concepts/persona-monetization-models.md
 - @image-gen-wiki/concepts/persona-content-cadence.md
 - @concepts/social-media-for-barbershops.md
 - @entities/tools/google-search-console.md
 - @entities/tools/local-falcon.md
+- @sources/fanvue-gtm-blueprint-2026.md
 
 
 ## Raw Concept
@@ -130,6 +137,8 @@ For AI-generated personas running membership services (Fanvue, Patreon, etc.), G
 - **Content format**: FAQ-style posts answering "how was this image generated," "is this a real person," "what tools create AI influencers" — these are the queries GEO engines see
 
 See the Image Gen wiki's persona marketing page: `@image-gen-wiki/concepts/marketing-your-persona.md` for the full strategy linking GEO + content cadence + monetization.
+
+For a complete implementation framework, see @concepts/synthetic-creator-gtm.md — a four-pillar GTM strategy for synthetic AI creators derived from the @sources/fanvue-gtm-blueprint-2026.md research.
 
 ### What to NOT do
 

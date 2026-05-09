@@ -21,6 +21,7 @@ updated: 2026-05-08
 
 - @concepts/creator-marketing-foundations.md
 - @concepts/creator-content-strategy.md
+- @concepts/creator-audience-growth.md
 - @concepts/creator-retention.md
 - @concepts/creator-external-promotion.md
 

@@ -11,6 +11,19 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-08] ingest | Fanvue GTM Blueprint — synthetic creator monetization strategy
+
+Created comprehensive source page and synthesized 4-pillar GTM strategy for launching a synthetic AI creator on Fanvue.
+
+- Created `wiki/sources/fanvue-gtm-blueprint-2026.md` — source page (171 paragraphs, 2026 market data)
+- Created `wiki/concepts/synthetic-creator-gtm.md` — four-pillar GTM hub: niche selection, aesthetic positioning, GEO traffic, conversion/retention
+- Created `wiki/concepts/creator-aesthetic-positioning.md` — "Imperfect by Design" visual trust doctrine
+- Created `briefs/2026-05-08_fanvue-synthetic-creator-gtm.md` — actionable 90-day launch playbook
+- Enriched `wiki/entities/platforms/fanvue.md` with GTM strategy section + backlink to source
+- Enriched `wiki/concepts/generative-engine-optimization.md` with AI persona GEO references + backlink
+- Enriched `wiki/concepts/creator-marketing-foundations.md` with backlink to new source
+- Updated `wiki/index.md` with 2 new sources + 2 new concept entries
+
 ## [2026-05-08] ingest | Twitter/X + Reddit creator promotion research
 
 Created source pages from 2026 web research (OpenTweet, Tweet Archivist, Shopify, Monetag, SocialBee, Sprout Social, Outfy, Sotrender, Pseudoface, Unfiltered Management, Substy, Reddit r/onlyfansadvice, KarmaGuy, Conbersa, IPFoxy, Indie Hackers, Link Assistant, AuditSocials, TechCrunch).

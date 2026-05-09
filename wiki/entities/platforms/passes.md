@@ -22,6 +22,7 @@ updated: 2026-05-08
 - @concepts/creator-marketing-foundations.md
 - @concepts/creator-content-strategy.md
 - @concepts/creator-external-promotion.md
+- @concepts/creator-audience-growth.md
 - @entities/platforms/onlyfans.md
 
 ## Raw Concept

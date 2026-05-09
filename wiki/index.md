@@ -46,7 +46,9 @@ If you're new to this wiki:
 - [youtube-shorts-creator-growth-2026](sources/youtube-shorts-creator-growth-2026.md) — Hybrid strategy (Shorts → subscribers → long-form), conversion data, monetization reality, posting cadence
 - [paid-advertising-creators-2026](sources/paid-advertising-creators-2026.md) — Meta Creator Fast Track, TikTok GMV Max Ads, Google/YouTube ads, when to start paid, common mistakes
 - [onlyfans-funnel-optimization-2026](sources/onlyfans-funnel-optimization-2026.md) — Full funnel stages, traffic source conversion rates (Reddit 3–8%, X 2–5%, IG 1–3%), value ladder, retention economics
+- [fanvue-gtm-blueprint-2026](sources/fanvue-gtm-blueprint-2026.md) — Fanvue synthetic creator GTM blueprint: niche selection, GEO traffic, conversion/retention, brand partnerships (171 paragraphs, 2026)
 - [ai-detection-enforcement-2026](sources/ai-detection-enforcement-2026.md) — OnlyFans AI policy, platform comparison (OF/Fansly/Fanvue), TAKE IT DOWN Act, compliance checklist
+- [fanvue-gtm-blueprint-2026](sources/fanvue-gtm-blueprint-2026.md) — Fanvue synthetic creator GTM blueprint: niche selection, GEO traffic, conversion/retention, brand partnerships (171 paragraphs, 2026)
 
 ## Concepts
 
@@ -88,6 +90,8 @@ If you're new to this wiki:
 - [creator-retention](concepts/creator-retention.md) — keeping subscribers from churning, DM responsiveness, VIP tiers, win-back campaigns
 - [creator-external-promotion](concepts/creator-external-promotion.md) — driving traffic from Twitter/X, Reddit, TikTok, Instagram to OnlyFans
 - [ai-assistance-guardrails](concepts/ai-assistance-guardrails.md) — AI assistance guardrails for creators: what NOT to do, what TO do, human-in-the-loop rule, Claude-specific workflow
+- [synthetic-creator-gtm](concepts/synthetic-creator-gtm.md) — four-pillar GTM strategy for launching an AI-generated creator (niche, aesthetic, GEO traffic, conversion/retention, brand deals)
+- [creator-aesthetic-positioning](concepts/creator-aesthetic-positioning.md) — "Imperfect by Design" visual doctrine for synthetic creators; anti-AI-slop trust strategy
 
 ### Meta / setup
 

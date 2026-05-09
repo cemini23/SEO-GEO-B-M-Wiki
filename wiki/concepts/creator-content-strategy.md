@@ -18,11 +18,13 @@ related:
   - entities/platforms/fansly.md
   - entities/platforms/passes.md
   - entities/platforms/patreon.md
-  - entities/platforms/niche.md  - entities/platforms/tiktok.md
+  - entities/platforms/niche.md
+  - entities/platforms/tiktok.md
   - sources/instagram-reels-creator-marketing-2026.md
   - sources/onlyfans-funnel-optimization-2026.md
   - sources/tiktok-marketing-2026.md
   - sources/youtube-shorts-creator-growth-2026.md
+  - sources/fanvue-gtm-blueprint-2026.md
 
 maturity: draft
 created: 2026-05-08
@@ -34,23 +36,25 @@ updated: 2026-05-08
 - @concepts/creator-marketing-foundations.md
 - @concepts/creator-audience-growth.md
 - @concepts/creator-retention.md
+- @concepts/creator-external-promotion.md
+- @concepts/synthetic-creator-gtm.md
+- @concepts/creator-aesthetic-positioning.md
 - @entities/platforms/onlyfans.md
 - @entities/platforms/twitter-x.md
+- @entities/platforms/reddit.md
 - @entities/platforms/instagram.md
 - @entities/companies/friend-1.md
-- @concepts/ai-assitance-guardrails.md
-- @concepts/creator-external-promotion.md
-- @entities/platforms/fansly.md
 - @entities/platforms/fanvue.md
-- @entities/platforms/niche.md
+- @entities/platforms/fansly.md
 - @entities/platforms/passes.md
 - @entities/platforms/patreon.md
-- @entities/platforms/reddit.md
+- @entities/platforms/niche.md
 - @entities/platforms/tiktok.md
 - @sources/instagram-reels-creator-marketing-2026.md
 - @sources/onlyfans-funnel-optimization-2026.md
 - @sources/tiktok-marketing-2026.md
 - @sources/youtube-shorts-creator-growth-2026.md
+- @sources/fanvue-gtm-blueprint-2026.md
 
 
 ## Raw Concept

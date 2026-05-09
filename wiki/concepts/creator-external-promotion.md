@@ -17,7 +17,8 @@ related:
   - entities/platforms/fansly.md
   - entities/platforms/passes.md
   - entities/platforms/patreon.md
-  - entities/platforms/niche.md  - sources/creator-email-marketing-2026.md
+  - entities/platforms/niche.md
+  - sources/creator-email-marketing-2026.md
   - sources/instagram-reels-creator-marketing-2026.md
   - sources/paid-advertising-creators-2026.md
   - sources/tiktok-marketing-2026.md
@@ -44,6 +45,7 @@ updated: 2026-05-08
 - @entities/platforms/passes.md
 - @entities/platforms/patreon.md
 - @sources/creator-email-marketing-2026.md
+- @sources/fanvue-gtm-blueprint-2026.md
 - @sources/instagram-reels-creator-marketing-2026.md
 - @sources/paid-advertising-creators-2026.md
 - @sources/tiktok-marketing-2026.md

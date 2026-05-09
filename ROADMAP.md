@@ -16,7 +16,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 ### W3 — Creator marketing expansion
 
-**Status:** COMPLETE (2026-05-08). Wiki scope expanded to include creator marketing (OnlyFans/subscription/Ai content platforms).
+**Status:** COMPLETE (2026-05-08). Wiki scope expanded to include creator marketing (OnlyFans/subscription/AI content platforms). DEEP DIVE (2026-05-08): 7 new source pages, 5 updated entity/concept pages with confirmed data + citations.
 
 **Core platform pages created (5):**
 - `wiki/entities/platforms/onlyfans.md` — platform mechanics, 80/20 split, PPV, tiers, policies

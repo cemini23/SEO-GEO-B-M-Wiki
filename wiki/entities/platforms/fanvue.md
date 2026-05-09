@@ -13,7 +13,9 @@ related:
   - entities/platforms/onlyfans.md
   - entities/platforms/fansly.md
   - entities/platforms/niche.md
-  - entities/companies/friend-1.md  - sources/ai-detection-enforcement-2026.md
+  - entities/companies/friend-1.md
+  - sources/fanvue-gtm-blueprint-2026.md
+  - sources/ai-detection-enforcement-2026.md
 
 maturity: draft
 created: 2026-05-08
@@ -25,10 +27,12 @@ updated: 2026-05-08
 - @concepts/creator-marketing-foundations.md
 - @concepts/creator-content-strategy.md
 - @concepts/creator-external-promotion.md
+- @concepts/creator-audience-growth.md
 - @concepts/ai-assitance-guardrails.md
 - @entities/platforms/onlyfans.md
 - @entities/platforms/fansly.md
 - @entities/platforms/niche.md
+- @sources/fanvue-gtm-blueprint-2026.md
 - @sources/ai-detection-enforcement-2026.md
 
 
@@ -78,6 +82,18 @@ Fanvue is the leading platform explicitly built for **AI-generated content and v
 | **Top performers** | $10,000+ | 12+ months, strong character/brand |
 
 **Key success factors**: character consistency, daily posting minimum, engagement with subscribers, strategic pricing $5-20/month `[Source: apatero.com/blog/fanvue-complete-guide-ai-creators-monetization-2026 (retrieved 2026-05-08)]`
+
+### GTM & Monetization Strategy `[CONFIRMED — sources/fanvue-gtm-blueprint-2026.md]`
+
+The Fanvue GTM Blueprint outlines a four-pillar go-to-market strategy for synthetic creators:
+
+1. **Niche Selection** — Three high-profit verticals: Personal Finance/AI SaaS (RPM $10–15), Hyper-Local B2B AI Consulting (retainers $3K–$20K), Fantasy/Historical Lore Storytelling (RPM $12.82, <10K competing channels). Niche creators achieve 3.7x profitability advantage over generalists.
+
+2. **GEO Traffic Architecture** — Anchor persona to local SEO-GEO wikis for AI engine discovery; use semantic chunking and JSON-LD schema for AI extraction; cross-platform content mix (70% short-form video / 30% static).
+
+3. **Conversion & Retention** — Freemium-to-PPV pricing model; OpenRouter LLM 4-layer prompt architecture (Character Bible → Fan Memory RAG → Separated Selling Logic → AI Chaperone) for parasocial DM sales. Average $40+/user in PPV revenue.
+
+4. **Brand Partnerships** — SaaS affiliates (20–30% recurring), AI ad creatives (+12% CTR), media kit with verified benchmarks.
 
 ### Content policy highlights `[CONFIRMED]`
 

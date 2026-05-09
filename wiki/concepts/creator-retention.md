@@ -12,8 +12,32 @@ related:
   - entities/platforms/fanvue.md
   - entities/platforms/fansly.md
   - entities/platforms/passes.md
-  - entities/platforms/patreon.md  - sources/creator-email-marketing-2026.md
+  - entities/platforms/patreon.md
+  - sources/creator-email-marketing-2026.md
   - sources/onlyfans-funnel-optimization-2026.md
+  - sources/fanvue-gtm-blueprint-2026.md
+
+maturity: draft
+created: 2026-05-08
+updated: 2026-05-08
+---
+
+## Relations
+
+- @concepts/creator-marketing-foundations.md
+- @concepts/creator-content-strategy.md
+- @concepts/creator-audience-growth.md
+- @concepts/synthetic-creator-gtm.md
+- @concepts/creator-aesthetic-positioning.md
+- @entities/platforms/onlyfans.md
+- @entities/companies/friend-1.md
+- @entities/platforms/patreon.md
+- @entities/platforms/fanvue.md
+- @entities/platforms/fansly.md
+- @entities/platforms/passes.md
+- @sources/creator-email-marketing-2026.md
+- @sources/onlyfans-funnel-optimization-2026.md
+- @sources/fanvue-gtm-blueprint-2026.md
 
 maturity: draft
 created: 2026-05-08
