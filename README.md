@@ -42,6 +42,19 @@ Then point your AI assistant of choice at this folder:
 - **Claude Code**: open the folder; `CLAUDE.md` is auto-loaded as the schema
 - **claude.ai web**: paste the relevant wiki page(s) into a conversation as context
 
+### Optional: Obsidian setup (5 min)
+
+[Obsidian](https://obsidian.md) is a free local-first markdown knowledge app — the most ergonomic way to read and navigate this wiki's cross-linked pages on your own machine. The integration is fully automated:
+
+```bash
+# One command — creates vault, writes config, recommends plugins
+bash scripts/obsidian-setup.sh
+```
+
+Then open Obsidian → **Open folder as vault** → select the vault folder (default: `~/Documents/SEO-GEO-B-M-Vault`). See [wiki/concepts/obsidian-integration.md](wiki/concepts/obsidian-integration.md) for full details including mobile setup and link-format conversion.
+
+---
+
 ## Architecture (three layers)
 
 1. **Raw sources** — articles, blog posts, video transcripts, PDFs, repo snapshots, screenshots. Live in `raw-sources/` (gitignored). You read them; you never modify them.
