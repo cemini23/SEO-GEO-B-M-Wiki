@@ -102,6 +102,21 @@ def normalize_path(p):
         p = p[len("wiki/"):]
     return p
 
+
+def is_cross_wiki_path_exists(normalized_path):
+    """If *normalized_path* starts with @alias/, resolve against WIKI_ALIASES.
+    Returns True if the cross-wiki file exists, False if it doesn't.
+    Returns None if it's not a cross-wiki path (no alias prefix)."""
+    if not WIKI_ALIASES:
+        return None
+    for alias in WIKI_ALIASES:
+        prefix = f"@{alias}/"
+        if normalized_path.startswith(prefix):
+            rel = normalized_path[len(prefix):]
+            target = WIKI_ALIASES[alias] / rel
+            return target.exists()
+    return None
+
 # -- walk ----------------------------------------------------------------
 
 pages = {}                  # rel_path -> frontmatter dict
@@ -131,9 +146,6 @@ dangling = []               # (source, raw_target) where target file doesn't exi
 for src, fm in pages.items():
     for tgt_raw in fm.get("related", []):
         tgt = normalize_path(tgt_raw)
-        # Skip cross-wiki references (handled in section 8)
-        if tgt.startswith('@'):
-            continue
         # Skip briefs/ references (ephemeral deliverables, not wiki pages)
         if tgt.startswith('briefs/'):
             continue
@@ -141,7 +153,16 @@ for src, fm in pages.items():
             inbound[tgt].add(src)
             outbound[src].add(tgt)
         else:
-            dangling.append((src, tgt_raw))
+            xw = is_cross_wiki_path_exists(tgt)
+            if xw:
+                # cross-wiki target exists — not dangling
+                pass
+            elif xw is False:
+                # cross-wiki target doesn't exist — dangling
+                dangling.append((src, tgt_raw))
+            else:
+                # local path, not found
+                dangling.append((src, tgt_raw))
 
 # orphans: pages with zero inbound edges (excluding index/log already excluded)
 orphans = sorted(p for p in all_paths if p not in inbound)
@@ -157,7 +178,8 @@ gaps.sort()
 # -- 4: @path body mentions that don't resolve ---------------------------
 
 # `@path/to/page.md` style references in markdown body
-AT_PATH_RE = re.compile(r"@([a-z0-9_./-]+\.md)")
+# Capture the @ so cross-wiki paths retain the alias prefix for resolution.
+AT_PATH_RE = re.compile(r"(@[a-z0-9_./-]+\.md)")
 
 missing_mentions = defaultdict(set)  # mentioned_path -> {source, ...}
 for src, fm in pages.items():
@@ -165,14 +187,12 @@ for src, fm in pages.items():
     if not body:
         continue
     for m in AT_PATH_RE.finditer(body):
-        mentioned = normalize_path(m.group(1))
-        if mentioned not in all_paths and mentioned not in ("index.md", "log.md", "dashboard.md", "example-page.md"):
-            # Skip briefs/ and cross-wiki alias references
-            if mentioned.startswith('briefs/'):
-                continue
-            if '/' in mentioned and mentioned.split('/')[0] in WIKI_ALIASES:
-                continue
-            missing_mentions[mentioned].add(src)
+        mentioned_raw = normalize_path(m.group(1))   # e.g. @seo-wiki/concepts/foo.md
+        mentioned = mentioned_raw.lstrip("@")        # e.g. seo-wiki/concepts/foo.md
+        if mentioned not in all_paths and mentioned not in ("index.md", "log.md", "dashboard.md"):
+            xw = is_cross_wiki_path_exists(mentioned_raw)
+            if not xw:
+                missing_mentions[mentioned].add(src)
 
 # -- 8: cross-wiki @wiki-alias/path links ---------------------------
 # Check @wiki-alias/path/to/page.md references to other wikis.

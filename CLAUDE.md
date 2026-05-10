@@ -145,8 +145,10 @@ When a query needs data from another wiki, reference it using the `@wiki-alias/p
 
 | Alias | Path | Description |
 |-------|------|-------------|
-| `image-gen-wiki` | `../Image gen/wiki/` | Uncensored local image generation research, model cataloging, workflow tooling, persona/character ops |
-| `osint-wiki` | `~/Desktop/OSINT WORKSPACE/wiki/` | OSINT and financial research (includes conductor/librarian service) |
+| `osint-wiki` | `/Users/claudiobarone/Desktop/OSINT WORKSPACE/wiki/` | Financial research, quant finance, prediction markets, CeminiSuite, RL for trading |
+| `image-gen-wiki` | `/Users/claudiobarone/Desktop/projects/Image gen/wiki/` | Uncensored image generation, model cataloging, ComfyUI, LoRA, persona/character ops |
+| `seo-wiki` | `/Users/claudiobarone/Desktop/projects/SEO:GEO B&M Business/wiki/` | Local SEO, GBP optimization, GEO/AEO, web design, social media, creator marketing |
+| `3d-printing-wiki` | `/Users/claudiobarone/Desktop/projects/3d printing/wiki/` | FDM/FFF printing, Bambu, materials, slicers, print farms, store ops |
 
 ### Cross-wiki link syntax
 
@@ -156,7 +158,7 @@ When a query needs data from another wiki, reference it using the `@wiki-alias/p
 
 ### Using the OSINT conductor/librarian for unified search
 
-The OSINT workspace includes a **conductor** (MCP server that routes queries) + **librarian** (kb-server that serves wikis). To query across all three wikis:
+The OSINT workspace includes a **conductor** (MCP server that routes queries) + **librarian** (kb-server that serves wikis). To query across all four wikis:
 1. Sync all wikis to the librarian: `rsync -avz wiki/ cemini-librarian:/opt/cemini-wiki/seo-geo-wiki/wiki/`
 2. Run `kb ingest` on the librarian to reindex
 3. Use `conductor_query` tool (exposed via OSINT's `conductor/mcp_server.py`) to query across all wikis
@@ -168,6 +170,10 @@ The OSINT workspace includes a **conductor** (MCP server that routes queries) + 
 1. New source dropped into `research to be indexed/`
 2. Read the source (or relevant sections for long PDFs / repo READMEs / multi-part articles)
 3. **Discuss key takeaways with the user before writing**
+3b. **Cross-wiki routing check** — before writing pages, evaluate whether the source contains off-topic content more relevant to another wiki (@osint-wiki, @image-gen-wiki, or @3d-printing-wiki). If so:
+   - Call `python3 "/Users/claudiobarone/Desktop/OSINT WORKSPACE/scripts/cross_wiki_route.py"` to create a stub page or brief in the correct wiki, piping content via stdin
+   - Use `--type page` for substantive material, `--type brief` for tangential material
+   - **When in doubt, prefer a brief over a stub** — briefs are cheaper and don't create maintenance burden in the target wiki
 4. Create `wiki/sources/<slug>.md` — frontmatter + Raw Concept + short Narrative
 5. Identify entities + concepts the source touches. For each:
    - If page exists: update it, add `related:` backlink, bump `updated:`
