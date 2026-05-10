@@ -145,8 +145,8 @@ When a query needs data from another wiki, reference it using the `@wiki-alias/p
 
 | Alias | Path | Description |
 |-------|------|-------------|
-| `image-gen-wiki` | `/Users/claudiobarone/Desktop/projects/Image gen/wiki/` | Uncensored local image generation research, model cataloging, workflow tooling, persona/character ops |
-| `osint-wiki` | `/Users/claudiobarone/Desktop/OSINT WORKSPACE/wiki/` | OSINT and financial research (includes conductor/librarian service) |
+| `image-gen-wiki` | `../Image gen/wiki/` | Uncensored local image generation research, model cataloging, workflow tooling, persona/character ops |
+| `osint-wiki` | `~/Desktop/OSINT WORKSPACE/wiki/` | OSINT and financial research (includes conductor/librarian service) |
 
 ### Cross-wiki link syntax
 
