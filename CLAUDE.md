@@ -143,12 +143,14 @@ updated: 2026-05-06
 
 When a query needs data from another wiki, reference it using the `@wiki-alias/path/to/page.md` syntax. The LLM resolves these by reading the other wiki's files directly.
 
+Paths below are relative to this CLAUDE.md file's directory. Resolve `../` against this file's location to get the absolute path.
+
 | Alias | Path | Description |
 |-------|------|-------------|
-| `osint-wiki` | `/Users/claudiobarone/Desktop/OSINT WORKSPACE/wiki/` | Financial research, quant finance, prediction markets, CeminiSuite, RL for trading |
-| `image-gen-wiki` | `/Users/claudiobarone/Desktop/projects/Image gen/wiki/` | Uncensored image generation, model cataloging, ComfyUI, LoRA, persona/character ops |
-| `seo-wiki` | `/Users/claudiobarone/Desktop/projects/SEO:GEO B&M Business/wiki/` | Local SEO, GBP optimization, GEO/AEO, web design, social media, creator marketing |
-| `3d-printing-wiki` | `/Users/claudiobarone/Desktop/projects/3d printing/wiki/` | FDM/FFF printing, Bambu, materials, slicers, print farms, store ops |
+| `osint-wiki` | `../../OSINT WORKSPACE/wiki/` | Financial research, quant finance, prediction markets, CeminiSuite, RL for trading |
+| `image-gen-wiki` | `../Image gen/wiki/` | Uncensored image generation, model cataloging, ComfyUI, LoRA, persona/character ops |
+| `seo-wiki` | `wiki/` | Local SEO, GBP optimization, GEO/AEO, web design, social media, creator marketing |
+| `3d-printing-wiki` | `../3d printing/wiki/` | FDM/FFF printing, Bambu, materials, slicers, print farms, store ops |
 
 ### Cross-wiki link syntax
 
