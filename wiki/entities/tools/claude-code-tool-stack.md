@@ -54,8 +54,9 @@ Routes all LLM traffic through a local proxy for model switching, failover, and 
 Solves the "Claude forgot everything from last session" problem.
 
 - **Repo**: `github.com/thedotmack/claude-mem`
-- **Install**: `/plugin marketplace add thedotmack/claude-mem` inside Claude Code
+- **Install**: `npx claude-mem install` (auto-installs Bun + dependencies, registers plugin hooks, sets up background worker)
 - **How it works**: Background Bun process observes your terminal activity, compresses it into a ChromaDB vector store, and injects relevant context on session start via a `SessionStart` hook.
+- **Start worker**: `npx claude-mem start` (or restart Claude Code — worker auto-starts on next session)
 - **Watch out**: Can become a token hog if injection limits aren't configured. Verify the settings cap how much history it dumps into each session.
 
 ### Tool 4: ttok (token counting)
@@ -64,6 +65,24 @@ Simple Python utility to count tokens before sending. Essential for cost awarene
 
 - **Install**: `pip install ttok` or add to Pipfile
 - **Use**: `ttok "your prompt text"` — returns token count. Pipe files through it before pasting into Claude to understand what you're spending.
+
+### Tool 5: tech-debt-skill (code quality audit)
+
+A Claude Code skill that audits your entire codebase and produces a `TECH_DEBT_AUDIT.md` with file:line-cited findings, severity ratings, and effort estimates.
+
+- **Repo**: `github.com/ksimback/tech-debt-skill`
+- **Install**: Copy `SKILL.md` to `~/.claude/skills/tech-debt-audit.md`, then invoke via `/tech-debt-audit` in any repo
+- **Why**: Before showing code to anyone (client, investor, collaborator), run this. It finds the real problems, not generic lint output. The required "looks bad but is actually fine" section catches shallow analysis.
+- **Watch out**: Whole-repo audits consume significant API tokens — run sparingly, not continuously.
+
+### Tool 6: spec-kit (spec-driven development)
+
+GitHub's CLI for Spec-Driven Development — write a spec first, validate it, then generate scaffold code. Bridges the gap between "I know what I want" and "I have working code."
+
+- **Repo**: `github.com/github/spec-kit`
+- **Install**: `uv tool install specify-cli` (one command, auto-installs Python 3.11+ if needed)
+- **CLI**: `specify` — use `specify init` to bootstrap a project, then iterate spec → code → validate
+- **Why**: Stops vibe-coding. Instead of "build me a landing page," you define the spec, validate it, then generate. The spec becomes documentation — useful when handing off to contractors or other devs.
 
 ### The Full Stack (how these fit together)
 
@@ -75,6 +94,8 @@ Your Terminal (Aider / Claude Code CLI)
     → Your MCP servers (Brave Search, Playwright, etc.)
   → claude-mem (background)                ← session memory injection
   → ttok                                    ← ad-hoc token counting
+  → /tech-debt-audit                        ← codebase quality check (on demand)
+  → specify                                 ← spec-driven development (on demand)
 ```
 
 ### Why this matters financially
@@ -95,7 +116,9 @@ With this stack:
 1. Install `ttok` — immediate cost visibility, 30 seconds
 2. Install `lazy-tool` — the biggest lever, 10 minutes
 3. Install `claude-code-router` — if using OpenRouter, 15 minutes
-4. Install `claude-mem` — if running multi-day projects, 5 minutes
+4. Install `claude-mem` — if running multi-day projects, one command
+5. Install `tech-debt-skill` — before showing code to anyone, 2 minutes
+6. Install `spec-kit` — when you're ready to stop vibe-coding, one command
 
 ### Key concept: the three caches
 
