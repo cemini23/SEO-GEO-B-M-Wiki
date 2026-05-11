@@ -1,5 +1,5 @@
 ---
-
+type: concept
 related:
   - concepts/local-seo-foundations.md
   - concepts/reviews-reputation-management.md

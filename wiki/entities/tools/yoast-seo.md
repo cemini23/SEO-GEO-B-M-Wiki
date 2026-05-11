@@ -1,4 +1,5 @@
 ---
+type: entity
 related:
   - sources/github-repo-audit-2026-05-07.md
   - concepts/website-essentials-local-business.md

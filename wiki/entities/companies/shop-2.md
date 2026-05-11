@@ -1,4 +1,5 @@
 ---
+type: entity
 related:
   - concepts/barbershop-marketing-fundamentals.md
   - concepts/first-90-days-playbook.md

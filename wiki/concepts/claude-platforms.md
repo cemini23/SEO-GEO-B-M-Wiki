@@ -10,6 +10,7 @@ related:
   - entities/tools/claude-seo-agrici.md
   - entities/tools/geo-seo-claude.md
   - entities/tools/seomachine.md
+  - entities/tools/claude-code-tool-stack.md
   - concepts/generative-engine-optimization.md
   - concepts/obsidian-navigation.md
   - concepts/obsidian-integration.md
@@ -26,6 +27,7 @@ updated: 2026-05-07
 - @entities/tools/claude-seo-agrici.md
 - @entities/tools/geo-seo-claude.md
 - @entities/tools/seomachine.md
+- @entities/tools/claude-code-tool-stack.md
 - @concepts/generative-engine-optimization.md
 - @concepts/obsidian-navigation.md
 

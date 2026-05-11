@@ -1,5 +1,5 @@
 ---
-
+type: entity
 related:
   - concepts/barbershop-marketing-fundamentals.md
   - entities/markets/local-market-template.md

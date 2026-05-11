@@ -1,5 +1,5 @@
 ---
-
+type: entity
 related:
   - concepts/google-business-profile.md
   - concepts/local-seo-foundations.md

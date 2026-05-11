@@ -1,4 +1,5 @@
 ---
+type: concept
 related:
   - concepts/website-essentials-local-business.md
   - concepts/generative-engine-optimization.md

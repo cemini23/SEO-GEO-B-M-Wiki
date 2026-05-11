@@ -1,4 +1,5 @@
 ---
+type: entity
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-audience-growth.md

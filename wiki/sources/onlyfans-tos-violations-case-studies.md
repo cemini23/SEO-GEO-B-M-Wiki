@@ -1,10 +1,12 @@
 ---
+type: source
 related:
   - entities/platforms/onlyfans.md
   - concepts/ai-assistance-guardrails.md
-  - concepts/ai-assitance-guardrails.md
+maturity: draft
+read_status: read
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-10
 ---
 
 ## Relations

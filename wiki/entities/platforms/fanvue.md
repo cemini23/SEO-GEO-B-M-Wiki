@@ -1,11 +1,12 @@
 ---
+type: entity
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-content-strategy.md
   - concepts/creator-external-promotion.md
   - concepts/creator-audience-growth.md
   - concepts/creator-retention.md
-  - concepts/ai-assitance-guardrails.md
+  - concepts/ai-assistance-guardrails.md
   - entities/platforms/onlyfans.md
   - entities/platforms/fansly.md
   - entities/platforms/niche.md
@@ -27,7 +28,7 @@ updated: 2026-05-08
 - @concepts/creator-content-strategy.md
 - @concepts/creator-external-promotion.md
 - @concepts/creator-audience-growth.md
-- @concepts/ai-assitance-guardrails.md
+- @concepts/ai-assistance-guardrails.md
 - @entities/platforms/onlyfans.md
 - @entities/platforms/fansly.md
 - @entities/platforms/niche.md

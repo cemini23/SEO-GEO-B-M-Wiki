@@ -1,4 +1,5 @@
 ---
+type: concept
 related:
   - concepts/local-seo-foundations.md
   - concepts/schema-markup-local.md

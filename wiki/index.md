@@ -48,7 +48,6 @@ If you're new to this wiki:
 - [onlyfans-funnel-optimization-2026](sources/onlyfans-funnel-optimization-2026.md) — Full funnel stages, traffic source conversion rates (Reddit 3–8%, X 2–5%, IG 1–3%), value ladder, retention economics
 - [fanvue-gtm-blueprint-2026](sources/fanvue-gtm-blueprint-2026.md) — Fanvue synthetic creator GTM blueprint: niche selection, GEO traffic, conversion/retention, brand partnerships (171 paragraphs, 2026)
 - [ai-detection-enforcement-2026](sources/ai-detection-enforcement-2026.md) — OnlyFans AI policy, platform comparison (OF/Fansly/Fanvue), TAKE IT DOWN Act, compliance checklist
-- [fanvue-gtm-blueprint-2026](sources/fanvue-gtm-blueprint-2026.md) — Fanvue synthetic creator GTM blueprint: niche selection, GEO traffic, conversion/retention, brand partnerships (171 paragraphs, 2026)
 
 ## Concepts
 

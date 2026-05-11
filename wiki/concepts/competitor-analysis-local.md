@@ -1,4 +1,5 @@
 ---
+type: concept
 related:
   - concepts/local-seo-foundations.md
   - entities/tools/semrush.md

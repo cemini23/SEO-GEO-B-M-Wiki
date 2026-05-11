@@ -1,5 +1,5 @@
 ---
-
+type: concept
 related:
   - concepts/barbershop-marketing-fundamentals.md
   - entities/platforms/instagram.md

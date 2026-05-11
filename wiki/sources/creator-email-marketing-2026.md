@@ -1,4 +1,5 @@
 ---
+type: source
 related:
   - concepts/creator-external-promotion.md
   - concepts/creator-audience-growth.md
@@ -6,6 +7,7 @@ related:
   - concepts/creator-marketing-foundations.md
   - entities/platforms/onlyfans.md
 maturity: validated
+read_status: read
 created: 2026-05-08
 updated: 2026-05-08
 ---

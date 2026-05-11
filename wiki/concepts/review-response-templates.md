@@ -1,5 +1,5 @@
 ---
-
+type: concept
 related:
   - concepts/reviews-reputation-management.md
   - entities/tools/marketingskills.md

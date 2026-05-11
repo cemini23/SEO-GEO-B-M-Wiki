@@ -1,4 +1,5 @@
 ---
+type: entity
 related:
   - concepts/reviews-reputation-management.md
   - concepts/review-response-templates.md

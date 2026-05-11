@@ -1,4 +1,5 @@
 ---
+type: concept
 related:
   - concepts/claude-platforms.md
   - concepts/obsidian-integration.md

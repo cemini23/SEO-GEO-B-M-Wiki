@@ -1,4 +1,5 @@
 ---
+type: entity
 related:
   - concepts/social-media-for-barbershops.md
   - concepts/creator-external-promotion.md

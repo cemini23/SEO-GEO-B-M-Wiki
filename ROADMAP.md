@@ -130,6 +130,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 | 2026-05-07 | First ingest pass: Aggarwal 2024 GEO paper + 21-repo audit | 9 pages created (3 sources + 5 tool entities + 1 concept), 12 edited (GEO concept enriched, 11 backlinks), index/log updated, raw sources moved to gitignored `raw-sources/`. GEO concept upgraded `draft → validated`. |
 | 2026-05-07 | Adoption brief staged: tool-adoption-handoff | First operator-shippable deliverable: install Claude Code + 4 skills + Yoast (if WP). Resolves the ambiguity about whether audit findings are MCPs (they aren't). |
 | 2026-05-07 | Lint scripts ported (`wiki_lint.py`, `wiki_gap_detect.py`, `preingest_check.py`) + first run + cleanup | Caught 19 bidirectional backlink gaps + 1 dangling link + 2 missing `read_status` fields the manual ingest pass missed. Wiki now passes all 7 lint checks (only intentional off-topic orphan remains). |
+| 2026-05-10 | Wiki health pass: cleanup + frontmatter compliance + lint patches + DOCX ingest | Resolved duplicate `ai-assitance-guardrails.md`/`ai-assistance-guardrails.md` page conflict (typo merge); added `type:` to 51 pages; patched `wiki_lint.py` to recognize `briefs/` at repo root and strip code spans before checking @path mentions; ingested `AI Creator GTM Strategy Blueprint.docx` (the long-awaited authoritative source for the 12-inbound `fanvue-gtm-blueprint-2026.md` page). Lint now reports 0 issues across all 8 checks (1 intentional orphan + 9 cited-unread stubs remaining). |
 
 ---
 

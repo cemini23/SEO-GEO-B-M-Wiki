@@ -1,27 +1,38 @@
 ---
-
+title: AI Assistance Guardrails
+type: concept
+tags: [ai-assistance, claude, creator-economy, policy-compliance]
+keywords: [ai guardrails, claude usage, content safety, detection avoidance]
 related:
+  - briefs/2026-05-08_ai-content-workflow.md
+  - concepts/creator-content-strategy.md
   - concepts/creator-marketing-foundations.md
   - entities/platforms/onlyfans.md
   - entities/platforms/twitter-x.md
+  - entities/platforms/fanvue.md
+  - entities/platforms/patreon.md
+  - entities/tools/claude-code-tool-stack.md
   - sources/ai-detection-platforms-2026.md
-  - sources/onlyfans-tos-violations-case-studies.md
   - sources/ai-detection-enforcement-2026.md
-
+  - sources/onlyfans-tos-violations-case-studies.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
-
+updated: 2026-05-10
 ---
 
 ## Relations
 
+- @briefs/2026-05-08_ai-content-workflow.md
+- @concepts/creator-content-strategy.md
 - @concepts/creator-marketing-foundations.md
 - @entities/platforms/onlyfans.md
 - @entities/platforms/twitter-x.md
+- @entities/platforms/fanvue.md
+- @entities/platforms/patreon.md
+- @entities/tools/claude-code-tool-stack.md
 - @sources/ai-detection-platforms-2026.md
-- @sources/onlyfans-tos-violations-case-studies.md
 - @sources/ai-detection-enforcement-2026.md
+- @sources/onlyfans-tos-violations-case-studies.md
 
 
 ## Raw Concept

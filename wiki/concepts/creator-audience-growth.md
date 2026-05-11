@@ -1,4 +1,5 @@
 ---
+type: concept
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-content-strategy.md

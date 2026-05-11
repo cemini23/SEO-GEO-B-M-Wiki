@@ -1,4 +1,5 @@
 ---
+type: concept
 related:
   - concepts/first-90-days-playbook.md
   - entities/companies/shop-1.md

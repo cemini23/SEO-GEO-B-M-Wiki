@@ -9,7 +9,7 @@ related:
   - concepts/creator-audience-growth.md
   - concepts/creator-retention.md
   - concepts/creator-external-promotion.md
-  - concepts/ai-assitance-guardrails.md
+  - concepts/ai-assistance-guardrails.md
   - entities/platforms/onlyfans.md
   - entities/companies/friend-1.md
 maturity: draft

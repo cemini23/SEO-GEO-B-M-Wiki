@@ -1,4 +1,5 @@
 ---
+type: concept
 related:
   - sources/viral-content-strategy-2026.md
   - sources/tiktok-algorithm-mechanics-2026.md

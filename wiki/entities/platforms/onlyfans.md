@@ -1,12 +1,12 @@
 ---
-
+type: entity
 related:
   - concepts/creator-marketing-foundations.md
   - concepts/creator-audience-growth.md
   - concepts/creator-content-strategy.md
   - concepts/creator-retention.md
   - concepts/creator-external-promotion.md
-  - concepts/ai-assitance-guardrails.md
+  - concepts/ai-assistance-guardrails.md
   - entities/platforms/twitter-x.md
   - entities/platforms/reddit.md
   - entities/platforms/fanvue.md

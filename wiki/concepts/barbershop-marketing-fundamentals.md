@@ -1,4 +1,5 @@
 ---
+type: concept
 related:
   - concepts/social-media-for-barbershops.md
   - concepts/website-essentials-local-business.md

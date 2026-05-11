@@ -1,5 +1,5 @@
 ---
-
+type: concept
 related:
   - concepts/local-seo-foundations.md
   - concepts/website-essentials-local-business.md

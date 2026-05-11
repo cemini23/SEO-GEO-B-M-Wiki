@@ -1,4 +1,5 @@
 ---
+type: entity
 related:
   - concepts/website-essentials-local-business.md
   - concepts/first-90-days-playbook.md

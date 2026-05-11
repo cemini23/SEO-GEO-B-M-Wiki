@@ -1,5 +1,5 @@
 ---
-
+type: concept
 related:
   - concepts/social-media-for-barbershops.md
   - concepts/barbershop-marketing-fundamentals.md

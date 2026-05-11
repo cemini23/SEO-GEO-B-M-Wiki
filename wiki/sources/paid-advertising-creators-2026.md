@@ -9,6 +9,7 @@ related:
   - concepts/creator-audience-growth.md
   - concepts/creator-marketing-foundations.md
 maturity: draft
+read_status: read
 created: 2026-05-08
 updated: 2026-05-08
 ---

@@ -1,5 +1,5 @@
 ---
-
+type: entity
 related:
   - concepts/near-me-search.md
   - concepts/local-pack-rankings.md

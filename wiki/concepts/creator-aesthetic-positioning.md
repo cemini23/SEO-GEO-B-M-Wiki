@@ -1,4 +1,5 @@
 ---
+type: concept
 related:
   - sources/fanvue-gtm-blueprint-2026.md
   - concepts/synthetic-creator-gtm.md

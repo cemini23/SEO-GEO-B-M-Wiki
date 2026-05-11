@@ -1,4 +1,5 @@
 ---
+type: entity
 related:
   - concepts/local-seo-foundations.md
   - concepts/barbershop-marketing-fundamentals.md

@@ -1,7 +1,7 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-08
+updated: 2026-05-10
 last_easy_review_ingest: 2026-05-08
 ---
 
@@ -10,6 +10,35 @@ last_easy_review_ingest: 2026-05-08
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
 ---
+
+## [2026-05-10] maintenance | wiki health pass + DOCX ingest
+
+Routine health check triggered by "is everything working?" Found and fixed multiple issues across the wiki + ingested one pending source.
+
+**Quick cleanup:**
+- Deleted 2 empty Obsidian canvas files (`wiki/Untitled.canvas`, `wiki/Untitled 1.canvas`)
+- Resolved duplicate page conflict: merged `concepts/ai-assitance-guardrails.md` (typo, 69 lines, better frontmatter) into the canonical `concepts/ai-assistance-guardrails.md` (correct spelling, 147 lines, richer body). Fixed 7 wiki files that referenced the typo'd path. Tag `ai-assitance` corrected to `ai-assistance`.
+- Added 2 missing bidirectional backlinks: `concepts/claude-platforms.md` ↔ `entities/tools/claude-code-tool-stack.md`, `concepts/ai-assistance-guardrails.md` ↔ `entities/tools/claude-code-tool-stack.md`
+
+**Frontmatter schema compliance:**
+- Added `type:` field to 51 pages that were missing it (26 concept pages → `type: concept`, 5 source pages → `type: source`, 20 entity pages → `type: entity`). Lint now reports 0 missing `type` fields.
+- Added missing `maturity: draft` to `sources/ai-detection-platforms-2026.md` and `sources/onlyfans-tos-violations-case-studies.md`. Also de-duplicated their related: lists (artifact from the typo'd-path replacement).
+- Removed duplicate `concepts/ai-assistance-guardrails.md` entry in `creator-marketing-foundations.md`.
+
+**Lint script patches (`scripts/wiki_lint.py`):**
+- Section 4 (@path body mentions) now recognizes `briefs/*.md` paths that exist at repo root (briefs live outside `wiki/` by convention but are referenced from inside). Fixes 4 false-positive "missing page" warnings for briefs that exist.
+- Section 4 now strips inline-code backticks and fenced code blocks before matching `@path` mentions. Illustrative `@example-page.md` references inside documentation no longer flagged.
+
+**Ingest — AI Creator GTM Strategy Blueprint.docx:**
+- Source file (3 MB DOCX, 120 paragraphs, 60+ citations) was in `research to be indexed/` from a prior session. Confirmed it is the authoritative source for the previously-content-rich `sources/fanvue-gtm-blueprint-2026.md` stub (which had 12 inbound citations but no `read_status` set, flagging it as cited-unread).
+- Updated `sources/fanvue-gtm-blueprint-2026.md`: set `read_status: deep-read`, refreshed Raw Concept provenance to reference both the DOCX file and the earlier `blha6pkkl.txt` cache, added 7 verbatim quotes to a new `## Snippets` section (covering generalist-vs-niche economics, AI slop / aesthetic fatigue, geographic anchoring, PPV whale economics, chatbot reset failure mode, AI ad creative CTR/AOV tradeoff, organic reach decline).
+- Cleared duplicate `fanvue-gtm-blueprint-2026` entry in `wiki/index.md` (Sources section).
+- Moved DOCX from `research to be indexed/` to `raw-sources/`. Inbox now empty.
+
+**Cited-unread stub sweep (second pass):**
+- Audited the 9 remaining cited-unread stubs. Each had 89–145 lines of body content with 4–7 verbatim quote snippets already in place — these were all already-read sources from previous research passes that simply lacked an explicit `read_status` frontmatter field. Added `read_status: read` to all 9: `instagram-reels-creator-marketing-2026`, `creator-email-marketing-2026`, `paid-advertising-creators-2026`, `tiktok-marketing-2026`, `ai-detection-enforcement-2026`, `youtube-shorts-creator-growth-2026`, `onlyfans-funnel-optimization-2026`, `onlyfans-tos-violations-case-studies`, `ai-detection-platforms-2026`.
+
+**Final lint state:** 87 pages indexed, 1 orphan (intentional off-topic `slcg-paper-off-topic.md`), 0 bidirectional gaps, 0 dangling related: links, 0 dangling @path mentions, 0 cited-unread stubs, 0 missing type/maturity fields, 0 stale NEEDS VERIFICATION tags, all 7 cross-wiki references resolve. Lint is fully clean across all 8 checks for the first time.
 
 ---
 

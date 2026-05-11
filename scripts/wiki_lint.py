@@ -182,16 +182,25 @@ gaps.sort()
 AT_PATH_RE = re.compile(r"(@[a-z0-9_./-]+\.md)")
 
 missing_mentions = defaultdict(set)  # mentioned_path -> {source, ...}
+# Strip inline-code spans (`...`) and fenced code blocks (```...```) — @path
+# mentions inside code are illustrative, not real cross-links.
+INLINE_CODE_RE = re.compile(r"`[^`\n]*`")
+FENCED_CODE_RE = re.compile(r"```.*?```", re.DOTALL)
 for src, fm in pages.items():
     body = fm.get("_body", "")
     if not body:
         continue
-    for m in AT_PATH_RE.finditer(body):
+    body_no_code = FENCED_CODE_RE.sub("", body)
+    body_no_code = INLINE_CODE_RE.sub("", body_no_code)
+    for m in AT_PATH_RE.finditer(body_no_code):
         mentioned_raw = normalize_path(m.group(1))   # e.g. @seo-wiki/concepts/foo.md
         mentioned = mentioned_raw.lstrip("@")        # e.g. seo-wiki/concepts/foo.md
         if mentioned not in all_paths and mentioned not in ("index.md", "log.md", "dashboard.md"):
             xw = is_cross_wiki_path_exists(mentioned_raw)
             if not xw:
+                # Briefs live at repo root (outside wiki/) — check there before flagging
+                if mentioned.startswith('briefs/') and (WIKI.parent / mentioned).exists():
+                    continue
                 missing_mentions[mentioned].add(src)
 
 # -- 8: cross-wiki @wiki-alias/path links ---------------------------

@@ -1,4 +1,5 @@
 ---
+type: source
 related:
   - concepts/synthetic-creator-gtm.md
   - concepts/creator-aesthetic-positioning.md
@@ -13,8 +14,9 @@ related:
   - entities/companies/friend-1.md
   - concepts/creator-content-flywheel.md
 maturity: validated
+read_status: read
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-10
 ---
 
 ## Relations
@@ -35,9 +37,10 @@ updated: 2026-05-08
 
 **Title:** "Strategic Go-To-Market Blueprint for Synthetic Media Personas: 2026 Fanvue Integration and Market Optimization"
 **Type:** Comprehensive research report / market strategy document
-**Retrieved:** 2026-05-08
-**Read status:** read (full text — 171 paragraphs, 2 tables)
-**Provenance:** Appeared in session cache (`blha6pkkl.txt`); likely sourced from a web research pass. Original URL not directly available — treat as retrieved research document.
+**Retrieved:** 2026-05-08 (web research pass); DOCX archived 2026-05-10
+**Filename:** `raw-sources/AI Creator GTM Strategy Blueprint.docx` (also see `raw-sources/blha6pkkl.txt` cache)
+**Read status:** deep-read (full text — 120 paragraphs, 2 inline tables, 60+ citations)
+**Provenance:** Originally surfaced in session cache (`blha6pkkl.txt`) during the 2026-05-08 creator-marketing expansion. The companion DOCX file was dropped into `research to be indexed/` on 2026-05-10 and ingested into `raw-sources/`. The two are the same document (the DOCX is the authoritative source).
 
 ## Narrative
 
@@ -106,6 +109,22 @@ Four-layer prompt system for high-volume personalized DM interactions:
 - InfluenceFlow: Creator media kits and rate cards 2026
 - Digital Applied: Influencer marketing ROI measurement 2026
 - 50+ additional references including Reddit case studies, YouTube tutorials, and industry reports
+
+## Snippets
+
+> "Empirical data underscores the financial peril of the generalist model: currently, seventy-three percent of digital creators earn below $30,000 annually. Conversely, creators operating within highly specific, underserved micro-niches achieve a 3.7x profitability advantage, commanding average revenues exceeding $9,169 per month." [Source: AI Creator GTM Strategy Blueprint.docx, Pillar 1]
+
+> "Audiences exhibit acute fatigue toward hyper-realistic, flawlessly rendered AI avatars that lack intention, perspective, or emotional depth, leading to what industry analysts describe as severe digital burnout. The pursuit of absolute technological perfection in visual generation is now counterproductive, triggering skepticism rather than engagement." [Source: AI Creator GTM Strategy Blueprint.docx, Aesthetic Positioning]
+
+> "AI engines synthesize spatial data with high priority; anchoring the persona to a real, verifiable geography establishes a localized trust signal that national, generalized competitors fundamentally lack, significantly increasing Click-Through Rates (CTR) and perceived relevance." [Source: AI Creator GTM Strategy Blueprint.docx, Pillar 2.1]
+
+> "Case studies of successful 2026 AI deployments indicate that a highly engaged, even modestly sized subscriber base can generate an average of $40 or more in PPV sales per user, with 'whale' users frequently spending $200 or more in single, highly personalized chat sessions." [Source: AI Creator GTM Strategy Blueprint.docx, Pillar 3.1]
+
+> "Deploying a generic LLM without rigorous structural constraints results in the 'chatbot reset' phenomenon — a catastrophic failure where the AI loses conversational context, generates generic or robotic responses, and immediately shatters the parasocial illusion, leading directly to high subscriber churn rates." [Source: AI Creator GTM Strategy Blueprint.docx, Pillar 3.2]
+
+> "AI-generated ad creatives have empirically proven to yield a 12% higher Click-Through Rate (CTR) on platforms like Meta compared to human-made advertisements... while AI creative drives significantly higher CTR, it suffers an 8% conversion penalty for high-consideration purchases where the Average Order Value (AOV) exceeds $100." [Source: AI Creator GTM Strategy Blueprint.docx, Pillar 4.1]
+
+> "Organic reach on Instagram sits at roughly 7.6%, reflecting an 18% year-over-year decline, while average organic reach on TikTok has plummeted from 24% to a mere 10%." [Source: AI Creator GTM Strategy Blueprint.docx, Pillar 2]
 
 ## Dead Ends
 

@@ -1,11 +1,11 @@
 ---
-
+type: entity
 related:
   - concepts/creator-external-promotion.md
   - concepts/creator-marketing-foundations.md
   - concepts/creator-audience-growth.md
   - concepts/creator-content-strategy.md
-  - concepts/ai-assitance-guardrails.md
+  - concepts/ai-assistance-guardrails.md
   - entities/platforms/onlyfans.md
   - entities/companies/friend-1.md
   - sources/twitter-x-creator-guide-2026.md

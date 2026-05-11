@@ -1,5 +1,5 @@
 ---
-
+type: entity
 related:
   - concepts/local-seo-foundations.md
   - concepts/on-page-seo-local.md
