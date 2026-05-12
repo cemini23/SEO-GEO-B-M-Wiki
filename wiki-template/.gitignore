@@ -1,18 +1,22 @@
 # =============================================================================
-# SEO / GEO / B&M Business Research Workspace — .gitignore
+# Wiki Workspace — .gitignore
 # =============================================================================
 # Tracked: CLAUDE.md, LESSONS.md, ROADMAP.md, wiki/, scripts/, prompts/,
-#          .gitignore, .env.example, claude_desktop_config.json.example
+#          .gitignore, .env.example, claude_desktop_config.json.example,
+#          .gitkeep placeholders inside otherwise-ignored directories
 # Untracked: raw sources, briefs, .env, .claude/, OS cruft
 # =============================================================================
 
 # --- Raw sources (large, often copyrighted / scraped; live local only) -------
-# Anchored to root so wiki-template/ placeholder dirs survive clone
-/research to be indexed/
-/raw-sources/
+# Ignore contents but keep the directory + .gitkeep so it survives clone
+research to be indexed/*
+!research to be indexed/.gitkeep
+raw-sources/*
+!raw-sources/.gitkeep
 
 # --- Outputs staged for distribution -----------------------------------------
-/briefs/
+briefs/*
+!briefs/.gitkeep
 
 # --- Claude Code per-project state -------------------------------------------
 .claude/
