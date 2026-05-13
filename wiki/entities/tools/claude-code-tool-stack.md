@@ -14,6 +14,8 @@ updated: 2026-05-10
 ## Relations
 - `@concepts/claude-platforms.md` — Claude platform overview (Code, API, Desktop)
 - `@concepts/ai-assistance-guardrails.md` — safety boundaries for AI tool usage
+- `@ccc-wiki/entities/tools/lazy-tool.md`, `@ccc-wiki/entities/tools/claude-code-router.md`, `@ccc-wiki/entities/tools/spec-kit.md`, `@ccc-wiki/entities/tools/ttok.md`, `@ccc-wiki/entities/tools/tech-debt-skill.md` — CCC-side per-tool entity pages
+- `@ccc-wiki/concepts/three-cache-architecture.md`, `@ccc-wiki/concepts/mcp-context-optimization.md` — CCC-side concept pages on the cache + optimization mechanism this stack page references
 
 ## Raw Concept
 

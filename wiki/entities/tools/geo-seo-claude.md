@@ -21,6 +21,7 @@ updated: 2026-05-07
 - @concepts/schema-markup-local.md
 - @concepts/claude-platforms.md
 - @entities/tools/claude-seo-agrici.md
+- @ccc-wiki/entities/skills/geo-seo-claude.md — CCC-side installed-skill page
 
 ## Raw Concept
 

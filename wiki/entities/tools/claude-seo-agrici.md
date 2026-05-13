@@ -37,6 +37,7 @@ updated: 2026-05-08
 - @concepts/first-90-days-playbook.md
 - @concepts/session-1-facilitator-notes.md
 - @log.md
+- @ccc-wiki/entities/skills/claude-seo-agrici.md — CCC-side installed-skill page (Cemini's adoption record)
 
 
 ## Raw Concept

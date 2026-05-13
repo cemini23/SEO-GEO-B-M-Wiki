@@ -152,6 +152,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 | `seo-wiki` | `wiki/` | Local SEO, GBP optimization, GEO/AEO, web design, social media, creator marketing |
 | `3d-printing-wiki` | `../3d printing/wiki/` | FDM/FFF printing, Bambu, materials, slicers, print farms, store ops |
 | `cybersecurity-wiki` | `../Cybersecurity wiki/wiki/` | Cybersecurity research — offensive security, defensive operations, certifications, threat actors. Shared territory: web-app security for client sites + spam-policy / fake-review attack surfaces |
+| `ccc-wiki` | `../Cemini claude code CCC/wiki/` | Cemini Claude Code meta-wiki — workflow, MCP, hooks, skills, slash commands, /goal · Ralph · OpenSpec patterns. Shared territory: SEO/GEO Claude Code skills (`@ccc-wiki/entities/skills/claude-seo-agrici.md`, `@ccc-wiki/entities/skills/marketingskills.md`, `@ccc-wiki/entities/skills/geo-seo-claude.md`); the `claude-code-tool-stack` SEO page is the canonical operator-facing reference for the optimization stack documented in `@ccc-wiki/concepts/three-cache-architecture.md` and `@ccc-wiki/concepts/mcp-context-optimization.md` |
 
 ### Cross-wiki link syntax
 

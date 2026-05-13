@@ -28,6 +28,8 @@ updated: 2026-05-07
 - @concepts/generative-engine-optimization.md
 - @concepts/local-seo-foundations.md
 - @concepts/claude-platforms.md
+- @ccc-wiki/entities/skills/claude-seo-agrici.md — CCC-side installed-skill page (Cemini's adoption record for the local-SEO skill surfaced GO by this audit)
+- @ccc-wiki/entities/skills/geo-seo-claude.md — CCC-side installed-skill page (the GEO-SEO skill surfaced GO by this audit)
 
 ## Raw Concept
 

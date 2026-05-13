@@ -30,6 +30,8 @@ updated: 2026-05-07
 - @entities/tools/claude-code-tool-stack.md
 - @concepts/generative-engine-optimization.md
 - @concepts/obsidian-navigation.md
+- @ccc-wiki/concepts/claude-desktop-vs-claude-code.md — CCC-side concept page (LLM-facing canonical write-up of the same distinction)
+- @ccc-wiki/entities/commands/plugin.md — CCC-side documentation of `/plugin marketplace add` + `/plugin install`
 
 ## Raw Concept
 
