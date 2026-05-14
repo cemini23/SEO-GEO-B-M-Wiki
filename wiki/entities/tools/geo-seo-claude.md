@@ -10,7 +10,7 @@ related:
   - entities/tools/marketingskills.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-14
 ---
 
 ## Relations
@@ -22,6 +22,7 @@ updated: 2026-05-07
 - @concepts/claude-platforms.md
 - @entities/tools/claude-seo-agrici.md
 - @ccc-wiki/entities/skills/geo-seo-claude.md — CCC-side installed-skill page
+- @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 cross-wiki eval (independent reconfirmation, doc-level)
 
 ## Raw Concept
 
@@ -92,3 +93,11 @@ For each location page (and the homepage):
 > "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup..." [Source: github-repo-audit-2026-05-07 — geo-seo-claude section]
 
 > "A critical flaw where generic WebFetch stripped crucial `<head>` content (resulting in undetected JSON-LD schema) was recently identified and successfully resolved by migrating the architecture to a dedicated fetch_page.py module." [Source: github-repo-audit-2026-05-07 — geo-seo-claude section]
+
+## K44 Cross-Wiki Reconfirmation (2026-05-14)
+
+The OSINT-wiki K44 ingest evaluated this tool independently as part of a 28-URL multi-wiki eval. K44 doc-level verdict: **Adopt** (Primary fit: SEO; cross-route: CCC). Reported metrics: MIT license, 7,200 stars, Python (72.6%) + Shell (17.5%) + HTML + Playwright stack — minor drift from the 2026-05-07 SEO-wiki audit (~6,700 stars, 11 open issues, last commit 2026-04-30) consistent with a week of continued repo activity.
+
+**Significance**: K44 is an LLM-generated eval document with known doc-level reliability concerns (see `@osint-wiki/concepts/multi-wiki-eval-doc-level-vs-phase-0.md`). The K44 doc-level Adopt verdict on this specific tool independently converges with the SEO-wiki's prior Phase-0 GO from 2026-05-07. This convergence raises the signal quality of the K44 eval *for this specific finding*. Other K44 Adopts (e.g., Polymarket-BTC bot, betterleaks) remain Phase-0-pending in their respective destination wikis.
+
+No action change for SEO-wiki — adoption verdict remains GO, this entity remains `validated`. Cross-wiki backlink recorded above.
