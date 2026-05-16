@@ -124,6 +124,18 @@ No `.env.example` template for creators yet (tracked in ROADMAP). The first sess
 
 All three are pure-Python; no external dependencies. CI runs `wiki_lint.py` on every push (see `.github/workflows/`).
 
+## Sister wikis
+
+This wiki is one of **six** interconnected Cemini knowledge wikis. Cross-wiki links use `@<alias>/path/to/page.md` syntax (aliases + paths in `CLAUDE.md` under "Related Wikis"):
+
+- `osint-wiki` — financial / quant / prediction-market research · **private (not publicly available)**
+- `image-gen-wiki` — uncensored image / video / voice generation
+- `3d-printing-wiki` — FDM/FFF printing, Bambu, slicers, print farms
+- `cybersecurity-wiki` — offensive / defensive security research
+- `ccc-wiki` — Cemini Claude Code meta-wiki (workflow, subagents, MCP/conductor) · **private (not publicly available)**
+
+The OSINT and CCC wikis are private repositories — not publicly available; cross-wiki links into them resolve only inside the Cemini workspace, not on public GitHub.
+
 ## Phase-0 audit pattern
 
 Before adopting any third-party tool (Claude Code skill, WordPress plugin, SaaS), the wiki uses a **Phase-0 audit** — a ~5-min check on license, maturity, domain fit, and per-tool-class failure modes. Decisions land as GO / CONDITIONAL-GO / NO-GO and are recorded in `wiki/entities/tools/<tool>.md`. The reusable audit prompt is at `prompts/github-repo-eval.md`.
