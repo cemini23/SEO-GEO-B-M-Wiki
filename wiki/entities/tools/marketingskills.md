@@ -9,7 +9,7 @@ related:
   - concepts/generative-engine-optimization.md
   - entities/tools/seomachine.md
   - entities/tools/geo-seo-claude.md
-
+  - entities/tools/ai-marketing-skills.md
   - concepts/reviews-reputation-management.md
   - entities/companies/shop-2.md
 maturity: validated
@@ -28,7 +28,7 @@ updated: 2026-05-07
 - @concepts/generative-engine-optimization.md
 - @entities/tools/seomachine.md
 - @entities/tools/geo-seo-claude.md
-
+- @entities/tools/ai-marketing-skills.md — Steal-from extension of this skill bundle
 
 ## Raw Concept
 
