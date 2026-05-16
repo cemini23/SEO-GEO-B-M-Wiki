@@ -12,9 +12,11 @@ related:
   - entities/tools/ai-marketing-skills.md
   - concepts/reviews-reputation-management.md
   - entities/companies/shop-2.md
+  - entities/tools/gtm-agents.md
+  - entities/tools/open-seo.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-15
 
 ---
 
@@ -29,6 +31,8 @@ updated: 2026-05-07
 - @entities/tools/seomachine.md
 - @entities/tools/geo-seo-claude.md
 - @entities/tools/ai-marketing-skills.md — Steal-from extension of this skill bundle
+- @entities/tools/gtm-agents.md — enterprise-GTM skill pack benchmarked against this one (SKIP verdict; this remains primary)
+- @entities/tools/open-seo.md — sibling SEO-automation skill set (Adopt-tier, pending Phase-0)
 
 ## Raw Concept
 

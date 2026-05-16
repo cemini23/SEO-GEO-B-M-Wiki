@@ -6,14 +6,18 @@ keywords: [claude code setup, MCP proxy, lazy-tool, claude-code-router, token op
 related:
   - concepts/claude-platforms.md
   - concepts/ai-assistance-guardrails.md
+  - entities/tools/awesome-ai-extensions.md
+  - entities/tools/awesome-design-md.md
 maturity: draft
 created: 2026-05-10
-updated: 2026-05-10
+updated: 2026-05-15
 ---
 
 ## Relations
 - `@concepts/claude-platforms.md` — Claude platform overview (Code, API, Desktop)
 - `@concepts/ai-assistance-guardrails.md` — safety boundaries for AI tool usage
+- @entities/tools/awesome-ai-extensions.md — AI browser-extension discovery list for client tooling recommendations
+- @entities/tools/awesome-design-md.md — DESIGN.md baseline library for faster client-site builds in this stack
 - `@ccc-wiki/entities/tools/lazy-tool.md`, `@ccc-wiki/entities/tools/claude-code-router.md`, `@ccc-wiki/entities/tools/spec-kit.md`, `@ccc-wiki/entities/tools/ttok.md`, `@ccc-wiki/entities/tools/tech-debt-skill.md` — CCC-side per-tool entity pages
 - `@ccc-wiki/concepts/three-cache-architecture.md`, `@ccc-wiki/concepts/mcp-context-optimization.md` — CCC-side concept pages on the cache + optimization mechanism this stack page references
 

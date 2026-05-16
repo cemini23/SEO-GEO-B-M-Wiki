@@ -4,10 +4,13 @@ type: entity
 category: tool
 tags: [entity, tool, claude-code-skill-pack, gtm-automation, sales-marketing, social-media-automation, k44, skip-phase-0-2026-05-14, misaligned-30-day-revenue-plan]
 keywords: [gtm-agents, marketing-workflows, customer-success-skills, creator-marketing, social-media-automation, apache-2-license, single-author-risk, enterprise-scale-mismatch]
-related: []
+related:
+  - "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
+  - "@ccc-wiki/entities/tools/gtm-agents.md"
+  - entities/tools/marketingskills.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
@@ -15,6 +18,7 @@ cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v
 
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 - @ccc-wiki/entities/tools/gtm-agents.md — CCC-side primary entity (skill-pack distribution model)
+- @entities/tools/marketingskills.md — SEO-wiki primary marketing skill bundle this audit benchmarks against (SKIP verdict; marketingskills remains primary)
 
 ## Raw Concept
 

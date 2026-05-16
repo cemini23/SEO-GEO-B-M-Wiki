@@ -101,6 +101,7 @@ If you're new to this wiki:
 - [claude-platforms](concepts/claude-platforms.md) — Claude Desktop (MCP servers) vs Claude Code (Agent Skills) distinction + install paths for both surfaces
 - [obsidian-navigation](concepts/obsidian-navigation.md) — operator's guide to reading the wiki in Obsidian (vault setup, recommended plugins, search/tags/graph workflow)
 - [obsidian-integration](concepts/obsidian-integration.md) — full integration guide: setup scripts, link conversion, portability, transfer to new readers
+- [corpus-overflow-out-of-scope](concepts/corpus-overflow-out-of-scope.md) — librarian bookkeeping hub: triaged-out-of-scope source stubs kept for inventory honesty
 
 ## Entities
 
@@ -146,3 +147,4 @@ If you're new to this wiki:
 - [semrush](entities/tools/semrush.md) — keyword research + competitor SEO + position tracking
 - [seomachine](entities/tools/seomachine.md) — Claude Code skill: long-form content + AI-watermark scrubbing + DataForSEO integration (CONDITIONAL-GO 2026-05-07)
 - [yoast-seo](entities/tools/yoast-seo.md) — WordPress plugin: on-page SEO, schema markup, readability, sitemaps (GO 2026-05-07)
+- [open-seo — SEO automation skill set](entities/tools/open-seo.md) — cross-wiki stub routed from ingest — `cross-wiki`

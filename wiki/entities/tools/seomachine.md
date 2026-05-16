@@ -9,9 +9,10 @@ related:
   - concepts/generative-engine-optimization.md
   - concepts/claude-platforms.md
   - entities/tools/marketingskills.md
+  - entities/tools/open-seo.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -21,6 +22,7 @@ updated: 2026-05-07
 - @concepts/generative-engine-optimization.md
 - @concepts/claude-platforms.md
 - @entities/tools/marketingskills.md
+- @entities/tools/open-seo.md — sibling SEO-automation skill set (Adopt-tier, pending Phase-0)
 
 ## Raw Concept
 

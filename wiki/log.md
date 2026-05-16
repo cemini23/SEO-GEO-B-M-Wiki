@@ -308,3 +308,8 @@ User requested expanding the marketing aspect of the wiki with 4 new concept pag
 **Sources ingested**: 0 new source pages (all 4 pages synthesized from web research via Brave Search; no new raw-source drops). Tagged as `[Source: https://... (retrieved 2026-05-08)]`.
 
 **Next**: operator tests loyalty program + referral workflow in real shop; promote pages to `validated` after real-world LTV/retention measurement.
+
+## [2026-05-15] cross-wiki route | open-seo — SEO automation skill set
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/open-seo.md`.
+- Created wiki/entities/tools/open-seo.md (stub)

@@ -11,9 +11,11 @@ related:
   - entities/markets/local-market-template.md
 
   - concepts/citation-building.md
+  - entities/tools/website-downloader.md
+  - entities/tools/openalternative.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -26,6 +28,8 @@ updated: 2026-05-08
 - @concepts/first-90-days-playbook.md
 - @concepts/session-1-facilitator-notes.md
 - @entities/markets/local-market-template.md
+- @entities/tools/website-downloader.md — mirror competitor sites for offline schema / internal-link analysis
+- @entities/tools/openalternative.md — find OSS replacements for paid competitor-research tools on cost-sensitive retainers
 
 
 ## Raw Concept

@@ -6,9 +6,10 @@ keywords: [awesome-ai-extensions, browser extensions, ai marketing browser tools
 related:
   - "@osint-wiki/entities/tools/awesome-ai-extensions.md"
   - "@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md"
+  - entities/tools/claude-code-tool-stack.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 osint_eval_origin: doc1-url-23 (cross-routed; SEO creator-marketing primary)
 ---
 
@@ -16,6 +17,7 @@ osint_eval_origin: doc1-url-23 (cross-routed; SEO creator-marketing primary)
 
 - `@osint-wiki/entities/tools/awesome-ai-extensions.md` — OSINT cross-route
 - `@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md` — origin eval (URL 23)
+- @entities/tools/claude-code-tool-stack.md — companion client-tooling reference (browser-extension discovery list)
 
 ## Raw Concept
 

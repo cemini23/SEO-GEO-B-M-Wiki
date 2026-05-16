@@ -6,9 +6,10 @@ keywords: [website-downloader, site mirror, competitor analysis, mit]
 related:
   - "@osint-wiki/entities/tools/website-downloader.md"
   - "@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md"
+  - concepts/competitor-analysis-local.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 osint_eval_origin: doc1-url-3 (cross-routed; SEO competitor-research angle)
 ---
 
@@ -16,6 +17,7 @@ osint_eval_origin: doc1-url-3 (cross-routed; SEO competitor-research angle)
 
 - `@osint-wiki/entities/tools/website-downloader.md` — OSINT cross-route
 - `@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md` — origin eval (URL 3)
+- @concepts/competitor-analysis-local.md — used in the capture pass to mirror competitor sites for offline schema / link-structure study
 
 ## Raw Concept
 

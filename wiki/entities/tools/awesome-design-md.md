@@ -6,9 +6,10 @@ keywords: [awesome-design-md, voltagent, design.md, llm ui styling, mit, web des
 related:
   - "@osint-wiki/entities/tools/awesome-design-md.md"
   - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
+  - entities/tools/claude-code-tool-stack.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 osint_eval_origin: doc2-url-25 (cross-routed; SEO web-design angle)
 ---
 
@@ -16,6 +17,7 @@ osint_eval_origin: doc2-url-25 (cross-routed; SEO web-design angle)
 
 - `@osint-wiki/entities/tools/awesome-design-md.md` — OSINT cross-route
 - `@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md` — origin eval (URL 25)
+- @entities/tools/claude-code-tool-stack.md — paired tool for the local-business site delivery workflow (DESIGN.md baseline at project init)
 
 ## Raw Concept
 

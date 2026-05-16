@@ -3,16 +3,17 @@ title: "S-LCG Optimization Paper (off-topic — likely misplaced)"
 type: source
 tags: [off-topic, optimization-algorithms, math]
 keywords: [linear congruential generator, deterministic optimization, meta-heuristic]
-related: []
+related:
+  - concepts/corpus-overflow-out-of-scope.md
 maturity: draft
 read_status: skimmed
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-16
 ---
 
 ## Relations
 
-(none — page exists for ingest-record completeness only)
+- @concepts/corpus-overflow-out-of-scope.md — librarian bookkeeping hub for triaged-out-of-scope sources
 
 ## Raw Concept
 

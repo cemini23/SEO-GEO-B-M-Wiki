@@ -6,9 +6,10 @@ keywords: [openalternative, oss alternatives, directory, cc0-1.0]
 related:
   - "@osint-wiki/entities/tools/openalternative.md"
   - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
+  - concepts/competitor-analysis-local.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-15
 osint_eval_origin: doc2-url-2 (cross-routed; general SEO tool discovery utility)
 ---
 
@@ -16,6 +17,7 @@ osint_eval_origin: doc2-url-2 (cross-routed; general SEO tool discovery utility)
 
 - `@osint-wiki/entities/tools/openalternative.md` — OSINT cross-route
 - `@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md` — origin eval (URL 2)
+- @concepts/competitor-analysis-local.md — OSS-alternative discovery for the cost-sensitive Semrush/Ahrefs tooling choices in the gap-analysis workflow
 
 ## Raw Concept
 
