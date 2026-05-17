@@ -1,13 +1,62 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-10
+updated: 2026-05-17
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+---
+
+## [2026-05-17] maintenance | freshness sweep round 2 — bulk refactor
+
+**Continuation of round 1.** Round 1 left 61 stale `[NEEDS VERIFICATION 2026-05-07/08]` tags after verifying 4 high-stakes tactical claims. Most remaining tags fell into three buckets that don't benefit from a date-based "needs verification" signal:
+
+1. **Page-header preambles** (~6 pages) — boilerplate "this page is upgraded with current best-practice synthesis" notes that aren't claims at all. Refactored to drop the meta-tag wrapper; kept the descriptive text.
+2. **Operator-conditional claims** (~12 tags) — things that depend on operator's specific market, shops, or counsel (e.g., "two-shop branding approach", "minor-consent rules by state", "consent-mode requirement for US-only operators"). Reframed as operator-conditional with explicit "confirm with own counsel" or "depends on market" language.
+3. **Proprietary-algorithm claims** (~12 tags) — engine internals that vendors don't publish (Yelp filter weights, Facebook recommendation algorithm, Apple Intelligence citation behavior, Bing/Copilot citation patterns, OnlyFans recommended-creators surface). Converted to `[TENTATIVE]` with practical-implication framing.
+
+Pages touched (12, all bumped `updated: 2026-05-17`):
+- `concepts/local-seo-foundations.md` — NAP claim `[CONFIRMED]` (kaidm + linkdatabase) + preamble refactor
+- `concepts/google-business-profile.md` — post cadence 1-2/week `[CONFIRMED]` (reviewly.ai + yadavbikash) + preamble refactor
+- `concepts/creator-marketing-foundations.md` — timeline benchmarks → `[TENTATIVE]` + preamble refactor
+- `concepts/review-response-templates.md` — GBP AI-summary weighting → `[TENTATIVE]` + operational marker
+- `entities/platforms/bing-places.md` — Copilot citation → `[TENTATIVE]`
+- `entities/platforms/apple-business-connect.md` — Apple Intelligence citation → `[TENTATIVE]`
+- `entities/platforms/facebook.md` — recommendation algorithm → `[TENTATIVE]`
+- `entities/platforms/yelp.md` — filter weights → `[TENTATIVE]`
+- `entities/platforms/onlyfans.md` — 3 tags (recommended creators, enforcement, ID verification times) → `[TENTATIVE]`
+- `entities/platforms/instagram.md` — minor-jurisdiction → operator-counsel direction
+- `entities/companies/friend-1.md` — operational marker
+- `entities/tools/google-analytics-4.md` — jurisdiction-dependent refactor
+
+Lint re-run: all 8 checks clean. Stale-tag count: **62 → 29**. Remaining 29 are higher-value claims that would benefit from real verification (vendor pricing for Yext/Semrush/Ahrefs/BrightLocal/Local Falcon, visit-frequency 2-6wk, schema spec drift, near-me 70-90% share, Helpful Content wording, GBP barbershop category list, OnlyFans Radvinsky ownership). Defer to round 3 if/when operator engages.
+
+---
+
+## [2026-05-17] maintenance | lint script bug fix + freshness sweep (round 1 of N)
+
+**Two-part session.**
+
+**Part 1 — lint script bug fix.** Section 8 of `wiki_lint.py` reported 13 dangling `@osint-wiki/...` and `@ccc-wiki/...` cross-wiki links. Root cause: not wiki content — script bugs. Two fixes:
+- `parse_frontmatter` was returning `related:` list items with the surrounding YAML `"..."` quotes attached, so `"@osint-wiki/foo.md"` became the lookup key. Patched to strip paired surrounding `"` or `'`.
+- `CROSS_WIKI_RE = r"@([a-z0-9_-]+)/([^\s\`)]+)"` did not exclude `"`, so body `@path` matches could capture a trailing quote from inline-code or YAML contexts. Added `"` to the exclusion char class.
+
+Re-run: 0 dangling cross-wiki links across all 56 references. Wiki-content side untouched.
+
+**Part 2 — freshness sweep round 1.** 65 dated `[NEEDS VERIFICATION YYYY-MM-DD]` tags (48 from 2026-05-07, 17 from 2026-05-08) all ≥7 days old. Verified the 4 highest-stakes tactical claims via Brave (3 searches):
+
+- **`concepts/reviews-reputation-management.md`** — review-gating-forbidden tag `[CONFIRMED]`. Found April 2026 GBP policy update explicitly enumerating review gating, incentivized reviews, on-premises kiosk pressure, staff quotas, and content direction as Maps UGC Policy violations under Rating Manipulation. Sourced to support.google.com + launchcodex coverage.
+- **`concepts/social-media-for-barbershops.md`** (hashtag count) — old "5-10 hashtags per post" advice **`[RETRACTED]`**. Instagram **capped posts/Reels at 5 hashtags platform-wide in December 2025** (Later guide). New canonical claim: **3-5 hashtags**, treated as classification signals, not discovery/reach drivers. **Material change for the operator** — if he was following pre-2026 hashtag-stuffing advice, that's now a platform-enforced cap.
+- **`concepts/social-media-for-barbershops.md`** (Reels reach gap) — `[CONFIRMED]`. Reels still dominate organic reach in 2026; engagement-rate gap narrower (~0.52% vs ~0.37%) but reach-gap large because algorithm pushes Reels to non-followers via Explore/Reels-tab/feed recommendations.
+- **`concepts/generative-engine-optimization.md`** (AI-content E-E-A-T) — `[CONFIRMED]`. Google does not penalize AI content per se; penalizes low-quality/scaled-abuse content regardless of origin. Ahrefs study of ~600K pages found 86.5% of top-ranking content uses some AI assistance, near-zero correlation (0.011) with penalties. Practical implication: AI-drafted copy is fine *if* it demonstrates E-E-A-T (real photos, real reviews, real local context).
+
+Remaining: 61 dated tags untouched. Most are either operator-conditional (can't be verified from external research — depend on operator's market/shops/data) or by-nature-uncertain (engine re-indexing frequency, GBP API partnerships, etc.). Next round of sweep could batch-refactor these to `[TENTATIVE]` or remove the date entirely rather than continue claiming "needs verification".
+
+Pages touched: 3 concept pages + log.md + scripts/wiki_lint.py. Lint re-run: all 8 checks clean (now 61 stale tags remaining, down from 62).
 
 ---
 

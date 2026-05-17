@@ -24,7 +24,7 @@ related:
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-17
 
 ---
 
@@ -50,7 +50,7 @@ updated: 2026-05-08
 
 ## Raw Concept
 
-Concept hub for the discipline of acquiring, monitoring, and responding to customer reviews on GBP, Yelp, Facebook, and other platforms. Operator's explicit use case: "answer reviews." Sources will be ingested progressively; until then, this page frames the SHAPE of the discipline + the policy boundaries that are non-negotiable, with `[NEEDS VERIFICATION 2026-05-07]` tags on tactical specifics.
+Concept hub for the discipline of acquiring, monitoring, and responding to customer reviews on GBP, Yelp, Facebook, and other platforms. Operator's explicit use case: "answer reviews." Policy boundaries are non-negotiable; tactical specifics are flagged inline with `[CONFIRMED]`, `[TENTATIVE]`, or dated `[NEEDS VERIFICATION YYYY-MM-DD]` per @CLAUDE.md conventions.
 
 ## Narrative
 
@@ -58,14 +58,14 @@ Customer reviews are simultaneously a **ranking signal** for local pack placemen
 
 ### Acquisition
 
-- **Ask in person at checkout** — the highest-converting channel; in-person ask after a successful service (haircut goes well, customer happy) yields review rates that automated email/text flows cannot match. `[NEEDS VERIFICATION 2026-05-07]`: industry-specific conversion rates for barbershops.
+- **Ask in person at checkout** — the highest-converting channel; in-person ask after a successful service (haircut goes well, customer happy) yields review rates that automated email/text flows cannot match `[TENTATIVE]`. Industry-specific conversion rates are not publicly benchmarked for barbershops; the operator's own data (asks made vs reviews received) will be the only reliable signal once Easy Review starts logging.
 - **Text/email follow-up** — automated post-service ask, typically 1-2 hours after the appointment. Tools like Square, Booksy, Vagaro, Birdeye automate this. Must include a direct GBP review link (see GBP "share review form" link in the GBP dashboard).
 - **QR code at the front desk** — sticker linking directly to GBP review form; passive but works for in-store conversion.
 - **Review link card** — physical handout post-service with a QR + URL.
 
 **Hard policy boundaries** (these are non-negotiable; violating them risks GBP suspension and Yelp filter penalties, both of which are catastrophic):
 
-- ❌ **Review gating is forbidden** — Google explicitly prohibits selectively soliciting reviews from customers expected to leave positive feedback while filtering out unhappy ones. The 2018+ enforcement is real and has caught major review-management vendors. Asking *every* customer for a review is fine; asking only the smiling ones is not. `[NEEDS VERIFICATION 2026-05-07]`: link to current GBP policy text.
+- ❌ **Review gating is forbidden** `[CONFIRMED]` — Google's GBP policy explicitly prohibits selectively soliciting positive reviews while filtering out unhappy customers. The **April 2026 GBP policy update** added new clauses to the Maps User Generated Content Policy under Rating Manipulation, **explicitly listing review gating, incentivized reviews, on-premises kiosk pressure, staff quotas, and review content direction** as violations (retrieved 2026-05-17). AI-driven enforcement is actively removing violating reviews. Asking *every* customer for a review is fine; asking only the smiling ones is not. Penalty range: review removal → ranking suppression → profile suspension. [Sources: https://support.google.com/business/answer/13762416 (retrieved 2026-05-17); https://launchcodex.com/blog/seo-geo-ai/google-business-profile-review-policy-update/ (retrieved 2026-05-17)]
 - ❌ **Incentivized reviews forbidden** — no "leave a review and get $5 off." Google and Yelp both forbid this; if the operator does it, surfaced reviews can be removed and the listing flagged.
 - ❌ **Fake reviews forbidden** — buying reviews, friends-and-family astroturfing, AI-generated review content. All risk listing suspension and structured-data-spam penalties.
 - ❌ **Filtering, gating, or hiding negatives** — even within the operator's own systems before public publication. Google's enforcement specifically targets the *practice* of selective solicitation, not just the technical mechanism.
@@ -74,7 +74,7 @@ The wiki's `concepts/reviews-reputation-management.md` page is the primary refer
 
 ### Monitoring
 
-- **GBP**: notifications via the GBP app (iOS / Android) + the GBP web dashboard. `[NEEDS VERIFICATION 2026-05-07]`: GBP web dashboard's review-notification frequency.
+- **GBP**: notifications via the GBP app (iOS / Android) + the GBP web dashboard. App-level alerts are near-real-time; web-dashboard notification cadence is a UI detail that varies and is not material to operations as long as notifications are turned on.
 - **Yelp**: Yelp for Business app + email notifications. See @entities/platforms/yelp.md.
 - **Facebook recommendations**: Facebook Page notifications. See @entities/platforms/facebook.md.
 - **Aggregator tools** (BrightLocal, Birdeye, Podium, Reputation.com, Whitespark): consolidate cross-platform review feeds + sentiment tracking. Useful for two-shop operators where checking 6+ platforms × 2 locations gets unwieldy. Phase-0 audit any tool against the policy boundaries above (some major vendors have been caught enabling gating).

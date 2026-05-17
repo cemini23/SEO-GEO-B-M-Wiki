@@ -9,7 +9,7 @@ related:
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-17
 
 ---
 
@@ -30,7 +30,7 @@ Stub entity page for Bing Places for Business — Microsoft's equivalent to GBP,
 
 Bing's search market share is much smaller than Google's, but it powers a meaningfully large share of voice and AI-assistant queries (Cortana, parts of Alexa, Microsoft Copilot, Edge browser default). Claiming the Bing Places listing is low-effort, free, and directly imports from GBP if the operator opts in — making it a high-ROI first-pass citation.
 
-For a barbershop, Bing Places matters mostly for (a) Bing-direct traffic (small but real in older demographics), (b) Microsoft Copilot citations (`[NEEDS VERIFICATION 2026-05-07]` for Copilot's 2026 local-business citation behavior), and (c) cross-search-engine NAP consistency — a properly claimed Bing listing prevents a divergent NAP from appearing somewhere on the web that the operator doesn't control.
+For a barbershop, Bing Places matters mostly for (a) Bing-direct traffic (small but real in older demographics), (b) Microsoft Copilot citations `[TENTATIVE]` — Copilot uses Bing's local-business index, so a claimed Bing Places listing is the canonical surface for Copilot's local citations; specifics of weighting are not publicly documented, and (c) cross-search-engine NAP consistency — a properly claimed Bing listing prevents a divergent NAP from appearing somewhere on the web that the operator doesn't control.
 
 ## Snippets
 

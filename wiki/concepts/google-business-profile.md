@@ -16,7 +16,7 @@ related:
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-17
 
 ---
 
@@ -38,7 +38,7 @@ updated: 2026-05-08
 
 ## Raw Concept
 
-Concept hub for *how* to optimize a Google Business Profile (formerly Google My Business). The platform itself is documented at @entities/platforms/google-business-profile.md; this page covers the operating playbook. Sources will be ingested progressively; until then, the page describes the SHAPE of GBP optimization, with `[NEEDS VERIFICATION 2026-05-07]` tags on tactical specifics that need 2026-current confirmation.
+Concept hub for *how* to optimize a Google Business Profile (formerly Google My Business). The platform itself is documented at @entities/platforms/google-business-profile.md; this page covers the operating playbook. Tactical specifics are flagged inline with `[CONFIRMED]`, `[TENTATIVE]`, or dated `[NEEDS VERIFICATION YYYY-MM-DD]` per @CLAUDE.md conventions.
 
 ## Narrative
 
@@ -59,7 +59,7 @@ Google Business Profile (GBP, formerly Google My Business / GMB) is the single h
 
 **Ongoing operations**:
 
-- **Posts** — Google Posts (Updates / Offers / Events). 1-2 per week is the conventional cadence. `[NEEDS VERIFICATION 2026-05-07]`: 2026-current ranking impact of post cadence — historically modest but useful for fresh-content signal and direct visibility on the listing.
+- **Posts** — Google Posts (Updates / Offers / Events). 1-2 per week is the conventional 2026 cadence `[CONFIRMED]`. Posts are **not a direct ranking factor**; they contribute via freshness/engagement signals + direct visibility on the listing card. 2026 practitioner consensus: weekly posting is sufficient for most local businesses; lower bound of ~once-per-2-4-weeks still keeps the listing "fresh" in Google's view; very-high-frequency posting (multiple per day) shows diminishing return. [Sources: https://reviewly.ai/2026/01/07/google-business-profile-optimization/ (retrieved 2026-05-17); https://www.yadavbikash.com/blogs/google-business-profile-ranking-factors/ (retrieved 2026-05-17)]
 - **Q&A monitoring** — answer questions Google or users post on the listing. Owner-answered Qs rank above user Qs.
 - **Review management** — see @concepts/reviews-reputation-management.md.
 - **Performance review** — monthly check of GBP Insights / Performance: search queries the listing shows for, calls, direction-requests, website clicks, photo views.

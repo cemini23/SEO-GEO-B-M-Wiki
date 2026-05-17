@@ -10,7 +10,7 @@ related:
   - entities/tools/google-analytics-4.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -62,7 +62,7 @@ A business with 300 total reviews where 200 are Not Recommended displays a star 
 - Vague or short ("Great service!"), or overly promotional language
 - Submitted as part of a visible spike (10 reviews in 2 days when the business averaged 1/month before)
 
-[NEEDS VERIFICATION 2026-05-08]: claims about specific filter weights are inferred from Yelp's public criteria + reverse-engineered patterns; the algorithm is proprietary and Yelp does not publish exact weights.
+`[TENTATIVE]`: specific filter-weight claims are inferred from Yelp's public criteria + reverse-engineered patterns; the algorithm is proprietary and Yelp does not publish exact weights. Treat the listed criteria as directional, not authoritative.
 
 **Restoration is not possible.** A filtered review cannot be promoted by operator request. Yelp explicitly does not take operator appeals on filter decisions — the algorithm decides and the algorithm re-evaluates over time as the reviewer accumulates additional activity. `[Source: socialpilot.co/reviews/blogs/yelp-star-rating-factors (retrieved 2026-05-08)]`
 

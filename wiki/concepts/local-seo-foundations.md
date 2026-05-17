@@ -30,7 +30,7 @@ related:
   - concepts/first-90-days-playbook.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -62,7 +62,7 @@ updated: 2026-05-08
 
 ## Raw Concept
 
-Hub page for the entire local-SEO domain — the discipline of getting a physical-location business found, clicked, and visited via local search. This page frames the foundational concepts and points to the deeper-dive concept pages and platform/tool entity pages. Sources will be ingested progressively; until then, the page describes the SHAPE of the discipline, with `[NEEDS VERIFICATION 2026-05-07]` tags on any tactical specifics that need 2026-current confirmation.
+Hub page for the entire local-SEO domain — the discipline of getting a physical-location business found, clicked, and visited via local search. This page frames the foundational concepts and points to the deeper-dive concept pages and platform/tool entity pages. Tactical specifics are flagged inline with `[CONFIRMED]`, `[TENTATIVE]`, or dated `[NEEDS VERIFICATION YYYY-MM-DD]` per @CLAUDE.md conventions.
 
 ## Narrative
 
@@ -70,7 +70,7 @@ Hub page for the entire local-SEO domain — the discipline of getting a physica
 
 The classical foundations are:
 
-1. **NAP consistency** — Name, Address, Phone number must match exactly across every place the business is listed (GBP, Yelp, Facebook, Apple Business Connect, Bing Places, niche directories, the business's own website). Inconsistency is the single most common preventable local-SEO problem. `[NEEDS VERIFICATION 2026-05-07]`: degree to which Google still uses NAP cross-reference for entity confidence in 2026 — almost certainly still material, but the literature is older. See @concepts/citation-building.md.
+1. **NAP consistency** — Name, Address, Phone number must match exactly across every place the business is listed (GBP, Yelp, Facebook, Apple Business Connect, Bing Places, niche directories, the business's own website). Inconsistency is the single most common preventable local-SEO problem. `[CONFIRMED]` foundational signal in 2026 — Google still uses NAP cross-reference for entity confidence, but practitioners increasingly report it as a **trust/foundation signal** rather than a primary ranking lever in competitive markets. Citation-cleanup work delivers small ranking gains directly; the bigger win is preventing entity-confusion failures. See @concepts/citation-building.md. [Sources: https://kaidm.com/modern-local-seo-signals-beyond-nap/ (retrieved 2026-05-17); https://linkdatabase.com/how-nap-consistency-supports-local-seo-rankings/ (retrieved 2026-05-17)]
 
 2. **Google Business Profile completeness** — every GBP field filled out, primary category chosen carefully (`BarberShop` not `Hair Salon` or `Beauty Salon`), services listed, hours accurate, regular photos, regular posts, attribute checkboxes filled. See @concepts/google-business-profile.md.
 

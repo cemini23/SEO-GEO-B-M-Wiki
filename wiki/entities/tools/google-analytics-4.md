@@ -11,7 +11,7 @@ related:
   - entities/companies/shop-2.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -91,7 +91,7 @@ GA4 with default settings collects data subject to:
 - **State patchwork** (Virginia VCDPA, Colorado CPA, Connecticut CTDPA, Utah UCPA, plus 10+ more states with active or pending laws as of 2026) — inconsistent thresholds and opt-out mechanics
 - **CDPA / similar** — provincial laws in Canada (Quebec Law 25), regional laws in Latin America, etc.
 
-`[NEEDS VERIFICATION 2026-05-08]` for the operator's specific jurisdiction. For a US-only single-location B&M serving local customers, a basic cookie banner with accept/reject and a privacy policy generally satisfies CCPA + most state laws; the bigger compliance lift is for businesses serving the EU.
+**Operator-jurisdiction dependent**: For a US-only single-location B&M serving local customers, a basic cookie banner with accept/reject and a privacy policy generally satisfies CCPA + most state laws; the bigger compliance lift is for businesses serving the EU. The operator should confirm with their own counsel for state-specific or international privacy obligations.
 
 **Google Consent Mode v2** (mandatory for EEA traffic since March 2024) sends "consent state" signals from the cookie banner into Google tags so that GA4 can model conversions for users who declined cookies, without dropping cookies. Implementation requires either a CMP (Consent Management Platform like Cookiebot, Iubenda, OneTrust) or custom GTM-based consent triggers. For US-focused single-location operators this is usually overkill; revisit if expanding marketing to EU traffic.
 

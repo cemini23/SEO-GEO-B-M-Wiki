@@ -25,7 +25,7 @@ related:
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -53,7 +53,7 @@ updated: 2026-05-08
 
 ## Raw Concept
 
-Concept hub for the 2024-emerging discipline of **getting cited correctly in AI-engine answers** — Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini, Copilot. For a local brick-and-mortar business in 2026, this is no longer a niche concern: an increasing share of "best barber near me" / "barbershop near me that does fades" / "what should I expect at a fade haircut" queries resolve in an AI surface *before* the user clicks anywhere. Sources will be ingested progressively. This page frames the SHAPE of the discipline, with `[NEEDS VERIFICATION 2026-05-07]` tags throughout because this field moves fast.
+Concept hub for the 2024-emerging discipline of **getting cited correctly in AI-engine answers** — Google AI Overviews, ChatGPT, Claude, Perplexity, Gemini, Copilot. For a local brick-and-mortar business in 2026, this is no longer a niche concern: an increasing share of "best barber near me" / "barbershop near me that does fades" / "what should I expect at a fade haircut" queries resolve in an AI surface *before* the user clicks anywhere. Tactical specifics are flagged inline; many engine-internal questions (proprietary weightings, indexing cadence, GBP-feed partnerships) are marked `[TENTATIVE]` because the engines do not publish this information and it shifts frequently.
 
 ## Narrative
 
@@ -98,8 +98,8 @@ The paper also validates several intuitions: **keyword stuffing actively hurts**
 
 ### What's known to work (with confidence-tags)
 
-- **Strong, accurate schema markup** — `LocalBusiness` (`BarberShop` subtype), `Service`, `Review`, `FAQPage`. Engines parse JSON-LD reliably; ambiguous or missing schema means the engine guesses and may guess wrong. `[CONFIRMED]` because schema is fundamentally how machines read structured business data; `[NEEDS VERIFICATION 2026-05-07]` for engine-specific weighting.
-- **Q&A content format** — content structured as direct questions with direct answers (FAQPage, structured headers like `## What is a fade haircut?` with a clear paragraph below) is preferentially cited. `[NEEDS VERIFICATION 2026-05-07]` for the relative weighting.
+- **Strong, accurate schema markup** — `LocalBusiness` (`BarberShop` subtype), `Service`, `Review`, `FAQPage`. Engines parse JSON-LD reliably; ambiguous or missing schema means the engine guesses and may guess wrong. `[CONFIRMED]` because schema is fundamentally how machines read structured business data; engine-specific weighting is `[TENTATIVE]` and proprietary.
+- **Q&A content format** — content structured as direct questions with direct answers (FAQPage, structured headers like `## What is a fade haircut?` with a clear paragraph below) is preferentially cited `[TENTATIVE]`. Engine-specific weighting is proprietary; the directional finding (engines prefer extractable Q&A spans) is consistent across the Aggarwal 2024 GEO paper + 2025-2026 practitioner reports.
 - **Mention density across independent sources** — being listed in Yelp, Bing Places, Apple Business Connect, Yellow Pages, Foursquare, Yext partners, niche local directories. The same NAP across many surfaces gives engines high-confidence entity resolution. See @concepts/citation-building.md.
 - **Reviews with real review text** — review text is parsed; aggregate sentiment + frequent themes ("great fades," "fast service," "kid-friendly") become summary phrases the engine attributes to the business. `[TENTATIVE]` for direct citation in 2026; `[CONFIRMED]` for sentiment-summary surfacing.
 - **Wikipedia mention** — disproportionate weight for general entity recognition. Most local barbershops don't qualify for Wikipedia. Skip unless the shop has unusual notability.
@@ -108,9 +108,9 @@ The paper also validates several intuitions: **keyword stuffing actively hurts**
 
 ### What's confused / contested (flag and revisit)
 
-- **Whether engines penalize AI-generated content** — Google has stated they don't penalize AI content per se, but penalize *low-quality* content; the difference is enforced via E-E-A-T heuristics. `[NEEDS VERIFICATION 2026-05-07]` for which engines actively detect AI-generated copy and how this affects citation.
-- **Whether GBP itself feeds AI engines directly** — Google AI Overviews almost certainly use GBP. Whether ChatGPT, Claude, Perplexity, Gemini have direct partnerships with Google for GBP data, or scrape it, varies. `[NEEDS VERIFICATION 2026-05-07]`.
-- **Frequency of re-indexing** — if the operator changes hours, services, or address, how long until each engine reflects it? Days to months, varies by engine. `[NEEDS VERIFICATION 2026-05-07]`.
+- **Whether engines penalize AI-generated content** `[CONFIRMED]` — Google does **not** penalize AI content per se; it penalizes *low-quality* content (scaled abuse, thin/doorway pages, mass-produced templates) regardless of whether it was AI-generated or human-written. Position unchanged since the March 2024 helpful-content guidance and confirmed in the March 2026 search quality rater guidelines: raters assess content on helpfulness, accuracy, and user satisfaction. An Ahrefs study of ~600K pages found 86.5% of top-ranking content uses some AI assistance with near-zero correlation (0.011) between AI assistance and ranking penalties. Practical implication for a local-business operator: AI-drafted copy is fine *if* it demonstrates E-E-A-T (real photos, real reviews, real local context, factual hours/services, original details). [Sources: https://www.maintouch.com/blogs/does-google-penalize-ai-generated-content (retrieved 2026-05-17); https://snezzi.com/blog/does-google-ignore-ai-content-what-the-data-says-in-2025/ (retrieved 2026-05-17)]
+- **Whether GBP itself feeds AI engines directly** `[TENTATIVE]` — Google AI Overviews almost certainly use GBP (same vendor). ChatGPT, Claude, Perplexity, Gemini, Copilot may scrape GBP via search-engine retrieval rather than direct partnership; no engine publishes this. Practical implication: optimize GBP for the Google-owned AI surface, and ensure the operator's website restates the same business facts so non-Google AI engines retrieve consistent information.
+- **Frequency of re-indexing** `[TENTATIVE]` — if the operator changes hours, services, or address, propagation varies by engine. Google AI Overviews typically reflect GBP edits within hours-to-days. Non-Google engines depend on their crawler cadence + retrieval architecture (some retrieve at query-time, some have cached embeddings); operator-visible reflection ranges from days to months. No engine publishes a guaranteed SLA. Operator playbook: always update GBP first, then the website, then expect a tail of stale references for ~30-90 days.
 
 ### Operator-actionable playbook (for a small local business)
 

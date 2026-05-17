@@ -19,7 +19,7 @@ related:
   - sources/fanvue-gtm-blueprint-2026.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -79,7 +79,7 @@ New OnlyFans creator focused on image-based content (photography, exclusive visu
 - [ ] Set subscription tiers and pricing
 - [ ] Use @briefs/2026-05-09_creator-launch-decision-hub.md to finalize platform choice and pricing today
 
-`[NEEDS VERIFICATION 2026-05-08]`: Fill in real data during first operator session.
+**Operational marker**: Fill in real data during first operator session.
 
 ## Snippets
 

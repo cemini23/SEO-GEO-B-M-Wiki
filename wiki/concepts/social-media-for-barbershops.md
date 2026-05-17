@@ -15,7 +15,7 @@ related:
   - concepts/reviews-reputation-management.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-17
 
 ---
 
@@ -33,7 +33,7 @@ updated: 2026-05-08
 
 ## Raw Concept
 
-Concept hub for the social-media playbook of a barbershop — a category where social media is *load-bearing* for new-customer acquisition because the work is intensely visual and the buying decision is taste-driven. Operator's explicit use case: "include social media." Sources will be ingested progressively; until then, this page frames the SHAPE of the playbook, with `[NEEDS VERIFICATION 2026-05-07]` tags on platform-specific tactical specifics.
+Concept hub for the social-media playbook of a barbershop — a category where social media is *load-bearing* for new-customer acquisition because the work is intensely visual and the buying decision is taste-driven. Operator's explicit use case: "include social media." Tactical specifics are flagged inline with `[CONFIRMED]`, `[TENTATIVE]`, or dated `[NEEDS VERIFICATION YYYY-MM-DD]` per @CLAUDE.md conventions.
 
 ## Narrative
 
@@ -49,7 +49,7 @@ Barbershops are one of a small set of B&M categories where **Instagram is essent
 | YouTube Shorts | Long-tail discovery | Medium | Reels/TikTok content can be cross-posted; YouTube SEO is a separate game |
 | Google Business Profile (Posts) | Direct funnel | Medium | Not "social media" in the conventional sense, but a posting surface — see @concepts/google-business-profile.md |
 
-X (Twitter), LinkedIn, Pinterest: low priority for barbershops in most markets. `[NEEDS VERIFICATION 2026-05-07]` for the operator's specific market.
+X (Twitter), LinkedIn, Pinterest: low priority for barbershops in most markets `[TENTATIVE]`; the operator's specific market may shift this — e.g. an urban high-income market where Pinterest grooming pins are common, or a market with an active LinkedIn-using young-professional segment.
 
 ### Content categories that work in this vertical
 
@@ -63,7 +63,7 @@ X (Twitter), LinkedIn, Pinterest: low priority for barbershops in most markets. 
 
 ### Posting cadence
 
-- **Instagram**: 3-5 posts/week, with at least 2 Reels. `[NEEDS VERIFICATION 2026-05-07]`: 2026-current Reels-vs-static reach gap.
+- **Instagram**: 3-5 posts/week, with at least 2 Reels. **Reels-vs-static reach gap** `[CONFIRMED]`: Reels still dominate organic reach in 2026 — the algorithm pushes Reels to non-followers in Explore/Reels tab/feed recommendations while static posts mostly reach existing followers. Engagement-rate gap is narrower (Reels ~0.52% vs static images ~0.37% in 2025-2026 data) but **reach gap is much larger**. Carousels can edge Reels on engagement rate for educational/tutorial content; static images still appropriate for brand photography + announcements, capped at ~20-30% of calendar. [Sources: https://socialbotify.com/guides/instagram-algorithm-2026 (retrieved 2026-05-17); https://vidico.com/news/instagram-reels-statistics/ (retrieved 2026-05-17)]
 - **TikTok**: 1 video/day if pursuing aggressive growth; 3-4/week minimum for algorithmic relevance. `[NEEDS VERIFICATION 2026-05-07]`.
 - **Facebook**: 2-3/week. Cross-post from Instagram is fine.
 - **GBP Posts**: 1-2/week.
@@ -72,14 +72,14 @@ A two-shop operator should consider whether each shop has its own IG/TikTok acco
 - **Per-shop accounts**: more authentic local content, higher relevance for each location's followers, double the management burden, harder to grow each individually
 - **Combined brand account**: single follower base, easier to grow, but per-location detail (shop-specific events, address, hours) needs creative handling
 
-`[NEEDS VERIFICATION 2026-05-07]` for which approach wins in 2026 — likely depends on whether the two shops target distinct neighborhoods/demographics or one expanded into a second location with the same brand.
+**Decision depends on operator's brand strategy** (not externally verifiable): if the two shops target distinct neighborhoods or demographics, per-shop accounts let each speak to its own community; if one shop is an expansion of the same brand serving overlapping demand, a single combined account is simpler and concentrates audience-graph signals.
 
 ### Hashtag strategy
 
 A common-but-load-bearing question: how many hashtags, which ones?
 
 - Mix of **broad-industry** (#barbershop, #fade, #barber) and **local-specific** (#[city][st], #[city][full-state], #[county]county, #[region], #[nearby-major-city]barber)
-- 5-10 hashtags per post is the conventional 2024-2026 range `[NEEDS VERIFICATION 2026-05-07]`; older "30 hashtags" advice is dated
+- **3-5 hashtags per post in 2026** `[CONFIRMED]` — Instagram capped posts/Reels at **5 hashtags** platform-wide in **December 2025** (Later guide, retrieved 2026-05-17). Instagram's own Creators account recommends 3-5. Hashtags now function as classification signals for the algorithm, not as discovery/reach drivers; content quality, watch time, and engagement carry more weight. Older "5-10" or "30 hashtag" advice is `[RETRACTED]`. [Source: https://later.com/blog/ultimate-guide-to-using-instagram-hashtags/ (retrieved 2026-05-17)]
 - TikTok hashtag strategy is different from Instagram — fewer, more specific, more trend-driven
 
 ### Bio + link

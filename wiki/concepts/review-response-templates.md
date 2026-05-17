@@ -12,7 +12,7 @@ related:
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-17
 
 ---
 
@@ -205,7 +205,7 @@ This section is the wiki's feedback loop with the [Easy Review companion app](ht
 3. Wiki ingestion (run by Claude on demand using the prompt above) reads the briefs, groups by category × vertical, and updates this section with house-style patterns
 4. Future drafts (Easy Review's Gemini prompt + Claude review-response sessions) get sharper because the templates above can incorporate the descriptive patterns surfaced here
 
-**Current state:** awaiting first ingest. No briefs yet — this section will populate after Easy Review is deployed and the first ~10 approved replies accumulate. `[NEEDS VERIFICATION 2026-05-07]` once briefs land.
+**Current state:** awaiting first ingest. No briefs yet — this section will populate after Easy Review is deployed and the first ~10 approved replies accumulate.
 
 **Per-group sub-sections will appear here** with format:
 
@@ -223,4 +223,4 @@ See `prompts/ingest-easy-review-briefs.md` for the full ingestion procedure (inc
 
 ## Snippets
 
-(none yet — fill from real review interactions and ingested 2024-2026 review-response best-practice articles. `[NEEDS VERIFICATION 2026-05-07]` for the 2026-current state of GBP's AI-summary review weighting.)
+(none yet — fill from real review interactions and ingested 2024-2026 review-response best-practice articles. GBP's AI-summary review weighting is `[TENTATIVE]` and not publicly documented; treat owner-responses as both a customer-trust signal and a tokens-for-AI signal until measurable evidence accumulates.)

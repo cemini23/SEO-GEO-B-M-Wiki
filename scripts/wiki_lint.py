@@ -79,7 +79,10 @@ def parse_frontmatter(text):
         for line in rl.group(1).splitlines():
             s = line.strip()
             if s.startswith("- "):
-                items.append(s[2:].strip())
+                v = s[2:].strip()
+                if len(v) >= 2 and v[0] == v[-1] and v[0] in ('"', "'"):
+                    v = v[1:-1]
+                items.append(v)
         out["related"] = items
     else:
         # try inline form: related: [a, b, c]
@@ -206,7 +209,7 @@ for src, fm in pages.items():
 # -- 8: cross-wiki @wiki-alias/path links ---------------------------
 # Check @wiki-alias/path/to/page.md references to other wikis.
 
-CROSS_WIKI_RE = re.compile(r"@([a-z0-9_-]+)/([^\s`)]+)")
+CROSS_WIKI_RE = re.compile(r"@([a-z0-9_-]+)/([^\s`)\"]+)")
 
 cross_wiki_dangling = []  # (src, alias, rel_path, target_path)
 cross_wiki_ok = 0

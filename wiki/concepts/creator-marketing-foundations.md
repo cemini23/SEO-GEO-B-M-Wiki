@@ -31,7 +31,7 @@ related:
   - concepts/generative-engine-optimization.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -64,7 +64,7 @@ updated: 2026-05-08
 
 ## Raw Concept
 
-Hub page for creator marketing — the discipline of growing, monetizing, and retaining an audience for subscription content platforms (OnlyFans, Patreon, Buy Me a Coffee). Uses a friend's OnlyFans creator journey as the running example. Sources will be ingested progressively; until then, this page frames the shape of the playbook with `[NEEDS VERIFICATION 2026-05-08]` tags.
+Hub page for creator marketing — the discipline of growing, monetizing, and retaining an audience for subscription content platforms (OnlyFans, Patreon, Buy Me a Coffee). Uses a friend's OnlyFans creator journey as the running example. Tactical specifics are flagged inline with `[CONFIRMED]`, `[TENTATIVE]`, or dated `[NEEDS VERIFICATION YYYY-MM-DD]` per @CLAUDE.md conventions.
 
 ## Narrative
 
@@ -159,7 +159,7 @@ Detailed 3-phase launch timeline aligned with @briefs/2026-05-08_onlyfans-launch
 | Days 31–60 | 60–80 | $800–$1000 |
 | Days 61–90 | 100+ | $1500+ |
 
-`[NEEDS VERIFICATION 2026-05-08]`: Timeline and milestone benchmarks for new creators in 2026.
+`[TENTATIVE]`: Timeline and milestone benchmarks for new creators in 2026 vary widely by niche, content cadence, and external-promotion effort; the table above reflects aggregated 2024-2026 creator-economy reports as directional medians, not guaranteed outcomes.
 
 ### Metrics that matter
 

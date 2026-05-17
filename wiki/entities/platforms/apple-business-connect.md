@@ -13,7 +13,7 @@ related:
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-17
 
 ---
 
@@ -32,7 +32,7 @@ Stub entity page for Apple Business Connect — Apple's free business-listing po
 
 ## Narrative
 
-Apple Business Connect (ABC) is the canonical surface for managing how a business appears in Apple Maps, Apple Maps showcases (storefront cards), Siri's "find me a barbershop nearby," and Apple's AI surfaces (`[NEEDS VERIFICATION 2026-05-07]` for Apple Intelligence's local-business citation behavior). It's free and underused — a meaningful share of operators don't claim their listing, leaving the data Apple-default-derived (often wrong, especially for hours and category).
+Apple Business Connect (ABC) is the canonical surface for managing how a business appears in Apple Maps, Apple Maps showcases (storefront cards), Siri's "find me a barbershop nearby," and Apple's AI surfaces (Apple Intelligence's local-business citation behavior is `[TENTATIVE]` — not publicly documented but the canonical-source assumption is the same as Siri/Maps: the ABC listing is the primary identity). It's free and underused — a meaningful share of operators don't claim their listing, leaving the data Apple-default-derived (often wrong, especially for hours and category).
 
 For a barbershop, the ABC listing should mirror the GBP listing: same NAP, same hours, same category, same photos. The "showcase" feature lets operators publish promotional cards visible in Apple Maps. Apple's review-equivalent feed is integrated with Yelp data, not a native Apple review system — this is a key difference from GBP.
 

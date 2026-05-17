@@ -11,7 +11,7 @@ related:
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-17
 
 ---
 
@@ -111,7 +111,7 @@ The link-in-bio destination is the alternative funnel — typically a Linktree /
 ### Policy + ToS
 
 - **Branded content**: paid promotion needs disclosure
-- **Before/after with minors**: requires parental consent; some US states + non-US markets have stricter rules (`[NEEDS VERIFICATION 2026-05-07]` for the operator's specific jurisdiction)
+- **Before/after with minors**: requires parental consent; some US states + non-US markets have stricter rules — operator should confirm with their own counsel for state-specific obligations
 - **DM auto-replies**: bots that auto-DM are forbidden; native auto-reply for "out of hours" is fine
 - **Buying followers**: forbidden; Meta filters out fake follows over time
 

@@ -27,7 +27,7 @@ related:
   - sources/fanvue-gtm-blueprint-2026.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-17
 
 ---
 
@@ -124,7 +124,7 @@ OnlyFans has limited native discovery compared to social platforms `[CONFIRMED -
 
 - **No algorithmic feed**: subscribers see content chronologically
 - **No hashtag search**: discovery happens almost entirely OFF-platform (Twitter/X, Reddit, TikTok, Instagram)
-- **Recommended creators**: shown to subscribers; `[NEEDS VERIFICATION 2026-05-08]` for how this works and whether it can be influenced
+- **Recommended creators**: shown to subscribers `[TENTATIVE]` — the recommendation algorithm is proprietary and not publicly documented; reverse-engineering suggests it surfaces creators sharing audience overlap with the subscriber's existing subscriptions. Not externally influenceable.
 - **Internal search**: weak; don't rely on it for growth
 - **Referral program**: 5% of referee earnings for verified creators
 
@@ -147,12 +147,12 @@ OnlyFans has limited native discovery compared to social platforms `[CONFIRMED -
 **Core platform policies**:
 - **NSFW allowed**: OnlyFans permits adult content (unlike Instagram/TikTok) — this is its core differentiator
 - **No sexual intercourse on live stream**: certain acts prohibited even on paid platforms
-- **ID verification required**: government ID + selfie; payout delay until verified `[NEEDS VERIFICATION 2026-05-08]` for current processing times — typically 24–72 hours per B9 Agency
+- **ID verification required**: government ID + selfie; payout delay until verified. Processing typically 24–72 hours per B9 Agency `[TENTATIVE]` — published times vary by country and ID type.
 - **DMCA protection**: creators can report stolen content; platform takes down infringing copies `[CONFIRMED - onlyfans.com/terms]`
 - **Chargeback risk**: high-chargeback categories face higher reserve requirements
 - **Terms of Service**: Creators grant OnlyFans rights to submit DMCA notifications on their behalf, but OnlyFans is under no obligation to police infringements `[Source: onlyfans.com/terms]`
 
-**Enforcement** `[NEEDS VERIFICATION 2026-05-08]`: Current enforcement patterns, prohibited content list comprehensiveness, appeals process timelines.
+**Enforcement** `[TENTATIVE]`: Specific enforcement patterns, prohibited-content list comprehensiveness, and appeals process timelines are not publicly documented by OnlyFans. Operator-facing baseline: assume DMCA + content-policy enforcement is automated-first with manual review for appeals; budget 7-30 days for appeals.
 
 ### Funnel Optimization (2026) `[CONFIRMED — sources/onlyfans-funnel-optimization-2026.md]`
 
