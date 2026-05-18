@@ -142,8 +142,11 @@ If you're new to this wiki:
 - [geo-seo-claude](entities/tools/geo-seo-claude.md) — Claude Code skill: citability scoring, AI-crawler analysis, schema validation (GO 2026-05-07)
 - [google-analytics-4](entities/tools/google-analytics-4.md) — website analytics: traffic, engagement, conversions
 - [google-search-console](entities/tools/google-search-console.md) — search performance + technical SEO + indexing diagnostics
+- [html-anything](entities/tools/html-anything.md) — agentic local HTML editor: LLM-driven web-design generation + sandbox + one-click deploy (Apache-2.0, Adopt) — `cross-wiki`
+- [itshover](entities/tools/itshover.md) — motion-first React icon components; copy/paste SVG motion, zero dependency bloat (MIT, Adopt) — `cross-wiki`
 - [local-falcon](entities/tools/local-falcon.md) — grid-based local-pack rank tracking
 - [marketingskills](entities/tools/marketingskills.md) — Claude Code skill: marketing-framework prompts (PAS, AIDA, review responses) anchored on a product-marketing-context file (GO 2026-05-07)
+- [oransim](entities/tools/oransim.md) — local-first causal simulator for marketing-campaign ROI (SCM + Hawkes + do-calculus; Apache-2.0, Adopt) — `cross-wiki`
 - [semrush](entities/tools/semrush.md) — keyword research + competitor SEO + position tracking
 - [seomachine](entities/tools/seomachine.md) — Claude Code skill: long-form content + AI-watermark scrubbing + DataForSEO integration (CONDITIONAL-GO 2026-05-07)
 - [yoast-seo](entities/tools/yoast-seo.md) — WordPress plugin: on-page SEO, schema markup, readability, sitemaps (GO 2026-05-07)

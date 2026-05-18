@@ -8,9 +8,11 @@ related:
   - concepts/ai-assistance-guardrails.md
   - entities/tools/awesome-ai-extensions.md
   - entities/tools/awesome-design-md.md
+  - entities/tools/html-anything.md
+  - entities/tools/itshover.md
 maturity: draft
 created: 2026-05-10
-updated: 2026-05-15
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -18,6 +20,8 @@ updated: 2026-05-15
 - `@concepts/ai-assistance-guardrails.md` — safety boundaries for AI tool usage
 - @entities/tools/awesome-ai-extensions.md — AI browser-extension discovery list for client tooling recommendations
 - @entities/tools/awesome-design-md.md — DESIGN.md baseline library for faster client-site builds in this stack
+- @entities/tools/html-anything.md — agentic HTML editor; the local-LLM web-generation surface this stack drives
+- @entities/tools/itshover.md — motion-first React icon components for the Next.js/shadcn builds this stack produces
 - `@ccc-wiki/entities/tools/lazy-tool.md`, `@ccc-wiki/entities/tools/claude-code-router.md`, `@ccc-wiki/entities/tools/spec-kit.md`, `@ccc-wiki/entities/tools/ttok.md`, `@ccc-wiki/entities/tools/tech-debt-skill.md` — CCC-side per-tool entity pages
 - `@ccc-wiki/concepts/three-cache-architecture.md`, `@ccc-wiki/concepts/mcp-context-optimization.md` — CCC-side concept pages on the cache + optimization mechanism this stack page references
 

@@ -30,9 +30,10 @@ related:
 
   - concepts/creator-aesthetic-positioning.md
   - concepts/synthetic-creator-gtm.md
+  - entities/tools/oransim.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -64,6 +65,7 @@ updated: 2026-05-08
 - @sources/viral-content-strategy-2026.md
 - @sources/instagram-reels-algorithm-2026.md
 - @sources/tiktok-algorithm-mechanics-2026.md
+- @entities/tools/oransim.md — causal simulator to stress-test a content plan against simulated audience reaction before posting
 
 
 ## Raw Concept

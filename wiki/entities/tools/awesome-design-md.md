@@ -7,9 +7,11 @@ related:
   - "@osint-wiki/entities/tools/awesome-design-md.md"
   - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
   - entities/tools/claude-code-tool-stack.md
+  - entities/tools/html-anything.md
+  - entities/tools/itshover.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-05-17
 osint_eval_origin: doc2-url-25 (cross-routed; SEO web-design angle)
 ---
 
@@ -18,6 +20,8 @@ osint_eval_origin: doc2-url-25 (cross-routed; SEO web-design angle)
 - `@osint-wiki/entities/tools/awesome-design-md.md` — OSINT cross-route
 - `@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md` — origin eval (URL 25)
 - @entities/tools/claude-code-tool-stack.md — paired tool for the local-business site delivery workflow (DESIGN.md baseline at project init)
+- @entities/tools/html-anything.md — agentic HTML editor that enforces these DESIGN.md guidelines at build time
+- @entities/tools/itshover.md — motion-icon assets a DESIGN.md template can reference
 
 ## Raw Concept
 

@@ -362,3 +362,25 @@ User requested expanding the marketing aspect of the wiki with 4 new concept pag
 
 Cross-wiki stub routed from `@osint-wiki/entities/tools/open-seo.md`.
 - Created wiki/entities/tools/open-seo.md (stub)
+
+## [2026-05-17] cross-wiki route | html-anything + itshover + oransim (OSINT 56-repo tool eval)
+
+Three tools cross-routed from the OSINT workspace 56-repo multi-wiki tool eval (`@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md`). All three Adopt-tier, SEO-primary-fit; full entity pages (not stubs).
+
+**Created (3 entity pages):**
+- `entities/tools/html-anything.md` — agentic local HTML editor (nexu-io, Apache-2.0, HTML/TS, ~283★). LLM-driven web-design generation + sandboxed templates + one-click deploy to WeChat/X. Lets Claude Code / Codex act as autonomous design engines enforcing DESIGN.md guidelines.
+- `entities/tools/itshover.md` — motion-first React icon component suite (itshover.com, MIT, React/TS, Vercel-backed). Copy/paste/customize SVG motion in source; zero dependency bloat; Next.js/shadcn-compatible.
+- `entities/tools/oransim.md` — local-first causal simulator for marketing-campaign ROI (OranAi-Ltd, Apache-2.0, Python/SCM). SCM over a creative-to-user graph, LLM "user souls" reacting via embeddings, Hawkes processes + do-calculus. Test campaign assets before capital deployment.
+
+**Linked existing pages (bidirectional backlinks added, `updated:` bumped):**
+- `entities/tools/claude-code-tool-stack.md` — html-anything + itshover added (web-generation surface / Next.js-shadcn icon assets)
+- `entities/tools/awesome-design-md.md` — html-anything + itshover added (DESIGN.md enforcement editor / motion-icon assets)
+- `concepts/website-essentials-local-business.md` — html-anything + itshover added (client-site delivery)
+- `concepts/competitor-analysis-local.md` — oransim added (pre-spend promotion-ROI forecasting)
+- `concepts/creator-content-strategy.md` — oransim added (simulation-testing content plans)
+
+**Index updated**: 3 new rows in Tools section (alphabetical, `cross-wiki` tag).
+
+**Pages touched**: 3 created + 5 edited (backlinks) + index.md + log.md = 10.
+
+Cross-route notes recorded on pages: html-anything → image-gen-wiki + ccc-wiki; oransim → osint-wiki (causal/temporal-cascade modeling).

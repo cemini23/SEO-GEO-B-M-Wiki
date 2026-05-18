@@ -13,9 +13,10 @@ related:
   - concepts/citation-building.md
   - entities/tools/website-downloader.md
   - entities/tools/openalternative.md
+  - entities/tools/oransim.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-15
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -30,6 +31,7 @@ updated: 2026-05-15
 - @entities/markets/local-market-template.md
 - @entities/tools/website-downloader.md — mirror competitor sites for offline schema / internal-link analysis
 - @entities/tools/openalternative.md — find OSS replacements for paid competitor-research tools on cost-sensitive retainers
+- @entities/tools/oransim.md — causal simulator for forecasting promotion ROI against the competitive landscape before spending
 
 
 ## Raw Concept
