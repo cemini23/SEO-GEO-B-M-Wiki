@@ -8,6 +8,7 @@ related:
   - concepts/creator-content-strategy.md
   - concepts/meta-ads-local.md
   - sources/instagram-reels-creator-marketing-2026.md
+  - concepts/ugc-monetization-loop.md
 
 maturity: draft
 created: 2026-05-07

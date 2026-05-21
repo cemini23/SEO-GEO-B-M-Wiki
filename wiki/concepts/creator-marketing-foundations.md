@@ -20,6 +20,7 @@ related:
   - entities/platforms/patreon.md
   - entities/platforms/niche.md
   - concepts/synthetic-creator-gtm.md
+  - concepts/ugc-monetization-loop.md
   - concepts/creator-aesthetic-positioning.md
   - concepts/creator-content-flywheel.md
   - concepts/viral-content-mechanics.md

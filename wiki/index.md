@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-05-08
+updated: 2026-05-21
 ---
 
 # Wiki Index
@@ -73,6 +73,7 @@ If you're new to this wiki:
 - [competitor-analysis-local](concepts/competitor-analysis-local.md) — methodology for SERP-derived competitor capture + gap analysis
 - [content-strategy-local](concepts/content-strategy-local.md) — beyond transactional pages: FAQ, style guides, local content for GEO/AEO + long-tail
 - [customer-retention-barbershop](concepts/customer-retention-barbershop.md) — loyalty programs, referral systems, win-back campaigns, VIP perks
+- [claude-ecommerce-workflows](concepts/claude-ecommerce-workflows.md) — 5 reusable Claude prompt templates for Shopify/e-commerce: competitor autopsy, negative-review mining, post-purchase emails, UGC ad scripts, weekly diagnostic
 - [google-ads-local](concepts/google-ads-local.md) — paid search for barbershops: Local Services Ads, search campaigns, geo-targeting, landing pages
 - [local-pack-rankings](concepts/local-pack-rankings.md) — the 3-pack: documented + studied ranking factors, per-listing dynamics
 - [meta-ads-local](concepts/meta-ads-local.md) — Facebook/Instagram paid ads: local targeting, creative strategy, retargeting, multi-location
@@ -95,6 +96,9 @@ If you're new to this wiki:
 - [ai-assistance-guardrails](concepts/ai-assistance-guardrails.md) — AI assistance guardrails for creators: what NOT to do, what TO do, human-in-the-loop rule, Claude-specific workflow
 - [synthetic-creator-gtm](concepts/synthetic-creator-gtm.md) — four-pillar GTM strategy for launching an AI-generated creator (niche, aesthetic, GEO traffic, conversion/retention, brand deals)
 - [creator-aesthetic-positioning](concepts/creator-aesthetic-positioning.md) — "Imperfect by Design" visual doctrine for synthetic creators; anti-AI-slop trust strategy
+- [creator-content-flywheel](concepts/creator-content-flywheel.md) — growth loop: content → engagement → followers → subscribers → more content
+- [viral-content-mechanics](concepts/viral-content-mechanics.md) — pattern library of viral content structures (hook frameworks, psychological levers, platform-specific mechanics)
+- [ugc-monetization-loop](concepts/ugc-monetization-loop.md) — 3-platform UGC creator monetization (TikTok + Instagram + Pinterest) using Claude + Higgsfield; retainer-based pricing
 
 ### Meta / setup
 
@@ -151,3 +155,15 @@ If you're new to this wiki:
 - [seomachine](entities/tools/seomachine.md) — Claude Code skill: long-form content + AI-watermark scrubbing + DataForSEO integration (CONDITIONAL-GO 2026-05-07)
 - [yoast-seo](entities/tools/yoast-seo.md) — WordPress plugin: on-page SEO, schema markup, readability, sitemaps (GO 2026-05-07)
 - [open-seo — SEO automation skill set](entities/tools/open-seo.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [digital-marketing-pro](entities/tools/digital-marketing-pro.md) — Claude plugin ecosystem: 115 commands, 67 MCP servers, QA/claim-verification layer for GEO/AEO workflows
+- [garden-skills](entities/tools/garden-skills.md) — 4,900★ MIT Claude Code skill collection; web-design-engineer templates for landing pages + GEO/AEO campaigns
+- [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes
+- [pm-claude-skills](entities/tools/pm-claude-skills.md) — 106 SKILL.md files; marketing-analysis + Figma-template-generation workflows
+- [reactive-resume](entities/tools/reactive-resume.md) — 37k★ MIT; Steal-from CSS template architecture + JSON→PDF/DOCX export pipeline
+
+### Tools — reference-only (cataloged, no entity page)
+
+- **evilcharts** (evilcharts.com) — Recharts + Shadcn chart components, handcrafted SVGs, Motion animations; no SPDX — Steal-from patterns only
+- **svgrepo** (svgrepo.com) — 500,000+ free SVG icons, commercial-use cleared; baseline vector assets for web-design templates
+- **mobilepalette** (mobilepalette.colorion.co) — 3D color palette generator for mobile apps; Reference-only design reference
+- **markdown-preview-pluk** (pluk-inc/markdown-preview) — native macOS markdown previewer (LaTeX + Mermaid); tangential workflow tool for wiki authors

@@ -9,6 +9,7 @@ related:
   - sources/youtube-shorts-creator-growth-2026.md
 
   - sources/tiktok-marketing-2026.md
+  - concepts/ugc-monetization-loop.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-08

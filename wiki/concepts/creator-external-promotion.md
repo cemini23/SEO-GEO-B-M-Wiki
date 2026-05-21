@@ -20,6 +20,7 @@ related:
   - sources/creator-email-marketing-2026.md
   - sources/instagram-reels-creator-marketing-2026.md
   - sources/instagram-reels-algorithm-2026.md
+  - concepts/ugc-monetization-loop.md
   - sources/paid-advertising-creators-2026.md
   - sources/tiktok-marketing-2026.md
   - sources/tiktok-algorithm-mechanics-2026.md

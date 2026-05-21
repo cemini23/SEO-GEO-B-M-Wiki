@@ -1,7 +1,7 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-17
+updated: 2026-05-21
 last_easy_review_ingest: 2026-05-08
 ---
 
@@ -384,3 +384,28 @@ Three tools cross-routed from the OSINT workspace 56-repo multi-wiki tool eval (
 **Pages touched**: 3 created + 5 edited (backlinks) + index.md + log.md = 10.
 
 Cross-route notes recorded on pages: html-anything → image-gen-wiki + ccc-wiki; oransim → osint-wiki (causal/temporal-cascade modeling).
+
+---
+
+## [2026-05-21] ingest | briefs/ triage — 19 briefs processed (all historical)
+
+Full inventory and triage of every unprocessed brief in `briefs/`. 19 briefs, 19 `processed: 2026-05-21` markers added. No briefs deleted — provenance trail preserved.
+
+**Already ingested (9 briefs, marker only):** tool-adoption-handoff, ai-content-workflow, fanvue-synthetic-creator-gtm, manual_17 (GBP reply), onlyfans-account-setup, onlyfans-launch-strategy, creator-24hr-sprint, creator-launch-decision-hub, obsidian-integration. All had their substantive content already folded into existing wiki pages.
+
+**Promoted to concept pages (2):**
+- `concepts/ugc-monetization-loop.md` — 3-platform UGC creator monetization (TikTok+IG+Pinterest) from @timbidefi's X post; Claude pattern extraction + Higgsfield faceless video generation + retainer-based pricing
+- `concepts/claude-ecommerce-workflows.md` — 5 reusable Claude prompt templates for Shopify/e-commerce from @gippp69 (competitor autopsy, negative-review mining, 5-email post-purchase sequence, UGC ad scripts, Sunday diagnostic)
+
+**Promoted to entity stubs (5):**
+- `entities/tools/digital-marketing-pro.md` — 115-command Claude plugin ecosystem, 67 MCP servers, QA/claim-verification layer
+- `entities/tools/n8n-workflows.md` — 4,343-script automation library (MIT)
+- `entities/tools/pm-claude-skills.md` — 106 SKILL.md files, marketing-analysis + Figma-template-generation
+- `entities/tools/garden-skills.md` — 4,900★ MIT web-design-engineer templates
+- `entities/tools/reactive-resume.md` — 37k★ MIT; Steal-from CSS template architecture + JSON→PDF/DOCX pipeline
+
+**Reference-only index entries (4):** evilcharts, svgrepo, mobilepalette, markdown-preview-pluk — cataloged under new "Tools — reference-only" subsection.
+
+**Index gaps fixed (2):** `creator-content-flywheel.md` and `viral-content-mechanics.md` existed on disk but were missing from index — added to Creator marketing section.
+
+**Pages touched**: 7 created + index.md + log.md = 9. 19 briefs marked processed.

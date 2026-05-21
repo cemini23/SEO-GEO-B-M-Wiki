@@ -14,6 +14,9 @@ related:
   - entities/companies/shop-2.md
   - entities/tools/gtm-agents.md
   - entities/tools/open-seo.md
+  - entities/tools/digital-marketing-pro.md
+  - entities/tools/n8n-workflows.md
+  - entities/tools/pm-claude-skills.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-15

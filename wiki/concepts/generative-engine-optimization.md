@@ -17,6 +17,8 @@ related:
   - entities/tools/google-search-console.md
   - entities/tools/local-falcon.md
   - sources/fanvue-gtm-blueprint-2026.md
+  - entities/tools/digital-marketing-pro.md
+  - entities/tools/garden-skills.md
 
   - @image-gen-wiki/concepts/marketing-your-persona.md
   - @image-gen-wiki/concepts/persona-monetization-models.md

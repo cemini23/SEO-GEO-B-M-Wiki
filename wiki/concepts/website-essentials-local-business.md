@@ -13,6 +13,10 @@ related:
   - concepts/local-pack-rankings.md
   - entities/tools/html-anything.md
   - entities/tools/itshover.md
+  - concepts/claude-ecommerce-workflows.md
+  - entities/tools/garden-skills.md
+  - entities/tools/pm-claude-skills.md
+  - entities/tools/reactive-resume.md
 
 maturity: draft
 created: 2026-05-07

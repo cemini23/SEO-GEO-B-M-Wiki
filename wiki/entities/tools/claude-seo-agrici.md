@@ -14,6 +14,7 @@ related:
   - entities/tools/geo-seo-claude.md
   - concepts/first-90-days-playbook.md
   - concepts/session-1-facilitator-notes.md
+  - concepts/claude-ecommerce-workflows.md
 
 maturity: validated
 created: 2026-05-07
