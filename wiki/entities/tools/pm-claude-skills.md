@@ -4,7 +4,6 @@ type: entity
 tags: [tool, claude-code, marketing-analysis, figma, mit]
 keywords: [pm claude skills, marketing analysis, figma templates, claude code skills, mohitagw]
 related:
-  - "@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md"
   - entities/tools/marketingskills.md
   - concepts/website-essentials-local-business.md
   - entities/tools/garden-skills.md

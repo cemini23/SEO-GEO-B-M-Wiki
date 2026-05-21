@@ -4,7 +4,6 @@ type: entity
 tags: [tool, claude-code, web-design, geo-aeo, landing-pages, mit]
 keywords: [garden skills, conardli, web design engineer, claude code, landing pages, geo aeo]
 related:
-  - "@osint-wiki/entities/tools/garden-skills.md"
   - concepts/website-essentials-local-business.md
   - concepts/generative-engine-optimization.md
   - entities/tools/pm-claude-skills.md

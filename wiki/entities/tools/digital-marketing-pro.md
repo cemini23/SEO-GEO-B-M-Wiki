@@ -4,7 +4,6 @@ type: entity
 tags: [tool, marketing-analytics, claude-plugin, mcp, geo-aeo, qa-verification]
 keywords: [digital marketing pro, claude plugin, mcp server, marketing analytics, qa verification, geo, aeo]
 related:
-  - "@osint-wiki/entities/tools/digital-marketing-pro.md"
   - concepts/generative-engine-optimization.md
   - entities/tools/marketingskills.md
 maturity: draft

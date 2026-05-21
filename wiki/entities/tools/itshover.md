@@ -4,7 +4,6 @@ type: entity
 tags: [tool, web-design, react-components, animated-icons, motion-ui, mit, adopt]
 keywords: [itshover, react icons, animated svg icons, motion components, copy paste components, nextjs, shadcn, vercel]
 related:
-  - "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
   - entities/tools/claude-code-tool-stack.md
   - entities/tools/awesome-design-md.md
   - concepts/website-essentials-local-business.md

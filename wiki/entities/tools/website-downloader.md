@@ -4,8 +4,6 @@ type: entity
 tags: [tool, site-archival, competitor-analysis, recon, mit]
 keywords: [website-downloader, site mirror, competitor analysis, mit]
 related:
-  - "@osint-wiki/entities/tools/website-downloader.md"
-  - "@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md"
   - concepts/competitor-analysis-local.md
 maturity: draft
 created: 2026-05-12

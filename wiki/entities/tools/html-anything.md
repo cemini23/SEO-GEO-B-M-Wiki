@@ -4,7 +4,6 @@ type: entity
 tags: [tool, web-design, agentic-html-editor, llm-consumed-ui, design-md, apache-2, adopt]
 keywords: [html-anything, nexu-io, agentic html editor, ai web design, sandboxed html templates, one-click deploy, claude code, codex, design.md]
 related:
-  - "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
   - entities/tools/claude-code-tool-stack.md
   - entities/tools/awesome-design-md.md
   - concepts/website-essentials-local-business.md

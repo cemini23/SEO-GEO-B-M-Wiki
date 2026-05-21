@@ -4,7 +4,6 @@ type: entity
 tags: [tool, web-design, css-templates, mit, steal-from]
 keywords: [reactive resume, amruthpillai, css templates, json to pdf, docx export, web design]
 related:
-  - "@osint-wiki/sources/multi-wiki-tool-eval-26url-2026-05-19.md"
   - concepts/website-essentials-local-business.md
 maturity: draft
 created: 2026-05-21

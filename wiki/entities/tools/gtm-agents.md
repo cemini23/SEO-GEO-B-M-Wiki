@@ -5,8 +5,6 @@ category: tool
 tags: [entity, tool, claude-code-skill-pack, gtm-automation, sales-marketing, social-media-automation, k44, skip-phase-0-2026-05-14, misaligned-30-day-revenue-plan]
 keywords: [gtm-agents, marketing-workflows, customer-success-skills, creator-marketing, social-media-automation, apache-2-license, single-author-risk, enterprise-scale-mismatch]
 related:
-  - "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
-  - "@ccc-wiki/entities/tools/gtm-agents.md"
   - entities/tools/marketingskills.md
 maturity: validated
 created: 2026-05-14

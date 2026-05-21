@@ -4,7 +4,6 @@ type: entity
 tags: [tool, automation, workflow, seo-automation, mit]
 keywords: [n8n, workflow automation, seo automation, trusera, ai-bom]
 related:
-  - "@osint-wiki/entities/tools/n8n-workflows.md"
   - entities/tools/marketingskills.md
 maturity: draft
 created: 2026-05-21

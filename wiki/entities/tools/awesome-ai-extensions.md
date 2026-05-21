@@ -4,8 +4,6 @@ type: entity
 tags: [tool, browser-extensions, ai-tools, directory, cc0-1, reference]
 keywords: [awesome-ai-extensions, browser extensions, ai marketing browser tools, cc0-1.0]
 related:
-  - "@osint-wiki/entities/tools/awesome-ai-extensions.md"
-  - "@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md"
   - entities/tools/claude-code-tool-stack.md
 maturity: draft
 created: 2026-05-12

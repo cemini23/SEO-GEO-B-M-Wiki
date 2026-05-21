@@ -4,8 +4,6 @@ type: entity
 tags: [tool, claude-skills, marketing, ai-skills, pii-sanitizer, skill-md-schema, mit]
 keywords: [ai-marketing-skills, skill.md schema, pii sanitizer hook, marketing automation, mit]
 related:
-  - "@osint-wiki/entities/tools/ai-marketing-skills.md"
-  - "@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md"
   - entities/tools/marketingskills.md
 maturity: draft
 created: 2026-05-12

@@ -4,7 +4,6 @@ type: entity
 tags: [tool, marketing-analytics, causal-modeling, campaign-roi, structural-causal-model, apache-2, adopt]
 keywords: [oransim, oranai, causal simulator, structural causal model, marketing roi, do-calculus, hawkes process, llm user souls, creative-to-user graph]
 related:
-  - "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
   - concepts/competitor-analysis-local.md
   - concepts/creator-content-strategy.md
 maturity: draft

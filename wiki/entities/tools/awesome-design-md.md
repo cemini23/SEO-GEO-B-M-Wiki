@@ -4,8 +4,6 @@ type: entity
 tags: [tool, design-system, design-md, llm-consumed-ui, web-design, mit, adopt]
 keywords: [awesome-design-md, voltagent, design.md, llm ui styling, mit, web design templates]
 related:
-  - "@osint-wiki/entities/tools/awesome-design-md.md"
-  - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
   - entities/tools/claude-code-tool-stack.md
   - entities/tools/html-anything.md
   - entities/tools/itshover.md

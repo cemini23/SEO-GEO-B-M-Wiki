@@ -4,8 +4,6 @@ type: entity
 tags: [tool, oss-directory, alternative-finder, cc0-1, reference]
 keywords: [openalternative, oss alternatives, directory, cc0-1.0]
 related:
-  - "@osint-wiki/entities/tools/openalternative.md"
-  - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
   - concepts/competitor-analysis-local.md
 maturity: draft
 created: 2026-05-12

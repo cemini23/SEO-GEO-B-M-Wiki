@@ -4,7 +4,6 @@ type: entity
 tags: []
 keywords: []
 related:
-  - "@osint-wiki/entities/tools/open-seo.md"
   - entities/tools/marketingskills.md
   - entities/tools/seomachine.md
 maturity: draft
