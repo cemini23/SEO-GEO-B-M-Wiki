@@ -124,17 +124,21 @@ No `.env.example` template for creators yet (tracked in ROADMAP). The first sess
 
 All three are pure-Python; no external dependencies. CI runs `wiki_lint.py` on every push (see `.github/workflows/`).
 
-## Sister wikis
+## Cemini wiki federation
 
-This wiki is one of **six** interconnected Cemini knowledge wikis. Cross-wiki links use `@<alias>/path/to/page.md` syntax (aliases + paths in `CLAUDE.md` under "Related Wikis"):
+**Six** wikis + private **Cemini Financial Suite**. Cross-links: `@<alias>/path/to/page.md` (`CLAUDE.md` → Related Wikis).
 
-- `osint-wiki` — financial / quant / prediction-market research · **private (not publicly available)**
-- `image-gen-wiki` — uncensored image / video / voice generation
-- `3d-printing-wiki` — FDM/FFF printing, Bambu, slicers, print farms
-- `cybersecurity-wiki` — offensive / defensive security research
-- `ccc-wiki` — Cemini Claude Code meta-wiki (workflow, subagents, MCP/conductor) · **private (not publicly available)**
+| Alias | Repository | Visibility | Focus |
+|-------|------------|------------|--------|
+| **`seo-wiki`** | **This repo** ([SEO-GEO-B-M-Wiki](https://github.com/cemini23/SEO-GEO-B-M-Wiki)) | **Public** | Local SEO, GBP, GEO/AEO, creator marketing |
+| `ccc-wiki` | [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC) | **Public** | Cursor / Claude Code workflow, MCP, skills |
+| `image-gen-wiki` | [uncensored-image-gen-wiki](https://github.com/cemini23/uncensored-image-gen-wiki) | Public | Image / video / voice generation |
+| `3d-printing-wiki` | [3D-Printing-Wiki](https://github.com/cemini23/3D-Printing-Wiki) | Public | FDM/FFF, Bambu, slicers |
+| `cybersecurity-wiki` | [Cybersecurity-wiki](https://github.com/cemini23/Cybersecurity-wiki) | Public | Pentest, SOC, web-app security |
+| `osint-wiki` | `llm-wiki-by-cemini` *(private)* | **Private** | Financial / prediction-market research |
+| *Cemini Financial Suite* | `Cemini-Financial-Suite` *(private)* | **Private** | Trading stack (not a wiki) |
 
-The OSINT and CCC wikis are private repositories — not publicly available; cross-wiki links into them resolve only inside the Cemini workspace, not on public GitHub.
+**Privacy:** **`ccc-wiki` is public.** **`osint-wiki`** and **Cemini Financial Suite** are private — no public clone; `@osint-wiki/...` links resolve only on maintainer laptops.
 
 ## Phase-0 audit pattern
 
