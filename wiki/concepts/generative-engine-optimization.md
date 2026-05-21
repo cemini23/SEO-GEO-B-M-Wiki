@@ -20,9 +20,6 @@ related:
   - entities/tools/digital-marketing-pro.md
   - entities/tools/garden-skills.md
 
-  - @image-gen-wiki/concepts/marketing-your-persona.md
-  - @image-gen-wiki/concepts/persona-monetization-models.md
-  - @image-gen-wiki/concepts/persona-content-cadence.md
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
