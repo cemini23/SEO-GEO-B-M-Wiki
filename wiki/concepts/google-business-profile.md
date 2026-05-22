@@ -13,6 +13,7 @@ related:
   - concepts/generative-engine-optimization.md
   - concepts/obsidian-navigation.md
   - concepts/social-media-for-barbershops.md
+  - concepts/high-ticket-smb-lead-generation.md
 
 maturity: draft
 created: 2026-05-07
@@ -34,6 +35,7 @@ updated: 2026-05-17
 - @concepts/generative-engine-optimization.md
 - @concepts/obsidian-navigation.md
 - @concepts/social-media-for-barbershops.md
+- @concepts/high-ticket-smb-lead-generation.md
 
 
 ## Raw Concept

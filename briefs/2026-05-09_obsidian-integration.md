@@ -5,6 +5,7 @@ target: hands-on
 summary: Complete Obsidian integration for the SEO/GEO wiki — vault setup, link conversion tooling, and portable handoff to other readers.
 created: 2026-05-09
 updated: 2026-05-09
+processed: 2026-05-21
 ---
 
 ## Target

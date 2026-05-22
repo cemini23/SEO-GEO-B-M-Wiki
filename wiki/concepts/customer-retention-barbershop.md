@@ -5,6 +5,7 @@ related:
   - concepts/social-media-for-barbershops.md
   - concepts/reviews-reputation-management.md
   - concepts/promotional-campaigns-barbershop.md
+  - concepts/high-ticket-smb-lead-generation.md
 
 maturity: draft
 created: 2026-05-08
@@ -18,6 +19,7 @@ updated: 2026-05-08
 - @concepts/social-media-for-barbershops.md — social channels for retention campaigns
 - @concepts/reviews-reputation-management.md — reviews as retention + referral drivers
 - @concepts/promotional-campaigns-barbershop.md
+- @concepts/high-ticket-smb-lead-generation.md
 
 
 ## Raw Concept

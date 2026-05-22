@@ -21,6 +21,8 @@ related:
   - concepts/session-1-facilitator-notes.md
   - concepts/social-media-for-barbershops.md
   - entities/tools/marketingskills.md
+  - concepts/high-ticket-smb-lead-generation.md
+  - sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
 
 maturity: draft
 created: 2026-05-07
@@ -46,7 +48,8 @@ updated: 2026-05-17
 - @concepts/session-1-facilitator-notes.md
 - @concepts/social-media-for-barbershops.md
 - @entities/tools/marketingskills.md
-
+- @concepts/high-ticket-smb-lead-generation.md
+- @sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
 
 ## Raw Concept
 

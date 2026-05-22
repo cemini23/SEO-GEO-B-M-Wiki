@@ -6,6 +6,8 @@ keywords: [claude, shopify, ecommerce, dropshipping, competitor autopsy, ugc ads
 related:
   - concepts/website-essentials-local-business.md
   - entities/tools/claude-seo-agrici.md
+  - concepts/free-smb-ops-stack.md
+  - entities/tools/saas-boilerplate.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-21
@@ -17,6 +19,8 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-lp-rewards-perps-funding-s
 - @concepts/website-essentials-local-business.md — e-commerce site foundations overlap with local-business website essentials
 - @entities/tools/claude-seo-agrici.md — sibling Claude-assisted operational workflow
 - @osint-wiki/sources/trading-posts-lp-rewards-perps-funding-sports-consensus-2026-05.md — cross-wiki provenance
+- @concepts/free-smb-ops-stack.md
+- @entities/tools/saas-boilerplate.md
 
 ## Raw Concept
 

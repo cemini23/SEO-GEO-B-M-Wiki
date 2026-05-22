@@ -1,13 +1,29 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-21
+updated: 2026-05-22
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+---
+
+## [2026-05-22] ingest | briefs/ — 2 new cross-wiki briefs processed
+
+Inventory after May 21 triage: 21 briefs on disk; 2 lacked `processed:` markers (`2026-05-21_k55-2-ridark-eth-seo-relevant-repos.md`, `2026-05-22_k57-bowtied-bull-leadgen-from-osint.md`). Easy Review brief count unchanged (still 1 ingested; below ≥3 pattern threshold).
+
+**Promoted (4 wiki pages):**
+- `sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md` — K57 source stub (skimmed via brief)
+- `concepts/high-ticket-smb-lead-generation.md` — offer stack + SEO/GEO hooks + barbershop light-touch note
+- `entities/tools/saas-boilerplate.md` — ixartz/SaaS-Boilerplate stub, CONDITIONAL-GO pending Phase-0
+- `concepts/free-smb-ops-stack.md` — akaunting + Faveo + Laracom bundle; PBN/crawler items deferred
+
+**Backlinks:** reviews-reputation-management, generative-engine-optimization, meta-ads-local, claude-ecommerce-workflows (4 pages touched + index + log).
+
+**Briefs marked** `processed: 2026-05-22` (2). No Easy Review ingest.
 
 ---
 

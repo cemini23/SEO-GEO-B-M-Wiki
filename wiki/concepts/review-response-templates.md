@@ -9,6 +9,7 @@ related:
   - concepts/first-90-days-playbook.md
   - entities/tools/easy-review.md
   - concepts/local-pack-rankings.md
+  - concepts/high-ticket-smb-lead-generation.md
 
 maturity: validated
 created: 2026-05-07
@@ -26,6 +27,7 @@ updated: 2026-05-17
 - @concepts/first-90-days-playbook.md
 - @entities/tools/easy-review.md
 - @concepts/local-pack-rankings.md
+- @concepts/high-ticket-smb-lead-generation.md
 - @log.md
 
 

@@ -8,6 +8,7 @@ related:
   - concepts/local-seo-foundations.md
   - concepts/promotional-campaigns-barbershop.md
   - sources/paid-advertising-creators-2026.md
+  - concepts/high-ticket-smb-lead-generation.md
 
 maturity: draft
 created: 2026-05-08
@@ -24,7 +25,7 @@ updated: 2026-05-08
 - @concepts/local-seo-foundations.md
 - @concepts/promotional-campaigns-barbershop.md
 - @sources/paid-advertising-creators-2026.md
-
+- @concepts/high-ticket-smb-lead-generation.md
 
 ## Raw Concept
 

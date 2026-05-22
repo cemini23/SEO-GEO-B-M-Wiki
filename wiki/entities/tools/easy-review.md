@@ -9,6 +9,7 @@ related:
   - concepts/first-90-days-playbook.md
   - concepts/session-1-facilitator-notes.md
   - entities/platforms/google-business-profile.md
+  - concepts/high-ticket-smb-lead-generation.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-07
@@ -21,6 +22,7 @@ updated: 2026-05-07
 - @concepts/first-90-days-playbook.md
 - @concepts/session-1-facilitator-notes.md
 - @entities/platforms/google-business-profile.md
+- @concepts/high-ticket-smb-lead-generation.md
 
 ## Raw Concept
 

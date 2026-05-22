@@ -19,12 +19,14 @@ related:
   - sources/fanvue-gtm-blueprint-2026.md
   - entities/tools/digital-marketing-pro.md
   - entities/tools/garden-skills.md
+  - concepts/high-ticket-smb-lead-generation.md
+  - sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-17
+updated: 2026-05-22
 ---
 
 ## Relations
@@ -48,7 +50,8 @@ updated: 2026-05-17
 - @entities/tools/google-search-console.md
 - @entities/tools/local-falcon.md
 - @sources/fanvue-gtm-blueprint-2026.md
-
+- @concepts/high-ticket-smb-lead-generation.md
+- @sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
 
 ## Raw Concept
 

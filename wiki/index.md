@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-05-21
+updated: 2026-05-22
 ---
 
 # Wiki Index
@@ -26,6 +26,7 @@ If you're new to this wiki:
 ### Audits + evaluations
 
 - [github-repo-audit-2026-05-07](sources/github-repo-audit-2026-05-07.md) — Phase-0 audit of 21 SEO/GEO/local-business GitHub repos; 4 GO + 1 cGO + 16 NO-GO (incl. 1 hard policy NO-GO: indexing-API abuse)
+- [bowtied-bull-solopreneur-leadgen-macro-2026-05-22](sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md) — K57 cross-route: AI-enabled high-ticket SMB lead-gen + review moat (skimmed via OSINT brief)
 
 ### Off-topic / record-only
 
@@ -74,6 +75,8 @@ If you're new to this wiki:
 - [content-strategy-local](concepts/content-strategy-local.md) — beyond transactional pages: FAQ, style guides, local content for GEO/AEO + long-tail
 - [customer-retention-barbershop](concepts/customer-retention-barbershop.md) — loyalty programs, referral systems, win-back campaigns, VIP perks
 - [claude-ecommerce-workflows](concepts/claude-ecommerce-workflows.md) — 5 reusable Claude prompt templates for Shopify/e-commerce: competitor autopsy, negative-review mining, post-purchase emails, UGC ad scripts, weekly diagnostic
+- [free-smb-ops-stack](concepts/free-smb-ops-stack.md) — FOSS replacements for QuickBooks/Zendesk/Shopify (akaunting, Faveo, Laracom); K55-2 routed, unaudited
+- [high-ticket-smb-lead-generation](concepts/high-ticket-smb-lead-generation.md) — agency playbook: lead filter, missed-call SMS, pipeline reactivation, review moat; K57 BowTied Bull
 - [google-ads-local](concepts/google-ads-local.md) — paid search for barbershops: Local Services Ads, search campaigns, geo-targeting, landing pages
 - [local-pack-rankings](concepts/local-pack-rankings.md) — the 3-pack: documented + studied ranking factors, per-listing dynamics
 - [meta-ads-local](concepts/meta-ads-local.md) — Facebook/Instagram paid ads: local targeting, creative strategy, retargeting, multi-location
@@ -160,6 +163,7 @@ If you're new to this wiki:
 - [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes
 - [pm-claude-skills](entities/tools/pm-claude-skills.md) — 106 SKILL.md files; marketing-analysis + Figma-template-generation workflows
 - [reactive-resume](entities/tools/reactive-resume.md) — 37k★ MIT; Steal-from CSS template architecture + JSON→PDF/DOCX export pipeline
+- [saas-boilerplate](entities/tools/saas-boilerplate.md) — ixartz commercial-grade micro-SaaS starter (auth, billing); K55-2 priority, Phase-0 pending
 
 ### Tools — reference-only (cataloged, no entity page)
 
