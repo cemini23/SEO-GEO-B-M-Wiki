@@ -7,6 +7,7 @@ related:
   - entities/tools/claude-code-tool-stack.md
   - entities/tools/awesome-design-md.md
   - concepts/website-essentials-local-business.md
+  - entities/tools/weather-icons.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17
@@ -19,6 +20,7 @@ osint_eval_origin: "OSINT 56-repo multi-wiki tool eval, 2026-05-17 (SEO primary 
 - @entities/tools/claude-code-tool-stack.md — companion stack: itshover components drop into the Next.js/shadcn builds this stack produces
 - @entities/tools/awesome-design-md.md — DESIGN.md baseline library; itshover supplies the motion-icon assets a DESIGN.md template references
 - @concepts/website-essentials-local-business.md — target deliverable: motion-first icons for local-business site UI
+- @entities/tools/weather-icons.md — static weather glyphs (complements motion icons)
 
 ## Raw Concept
 

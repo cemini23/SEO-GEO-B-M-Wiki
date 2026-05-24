@@ -13,6 +13,7 @@ related:
   - concepts/local-pack-rankings.md
   - entities/tools/html-anything.md
   - entities/tools/itshover.md
+  - entities/tools/weather-icons.md
   - concepts/claude-ecommerce-workflows.md
   - entities/tools/garden-skills.md
   - entities/tools/pm-claude-skills.md
@@ -20,7 +21,7 @@ related:
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-17
+updated: 2026-05-24
 
 ---
 
@@ -38,7 +39,7 @@ updated: 2026-05-17
 - @concepts/local-pack-rankings.md
 - @entities/tools/html-anything.md — agentic HTML editor for generating local-business client sites
 - @entities/tools/itshover.md — motion-first React icon components for local-business site UI
-
+- @entities/tools/weather-icons.md — CSS weather icon font for forecast widgets (steal-from; license unverified)
 
 ## Raw Concept
 

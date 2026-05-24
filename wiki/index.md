@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-05-22
+updated: 2026-05-24
 ---
 
 # Wiki Index
@@ -164,6 +164,7 @@ If you're new to this wiki:
 - [pm-claude-skills](entities/tools/pm-claude-skills.md) — 106 SKILL.md files; marketing-analysis + Figma-template-generation workflows
 - [reactive-resume](entities/tools/reactive-resume.md) — 37k★ MIT; Steal-from CSS template architecture + JSON→PDF/DOCX export pipeline
 - [saas-boilerplate](entities/tools/saas-boilerplate.md) — ixartz commercial-grade micro-SaaS starter (auth, billing); K55-2 priority, Phase-0 pending
+- [weather-icons](entities/tools/weather-icons.md) — erikflowers CSS weather icon font (~7k★); steal-from for local landing widgets; no LICENSE on repo — verify before bundle (K63)
 
 ### Tools — reference-only (cataloged, no entity page)
 

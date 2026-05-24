@@ -7,6 +7,7 @@ related:
   - entities/tools/claude-code-tool-stack.md
   - entities/tools/html-anything.md
   - entities/tools/itshover.md
+  - entities/tools/weather-icons.md
 maturity: draft
 created: 2026-05-12
 updated: 2026-05-17
@@ -20,6 +21,7 @@ osint_eval_origin: doc2-url-25 (cross-routed; SEO web-design angle)
 - @entities/tools/claude-code-tool-stack.md — paired tool for the local-business site delivery workflow (DESIGN.md baseline at project init)
 - @entities/tools/html-anything.md — agentic HTML editor that enforces these DESIGN.md guidelines at build time
 - @entities/tools/itshover.md — motion-icon assets a DESIGN.md template can reference
+- @entities/tools/weather-icons.md — weather glyph vocabulary (steal-from; license unverified)
 
 ## Raw Concept
 

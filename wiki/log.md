@@ -1,13 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-22
+updated: 2026-05-24
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+---
+
+## [2026-05-24] ingest | briefs/ — K63 weather-icons (1 new)
+
+- 1 brief: `briefs/2026-05-24_k63-weather-icons-ui-from-osint.md`
+- New page: `entities/tools/weather-icons.md` — erikflowers/weather-icons; steal-from posture (no LICENSE on GitHub)
+- Backlinks: website-essentials-local-business, itshover, index
+- Easy Review: unchanged (1 brief total; pattern ingest not triggered)
 
 ---
 
