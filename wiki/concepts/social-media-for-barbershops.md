@@ -6,6 +6,7 @@ related:
   - entities/platforms/tiktok.md
   - entities/platforms/facebook.md
   - entities/tools/marketingskills.md
+  - entities/tools/social-media-skills.md
   - concepts/first-90-days-playbook.md
   - concepts/meta-ads-local.md
   - concepts/customer-retention-barbershop.md
@@ -26,6 +27,7 @@ updated: 2026-05-17
 - @entities/platforms/tiktok.md
 - @entities/platforms/facebook.md
 - @entities/tools/marketingskills.md
+- @entities/tools/social-media-skills.md
 - @concepts/first-90-days-playbook.md
 - @concepts/customer-retention-barbershop.md
 - @concepts/meta-ads-local.md

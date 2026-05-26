@@ -17,6 +17,7 @@ related:
   - entities/tools/digital-marketing-pro.md
   - entities/tools/n8n-workflows.md
   - entities/tools/pm-claude-skills.md
+  - entities/tools/social-media-skills.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-15
@@ -36,6 +37,7 @@ updated: 2026-05-15
 - @entities/tools/ai-marketing-skills.md — Steal-from extension of this skill bundle
 - @entities/tools/gtm-agents.md — enterprise-GTM skill pack benchmarked against this one (SKIP verdict; this remains primary)
 - @entities/tools/open-seo.md — sibling SEO-automation skill set (Adopt-tier, pending Phase-0)
+- @entities/tools/social-media-skills.md — platform-native social content prompt primitives (K68)
 
 ## Raw Concept
 

@@ -14,6 +14,7 @@ related:
   - entities/tools/html-anything.md
   - entities/tools/itshover.md
   - entities/tools/weather-icons.md
+  - entities/tools/taste-skill.md
   - concepts/claude-ecommerce-workflows.md
   - entities/tools/garden-skills.md
   - entities/tools/pm-claude-skills.md
@@ -40,6 +41,7 @@ updated: 2026-05-24
 - @entities/tools/html-anything.md — agentic HTML editor for generating local-business client sites
 - @entities/tools/itshover.md — motion-first React icon components for local-business site UI
 - @entities/tools/weather-icons.md — CSS weather icon font for forecast widgets (steal-from; license unverified)
+- @entities/tools/taste-skill.md — design-taste prompt patterns for client-site builds
 
 ## Raw Concept
 

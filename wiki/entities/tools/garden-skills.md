@@ -7,6 +7,7 @@ related:
   - concepts/website-essentials-local-business.md
   - concepts/generative-engine-optimization.md
   - entities/tools/pm-claude-skills.md
+  - entities/tools/taste-skill.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-21
@@ -19,6 +20,7 @@ cross-wiki-source: "@osint-wiki/sources/tool-evaluation-multi-wiki-audit-may-202
 - @concepts/website-essentials-local-business.md — landing-page design templates feed local-business web presence
 - @concepts/generative-engine-optimization.md — standardized visual output supports GEO/AEO campaign assets
 - @entities/tools/pm-claude-skills.md — sibling Claude Code skill collection with Figma-template-generation overlap
+- @entities/tools/taste-skill.md — structured web-design prompt patterns (design taste layer)
 
 ## Raw Concept
 

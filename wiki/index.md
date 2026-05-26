@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-05-24
+updated: 2026-05-26
 ---
 
 # Wiki Index
@@ -160,6 +160,9 @@ If you're new to this wiki:
 - [open-seo — SEO automation skill set](entities/tools/open-seo.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [digital-marketing-pro](entities/tools/digital-marketing-pro.md) — Claude plugin ecosystem: 115 commands, 67 MCP servers, QA/claim-verification layer for GEO/AEO workflows
 - [garden-skills](entities/tools/garden-skills.md) — 4,900★ MIT Claude Code skill collection; web-design-engineer templates for landing pages + GEO/AEO campaigns
+- [taste-skill](entities/tools/taste-skill.md) — Leonxlnx MIT skill pack; structured web-design prompt patterns (Adopt-eligible, K68)
+- [social-media-skills](entities/tools/social-media-skills.md) — charlie947 MIT social content prompt primitives (Adopt-eligible, K68)
+- [money-printer-turbo](entities/tools/money-printer-turbo.md) — harry0703 faceless short-form video template (Defer, K68)
 - [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes
 - [pm-claude-skills](entities/tools/pm-claude-skills.md) — 106 SKILL.md files; marketing-analysis + Figma-template-generation workflows
 - [reactive-resume](entities/tools/reactive-resume.md) — 37k★ MIT; Steal-from CSS template architecture + JSON→PDF/DOCX export pipeline

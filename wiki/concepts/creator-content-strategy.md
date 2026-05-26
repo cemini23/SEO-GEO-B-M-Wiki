@@ -21,6 +21,7 @@ related:
   - sources/onlyfans-funnel-optimization-2026.md
   - sources/tiktok-marketing-2026.md
   - concepts/ugc-monetization-loop.md
+  - entities/tools/money-printer-turbo.md
   - sources/youtube-shorts-creator-growth-2026.md
   - sources/fanvue-gtm-blueprint-2026.md
   - sources/viral-content-strategy-2026.md
@@ -61,6 +62,8 @@ updated: 2026-05-17
 - @sources/instagram-reels-creator-marketing-2026.md
 - @sources/onlyfans-funnel-optimization-2026.md
 - @sources/tiktok-marketing-2026.md
+- @concepts/ugc-monetization-loop.md
+- @entities/tools/money-printer-turbo.md
 - @sources/youtube-shorts-creator-growth-2026.md
 - @sources/fanvue-gtm-blueprint-2026.md
 - @sources/viral-content-strategy-2026.md

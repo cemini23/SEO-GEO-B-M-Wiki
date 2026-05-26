@@ -9,6 +9,7 @@ related:
   - concepts/creator-external-promotion.md
   - entities/platforms/tiktok.md
   - entities/platforms/instagram.md
+  - entities/tools/money-printer-turbo.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-21
@@ -22,6 +23,7 @@ cross-wiki-source: "@osint-wiki/sources/x-posts-quant-oss-polymarket-bots-2026-0
 - @concepts/creator-external-promotion.md — platform-specific promotion tactics
 - @entities/platforms/tiktok.md — primary distribution platform
 - @entities/platforms/instagram.md — deal-closing + secondary distribution
+- @entities/tools/money-printer-turbo.md — deferred faceless-video template (K68; not current stack)
 - @osint-wiki/sources/x-posts-quant-oss-polymarket-bots-2026-05.md — cross-wiki provenance
 
 ## Raw Concept

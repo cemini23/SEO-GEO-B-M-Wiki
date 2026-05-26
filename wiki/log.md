@@ -1,13 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-24
+updated: 2026-05-26
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+---
+
+## [2026-05-26] ingest | briefs/ — K68 SEO tooling (1 new)
+
+- 1 brief: `briefs/2026-05-26_k68-seo-tooling-from-osint.md`
+- New pages: `entities/tools/taste-skill.md` (Adopt-eligible), `entities/tools/social-media-skills.md` (Adopt-eligible), `entities/tools/money-printer-turbo.md` (Defer)
+- Backlinks: garden-skills, awesome-design-md, marketingskills, social-media-for-barbershops, creator-external-promotion, ugc-monetization-loop, website-essentials, creator-content-strategy, index
+- Easy Review: unchanged
 
 ---
 
