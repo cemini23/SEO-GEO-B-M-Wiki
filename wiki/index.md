@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 # Wiki Index
@@ -27,6 +27,7 @@ If you're new to this wiki:
 
 - [github-repo-audit-2026-05-07](sources/github-repo-audit-2026-05-07.md) — Phase-0 audit of 21 SEO/GEO/local-business GitHub repos; 4 GO + 1 cGO + 16 NO-GO (incl. 1 hard policy NO-GO: indexing-API abuse)
 - [bowtied-bull-solopreneur-leadgen-macro-2026-05-22](sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md) — K57 cross-route: AI-enabled high-ticket SMB lead-gen + review moat (skimmed via OSINT brief)
+- [trading-posts-compilation-20-2026-05-27](sources/trading-posts-compilation-20-2026-05-27.md) — K69 cross-route: Maps-gap outreach, offline Obsidian stack, GEO coherence frame (skimmed via OSINT briefs)
 
 ### Off-topic / record-only
 

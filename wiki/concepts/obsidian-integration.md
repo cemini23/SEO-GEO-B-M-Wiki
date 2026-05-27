@@ -6,15 +6,19 @@ keywords: [obsidian, vault, setup, integration, transfer, backup, wikilinks, por
 related:
   - concepts/obsidian-navigation.md
   - concepts/claude-platforms.md
+  - concepts/generative-engine-optimization.md
+  - sources/trading-posts-compilation-20-2026-05-27.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-05-27
 ---
 
 ## Relations
 
 - @concepts/obsidian-navigation.md
 - @concepts/claude-platforms.md
+- @concepts/generative-engine-optimization.md — offline stack supports private GEO/AEO drafting on facilitator laptop
+- @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 16 offline plugin stack
 
 ## Raw Concept
 
@@ -102,6 +106,21 @@ bash scripts/obsidian-setup.sh    # re-run if new top-level items were added
 ```
 
 The script is idempotent — existing symlinks and configs are left untouched.
+
+### Optional offline AI stack [TENTATIVE]
+
+K69 Post 16 (@KanikaBK, via @sources/trading-posts-compilation-20-2026-05-27.md) describes running Obsidian with **local models** instead of cloud APIs — useful for privacy-sensitive wiki ops on a facilitator laptop (drafting review responses, caption batches, FAQ content) without sending client data to third-party inference.
+
+| Component | Role |
+|-----------|------|
+| **LM Studio** (or Ollama) | Host local chat/completion models on the Mac |
+| **Smart Connections** | Semantic search across vault notes; surfaces related wiki pages |
+| **BMO Chatbot** | Obsidian-embedded chat UI wired to local or API models |
+| **Mini-RAG** | Lightweight retrieval-augmented generation over vault chunks |
+
+**Posture:** `[TENTATIVE]` — plugin names and API compatibility change frequently; verify each plugin is still maintained before recommending to an operator. This stack complements (does not replace) Claude Desktop / Claude Code for cross-wiki synthesis. Claude+Obsidian workflow posts from the same K69 compilation were routed to the CCC wiki as a cross-wiki brief (not ingested here).
+
+**When it helps GEO/AEO work:** offline drafting of FAQ pages, location copy, and review-response templates before paste into CMS/GBP — see @concepts/generative-engine-optimization.md.
 
 ## Snippets
 

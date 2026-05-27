@@ -1,13 +1,24 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-26
+updated: 2026-05-27
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+---
+
+## [2026-05-27] ingest | briefs/ — K69 cross-wiki routes (2 new)
+
+- 2 briefs from OSINT K69 ingest (routed via `cross_wiki_route` pattern, not SEO inbox):
+  - `briefs/2026-05-27_k69-local-business-website-gap-kimi-from-osint.md`
+  - `briefs/2026-05-27_k69-obsidian-offline-geo-coherence-from-osint.md`
+- New source stub: `sources/trading-posts-compilation-20-2026-05-27.md` (provenance only; canonical on OSINT)
+- Updated: `website-essentials-local-business.md` (Maps-gap outreach), `obsidian-integration.md` (offline plugin stack), `generative-engine-optimization.md` (coherence frame), `google-business-profile.md` (GBP without website)
+- Easy Review: unchanged
 
 ---
 

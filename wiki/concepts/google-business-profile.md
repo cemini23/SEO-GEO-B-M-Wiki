@@ -14,10 +14,12 @@ related:
   - concepts/obsidian-navigation.md
   - concepts/social-media-for-barbershops.md
   - concepts/high-ticket-smb-lead-generation.md
+  - concepts/website-essentials-local-business.md
+  - sources/trading-posts-compilation-20-2026-05-27.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-17
+updated: 2026-05-27
 
 ---
 
@@ -36,6 +38,8 @@ updated: 2026-05-17
 - @concepts/obsidian-navigation.md
 - @concepts/social-media-for-barbershops.md
 - @concepts/high-ticket-smb-lead-generation.md
+- @concepts/website-essentials-local-business.md — owned site as GBP website link; Maps-gap outreach
+- @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 7 listings without websites
 
 
 ## Raw Concept
@@ -58,6 +62,8 @@ Google Business Profile (GBP, formerly Google My Business / GMB) is the single h
 8. **Description** — 750-character business description with natural keyword inclusion, no overt SEO stuffing.
 9. **Booking link** — connects to the operator's booking system (Square, Booksy, Vagaro, Squire, Schedulicity, etc.) so the GBP listing has a direct "Book" button.
 10. **Website link** — points to the homepage or a location-specific landing page. For two-shop operators: each GBP must point to its own location page, not the homepage.
+
+**GBP without an owned website:** Many competitors in local markets run on GBP + social only — no real site, or a broken link. That is both a **prospecting signal** (agency outreach) and an **operator gap** if your listing is in the same state. A minimal one-page site with NAP-matched schema closes the loop for website clicks, AI-engine retrieval, and citation consistency. See @concepts/website-essentials-local-business.md (Maps-gap outreach).
 
 **Ongoing operations**:
 

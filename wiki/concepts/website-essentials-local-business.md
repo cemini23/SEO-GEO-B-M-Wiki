@@ -19,10 +19,12 @@ related:
   - entities/tools/garden-skills.md
   - entities/tools/pm-claude-skills.md
   - entities/tools/reactive-resume.md
+  - concepts/google-business-profile.md
+  - sources/trading-posts-compilation-20-2026-05-27.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-24
+updated: 2026-05-27
 
 ---
 
@@ -42,6 +44,8 @@ updated: 2026-05-24
 - @entities/tools/itshover.md — motion-first React icon components for local-business site UI
 - @entities/tools/weather-icons.md — CSS weather icon font for forecast widgets (steal-from; license unverified)
 - @entities/tools/taste-skill.md — design-taste prompt patterns for client-site builds
+- @concepts/google-business-profile.md — GBP may exist without an owned site; NAP must match
+- @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 7 Maps-gap outreach pattern
 
 ## Raw Concept
 
@@ -117,6 +121,19 @@ Every page should expose at least one of these above the fold on mobile.
 - **No mobile-first design** — desktop-first sites with squished mobile breakpoints
 - **Slow page-builder bloat** — page builders with 30+ JS bundles tank Core Web Vitals
 - **Stock photos** — generic barbershop stock photos vs real photos of the shop. Real wins on every metric: trust, GBP-website-photo-consistency, ranking, and conversion.
+
+### Maps-gap outreach (prospecting workflow) [TENTATIVE]
+
+Many local service businesses have a **Google Business Profile but no owned website** — or a dead social-only link. K69 Post 7 (@0xDepressionn, via @osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md) describes an agent workflow that finds Maps listings missing web presence and drafts single-page landing sites in bulk. Agency pricing anchors of **$500–2k/page** were cited in the post [TENTATIVE — not verified in this market].
+
+**Operator / agency playbook:**
+
+1. **Prospect** — Maps search by category + city for listings with reviews/hours but no website URL (barbershop, dental, salon, gym, HVAC, etc.).
+2. **Deliverable** — one-page site per location: NAP, hours, services, booking CTA, embedded map, real photos where available, `LocalBusiness` JSON-LD matching GBP NAP exactly.
+3. **Local SEO tie-in** — the site becomes the GBP "website" link target (see @concepts/google-business-profile.md). Update citations if NAP changes; never publish schema with fabricated reviews or unverified claims.
+4. **Guardrails** — human review before publish; operator owns GBP access; no mass-identical templates across unrelated brands (duplicate-content risk).
+
+Reference-only on the tooling side: Kimi Agent Swarm (Moonshot UI) is documented at `@osint-wiki/entities/tools/kimi-agent-swarm.md` — not adopted into this wiki's operator stack.
 
 ## Snippets
 

@@ -21,12 +21,14 @@ related:
   - entities/tools/garden-skills.md
   - concepts/high-ticket-smb-lead-generation.md
   - sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
+  - concepts/obsidian-integration.md
+  - sources/trading-posts-compilation-20-2026-05-27.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-22
+updated: 2026-05-27
 ---
 
 ## Relations
@@ -52,6 +54,8 @@ updated: 2026-05-22
 - @sources/fanvue-gtm-blueprint-2026.md
 - @concepts/high-ticket-smb-lead-generation.md
 - @sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
+- @concepts/obsidian-integration.md
+- @sources/trading-posts-compilation-20-2026-05-27.md
 
 ## Raw Concept
 
@@ -71,6 +75,16 @@ When a user asks an AI engine — "best barbershop in [CITY, ST]," "where can I 
 4. **Cross-mention density** — a business mentioned across many independent sources gets cited; one mentioned only on its own website does not
 
 The operator's job is to be *citable*: appear in retrieval, have the structured data the engines can parse cleanly, and be mentioned in independent third-party places (directories, blogs, news, Reddit, niche forums, Yelp, GBP).
+
+### "Coherence" as an operator frame [TENTATIVE]
+
+K69 Post 8 (@awrigh01, via @sources/trading-posts-compilation-20-2026-05-27.md) argues that feed-based platforms curate **static** outputs, while the next discovery layer assembles **dynamic coherence** across sources. For local SEO / GEO operators, translate that into actionable work — not algorithm speculation:
+
+- **Entity coherence** — the same business name, address, phone, hours, and service list across GBP, website JSON-LD, Yelp, and top citations. Contradictions reduce engine confidence and citation accuracy.
+- **Narrative coherence** — review themes, FAQ answers, and on-page copy should tell a consistent story (specialties, neighborhood, price band). Engines summarize; inconsistency surfaces as hedged or wrong answers.
+- **Surface coherence** — owned site, GBP, and social profiles should not contradict each other on booking path, hours, or services offered.
+
+This is adjacent to classical NAP consistency (@concepts/citation-building.md) but extends to *semantic* alignment — what the business is known for, not just whether the phone number matches.
 
 ### What the Aggarwal 2024 paper measured
 
