@@ -9,10 +9,12 @@ related:
   - concepts/promotional-campaigns-barbershop.md
   - sources/paid-advertising-creators-2026.md
   - concepts/high-ticket-smb-lead-generation.md
+  - entities/tools/notfair-toprank.md
+  - entities/tools/claude-ads.md
 
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-27
 
 ---
 
@@ -26,6 +28,8 @@ updated: 2026-05-08
 - @concepts/promotional-campaigns-barbershop.md
 - @sources/paid-advertising-creators-2026.md
 - @concepts/high-ticket-smb-lead-generation.md
+- @entities/tools/notfair-toprank.md — Claude plugin Meta Ads audit + spend diagnostics (K71)
+- @entities/tools/claude-ads.md — deferred paid-media audit skill (same domain)
 
 ## Raw Concept
 

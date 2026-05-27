@@ -12,13 +12,15 @@ related:
   - concepts/on-page-seo-local.md
   - entities/tools/local-falcon.md
   - entities/tools/geo-seo-claude.md
+  - entities/tools/notfair-toprank.md
+  - entities/tools/claude-ads.md
   - concepts/first-90-days-playbook.md
   - concepts/session-1-facilitator-notes.md
   - concepts/claude-ecommerce-workflows.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-05-27
 
 ---
 
@@ -35,6 +37,8 @@ updated: 2026-05-08
 - @concepts/on-page-seo-local.md
 - @entities/tools/local-falcon.md
 - @entities/tools/geo-seo-claude.md
+- @entities/tools/notfair-toprank.md — GSC + paid-media diagnostics (K71 Adopt-eligible)
+- @entities/tools/claude-ads.md — paid audit sibling; deferred pending security fixes (K71)
 - @concepts/first-90-days-playbook.md
 - @concepts/session-1-facilitator-notes.md
 - @log.md

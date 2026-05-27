@@ -11,6 +11,15 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-27] ingest | briefs/ — K71 SEO tooling (1 new)
+
+- 1 brief: `briefs/2026-05-27_k71-seo-tooling-from-osint.md`
+- New pages: `entities/tools/notfair-toprank.md` (Adopt-eligible), `entities/tools/claude-ads.md` (Defer — SSRF/path-traversal issues open)
+- Backlinks: claude-seo-agrici, geo-seo-claude, claude-platforms, meta-ads-local, index
+- Easy Review: unchanged (still 1 brief; barbershop/5star_specific below ≥3 pattern threshold)
+
+---
+
 ## [2026-05-27] ingest | briefs/ — K69 cross-wiki routes (2 new)
 
 - 2 briefs from OSINT K69 ingest (routed via `cross_wiki_route` pattern, not SEO inbox):

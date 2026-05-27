@@ -164,6 +164,8 @@ If you're new to this wiki:
 - [taste-skill](entities/tools/taste-skill.md) — Leonxlnx MIT skill pack; structured web-design prompt patterns (Adopt-eligible, K68)
 - [social-media-skills](entities/tools/social-media-skills.md) — charlie947 MIT social content prompt primitives (Adopt-eligible, K68)
 - [money-printer-turbo](entities/tools/money-printer-turbo.md) — harry0703 faceless short-form video template (Defer, K68)
+- [notfair-toprank](entities/tools/notfair-toprank.md) — nowork-studio NotFair MIT plugin; GSC + Google/Meta Ads + SEO diagnostics (Adopt-eligible, K71)
+- [claude-ads](entities/tools/claude-ads.md) — AgriciDaniel paid-media audit skill 250+ checks (Defer — security issues open, K71)
 - [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes
 - [pm-claude-skills](entities/tools/pm-claude-skills.md) — 106 SKILL.md files; marketing-analysis + Figma-template-generation workflows
 - [reactive-resume](entities/tools/reactive-resume.md) — 37k★ MIT; Steal-from CSS template architecture + JSON→PDF/DOCX export pipeline

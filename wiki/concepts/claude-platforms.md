@@ -9,6 +9,8 @@ related:
   - entities/tools/marketingskills.md
   - entities/tools/claude-seo-agrici.md
   - entities/tools/geo-seo-claude.md
+  - entities/tools/notfair-toprank.md
+  - entities/tools/claude-ads.md
   - entities/tools/seomachine.md
   - entities/tools/claude-code-tool-stack.md
   - concepts/generative-engine-optimization.md
@@ -16,7 +18,7 @@ related:
   - concepts/obsidian-integration.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-27
 ---
 
 ## Relations
@@ -26,6 +28,8 @@ updated: 2026-05-07
 - @entities/tools/marketingskills.md
 - @entities/tools/claude-seo-agrici.md
 - @entities/tools/geo-seo-claude.md
+- @entities/tools/notfair-toprank.md — plugin marketplace install for GSC + Ads + SEO
+- @entities/tools/claude-ads.md — paid-media audit skill (defer)
 - @entities/tools/seomachine.md
 - @entities/tools/claude-code-tool-stack.md
 - @concepts/generative-engine-optimization.md

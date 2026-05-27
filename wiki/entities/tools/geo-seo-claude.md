@@ -7,10 +7,11 @@ related:
   - concepts/schema-markup-local.md
   - concepts/claude-platforms.md
   - entities/tools/claude-seo-agrici.md
+  - entities/tools/notfair-toprank.md
   - entities/tools/marketingskills.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-14
+updated: 2026-05-27
 ---
 
 ## Relations
@@ -21,6 +22,7 @@ updated: 2026-05-14
 - @concepts/schema-markup-local.md
 - @concepts/claude-platforms.md
 - @entities/tools/claude-seo-agrici.md
+- @entities/tools/notfair-toprank.md — can ship on-page/schema fixes from traffic diagnosis (K71)
 - @ccc-wiki/entities/skills/geo-seo-claude.md — CCC-side installed-skill page
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 cross-wiki eval (independent reconfirmation, doc-level)
 
