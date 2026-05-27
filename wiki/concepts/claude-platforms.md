@@ -16,6 +16,8 @@ related:
   - concepts/generative-engine-optimization.md
   - concepts/obsidian-navigation.md
   - concepts/obsidian-integration.md
+  - sources/trading-posts-compilation-25-2026-05-27.md
+  - concepts/obsidian-integration.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-27
@@ -34,6 +36,8 @@ updated: 2026-05-27
 - @entities/tools/claude-code-tool-stack.md
 - @concepts/generative-engine-optimization.md
 - @concepts/obsidian-navigation.md
+- @concepts/obsidian-integration.md — vault symlink + Claude Code reads wiki as session context (K72)
+- @sources/trading-posts-compilation-25-2026-05-27.md
 - @ccc-wiki/concepts/claude-desktop-vs-claude-code.md — CCC-side concept page (LLM-facing canonical write-up of the same distinction)
 - @ccc-wiki/entities/commands/plugin.md — CCC-side documentation of `/plugin marketplace add` + `/plugin install`
 
@@ -76,6 +80,10 @@ The operator should install Claude Code when ready to adopt:
 - @entities/tools/seomachine.md (long-form content; conditional)
 
 Until those skills are needed, Claude Desktop alone covers most of the day-to-day workflow (questions, research, drafting via the Desktop UI; the four MCPs handle web search + browser + filesystem).
+
+### Wiki vault as Claude Code context (K72)
+
+`[TENTATIVE]` K72 Post 7 (@JulianGoldieSEO) positions **Claude Code + an Obsidian vault** as persistent memory for content operations. This workspace already implements that pattern: open the repo in Claude Code (or Cursor), read `CLAUDE.md` + `wiki/` pages each session, file outputs to `briefs/`. Obsidian is optional navigation (@concepts/obsidian-integration.md); the moat is curated markdown, not a specific app.
 
 ### Install steps for Claude Code
 

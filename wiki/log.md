@@ -11,6 +11,15 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-27] ingest | briefs/ — K72 Obsidian + Claude workflows (1 new)
+
+- 1 brief: `briefs/2026-05-27_k72-seo-obsidian-workflows-from-osint.md`
+- New source stub: `sources/trading-posts-compilation-25-2026-05-27.md` (provenance; canonical on OSINT)
+- Updated: `obsidian-integration.md` (Claude Code + vault memory/moat), `generative-engine-optimization.md` (vault as coherence source of truth), `claude-platforms.md` (wiki-as-context)
+- Easy Review: unchanged
+
+---
+
 ## [2026-05-27] ingest | briefs/ — K71 SEO tooling (1 new)
 
 - 1 brief: `briefs/2026-05-27_k71-seo-tooling-from-osint.md`

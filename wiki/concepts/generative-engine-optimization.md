@@ -23,6 +23,7 @@ related:
   - sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
   - concepts/obsidian-integration.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - sources/trading-posts-compilation-25-2026-05-27.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -56,6 +57,7 @@ updated: 2026-05-27
 - @sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
 - @concepts/obsidian-integration.md
 - @sources/trading-posts-compilation-20-2026-05-27.md
+- @sources/trading-posts-compilation-25-2026-05-27.md — K72 Post 21 vault-as-moat
 
 ## Raw Concept
 
@@ -85,6 +87,8 @@ K69 Post 8 (@awrigh01, via @sources/trading-posts-compilation-20-2026-05-27.md) 
 - **Surface coherence** — owned site, GBP, and social profiles should not contradict each other on booking path, hours, or services offered.
 
 This is adjacent to classical NAP consistency (@concepts/citation-building.md) but extends to *semantic* alignment — what the business is known for, not just whether the phone number matches.
+
+K72 Post 21 (@zeuuss_01, via @sources/trading-posts-compilation-25-2026-05-27.md) reframes the same idea as a **private knowledge moat**: a markdown vault the operator curates (service truth, review patterns, market notes) that generic competitors cannot replicate. For GEO, that vault is the **source of truth** you align public surfaces to — not a substitute for citations and third-party mentions, but the internal layer that keeps entity/narrative/surface coherence consistent when you ship copy to GBP, the website, and social. See @concepts/obsidian-integration.md for the Claude Code + vault workflow.
 
 ### What the Aggarwal 2024 paper measured
 

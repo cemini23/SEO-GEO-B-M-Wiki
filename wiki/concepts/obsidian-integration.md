@@ -8,6 +8,7 @@ related:
   - concepts/claude-platforms.md
   - concepts/generative-engine-optimization.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - sources/trading-posts-compilation-25-2026-05-27.md
 maturity: validated
 created: 2026-05-09
 updated: 2026-05-27
@@ -19,6 +20,7 @@ updated: 2026-05-27
 - @concepts/claude-platforms.md
 - @concepts/generative-engine-optimization.md — offline stack supports private GEO/AEO drafting on facilitator laptop
 - @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 16 offline plugin stack
+- @sources/trading-posts-compilation-25-2026-05-27.md — K72 Posts 7, 21 Claude Code + vault memory / moat
 
 ## Raw Concept
 
@@ -121,6 +123,20 @@ K69 Post 16 (@KanikaBK, via @sources/trading-posts-compilation-20-2026-05-27.md)
 **Posture:** `[TENTATIVE]` — plugin names and API compatibility change frequently; verify each plugin is still maintained before recommending to an operator. This stack complements (does not replace) Claude Desktop / Claude Code for cross-wiki synthesis. Claude+Obsidian workflow posts from the same K69 compilation were routed to the CCC wiki as a cross-wiki brief (not ingested here).
 
 **When it helps GEO/AEO work:** offline drafting of FAQ pages, location copy, and review-response templates before paste into CMS/GBP — see @concepts/generative-engine-optimization.md.
+
+### Claude Code + vault as content-ops memory [TENTATIVE]
+
+K72 Posts 7 (@JulianGoldieSEO) and 21 (@zeuuss_01, via @sources/trading-posts-compilation-25-2026-05-27.md) frame the **same wiki vault** this repo already is — but as an explicit **operator moat** when paired with Claude Code:
+
+| Pattern | What it means for local SEO / GEO |
+|---------|-----------------------------------|
+| **Vault = memory** | Service menus, neighborhood notes, review-response patterns, and competitor captures live in linked markdown instead of ad-hoc chats. Claude Code reads `@path` pages and `CLAUDE.md` schema on each session — durable context beats one-off prompts. |
+| **"$0 moat"** | Competitors can copy generic AI blog advice; they cannot copy your **curated** entity pages, market notes, and posted-reply corpus (Easy Review briefs → pattern ingest). The moat is accumulated operator knowledge, not the tool subscription. |
+| **Content ops loop** | Draft in vault (Obsidian or Cursor) → paste to GBP/CMS/IG → file learnings back to `wiki/concepts/` or `briefs/`. Complements K69's **offline** LM Studio stack for privacy-sensitive drafts; K72 emphasizes **cloud Claude Code** when cross-wiki synthesis or plugin skills are needed. |
+
+**Posture:** `[TENTATIVE]` — social posts oversell "free" Claude tiers and under-specify maintenance cost (lint, bidirectional links, ingest cadence). Treat as workflow framing, not a product recommendation. Deeper Claude+Obsidian agent posts from the same K72 batch were routed to the CCC wiki.
+
+**Ties to K69:** @sources/trading-posts-compilation-20-2026-05-27.md covers offline plugins + GEO "coherence" framing; K72 adds the **persistent vault + Claude Code** half of the same operator story.
 
 ## Snippets
 

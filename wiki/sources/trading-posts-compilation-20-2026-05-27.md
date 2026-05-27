@@ -4,6 +4,7 @@ type: source
 tags: [source, cross-wiki, geo-aeo, local-seo, obsidian]
 keywords: [k69, kimi agent swarm, maps gap, obsidian offline, geo coherence]
 related:
+  - sources/trading-posts-compilation-25-2026-05-27.md
   - concepts/website-essentials-local-business.md
   - concepts/obsidian-integration.md
   - concepts/generative-engine-optimization.md
@@ -17,6 +18,7 @@ read-status: skimmed
 
 ## Relations
 
+- @sources/trading-posts-compilation-25-2026-05-27.md — successor 25-post batch (K72)
 - @concepts/website-essentials-local-business.md — Post 7 Maps-gap outreach / landing-page generation
 - @concepts/obsidian-integration.md — Post 16 offline Obsidian + LM Studio stack
 - @concepts/generative-engine-optimization.md — Post 8 AI coherence layer framing
