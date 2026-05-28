@@ -29,6 +29,7 @@ If you're new to this wiki:
 - [bowtied-bull-solopreneur-leadgen-macro-2026-05-22](sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md) — K57 cross-route: AI-enabled high-ticket SMB lead-gen + review moat (skimmed via OSINT brief)
 - [trading-posts-compilation-20-2026-05-27](sources/trading-posts-compilation-20-2026-05-27.md) — K69 cross-route: Maps-gap outreach, offline Obsidian stack, GEO coherence frame (skimmed via OSINT briefs)
 - [trading-posts-compilation-25-2026-05-27](sources/trading-posts-compilation-25-2026-05-27.md) — K72 cross-route: Claude Code + Obsidian vault memory / moat (Posts 7, 21; skimmed via OSINT brief)
+- [trading-posts-compilation-38-2026-05-28](sources/trading-posts-compilation-38-2026-05-28.md) — K73 cross-route: Obsidian + Claude workflow references for editorial coherence loops (process-only)
 
 ### Off-topic / record-only
 

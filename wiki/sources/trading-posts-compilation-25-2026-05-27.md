@@ -5,6 +5,7 @@ tags: [source, cross-wiki, obsidian, claude-code, geo-aeo, k72]
 keywords: [k72, posts-docx, julian goldie seo, obsidian vault moat, claude code memory]
 related:
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - sources/trading-posts-compilation-38-2026-05-28.md
   - concepts/obsidian-integration.md
   - concepts/generative-engine-optimization.md
   - concepts/claude-platforms.md
@@ -18,6 +19,7 @@ read-status: skimmed
 ## Relations
 
 - @sources/trading-posts-compilation-20-2026-05-27.md — prior 20-post batch (K69)
+- @sources/trading-posts-compilation-38-2026-05-28.md — successor workflow-heavy post batch (K73)
 - @concepts/obsidian-integration.md — Posts 7, 21 Claude Code + Obsidian content-ops / vault moat
 - @concepts/generative-engine-optimization.md — Post 21 vault as differentiated knowledge base (entity/narrative coherence)
 - @concepts/claude-platforms.md — Claude Code + vault as operator context surface
@@ -44,7 +46,7 @@ K72 ingest on the OSINT wiki processed a 25-post `.docx` compilation (distinct s
 | 7 | @JulianGoldieSEO | Claude Code (free tier framing) + Obsidian as persistent memory for content operations |
 | 21 | @zeuuss_01 | "$0 moat" — markdown vault as competitor-differentiated knowledge base operators own |
 
-**Not ingested here (CCC wiki):** Posts 13–14 (Obsidian second brain variants), 0–6, 9–12, 15–20, 22–24 — see `@ccc-wiki/briefs/2026-05-27_k72-ccc-workflows-from-osint.md`.
+**Not ingested here (CCC wiki):** Posts 13–14 (Obsidian second brain variants), 0–6, 9–12, 15–20, 22–24 — routed to CCC workflow briefs.
 
 ## Snippets
 

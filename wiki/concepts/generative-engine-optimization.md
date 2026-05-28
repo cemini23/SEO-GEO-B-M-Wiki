@@ -24,12 +24,13 @@ related:
   - concepts/obsidian-integration.md
   - sources/trading-posts-compilation-20-2026-05-27.md
   - sources/trading-posts-compilation-25-2026-05-27.md
+  - sources/trading-posts-compilation-38-2026-05-28.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-27
+updated: 2026-05-28
 ---
 
 ## Relations
@@ -58,6 +59,7 @@ updated: 2026-05-27
 - @concepts/obsidian-integration.md
 - @sources/trading-posts-compilation-20-2026-05-27.md
 - @sources/trading-posts-compilation-25-2026-05-27.md — K72 Post 21 vault-as-moat
+- @sources/trading-posts-compilation-38-2026-05-28.md — K73 workflow-only reinforcement
 
 ## Raw Concept
 

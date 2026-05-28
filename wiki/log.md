@@ -1,13 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-27
+updated: 2026-05-28
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+---
+
+## [2026-05-28] ingest | briefs/ — K73 Obsidian/LLM workflow notes (1 new)
+
+- 1 brief: `briefs/2026-05-28_k73-seo-obsidian-workflows-from-osint.md`
+- New source stub: `sources/trading-posts-compilation-38-2026-05-28.md` (provenance; canonical on OSINT)
+- Updated: `obsidian-integration.md`, `claude-platforms.md`, `generative-engine-optimization.md` (workflow references only; no new ranking mechanism validated)
+- Easy Review: unchanged
 
 ---
 

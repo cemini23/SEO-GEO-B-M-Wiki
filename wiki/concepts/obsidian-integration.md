@@ -9,9 +9,10 @@ related:
   - concepts/generative-engine-optimization.md
   - sources/trading-posts-compilation-20-2026-05-27.md
   - sources/trading-posts-compilation-25-2026-05-27.md
+  - sources/trading-posts-compilation-38-2026-05-28.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-05-27
+updated: 2026-05-28
 ---
 
 ## Relations
@@ -21,6 +22,7 @@ updated: 2026-05-27
 - @concepts/generative-engine-optimization.md — offline stack supports private GEO/AEO drafting on facilitator laptop
 - @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 16 offline plugin stack
 - @sources/trading-posts-compilation-25-2026-05-27.md — K72 Posts 7, 21 Claude Code + vault memory / moat
+- @sources/trading-posts-compilation-38-2026-05-28.md — K73 workflow-only Obsidian/Claude notes (no ranking mechanism validated)
 
 ## Raw Concept
 
@@ -137,6 +139,10 @@ K72 Posts 7 (@JulianGoldieSEO) and 21 (@zeuuss_01, via @sources/trading-posts-co
 **Posture:** `[TENTATIVE]` — social posts oversell "free" Claude tiers and under-specify maintenance cost (lint, bidirectional links, ingest cadence). Treat as workflow framing, not a product recommendation. Deeper Claude+Obsidian agent posts from the same K72 batch were routed to the CCC wiki.
 
 **Ties to K69:** @sources/trading-posts-compilation-20-2026-05-27.md covers offline plugins + GEO "coherence" framing; K72 adds the **persistent vault + Claude Code** half of the same operator story.
+
+### K73 workflow note [TENTATIVE]
+
+K73 (via @sources/trading-posts-compilation-38-2026-05-28.md) reinforces the same direction: Obsidian + Claude as an editorial-coherence loop. No direct local-ranking mechanism was validated in that batch, so this remains a workflow reference rather than a ranking tactic.
 
 ## Snippets
 

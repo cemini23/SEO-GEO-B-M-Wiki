@@ -17,10 +17,10 @@ related:
   - concepts/obsidian-navigation.md
   - concepts/obsidian-integration.md
   - sources/trading-posts-compilation-25-2026-05-27.md
-  - concepts/obsidian-integration.md
+  - sources/trading-posts-compilation-38-2026-05-28.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-27
+updated: 2026-05-28
 ---
 
 ## Relations
@@ -38,6 +38,7 @@ updated: 2026-05-27
 - @concepts/obsidian-navigation.md
 - @concepts/obsidian-integration.md — vault symlink + Claude Code reads wiki as session context (K72)
 - @sources/trading-posts-compilation-25-2026-05-27.md
+- @sources/trading-posts-compilation-38-2026-05-28.md — K73 workflow references (process-side only)
 - @ccc-wiki/concepts/claude-desktop-vs-claude-code.md — CCC-side concept page (LLM-facing canonical write-up of the same distinction)
 - @ccc-wiki/entities/commands/plugin.md — CCC-side documentation of `/plugin marketplace add` + `/plugin install`
 
