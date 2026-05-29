@@ -3,14 +3,22 @@ title: Agent toolkit X thread — May 2026
 type: concept
 tags: [social, x-twitter, open-source, agent-tooling]
 keywords: [vet, phase0, wikilint, cemini23, agent skills, CI]
+related:
+  - concepts/x-account-voice-and-format.md
+  - concepts/x-article-3-notes.md
 maturity: draft
 created: 2026-05-28
 updated: 2026-05-28
 ---
 
+## Relations
+
+- @concepts/x-account-voice-and-format.md — X voice + Article paste protocol
+- @concepts/x-article-3-notes.md — Article #3 ties toolkit to contribution rate
+
 ## Raw Concept
 
-Source material for an X post/thread promoting the cemini23 open-source agent toolkit (vet, phase0, wikilint, demo, ara-schema). Synthesized from @osint-wiki/docs/oss-agent-toolkit-roadmap.md.
+Source material for an X post/thread promoting the cemini23 open-source agent toolkit (vet, phase0, wikilint, demo, ara-schema). Synthesized from OSINT workspace OSS agent toolkit roadmap (`docs/oss-agent-toolkit-roadmap.md`).
 
 ## Narrative
 

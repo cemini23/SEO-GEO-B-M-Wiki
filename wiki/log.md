@@ -11,7 +11,16 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
-## [2026-05-28] ingest | briefs/ — K73 Obsidian/LLM workflow notes (1 new)
+## [2026-05-28] query + file | X voice, Article #3 notes, Posts.docx style ritual
+
+- **New:** `concepts/x-account-voice-and-format.md` — Cyril (@cyrilXBT K78) style deconstruction, operator voice rules, X Article paragraph-merge protocol (Article #2 spacing fix), living exemplar table
+- **New:** `concepts/x-article-3-notes.md` — git wiki CI + contribution rate; Cyril structure map; title options; image prompt
+- **New:** `prompts/posts-docx-style-pass.md` — agent ritual after each Posts.docx ingest
+- **Updated:** `agent-toolkit-x-thread-2026-05-28.md`, `obsidian-integration.md` (backlinks)
+- **Operator ask:** ongoing attention to daily docx X posts for style/format; Article #2 already live
+- **Cross-wiki:** OSINT `CLAUDE.md` ingest step **4c** added — `Posts.docx` style pass handoff to this wiki
+
+---
 
 - 1 brief: `briefs/2026-05-28_k73-seo-obsidian-workflows-from-osint.md`
 - New source stub: `sources/trading-posts-compilation-38-2026-05-28.md` (provenance; canonical on OSINT)

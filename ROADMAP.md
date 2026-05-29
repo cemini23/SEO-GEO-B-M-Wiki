@@ -108,6 +108,21 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 ---
 
+### W4 — X Articles + account voice (operator personal brand)
+
+**Status:** ACTIVE (2026-05-28). Articles #1–2 live. Article #3 notes filed. Daily Posts.docx style pass ritual documented.
+
+**Pages:**
+- `wiki/concepts/x-account-voice-and-format.md` — Cyril deconstruction, anti-AI-tells, X Article paste protocol
+- `wiki/concepts/x-article-3-notes.md` — git wiki + CI + contribution rate (draft beats)
+- `prompts/posts-docx-style-pass.md` — run on each Posts.docx ingest
+
+**Cadence target:** 2–3 Articles/week; style pass on every OSINT `Posts.docx` ingest (step 4c); 2–3 reply blocks/day on larger accounts in lane.
+
+**Next:** Draft Article #3 when operator asks; append Cyril/Neil rows to exemplar table on each ingest.
+
+---
+
 ## Open decisions
 
 - **Operator's two shop names + addresses + URLs** — placeholder entity pages exist; replace with real data on first session with operator. Until then, anything cross-linking to the shops is generic.

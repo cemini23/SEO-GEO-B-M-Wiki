@@ -7,6 +7,8 @@ related:
   - concepts/obsidian-navigation.md
   - concepts/claude-platforms.md
   - concepts/generative-engine-optimization.md
+  - concepts/x-account-voice-and-format.md
+  - concepts/x-article-3-notes.md
   - sources/trading-posts-compilation-20-2026-05-27.md
   - sources/trading-posts-compilation-25-2026-05-27.md
   - sources/trading-posts-compilation-38-2026-05-28.md
@@ -23,6 +25,8 @@ updated: 2026-05-28
 - @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 16 offline plugin stack
 - @sources/trading-posts-compilation-25-2026-05-27.md — K72 Posts 7, 21 Claude Code + vault memory / moat
 - @sources/trading-posts-compilation-38-2026-05-28.md — K73 workflow-only Obsidian/Claude notes (no ranking mechanism validated)
+- @concepts/x-account-voice-and-format.md — Cyril Article style reference; Obsidian read layer vs git canonical
+- @concepts/x-article-3-notes.md — Article #3 differentiates git CI from Obsidian PKM guides
 
 ## Raw Concept
 
