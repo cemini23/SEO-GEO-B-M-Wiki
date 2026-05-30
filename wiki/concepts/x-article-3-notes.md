@@ -7,10 +7,11 @@ related:
   - concepts/x-account-voice-and-format.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - concepts/obsidian-integration.md
+  - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - @ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 ---
 
 ## Relations
@@ -18,6 +19,7 @@ updated: 2026-05-28
 - @concepts/x-account-voice-and-format.md — voice, Cyril structure, paste protocol
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — toolkit URLs + proof points
 - @concepts/obsidian-integration.md — Obsidian as read layer, git as canonical
+- @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — do not publish Article #3 same day as OW3
 
 ## Raw Concept
 
@@ -57,6 +59,13 @@ Recommended: **#1** for hook strength; subtitle can mention contribution rate.
 | Metric | Contribution rate | Same metric: outputs per active page; `briefs/` count vs orphan count |
 | Time arc | 90 days | Week 1 clean graph, month 2 connections compound, month 3 CI catches what you forgot |
 | CTA | Build weekend | Fork demo repo; reply with worst wiki mess you've seen |
+
+### Optional Article beats from K84 (not queued unless operator asks)
+
+| Source | Steal element | Lane |
+|--------|---------------|------|
+| @polybacktest | Gross vs net spread; 1.5% gross-EV floor | PM builder / Outlier footnote |
+| @Gustafssonkotte | Silent zero-trade + verify settled not near-final | PM bot ops (pairs with Article #2 honesty) |
 
 ### Draft beats (paragraph-level, not paste-ready)
 

@@ -10,13 +10,14 @@ related:
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - entities/platforms/twitter-x.md
   - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md
+  - @osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md
   - @osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md
   - concepts/obsidian-integration.md
   - @ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md
   - @ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-30
 ---
 
 ## Relations
@@ -26,7 +27,7 @@ updated: 2026-05-28
 - @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — Issue 3 / World Cup Bot launch queue
 - @entities/platforms/twitter-x.md — platform algorithm + engagement signals
 - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md — K78 includes @cyrilXBT Obsidian contribution-rate article
-- @osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md — K67 Cyril workflow posts (morning agent, trading journal, vault org)
+- @osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md — K84 style pass (May 30)
 - @concepts/obsidian-integration.md — our read surface; git wiki stays canonical
 - @ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md — Cyril hygiene patterns (reference only)
 - @ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md — Cyril stack catalog
@@ -149,6 +150,11 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | Author | Followers (approx) | Format | Hook type | Framework | CTA | Notes |
 |--------|-------------------|--------|-----------|-----------|-----|-------|
 | @cyrilXBT | ~181k | X Article daily | Unused notes pain | 4 uses / 3 zones / 5 workflows | Build weekend + follow | Primary template; contribution rate metric |
+| @cyrilXBT | ~181k | X Article | $500/mo app stack pain | Why Obsidian wins (3 reasons) + vault setup | Take what works | K84 Post — **broken paragraphs** (line-per-sentence in docx); merge before paste |
+| @0xPhilanthrop | promo | X Article / thread | $1M bot map | 6 layers / 28 repos | Follow + wallet link | PM lag 2.7s vs Binance; **hyperbolic PnL** — steal structure not claims |
+| @polybacktest | product | X Article | Spread tax pain | 1,499 market backtest + 1% gross-EV rule | @polybacktest tool | **Steal:** gross vs net spread gate before any PM strategy ships |
+| @Gustafssonkotte | builder | X thread | Silent zero trades | Bug → overconfidence → buzzer reversal → guard sweep | Report tomorrow | **Steal:** verify settled truth not near-final; env-flag guards |
+| @ziwenxu_ | Codex educator | X Article | Codex as intern vs co-founder | /side /fork /goal /skills | Follow | **CCC lane** — not SEO Article; cross-route ccc brief |
 | @neil_xbt | large | X Article | Status-update tax (PM) | Vault + Claude project system | Follow | Parallel to Cyril; more enterprise PM angle |
 | Operator Article #1 | — | X Article | Restart Claude from zero | 3 layers wiki | — | Low day-1 views; TL;DR reply helped |
 | Operator Article #2 | — | X Article | Messy daily truth | Day timeline | Reply TEMPLATES | **Formatting bug:** line-per-sentence paste |
@@ -166,8 +172,15 @@ Update this table on each Posts.docx style pass.
 > "Mix short and long paragraphs (one sentence is fine, then a 4–5 line block). Use commas and periods instead of dashes."
 > — Operator Article #2 style rules, chat 2026-05-28
 
+> "If your gross EV per trade is under 1.5% of your stake, the spread alone kills it."
+> — @polybacktest, K84 Posts.docx [TENTATIVE product stats]
+
+> "A silent failure is worse than a loud one, nothing tells you it is broken."
+> — @Gustafssonkotte, K84 Posts.docx
+
 ## Dead Ends
 
 - Copying Cyril's **Obsidian folder tree** as our Article #3 — we own **git wiki + CI**, not vault PKM
-- Pasting Articles from chat/docx **without paragraph merge** — caused Article #2 mobile layout failure
+- Pasting Articles from chat/docx **without paragraph merge** — caused Article #2 mobile layout failure; **K84 @cyrilXBT vault stack post same risk**
 - Chasing Cyril's **daily Article volume** before reply volume exists — format yes, cadence no (2–3/week target)
+- Replying to @0xPhilanthrop **$1M stack** thread with our WC bot — different lane (crypto up/down vs sports LP); quote Gustafssonkotte silent-failure angle instead if engaging PM builders

@@ -1,13 +1,29 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-28
+updated: 2026-05-30
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+---
+
+## [2026-05-30] finish | Outlier Weekly Issue 3 — ship-ready (hero + final audit + no-static-mids)
+
+- **Draft:** `briefs/2026-06-03_outlier-weekly-issue3-drafts.md` → status **ship-ready** (Substack ~1,970 words, X 6+2 thread)
+- **Hero:** `briefs/ow-issue3-world-cup-bot-substack-hero.png`, `briefs/ow-issue3-world-cup-bot-x-card.png` verified
+- **No-static-mids:** runtime Gamma+CLOB mids vs vendored CC0 kickoffs split explicit in Module 5, architecture flow, Proof (matches README + DATA_ATTRIBUTION)
+- **Updated:** `concepts/outlier-weekly-issue3-world-cup-bot-notes.md` (asset table, ship-ready)
+- **Ship:** 2026-06-03 Substack free + X thread
+
+---
+
+## [2026-05-30] style-pass | Posts.docx K84 | 5 long-forms | authors: @0xPhilanthrop, @polybacktest, @Gustafssonkotte, @ziwenxu_, @cyrilXBT
+
+OSINT source: `@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md`. Updated `@concepts/x-account-voice-and-format.md` exemplar table + snippets + Dead Ends. **Article beat:** polybacktest 1.5% gross-EV spread gate → optional OW3 footnote, not standalone Article. **CCC route:** @ziwenxu_ Codex /side /fork /goal → ccc brief staged. **Formatting:** Cyril K84 vault-stack post needs paragraph merge before X paste.
 
 ---
 
