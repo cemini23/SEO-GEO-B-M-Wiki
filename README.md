@@ -183,6 +183,14 @@ This is intended as a fork-and-adapt template. Fork it, fill in your `.env`, run
 
 The wiki structure (CLAUDE.md schema + lint scripts) and cross-domain concept pages are the parts most worth contributing back. Operator-specific data (your business identity, competitor list, local market) stays in your fork.
 
+## Related
+
+- Methodology newsletter: [Outlier Weekly](https://outlierweekly.substack.com)
+- Wiki federation hub: [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC)
+- Agent toolkit: [wikilint](https://github.com/cemini23/wikilint) · [vet](https://github.com/cemini23/vet) · [ara-schema](https://github.com/cemini23/ara-schema)
+- Operator app: [Easy-Review](https://github.com/cemini23/Easy-Review)
+- Sibling wikis: [Cybersecurity](https://github.com/cemini23/Cybersecurity-wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki) · [Image Gen](https://github.com/cemini23/uncensored-image-gen-wiki)
+
 ## License
 
 [MIT](LICENSE). The license covers the wiki structure, schema, scripts, and prose. Third-party tools, cited research, and operator-supplied data each carry their own terms — see the LICENSE file for the full scope statement.
