@@ -4,8 +4,10 @@ type: concept
 tags: [social, x-twitter, writing, voice, articles, creator-marketing]
 keywords: [x-articles, prose, authentic voice, cyrilXBT, formatting, docx ingest, anti-ai-tells]
 related:
-  - concepts/agent-toolkit-x-thread-2026-05-28.md
+  - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
+  - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
+  - concepts/agent-toolkit-x-thread-2026-05-28.md
   - entities/platforms/twitter-x.md
   - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md
   - @osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md
@@ -21,6 +23,7 @@ updated: 2026-05-28
 
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — toolkit launch thread (Article-adjacent distribution)
 - @concepts/x-article-3-notes.md — Article #3 queue; style pass updates both pages
+- @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — Issue 3 / World Cup Bot launch queue
 - @entities/platforms/twitter-x.md — platform algorithm + engagement signals
 - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md — K78 includes @cyrilXBT Obsidian contribution-rate article
 - @osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md — K67 Cyril workflow posts (morning agent, trading journal, vault org)
@@ -52,6 +55,7 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | 1 | Why local wiki beats restarting Claude from zero | Live |
 | 2 | Normal day in the local wiki workflow | Live |
 | 3 | Git wiki + CI lint (contribution rate, wikilint) — see @concepts/x-article-3-notes.md | Notes |
+| OW3 | Outlier Weekly Issue 3 — World Cup Bot OSS — see @concepts/outlier-weekly-issue3-world-cup-bot-notes.md | **2026-06-03** |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"
 

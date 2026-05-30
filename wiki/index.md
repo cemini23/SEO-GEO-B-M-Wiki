@@ -113,6 +113,7 @@ If you're new to this wiki:
 - [obsidian-integration](concepts/obsidian-integration.md) — full integration guide: setup scripts, link conversion, portability, transfer to new readers
 - [x-account-voice-and-format](concepts/x-account-voice-and-format.md) — X Article voice, Cyril style deconstruction, paste protocol, Posts.docx style exemplars
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
+- [outlier-weekly-issue3-world-cup-bot-notes](concepts/outlier-weekly-issue3-world-cup-bot-notes.md) — Issue 3 launch queue (2026-06-03)
 - [agent-toolkit-x-thread-2026-05-28](concepts/agent-toolkit-x-thread-2026-05-28.md) — cemini23 OSS toolkit launch thread source material
 - [corpus-overflow-out-of-scope](concepts/corpus-overflow-out-of-scope.md) — librarian bookkeeping hub: triaged-out-of-scope source stubs kept for inventory honesty
 

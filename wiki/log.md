@@ -11,6 +11,16 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-30] brief | Outlier Weekly Issue 3 — World Cup Bot launch pack
+
+- **Brief:** `briefs/2026-05-30_outlier-weekly-issue3-world-cup-bot-launch.md` — Substack outline, X thread beats, IP boundary, distribution calendar (ship **2026-06-03**)
+- **Concept:** `concepts/outlier-weekly-issue3-world-cup-bot-notes.md` — marketing queue stub
+- **Updated:** `x-account-voice-and-format.md` (OW3 arc row + backlink), `index.md`
+- **Librarian copy:** `cemini-librarian:/opt/cemini-wiki/briefs/2026-05-30_outlier-weekly-issue3-world-cup-bot-launch.md`
+- **Cross-wiki source:** OSINT `entities/tools/world-cup-bot.md`
+
+---
+
 ## [2026-05-28] query + file | X voice, Article #3 notes, Posts.docx style ritual
 
 - **New:** `concepts/x-account-voice-and-format.md` — Cyril (@cyrilXBT K78) style deconstruction, operator voice rules, X Article paragraph-merge protocol (Article #2 spacing fix), living exemplar table
