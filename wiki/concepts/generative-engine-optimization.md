@@ -5,6 +5,7 @@ related:
   - concepts/schema-markup-local.md
   - concepts/content-strategy-local.md
   - concepts/claude-platforms.md
+  - concepts/world-cup-bot-search-discovery.md
   - sources/aggarwal-2024-geo-paper.md
   - sources/github-repo-audit-2026-05-07.md
   - entities/tools/geo-seo-claude.md
@@ -39,6 +40,7 @@ updated: 2026-05-28
 - @concepts/schema-markup-local.md
 - @concepts/content-strategy-local.md
 - @concepts/claude-platforms.md
+- @concepts/world-cup-bot-search-discovery.md — OSS landing page + GSC/Bing playbook
 - @sources/aggarwal-2024-geo-paper.md
 - @sources/github-repo-audit-2026-05-07.md
 - @entities/tools/geo-seo-claude.md

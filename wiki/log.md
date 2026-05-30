@@ -11,7 +11,16 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
-## [2026-05-30] finish | Outlier Weekly Issue 3 — ship-ready (hero + final audit + no-static-mids)
+## [2026-05-30] seo | World Cup Bot — Google/Bing discovery (GitHub Pages)
+
+- **Repo:** [cemini23/world-cup-bot PR #1](https://github.com/cemini23/world-cup-bot/pull/1) merged — `docs/index.html`, sitemap, robots.txt
+- **Live:** https://cemini23.github.io/world-cup-bot/ (Pages enabled; GSC/Bing verify target)
+- **Repo metadata:** topics (`world-cup-bot`, `polymarket`, `kalshi`, …), homepage → Pages URL
+- **Wiki:** `concepts/world-cup-bot-search-discovery.md`, `briefs/2026-05-30_world-cup-bot-search-indexing-checklist.md`
+- **Drafts:** Issue 3 + X Reply 1 link landing page
+- **Operator TODO:** verify Pages URL in Google Search Console + Bing Webmaster Tools (hands-on checklist in brief)
+
+---
 
 - **Draft:** `briefs/2026-06-03_outlier-weekly-issue3-drafts.md` → status **ship-ready** (Substack ~1,970 words, X 6+2 thread)
 - **Hero:** `briefs/ow-issue3-world-cup-bot-substack-hero.png`, `briefs/ow-issue3-world-cup-bot-x-card.png` verified

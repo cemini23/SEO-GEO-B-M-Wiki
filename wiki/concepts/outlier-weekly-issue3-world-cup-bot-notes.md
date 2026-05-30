@@ -6,6 +6,7 @@ keywords: [issue-3, world-cup-bot, marketing, substack, x-thread, 2026-06-03]
 related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
+  - concepts/world-cup-bot-search-discovery.md
   - @osint-wiki/entities/tools/world-cup-bot.md
 maturity: draft
 created: 2026-05-30
@@ -18,6 +19,7 @@ draft_version: ship-ready-2026-05-30
 
 - @concepts/x-account-voice-and-format.md — voice + paste discipline
 - @concepts/x-article-3-notes.md — spacing vs Article #3
+- @concepts/world-cup-bot-search-discovery.md — GitHub Pages + GSC/Bing indexing
 - @osint-wiki/entities/tools/world-cup-bot.md — product source of truth
 
 ## Raw Concept
@@ -38,6 +40,7 @@ Prediction-markets + OSS builder — same voice as LP-farming posts but **shadow
 | Substack Issue 3 draft | **ship-ready** `briefs/2026-06-03_outlier-weekly-issue3-drafts.md` |
 | X thread | **6+2 replies** same file, final audit pass |
 | Hero image | **DONE** `briefs/ow-issue3-world-cup-bot-substack-hero.png` + x-card |
+| Search discovery | **LIVE** [cemini23.github.io/world-cup-bot](https://cemini23.github.io/world-cup-bot/) — see @concepts/world-cup-bot-search-discovery.md |
 | LinkedIn repost | Optional D+2 |
 
 ### Issue 3 copy guardrails (K84)
