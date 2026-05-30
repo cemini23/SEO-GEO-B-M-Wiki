@@ -8,7 +8,7 @@ related:
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - concepts/obsidian-integration.md
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
-  - @ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md
+  - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
 maturity: draft
 created: 2026-05-28
 updated: 2026-05-30

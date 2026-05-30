@@ -9,12 +9,12 @@ related:
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - entities/platforms/twitter-x.md
-  - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md
-  - @osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md
-  - @osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md
+  - "@osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md"
+  - "@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md"
+  - "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
   - concepts/obsidian-integration.md
-  - @ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md
-  - @ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md
+  - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
+  - "@ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md"
 maturity: draft
 created: 2026-05-28
 updated: 2026-05-30

@@ -7,7 +7,7 @@ related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
   - concepts/world-cup-bot-search-discovery.md
-  - @osint-wiki/entities/tools/world-cup-bot.md
+  - "@osint-wiki/entities/tools/world-cup-bot.md"
 maturity: draft
 created: 2026-05-30
 updated: 2026-05-30
