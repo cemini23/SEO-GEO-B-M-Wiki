@@ -8,7 +8,7 @@ related:
   - concepts/generative-engine-optimization.md
 maturity: draft
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 ## Relations
@@ -48,11 +48,12 @@ Ranking takes days to weeks. Zero stars + new site = long tail first. Issue 3 + 
 ### Operator checklist — Google Search Console
 
 1. Open [Google Search Console](https://search.google.com/search-console)
-2. **Add property** → URL prefix: `https://cemini23.github.io/world-cup-bot/`
-3. Verify via **HTML file** upload to `docs/` (GitHub Pages serves it) or meta tag in `docs/index.html`
-4. **Sitemaps** → submit `https://cemini23.github.io/world-cup-bot/sitemap.xml`
-5. **URL inspection** → request indexing for Pages URL + GitHub repo URL
-6. Optional: add Outlier Weekly as separate property; link Issue 3 to Pages + repo
+2. **Add property** → **URL prefix** (right column, not Domain): `https://cemini23.github.io/world-cup-bot/`
+3. Verify via `google7291006905236f9d.html` in `docs/` (live on Pages)
+4. **Sitemaps** → submit `sitemap.xml` (Pages URLs only — do not include github.com)
+5. **URL inspection** → request indexing for `https://cemini23.github.io/world-cup-bot/` only
+
+**GitHub repo URL is a different domain.** `https://github.com/cemini23/world-cup-bot` cannot be added to this property. Google indexes github.com separately; discovery comes from Pages links, README, Issue 3, and GitHub's own crawl.
 
 ### Operator checklist — Bing Webmaster Tools
 
