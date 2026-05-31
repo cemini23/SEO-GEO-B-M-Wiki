@@ -154,7 +154,8 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 <!--
 Add rows for each sibling wiki this workspace can query. Example:
 
-| `osint-wiki` | `../OSINT WORKSPACE/wiki/` | Financial research, prediction markets |
+| `osint-wiki` | `../OSINT WORKSPACE/wiki/` | Financial research, prediction-market automation |
+| `gambling-wiki` | `../Gambling wiki/wiki/` | Sports betting, casino, poker, DFS, best ball |
 
 If no sibling wikis exist yet, keep only the self-row. Backlinks across wikis are
 still bidirectional — when adding a cross-wiki reference, add the matching

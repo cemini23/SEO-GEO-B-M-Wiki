@@ -148,6 +148,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 | Alias | Path | Description |
 |-------|------|-------------|
 | `osint-wiki` | `../../OSINT WORKSPACE/wiki/` | Financial research, quant finance, prediction markets, CeminiSuite, RL for trading |
+| `gambling-wiki` | `../Gambling wiki/wiki/` | Sports betting, casino, poker, DFS, best ball |
 | `image-gen-wiki` | `../Image gen/wiki/` | Uncensored image generation, model cataloging, ComfyUI, LoRA, persona/character ops |
 | `seo-wiki` | `wiki/` | Local SEO, GBP optimization, GEO/AEO, web design, social media, creator marketing |
 | `3d-printing-wiki` | `../3d printing/wiki/` | FDM/FFF printing, Bambu, materials, slicers, print farms, store ops |
@@ -162,7 +163,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 
 ### Using the OSINT conductor/librarian for unified search
 
-The OSINT workspace includes a **conductor** (MCP server that routes queries) + **librarian** (kb-server that serves wikis). To query across all four wikis:
+The OSINT workspace includes a **conductor** (MCP server that routes queries) + **librarian** (kb-server that serves wikis). To query across all wikis:
 1. Sync all wikis to the librarian: `rsync -avz wiki/ cemini-librarian:/opt/cemini-wiki/seo-geo-wiki/wiki/`
 2. Run `kb ingest` on the librarian to reindex
 3. Use `conductor_query` tool (exposed via OSINT's `conductor/mcp_server.py`) to query across all wikis
