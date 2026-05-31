@@ -7,6 +7,7 @@ related:
   - concepts/first-90-days-playbook.md
   - concepts/schema-markup-local.md
   - entities/tools/google-analytics-4.md
+  - entities/tools/goaccess.md
   - entities/tools/local-falcon.md
 
   - concepts/generative-engine-optimization.md

@@ -8,6 +8,7 @@ related:
   - concepts/citation-building.md
   - entities/tools/google-search-console.md
   - entities/tools/google-analytics-4.md
+  - entities/tools/goaccess.md
   - entities/tools/semrush.md
   - entities/tools/ahrefs.md
   - entities/tools/yoast-seo.md

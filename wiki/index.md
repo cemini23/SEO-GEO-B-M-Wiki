@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-05-28
+updated: 2026-05-31
 ---
 
 # Wiki Index
@@ -30,6 +30,7 @@ If you're new to this wiki:
 - [trading-posts-compilation-20-2026-05-27](sources/trading-posts-compilation-20-2026-05-27.md) — K69 cross-route: Maps-gap outreach, offline Obsidian stack, GEO coherence frame (skimmed via OSINT briefs)
 - [trading-posts-compilation-25-2026-05-27](sources/trading-posts-compilation-25-2026-05-27.md) — K72 cross-route: Claude Code + Obsidian vault memory / moat (Posts 7, 21; skimmed via OSINT brief)
 - [trading-posts-compilation-38-2026-05-28](sources/trading-posts-compilation-38-2026-05-28.md) — K73 cross-route: Obsidian + Claude workflow references for editorial coherence loops (process-only)
+- [multi-wiki-tool-eval-v6-k90-2026-05-31](sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md) — K90 v6 eval cross-route: claude-ads (defer upheld), goaccess Adopt-eligible
 
 ### Off-topic / record-only
 
@@ -174,7 +175,8 @@ If you're new to this wiki:
 - [social-media-skills](entities/tools/social-media-skills.md) — charlie947 MIT social content prompt primitives (Adopt-eligible, K68)
 - [money-printer-turbo](entities/tools/money-printer-turbo.md) — harry0703 faceless short-form video template (Defer, K68)
 - [notfair-toprank](entities/tools/notfair-toprank.md) — nowork-studio NotFair MIT plugin; GSC + Google/Meta Ads + SEO diagnostics (Adopt-eligible, K71)
-- [claude-ads](entities/tools/claude-ads.md) — AgriciDaniel paid-media audit skill 250+ checks (Defer — security issues open, K71)
+- [goaccess](entities/tools/goaccess.md) — MIT real-time server log analyzer; Adopt-eligible complement to GA4 (K90)
+- [claude-ads](entities/tools/claude-ads.md) — AgriciDaniel paid-media audit skill 250+ checks (Defer — security issues open, K71; K90 feature fit only)
 - [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes
 - [pm-claude-skills](entities/tools/pm-claude-skills.md) — 106 SKILL.md files; marketing-analysis + Figma-template-generation workflows
 - [reactive-resume](entities/tools/reactive-resume.md) — 37k★ MIT; Steal-from CSS template architecture + JSON→PDF/DOCX export pipeline

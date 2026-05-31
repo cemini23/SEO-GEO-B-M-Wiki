@@ -7,6 +7,7 @@ related:
   - concepts/content-strategy-local.md
   - concepts/barbershop-marketing-fundamentals.md
   - entities/tools/google-analytics-4.md
+  - entities/tools/goaccess.md
   - entities/tools/google-search-console.md
   - entities/tools/yoast-seo.md
   - concepts/first-90-days-playbook.md

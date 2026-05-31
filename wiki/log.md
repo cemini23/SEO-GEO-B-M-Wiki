@@ -11,6 +11,22 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-31] ingest | briefs/ — K90 tools + Posts style pass
+
+- **New:** `sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` — cross-wiki stub (SEO slice: claude-ads, goaccess)
+- **New:** `entities/tools/goaccess.md` — MIT log analyzer; Adopt-eligible (K90)
+- **Updated:** `entities/tools/claude-ads.md` — K90 Adopt tier noted; K71 security defer upheld (#30/#34/#40 open)
+- **Updated:** `concepts/x-account-voice-and-format.md` — K90 exemplars (@Voxyz_ai, @vizionaryfocuss)
+- **Updated:** `entities/tools/google-analytics-4.md` — goaccess backlink
+- **Brief processed:** `2026-05-31_k90-seo-from-osint.md` (`processed: true`)
+- **Skipped:** Easy Review (still 1 brief; below ≥3 threshold); `2026-05-31_reddit-profile-first-post.md` (hands-on only)
+
+## [2026-05-31] style-pass | Posts.docx K90 | @Voxyz_ai + @vizionaryfocuss exemplars
+
+- OSINT source: `@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.md`
+- Updated `@concepts/x-account-voice-and-format.md` exemplar table
+- Brief: `briefs/2026-05-31_k90-seo-from-osint.md` — folded into ingest entry above
+
 ## [2026-05-31] ingest | briefs/ — K88 tool + YouTube channel + Issue 3 assets (3 briefs)
 
 - **New:** `entities/tools/seo-geo-claude-skills.md` — Steal-from (Apache-2.0 confirmed K88; audit parallel-reject unchanged)

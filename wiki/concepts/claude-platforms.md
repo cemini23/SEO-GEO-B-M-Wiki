@@ -19,9 +19,10 @@ related:
   - concepts/obsidian-integration.md
   - sources/trading-posts-compilation-25-2026-05-27.md
   - sources/trading-posts-compilation-38-2026-05-28.md
+  - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-28
+updated: 2026-05-31
 ---
 
 ## Relations

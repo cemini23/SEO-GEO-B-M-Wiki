@@ -4,6 +4,7 @@ related:
   - concepts/website-essentials-local-business.md
   - concepts/first-90-days-playbook.md
   - entities/tools/google-search-console.md
+  - entities/tools/goaccess.md
   - concepts/on-page-seo-local.md
   - entities/platforms/yelp.md
 
@@ -11,7 +12,7 @@ related:
   - entities/companies/shop-2.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-17
+updated: 2026-05-31
 ---
 
 ## Relations
@@ -19,6 +20,7 @@ updated: 2026-05-17
 - @concepts/website-essentials-local-business.md
 - @concepts/first-90-days-playbook.md
 - @entities/tools/google-search-console.md
+- @entities/tools/goaccess.md — server-log complement when GA4 tags fail or for crawler verification
 - @concepts/on-page-seo-local.md
 - @entities/platforms/yelp.md
 - @log.md

@@ -8,9 +8,10 @@ related:
   - entities/tools/claude-seo-agrici.md
   - concepts/meta-ads-local.md
   - concepts/claude-platforms.md
+  - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-27url-2026-05-27.md"
 ---
 
@@ -21,10 +22,11 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-27url-2026-05-27.md
 - @concepts/meta-ads-local.md — local Meta Ads campaigns this skill can audit
 - @concepts/claude-platforms.md — Claude Code skill install context
 - @osint-wiki/sources/multi-wiki-tool-eval-27url-2026-05-27.md — K71 URL 13 Defer
+- @sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md — K90 v6 Adopt tier (feature fit); security defer unchanged
 
 ## Raw Concept
 
-Routed from `briefs/2026-05-27_k71-seo-tooling-from-osint.md` (K71). [AgriciDaniel/claude-ads](https://github.com/AgriciDaniel/claude-ads), MIT, ~5.3k★ (2026-05-27). OSINT eval: **Defer** — 250+ weighted checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, and Apple Ads; hold until open security issues (SSRF, path traversal in batch output) are resolved.
+Routed from `briefs/2026-05-27_k71-seo-tooling-from-osint.md` (K71); K90 v6 reaffirms feature fit. [AgriciDaniel/claude-ads](https://github.com/AgriciDaniel/claude-ads), MIT, ~5.3k★ (2026-05-27). OSINT eval: **Defer** — 250+ weighted checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, and Apple Ads; hold until open security issues (SSRF, path traversal in batch output) are resolved. K90 Gemini tier = Adopt does **not** overturn this until issues #30, #34, #40 close and a minimal Phase-0 re-audit passes.
 
 ## Narrative
 
@@ -41,3 +43,5 @@ Comprehensive **paid advertising audit** skill for Claude Code: parallel agents,
 > "Comprehensive paid advertising audit & optimization skill … 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads" — GitHub repo description [Source: github.com/AgriciDaniel/claude-ads (retrieved 2026-05-27)]
 
 > "Defer | SEO" — K71 27-URL eval row 13 [Source: @osint-wiki/sources/multi-wiki-tool-eval-27url-2026-05-27.md]
+
+> K90 v6 aggregate: **Adopt** tier for claude-ads; open GitHub issues #30, #34, #40 still block install as of 2026-05-31 [Source: @sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md]
