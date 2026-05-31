@@ -525,3 +525,4 @@ Full inventory and triage of every unprocessed brief in `briefs/`. 19 briefs, 19
 **Index gaps fixed (2):** `creator-content-flywheel.md` and `viral-content-mechanics.md` existed on disk but were missing from index — added to Creator marketing section.
 
 **Pages touched**: 7 created + index.md + log.md = 9. 19 briefs marked processed.
+style-pass | Posts.docx K88 | 42 posts (5 PM/HL deep-read) | authors: ScottyBeamIO, myttle_web3, DankoWeb3, cyrilXBT, Damir_Akaza

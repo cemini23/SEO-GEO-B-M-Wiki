@@ -11,13 +11,14 @@ related:
   - entities/platforms/twitter-x.md
   - "@osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md"
   - "@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md"
+  - "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md"
   - "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
   - concepts/obsidian-integration.md
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
   - "@ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 ## Relations
@@ -28,6 +29,7 @@ updated: 2026-05-30
 - @entities/platforms/twitter-x.md — platform algorithm + engagement signals
 - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md — K78 includes @cyrilXBT Obsidian contribution-rate article
 - @osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md — K84 style pass (May 30)
+- @osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md — K88 style pass (May 31)
 - @concepts/obsidian-integration.md — our read surface; git wiki stays canonical
 - @ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md — Cyril hygiene patterns (reference only)
 - @ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md — Cyril stack catalog
@@ -157,6 +159,9 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | @ziwenxu_ | Codex educator | X Article | Codex as intern vs co-founder | /side /fork /goal /skills | Follow | **CCC lane** — not SEO Article; cross-route ccc brief |
 | @neil_xbt | large | X Article | Status-update tax (PM) | Vault + Claude project system | Follow | Parallel to Cyril; more enterprise PM angle |
 | Operator Article #1 | — | X Article | Restart Claude from zero | 3 layers wiki | — | Low day-1 views; TL;DR reply helped |
+| @ScottyBeamIO | promo | X Article | Karpathy 7 tips | Context > magic prompts | Save + follow | **Steal:** CLAUDE.md hygiene, /raw layer; **CCC lane** |
+| @myttle_web3 | builder | X Article | Speed vs selection | Negative filter first | Follow | **PM lane** — skip-before-speed; reply angle for WC liquidity gates |
+| @DankoWeb3 | promo | X Article | 10 indicators | UP/DOWN checklist | Follow | `[TENTATIVE]` indicator list — steal gate concept not PnL |
 | Operator Article #2 | — | X Article | Messy daily truth | Day timeline | Reply TEMPLATES | **Formatting bug:** line-per-sentence paste |
 
 Update this table on each Posts.docx style pass.
