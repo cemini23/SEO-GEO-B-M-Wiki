@@ -71,10 +71,11 @@ Ranking takes days to weeks. Zero stars + new site = long tail first. Issue 3 + 
 
 ### Ongoing signals
 
-- Issue 3 publish (2026-06-03) with links to Pages + repo
-- X Reply 1 links
+- Issue 3 publish (2026-06-03) with links to Pages + repo + Gambling-wiki
+- X Reply 1 links (repo, Pages, SHADOW.md, Gambling-wiki)
+- Reddit profile post (all links including gambling wiki anchors)
 - Stars/forks on GitHub
-- Re-index after material README changes
+- Re-index after material README or Pages changes
 
 ## Snippets
 

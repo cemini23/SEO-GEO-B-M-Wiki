@@ -11,6 +11,13 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 ---
 
+## [2026-05-31] update | Issue 3 marketing — Gambling-wiki cross-promo
+
+- **Updated:** `concepts/outlier-weekly-issue3-world-cup-bot-notes.md` — gambling wiki anchor table + asset status
+- **Updated:** `concepts/world-cup-bot-search-discovery.md` — launch backlink signals include Gambling-wiki
+- **Briefs (local):** `2026-06-03_outlier-weekly-issue3-drafts.md`, `2026-05-30_outlier-weekly-issue3-world-cup-bot-launch.md`, `2026-05-31_reddit-profile-first-post.md`, `2026-05-30_world-cup-bot-search-indexing-checklist.md`, `youtube-cemini23/WORLD-CUP-BOT-TEASER-PACK.md`, `youtube-cemini23/world-cup-bot-teaser-brief.md`
+- **External:** world-cup-bot `docs/index.html` + README Related → https://github.com/cemini23/Gambling-wiki
+
 ## [2026-05-31] ingest | briefs/ — K90 tools + Posts style pass
 
 - **New:** `sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` — cross-wiki stub (SEO slice: claude-ads, goaccess)

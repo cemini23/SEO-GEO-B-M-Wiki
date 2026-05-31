@@ -9,6 +9,7 @@ related:
   - concepts/world-cup-bot-search-discovery.md
   - entities/platforms/youtube.md
   - "@osint-wiki/entities/tools/world-cup-bot.md"
+  - "@gambling-wiki/entities/sports/world-cup-2026-betting.md"
 maturity: draft
 created: 2026-05-30
 updated: 2026-05-31
@@ -23,6 +24,7 @@ draft_version: ship-ready-2026-05-30
 - @concepts/world-cup-bot-search-discovery.md — GitHub Pages + GSC/Bing indexing (Pages property only; github.com separate)
 - @entities/platforms/youtube.md — trailer + Shorts distribution
 - @osint-wiki/entities/tools/world-cup-bot.md — product source of truth
+- @gambling-wiki/entities/sports/world-cup-2026-betting.md — retail/strategy companion (contract types, divergence)
 
 ## Raw Concept
 
@@ -32,7 +34,18 @@ Marketing queue for **Outlier Weekly Issue 3** (2026-06-03): public launch of MI
 
 ### Lane
 
-Prediction-markets + OSS builder — same voice as LP-farming posts but **shadow-first** and **no edge guarantees**.
+Prediction-markets + OSS builder — same voice as LP-farming posts but **shadow-first** and **no edge guarantees**. **Gambling wiki** = retail strategy (contract types, books vs PM, bankroll). **World Cup Bot** = execution code. Cross-link both; do not duplicate bot docs inside gambling wiki or picks inside bot marketing.
+
+### Gambling wiki — marketing anchor pages
+
+| Page | Use in copy |
+|------|-------------|
+| @gambling-wiki/concepts/world-cup-prediction-market-types.md | Why advance-to-knockout scope in v1 |
+| @gambling-wiki/concepts/prediction-markets-crossover.md | PM/Kalshi retail lens (pairs with Module 6 alerts) |
+| @gambling-wiki/concepts/world-cup-books-vs-pm-divergence.md | Divergence education, not auto-arb |
+| @gambling-wiki/entities/sports/world-cup-2026-betting.md | WC hub / format context |
+
+Hub URL for all channels: https://github.com/cemini23/Gambling-wiki
 
 ### Status
 
@@ -43,6 +56,7 @@ Prediction-markets + OSS builder — same voice as LP-farming posts but **shadow
 | X thread | **6+2 replies** same file, final audit pass |
 | Hero image | **DONE** `briefs/ow-issue3-world-cup-bot-substack-hero.png` + x-card; regen prompts in `briefs/2026-06-03_outlier-weekly-issue3-hero-prompts.md` |
 | Search discovery | **LIVE** [cemini23.github.io/world-cup-bot](https://cemini23.github.io/world-cup-bot/) — GSC URL-prefix on Pages only; see @concepts/world-cup-bot-search-discovery.md |
+| Gambling wiki cross-promo | **READY** [Gambling-wiki](https://github.com/cemini23/Gambling-wiki) linked in Issue 3 draft, X Reply 1, Reddit profile, Pages landing |
 | YouTube trailer | Staged `briefs/youtube-cemini23/05-world-cup-bot-trailer.mp4` — @entities/platforms/youtube.md |
 | LinkedIn repost | Optional D+2 |
 
