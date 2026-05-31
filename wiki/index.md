@@ -144,6 +144,7 @@ If you're new to this wiki:
 - [reddit](entities/platforms/reddit.md) — community-driven promotion; subreddits, karma building, high-converting but high ban risk
 - [tiktok](entities/platforms/tiktok.md) — short-video discovery; barbershop-friendly transformation content
 - [twitter-x](entities/platforms/twitter-x.md) — primary external promotion for creators; SFW teasers, algorithm behavior, traffic conversion to OnlyFans
+- [youtube](entities/platforms/youtube.md) — operator @Cemini23 channel; OSS walkthroughs, Shorts, Outlier Weekly / World Cup Bot video
 - [fansly](entities/platforms/fansly.md) — OnlyFans alternative with internal discovery; identical feature set, 20% fee, browse-based creator discovery
 - [niche](entities/platforms/niche.md) — AI-model platform for virtual influencers; simplicity, stability, creator control, alternative to Fanvue
 - [yelp](entities/platforms/yelp.md) — review-led directory; Apple Maps + Alexa data partner
@@ -155,6 +156,7 @@ If you're new to this wiki:
 - [claude-seo-agrici](entities/tools/claude-seo-agrici.md) — Claude Code skill: GBP audit, NAP sweeps, geo-grid rank tracking, doorway-page safeguards (GO 2026-05-07)
 - [easy-review](entities/tools/easy-review.md) — companion app (Next.js + Supabase + Gemini Flash): review-reply drafting (3 tone options) + VIP re-engagement (slipping-regulars CSV → SMS drafts); human-in-the-loop, no auto-posting
 - [geo-seo-claude](entities/tools/geo-seo-claude.md) — Claude Code skill: citability scoring, AI-crawler analysis, schema validation (GO 2026-05-07)
+- [seo-geo-claude-skills](entities/tools/seo-geo-claude-skills.md) — aaron-he-zhu parallel skill pack; Apache-2.0; Steal-from only (K88; not installed)
 - [google-analytics-4](entities/tools/google-analytics-4.md) — website analytics: traffic, engagement, conversions
 - [google-search-console](entities/tools/google-search-console.md) — search performance + technical SEO + indexing diagnostics
 - [html-anything](entities/tools/html-anything.md) — agentic local HTML editor: LLM-driven web-design generation + sandbox + one-click deploy (Apache-2.0, Adopt) — `cross-wiki`

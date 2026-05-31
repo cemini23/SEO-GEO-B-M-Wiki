@@ -9,9 +9,10 @@ related:
   - entities/tools/claude-seo-agrici.md
   - entities/tools/notfair-toprank.md
   - entities/tools/marketingskills.md
+  - entities/tools/seo-geo-claude-skills.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-27
+updated: 2026-05-31
 ---
 
 ## Relations
@@ -25,6 +26,7 @@ updated: 2026-05-27
 - @entities/tools/notfair-toprank.md — can ship on-page/schema fixes from traffic diagnosis (K71)
 - @ccc-wiki/entities/skills/geo-seo-claude.md — CCC-side installed-skill page
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 cross-wiki eval (independent reconfirmation, doc-level)
+- @entities/tools/seo-geo-claude-skills.md — parallel skill pack; Steal-from only (K88)
 
 ## Raw Concept
 

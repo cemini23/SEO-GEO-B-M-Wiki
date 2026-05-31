@@ -8,6 +8,7 @@ related:
   - concepts/x-article-3-notes.md
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
+  - entities/platforms/youtube.md
   - entities/platforms/twitter-x.md
   - "@osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md"
   - "@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md"
@@ -26,6 +27,7 @@ updated: 2026-05-31
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — toolkit launch thread (Article-adjacent distribution)
 - @concepts/x-article-3-notes.md — Article #3 queue; style pass updates both pages
 - @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — Issue 3 / World Cup Bot launch queue
+- @entities/platforms/youtube.md — @Cemini23 video lane (Shorts + long-form)
 - @entities/platforms/twitter-x.md — platform algorithm + engagement signals
 - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md — K78 includes @cyrilXBT Obsidian contribution-rate article
 - @osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md — K84 style pass (May 30)

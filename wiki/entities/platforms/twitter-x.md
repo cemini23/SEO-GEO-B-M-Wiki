@@ -10,6 +10,7 @@ related:
   - entities/companies/friend-1.md
   - sources/twitter-x-creator-guide-2026.md
   - concepts/x-account-voice-and-format.md
+  - entities/platforms/youtube.md
   - entities/platforms/fanvue.md
   - entities/platforms/fansly.md
   - concepts/ai-assistance-guardrails.md
@@ -30,6 +31,7 @@ updated: 2026-05-28
 - @entities/companies/friend-1.md
 - @sources/twitter-x-creator-guide-2026.md
 - @concepts/x-account-voice-and-format.md — operator X Article voice + Posts.docx style pass (seo-wiki)
+- @entities/platforms/youtube.md — operator video distribution (@Cemini23)
 - @concepts/ai-assistance-guardrails.md
 
 

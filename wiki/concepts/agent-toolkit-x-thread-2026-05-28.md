@@ -6,15 +6,17 @@ keywords: [vet, phase0, wikilint, cemini23, agent skills, CI]
 related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
+  - entities/platforms/youtube.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-31
 ---
 
 ## Relations
 
 - @concepts/x-account-voice-and-format.md — X voice + Article paste protocol
 - @concepts/x-article-3-notes.md — Article #3 ties toolkit to contribution rate
+- @entities/platforms/youtube.md — channel launch cross-promo (wikilint/vet Shorts)
 
 ## Raw Concept
 

@@ -8,6 +8,7 @@ related:
   - concepts/near-me-search.md
   - entities/platforms/google-business-profile.md
   - entities/tools/claude-seo-agrici.md
+  - entities/tools/seo-geo-claude-skills.md
   - concepts/first-90-days-playbook.md
   - concepts/barbershop-marketing-fundamentals.md
   - concepts/generative-engine-optimization.md
@@ -32,6 +33,7 @@ updated: 2026-05-27
 - @concepts/near-me-search.md
 - @entities/platforms/google-business-profile.md
 - @entities/tools/claude-seo-agrici.md
+- @entities/tools/seo-geo-claude-skills.md — Steal-from skill patterns (not production GBP tool)
 - @concepts/first-90-days-playbook.md
 - @concepts/barbershop-marketing-fundamentals.md
 - @concepts/generative-engine-optimization.md

@@ -14,13 +14,14 @@ related:
   - entities/tools/geo-seo-claude.md
   - entities/tools/notfair-toprank.md
   - entities/tools/claude-ads.md
+  - entities/tools/seo-geo-claude-skills.md
   - concepts/first-90-days-playbook.md
   - concepts/session-1-facilitator-notes.md
   - concepts/claude-ecommerce-workflows.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-27
+updated: 2026-05-31
 
 ---
 
@@ -39,6 +40,7 @@ updated: 2026-05-27
 - @entities/tools/geo-seo-claude.md
 - @entities/tools/notfair-toprank.md — GSC + paid-media diagnostics (K71 Adopt-eligible)
 - @entities/tools/claude-ads.md — paid audit sibling; deferred pending security fixes (K71)
+- @entities/tools/seo-geo-claude-skills.md — parallel repo; Steal-from only (K88 license re-check)
 - @concepts/first-90-days-playbook.md
 - @concepts/session-1-facilitator-notes.md
 - @log.md
@@ -70,7 +72,7 @@ Claude SEO is a Claude Code skill module focused **specifically on brick-and-mor
 
 ### Why it beat parallel implementations
 
-The audit rejected [aaron-he-zhu/seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) and [ReScienceLab/opc-skills](https://github.com/ReScienceLab/opc-skills) as parallel implementations of this same skill family. Workspace policy: one well-maintained tool per niche, prevents `/seo:` command-namespace collisions.
+The audit rejected [aaron-he-zhu/seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) and [ReScienceLab/opc-skills](https://github.com/ReScienceLab/opc-skills) as parallel implementations of this same skill family. Workspace policy: one well-maintained tool per niche, prevents `/seo:` command-namespace collisions. K88 (2026-05-31) re-verified **Apache-2.0** on seo-geo-claude-skills via `gh api` (eval had wrongly reported no license); verdict remains **Steal-from** — see @entities/tools/seo-geo-claude-skills.md.
 
 ### Built-in policy safeguards
 

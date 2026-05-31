@@ -9,6 +9,7 @@ related:
   - entities/tools/marketingskills.md
   - entities/tools/claude-seo-agrici.md
   - entities/tools/geo-seo-claude.md
+  - entities/tools/seo-geo-claude-skills.md
   - entities/tools/notfair-toprank.md
   - entities/tools/claude-ads.md
   - entities/tools/seomachine.md
@@ -30,6 +31,7 @@ updated: 2026-05-28
 - @entities/tools/marketingskills.md
 - @entities/tools/claude-seo-agrici.md
 - @entities/tools/geo-seo-claude.md
+- @entities/tools/seo-geo-claude-skills.md — not installed; Steal-from reference pack
 - @entities/tools/notfair-toprank.md — plugin marketplace install for GSC + Ads + SEO
 - @entities/tools/claude-ads.md — paid-media audit skill (defer)
 - @entities/tools/seomachine.md

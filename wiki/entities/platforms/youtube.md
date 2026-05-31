@@ -1,0 +1,66 @@
+---
+title: YouTube — operator channel (@Cemini23)
+type: entity
+tags: [social, youtube, video, distribution, open-source]
+keywords: [cemini23, youtube shorts, notebooklm, outlier-weekly, agent-toolkit]
+related:
+  - concepts/x-account-voice-and-format.md
+  - concepts/agent-toolkit-x-thread-2026-05-28.md
+  - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
+  - entities/platforms/twitter-x.md
+maturity: draft
+created: 2026-05-31
+updated: 2026-05-31
+---
+
+## Relations
+
+- @concepts/x-account-voice-and-format.md — same voice across X Articles + video
+- @concepts/agent-toolkit-x-thread-2026-05-28.md — toolkit launch thread references channel
+- @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — World Cup Bot trailer + Issue 3 ship
+- @entities/platforms/twitter-x.md — primary text distribution; YouTube is show-don't-tell layer
+
+## Raw Concept
+
+Operator channel **[@Cemini23](https://youtube.com/@Cemini23)** launched 2026-05-30. Synthesized from `briefs/youtube-cemini23/` (video-source brief, upload pack, X launch thread). Not a platform policy encyclopedia — operator distribution surface for OSS agent tooling + prediction-markets content.
+
+## Narrative
+
+### Positioning
+
+Show-don't-tell layer for repos already documented on X/GitHub: screen recordings, CI demos, NotebookLM explainers, Shorts from slide PDFs. **Three lanes, one handle:** local git wiki, agent OSS (vet/wikilint/phase0), World Cup Bot / Outlier Weekly.
+
+### Content mix
+
+| Format | Role | Examples (2026-05-30) |
+|--------|------|------------------------|
+| **Long-form** | Depth + subscriber value | Local git wiki explainer (~57 MB master) |
+| **Shorts (9:16)** | Discovery | wikilint, vet (slides + optional voiceover) |
+| **Trailer** | Launch beat | World Cup Bot NotebookLM trailer ahead of Issue 3 |
+
+Production stack on laptop: NotebookLM for grounded explainers/trailers; `briefs/youtube-cemini23/build_short.py` + PyMuPDF + bundled ffmpeg for Shorts from slide PDFs. **Altered content:** mark **Yes** in YouTube Studio for AI-generated video.
+
+### Studio defaults (operator)
+
+- **Category per upload:** Science & Technology (Details → Show more)
+- **Upload-default tags baseline:** `claude code`, `cursor`, `mcp`, `agent skills`, `open source`, `github actions`, `devtools`, `wikilint`, `cemini23` — add 2–4 video-specific tags each upload
+- **Comments:** allow all (Upload defaults → Advanced settings)
+- **Unlisted** while iterating; public when copy + thumbnail ready
+
+Operational checklists live in `briefs/youtube-cemini23/UPLOAD-PACK.md` (gitignored locally; not required in wiki body).
+
+### X cross-promotion
+
+Launch thread source: `briefs/youtube-cemini23/2026-05-30_x-thread-youtube-channel-launch.md` — 5 tweets, links only in tweet 5, native video clip on tweet 1, pin 48h. Bio line during launch: `YouTube + GitHub: Cemini23 · Outlier Weekly · World Cup Bot June 3`.
+
+### GEO / discovery note
+
+YouTube is not a local-pack ranking surface for brick-and-mortar shops. For this operator it supports **brand search** (`Cemini23`, repo names) and feeds @concepts/generative-engine-optimization.md indirectly via cross-linked descriptions (GitHub, Substack). `[TENTATIVE]` on measurable SEO lift from Shorts vs X/Substack for dev-tool audiences.
+
+## Snippets
+
+> Hybrid Shorts + long-form: Shorts for discovery, long-form for subscribers and real depth. [Source: session synthesis 2026-05-30 — see @concepts/x-account-voice-and-format.md lanes]
+
+## Dead Ends
+
+- **Gemini Veo-only trailers** — dropped for World Cup Bot; factual launch dates/URLs/disclaimers need NotebookLM or manual script, not cinematic-only prompts.

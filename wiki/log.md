@@ -1,13 +1,26 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-30
+updated: 2026-05-31
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+---
+
+## [2026-05-31] ingest | briefs/ — K88 tool + YouTube channel + Issue 3 assets (3 briefs)
+
+- **New:** `entities/tools/seo-geo-claude-skills.md` — Steal-from (Apache-2.0 confirmed K88; audit parallel-reject unchanged)
+- **New:** `entities/platforms/youtube.md` — @Cemini23 operator channel (Shorts + long-form + NotebookLM)
+- **Updated:** `outlier-weekly-issue3-world-cup-bot-notes.md` (hero-prompts brief, GSC boundary, YouTube trailer row)
+- **Updated:** `claude-seo-agrici.md`, `geo-seo-claude.md`, `x-account-voice-and-format.md`, `agent-toolkit-x-thread-2026-05-28.md` (backlinks)
+- **Synced:** `briefs/2026-05-30_world-cup-bot-search-indexing-checklist.md` → Pages-only GSC steps
+- **Briefs processed:** `2026-05-31_k88-seo-geo-claude-skills-from-osint.md` (`processed: true`); `2026-06-03_outlier-weekly-issue3-hero-prompts.md` + `youtube-cemini23/` launch assets folded into concept/platform pages (hands-on copy stays in `briefs/`)
+- **Skipped:** Easy Review (still 1 brief; below ≥3 threshold)
+- **Lint:** 0 orphans / 0 bidirectional gaps / 0 dangling
 
 ---
 

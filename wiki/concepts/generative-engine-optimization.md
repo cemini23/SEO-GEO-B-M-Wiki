@@ -9,6 +9,7 @@ related:
   - sources/aggarwal-2024-geo-paper.md
   - sources/github-repo-audit-2026-05-07.md
   - entities/tools/geo-seo-claude.md
+  - entities/tools/seo-geo-claude-skills.md
   - entities/tools/marketingskills.md
   - entities/tools/seomachine.md
   - concepts/first-90-days-playbook.md
@@ -44,6 +45,7 @@ updated: 2026-05-28
 - @sources/aggarwal-2024-geo-paper.md
 - @sources/github-repo-audit-2026-05-07.md
 - @entities/tools/geo-seo-claude.md
+- @entities/tools/seo-geo-claude-skills.md — Steal-from reference (not installed)
 - @entities/tools/marketingskills.md
 - @entities/tools/seomachine.md
 - @concepts/first-90-days-playbook.md

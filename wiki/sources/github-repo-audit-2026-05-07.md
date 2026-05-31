@@ -9,6 +9,7 @@ related:
   - entities/tools/claude-seo-agrici.md
   - entities/tools/geo-seo-claude.md
   - entities/tools/seomachine.md
+  - entities/tools/seo-geo-claude-skills.md
   - concepts/generative-engine-optimization.md
   - concepts/local-seo-foundations.md
   - concepts/claude-platforms.md
@@ -25,6 +26,7 @@ updated: 2026-05-07
 - @entities/tools/claude-seo-agrici.md
 - @entities/tools/geo-seo-claude.md
 - @entities/tools/seomachine.md
+- @entities/tools/seo-geo-claude-skills.md — rejected parallel; K88 Steal-from reference
 - @concepts/generative-engine-optimization.md
 - @concepts/local-seo-foundations.md
 - @concepts/claude-platforms.md
