@@ -9,6 +9,8 @@ last_easy_review_ingest: 2026-05-08
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
+style-pass | Posts.docx K92 | 12 posts | authors: @get_truenorth, @rohit4verse, @humzaakhalid, @peterom, @Voxyz_ai (+ sparse exports)
+
 ---
 
 ## [2026-05-31] update | Issue 3 marketing — Gambling-wiki cross-promo

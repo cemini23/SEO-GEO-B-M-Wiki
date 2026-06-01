@@ -15,13 +15,14 @@ related:
   - "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md"
   - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
   - "@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.md"
+  - "@osint-wiki/sources/trading-posts-compilation-12-2026-06-01.md"
   - "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
   - concepts/obsidian-integration.md
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
   - "@ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -171,6 +172,10 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | @myttle_web3 | builder | X Article | Speed vs selection | Negative filter first | Follow | **PM lane** — skip-before-speed; reply angle for WC liquidity gates |
 | @DankoWeb3 | promo | X Article | 10 indicators | UP/DOWN checklist | Follow | `[TENTATIVE]` indicator list — steal gate concept not PnL |
 | Operator Article #2 | — | X Article | Messy daily truth | Day timeline | Reply TEMPLATES | **Formatting bug:** line-per-sentence paste |
+| @get_truenorth | large | X Article | GTC wealth map | 6 themes → equity basket | Follow | **K92** — macro equity map; **OSINT lane** |
+| @rohit4verse | builder | X Article | Harness competition | Cursor vs Claude Code vs Perplexity | Follow | **K92** — **CCC lane**; steal comparison frame not vendor hype |
+| @humzaakhalid | educator | X Article | $0 Claude analyst | Workflow + prompts | Save thread | **K92** — **SEO steal:** named deliverable checklist |
+| @peterom | builder | X thread | API cost pain | DeepSeek at ~2.5% cost | Link gist | **K92** — **CCC lane**; cost routing only |
 
 Update this table on each Posts.docx style pass.
 
