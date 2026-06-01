@@ -9,6 +9,7 @@ related:
   - concepts/google-business-profile.md
   - concepts/obsidian-integration.md
   - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
+  - sweeps/2026-06-01-daily.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-01

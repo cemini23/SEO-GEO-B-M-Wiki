@@ -13,6 +13,7 @@ related:
   - entities/tools/claude-seo-agrici.md
   - concepts/first-90-days-playbook.md
   - concepts/competitor-analysis-local.md
+  - concepts/competitive-geo-citation-factors.md
   - concepts/generative-engine-optimization.md
   - concepts/local-pack-rankings.md
   - entities/markets/local-market-template.md

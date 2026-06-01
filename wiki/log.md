@@ -15,6 +15,19 @@ style-pass | Posts.docx K92 | 12 posts | authors: @get_truenorth, @rohit4verse, 
 
 ---
 
+## [2026-06-01] ingest | digest inbox — 3 arXiv GEO/AEO papers
+
+First federated-daily-digest inbox full ingest (`wiki/sweeps/2026-06-01-daily.md`).
+
+- **New sources (3):** @sources/vishwakarma-2026-competitive-geo-sigir.md (deep-read), @sources/davidson-2026-factual-gv-gap.md (read), @sources/dong-2025-safesearch-red-teaming.md (skimmed, record-only)
+- **New concept:** @concepts/competitive-geo-citation-factors.md — operator gatekeeper/differentiator digest from SIGIR '26
+- **Updated:** @concepts/generative-engine-optimization.md — competitive citation + GV-gap sections
+- **Updated:** @concepts/content-strategy-local.md, @concepts/website-essentials-local-business.md — explicit pricing / recency for competitive GEO
+- **Updated:** @sources/aggarwal-2024-geo-paper.md — backlink to SIGIR follow-up
+- **Cross-wiki:** @cybersecurity-wiki/sources/dong-2025-safesearch-red-teaming.md stub (SafeSearch primary domain)
+- **Moved:** 3 PDFs → `raw-sources/`
+- **Lint:** 0 orphans, 0 bidirectional gaps, 0 dangling links
+
 ## [2026-06-01] ingest | briefs/ — K93 federated digest + goaccess (1 new)
 
 - **New:** `sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md` — K93 v5 cross-route stub (SEO slice: goaccess MIT re-verified)

@@ -18,6 +18,7 @@ related:
   - concepts/website-essentials-local-business.md
   - sources/trading-posts-compilation-20-2026-05-27.md
   - concepts/federated-daily-research-digest.md
+  - concepts/competitive-geo-citation-factors.md
 
 maturity: draft
 created: 2026-05-07

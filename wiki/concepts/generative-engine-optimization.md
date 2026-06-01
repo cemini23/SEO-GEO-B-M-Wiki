@@ -19,6 +19,7 @@ related:
   - entities/tools/google-search-console.md
   - entities/tools/local-falcon.md
   - concepts/federated-daily-research-digest.md
+  - sources/dong-2025-safesearch-red-teaming.md
   - sources/fanvue-gtm-blueprint-2026.md
   - entities/tools/digital-marketing-pro.md
   - entities/tools/garden-skills.md
@@ -28,12 +29,15 @@ related:
   - sources/trading-posts-compilation-20-2026-05-27.md
   - sources/trading-posts-compilation-25-2026-05-27.md
   - sources/trading-posts-compilation-38-2026-05-28.md
+  - sources/vishwakarma-2026-competitive-geo-sigir.md
+  - sources/davidson-2026-factual-gv-gap.md
+  - concepts/competitive-geo-citation-factors.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-28
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -66,6 +70,9 @@ updated: 2026-05-28
 - @sources/trading-posts-compilation-25-2026-05-27.md — K72 Post 21 vault-as-moat
 - @sources/trading-posts-compilation-38-2026-05-28.md — K73 workflow-only reinforcement
 - @concepts/federated-daily-research-digest.md — daily Exa sweep includes GEO/AEO query lane
+- @sources/vishwakarma-2026-competitive-geo-sigir.md — SIGIR '26 competitive citation factors
+- @sources/davidson-2026-factual-gv-gap.md — factual GV-gap / multi-verse verification risk
+- @concepts/competitive-geo-citation-factors.md — operator gatekeeper checklist
 
 ## Raw Concept
 
@@ -121,6 +128,20 @@ Three findings matter most for a small local business:
 3. **Combinations beat single methods.** Fluency Optimization + Statistics Addition was the highest-performing 2-method combo across the full corpus. The operator should plan for both, not pick one. [CONFIRMED]
 
 The paper also validates several intuitions: **keyword stuffing actively hurts** GEO visibility (an inversion of even the lukewarm 2010s SEO advice), and **citation-driven retrieval rewards content that looks like an answerable reference**, not promotional copy.
+
+### Competitive citation factors (SIGIR 2026) [CONFIRMED in controlled RAG testbed]
+
+@sources/vishwakarma-2026-competitive-geo-sigir.md (252,000 trials, six LLMs) shifts the question from "how much does my source contribute?" to **"which of two retrieved pages wins the first citation?"** Full operator digest: @concepts/competitive-geo-citation-factors.md.
+
+**Gatekeepers (unanimous across models):** topic match, explicit price, recent timestamp, retrieval/list position.
+
+**Differentiators (4+ models):** specs completeness, evidence-backed claims (not hedging), keyword alignment, comparisons, internal consistency.
+
+**Low ROI:** formatting-only edits without substance changes.
+
+**Retrieval vs content split:** if the shop never appears in citations, fix SEO/citations first; if cited but not recommended, fix on-page completeness and third-party review content.
+
+**Factual consistency:** @sources/davidson-2026-factual-gv-gap.md — engines may verify conflicting facts from different sources; keep NAP/hours/services aligned across GBP, website, and directories to avoid "multi-verse" summaries.
 
 **Caveats**: the paper tested a Bing-Chat-style engine, not ChatGPT/Claude/Perplexity directly, and did NOT test local-business or schema-markup interactions. Generalize with care; re-validate per-engine annually. See @sources/aggarwal-2024-geo-paper.md "Gaps and limitations" for the full list.
 

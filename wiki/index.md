@@ -22,6 +22,9 @@ If you're new to this wiki:
 ### Research papers
 
 - [aggarwal-2024-geo-paper](sources/aggarwal-2024-geo-paper.md) — KDD '24 Aggarwal et al., GEO empirical study; 9 GEO methods measured (+41% Quotation, +33% Statistics, -8% Keyword Stuffing)
+- [vishwakarma-2026-competitive-geo-sigir](sources/vishwakarma-2026-competitive-geo-sigir.md) — SIGIR '26 competitive GEO: 252k trials, gatekeeper citation factors (price, recency, position)
+- [davidson-2026-factual-gv-gap](sources/davidson-2026-factual-gv-gap.md) — factual generation-verification gap; multi-verse state after updates
+- [dong-2025-safesearch-red-teaming](sources/dong-2025-safesearch-red-teaming.md) — search-agent red teaming (record-only; primary @cybersecurity-wiki)
 
 ### Audits + evaluations
 
@@ -66,6 +69,7 @@ If you're new to this wiki:
 
 - [barbershop-marketing-fundamentals](concepts/barbershop-marketing-fundamentals.md) — industry context: visit frequency, customer LTV, two-shop dynamics, marketing-stack priority
 - [generative-engine-optimization](concepts/generative-engine-optimization.md) — GEO/AEO: getting cited in ChatGPT/Claude/Perplexity/Google AI Overviews
+- [competitive-geo-citation-factors](concepts/competitive-geo-citation-factors.md) — SIGIR '26 gatekeeper/differentiator checklist for winning first AI citation
 - [google-business-profile](concepts/google-business-profile.md) — GBP optimization playbook (concept side); listing setup, categories, services, posts, photos
 - [local-seo-foundations](concepts/local-seo-foundations.md) — main local-SEO hub: NAP, GBP, reviews, on-page, local pack, behavioral signals
 - [near-me-search](concepts/near-me-search.md) — implicit-location query behavior; Relevance/Distance/Prominence; voice search; grid-based ranking

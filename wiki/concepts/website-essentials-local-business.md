@@ -22,10 +22,13 @@ related:
   - entities/tools/reactive-resume.md
   - concepts/google-business-profile.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - sources/vishwakarma-2026-competitive-geo-sigir.md
+  - concepts/competitive-geo-citation-factors.md
+  - sources/davidson-2026-factual-gv-gap.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-27
+updated: 2026-06-01
 
 ---
 
@@ -47,6 +50,8 @@ updated: 2026-05-27
 - @entities/tools/taste-skill.md — design-taste prompt patterns for client-site builds
 - @concepts/google-business-profile.md — GBP may exist without an owned site; NAP must match
 - @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 7 Maps-gap outreach pattern
+- @sources/vishwakarma-2026-competitive-geo-sigir.md — explicit pricing gatekeeper for AI citations
+- @concepts/competitive-geo-citation-factors.md
 
 ## Raw Concept
 
@@ -60,7 +65,7 @@ A local barbershop website is not a portfolio site, not a blog-first site, and n
 
 1. **Homepage** — clear NAP visible above the fold; primary CTA "Book Now" or "Call" prominent; service highlights; recent work / Instagram embed; reviews snippet; map embed.
 2. **Per-location page** (one per shop) — for the operator's two-shop case: dedicated `Locations/<shop-name>` URL per shop with that shop's NAP, hours, photos of *that* interior, that shop's GBP review embed, that shop's booking link, that shop's directions/parking notes. Each location page is the GBP "website" link target. **Do not** point both GBPs at the homepage — see @concepts/local-seo-foundations.md.
-3. **Services / pricing** — list of services with prices. Pricing transparency increases conversion in the barbershop industry — `[NEEDS VERIFICATION 2026-05-07]` for current studies — and feeds `Service` schema markup.
+3. **Services / pricing** — list of services with prices. Pricing transparency increases conversion in the barbershop industry `[NEEDS VERIFICATION 2026-05-07]` for conversion studies; **explicit prices are a competitive-GEO gatekeeper** for AI citation when pages compete head-to-head `@sources/vishwakarma-2026-competitive-geo-sigir.md`. Avoid "contact us for pricing" on comparison-intent service pages.
 4. **Booking** — either an embedded booking widget (Square, Booksy, Vagaro, Squire) or a direct deep-link out. Same booking destination as GBP.
 5. **About / Team** — bios + photos of barbers. Builds trust. Also a substrate for schema (`Person` markup if helpful).
 6. **Contact** — phone, address, contact form, hours, embedded map (per location).

@@ -17,6 +17,7 @@ related:
   - entities/tools/easy-review.md
   - concepts/customer-retention-barbershop.md
   - concepts/local-pack-rankings.md
+  - sources/davidson-2026-factual-gv-gap.md
   - concepts/near-me-search.md
   - concepts/session-1-facilitator-notes.md
   - concepts/social-media-for-barbershops.md

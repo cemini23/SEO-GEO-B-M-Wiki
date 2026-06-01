@@ -7,11 +7,14 @@ related:
   - entities/tools/marketingskills.md
   - entities/tools/seomachine.md
   - sources/aggarwal-2024-geo-paper.md
+  - sources/vishwakarma-2026-competitive-geo-sigir.md
+  - concepts/competitive-geo-citation-factors.md
+  - sources/davidson-2026-factual-gv-gap.md
   - concepts/first-90-days-playbook.md
   - concepts/schema-markup-local.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -22,6 +25,8 @@ updated: 2026-05-08
 - @entities/tools/marketingskills.md
 - @entities/tools/seomachine.md
 - @sources/aggarwal-2024-geo-paper.md
+- @sources/vishwakarma-2026-competitive-geo-sigir.md
+- @concepts/competitive-geo-citation-factors.md
 - @concepts/first-90-days-playbook.md
 
 ## Raw Concept
@@ -30,7 +35,7 @@ Stub concept page for **content strategy** for a barbershop website — what to 
 
 ## Narrative
 
-A barbershop website is conversion-first; content marketing is secondary. But targeted content can punch above its weight for: (a) **long-tail organic traffic** (questions like "how often should I get my hair cut" pull users top-of-funnel and feed brand consideration), (b) **GEO/AEO citations** (FAQ-format content is preferentially cited by AI engines — see @concepts/generative-engine-optimization.md), (c) **local-pack ranking** as a topical-authority signal, (d) **Instagram / TikTok cross-content** (a written FAQ post becomes raw material for short-video answers).
+A barbershop website is conversion-first; content marketing is secondary. But targeted content can punch above its weight for: (a) **long-tail organic traffic**, (b) **GEO/AEO citations** (FAQ-format content is preferentially cited — see @concepts/generative-engine-optimization.md), (c) **competitive citation factors** — explicit prices, specs, comparisons, and fresh timestamps win head-to-head citation tests `@concepts/competitive-geo-citation-factors.md`, (d) **local-pack ranking** as topical authority, (e) **Instagram / TikTok cross-content**.
 
 Content categories that work for barbershops:
 

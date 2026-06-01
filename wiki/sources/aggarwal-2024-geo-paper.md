@@ -8,6 +8,8 @@ related:
   - concepts/content-strategy-local.md
   - concepts/schema-markup-local.md
   - entities/tools/geo-seo-claude.md
+  - sources/vishwakarma-2026-competitive-geo-sigir.md
+  - concepts/competitive-geo-citation-factors.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
@@ -20,6 +22,8 @@ updated: 2026-05-07
 - @concepts/content-strategy-local.md
 - @concepts/schema-markup-local.md
 - @entities/tools/geo-seo-claude.md
+- @sources/vishwakarma-2026-competitive-geo-sigir.md — SIGIR '26 competitive citation preference
+- @concepts/competitive-geo-citation-factors.md
 
 ## Raw Concept
 
