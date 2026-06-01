@@ -13,7 +13,7 @@ related:
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-17
+updated: 2026-06-01
 
 ---
 
@@ -207,7 +207,7 @@ This section is the wiki's feedback loop with the [Easy Review companion app](ht
 3. Wiki ingestion (run by Claude on demand using the prompt above) reads the briefs, groups by category × vertical, and updates this section with house-style patterns
 4. Future drafts (Easy Review's Gemini prompt + Claude review-response sessions) get sharper because the templates above can incorporate the descriptive patterns surfaced here
 
-**Current state:** awaiting first ingest. No briefs yet — this section will populate after Easy Review is deployed and the first ~10 approved replies accumulate.
+**Current state (checked 2026-06-01):** loop validated 2026-05-08 dry-run; **1** approved brief on disk (`briefs/2026-05-08_manual_17.md`, `5star_specific` · barbershop). No new Octokit briefs since cutoff. Pattern extraction stays blocked until **≥3** briefs in one category × vertical group (or monthly cadence with ≥10 new briefs per `prompts/ingest-easy-review-briefs.md`).
 
 **Per-group sub-sections will appear here** with format:
 

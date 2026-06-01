@@ -1,7 +1,7 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-05-31
+updated: 2026-06-01
 last_easy_review_ingest: 2026-05-08
 ---
 
@@ -12,6 +12,14 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 style-pass | Posts.docx K92 | 12 posts | authors: @get_truenorth, @rohit4verse, @humzaakhalid, @peterom, @Voxyz_ai (+ sparse exports)
 
 ---
+
+## [2026-06-01] check | easy-review-briefs + briefs inventory (no new Easy Review)
+
+Cadence check: `git pull` clean; tracked `briefs/*.md` on `origin/main` unchanged (still 6 files; Easy Review = `2026-05-08_manual_17.md` only). Local gitignored briefs: 6 lack `processed:` markers but were already folded into wiki pages on prior passes (Issue 3, agent-toolkit, GSC checklist, reddit hands-on).
+
+- **Easy Review:** 0 new briefs since `2026-05-08` dry-run cutoff; still below ≥3 threshold for pattern extraction
+- **Updated:** @concepts/review-response-templates.md — Production patterns "current state" reflects validated loop + corpus size (was stale "awaiting first ingest")
+- **Lint:** 0 orphans, 0 bidirectional gaps, 0 dangling links (5 cited-unread stubs unchanged)
 
 ## [2026-05-31] update | Issue 3 marketing — Gambling-wiki cross-promo
 
