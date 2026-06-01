@@ -9,9 +9,10 @@ related:
   - concepts/website-essentials-local-business.md
   - concepts/on-page-seo-local.md
   - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
+  - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md"
 ---
 
@@ -22,6 +23,7 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-v6-k90-2026-05-31.m
 - @concepts/website-essentials-local-business.md — baseline site stack for B&M operators
 - @concepts/on-page-seo-local.md — log referrers and landing paths inform on-page fixes
 - @sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md — K90 Adopt routing
+- @sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md — K93 MIT re-verified; Adopt reaffirmed
 
 ## Raw Concept
 
@@ -52,3 +54,5 @@ GoAccess parses **server access logs** on the operator's machine or VPS. It answ
 > "GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser." — GitHub repo description [Source: github.com/allinurl/goaccess (retrieved 2026-05-31)]
 
 > K90 v6: **goaccess** — Adopt | SEO | MIT [Source: @osint-wiki/sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md]
+
+> K93 v5: **goaccess** — Adopt | SEO | MIT verified `gh api` 2026-06-01 [Source: @osint-wiki/sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md]

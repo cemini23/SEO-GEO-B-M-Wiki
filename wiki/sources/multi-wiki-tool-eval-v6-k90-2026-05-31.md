@@ -9,6 +9,7 @@ related:
   - entities/tools/notfair-toprank.md
   - concepts/claude-platforms.md
   - concepts/x-account-voice-and-format.md
+  - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
 maturity: draft
 created: 2026-05-31
 updated: 2026-05-31
@@ -23,6 +24,7 @@ read-status: skimmed
 - @entities/tools/notfair-toprank.md — overlapping paid-media audit surface
 - @concepts/claude-platforms.md — Claude Code skill install context
 - @concepts/x-account-voice-and-format.md — K90 Posts.docx style pass (separate OSINT source)
+- @sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md — K93 v5 batch; goaccess MIT re-verified
 
 ## Raw Concept
 

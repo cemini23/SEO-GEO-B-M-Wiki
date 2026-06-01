@@ -17,10 +17,11 @@ related:
   - concepts/high-ticket-smb-lead-generation.md
   - concepts/website-essentials-local-business.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - concepts/federated-daily-research-digest.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-27
+updated: 2026-06-01
 
 ---
 
@@ -42,6 +43,7 @@ updated: 2026-05-27
 - @concepts/high-ticket-smb-lead-generation.md
 - @concepts/website-essentials-local-business.md — owned site as GBP website link; Maps-gap outreach
 - @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 7 listings without websites
+- @concepts/federated-daily-research-digest.md — GBP policy/feature drift in daily digest queries
 
 
 ## Raw Concept

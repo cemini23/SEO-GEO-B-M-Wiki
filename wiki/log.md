@@ -9,9 +9,24 @@ last_easy_review_ingest: 2026-05-08
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
+style-pass | Posts.docx K93 | 31 posts (OSINT ingest) | garrytan harness thread + mixed PM/agent; low direct SEO voice density — skim only unless operator flags a post
+
 style-pass | Posts.docx K92 | 12 posts | authors: @get_truenorth, @rohit4verse, @humzaakhalid, @peterom, @Voxyz_ai (+ sparse exports)
 
 ---
+
+## [2026-06-01] ingest | briefs/ — K93 federated digest + goaccess (1 new)
+
+- **New:** `sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md` — K93 v5 cross-route stub (SEO slice: goaccess MIT re-verified)
+- **New:** `concepts/federated-daily-research-digest.md` — per-wiki Exa + inbox loop (GBP/GEO/AEO query lanes)
+- **New:** `meta/daily-research-digest-cadence.md` — operator cadence + LaunchAgent label `com.cemini.daily-research-digest.seo`
+- **New (structural):** `scripts/daily_research_config.yaml`, `scripts/daily_research_digest_run.py`, `scripts/daily_research_fetch.py`, `wiki/sweeps/`
+- **Updated:** `entities/tools/goaccess.md` — K93 Adopt reaffirmed + snippet
+- **Updated:** `concepts/generative-engine-optimization.md`, `concepts/google-business-profile.md`, `concepts/obsidian-integration.md` — digest backlinks
+- **Updated:** `sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` — K93 cross-link
+- **Brief processed:** `briefs/2026-06-01_k93-seo-digest-goaccess-from-osint.md` (`processed: 2026-06-01`; LaunchAgent install still operator hands-on)
+- **Skipped:** Easy Review (still 1 brief; below ≥3 threshold); Posts K93 style pass (low SEO voice density)
+- **Lint:** 0 orphans, 0 bidirectional gaps, 0 dangling links
 
 ## [2026-06-01] check | easy-review-briefs + briefs inventory (no new Easy Review)
 

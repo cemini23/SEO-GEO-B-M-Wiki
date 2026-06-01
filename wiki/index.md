@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # Wiki Index
@@ -31,6 +31,7 @@ If you're new to this wiki:
 - [trading-posts-compilation-25-2026-05-27](sources/trading-posts-compilation-25-2026-05-27.md) — K72 cross-route: Claude Code + Obsidian vault memory / moat (Posts 7, 21; skimmed via OSINT brief)
 - [trading-posts-compilation-38-2026-05-28](sources/trading-posts-compilation-38-2026-05-28.md) — K73 cross-route: Obsidian + Claude workflow references for editorial coherence loops (process-only)
 - [multi-wiki-tool-eval-v6-k90-2026-05-31](sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md) — K90 v6 eval cross-route: claude-ads (defer upheld), goaccess Adopt-eligible
+- [multi-wiki-tool-eval-v5-k93-2026-06-01](sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md) — K93 v5 eval cross-route: goaccess MIT re-verified Adopt
 
 ### Off-topic / record-only
 
@@ -112,6 +113,7 @@ If you're new to this wiki:
 - [claude-platforms](concepts/claude-platforms.md) — Claude Desktop (MCP servers) vs Claude Code (Agent Skills) distinction + install paths for both surfaces
 - [obsidian-navigation](concepts/obsidian-navigation.md) — operator's guide to reading the wiki in Obsidian (vault setup, recommended plugins, search/tags/graph workflow)
 - [obsidian-integration](concepts/obsidian-integration.md) — full integration guide: setup scripts, link conversion, portability, transfer to new readers
+- [federated-daily-research-digest](concepts/federated-daily-research-digest.md) — per-wiki Exa + inbox automation loop (K93 rollout); pairs with `scripts/daily_research_config.yaml`
 - [x-account-voice-and-format](concepts/x-account-voice-and-format.md) — X Article voice, Cyril style deconstruction, paste protocol, Posts.docx style exemplars
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
 - [outlier-weekly-issue3-world-cup-bot-notes](concepts/outlier-weekly-issue3-world-cup-bot-notes.md) — Issue 3 launch queue (2026-06-03)
@@ -175,13 +177,17 @@ If you're new to this wiki:
 - [social-media-skills](entities/tools/social-media-skills.md) — charlie947 MIT social content prompt primitives (Adopt-eligible, K68)
 - [money-printer-turbo](entities/tools/money-printer-turbo.md) — harry0703 faceless short-form video template (Defer, K68)
 - [notfair-toprank](entities/tools/notfair-toprank.md) — nowork-studio NotFair MIT plugin; GSC + Google/Meta Ads + SEO diagnostics (Adopt-eligible, K71)
-- [goaccess](entities/tools/goaccess.md) — MIT real-time server log analyzer; Adopt-eligible complement to GA4 (K90)
+- [goaccess](entities/tools/goaccess.md) — MIT real-time server log analyzer; Adopt-eligible complement to GA4 (K90 + K93)
 - [claude-ads](entities/tools/claude-ads.md) — AgriciDaniel paid-media audit skill 250+ checks (Defer — security issues open, K71; K90 feature fit only)
 - [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes
 - [pm-claude-skills](entities/tools/pm-claude-skills.md) — 106 SKILL.md files; marketing-analysis + Figma-template-generation workflows
 - [reactive-resume](entities/tools/reactive-resume.md) — 37k★ MIT; Steal-from CSS template architecture + JSON→PDF/DOCX export pipeline
 - [saas-boilerplate](entities/tools/saas-boilerplate.md) — ixartz commercial-grade micro-SaaS starter (auth, billing); K55-2 priority, Phase-0 pending
 - [weather-icons](entities/tools/weather-icons.md) — erikflowers CSS weather icon font (~7k★); steal-from for local landing widgets; no LICENSE on repo — verify before bundle (K63)
+
+## Meta
+
+- [daily-research-digest-cadence](meta/daily-research-digest-cadence.md) — LaunchAgent label, sweep output path, operator checklist (K93 federated install)
 
 ### Tools — reference-only (cataloged, no entity page)
 

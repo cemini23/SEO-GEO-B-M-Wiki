@@ -18,6 +18,7 @@ related:
   - concepts/social-media-for-barbershops.md
   - entities/tools/google-search-console.md
   - entities/tools/local-falcon.md
+  - concepts/federated-daily-research-digest.md
   - sources/fanvue-gtm-blueprint-2026.md
   - entities/tools/digital-marketing-pro.md
   - entities/tools/garden-skills.md
@@ -64,6 +65,7 @@ updated: 2026-05-28
 - @sources/trading-posts-compilation-20-2026-05-27.md
 - @sources/trading-posts-compilation-25-2026-05-27.md — K72 Post 21 vault-as-moat
 - @sources/trading-posts-compilation-38-2026-05-28.md — K73 workflow-only reinforcement
+- @concepts/federated-daily-research-digest.md — daily Exa sweep includes GEO/AEO query lane
 
 ## Raw Concept
 
