@@ -65,7 +65,7 @@ Hub URL for all channels: https://github.com/cemini23/Gambling-wiki
 - **Do not cite** team-specific LP posture (Spain/Brazil/Morocco caps, fade_watch lists) in public launch copy — cite **methodology** (versioned YAML tiers, shadow gate, calendar cancel, liquidity gate).
 - `conviction.yaml` **v5** on main at launch — example tiers only; readers replace with their own research.
 - Re-run LP safety DR by **2026-06-06** before any team-specific public updates.
-- Repo test count **178** (say 170+ in marketing); logic version `wc_advance_lp_v4` unchanged.
+- Repo test count **209** on main (say **200+** in marketing); logic version `wc_advance_lp_v4` unchanged.
 
 ### Open decisions
 
