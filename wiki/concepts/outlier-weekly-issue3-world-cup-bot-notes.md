@@ -14,7 +14,8 @@ maturity: draft
 created: 2026-05-30
 updated: 2026-06-03
 ship_draft: briefs/2026-06-03_outlier-weekly-issue3-drafts.md
-draft_version: ship-ready-2026-06-03-launch
+draft_version: published-2026-06-03
+substack_url: https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot
 ---
 
 ## Relations
@@ -51,9 +52,9 @@ Hub URL for all channels: https://github.com/cemini23/Gambling-wiki
 
 | Asset | Status |
 |-------|--------|
-| Marketing brief | **ship** `briefs/2026-06-03_outlier-weekly-issue3-drafts.md` |
-| Substack Issue 3 draft | **publish 2026-06-03** — same file |
-| X thread | **6+2 replies** same file, final audit pass |
+| Marketing brief | `briefs/2026-06-03_outlier-weekly-issue3-drafts.md` |
+| Substack Issue 3 | **LIVE** [Issue 3](https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot) (2026-06-03, free) |
+| X thread | **LIVE** 2026-06-03 |
 | Hero image | **DONE** `briefs/ow-issue3-world-cup-bot-substack-hero.png` + x-card; regen prompts in `briefs/2026-06-03_outlier-weekly-issue3-hero-prompts.md` |
 | Search discovery | **LIVE** [cemini23.github.io/world-cup-bot](https://cemini23.github.io/world-cup-bot/) — GSC URL-prefix on Pages only; see @concepts/world-cup-bot-search-discovery.md |
 | Gambling wiki cross-promo | **READY** [Gambling-wiki](https://github.com/cemini23/Gambling-wiki) linked in Issue 3 draft, X Reply 1, Reddit profile, Pages landing |

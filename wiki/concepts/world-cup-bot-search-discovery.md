@@ -28,7 +28,8 @@ Operator asked how to rank for **world cup bot**, **world cup bot polymarket**, 
 |---------|-----|---------|
 | GitHub repo | https://github.com/cemini23/world-cup-bot | Primary code; indexed via GitHub + topics |
 | GitHub Pages | https://cemini23.github.io/world-cup-bot/ | **GSC/Bing property**; meta + JSON-LD SoftwareSourceCode |
-| Outlier Weekly | https://outlierweekly.substack.com | Methodology backlink (Issue 3) |
+| Outlier Weekly Issue 3 | https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot | Methodology backlink (live 2026-06-03) |
+| Outlier Weekly (pub) | https://outlierweekly.substack.com | Newsletter home |
 
 **Repo metadata:** description + topics (`world-cup-bot`, `polymarket`, `kalshi`, `prediction-markets`, `world-cup-2026`, …). Homepage → Pages URL.
 
@@ -71,7 +72,7 @@ Ranking takes days to weeks. Zero stars + new site = long tail first. Issue 3 + 
 
 ### Ongoing signals
 
-- Issue 3 publish (2026-06-03) with links to Pages + repo + Gambling-wiki
+- Issue 3 **live** (2026-06-03): https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot — backlinks to Pages + repo + Gambling-wiki
 - X Reply 1 links (repo, Pages, SHADOW.md, Gambling-wiki)
 - Reddit profile post (all links including gambling wiki anchors)
 - Stars/forks on GitHub
@@ -80,3 +81,5 @@ Ranking takes days to weeks. Zero stars + new site = long tail first. Issue 3 + 
 ## Snippets
 
 > GitHub Pages URL: `https://cemini23.github.io/world-cup-bot/` — use this as the Search Console / Bing property, not the raw github.com repo path.
+
+> Issue 3 (live): https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot

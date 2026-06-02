@@ -65,7 +65,7 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | 1 | Why local wiki beats restarting Claude from zero | Live |
 | 2 | Normal day in the local wiki workflow | Live |
 | 3 | Git wiki + CI lint (contribution rate, wikilint) — see @concepts/x-article-3-notes.md | Notes |
-| OW3 | Outlier Weekly Issue 3 — World Cup Bot OSS — see @concepts/outlier-weekly-issue3-world-cup-bot-notes.md | **2026-06-03** |
+| OW3 | [Outlier Weekly Issue 3](https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot) — World Cup Bot OSS — @concepts/outlier-weekly-issue3-world-cup-bot-notes.md | **LIVE** 2026-06-03 |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"
 

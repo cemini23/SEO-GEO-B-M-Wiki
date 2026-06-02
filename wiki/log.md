@@ -49,6 +49,13 @@ Cadence check: `git pull` clean; tracked `briefs/*.md` on `origin/main` unchange
 - **Updated:** @concepts/review-response-templates.md — Production patterns "current state" reflects validated loop + corpus size (was stale "awaiting first ingest")
 - **Lint:** 0 orphans, 0 bidirectional gaps, 0 dangling links (5 cited-unread stubs unchanged)
 
+## [2026-06-03] launch | Outlier Weekly Issue 3 + X thread — live
+
+- **Substack:** https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot (free)
+- **Updated:** `concepts/outlier-weekly-issue3-world-cup-bot-notes.md`, `concepts/world-cup-bot-search-discovery.md`
+- **Briefs (local):** drafts, reddit profile, indexing checklist, YouTube teaser pack
+- **External:** world-cup-bot README + Pages → Issue 3 permalink
+
 ## [2026-06-03] correction | world-cup-bot test count
 
 - **209** tests collected on `main` (`pytest --collect-only`); marketing copy → **200+** (was 178/170+)
