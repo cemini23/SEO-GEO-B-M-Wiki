@@ -7,6 +7,7 @@ related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
+  - concepts/world-cup-bot-x-article-runbook-notes.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - entities/platforms/youtube.md
   - sources/youtube-cemini23-launch-analytics-2026-06-02.md
@@ -67,6 +68,7 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | 2 | Normal day in the local wiki workflow | Live |
 | 3 | Git wiki + CI lint (contribution rate, wikilint) — see @concepts/x-article-3-notes.md | Notes |
 | OW3 | [Outlier Weekly Issue 3](https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot) — World Cup Bot OSS — @concepts/outlier-weekly-issue3-world-cup-bot-notes.md | **LIVE** 2026-06-03 |
+| OW4 / X Art. #4 | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | **draft** |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"
 

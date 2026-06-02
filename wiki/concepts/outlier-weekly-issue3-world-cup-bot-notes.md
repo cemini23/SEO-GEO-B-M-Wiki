@@ -10,6 +10,7 @@ related:
   - entities/platforms/youtube.md
   - "@osint-wiki/entities/tools/world-cup-bot.md"
   - "@gambling-wiki/entities/sports/world-cup-2026-betting.md"
+  - concepts/world-cup-bot-x-article-runbook-notes.md
 maturity: draft
 created: 2026-05-30
 updated: 2026-06-03
@@ -26,6 +27,7 @@ substack_url: https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-
 - @entities/platforms/youtube.md — trailer + Shorts distribution
 - @osint-wiki/entities/tools/world-cup-bot.md — product source of truth
 - @gambling-wiki/entities/sports/world-cup-2026-betting.md — retail/strategy companion (contract types, divergence)
+- @concepts/world-cup-bot-x-article-runbook-notes.md — X Article #4 CLI runbook (follow-on to Issue 3)
 
 ## Raw Concept
 
@@ -60,6 +62,7 @@ Hub URL for all channels: https://github.com/cemini23/Gambling-wiki
 | Gambling wiki cross-promo | **READY** [Gambling-wiki](https://github.com/cemini23/Gambling-wiki) linked in Issue 3 draft, X Reply 1, Reddit profile, Pages landing |
 | YouTube trailer | Staged `briefs/youtube-cemini23/05-world-cup-bot-trailer.mp4` — @entities/platforms/youtube.md |
 | LinkedIn repost | Optional D+2 |
+| X Article #4 runbook | **draft** @concepts/world-cup-bot-x-article-runbook-notes.md — ship 1–2w after OW3 |
 
 ### Issue 3 copy guardrails (K84)
 

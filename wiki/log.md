@@ -67,6 +67,12 @@ Cadence check: `git pull` clean; tracked `briefs/*.md` on `origin/main` unchange
 - **Updated:** @concepts/review-response-templates.md — Production patterns "current state" reflects validated loop + corpus size (was stale "awaiting first ingest")
 - **Lint:** 0 orphans, 0 bidirectional gaps, 0 dangling links (5 cited-unread stubs unchanged)
 
+## [2026-06-04] brief | World Cup Bot X Article #4 runbook + docs/RUNBOOK.md
+
+- **New (local):** `briefs/2026-06-04_world-cup-bot-x-article-runbook.md` — full paste-ready X Article body + distribution tweets
+- **New:** `concepts/world-cup-bot-x-article-runbook-notes.md`
+- **External:** world-cup-bot `docs/RUNBOOK.md` + Pages/README links (94b1a40)
+
 ## [2026-06-03] launch | Outlier Weekly Issue 3 + X thread — live
 
 - **Substack:** https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot (free)
