@@ -6,6 +6,7 @@ keywords: [SafeSearch, search agent, misinformation, prompt injection, unreliabl
 related:
   - concepts/generative-engine-optimization.md
   - sweeps/2026-06-01-daily.md
+  - sources/ptah-2026-verifiable-multimodal-deep-research.md
   - sources/dong-2025-safesearch-red-teaming.md
   - @cybersecurity-wiki/sources/dong-2025-safesearch-red-teaming.md
 maturity: draft

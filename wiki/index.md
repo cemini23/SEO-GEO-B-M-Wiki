@@ -25,6 +25,8 @@ If you're new to this wiki:
 - [vishwakarma-2026-competitive-geo-sigir](sources/vishwakarma-2026-competitive-geo-sigir.md) — SIGIR '26 competitive GEO: 252k trials, gatekeeper citation factors (price, recency, position)
 - [davidson-2026-factual-gv-gap](sources/davidson-2026-factual-gv-gap.md) — factual generation-verification gap; multi-verse state after updates
 - [dong-2025-safesearch-red-teaming](sources/dong-2025-safesearch-red-teaming.md) — search-agent red teaming (record-only; primary @cybersecurity-wiki)
+- [bespoke-2025-search-augmented-personalization-benchmark](sources/bespoke-2025-search-augmented-personalization-benchmark.md) — BESPOKE: personalized search-augmented LLM eval (2026-06-02 digest)
+- [ptah-2026-verifiable-multimodal-deep-research](sources/ptah-2026-verifiable-multimodal-deep-research.md) — verifiable multimodal deep research harness (2026-06-02 digest)
 
 ### Audits + evaluations
 

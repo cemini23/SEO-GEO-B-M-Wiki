@@ -10,6 +10,7 @@ related:
   - concepts/website-essentials-local-business.md
   - concepts/competitive-geo-citation-factors.md
   - sweeps/2026-06-01-daily.md
+  - sources/ptah-2026-verifiable-multimodal-deep-research.md
 maturity: validated
 read_status: read
 created: 2026-06-01

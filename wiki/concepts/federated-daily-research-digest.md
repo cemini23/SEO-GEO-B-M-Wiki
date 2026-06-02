@@ -10,6 +10,9 @@ related:
   - concepts/obsidian-integration.md
   - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
   - sweeps/2026-06-01-daily.md
+  - sweeps/2026-06-02-daily.md
+  - sources/bespoke-2025-search-augmented-personalization-benchmark.md
+  - sources/ptah-2026-verifiable-multimodal-deep-research.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-01
@@ -22,7 +25,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @concepts/generative-engine-optimization.md — GEO/AEO queries in digest config
 - @concepts/google-business-profile.md — GBP policy + feature drift queries
 - @concepts/obsidian-integration.md — sweep markdown lands in vault alongside wiki pages
-- @sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md — same K93 brief batch as digest rollout
+- @sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
+- @sources/bespoke-2025-search-augmented-personalization-benchmark.md
+- @sources/ptah-2026-verifiable-multimodal-deep-research.md — same K93 brief batch as digest rollout
 
 ## Raw Concept
 

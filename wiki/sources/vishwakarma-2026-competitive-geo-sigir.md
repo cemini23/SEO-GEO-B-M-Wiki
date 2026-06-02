@@ -10,6 +10,7 @@ related:
   - concepts/content-strategy-local.md
   - concepts/website-essentials-local-business.md
   - sweeps/2026-06-01-daily.md
+  - sources/bespoke-2025-search-augmented-personalization-benchmark.md
 maturity: validated
 read_status: deep-read
 created: 2026-06-01

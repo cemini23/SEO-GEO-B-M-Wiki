@@ -9,6 +9,17 @@ last_easy_review_ingest: 2026-05-08
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
+## [2026-06-02] ingest | digest inbox — 2 arXiv (BESPOKE + Ptah); triage misroute
+
+**Digest status:** AM LaunchAgent ran but wrote to wrong `projects/SEO` (template config) — 3 OOD PDFs archived to `raw-sources/digest-misroute-2026-06-02/`. Reinstalled wrapper → correct repo; manual run fetched 2 on-topic PDFs (deduped prior GEO papers).
+
+- **New:** @sources/bespoke-2025-search-augmented-personalization-benchmark.md — personalized search-augmented LLMs [TENTATIVE for local]
+- **New:** @sources/ptah-2026-verifiable-multimodal-deep-research.md — verifiable deep research / citation fidelity
+- **Updated:** @concepts/generative-engine-optimization.md, @meta/daily-research-digest-cadence.md
+- **New sweep:** `wiki/sweeps/2026-06-02-daily.md`
+- **Skipped (OOD):** Eliot literature explorer, AI originality study, cross-domain ML generalization (misroute batch)
+- **Lint:** 0 orphans, 0 bidirectional gaps, 0 dangling links
+
 ## [2026-06-02] query | YouTube @Cemini23 launch analytics → lessons filed
 
 - **Source** — `sources/youtube-cemini23-launch-analytics-2026-06-02.md` (Studio export May 5 – Jun 1; live May 30)

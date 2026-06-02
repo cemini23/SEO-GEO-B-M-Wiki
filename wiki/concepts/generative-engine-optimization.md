@@ -32,12 +32,14 @@ related:
   - sources/vishwakarma-2026-competitive-geo-sigir.md
   - sources/davidson-2026-factual-gv-gap.md
   - concepts/competitive-geo-citation-factors.md
+  - sources/bespoke-2025-search-augmented-personalization-benchmark.md
+  - sources/ptah-2026-verifiable-multimodal-deep-research.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations
@@ -73,6 +75,16 @@ updated: 2026-06-01
 - @sources/vishwakarma-2026-competitive-geo-sigir.md — SIGIR '26 competitive citation factors
 - @sources/davidson-2026-factual-gv-gap.md — factual GV-gap / multi-verse verification risk
 - @concepts/competitive-geo-citation-factors.md — operator gatekeeper checklist
+- @sources/bespoke-2025-search-augmented-personalization-benchmark.md
+- @sources/ptah-2026-verifiable-multimodal-deep-research.md
+
+### Personalization in search-augmented answers [TENTATIVE]
+
+@sources/bespoke-2025-search-augmented-personalization-benchmark.md — same query can imply different needs depending on user history (ChatGPT/Gemini-style personalization). Local operators cannot fully control personalized AI outputs; prioritize **consistent canonical facts** across GBP, website, and citations so any personalization variant still resolves to correct NAP, hours, and services.
+
+### Verifiable deep research synthesis [TENTATIVE]
+
+@sources/ptah-2026-verifiable-multimodal-deep-research.md — industry "deep research" pipelines need stage-wise **citation fidelity** checks; early retrieval noise compounds. Pairs with @sources/davidson-2026-factual-gv-gap.md (verify > generate) and @sources/dong-2025-safesearch-red-teaming.md (bad retrieval → bad answers).
 
 ## Raw Concept
 

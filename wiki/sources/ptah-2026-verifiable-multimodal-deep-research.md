@@ -1,0 +1,47 @@
+---
+title: "Ptah — verifiable multimodal deep research harness"
+type: source
+tags: [geo-aeo, academic-paper, deep-research, citations, agents]
+keywords: [Ptah, deep research, citation fidelity, multimodal RAG, verifier agent]
+related:
+  - concepts/generative-engine-optimization.md
+  - sources/davidson-2026-factual-gv-gap.md
+  - sources/dong-2025-safesearch-red-teaming.md
+  - concepts/federated-daily-research-digest.md
+  - sweeps/2026-06-02-daily.md
+  - sources/davidson-2026-factual-gv-gap.md
+  - sources/dong-2025-safesearch-red-teaming.md
+maturity: draft
+read_status: skimmed
+created: 2026-06-02
+updated: 2026-06-02
+---
+
+## Relations
+
+- @concepts/generative-engine-optimization.md — industry "deep research" shift from single answers to cited long-form synthesis
+- @sources/davidson-2026-factual-gv-gap.md — generation vs verification asymmetry in factual outputs
+- @sources/dong-2025-safesearch-red-teaming.md — unreliable retrieval breaks search agents
+- @concepts/federated-daily-research-digest.md — 2026-06-02 digest ingest
+
+## Raw Concept
+
+| Field | Value |
+|-------|-------|
+| **Title** | Towards Verifiable Multimodal Deep Research: A Multi-Agent Harness for Interleaved Report Generation |
+| **Authors** | Chenghao Zhang et al. (Renmin University of China) |
+| **arXiv** | 2605.29861 |
+| **Filename** | `arxiv-2605.29861-towards-verifiable-multimodal-deep-research-a-mu.pdf` |
+| **Location** | `raw-sources/` (gitignored) |
+| **Retrieved** | 2026-06-02 |
+| **Read status** | skimmed |
+
+## Narrative
+
+**Ptah** is a multi-agent harness for open-ended **deep research** reports (vs closed-domain deep search). Stages: planning → parallel research agents → writing, with **verifier hooks** enforcing factual grounding, **citation fidelity**, and cross-modal consistency. Introduces PtahEval for image+text report quality.
+
+**Operator relevance [TENTATIVE]:** mirrors how Perplexity / ChatGPT Deep Research / Gemini synthesize answers with citations — early noise in retrieval compounds without stage-wise verification. Reinforces wiki guidance: owned pages need **claim-grounded** facts (prices, hours, services) and consistent citations across surfaces, not decorative multimodal fluff.
+
+## Snippets
+
+> "Deep research reports lack deterministic ground truth… Ptah introduces verifier hooks as the harness's acceptance function, enforcing factual grounding, citation fidelity, and cross-modal consistency." — Abstract [Source: arxiv.org/abs/2605.29861 (retrieved 2026-06-02)]
