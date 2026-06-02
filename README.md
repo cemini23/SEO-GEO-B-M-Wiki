@@ -193,6 +193,17 @@ The wiki structure (CLAUDE.md schema + lint scripts) and cross-domain concept pa
 - Operator app: [Easy-Review](https://github.com/cemini23/Easy-Review)
 - Sibling wikis: [Cybersecurity](https://github.com/cemini23/Cybersecurity-wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki) · [Image Gen](https://github.com/cemini23/uncensored-image-gen-wiki)
 
+
+## Support
+
+Voluntary tips fund open research and tooling. **Donation-only addresses** — not trading or production wallets.
+
+| Chain family | Address |
+|--------------|---------|
+| **EVM** (Ethereum, Polygon, Base, Arbitrum, …) | `0x444C5C2eC439E0382aa5a17F70313c536BcC5D58` |
+| **Solana / SVM** | `J4zNn4hK9jTrKBFY8sbAGJHLoZvXvQf4B9pQSbSrocZE` |
+
+
 ## License
 
 [MIT](LICENSE). The license covers the wiki structure, schema, scripts, and prose. Third-party tools, cited research, and operator-supplied data each carry their own terms — see the LICENSE file for the full scope statement.
