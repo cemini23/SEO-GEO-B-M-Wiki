@@ -51,8 +51,8 @@ Hub URL for all channels: https://github.com/cemini23/Gambling-wiki
 
 | Asset | Status |
 |-------|--------|
-| Marketing brief | Staged 2026-05-30 |
-| Substack Issue 3 draft | **ship-ready** `briefs/2026-06-03_outlier-weekly-issue3-drafts.md` |
+| Marketing brief | **ship** `briefs/2026-06-03_outlier-weekly-issue3-drafts.md` |
+| Substack Issue 3 draft | **publish 2026-06-03** — same file |
 | X thread | **6+2 replies** same file, final audit pass |
 | Hero image | **DONE** `briefs/ow-issue3-world-cup-bot-substack-hero.png` + x-card; regen prompts in `briefs/2026-06-03_outlier-weekly-issue3-hero-prompts.md` |
 | Search discovery | **LIVE** [cemini23.github.io/world-cup-bot](https://cemini23.github.io/world-cup-bot/) — GSC URL-prefix on Pages only; see @concepts/world-cup-bot-search-discovery.md |
@@ -65,7 +65,8 @@ Hub URL for all channels: https://github.com/cemini23/Gambling-wiki
 - **Do not cite** team-specific LP posture (Spain/Brazil/Morocco caps, fade_watch lists) in public launch copy — cite **methodology** (versioned YAML tiers, shadow gate, calendar cancel, liquidity gate).
 - `conviction.yaml` **v5** on main at launch — example tiers only; readers replace with their own research.
 - Re-run LP safety DR by **2026-06-06** before any team-specific public updates.
-- Repo test count **209** on main (say **200+** in marketing); logic version `wc_advance_lp_v4` unchanged.
+- Repo test count **210** on main (say **200+** in marketing); logic version `wc_advance_lp_v4` unchanged.
+- Public docs @ `97e7745`: README launch section, SHADOW split-ledger trap, geoblock note for EU egress (API country tag ≠ datacenter).
 
 ### Open decisions
 
