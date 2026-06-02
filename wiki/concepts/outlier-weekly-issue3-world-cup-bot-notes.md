@@ -12,9 +12,9 @@ related:
   - "@gambling-wiki/entities/sports/world-cup-2026-betting.md"
 maturity: draft
 created: 2026-05-30
-updated: 2026-05-31
+updated: 2026-06-03
 ship_draft: briefs/2026-06-03_outlier-weekly-issue3-drafts.md
-draft_version: ship-ready-2026-05-30
+draft_version: ship-ready-2026-06-03-launch
 ---
 
 ## Relations
@@ -62,9 +62,10 @@ Hub URL for all channels: https://github.com/cemini23/Gambling-wiki
 
 ### Issue 3 copy guardrails (K84)
 
-- **Do not cite** May 30 LP safety mids for Spain/Brazil/Morocco in public copy — cite **methodology** (conviction YAML, shadow gate, calendar cancel).
-- `conviction.yaml` **v4** on repo: Spain skip, Brazil $500 cap, Morocco human_review — mention as config-driven, not predictions.
-- Re-run LP safety DR by **2026-06-06** before citing any team-specific posture.
+- **Do not cite** team-specific LP posture (Spain/Brazil/Morocco caps, fade_watch lists) in public launch copy — cite **methodology** (versioned YAML tiers, shadow gate, calendar cancel, liquidity gate).
+- `conviction.yaml` **v5** on main at launch — example tiers only; readers replace with their own research.
+- Re-run LP safety DR by **2026-06-06** before any team-specific public updates.
+- Repo test count **178** (say 170+ in marketing); logic version `wc_advance_lp_v4` unchanged.
 
 ### Open decisions
 

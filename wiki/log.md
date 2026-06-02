@@ -49,6 +49,12 @@ Cadence check: `git pull` clean; tracked `briefs/*.md` on `origin/main` unchange
 - **Updated:** @concepts/review-response-templates.md — Production patterns "current state" reflects validated loop + corpus size (was stale "awaiting first ingest")
 - **Lint:** 0 orphans, 0 bidirectional gaps, 0 dangling links (5 cited-unread stubs unchanged)
 
+## [2026-06-03] launch-prep | Outlier Weekly Issue 3 — final pass vs live repo
+
+- **Briefs (local):** `2026-06-03_outlier-weekly-issue3-drafts.md` — launch-day table; conviction v5; 170+ tests; `--liquidity-gate`; Module 6 paper arb boundary
+- **Updated:** `concepts/outlier-weekly-issue3-world-cup-bot-notes.md` — K84 guardrails + test count
+- **Verified:** CI green; Pages + Gambling-wiki links live; hero PNGs on disk; X posts ≤280 chars
+
 ## [2026-05-31] update | Issue 3 marketing — Gambling-wiki cross-promo
 
 - **Updated:** `concepts/outlier-weekly-issue3-world-cup-bot-notes.md` — gambling wiki anchor table + asset status
