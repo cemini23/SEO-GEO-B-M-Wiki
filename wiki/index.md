@@ -53,6 +53,7 @@ If you're new to this wiki:
 - [instagram-reels-creator-marketing-2026](sources/instagram-reels-creator-marketing-2026.md) — Reels algorithm signals, subscription integration, teaser-to-paywall funnel, income stacking
 - [creator-email-marketing-2026](sources/creator-email-marketing-2026.md) — ESP comparison (sex-work-friendly vs banned), list building strategies, automation flows, 30-day starter plan
 - [youtube-shorts-creator-growth-2026](sources/youtube-shorts-creator-growth-2026.md) — Hybrid strategy (Shorts → subscribers → long-form), conversion data, monetization reality, posting cadence
+- [youtube-cemini23-launch-analytics-2026-06-02](sources/youtube-cemini23-launch-analytics-2026-06-02.md) — @Cemini23 launch-week Studio export; Short vs long, CTR, title patterns [CONFIRMED]
 - [paid-advertising-creators-2026](sources/paid-advertising-creators-2026.md) — Meta Creator Fast Track, TikTok GMV Max Ads, Google/YouTube ads, when to start paid, common mistakes
 - [onlyfans-funnel-optimization-2026](sources/onlyfans-funnel-optimization-2026.md) — Full funnel stages, traffic source conversion rates (Reddit 3–8%, X 2–5%, IG 1–3%), value ladder, retention economics
 - [fanvue-gtm-blueprint-2026](sources/fanvue-gtm-blueprint-2026.md) — Fanvue synthetic creator GTM blueprint: niche selection, GEO traffic, conversion/retention, brand partnerships (171 paragraphs, 2026)

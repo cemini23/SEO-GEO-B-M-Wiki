@@ -5,18 +5,22 @@ tags: [youtube, shorts, creator-growth, monetization, hybrid-strategy]
 keywords: [youtube shorts, creator growth, monetization, hybrid strategy, 2026]
 related:
   - entities/platforms/tiktok.md
+  - entities/platforms/youtube.md
   - concepts/creator-external-promotion.md
   - concepts/creator-content-strategy.md
   - concepts/creator-audience-growth.md
+  - sources/youtube-cemini23-launch-analytics-2026-06-02.md
 maturity: validated
 read_status: read
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-02
 ---
 
 ## Relations
 
 - @entities/platforms/tiktok.md
+- @entities/platforms/youtube.md — @Cemini23 operator channel; hybrid strategy [CONFIRMED] launch week 2026-06-02
+- @sources/youtube-cemini23-launch-analytics-2026-06-02.md
 - @concepts/creator-external-promotion.md
 - @concepts/creator-content-strategy.md
 - @concepts/creator-audience-growth.md

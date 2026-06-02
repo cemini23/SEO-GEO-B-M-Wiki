@@ -1,13 +1,20 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-01
+updated: 2026-06-02
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-02] query | YouTube @Cemini23 launch analytics → lessons filed
+
+- **Source** — `sources/youtube-cemini23-launch-analytics-2026-06-02.md` (Studio export May 5 – Jun 1; live May 30)
+- **Updated** — `entities/platforms/youtube.md` → **validated** + launch playbook (Short vs long, 16:9, titles, TTS sync)
+- **Updated** — `sources/youtube-shorts-creator-growth-2026.md` — operator [CONFIRMED] backlink
+- **Meta** — `LESSONS.md` entry; raw CSV in `briefs/youtube-cemini23/analytics-2026-06-02/` (gitignored)
 
 style-pass | Posts.docx K93 | 31 posts (OSINT ingest) | garrytan harness thread + mixed PM/agent; low direct SEO voice density — skim only unless operator flags a post
 

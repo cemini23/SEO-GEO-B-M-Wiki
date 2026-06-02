@@ -23,6 +23,8 @@ related:
   - concepts/ugc-monetization-loop.md
   - entities/tools/money-printer-turbo.md
   - sources/youtube-shorts-creator-growth-2026.md
+  - sources/youtube-cemini23-launch-analytics-2026-06-02.md
+  - entities/platforms/youtube.md
   - sources/fanvue-gtm-blueprint-2026.md
   - sources/viral-content-strategy-2026.md
   - sources/instagram-reels-algorithm-2026.md
@@ -35,7 +37,7 @@ related:
   - entities/tools/oransim.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-17
+updated: 2026-06-02
 ---
 
 ## Relations

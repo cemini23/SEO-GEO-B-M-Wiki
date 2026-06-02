@@ -9,6 +9,7 @@ related:
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - entities/platforms/youtube.md
+  - sources/youtube-cemini23-launch-analytics-2026-06-02.md
   - entities/platforms/twitter-x.md
   - "@osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md"
   - "@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md"
@@ -22,7 +23,7 @@ related:
   - "@ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations
