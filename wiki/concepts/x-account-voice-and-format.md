@@ -16,7 +16,8 @@ related:
   - "@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md"
   - "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md"
   - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
-  - "@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.md"
+  - sources/trading-posts-compilation-16-2026-05-31.md
+  - concepts/high-ticket-sales-psychology.md
   - "@osint-wiki/sources/trading-posts-compilation-12-2026-06-01.md"
   - "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
   - concepts/obsidian-integration.md
@@ -37,6 +38,8 @@ updated: 2026-06-02
 - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md — K78 includes @cyrilXBT Obsidian contribution-rate article
 - @osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md — K84 style pass (May 30)
 - @osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md — K88 style pass (May 31)
+- @sources/trading-posts-compilation-16-2026-05-31.md — K90 Posts cross-route stub
+- @concepts/high-ticket-sales-psychology.md — @vizionaryfocuss K90 exemplar concept
 - @osint-wiki/sources/trading-posts-compilation-16-2026-05-31.md — K90 style pass (May 31)
 - @sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md — K90 tool eval (claude-ads, goaccess); Posts slice separate
 - @concepts/obsidian-integration.md — our read surface; git wiki stays canonical

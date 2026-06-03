@@ -10,6 +10,7 @@ related:
   - entities/tools/geo-seo-claude.md
   - entities/tools/seomachine.md
   - entities/tools/seo-geo-claude-skills.md
+  - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - concepts/generative-engine-optimization.md
   - concepts/local-seo-foundations.md
   - concepts/claude-platforms.md

@@ -5,6 +5,7 @@ tags: [tools, claude-code, geo-aeo, local-seo, skills]
 keywords: [aaron-he-zhu, seo-geo-claude-skills, apache-2.0, steal-from, gbp, schema]
 related:
   - sources/github-repo-audit-2026-05-07.md
+  - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - entities/tools/claude-seo-agrici.md
   - entities/tools/geo-seo-claude.md
   - concepts/claude-platforms.md
@@ -13,12 +14,13 @@ related:
   - "@osint-wiki/sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md"
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-03
 ---
 
 ## Relations
 
 - @sources/github-repo-audit-2026-05-07.md — original audit rejected as parallel implementation
+- @sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md — K88 v5 cross-wiki stub (SEO slice)
 - @entities/tools/claude-seo-agrici.md — adopted local-SEO skill (GO 2026-05-07)
 - @entities/tools/geo-seo-claude.md — adopted GEO/AEO skill (GO 2026-05-07)
 - @concepts/claude-platforms.md — install surface is Claude Code only

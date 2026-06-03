@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-01
+updated: 2026-06-03
 ---
 
 # Wiki Index
@@ -35,7 +35,9 @@ If you're new to this wiki:
 - [trading-posts-compilation-20-2026-05-27](sources/trading-posts-compilation-20-2026-05-27.md) — K69 cross-route: Maps-gap outreach, offline Obsidian stack, GEO coherence frame (skimmed via OSINT briefs)
 - [trading-posts-compilation-25-2026-05-27](sources/trading-posts-compilation-25-2026-05-27.md) — K72 cross-route: Claude Code + Obsidian vault memory / moat (Posts 7, 21; skimmed via OSINT brief)
 - [trading-posts-compilation-38-2026-05-28](sources/trading-posts-compilation-38-2026-05-28.md) — K73 cross-route: Obsidian + Claude workflow references for editorial coherence loops (process-only)
+- [multi-wiki-tool-eval-v5-k88-2026-05-31](sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md) — K88 v5 eval cross-route: seo-geo-claude-skills Apache-2.0 Steal-from
 - [multi-wiki-tool-eval-v6-k90-2026-05-31](sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md) — K90 v6 eval cross-route: claude-ads (defer upheld), goaccess Adopt-eligible
+- [trading-posts-compilation-16-2026-05-31](sources/trading-posts-compilation-16-2026-05-31.md) — K90 cross-route: @vizionaryfocuss sales psychology, @MichLieben cold email (skimmed via OSINT brief)
 - [multi-wiki-tool-eval-v5-k93-2026-06-01](sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md) — K93 v5 eval cross-route: goaccess MIT re-verified Adopt
 
 ### Off-topic / record-only
@@ -89,6 +91,8 @@ If you're new to this wiki:
 - [claude-ecommerce-workflows](concepts/claude-ecommerce-workflows.md) — 5 reusable Claude prompt templates for Shopify/e-commerce: competitor autopsy, negative-review mining, post-purchase emails, UGC ad scripts, weekly diagnostic
 - [free-smb-ops-stack](concepts/free-smb-ops-stack.md) — FOSS replacements for QuickBooks/Zendesk/Shopify (akaunting, Faveo, Laracom); K55-2 routed, unaudited
 - [high-ticket-smb-lead-generation](concepts/high-ticket-smb-lead-generation.md) — agency playbook: lead filter, missed-call SMS, pipeline reactivation, review moat; K57 BowTied Bull
+- [high-ticket-sales-psychology](concepts/high-ticket-sales-psychology.md) — @vizionaryfocuss K90 hook-first pain framing for high-ticket offers
+- [cold-email-outbound-agency](concepts/cold-email-outbound-agency.md) — @MichLieben K90 cold email APIs + Claude Code for agency GTM
 - [google-ads-local](concepts/google-ads-local.md) — paid search for barbershops: Local Services Ads, search campaigns, geo-targeting, landing pages
 - [local-pack-rankings](concepts/local-pack-rankings.md) — the 3-pack: documented + studied ranking factors, per-listing dynamics
 - [meta-ads-local](concepts/meta-ads-local.md) — Facebook/Instagram paid ads: local targeting, creative strategy, retargeting, multi-location

@@ -5,6 +5,9 @@ tags: [lead-generation, smb, local-seo, reviews, automation, agency]
 keywords: [high-ticket, hvac, remodeling, missed call, sms follow-up, pipeline reactivation, performance pricing]
 related:
   - sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
+  - sources/trading-posts-compilation-16-2026-05-31.md
+  - concepts/high-ticket-sales-psychology.md
+  - concepts/cold-email-outbound-agency.md
   - concepts/reviews-reputation-management.md
   - concepts/review-response-templates.md
   - concepts/generative-engine-optimization.md
@@ -15,13 +18,16 @@ related:
   - entities/tools/saas-boilerplate.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-22
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/concepts/high-ticket-smb-lead-generation-ops.md"
 ---
 
 ## Relations
 
 - @sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
+- @sources/trading-posts-compilation-16-2026-05-31.md — K90 Posts cross-route
+- @concepts/high-ticket-sales-psychology.md — @vizionaryfocuss persuasion hooks (K90)
+- @concepts/cold-email-outbound-agency.md — @MichLieben outbound stack (K90)
 - @concepts/reviews-reputation-management.md
 - @concepts/review-response-templates.md
 - @concepts/generative-engine-optimization.md

@@ -15,6 +15,7 @@ related:
   - concepts/competitor-analysis-local.md
   - concepts/competitive-geo-citation-factors.md
   - concepts/generative-engine-optimization.md
+  - concepts/cold-email-outbound-agency.md
   - concepts/local-pack-rankings.md
   - entities/markets/local-market-template.md
 

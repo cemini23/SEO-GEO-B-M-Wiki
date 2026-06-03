@@ -9,6 +9,7 @@ related:
   - concepts/promotional-campaigns-barbershop.md
   - sources/paid-advertising-creators-2026.md
   - concepts/high-ticket-smb-lead-generation.md
+  - concepts/high-ticket-sales-psychology.md
   - entities/tools/notfair-toprank.md
   - entities/tools/claude-ads.md
 

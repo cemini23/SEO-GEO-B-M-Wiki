@@ -1,13 +1,27 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-02
+updated: 2026-06-03
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-03] ingest | briefs/ — K88 + K90 cross-wiki completion (wiki-ingested)
+
+Finalized pending OSINT briefs with missing cross-route stubs and K90 concept pages.
+
+- **K88 brief** — `2026-05-31_k88-seo-geo-claude-skills-from-osint.md` → `status: wiki-ingested`
+- **New:** `sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md` — cross-wiki stub (SEO slice)
+- **Updated:** `entities/tools/seo-geo-claude-skills.md` — local K88 source backlink
+
+- **K90 brief** — `2026-05-31_k90-seo-from-osint.md` → `status: wiki-ingested`
+- **New:** `sources/trading-posts-compilation-16-2026-05-31.md` — Posts cross-route stub
+- **New:** `concepts/high-ticket-sales-psychology.md` — @vizionaryfocuss Post 3
+- **New:** `concepts/cold-email-outbound-agency.md` — @MichLieben Post 9
+- **Updated:** `concepts/high-ticket-smb-lead-generation.md`, `concepts/x-account-voice-and-format.md`, `sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md`
 
 ## [2026-06-02] ingest | digest inbox — 2 arXiv (BESPOKE + Ptah); triage misroute
 

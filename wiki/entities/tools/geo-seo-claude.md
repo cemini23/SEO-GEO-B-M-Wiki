@@ -10,6 +10,7 @@ related:
   - entities/tools/notfair-toprank.md
   - entities/tools/marketingskills.md
   - entities/tools/seo-geo-claude-skills.md
+  - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-31
