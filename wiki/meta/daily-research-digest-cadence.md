@@ -8,6 +8,7 @@ related:
   - sweeps/2026-06-01-daily.md
   - sweeps/2026-06-02-daily.md
   - sweeps/2026-06-03-daily.md
+  - sweeps/2026-06-04-daily.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-04
@@ -18,7 +19,7 @@ updated: 2026-06-04
 - @concepts/federated-daily-research-digest.md — federation pattern + install command
 - @sweeps/2026-06-01-daily.md — first digest run; 3 GEO arXiv PDFs ingested
 - @sweeps/2026-06-02-daily.md — second run after LaunchAgent path fix
-- @sweeps/2026-06-03-daily.md — third run; 0 PDFs fetched (dupes only)
+- @sweeps/2026-06-04-daily.md — fourth run; 2 GEO arXiv PDFs ingested (MEMENTO + SCORE)
 
 ## Raw Concept
 

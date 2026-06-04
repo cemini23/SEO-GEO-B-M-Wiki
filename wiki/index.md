@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 # Wiki Index
@@ -27,6 +27,8 @@ If you're new to this wiki:
 - [dong-2025-safesearch-red-teaming](sources/dong-2025-safesearch-red-teaming.md) — search-agent red teaming (record-only; primary @cybersecurity-wiki)
 - [bespoke-2025-search-augmented-personalization-benchmark](sources/bespoke-2025-search-augmented-personalization-benchmark.md) — BESPOKE: personalized search-augmented LLM eval (2026-06-02 digest)
 - [ptah-2026-verifiable-multimodal-deep-research](sources/ptah-2026-verifiable-multimodal-deep-research.md) — verifiable multimodal deep research harness (2026-06-02 digest)
+- [memento-2026-web-learning-signal-low-data](sources/memento-2026-web-learning-signal-low-data.md) — MEMENTO: web as learning signal for low-data domains (2026-06-04 digest)
+- [score-2026-self-evolving-deep-research](sources/score-2026-self-evolving-deep-research.md) — SCORE: co-evolving deep research generation + evaluation (2026-06-04 digest)
 
 ### Audits + evaluations
 

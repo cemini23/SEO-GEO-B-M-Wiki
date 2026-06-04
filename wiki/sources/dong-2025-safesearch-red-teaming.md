@@ -7,12 +7,12 @@ related:
   - concepts/generative-engine-optimization.md
   - sweeps/2026-06-01-daily.md
   - sources/ptah-2026-verifiable-multimodal-deep-research.md
-  - sources/dong-2025-safesearch-red-teaming.md
+  - sources/score-2026-self-evolving-deep-research.md
   - @cybersecurity-wiki/sources/dong-2025-safesearch-red-teaming.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-04
 cross-wiki-routed: cybersecurity-wiki
 ---
 
@@ -20,6 +20,7 @@ cross-wiki-routed: cybersecurity-wiki
 
 - @concepts/generative-engine-optimization.md — AI answer engines retrieve open-web sources; unreliable pages can skew citations
 - @cybersecurity-wiki/sources/dong-2025-safesearch-red-teaming.md — primary home (agent safety / red teaming)
+- @sources/score-2026-self-evolving-deep-research.md — search-agent failure modes extend to deep-research evaluators
 
 ## Raw Concept
 

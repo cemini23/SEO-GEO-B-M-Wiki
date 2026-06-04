@@ -11,6 +11,7 @@ related:
   - concepts/reviews-reputation-management.md
   - concepts/review-response-templates.md
   - concepts/generative-engine-optimization.md
+  - sources/memento-2026-web-learning-signal-low-data.md
   - concepts/meta-ads-local.md
   - concepts/customer-retention-barbershop.md
   - concepts/google-business-profile.md
@@ -18,7 +19,7 @@ related:
   - entities/tools/saas-boilerplate.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-06-03
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/concepts/high-ticket-smb-lead-generation-ops.md"
 ---
 
@@ -31,6 +32,7 @@ cross-wiki-source: "@osint-wiki/concepts/high-ticket-smb-lead-generation-ops.md"
 - @concepts/reviews-reputation-management.md
 - @concepts/review-response-templates.md
 - @concepts/generative-engine-optimization.md
+- @sources/memento-2026-web-learning-signal-low-data.md — sales-automation low-data eval (adjacent, not validated here)
 - @concepts/meta-ads-local.md
 - @concepts/customer-retention-barbershop.md
 - @concepts/google-business-profile.md
@@ -65,6 +67,8 @@ Pricing arc described in source: **performance-based** (per lead or per booked j
 1. **Star-rating filter on local SERP** — when prospecting SMB clients, prioritize businesses already strong on service quality but weak on review *count* or response discipline; the agency sells the gap between reputation reality and SERP presentation.
 2. **Quiz / chatbot intake → optimized landing** — structured Q&A pages that feed both human qualification and @concepts/generative-engine-optimization.md citability (clear entities, FAQs, service-area answers).
 3. **Zip-code outbound GTM** — 12-month grind targeting one geography at a time; aligns with @concepts/citation-building.md and local pack concentration rather than national spray.
+
+**Research note [TENTATIVE]:** @sources/memento-2026-web-learning-signal-low-data.md evaluates **sales automation** as a low-data domain (+25.6% vs ReAct). Adjacent to layer-1 lead-filter research — not validated as an operator playbook here.
 
 ### Overlap with wiki tools
 

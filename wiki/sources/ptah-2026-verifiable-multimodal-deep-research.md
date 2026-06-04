@@ -8,13 +8,13 @@ related:
   - sources/davidson-2026-factual-gv-gap.md
   - sources/dong-2025-safesearch-red-teaming.md
   - concepts/federated-daily-research-digest.md
+  - sources/score-2026-self-evolving-deep-research.md
+  - sources/memento-2026-web-learning-signal-low-data.md
   - sweeps/2026-06-02-daily.md
-  - sources/davidson-2026-factual-gv-gap.md
-  - sources/dong-2025-safesearch-red-teaming.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -22,7 +22,9 @@ updated: 2026-06-02
 - @concepts/generative-engine-optimization.md — industry "deep research" shift from single answers to cited long-form synthesis
 - @sources/davidson-2026-factual-gv-gap.md — generation vs verification asymmetry in factual outputs
 - @sources/dong-2025-safesearch-red-teaming.md — unreliable retrieval breaks search agents
-- @concepts/federated-daily-research-digest.md — 2026-06-02 digest ingest
+- @sources/score-2026-self-evolving-deep-research.md — co-evolving evaluator (extends verifier-harness cluster)
+- @sources/memento-2026-web-learning-signal-low-data.md — web-as-learning vs one-shot retrieval
+- @sweeps/2026-06-02-daily.md — 2026-06-02 digest ingest
 
 ## Raw Concept
 

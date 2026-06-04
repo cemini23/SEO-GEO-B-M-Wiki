@@ -11,10 +11,11 @@ related:
   - concepts/competitive-geo-citation-factors.md
   - sweeps/2026-06-01-daily.md
   - sources/ptah-2026-verifiable-multimodal-deep-research.md
+  - sources/score-2026-self-evolving-deep-research.md
 maturity: validated
 read_status: read
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -24,6 +25,7 @@ updated: 2026-06-01
 - @concepts/content-strategy-local.md — consistent canonical facts across surfaces
 - @concepts/website-essentials-local-business.md — owned-site canonical facts
 - @concepts/competitive-geo-citation-factors.md — internal contradictions as differentiator
+- @sources/score-2026-self-evolving-deep-research.md — open-ended reports lack ground truth (GV-gap extends to deep research)
 
 ## Raw Concept
 

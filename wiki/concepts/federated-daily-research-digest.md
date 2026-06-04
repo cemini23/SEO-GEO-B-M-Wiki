@@ -12,8 +12,11 @@ related:
   - sweeps/2026-06-01-daily.md
   - sweeps/2026-06-02-daily.md
   - sweeps/2026-06-03-daily.md
+  - sweeps/2026-06-04-daily.md
   - sources/bespoke-2025-search-augmented-personalization-benchmark.md
   - sources/ptah-2026-verifiable-multimodal-deep-research.md
+  - sources/memento-2026-web-learning-signal-low-data.md
+  - sources/score-2026-self-evolving-deep-research.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-04
@@ -29,6 +32,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
 - @sources/bespoke-2025-search-augmented-personalization-benchmark.md
 - @sources/ptah-2026-verifiable-multimodal-deep-research.md — same K93 brief batch as digest rollout
+- @sources/memento-2026-web-learning-signal-low-data.md — procedural memory analog for recurring digest queries
+- @sources/score-2026-self-evolving-deep-research.md — digest outputs lack ground truth (same structural problem as deep-research reports)
+- @sweeps/2026-06-04-daily.md — 2026-06-04 ingest (MEMENTO + SCORE)
 
 ## Raw Concept
 

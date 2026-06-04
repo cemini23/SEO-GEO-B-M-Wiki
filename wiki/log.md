@@ -9,6 +9,18 @@ last_easy_review_ingest: 2026-05-08
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
+## [2026-06-04] ingest | digest inbox — 2 arXiv (MEMENTO + SCORE)
+
+**Digest sweep:** `wiki/sweeps/2026-06-04-daily.md` — 2 NEW PDFs from overnight Exa fetch.
+
+- **New:** @sources/memento-2026-web-learning-signal-low-data.md — web as learning signal; AET + dual memory; sales/legal low-data eval `[TENTATIVE]`
+- **New:** @sources/score-2026-self-evolving-deep-research.md — SCORE co-evolution framework; static LLM-judge saturation problem
+- **Updated:** @concepts/generative-engine-optimization.md — deep-research synthesis cluster extended
+- **Updated:** @concepts/federated-daily-research-digest.md, @concepts/high-ticket-smb-lead-generation.md
+- **Updated:** @sources/ptah-2026-verifiable-multimodal-deep-research.md, @sources/davidson-2026-factual-gv-gap.md — verifier-harness backlinks
+- **Moved:** 2 PDFs → `raw-sources/`
+- **Lint:** 0 orphans, 0 bidirectional gaps, 0 dangling links
+
 ## [2026-06-04] lint | wiki health pass
 
 - **Lint:** 0 orphans, 0 bidirectional gaps, 0 dangling `related:` (3 cross-wiki dangling unchanged — OSINT/cybersec paths)

@@ -34,6 +34,8 @@ related:
   - concepts/competitive-geo-citation-factors.md
   - sources/bespoke-2025-search-augmented-personalization-benchmark.md
   - sources/ptah-2026-verifiable-multimodal-deep-research.md
+  - sources/memento-2026-web-learning-signal-low-data.md
+  - sources/score-2026-self-evolving-deep-research.md
   - sources/trading-posts-compilation-18-2026-06-04.md
 
   - concepts/citation-building.md
@@ -78,6 +80,8 @@ updated: 2026-06-04
 - @concepts/competitive-geo-citation-factors.md — operator gatekeeper checklist
 - @sources/bespoke-2025-search-augmented-personalization-benchmark.md
 - @sources/ptah-2026-verifiable-multimodal-deep-research.md
+- @sources/memento-2026-web-learning-signal-low-data.md
+- @sources/score-2026-self-evolving-deep-research.md
 
 ### Personalization in search-augmented answers [TENTATIVE]
 
@@ -86,6 +90,10 @@ updated: 2026-06-04
 ### Verifiable deep research synthesis [TENTATIVE]
 
 @sources/ptah-2026-verifiable-multimodal-deep-research.md — industry "deep research" pipelines need stage-wise **citation fidelity** checks; early retrieval noise compounds. Pairs with @sources/davidson-2026-factual-gv-gap.md (verify > generate) and @sources/dong-2025-safesearch-red-teaming.md (bad retrieval → bad answers).
+
+@sources/score-2026-self-evolving-deep-research.md — **SCORE** co-evolves report generator and evaluator in one model; static LLM-as-judge rubrics saturate as content improves. Operator analog: re-run citation tests on a schedule, not once — evaluation pressure must evolve with your pages and with engine behavior.
+
+@sources/memento-2026-web-learning-signal-low-data.md — **MEMENTO** treats the web as cumulative learning (declarative + procedural memory), not one-shot RAG. Local operators in data-scarce verticals should treat GBP/website/citation research as **iterative exploration** (wiki ingest + digest loops), not a single AI copy pass.
 
 ## Raw Concept
 
