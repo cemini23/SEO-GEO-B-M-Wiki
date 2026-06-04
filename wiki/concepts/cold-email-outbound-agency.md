@@ -9,6 +9,7 @@ related:
   - concepts/citation-building.md
   - concepts/claude-platforms.md
   - concepts/x-account-voice-and-format.md
+  - sources/trading-posts-compilation-16-2026-05-31.md
 maturity: draft
 created: 2026-06-03
 updated: 2026-06-03

@@ -11,11 +11,12 @@ related:
   - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
   - sweeps/2026-06-01-daily.md
   - sweeps/2026-06-02-daily.md
+  - sweeps/2026-06-03-daily.md
   - sources/bespoke-2025-search-augmented-personalization-benchmark.md
   - sources/ptah-2026-verifiable-multimodal-deep-research.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

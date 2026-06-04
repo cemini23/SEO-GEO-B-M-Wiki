@@ -1,13 +1,35 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-03
+updated: 2026-06-04
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-04] lint | wiki health pass
+
+- **Lint:** 0 orphans, 0 bidirectional gaps, 0 dangling `related:` (3 cross-wiki dangling unchanged — OSINT/cybersec paths)
+- **Fixed:** sweep frontmatter (`sweeps/2026-06-03-daily.md`), 4 bidirectional gaps from prior K90/K97 passes
+
+## [2026-06-04] style-pass | Posts.docx K98 | 3 long-forms | authors: horizon_trade_x, YahavFuchs, mphrediction (+ Voxyz funnel note)
+
+- **New:** `sources/trading-posts-compilation-18-2026-06-04.md` — K98 cross-route stub
+- **Updated:** @concepts/x-account-voice-and-format.md — YahavFuchs + mphrediction exemplar rows; K98 provenance
+- **Updated:** @concepts/generative-engine-optimization.md — LLM referral traffic subsection `[TENTATIVE]`
+- **Updated:** @concepts/x-article-3-notes.md — optional K98 Article beats
+- **OSINT brief folded:** `2026-06-04_k98-seo-geo-llm-traffic-from-osint.md`
+
+## [2026-06-04] ingest | briefs/ — Reddit filter + X Article #4 (local)
+
+- **Reddit sitewide filter:** `briefs/2026-06-03_reddit-filter-safe-posts.md` → @entities/platforms/reddit.md (recovery playbook)
+- **X Article #4:** `briefs/2026-06-04_world-cup-bot-x-article-runbook.md` already on @concepts/world-cup-bot-x-article-runbook-notes.md
+- **Hands-on only (no wiki page):** `2026-06-03_fifa-quote-reddit-distribution.md`, `2026-06-04_world-cup-bot-x-article-hero-prompts.md`
+- **Easy Review:** 0 new briefs since 2026-05-08 (below ≥3 threshold)
+
+## [2026-06-03] style-pass | Posts.docx K97 | 6 long-forms | authors: horizon_trade_x, 0x_rody, RohOnChain, Gustafssonkotte, Zephyr_hg (+ CCC batch routed OSINT)
 
 ## [2026-06-03] ingest | briefs/ — K88 + K90 cross-wiki completion (wiki-ingested)
 

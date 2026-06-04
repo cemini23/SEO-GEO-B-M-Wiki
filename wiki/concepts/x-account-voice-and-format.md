@@ -19,13 +19,16 @@ related:
   - sources/trading-posts-compilation-16-2026-05-31.md
   - concepts/high-ticket-sales-psychology.md
   - "@osint-wiki/sources/trading-posts-compilation-12-2026-06-01.md"
+  - "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
   - "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
+  - sources/trading-posts-compilation-18-2026-06-04.md
+  - concepts/cold-email-outbound-agency.md
   - concepts/obsidian-integration.md
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
   - "@ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -44,7 +47,9 @@ updated: 2026-06-02
 - @sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md — K90 tool eval (claude-ads, goaccess); Posts slice separate
 - @concepts/obsidian-integration.md — our read surface; git wiki stays canonical
 - @ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md — Cyril hygiene patterns (reference only)
-- @ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md — Cyril stack catalog
+- @osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md — K97 style pass
+- @sources/trading-posts-compilation-18-2026-06-04.md — K98 style pass (Horizon, Yahav, mphrediction)
+- @concepts/cold-email-outbound-agency.md — @MichLieben K90 outbound lane
 
 ## Raw Concept
 
@@ -182,6 +187,13 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | @rohit4verse | builder | X Article | Harness competition | Cursor vs Claude Code vs Perplexity | Follow | **K92** — **CCC lane**; steal comparison frame not vendor hype |
 | @humzaakhalid | educator | X Article | $0 Claude analyst | Workflow + prompts | Save thread | **K92** — **SEO steal:** named deliverable checklist |
 | @peterom | builder | X thread | API cost pain | DeepSeek at ~2.5% cost | Link gist | **K92** — **CCC lane**; cost routing only |
+| @horizon_trade_x | product | X Article | Clean backtest fluke | Deflated Sharpe + 4 desk questions | DM waitlist | **K97** — steal falsification frame; skip Horizon product CTA |
+| @0x_rody | educator | X Article | Command overload | 70+ commands one page | Bookmark | **K97** — **CCC lane**; Shift+Tab / Escape×2 steal |
+| @RohOnChain | builder | X Article | PM math gap | Marginal polytope roadmap | Bookmark + DM | **K97** — **OSINT lane**; paragraph discipline good; hype $40M — cite paper not tweet |
+| @Gustafssonkotte | builder | X thread | Live bot timestamp | Fast vs slow tape WR | Evening reconcile | **K97** — **steal:** public interim numbers discipline; reply with tape-speed question |
+| @Zephyr_hg | promo | X Article | $4k research team cost | Claude consultant stack | Follow | **K97** — **SEO steal:** replace-team framing; verify claims before Article |
+| @YahavFuchs | builder | X Article | LLM referral traffic gap | Stripe-led MRR proof + GEO landing checklist | Follow | **K98** — **GEO lane:** number-led hook; verify $17K claim before citing |
+| @mphrediction | educator | X Article | Generic AI assistant pain | Personal AI use case beyond productivity | Follow | **K98** — **CCC/SEO border:** steal numbered-lesson frame; skip productivity clichés |
 
 Update this table on each Posts.docx style pass.
 

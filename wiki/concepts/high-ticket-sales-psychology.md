@@ -5,6 +5,7 @@ tags: [sales, psychology, high-ticket, agency, x-article, k90]
 keywords: [vizionaryfocuss, buying psychology, hook-first, pain framing, dm funnel]
 related:
   - concepts/high-ticket-smb-lead-generation.md
+  - concepts/cold-email-outbound-agency.md
   - concepts/x-account-voice-and-format.md
   - concepts/meta-ads-local.md
   - sources/trading-posts-compilation-16-2026-05-31.md
@@ -17,6 +18,7 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.
 ## Relations
 
 - @concepts/high-ticket-smb-lead-generation.md — ops playbook (lead filter, reviews, zip-code GTM); this page covers **persuasion framing** for the same buyer
+- @concepts/cold-email-outbound-agency.md — outbound sequences that use the same pain hooks
 - @concepts/x-account-voice-and-format.md — @vizionaryfocuss exemplar row (K90 style pass)
 - @concepts/meta-ads-local.md — paid hooks should mirror Article pain framing
 - @sources/trading-posts-compilation-16-2026-05-31.md — K90 Post 3 provenance

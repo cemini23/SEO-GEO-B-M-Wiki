@@ -10,10 +10,11 @@ related:
   - concepts/creator-content-strategy.md
   - entities/platforms/onlyfans.md
   - entities/companies/friend-1.md
+  - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - sources/reddit-creator-promotion-2026.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -23,6 +24,7 @@ updated: 2026-05-08
 - @concepts/creator-audience-growth.md
 - @concepts/creator-content-strategy.md
 - @entities/platforms/onlyfans.md
+- @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — OSS launch Reddit distribution
 - @entities/companies/friend-1.md
 - @sources/reddit-creator-promotion-2026.md
 
@@ -83,6 +85,27 @@ In practice, experienced marketers follow **95/5 or 90/10** — for every 10 val
 - IP-based detection — creating new accounts after ban is detected
 
 **Reddit's spam detection**: Specifically tuned to find coordinated inauthentic behavior. Buying karma or engagement always ends badly [Source: sources/reddit-creator-promotion-2026.md].
+
+### Sitewide filter / shadow visibility (dev-tool launches) `[CONFIRMED]` operator 2026-06-03
+
+Separate from subreddit mod removal: Reddit's **automated sitewide filters** can hide a post from everyone except the author (profile shows the post; incognito does not). Common triggers observed on a first-post OSS launch (`briefs/2026-06-03_reddit-filter-safe-posts.md`):
+
+| Trigger | Why it fires |
+|---------|--------------|
+| New account + **multiple external URLs** in one post | Reads as link spam |
+| Promo-shaped template ("What it is / Links" + bold headers) | Matches spam heuristics |
+| **First post ever = link dump** | Account has no comment karma or lurk history |
+
+**Recovery playbook** (do not delete-repost in a loop):
+
+1. Stop posting 24–48h
+2. Verify email; avoid VPN when posting
+3. Build **20–50 comment karma** with helpful, link-free comments in subs you actually read
+4. Test visibility: comment on a large thread → confirm in incognito
+5. Repost with **one link** in body (repo OR writeup, not seven); put the rest in a follow-up comment after engagement
+6. If still invisible everywhere → [Reddit appeals](https://www.reddit.com/appeals) or wait a week
+
+See @concepts/outlier-weekly-issue3-world-cup-bot-notes.md for World Cup Bot distribution context; hands-on copy stays in `briefs/2026-06-03_reddit-filter-safe-posts.md`.
 
 ### Growth strategy (safe approach) `[CONFIRMED]`
 

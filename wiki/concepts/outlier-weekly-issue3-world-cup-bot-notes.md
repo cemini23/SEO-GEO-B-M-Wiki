@@ -11,6 +11,7 @@ related:
   - "@osint-wiki/entities/tools/world-cup-bot.md"
   - "@gambling-wiki/entities/sports/world-cup-2026-betting.md"
   - concepts/world-cup-bot-x-article-runbook-notes.md
+  - entities/platforms/reddit.md
 maturity: draft
 created: 2026-05-30
 updated: 2026-06-03
@@ -28,6 +29,7 @@ substack_url: https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-
 - @osint-wiki/entities/tools/world-cup-bot.md — product source of truth
 - @gambling-wiki/entities/sports/world-cup-2026-betting.md — retail/strategy companion (contract types, divergence)
 - @concepts/world-cup-bot-x-article-runbook-notes.md — X Article #4 CLI runbook (follow-on to Issue 3)
+- @entities/platforms/reddit.md — sitewide filter recovery after r/SideProject removal
 
 ## Raw Concept
 

@@ -38,6 +38,7 @@ If you're new to this wiki:
 - [multi-wiki-tool-eval-v5-k88-2026-05-31](sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md) — K88 v5 eval cross-route: seo-geo-claude-skills Apache-2.0 Steal-from
 - [multi-wiki-tool-eval-v6-k90-2026-05-31](sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md) — K90 v6 eval cross-route: claude-ads (defer upheld), goaccess Adopt-eligible
 - [trading-posts-compilation-16-2026-05-31](sources/trading-posts-compilation-16-2026-05-31.md) — K90 cross-route: @vizionaryfocuss sales psychology, @MichLieben cold email (skimmed via OSINT brief)
+- [trading-posts-compilation-18-2026-06-04](sources/trading-posts-compilation-18-2026-06-04.md) — K98 cross-route: @YahavFuchs LLM referral traffic, Horizon/mphrediction style pass
 - [multi-wiki-tool-eval-v5-k93-2026-06-01](sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md) — K93 v5 eval cross-route: goaccess MIT re-verified Adopt
 
 ### Off-topic / record-only

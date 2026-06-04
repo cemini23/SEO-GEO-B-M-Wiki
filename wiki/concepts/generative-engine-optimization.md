@@ -34,12 +34,13 @@ related:
   - concepts/competitive-geo-citation-factors.md
   - sources/bespoke-2025-search-augmented-personalization-benchmark.md
   - sources/ptah-2026-verifiable-multimodal-deep-research.md
+  - sources/trading-posts-compilation-18-2026-06-04.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -166,6 +167,7 @@ The paper also validates several intuitions: **keyword stuffing actively hurts**
 - **Wikipedia mention** — disproportionate weight for general entity recognition. Most local barbershops don't qualify for Wikipedia. Skip unless the shop has unusual notability.
 - **Reddit / forum mentions** — engines (especially ChatGPT, Perplexity) lean on Reddit for "what's the best X near Y" answers. Organic mentions in city / region / industry subreddits (e.g. `r/<your-city>`, `r/<your-state>`, `r/Barber`) are valuable; obviously buying them or astroturfing violates platform policy and is detectable.
 - **Press / local news** — a feature in a local paper, magazine, or neighborhood blog is high-trust for engines.
+- **LLM referral traffic (chat → click)** `[TENTATIVE]` — practitioner signal from @YahavFuchs K98 Post 9: SaaS operators report measurable MRR from users who discover the product inside Claude/ChatGPT answers and follow referral links. Mechanism is not first-party validated here; treat as a **measurement hypothesis** until GA4 (or Stripe) shows `utm_source=chatgpt.com` / `claude.ai` / similar referrers. Operator playbook if confirmed: (1) publish FAQ + comparison pages with extractable answers, (2) ensure `sameAs` + schema clarity so engines resolve the entity, (3) track referral domains monthly. See @sources/trading-posts-compilation-18-2026-06-04.md.
 
 ### What's confused / contested (flag and revisit)
 

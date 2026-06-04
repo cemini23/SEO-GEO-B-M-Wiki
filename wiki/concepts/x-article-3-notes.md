@@ -8,10 +8,12 @@ related:
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - concepts/obsidian-integration.md
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
+  - concepts/world-cup-bot-x-article-runbook-notes.md
+  - sources/trading-posts-compilation-18-2026-06-04.md
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-30
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -20,6 +22,7 @@ updated: 2026-05-30
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — toolkit URLs + proof points
 - @concepts/obsidian-integration.md — Obsidian as read layer, git as canonical
 - @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — do not publish Article #3 same day as OW3
+- @concepts/world-cup-bot-x-article-runbook-notes.md — Article #4 runbook lane (CLI commands, not wikilint)
 
 ## Raw Concept
 
@@ -66,6 +69,8 @@ Recommended: **#1** for hook strength; subtitle can mention contribution rate.
 |--------|---------------|------|
 | @polybacktest | Gross vs net spread; 1.5% gross-EV floor | PM builder / Outlier footnote |
 | @Gustafssonkotte | Silent zero-trade + verify settled not near-final | PM bot ops (pairs with Article #2 honesty) |
+| @YahavFuchs (K98) | Stripe-led MRR from LLM referrals | GEO / local-business lane — cite as hypothesis until operator validates referral source in GA4 |
+| @mphrediction (K98) | Personal AI beyond productivity | Skip unless operator wants a CCC-adjacent Article |
 
 ### Draft beats (paragraph-level, not paste-ready)
 

@@ -5,6 +5,7 @@ tags: [source, cross-wiki, geo-aeo, sales-psychology, cold-email, k90]
 keywords: [k90, vizionaryfocuss, michlieben, posts-docx, high-ticket]
 related:
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - sources/trading-posts-compilation-18-2026-06-04.md
   - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
   - concepts/high-ticket-sales-psychology.md
   - concepts/cold-email-outbound-agency.md
