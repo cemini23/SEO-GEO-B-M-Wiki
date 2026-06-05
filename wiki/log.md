@@ -9,6 +9,12 @@ last_easy_review_ingest: 2026-05-08
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
+## [2026-06-05] ingest | K100 federation morning — adaptive RAG + WebKnoGraph (2 arXiv)
+
+- **Sources** — 2606.05658 agent-orchestrated adaptive RAG; 2606.06106 WebKnoGraph internal linking
+- **Concept** — `adaptive-rag-internal-linking-geo`
+- **PDFs** → librarian; inbox cleared
+
 ## [2026-06-04] ingest | digest inbox — 2 arXiv (MEMENTO + SCORE)
 
 **Digest sweep:** `wiki/sweeps/2026-06-04-daily.md` — 2 NEW PDFs from overnight Exa fetch.
