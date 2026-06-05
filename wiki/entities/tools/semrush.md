@@ -7,9 +7,11 @@ related:
   - concepts/local-seo-foundations.md
   - concepts/competitor-analysis-local.md
   - concepts/on-page-seo-local.md
+  - concepts/adaptive-rag-internal-linking-geo.md
+  - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-06-05
 ---
 
 ## Relations

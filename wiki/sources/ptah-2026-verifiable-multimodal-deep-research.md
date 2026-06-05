@@ -11,10 +11,12 @@ related:
   - sources/score-2026-self-evolving-deep-research.md
   - sources/memento-2026-web-learning-signal-low-data.md
   - sweeps/2026-06-02-daily.md
+  - concepts/adaptive-rag-internal-linking-geo.md
+  - sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-02
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations

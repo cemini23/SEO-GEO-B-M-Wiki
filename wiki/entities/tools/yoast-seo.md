@@ -9,9 +9,11 @@ related:
   - concepts/claude-platforms.md
   - entities/companies/shop-1.md
   - entities/companies/shop-2.md
+  - concepts/adaptive-rag-internal-linking-geo.md
+  - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-06-05
 ---
 
 ## Relations

@@ -12,9 +12,11 @@ related:
   - sources/davidson-2026-factual-gv-gap.md
   - concepts/first-90-days-playbook.md
   - concepts/schema-markup-local.md
+  - concepts/adaptive-rag-internal-linking-geo.md
+  - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-01
+updated: 2026-06-05
 ---
 
 ## Relations

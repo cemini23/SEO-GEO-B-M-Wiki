@@ -37,12 +37,15 @@ related:
   - sources/memento-2026-web-learning-signal-low-data.md
   - sources/score-2026-self-evolving-deep-research.md
   - sources/trading-posts-compilation-18-2026-06-04.md
+  - sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md
+  - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
+  - concepts/adaptive-rag-internal-linking-geo.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations
@@ -82,6 +85,9 @@ updated: 2026-06-04
 - @sources/ptah-2026-verifiable-multimodal-deep-research.md
 - @sources/memento-2026-web-learning-signal-low-data.md
 - @sources/score-2026-self-evolving-deep-research.md
+- @sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md — adaptive RAG routing (K100)
+- @sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md — internal-link graph evaluation (K100)
+- @concepts/adaptive-rag-internal-linking-geo.md — K100 synthesis playbook
 
 ### Personalization in search-augmented answers [TENTATIVE]
 
@@ -94,6 +100,10 @@ updated: 2026-06-04
 @sources/score-2026-self-evolving-deep-research.md — **SCORE** co-evolves report generator and evaluator in one model; static LLM-as-judge rubrics saturate as content improves. Operator analog: re-run citation tests on a schedule, not once — evaluation pressure must evolve with your pages and with engine behavior.
 
 @sources/memento-2026-web-learning-signal-low-data.md — **MEMENTO** treats the web as cumulative learning (declarative + procedural memory), not one-shot RAG. Local operators in data-scarce verticals should treat GBP/website/citation research as **iterative exploration** (wiki ingest + digest loops), not a single AI copy pass.
+
+@sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md — **adaptive RAG routing**: query decomposition helps structured retrieval but hurts multi-hop ranking precision; bounded reflection adds 2–6× latency for inconsistent gains. Operator analog: single-pass for FAQ lookups; decomposition for structured audits; reflection only before high-stakes publishes. Routing tree: @concepts/adaptive-rag-internal-linking-geo.md Part A.
+
+@sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md — **internal-link graph evaluation**: authority yield vs semantic-coherence tradeoff before deploy. Off-topic internal links may redistribute PageRank while weakening topical signals engines extract for summaries. Pre-deploy checklist: @concepts/adaptive-rag-internal-linking-geo.md Part B.
 
 ## Raw Concept
 

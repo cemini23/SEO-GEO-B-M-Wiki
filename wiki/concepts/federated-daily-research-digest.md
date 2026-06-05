@@ -17,9 +17,13 @@ related:
   - sources/ptah-2026-verifiable-multimodal-deep-research.md
   - sources/memento-2026-web-learning-signal-low-data.md
   - sources/score-2026-self-evolving-deep-research.md
+  - sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md
+  - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
+  - concepts/adaptive-rag-internal-linking-geo.md
+  - sweeps/2026-06-05-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-04
+updated: 2026-06-05
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -34,7 +38,10 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/ptah-2026-verifiable-multimodal-deep-research.md — same K93 brief batch as digest rollout
 - @sources/memento-2026-web-learning-signal-low-data.md — procedural memory analog for recurring digest queries
 - @sources/score-2026-self-evolving-deep-research.md — digest outputs lack ground truth (same structural problem as deep-research reports)
+- @sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md — skim vs deep-pass routing for morning ingest
+- @concepts/adaptive-rag-internal-linking-geo.md — query-complexity routing tree
 - @sweeps/2026-06-04-daily.md — 2026-06-04 ingest (MEMENTO + SCORE)
+- @sweeps/2026-06-05-daily.md — 2026-06-05 ingest (adaptive RAG + WebKnoGraph)
 
 ## Raw Concept
 
@@ -72,6 +79,10 @@ Configured in `scripts/daily_research_config.yaml`: GBP policy/features, GEO/AEO
 1. Digest writes **sweeps + inbox only** — never entity/concept pages
 2. Morning Cursor session: triage inbox → discuss takeaways → ingest per @CLAUDE.md
 3. After meaningful commits: optional `rsync` + `kb ingest` on cemini-librarian (existing federation sync)
+
+### Ingest depth routing [TENTATIVE]
+
+@sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md — overnight digest fetch is **single-pass retrieval** (correct). Morning Cursor sessions should default to **skim ingest** (abstract + intro → source stub) and run **deep pass** only when operator requests or paper maps to active ROADMAP workstream. Multi-hop cross-paper synthesis degrades ranking precision when over-decomposed; prefer `@relation` following over blind sub-query splitting. Full routing tree: @concepts/adaptive-rag-internal-linking-geo.md Part A.
 
 ## Snippets
 

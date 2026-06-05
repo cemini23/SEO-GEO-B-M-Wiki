@@ -13,9 +13,11 @@ related:
   - sources/trading-posts-compilation-25-2026-05-27.md
   - sources/trading-posts-compilation-38-2026-05-28.md
   - concepts/federated-daily-research-digest.md
+  - concepts/adaptive-rag-internal-linking-geo.md
+  - sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-06-01
+updated: 2026-06-05
 ---
 
 ## Relations

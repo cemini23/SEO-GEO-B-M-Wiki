@@ -12,6 +12,7 @@ related:
   - sources/ptah-2026-verifiable-multimodal-deep-research.md
   - concepts/obsidian-integration.md
   - sweeps/2026-06-05-daily.md
+  - concepts/federated-daily-research-digest.md
 maturity: draft
 read_status: read
 created: 2026-06-05

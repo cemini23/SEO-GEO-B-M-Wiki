@@ -17,10 +17,12 @@ related:
   - concepts/google-ads-local.md
   - concepts/local-pack-rankings.md
   - concepts/near-me-search.md
+  - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
+  - concepts/adaptive-rag-internal-linking-geo.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-06-05
 
 ---
 
@@ -41,6 +43,8 @@ updated: 2026-05-08
 - @concepts/google-ads-local.md
 - @concepts/local-pack-rankings.md
 - @concepts/near-me-search.md
+- @sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md — pre-deploy link evaluation metrics
+- @concepts/adaptive-rag-internal-linking-geo.md — four-metric checklist (Part B)
 
 
 ## Raw Concept
@@ -150,6 +154,8 @@ Blog/content posts  → relevant service + location pages (the topical hub-and-s
 - Use descriptive anchor text matching the destination ("[CITY] East barbershop", "fade haircut services") — not "click here" or "learn more"
 - Don't over-optimize: every link being exact-match keyword anchor looks manipulative; mix in branded + generic + descriptive
 - Footer links count, but Google weighs them less than in-content links
+
+**Pre-deploy evaluation [TENTATIVE]** — @sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md (WebKnoGraph): before adding a batch of internal links, score the set against four criteria — **authority yield** (do target pages gain discoverability?), **down/up balance** (are many pages losing authority?), **semantic coherence** (are linked pages topically related?), **stability** (does the pattern hold under site changes?). Automatic link tools maximize authority; human review preserves topical coherence. Full checklist: @concepts/adaptive-rag-internal-linking-geo.md Part B. For sites under ~50 pages, manual review suffices; WebKnoGraph open-source tooling targets larger crawls.
 
 ### URL structure
 

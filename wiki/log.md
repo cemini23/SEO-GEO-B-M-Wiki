@@ -9,6 +9,15 @@ last_easy_review_ingest: 2026-05-08
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
+## [2026-06-05] deep-pass | K100 arXiv — adaptive RAG + WebKnoGraph
+
+- **Deep-read** @sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md — routing tree, DevOps vs MuSiQue tradeoffs, digest ingest implications
+- **Deep-read** @sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md — four-metric pre-deploy checklist, five strategies, Kalicube findings
+- **Upgraded** @concepts/adaptive-rag-internal-linking-geo.md — full synthesis (Part A orchestration + Part B link graph)
+- **Updated** @concepts/generative-engine-optimization.md, @concepts/on-page-seo-local.md, @concepts/federated-daily-research-digest.md — bidirectional backlinks + operator subsections
+- **Updated** @wiki/index.md
+- **Brief staged:** `briefs/2026-06-05_two-shop-internal-link-audit.md` — hands-on 2-shop audit template
+
 ## [2026-06-05] ingest | K100 federation morning — adaptive RAG + WebKnoGraph (2 arXiv)
 
 - **Sources** — 2606.05658 agent-orchestrated adaptive RAG; 2606.06106 WebKnoGraph internal linking

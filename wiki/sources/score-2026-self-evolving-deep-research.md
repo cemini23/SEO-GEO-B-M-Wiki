@@ -10,10 +10,12 @@ related:
   - sources/dong-2025-safesearch-red-teaming.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-04-daily.md
+  - concepts/adaptive-rag-internal-linking-geo.md
+  - sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations

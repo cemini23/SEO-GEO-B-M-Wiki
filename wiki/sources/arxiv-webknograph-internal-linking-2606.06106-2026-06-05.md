@@ -12,6 +12,7 @@ related:
   - entities/tools/ahrefs.md
   - entities/tools/yoast-seo.md
   - sweeps/2026-06-05-daily.md
+  - concepts/federated-daily-research-digest.md
 maturity: draft
 read_status: read
 created: 2026-06-05
