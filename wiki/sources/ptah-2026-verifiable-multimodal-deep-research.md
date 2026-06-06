@@ -13,10 +13,12 @@ related:
   - sweeps/2026-06-02-daily.md
   - concepts/adaptive-rag-internal-linking-geo.md
   - sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md
+  - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
+  - concepts/citation-verification-aeo.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-02
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -27,6 +29,8 @@ updated: 2026-06-05
 - @sources/score-2026-self-evolving-deep-research.md — co-evolving evaluator (extends verifier-harness cluster)
 - @sources/memento-2026-web-learning-signal-low-data.md — web-as-learning vs one-shot retrieval
 - @sweeps/2026-06-02-daily.md — 2026-06-02 digest ingest
+- @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — lightweight SLM for claim–source verification at scale
+- @concepts/citation-verification-aeo.md — operator analog of stage-wise citation fidelity
 
 ## Raw Concept
 

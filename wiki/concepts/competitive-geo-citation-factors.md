@@ -12,9 +12,11 @@ related:
   - concepts/citation-building.md
   - concepts/google-business-profile.md
   - sources/davidson-2026-factual-gv-gap.md
+  - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
+  - concepts/citation-verification-aeo.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -26,6 +28,8 @@ updated: 2026-06-01
 - @concepts/website-essentials-local-business.md — pricing transparency on owned site
 - @concepts/citation-building.md — retrieval when brand absent from citation set
 - @concepts/google-business-profile.md — hours, services, attributes as freshness signals
+- @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — post-citation hallucination rates
+- @concepts/citation-verification-aeo.md — verify claim–source alignment after winning citation
 
 ## Raw Concept
 

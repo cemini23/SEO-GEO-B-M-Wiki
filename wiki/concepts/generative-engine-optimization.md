@@ -40,12 +40,15 @@ related:
   - sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
   - concepts/adaptive-rag-internal-linking-geo.md
+  - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
+  - concepts/citation-verification-aeo.md
+  - sweeps/2026-06-06-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -88,6 +91,13 @@ updated: 2026-06-05
 - @sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md — adaptive RAG routing (K100)
 - @sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md — internal-link graph evaluation (K100)
 - @concepts/adaptive-rag-internal-linking-geo.md — K100 synthesis playbook
+- @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — LLM citation hallucination rates (Med-V1)
+- @concepts/citation-verification-aeo.md — claim–source verification loop for operators
+- @sweeps/2026-06-06-daily.md — K101 Med-V1 digest ingest
+
+### Citation verification — claims vs sources [TENTATIVE]
+
+@sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — **Med-V1** (NIH, arXiv 2603.05308): when GPT-4o/GPT-5 answer medical questions with citations, **43–56%** of successfully mapped citation statements are **not supported** by the cited PubMed abstract; direct PMID instructions push hallucination to **86–96%** despite valid paper IDs. GPT-5 generates more claims but not proportionally more *supported* claims vs human experts. Domain is biomedical; pattern is directionally relevant to AI Overviews / Perplexity / ChatGPT citing Yelp, GBP, or blog pages about local businesses — the citation link exists but the attributed fact may be wrong. Operator playbook: @concepts/citation-verification-aeo.md. Pairs with @sources/davidson-2026-factual-gv-gap.md (multi-source factual drift) and measurement step 7 below.
 
 ### Personalization in search-augmented answers [TENTATIVE]
 
@@ -203,7 +213,7 @@ In rough priority order:
 4. Publish FAQ-format content answering real questions: "what's the difference between a fade and a taper," "do I need an appointment," "how often should I get my hair cut," "what should I tip a barber." See @concepts/content-strategy-local.md.
 5. Encourage real review text (not just star ratings) — the text is what gets parsed for sentiment summaries.
 6. Pursue legitimate third-party mentions: be in 2-3 high-trust local directories, be mentioned in any local-newsletter / community-blog opportunity that arises.
-7. Periodically *test* citations: query each major engine with the realistic queries a customer would use ("best barbershop in [CITY, ST]," "barber [city] fade," "[shop name] reviews"), capture the answers, note whether the shop is mentioned and whether the mention is accurate. This is the core measurement loop.
+7. Periodically *test* citations: query each major engine with the realistic queries a customer would use ("best barbershop in [CITY, ST]," "barber [city] fade," "[shop name] reviews"), capture the answers, note whether the shop is mentioned and whether the mention is accurate. **Verify claim–source alignment** when engines cite URLs — open the cited page and check whether it supports the attributed statement (@concepts/citation-verification-aeo.md). This is the core measurement loop.
 8. **Apply Aggarwal's top-3 methods** to the homepage + each location page: rewrite for fluency (concise, varied sentences — outsource the polish to a marketing skill like @entities/tools/marketingskills.md if needed), insert relevant statistics (review count, years in business, neighborhood-tenure, customer-volume metrics), add quotations (from real customer reviews — paraphrased as a "what customers say" block — *not* fabricated). For long-form content, the conditional-GO @entities/tools/seomachine.md is the option once content marketing is in scope.
 9. **Run citability audits with @entities/tools/geo-seo-claude.md**: this Claude Code skill specifically scores a URL's GEO-readiness (citability scoring, schema validation, AI-crawler accessibility). Treat the score as heuristic — the ground truth is the actual citation behavior of each engine — but the audits flag concrete gaps to fix.
 

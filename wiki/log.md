@@ -9,6 +9,13 @@ last_easy_review_ingest: 2026-05-08
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
+## [2026-06-06] ingest | K101 federation morning — Med-V1 evidence attribution (1 arXiv)
+
+- **Source** — 2603.05308 Med-V1: 3B SLM for biomedical evidence attribution; GPT-4o/GPT-5 citation hallucination rates 43–56% on standard formats
+- **Concept** — `citation-verification-aeo` (new): claim–source verification loop for operators
+- **Updated** — @concepts/generative-engine-optimization.md, @concepts/competitive-geo-citation-factors.md, @concepts/adaptive-rag-internal-linking-geo.md, @concepts/federated-daily-research-digest.md, @sources/davidson-2026-factual-gv-gap.md, @sources/ptah-2026-verifiable-multimodal-deep-research.md
+- **PDF** → `raw-sources/`; inbox cleared
+
 ## [2026-06-05] deep-pass | K100 arXiv — adaptive RAG + WebKnoGraph
 
 - **Deep-read** @sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md — routing tree, DevOps vs MuSiQue tradeoffs, digest ingest implications

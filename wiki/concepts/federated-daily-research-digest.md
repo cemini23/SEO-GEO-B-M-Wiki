@@ -21,9 +21,12 @@ related:
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
   - concepts/adaptive-rag-internal-linking-geo.md
   - sweeps/2026-06-05-daily.md
+  - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
+  - concepts/citation-verification-aeo.md
+  - sweeps/2026-06-06-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-05
+updated: 2026-06-06
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -42,6 +45,7 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @concepts/adaptive-rag-internal-linking-geo.md — query-complexity routing tree
 - @sweeps/2026-06-04-daily.md — 2026-06-04 ingest (MEMENTO + SCORE)
 - @sweeps/2026-06-05-daily.md — 2026-06-05 ingest (adaptive RAG + WebKnoGraph)
+- @sweeps/2026-06-06-daily.md — 2026-06-06 ingest (Med-V1 evidence attribution)
 
 ## Raw Concept
 

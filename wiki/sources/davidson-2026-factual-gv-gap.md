@@ -12,10 +12,12 @@ related:
   - sweeps/2026-06-01-daily.md
   - sources/ptah-2026-verifiable-multimodal-deep-research.md
   - sources/score-2026-self-evolving-deep-research.md
+  - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
+  - concepts/citation-verification-aeo.md
 maturity: validated
 read_status: read
 created: 2026-06-01
-updated: 2026-06-04
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -26,6 +28,8 @@ updated: 2026-06-04
 - @concepts/website-essentials-local-business.md — owned-site canonical facts
 - @concepts/competitive-geo-citation-factors.md — internal contradictions as differentiator
 - @sources/score-2026-self-evolving-deep-research.md — open-ended reports lack ground truth (GV-gap extends to deep research)
+- @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — empirical claim–source misalignment rates in cited LLM answers
+- @concepts/citation-verification-aeo.md — operator verification loop
 
 ## Raw Concept
 

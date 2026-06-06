@@ -11,10 +11,12 @@ related:
   - concepts/website-essentials-local-business.md
   - sweeps/2026-06-01-daily.md
   - sources/bespoke-2025-search-augmented-personalization-benchmark.md
+  - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
+  - concepts/citation-verification-aeo.md
 maturity: validated
 read_status: deep-read
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -24,6 +26,8 @@ updated: 2026-06-01
 - @sources/aggarwal-2024-geo-paper.md — prior GEO framework; this paper cites and extends it
 - @concepts/content-strategy-local.md — price, specs, comparisons on owned pages
 - @concepts/website-essentials-local-business.md — pricing transparency on service pages
+- @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — post-citation hallucination evidence
+- @concepts/citation-verification-aeo.md — winning citation vs verifying accuracy
 
 ## Raw Concept
 

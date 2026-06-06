@@ -18,9 +18,12 @@ related:
   - entities/tools/yoast-seo.md
   - concepts/obsidian-integration.md
   - sweeps/2026-06-05-daily.md
+  - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
+  - concepts/citation-verification-aeo.md
+  - sweeps/2026-06-06-daily.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -38,6 +41,8 @@ updated: 2026-06-05
 - @entities/tools/ahrefs.md — commercial internal-link audits
 - @entities/tools/yoast-seo.md — WP internal-link suggestions
 - @concepts/obsidian-integration.md — structured corpus + metadata for agentic retrieval
+- @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — high-stakes publish verification routing
+- @concepts/citation-verification-aeo.md — reflection-before-publish analog
 
 ## Raw Concept
 

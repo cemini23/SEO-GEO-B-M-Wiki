@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 # Wiki Index
@@ -31,6 +31,7 @@ If you're new to this wiki:
 - [score-2026-self-evolving-deep-research](sources/score-2026-self-evolving-deep-research.md) — SCORE: co-evolving deep research generation + evaluation (2026-06-04 digest)
 - [arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05](sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md) — adaptive RAG routing: decomposition vs reflection tradeoffs (2026-06-05 digest; deep-read)
 - [arxiv-webknograph-internal-linking-2606.06106-2026-06-05](sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md) — WebKnoGraph: GNN internal-link pre-deploy evaluation (2026-06-05 digest; deep-read)
+- [arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06](sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md) — Med-V1: LLM citation hallucination rates under citation formats (2026-06-06 digest)
 
 ### Audits + evaluations
 
@@ -80,6 +81,7 @@ If you're new to this wiki:
 - [barbershop-marketing-fundamentals](concepts/barbershop-marketing-fundamentals.md) — industry context: visit frequency, customer LTV, two-shop dynamics, marketing-stack priority
 - [generative-engine-optimization](concepts/generative-engine-optimization.md) — GEO/AEO: getting cited in ChatGPT/Claude/Perplexity/Google AI Overviews
 - [adaptive-rag-internal-linking-geo](concepts/adaptive-rag-internal-linking-geo.md) — K100: adaptive RAG routing + WebKnoGraph internal-link pre-deploy evaluation
+- [citation-verification-aeo](concepts/citation-verification-aeo.md) — claim–source verification loop; Med-V1 hallucination evidence
 - [competitive-geo-citation-factors](concepts/competitive-geo-citation-factors.md) — SIGIR '26 gatekeeper/differentiator checklist for winning first AI citation
 - [google-business-profile](concepts/google-business-profile.md) — GBP optimization playbook (concept side); listing setup, categories, services, posts, photos
 - [local-seo-foundations](concepts/local-seo-foundations.md) — main local-SEO hub: NAP, GBP, reviews, on-page, local pack, behavioral signals
