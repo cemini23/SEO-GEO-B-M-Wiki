@@ -43,6 +43,7 @@ related:
   - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
   - concepts/citation-verification-aeo.md
   - sweeps/2026-06-06-daily.md
+  - entities/tools/ai-text-humanizer-app.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -214,7 +215,7 @@ In rough priority order:
 5. Encourage real review text (not just star ratings) — the text is what gets parsed for sentiment summaries.
 6. Pursue legitimate third-party mentions: be in 2-3 high-trust local directories, be mentioned in any local-newsletter / community-blog opportunity that arises.
 7. Periodically *test* citations: query each major engine with the realistic queries a customer would use ("best barbershop in [CITY, ST]," "barber [city] fade," "[shop name] reviews"), capture the answers, note whether the shop is mentioned and whether the mention is accurate. **Verify claim–source alignment** when engines cite URLs — open the cited page and check whether it supports the attributed statement (@concepts/citation-verification-aeo.md). This is the core measurement loop.
-8. **Apply Aggarwal's top-3 methods** to the homepage + each location page: rewrite for fluency (concise, varied sentences — outsource the polish to a marketing skill like @entities/tools/marketingskills.md if needed), insert relevant statistics (review count, years in business, neighborhood-tenure, customer-volume metrics), add quotations (from real customer reviews — paraphrased as a "what customers say" block — *not* fabricated). For long-form content, the conditional-GO @entities/tools/seomachine.md is the option once content marketing is in scope.
+8. **Apply Aggarwal's top-3 methods** to the homepage + each location page: rewrite for fluency (concise, varied sentences — outsource the polish to a marketing skill like @entities/tools/marketingskills.md if needed, or an optional local pass with @entities/tools/ai-text-humanizer-app.md with mandatory human fact-check), insert relevant statistics (review count, years in business, neighborhood-tenure, customer-volume metrics), add quotations (from real customer reviews — paraphrased as a "what customers say" block — *not* fabricated). For long-form content, the conditional-GO @entities/tools/seomachine.md is the option once content marketing is in scope.
 9. **Run citability audits with @entities/tools/geo-seo-claude.md**: this Claude Code skill specifically scores a URL's GEO-readiness (citability scoring, schema validation, AI-crawler accessibility). Treat the score as heuristic — the ground truth is the actual citation behavior of each engine — but the audits flag concrete gaps to fix.
 
 ### Applying GEO to AI personas (cross-wiki: Image Gen wiki)

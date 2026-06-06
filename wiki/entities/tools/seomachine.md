@@ -10,9 +10,10 @@ related:
   - concepts/claude-platforms.md
   - entities/tools/marketingskills.md
   - entities/tools/open-seo.md
+  - entities/tools/ai-text-humanizer-app.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-15
+updated: 2026-06-06
 ---
 
 ## Relations

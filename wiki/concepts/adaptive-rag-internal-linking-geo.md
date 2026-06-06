@@ -20,6 +20,7 @@ related:
   - sweeps/2026-06-05-daily.md
   - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
   - concepts/citation-verification-aeo.md
+  - concepts/citation-verification-aeo.md
   - sweeps/2026-06-06-daily.md
 maturity: draft
 created: 2026-06-05
@@ -141,7 +142,7 @@ Extends @concepts/on-page-seo-local.md **Internal linking — the site graph** s
 
 | Scale | Approach |
 |-------|----------|
-| **≤50 pages** (typical 2-shop barbershop) | Manual audit against four-metric checklist; GSC Links report + Screaming Frog crawl |
+| **≤50 pages** (typical 2-shop barbershop) | Manual audit against four-metric checklist; GSC Links report + Screaming Frog crawl. **Hands-on template:** `briefs/2026-06-05_two-shop-internal-link-audit.md` (worked example: `briefs/2026-06-05_two-shop-internal-link-audit-eastside-example.md`) |
 | **50–500 pages** | @entities/tools/semrush.md or @entities/tools/ahrefs.md internal-link suggestions + manual coherence review |
 | **500+ pages / agency** | WebKnoGraph open-source framework (https://github.com/martech-engine/WebKnoGraph); WordLift Internal Links integration planned |
 

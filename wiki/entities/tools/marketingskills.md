@@ -18,9 +18,10 @@ related:
   - entities/tools/n8n-workflows.md
   - entities/tools/pm-claude-skills.md
   - entities/tools/social-media-skills.md
+  - entities/tools/ai-text-humanizer-app.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-15
+updated: 2026-06-06
 
 ---
 

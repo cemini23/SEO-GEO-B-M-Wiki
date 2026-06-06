@@ -14,9 +14,10 @@ related:
   - concepts/schema-markup-local.md
   - concepts/adaptive-rag-internal-linking-geo.md
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
+  - entities/tools/ai-text-humanizer-app.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations

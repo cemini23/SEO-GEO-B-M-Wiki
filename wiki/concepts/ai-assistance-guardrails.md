@@ -15,9 +15,10 @@ related:
   - sources/ai-detection-platforms-2026.md
   - sources/ai-detection-enforcement-2026.md
   - sources/onlyfans-tos-violations-case-studies.md
+  - entities/tools/ai-text-humanizer-app.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-10
+updated: 2026-06-06
 ---
 
 ## Relations

@@ -9,6 +9,13 @@ last_easy_review_ingest: 2026-05-08
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
+## [2026-06-06] check | briefs/ — K102 ingest + two-shop audit links
+
+- **Easy Review:** 0 new briefs since 2026-05-08 (`manual_17` only; below ≥3 pattern threshold)
+- **K102:** `briefs/2026-06-06_k102-seo-ai-humanizer-from-osint.md` → @entities/tools/ai-text-humanizer-app.md + @sources/multi-wiki-tool-eval-k102-2026-06-06.md
+- **Hands-on (staged):** linked `briefs/2026-06-05_two-shop-internal-link-audit.md` + eastside example from @concepts/adaptive-rag-internal-linking-geo.md Part B
+- **No action:** 40+ historical briefs already wiki-ingested per prior log entries; Issue 3 / X Article / Reddit briefs remain hands-on deliverables
+
 ## [2026-06-06] ingest | K101 federation morning — Med-V1 evidence attribution (1 arXiv)
 
 - **Source** — 2603.05308 Med-V1: 3B SLM for biomedical evidence attribution; GPT-4o/GPT-5 citation hallucination rates 43–56% on standard formats
