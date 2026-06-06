@@ -78,11 +78,12 @@ Adjust down (not up) if the operator can't sustain the cadence. Posting every 6 
 The Helpful Content Update penalizes mass-AI content; it does NOT penalize AI-assisted human-edited content. The accepted workflow:
 
 1. **Operator (or assistant) drafts the brief**: topic, target query, intended length, what the operator wants to teach.
-2. **AI generates a first draft** based on the brief + the wiki's relevant concept pages as context.
-3. **Operator reviews and edits** — adds personal anecdotes, real shop-specific examples, real customer questions, real opinions. This is the irreplaceable human-experience signal Google's E-E-A-T weights heavily.
+2. **AI generates a first draft** based on the brief + the wiki's relevant concept pages as context (Claude + @entities/tools/marketingskills.md for framework-driven copy).
+3. **Operator reviews and edits** — adds personal anecdotes, real shop-specific examples, real customer questions, real opinions. Optional Claude pass: *"sound like a local barber, keep contractions, no brochure-speak."*
 4. **Add real photos** taken at the shop — not stock photos, not AI-generated images. This is the single strongest "real business" signal.
 5. **Add citations** if the post references statistics or studies. Inline `[Source: ...]` per the wiki's citation convention.
 6. **Add `Article` schema** with the operator-as-author specified, to feed E-E-A-T signals to Google.
+7. **Do not run @entities/tools/ai-text-humanizer-app.md** — smoke-tested 2026-06-06: expands contractions and injects academic transitions (`Therefore,`, `Furthermore,`), making GBP/social copy worse. See entity page Dead Ends.
 
 A post produced this way is indistinguishable from a fully-human post in the eyes of the algorithm and gets the full ranking benefit.
 

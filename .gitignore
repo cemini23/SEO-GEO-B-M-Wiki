@@ -44,6 +44,9 @@ __pycache__/
 venv/
 .pytest_cache/
 
+# --- Third-party tool clones (gitignored) ------------------------------------
+/tools/
+
 # --- Temp scratch ------------------------------------------------------------
 /tmp_*.txt
 /tmp_*.md

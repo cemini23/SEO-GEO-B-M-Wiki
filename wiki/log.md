@@ -9,6 +9,13 @@ last_easy_review_ingest: 2026-05-08
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
+## [2026-06-06] smoke-test | AI Text Humanizer — NO-GO for marketing workflow
+
+- **Installed** — `tools/ai-text-humanizer/` + `~/.cemini/venvs/ai-text-humanizer`; `scripts/run_ai_humanizer.sh`, `scripts/ai_humanizer_smoke_test.py`
+- **Verdict** — academicizes copy (contractions expanded, random `Therefore/Furthermore`); worse for GBP/IG/service pages
+- **Workflow** — explicitly excluded from @concepts/content-strategy-local.md; use marketingskills + Claude fluency edit instead
+- **Entity** — @entities/tools/ai-text-humanizer-app.md upgraded CONDITIONAL-GO → **NO-GO**
+
 ## [2026-06-06] check | briefs/ — K102 ingest + two-shop audit links
 
 - **Easy Review:** 0 new briefs since 2026-05-08 (`manual_17` only; below ≥3 pattern threshold)

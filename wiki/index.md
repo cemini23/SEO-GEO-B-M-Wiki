@@ -199,7 +199,7 @@ If you're new to this wiki:
 - [money-printer-turbo](entities/tools/money-printer-turbo.md) — harry0703 faceless short-form video template (Defer, K68)
 - [notfair-toprank](entities/tools/notfair-toprank.md) — nowork-studio NotFair MIT plugin; GSC + Google/Meta Ads + SEO diagnostics (Adopt-eligible, K71)
 - [goaccess](entities/tools/goaccess.md) — MIT real-time server log analyzer; Adopt-eligible complement to GA4 (K90 + K93)
-- [ai-text-humanizer-app](entities/tools/ai-text-humanizer-app.md) — MIT Streamlit NLTK/spaCy fluency pass for AI-drafted GBP/social copy (K102; CONDITIONAL-GO)
+- [ai-text-humanizer-app](entities/tools/ai-text-humanizer-app.md) — MIT Streamlit academicizer; **NO-GO** for local marketing (smoke-tested 2026-06-06)
 - [claude-ads](entities/tools/claude-ads.md) — AgriciDaniel paid-media audit skill 250+ checks (Defer — security issues open, K71; K90 feature fit only)
 - [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes
 - [pm-claude-skills](entities/tools/pm-claude-skills.md) — 106 SKILL.md files; marketing-analysis + Figma-template-generation workflows

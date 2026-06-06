@@ -26,9 +26,10 @@ related:
   - concepts/obsidian-integration.md
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
   - "@ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md"
+  - entities/tools/ai-text-humanizer-app.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-04
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -50,6 +51,7 @@ updated: 2026-06-04
 - @osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md — K97 style pass
 - @sources/trading-posts-compilation-18-2026-06-04.md — K98 style pass (Horizon, Yahav, mphrediction)
 - @concepts/cold-email-outbound-agency.md — @MichLieben K90 outbound lane
+- @entities/tools/ai-text-humanizer-app.md — NO-GO for X/Outlier voice (smoke-tested 2026-06-06)
 
 ## Raw Concept
 
