@@ -22,6 +22,7 @@ related:
   - "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
   - "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
   - sources/trading-posts-compilation-18-2026-06-04.md
+  - "@osint-wiki/sources/trading-posts-compilation-19-2026-06-07.md"
   - concepts/cold-email-outbound-agency.md
   - concepts/obsidian-integration.md
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
@@ -29,7 +30,7 @@ related:
   - entities/tools/ai-text-humanizer-app.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations
@@ -196,6 +197,10 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | @Zephyr_hg | promo | X Article | $4k research team cost | Claude consultant stack | Follow | **K97** — **SEO steal:** replace-team framing; verify claims before Article |
 | @YahavFuchs | builder | X Article | LLM referral traffic gap | Stripe-led MRR proof + GEO landing checklist | Follow | **K98** — **GEO lane:** number-led hook; verify $17K claim before citing |
 | @mphrediction | educator | X Article | Generic AI assistant pain | Personal AI use case beyond productivity | Follow | **K98** — **CCC/SEO border:** steal numbered-lesson frame; skip productivity clichés |
+| @eng_khairallah1 | educator | X Article | Labeled chatbox pain | 6-part Claude Project blueprint | Follow | **K103** — **SEO steal:** Rules block + Process block; heavy paste-ready prompts |
+| @smaaaliy | builder | X Article | TradingView can't do ms alerts | 10 Pyth Pro SaaS builds | Follow | **K103** — **OSINT/data lane**; honest fee caveats; monetization table per build |
+| @zeuuss_01 | educator | X thread | Hermes PM hype debunk | Fee math + break-even WR | Paper trade first | **K103** — **PM lane**; steal falsification not funnel links |
+| @BimbaCrypto | promo | X Article | Gambling → system | 10 PM strategies | Follow | **K103** — **avoid** hype stack; steal numbered strategy frame only |
 
 Update this table on each Posts.docx style pass.
 

@@ -19,10 +19,11 @@ related:
   - sources/trading-posts-compilation-20-2026-05-27.md
   - concepts/federated-daily-research-digest.md
   - concepts/competitive-geo-citation-factors.md
+  - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-01
+updated: 2026-06-08
 
 ---
 
@@ -45,6 +46,7 @@ updated: 2026-06-01
 - @concepts/website-essentials-local-business.md — owned site as GBP website link; Maps-gap outreach
 - @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 7 listings without websites
 - @concepts/federated-daily-research-digest.md — GBP policy/feature drift in daily digest queries
+- @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — website mirrors GBP visual semantics for multimodal GEO
 
 
 ## Raw Concept
@@ -62,7 +64,7 @@ Google Business Profile (GBP, formerly Google My Business / GMB) is the single h
 3. **Secondary categories** — supplemental categories like `Hair Salon` if cuts include women, or `Beauty Salon` if there's a broader service mix. Don't overstuff; secondary categories that don't reflect actual services trigger suspension reviews.
 4. **Service list** — every service offered (haircut, beard trim, hot towel shave, kids' cut, etc.) with price and duration. Service items can be tied to schema markup on the website.
 5. **Hours** — exact, including special hours for holidays. Closed-hour confusion drops conversion sharply.
-6. **Photos** — exterior, interior, team, work product (cuts), logo. Aim for 5-10 of each at minimum, refreshed quarterly.
+6. **Photos** — exterior, interior, team, work product (cuts), logo. Aim for 5-10 of each at minimum, refreshed quarterly. For **multimodal GEO** `[TENTATIVE]`: GBP has no injectable body copy — mirror the same visual story on the owned website with alt text + adjacent prose per @sources/arxiv-caption-injection-2511.04080-2026-06-08.md so engines that retrieve both surfaces see consistent object–action–scene semantics.
 7. **Attributes** — wheelchair-accessible, free Wi-Fi, accepts credit cards, by-appointment-only vs walks-ins-welcome, etc. Each filled-in attribute is a search-filter eligibility unlock.
 8. **Description** — 750-character business description with natural keyword inclusion, no overt SEO stuffing.
 9. **Booking link** — connects to the operator's booking system (Square, Booksy, Vagaro, Squire, Schedulicity, etc.) so the GBP listing has a direct "Book" button.

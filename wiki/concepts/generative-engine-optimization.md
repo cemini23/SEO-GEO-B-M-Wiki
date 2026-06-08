@@ -44,12 +44,14 @@ related:
   - concepts/citation-verification-aeo.md
   - sweeps/2026-06-06-daily.md
   - entities/tools/ai-text-humanizer-app.md
+  - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
+  - sweeps/2026-06-08-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -95,6 +97,21 @@ updated: 2026-06-06
 - @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — LLM citation hallucination rates (Med-V1)
 - @concepts/citation-verification-aeo.md — claim–source verification loop for operators
 - @sweeps/2026-06-06-daily.md — K101 Med-V1 digest ingest
+- @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — multimodal G-SEO via image-caption injection (K102 digest)
+- @sweeps/2026-06-08-daily.md — overnight fetch
+
+### Multimodal G-SEO — caption injection [TENTATIVE]
+
+@sources/arxiv-caption-injection-2511.04080-2026-06-08.md (USTC, arXiv 2511.04080) extends text-only GEO to **multimodal generative search**: extract object–action–scene captions from page images, refine against surrounding text, inject at natural insertion points. On the MRAMG benchmark under multimodal GSE simulation, Caption Injection beat Aggarwal-style text baselines (+1.12% G-EVAL subjective visibility vs +0.71% for fluency-only); largest gains on the **uniqueness** dimension — visual semantics supplement thin text.
+
+**Operator translation (not lab-validated on local pages):**
+
+- Pair every service-page image with **descriptive alt text** *and* a nearby prose sentence that states what the photo shows (interior, equipment, finished cut, team member at work). Do not rely on images alone — engines that use multimodal RAG still weight injectable text heavily.
+- Apply on the **owned website**; GBP photos have no adjacent body copy to inject into — keep website visuals aligned with GBP gallery.
+- **Do not drop Aggarwal top-3 text methods** — in unimodal (text-only) simulation, fluency still won; caption injection is an **add-on** for image-rich pages, not a replacement for fluency + statistics + quotations.
+- Absolute lifts are small (~1%); treat as experimental until citation tests on real engines confirm `[NEEDS VERIFICATION 2026-06-08]`.
+
+See also @concepts/on-page-seo-local.md (image SEO) and @concepts/content-strategy-local.md (before/after gallery pattern).
 
 ### Citation verification — claims vs sources [TENTATIVE]
 
@@ -216,6 +233,7 @@ In rough priority order:
 6. Pursue legitimate third-party mentions: be in 2-3 high-trust local directories, be mentioned in any local-newsletter / community-blog opportunity that arises.
 7. Periodically *test* citations: query each major engine with the realistic queries a customer would use ("best barbershop in [CITY, ST]," "barber [city] fade," "[shop name] reviews"), capture the answers, note whether the shop is mentioned and whether the mention is accurate. **Verify claim–source alignment** when engines cite URLs — open the cited page and check whether it supports the attributed statement (@concepts/citation-verification-aeo.md). This is the core measurement loop.
 8. **Apply Aggarwal's top-3 methods** to the homepage + each location page: rewrite for fluency (concise, varied sentences — use @entities/tools/marketingskills.md or a Claude edit pass; **do not** use @entities/tools/ai-text-humanizer-app.md — smoke-tested NO-GO for local copy), insert relevant statistics (review count, years in business, neighborhood-tenure, customer-volume metrics), add quotations (from real customer reviews — paraphrased as a "what customers say" block — *not* fabricated). For long-form content, the conditional-GO @entities/tools/seomachine.md is the option once content marketing is in scope.
+8b. **Caption injection on image-rich pages** `[TENTATIVE]` — for gallery, team, and service pages with photos: write alt text, then add one adjacent sentence weaving the visual detail into body copy (object–action–scene). @sources/arxiv-caption-injection-2511.04080-2026-06-08.md found multimodal gains primarily on uniqueness; test on real engines before prioritizing over steps 1–7.
 9. **Run citability audits with @entities/tools/geo-seo-claude.md**: this Claude Code skill specifically scores a URL's GEO-readiness (citability scoring, schema validation, AI-crawler accessibility). Treat the score as heuristic — the ground truth is the actual citation behavior of each engine — but the audits flag concrete gaps to fix.
 
 ### Applying GEO to AI personas (cross-wiki: Image Gen wiki)

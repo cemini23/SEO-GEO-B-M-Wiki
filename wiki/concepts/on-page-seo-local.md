@@ -19,10 +19,11 @@ related:
   - concepts/near-me-search.md
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
   - concepts/adaptive-rag-internal-linking-geo.md
+  - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-05
+updated: 2026-06-08
 
 ---
 
@@ -45,6 +46,7 @@ updated: 2026-06-05
 - @concepts/near-me-search.md
 - @sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md — pre-deploy link evaluation metrics
 - @concepts/adaptive-rag-internal-linking-geo.md — four-metric checklist (Part B)
+- @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — caption injection pattern for multimodal GEO
 
 
 ## Raw Concept
@@ -178,6 +180,7 @@ Blog/content posts  → relevant service + location pages (the topical hub-and-s
 
 - **Filename**: `[city]-east-barbershop-interior.jpg` (descriptive, hyphenated) — not `IMG_4827.jpg`
 - **Alt text**: describes the image's content, not keyword-stuffed. `"Interior of BRAND [CITY] East barbershop, view of barber chairs and styling stations"` — not `"[city] barber [city] haircut [city] barbershop [city] fade"`
+- **Caption injection** `[TENTATIVE]` — per @sources/arxiv-caption-injection-2511.04080-2026-06-08.md, multimodal generative engines gain when visual semantics also appear in adjacent body copy. After alt text, add one natural sentence below the image stating object–action–scene (what is shown, what is happening, where). See @concepts/content-strategy-local.md gallery pattern.
 - **Compression**: WebP format, ≤200KB per image for above-fold; ≤500KB max anywhere. Use `cwebp` or any WP image-optimization plugin
 - **Dimensions**: serve responsive images via `srcset` so mobile gets smaller versions
 - **Lazy loading**: native `loading="lazy"` on below-fold images for Core Web Vitals

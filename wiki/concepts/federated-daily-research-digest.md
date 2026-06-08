@@ -24,9 +24,12 @@ related:
   - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
   - concepts/citation-verification-aeo.md
   - sweeps/2026-06-06-daily.md
+  - sweeps/2026-06-07-daily.md
+  - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
+  - sweeps/2026-06-08-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-08
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -46,6 +49,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sweeps/2026-06-04-daily.md — 2026-06-04 ingest (MEMENTO + SCORE)
 - @sweeps/2026-06-05-daily.md — 2026-06-05 ingest (adaptive RAG + WebKnoGraph)
 - @sweeps/2026-06-06-daily.md — 2026-06-06 ingest (Med-V1 evidence attribution)
+- @sweeps/2026-06-07-daily.md — empty inbox (dupes only)
+- @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — 2026-06-08 ingest (Caption Injection multimodal G-SEO)
+- @sweeps/2026-06-08-daily.md — overnight fetch + Caption Injection ingest
 
 ## Raw Concept
 

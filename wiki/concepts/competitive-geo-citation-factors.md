@@ -14,9 +14,10 @@ related:
   - sources/davidson-2026-factual-gv-gap.md
   - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
   - concepts/citation-verification-aeo.md
+  - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -30,6 +31,7 @@ updated: 2026-06-06
 - @concepts/google-business-profile.md — hours, services, attributes as freshness signals
 - @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — post-citation hallucination rates
 - @concepts/citation-verification-aeo.md — verify claim–source alignment after winning citation
+- @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — uniqueness dimension lift from visual-caption injection
 
 ## Raw Concept
 
@@ -66,6 +68,7 @@ Significant in 4+ of 6 models — invest after baseline:
 - **Internal contradictions** — align GBP, website, and top citations (see @sources/davidson-2026-factual-gv-gap.md).
 - **Keyword gap** — surface query terms early (service + city naturally, not stuffing).
 - **No comparisons** — "fade vs taper," "our shop vs walk-in chains" FAQ blocks where appropriate.
+- **Thin visual differentiation** — competitors may match prices and specs; @sources/arxiv-caption-injection-2511.04080-2026-06-08.md found multimodal caption injection lifts **uniqueness** most in G-EVAL tests `[TENTATIVE]`. Translate: describe distinctive visuals (kid chair, straight-razor station, parking, product wall) in alt text *and* adjacent prose on service/gallery pages.
 
 ### Deprioritize
 

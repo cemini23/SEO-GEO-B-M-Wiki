@@ -1,13 +1,23 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-04
+updated: 2026-06-08
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-08] ingest | Caption Injection multimodal G-SEO (1 arXiv)
+
+- **Source** — 2511.04080 Caption Injection: first multimodal G-SEO; O-A-S caption → refine → inject into page text; MRAMG benchmark; +1.12% G-EVAL vs +0.71% fluency in multimodal sim; uniqueness dimension lift largest
+- **New** — @sources/arxiv-caption-injection-2511.04080-2026-06-08.md
+- **Updated** — @concepts/generative-engine-optimization.md (multimodal subsection + playbook step 8b), @concepts/competitive-geo-citation-factors.md (uniqueness/visual differentiation), @concepts/content-strategy-local.md (gallery caption pattern), @concepts/on-page-seo-local.md (caption injection under Image SEO), @concepts/google-business-profile.md (GBP ↔ website visual mirror), @concepts/federated-daily-research-digest.md, @sources/aggarwal-2024-geo-paper.md (MRAMG replication caveat), @wiki/index.md
+- **PDF** → `raw-sources/`; inbox cleared
+- **Operator note** — absolute lifts modest; local pages untested `[NEEDS VERIFICATION 2026-06-08]`; do not replace Aggarwal fluency/statistics/quotation stack
+
+## [2026-06-07] style-pass | Posts.docx K103 | 5 long-forms | authors: @eng_khairallah1, @smaaaliy, @zeuuss_01, @BimbaCrypto, @RitOnchain
 
 ## [2026-06-06] smoke-test | AI Text Humanizer — NO-GO for marketing workflow
 

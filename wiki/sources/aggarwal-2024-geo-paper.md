@@ -11,10 +11,11 @@ related:
   - sources/vishwakarma-2026-competitive-geo-sigir.md
   - concepts/competitive-geo-citation-factors.md
   - concepts/citation-verification-aeo.md
+  - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -26,6 +27,7 @@ updated: 2026-06-06
 - @sources/vishwakarma-2026-competitive-geo-sigir.md — SIGIR '26 competitive citation preference
 - @concepts/competitive-geo-citation-factors.md
 - @concepts/citation-verification-aeo.md — visibility vs claim–source accuracy
+- @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — replicates Aggarwal baselines on MRAMG; statistics/quotation underperformed in that benchmark (domain-alignment caveat)
 
 ## Raw Concept
 

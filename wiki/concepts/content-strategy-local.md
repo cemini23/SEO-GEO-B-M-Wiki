@@ -15,9 +15,10 @@ related:
   - concepts/adaptive-rag-internal-linking-geo.md
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
   - entities/tools/ai-text-humanizer-app.md
+  - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -31,6 +32,7 @@ updated: 2026-06-06
 - @sources/vishwakarma-2026-competitive-geo-sigir.md
 - @concepts/competitive-geo-citation-factors.md
 - @concepts/first-90-days-playbook.md
+- @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — multimodal caption injection for gallery/style-guide posts
 
 ## Raw Concept
 
@@ -48,6 +50,16 @@ Content categories that work for barbershops:
 4. **Local content** — "Best post-cut food spots in [CITY]." Local-relevance signal + neighborhood backlinking opportunity.
 5. **Team / barber spotlights** — bios, specialties, IG handles. E-E-A-T signal.
 6. **Before/after gallery posts** — same content as IG, optimized for the website's image + alt-text + schema.
+
+### Image captions for multimodal GEO `[TENTATIVE]`
+
+@sources/arxiv-caption-injection-2511.04080-2026-06-08.md — generative search engines with multimodal retrieval benefit when **visual semantics appear in text**, not only in alt attributes. Pattern for gallery and style-guide posts:
+
+1. **Alt text** — factual object–action–scene description (see @concepts/on-page-seo-local.md).
+2. **Adjacent prose** — one sentence below or beside the image weaving the same detail into the paragraph (e.g., "Our east-side station includes a dedicated kid-height chair and wheelchair-accessible wash basin — visible in the photo above.").
+3. **Do not duplicate keyword-stuffed alt + body** — one natural injection point per image; avoid repeating the same phrase three times.
+
+Highest expected value on pages where competitors show generic stock interiors but the shop has distinctive visuals. Re-validate with engine citation tests `[NEEDS VERIFICATION 2026-06-08]`.
 
 Cadence: low. A barbershop content blog doesn't need weekly publishing. 1-2 quality posts a month with proper schema and real photos beats weekly AI-spun content. The 2024 Helpful Content Update specifically penalized low-effort high-volume content.
 

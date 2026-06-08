@@ -11,9 +11,11 @@ related:
   - sweeps/2026-06-04-daily.md
   - sweeps/2026-06-05-daily.md
   - sweeps/2026-06-06-daily.md
+  - sweeps/2026-06-07-daily.md
+  - sweeps/2026-06-08-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -24,6 +26,8 @@ updated: 2026-06-06
 - @sweeps/2026-06-04-daily.md — fourth run; 2 GEO arXiv PDFs ingested (MEMENTO + SCORE)
 - @sweeps/2026-06-05-daily.md — fifth run; adaptive RAG + WebKnoGraph (deep-pass complete)
 - @sweeps/2026-06-06-daily.md — sixth run; Med-V1 evidence attribution ingested
+- @sweeps/2026-06-07-daily.md — seventh run; empty inbox (dupes only)
+- @sweeps/2026-06-08-daily.md — eighth run; Caption Injection 2511.04080 ingested
 
 ## Raw Concept
 

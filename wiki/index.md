@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 # Wiki Index
@@ -32,6 +32,7 @@ If you're new to this wiki:
 - [arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05](sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md) — adaptive RAG routing: decomposition vs reflection tradeoffs (2026-06-05 digest; deep-read)
 - [arxiv-webknograph-internal-linking-2606.06106-2026-06-05](sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md) — WebKnoGraph: GNN internal-link pre-deploy evaluation (2026-06-05 digest; deep-read)
 - [arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06](sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md) — Med-V1: LLM citation hallucination rates under citation formats (2026-06-06 digest)
+- [arxiv-caption-injection-2511.04080-2026-06-08](sources/arxiv-caption-injection-2511.04080-2026-06-08.md) — Caption Injection: first multimodal G-SEO; image captions woven into text (+1.12% G-EVAL in MRAG sim) (2026-06-08 digest)
 
 ### Audits + evaluations
 
