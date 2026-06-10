@@ -14,9 +14,10 @@ related:
   - concepts/adaptive-rag-internal-linking-geo.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-06-daily.md
+  - concepts/geo-visibility-measurement.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-10
 ---
 
 ## Relations
@@ -31,6 +32,7 @@ updated: 2026-06-06
 - @concepts/adaptive-rag-internal-linking-geo.md — reflection routing for high-stakes publishes
 - @concepts/federated-daily-research-digest.md — 2026-06-06 digest ingest
 - @sweeps/2026-06-06-daily.md — K101 overnight fetch
+- @concepts/geo-visibility-measurement.md — citation share noise vs claim–source accuracy
 
 ## Raw Concept
 

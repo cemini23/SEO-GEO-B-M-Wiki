@@ -13,9 +13,11 @@ related:
   - sweeps/2026-06-06-daily.md
   - sweeps/2026-06-07-daily.md
   - sweeps/2026-06-08-daily.md
+  - sweeps/2026-06-09-daily.md
+  - sweeps/2026-06-10-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 ## Relations
@@ -28,6 +30,8 @@ updated: 2026-06-08
 - @sweeps/2026-06-06-daily.md — sixth run; Med-V1 evidence attribution ingested
 - @sweeps/2026-06-07-daily.md — seventh run; empty inbox (dupes only)
 - @sweeps/2026-06-08-daily.md — eighth run; Caption Injection 2511.04080 ingested
+- @sweeps/2026-06-09-daily.md — ninth run; empty inbox (dupes only)
+- @sweeps/2026-06-10-daily.md — tenth run; Sielinski + Hu arXiv ingested
 
 ## Raw Concept
 

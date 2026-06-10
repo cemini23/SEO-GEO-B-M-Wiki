@@ -1,13 +1,40 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-08
+updated: 2026-06-10
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-10] ingest | AI visibility uncertainty + LLM search manipulation game theory (2 arXiv)
+
+- **Sources** — 2603.08924 Sielinski (IQRush): citation visibility as stochastic estimators; bootstrap CI; platform sample-size targets; critique of GEO-BENCH without uncertainty. 2501.00745 Hu (ASU): ranking manipulation as Infinitely Repeated Prisoners' Dilemma; non-monotonic attack success; futile defense regions.
+- **New** — @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md, @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md, @concepts/geo-visibility-measurement.md
+- **Updated** — @concepts/generative-engine-optimization.md (uncertainty bands + adversarial dynamics subsections; step 7 repeated sampling), @sources/aggarwal-2024-geo-paper.md (CI gap in GEO-BENCH), @concepts/competitive-geo-citation-factors.md, @entities/tools/local-falcon.md (SAIV noise floor), @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **PDFs** → `raw-sources/`; inbox cleared
+- **Operator note** — local near-me queries untested `[NEEDS VERIFICATION 2026-06-10]`; SearchGPT may need >200 queries for stable share CI; do not attribute Aggarwal-scale lifts without pre/post bootstrap CIs
+
+## [2026-06-09] style-pass | Posts.docx K108 | OSINT ingest
+
+- **Batch** — @osint-wiki/sources/trading-posts-compilation-8-2026-06-09.md (6 posts)
+- **Updated** — @concepts/x-account-voice-and-format.md (exemplars: @GodEyeDotFun, @raulvk, @Av1dlive, @0x_rody, @ArrakisFinance)
+- **Formatting** — @Av1dlive THE HIVE docx has line-per-sentence breaks — merge before Article paste
+
+## [2026-06-09] style-pass | Posts.docx K107 | OSINT ingest
+
+- **Batch** — @osint-wiki/sources/trading-posts-compilation-7-2026-06-09.md (17 posts)
+- **Updated** — @concepts/x-account-voice-and-format.md (exemplars: @PawelHuryn dynamic workflows, @cyrilXBT skills course, @Zephyr_hg Gmail MCP)
+- **Steal** — workflow-as-code orchestrator pattern; Skills Purpose/Trigger template
+- **Avoid** — @igor_mikerin referral-first PM posts; @maqxbt unverified Polystrat stats without primary source
+
+## [2026-06-08] style-pass | Posts.docx K106 | OSINT ingest
+
+- **Batch** — @osint-wiki/sources/trading-posts-compilation-6-2026-06-08.md (6 posts)
+- **Updated** — @concepts/x-account-voice-and-format.md (exemplars: @whydeso, @RuujSs, @Zephyr_hg n8n, @AlphaCartell DexScreener MCP)
+- **Article beats** — none new (n8n machine = SEO workflow lane only)
 
 ## [2026-06-08] ingest | Caption Injection multimodal G-SEO (1 arXiv)
 

@@ -46,12 +46,16 @@ related:
   - entities/tools/ai-text-humanizer-app.md
   - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
   - sweeps/2026-06-08-daily.md
+  - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
+  - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
+  - concepts/geo-visibility-measurement.md
+  - sweeps/2026-06-10-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 ## Relations
@@ -99,6 +103,35 @@ updated: 2026-06-08
 - @sweeps/2026-06-06-daily.md — K101 Med-V1 digest ingest
 - @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — multimodal G-SEO via image-caption injection (K102 digest)
 - @sweeps/2026-06-08-daily.md — overnight fetch
+- @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md — bootstrap CI / sample-size noise floor (K103 digest)
+- @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md — game-theoretic ranking manipulation dynamics (K103 digest)
+- @concepts/geo-visibility-measurement.md — operator measurement playbook
+- @sweeps/2026-06-10-daily.md — overnight fetch
+
+### AI visibility measurement — uncertainty bands [CONFIRMED in consumer-product study]
+
+@sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md (IQRush, arXiv 2603.08924): citation share, prevalence, and count from a **single batch of queries are sample estimators**, not ground truth. Generative engines are non-deterministic; repeated identical queries cite different sources by design.
+
+**Operator rules:**
+
+- Report visibility as **point estimate ± 95% bootstrap CI** (response-level resampling). See @concepts/geo-visibility-measurement.md for sample-size targets.
+- Differences **<5–7 percentage points** in citation share are often **statistically indistinguishable** (overlapping CIs) — norm across Perplexity, SearchGPT, Gemini in Sielinski's consumer topics.
+- **GEO intervention tests** (Aggarwal-style content edits) need repeated pre/post sampling; a SearchGPT share move from 8% → 11% can sit entirely inside the noise floor without CIs on both measurements.
+- **Platform-specific n**: Gemini ~30–50 queries for ~0.05 CI width on share; Perplexity ~90–100; SearchGPT often **>200** and non-convergent for some topics — do not copy Gemini sample sizes to ChatGPT browsing.
+- Commercial AI visibility scores (@entities/tools/local-falcon.md SAIV, agency dashboards) are directional unless vendor publishes uncertainty methodology.
+
+Local "near me" queries not in study `[NEEDS VERIFICATION 2026-06-10]`.
+
+### Adversarial dynamics — ranking manipulation game theory [TENTATIVE for operators]
+
+@sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md (ASU, arXiv 2501.00745): models GEO-style **ranking manipulation** as an Infinitely Repeated Prisoners' Dilemma among content providers. Unlike classical SEO (per-document similarity), manipulated documents in a shared RAG prompt can **cascade** — one crafted page shifts how the LLM reads other retrieved pages.
+
+**Implications for legitimate operators:**
+
+- **Do not use blackhat GEO** (hidden instructions, prompt injection in pages) — game theory predicts escalation, mutual-defection market degradation, and platform countermeasures; wiki hands-on rules already forbid policy-violating tactics.
+- **Partial defenses may fail** — platforms cannot rely only on capping attack success rate *p*; "futile defense regions" exist where lowering *p* locally **increases** attacker payoff. Expect joint economic + reputation deterrence, not pure detection.
+- **Heterogeneous competition** — stability is set by the player with the strongest defection incentive; tiered scrutiny on large directory publishers matters more than uniform rules.
+- Legitimate path unchanged: cooperative signals from @concepts/competitive-geo-citation-factors.md + Aggarwal fluency/statistics/quotation stack.
 
 ### Multimodal G-SEO — caption injection [TENTATIVE]
 
@@ -231,7 +264,7 @@ In rough priority order:
 4. Publish FAQ-format content answering real questions: "what's the difference between a fade and a taper," "do I need an appointment," "how often should I get my hair cut," "what should I tip a barber." See @concepts/content-strategy-local.md.
 5. Encourage real review text (not just star ratings) — the text is what gets parsed for sentiment summaries.
 6. Pursue legitimate third-party mentions: be in 2-3 high-trust local directories, be mentioned in any local-newsletter / community-blog opportunity that arises.
-7. Periodically *test* citations: query each major engine with the realistic queries a customer would use ("best barbershop in [CITY, ST]," "barber [city] fade," "[shop name] reviews"), capture the answers, note whether the shop is mentioned and whether the mention is accurate. **Verify claim–source alignment** when engines cite URLs — open the cited page and check whether it supports the attributed statement (@concepts/citation-verification-aeo.md). This is the core measurement loop.
+7. Periodically *test* citations with **repeated sampling + uncertainty**: run the realistic customer query set on **≥3 separate days** (or n≈90–100+ per engine for share precision — see @concepts/geo-visibility-measurement.md), capture cited URLs, compute citation share/prevalence with **95% bootstrap CIs**, and only claim beat-a-competitor when CIs do not overlap. **Verify claim–source alignment** when engines cite URLs (@concepts/citation-verification-aeo.md). Single-run spot checks are useful for accuracy bugs but not for ranking competitors on visibility.
 8. **Apply Aggarwal's top-3 methods** to the homepage + each location page: rewrite for fluency (concise, varied sentences — use @entities/tools/marketingskills.md or a Claude edit pass; **do not** use @entities/tools/ai-text-humanizer-app.md — smoke-tested NO-GO for local copy), insert relevant statistics (review count, years in business, neighborhood-tenure, customer-volume metrics), add quotations (from real customer reviews — paraphrased as a "what customers say" block — *not* fabricated). For long-form content, the conditional-GO @entities/tools/seomachine.md is the option once content marketing is in scope.
 8b. **Caption injection on image-rich pages** `[TENTATIVE]` — for gallery, team, and service pages with photos: write alt text, then add one adjacent sentence weaving the visual detail into body copy (object–action–scene). @sources/arxiv-caption-injection-2511.04080-2026-06-08.md found multimodal gains primarily on uniqueness; test on real engines before prioritizing over steps 1–7.
 9. **Run citability audits with @entities/tools/geo-seo-claude.md**: this Claude Code skill specifically scores a URL's GEO-readiness (citability scoring, schema validation, AI-crawler accessibility). Treat the score as heuristic — the ground truth is the actual citation behavior of each engine — but the audits flag concrete gaps to fix.

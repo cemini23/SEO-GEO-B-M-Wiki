@@ -9,9 +9,11 @@ related:
   - entities/tools/google-search-console.md
 
   - concepts/generative-engine-optimization.md
+  - concepts/geo-visibility-measurement.md
+  - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-06-10
 
 ---
 
@@ -23,8 +25,9 @@ updated: 2026-05-08
 - @concepts/first-90-days-playbook.md
 - @concepts/competitor-analysis-local.md
 - @entities/tools/google-search-console.md
-- @log.md
-
+- @concepts/generative-engine-optimization.md
+- @concepts/geo-visibility-measurement.md — bootstrap CI / sample-size requirements for AI visibility metrics
+- @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md — single-run citation metrics are noisy
 
 ## Raw Concept
 
@@ -79,7 +82,7 @@ Add-ons:
 ### 2024-2025 product additions
 
 - **Falcon AI** (2024) — adds an AI-generated written analysis of each scan: which competitors gained, where the listing is weak, recommended actions. 25 credits per report. Useful for delivering reports to a non-technical client; less useful for an operator running their own scans (the heatmap itself is already informative).
-- **AI Visibility Tracking** (2025) — tracks mentions in Google AI Overviews and (per current marketing copy) Grok / xAI AI surfaces, with a "Search AI Visibility" (SAIV) metric and geo-grid visuals. This is one of the first commercial tools attempting AI-engine citation tracking; treat the metric as directional rather than authoritative. Relates to @concepts/generative-engine-optimization.md.
+- **AI Visibility Tracking** (2025) — tracks mentions in Google AI Overviews and (per current marketing copy) Grok / xAI AI surfaces, with a "Search AI Visibility" (SAIV) metric and geo-grid visuals. This is one of the first commercial tools attempting AI-engine citation tracking; treat the metric as **directional rather than authoritative**. @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md shows citation-share CIs of 3–7 pp are common on production engines without repeated sampling — SAIV deltas below that band may be noise unless the product publishes sample size + uncertainty methodology. Operator playbook: @concepts/geo-visibility-measurement.md. Relates to @concepts/generative-engine-optimization.md.
 - **GSC Query Groups integration** (2025) — pulls grouped queries from @entities/tools/google-search-console.md to suggest scan targets based on which queries are actually driving impressions to the website.
 
 ### Phase-0 audit (per CLAUDE.md schema)

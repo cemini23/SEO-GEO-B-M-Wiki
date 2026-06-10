@@ -12,10 +12,13 @@ related:
   - concepts/competitive-geo-citation-factors.md
   - concepts/citation-verification-aeo.md
   - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
+  - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
+  - concepts/geo-visibility-measurement.md
+  - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 ## Relations
@@ -28,6 +31,9 @@ updated: 2026-06-08
 - @concepts/competitive-geo-citation-factors.md
 - @concepts/citation-verification-aeo.md — visibility vs claim–source accuracy
 - @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — replicates Aggarwal baselines on MRAMG; statistics/quotation underperformed in that benchmark (domain-alignment caveat)
+- @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md — GEO-BENCH lifts reported without CI; intervention attribution needs repeated sampling
+- @concepts/geo-visibility-measurement.md — operator playbook for validating Aggarwal-style lifts
+- @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md — cites Aggarwal as ranking-manipulation example in LLM search
 
 ## Raw Concept
 
@@ -132,6 +138,7 @@ This generalizes the lab findings to a real production engine.
 - Schema markup (JSON-LD) — the paper focuses on prose-level content edits; how `LocalBusiness` / `BarberShop` schema interacts with the measured methods is not in scope. See @concepts/schema-markup-local.md.
 - Engine-by-engine differences — only GPT-3.5-turbo (in-house GE) and Perplexity tested. Behavior on Google AI Overviews, Claude, Gemini may differ
 - Decay over time — whether visibility lifts persist across engine retraining is not measured
+- **Uncertainty quantification** — GEO-BENCH reports point-estimate visibility lifts without confidence intervals. @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md demonstrates that single-run citation-share noise (often 3–7 pp on SearchGPT) can exceed reported intervention deltas; pre/post GEO tests need bootstrap CIs on both baseline and post measurements (`[NEEDS VERIFICATION 2026-06-10]` on local queries)
 
 ## Snippets
 

@@ -12,9 +12,11 @@ related:
 
   - concepts/generative-engine-optimization.md
   - entities/platforms/bing-places.md
+  - concepts/geo-visibility-measurement.md
+  - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-06-10
 
 ---
 
@@ -27,8 +29,8 @@ updated: 2026-05-08
 - @concepts/schema-markup-local.md
 - @entities/tools/google-analytics-4.md
 - @entities/tools/local-falcon.md
-- @log.md
-
+- @concepts/geo-visibility-measurement.md — GSC AI visibility reports are point estimates; pair with repeated citation tests
+- @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md — single-run visibility metrics need bootstrap CIs
 
 ## Raw Concept
 

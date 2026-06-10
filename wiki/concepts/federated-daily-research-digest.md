@@ -27,9 +27,14 @@ related:
   - sweeps/2026-06-07-daily.md
   - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
   - sweeps/2026-06-08-daily.md
+  - sweeps/2026-06-09-daily.md
+  - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
+  - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
+  - concepts/geo-visibility-measurement.md
+  - sweeps/2026-06-10-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-08
+updated: 2026-06-10
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -52,6 +57,11 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sweeps/2026-06-07-daily.md — empty inbox (dupes only)
 - @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — 2026-06-08 ingest (Caption Injection multimodal G-SEO)
 - @sweeps/2026-06-08-daily.md — overnight fetch + Caption Injection ingest
+- @sweeps/2026-06-09-daily.md — empty inbox (dupes only)
+- @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md — 2026-06-10 ingest (AI visibility uncertainty)
+- @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md — 2026-06-10 ingest (LLM search manipulation game theory)
+- @concepts/geo-visibility-measurement.md — measurement playbook from Sielinski paper
+- @sweeps/2026-06-10-daily.md — overnight fetch + dual arXiv ingest
 
 ## Raw Concept
 

@@ -15,9 +15,12 @@ related:
   - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
   - concepts/citation-verification-aeo.md
   - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
+  - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
+  - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
+  - concepts/geo-visibility-measurement.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 ## Relations
@@ -32,6 +35,9 @@ updated: 2026-06-08
 - @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — post-citation hallucination rates
 - @concepts/citation-verification-aeo.md — verify claim–source alignment after winning citation
 - @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — uniqueness dimension lift from visual-caption injection
+- @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md — head-to-head citation comparisons need overlapping-CI check
+- @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md — manipulation cascades in shared RAG prompts; cooperative completeness vs defection
+- @concepts/geo-visibility-measurement.md — repeated sampling before declaring competitive citation wins
 
 ## Raw Concept
 
@@ -80,7 +86,8 @@ Significant in 4+ of 6 models — invest after baseline:
 2. Add or refresh **visible dates** on key pages after material edits.
 3. Ensure **service + location terms** appear in the first screen of copy for each money page.
 4. Close **spec gaps** competitors already expose (duration, booking path, parking, payment).
-5. Run the **citation test** from @concepts/generative-engine-optimization.md — note whether failure mode is retrieval vs content.
+5. Run the **citation test** from @concepts/generative-engine-optimization.md with **repeated sampling** (@concepts/geo-visibility-measurement.md) — note whether failure mode is retrieval vs content; do not declare a head-to-head citation win when share deltas are <5–7 pp without non-overlapping CIs.
+6. Assume **manipulation pressure** in competitive niches — @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md models ranking manipulation as a repeated game; stay on cooperative completeness signals, not blackhat GEO.
 
 ## Snippets
 

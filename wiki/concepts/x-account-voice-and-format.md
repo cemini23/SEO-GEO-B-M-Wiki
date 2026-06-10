@@ -23,6 +23,8 @@ related:
   - "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
   - sources/trading-posts-compilation-18-2026-06-04.md
   - "@osint-wiki/sources/trading-posts-compilation-19-2026-06-07.md"
+  - "@osint-wiki/sources/trading-posts-compilation-6-2026-06-08.md"
+  - "@osint-wiki/sources/trading-posts-compilation-8-2026-06-09.md"
   - concepts/cold-email-outbound-agency.md
   - concepts/obsidian-integration.md
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
@@ -30,7 +32,7 @@ related:
   - entities/tools/ai-text-humanizer-app.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-07
+updated: 2026-06-09
 ---
 
 ## Relations
@@ -201,6 +203,15 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | @smaaaliy | builder | X Article | TradingView can't do ms alerts | 10 Pyth Pro SaaS builds | Follow | **K103** — **OSINT/data lane**; honest fee caveats; monetization table per build |
 | @zeuuss_01 | educator | X thread | Hermes PM hype debunk | Fee math + break-even WR | Paper trade first | **K103** — **PM lane**; steal falsification not funnel links |
 | @BimbaCrypto | promo | X Article | Gambling → system | 10 PM strategies | Follow | **K103** — **avoid** hype stack; steal numbered strategy frame only |
+| @whydeso | builder | X Article | PM attention scarcity | 3 alert streams (trap/gap/move) | Subscribe tiers | **K106** — **OSINT lane**; steal monitoring-not-predictions ethics; verify $8k claim |
+| @RuujSs | educator | X Article | MM inventory pain | AS reservation + spread + 6 prod fixes | Bookmark | **K106** — **OSINT lane**; chapter rhythm + code blocks; pair with gr5 |
+| @Zephyr_hg | builder | X Article | Content throughput | n8n 4-job machine (research→schedule) | One weekend build | **K106** — **SEO steal:** machine vs hustle framing; merge paragraphs before paste |
+| @AlphaCartell | educator | X Article | Manual DEX research pain | Claude Desktop + DexScreener MCP | 15–30 min setup | **K106** — **CCC lane**; steal MCP config path; verify repo license |
+| @GodEyeDotFun | educator | X Article | WC emotion + volume | 10 numbered mistakes | Educational disclaimer | **K108** — **gambling/OSINT lane**; good paragraph discipline; steal numbered hygiene not promo |
+| @raulvk | builder | X Article | API fragmentation pain | Path namespace + 6 providers | Try omnifs CLI | **K108** — **CCC lane**; Plan 9 revival framing; code blocks for paths |
+| @Av1dlive | educator | X Article | Boris "write loops" quote | THE HIVE 3 tiers + Monday ramp | Build loops | **K108** — **CCC lane**; **broken paragraphs** in docx — merge before paste; verify Boris tips via primary |
+| @0x_rody | educator | X Article | Serial Claude wait pain | writer/reviewer/tester + /ship | 10-min setup | **K108** — **CCC lane**; YAML agent files as deliverable; extends K97 command catalog |
+| @ArrakisFinance | research | X Article | HL discovery claim | Hayashi–Yoshida 29-asset study | Read blog | **K108** — **OSINT lane**; number-led; charts referenced — cite methodology not CT quote |
 
 Update this table on each Posts.docx style pass.
 
