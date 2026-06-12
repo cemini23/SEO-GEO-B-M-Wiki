@@ -762,3 +762,4 @@ Full inventory and triage of every unprocessed brief in `briefs/`. 19 briefs, 19
 
 **Pages touched**: 7 created + index.md + log.md = 9. 19 briefs marked processed.
 style-pass | Posts.docx K88 | 42 posts (5 PM/HL deep-read) | authors: ScottyBeamIO, myttle_web3, DankoWeb3, cyrilXBT, Damir_Akaza
+style-pass | Posts.docx K112 | 8 long-forms | authors: Gustafssonkotte, horizon_trade_x, AlterEgo_eth, Arvin Shivram, Lutchyn13, 0xSurferX, zodchiii, akshay_pachaar

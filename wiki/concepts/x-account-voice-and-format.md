@@ -25,6 +25,7 @@ related:
   - "@osint-wiki/sources/trading-posts-compilation-19-2026-06-07.md"
   - "@osint-wiki/sources/trading-posts-compilation-6-2026-06-08.md"
   - "@osint-wiki/sources/trading-posts-compilation-8-2026-06-09.md"
+  - "@osint-wiki/sources/trading-posts-compilation-9-2026-06-12.md"
   - concepts/cold-email-outbound-agency.md
   - concepts/obsidian-integration.md
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
@@ -32,7 +33,7 @@ related:
   - entities/tools/ai-text-humanizer-app.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-09
+updated: 2026-06-12
 ---
 
 ## Relations
@@ -212,6 +213,16 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | @Av1dlive | educator | X Article | Boris "write loops" quote | THE HIVE 3 tiers + Monday ramp | Build loops | **K108** — **CCC lane**; **broken paragraphs** in docx — merge before paste; verify Boris tips via primary |
 | @0x_rody | educator | X Article | Serial Claude wait pain | writer/reviewer/tester + /ship | 10-min setup | **K108** — **CCC lane**; YAML agent files as deliverable; extends K97 command catalog |
 | @ArrakisFinance | research | X Article | HL discovery claim | Hayashi–Yoshida 29-asset study | Read blog | **K108** — **OSINT lane**; number-led; charts referenced — cite methodology not CT quote |
+| @Gustafssonkotte | builder | X Article | Log vs chain contradiction | 5-act PM cheat + reconciled measurements | None | **K112** — **OSINT lane**; **steal:** independent-judge hook; good paragraph discipline |
+| @horizon_trade_x | product | X Article | Strategy half-life decay | 4 weekly metrics + breach rules | DM waitlist | **K112 refresh** — extends K97; steal falsification ritual not Horizon CTA |
+| @AlterEgo_eth | builder | X Article | Simple bias correction ceiling | ReSA-ConvLSTM 5-part stack | Follow | **K112** — **OSINT lane**; **broken paragraphs** in docx; numbered architecture steal |
+| Arvin Shivram | researcher | X Article | AI fuzz at Google scale | Discovery docs + key harvest pipeline | None | **K112** — **cybersec lane**; story + numbers; skip bounty hype in our voice |
+| @Lutchyn13 | fan | X Article | WC time-passing emotion | 48-team format facts + legends arc | Follow (groups later) | **K112** — **gambling lane**; steal opener not picks |
+| @0xSurferX | builder | X Article | Obvious fixes still losing | CPU pin + hot-path bloat | Wallet proof | **K112** — **OSINT PM lane**; contrarian hook; verify PnL claims |
+| @zodchiii | educator | X Article | Claude agrees with everything | Honesty CLAUDE.md + @critic + contractor trick | Telegram | **K112** — **CCC lane**; **steal:** 5-min setup + paste-ready rules blocks |
+| @akshay_pachaar | educator | X Article | First-token latency quirk | KV cache Parts 1–4 | Follow | **K112** — **CCC/infra lane**; Part N educator scaffold |
+
+**K112 steal flags:** Gustafsson = dual-telemetry hook; zodchiii = contractor framing; akshay = Part N explainer; Lutchyn/Arvin/Surfer/AlterEgo routed to sibling wikis — exemplars only here.
 
 Update this table on each Posts.docx style pass.
 
@@ -231,6 +242,12 @@ Update this table on each Posts.docx style pass.
 
 > "A silent failure is worse than a loud one, nothing tells you it is broken."
 > — @Gustafssonkotte, K84 Posts.docx
+
+> "My bot's logs said it was winning 62.8% of its trades. The blockchain said it was losing money. Both numbers came from the same bot. Only one of them was real."
+> — @Gustafssonkotte, K112 Posts.docx
+
+> "A contractor proposed denormalizing the users table for speed. Review their proposal. What would you push back on?"
+> — @zodchiii, K112 Posts.docx (contractor framing trick)
 
 ## Dead Ends
 
