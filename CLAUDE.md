@@ -33,12 +33,12 @@ When the wiki refers to "GEO" without qualifier, default to **geographic SEO** u
 
 ## Architecture — three layers
 
-1. **Raw sources** — immutable. You read them, never modify them. Live locally in `raw-sources/` (gitignored — articles, screenshots, PDFs, repo snapshots).
+1. **Raw sources** — immutable. Canonical archive: `cemini-egress-fi:/opt/cemini-bulk/research/seo/` via OSINT `archive_raw_to_egress.sh`.
    - Articles, blog posts, video transcripts saved as `.md`
    - PDFs (e-books, vendor whitepapers, conference talks)
    - GitHub repos (cloned snapshots of FOSS local-SEO tools, schema generators, review-management scripts)
    - Screenshots of competitor GBP listings, search SERPs, Instagram profiles
-   - **Drop pattern**: drop new sources into `research to be indexed/` (transient drop zone). Ingest pipeline reads + synthesizes, then move to `raw-sources/`.
+   - **Drop pattern**: `research to be indexed/` → ingest → archive to egress-fi (local copy removed on success)
 
 2. **The wiki** — LLM-written, human-read. Lives in `wiki/`. Structured pages on platforms, tools, concepts, markets, and the operator's shops.
 
@@ -161,12 +161,9 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 - Bidirectional: if SEO:GEO page A references Image Gen page B, add a matching `@seo-wiki/...` backlink on page B
 - When creating a stub in another wiki, note the cross-wiki dependency in `## Relations`
 
-### Using the OSINT conductor/librarian for unified search
+### Using federation wikis for unified search
 
-The OSINT workspace includes a **conductor** (MCP server that routes queries) + **librarian** (kb-server that serves wikis). To query across all wikis:
-1. Sync all wikis to the librarian: `rsync -avz wiki/ cemini-librarian:/opt/cemini-wiki/seo-geo-wiki/wiki/`
-2. Run `kb ingest` on the librarian to reindex
-3. Use `conductor_query` tool (exposed via OSINT's `conductor/mcp_server.py`) to query across all wikis
+`cemini-librarian` kb-server **decommissioned 2026-06**. Query wikis via local Read/grep in each repo; cross-wiki routing uses `../../OSINT WORKSPACE/scripts/cross_wiki_route.py`. See `@osint-wiki/meta/librarian-decommission-2026-06-14.md`.
 
 ## Operations
 
@@ -185,7 +182,7 @@ The OSINT workspace includes a **conductor** (MCP server that routes queries) + 
    - If no page: create a stub. Real content accumulates over subsequent ingests
 6. Update `wiki/index.md` — add rows for new pages
 7. Append to `wiki/log.md`: `## [YYYY-MM-DD] ingest | <source title>` with bullets of what changed
-8. **Move raw source to `raw-sources/`**: `mv "research to be indexed/<filename>" raw-sources/`. Verify with `ls raw-sources/<filename>`
+8. **Archive raw to egress-fi**: `bash "../../OSINT WORKSPACE/scripts/archive_raw_to_egress.sh" --wiki-id seo "research to be indexed/<filename>"` — update source page `Location`
 9. Update `ROADMAP.md` if the ingest opens new follow-ups; stage briefs in `briefs/` if the ingest produced something actionable (e.g. a draft Instagram caption, a review-response template, a website-copy revision)
 10. A single ingest must touch 3-15 pages. If it touches 0 new pages, ask whether the source is worth ingesting
 
