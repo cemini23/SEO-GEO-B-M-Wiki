@@ -25,10 +25,11 @@ related:
   - sources/vishwakarma-2026-competitive-geo-sigir.md
   - concepts/competitive-geo-citation-factors.md
   - sources/davidson-2026-factual-gv-gap.md
+  - concepts/llm-reputation-signals-geo.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-01
+updated: 2026-06-16
 
 ---
 
@@ -52,6 +53,7 @@ updated: 2026-06-01
 - @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 7 Maps-gap outreach pattern
 - @sources/vishwakarma-2026-competitive-geo-sigir.md — explicit pricing gatekeeper for AI citations
 - @concepts/competitive-geo-citation-factors.md
+- @concepts/llm-reputation-signals-geo.md — price transparency for LLM selection stage
 
 ## Raw Concept
 

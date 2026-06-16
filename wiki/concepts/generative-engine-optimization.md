@@ -50,12 +50,19 @@ related:
   - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
   - concepts/geo-visibility-measurement.md
   - sweeps/2026-06-10-daily.md
+  - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
+  - sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md
+  - sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
+  - concepts/llm-reputation-signals-geo.md
+  - entities/tools/flowbank.md
+  - entities/tools/deeprubric-code.md
+  - sweeps/2026-06-16-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-10
+updated: 2026-06-16
 ---
 
 ## Relations
@@ -107,6 +114,13 @@ updated: 2026-06-10
 - @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md — game-theoretic ranking manipulation dynamics (K103 digest)
 - @concepts/geo-visibility-measurement.md — operator measurement playbook
 - @sweeps/2026-06-10-daily.md — overnight fetch
+- @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — causal reputation signals at LLM selection (K120 digest)
+- @sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md — agent workflow portfolio REFERENCE (K120)
+- @sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md — evidence-tree rubric REFERENCE (K120)
+- @concepts/llm-reputation-signals-geo.md — selection-stage reputation playbook
+- @entities/tools/flowbank.md — REFERENCE cross-wiki
+- @entities/tools/deeprubric-code.md — REFERENCE cross-wiki
+- @sweeps/2026-06-16-daily.md — overnight fetch
 
 ### AI visibility measurement — uncertainty bands [CONFIRMED in consumer-product study]
 
@@ -145,6 +159,17 @@ Local "near me" queries not in study `[NEEDS VERIFICATION 2026-06-10]`.
 - Absolute lifts are small (~1%); treat as experimental until citation tests on real engines confirm `[NEEDS VERIFICATION 2026-06-08]`.
 
 See also @concepts/on-page-seo-local.md (image SEO) and @concepts/content-strategy-local.md (before/after gallery pattern).
+
+### Reputation signals at selection — hotel conjoint audit [CONFIRMED in hotels; TENTATIVE local]
+
+@sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md (Baig et al., arXiv 2606.16344): pre-specified algorithm audit with randomized conjoint among five hotel cards across 12 LLMs. **Selection stage** (fixed candidate set) — reputation signals compete directly:
+
+- **Rating + price dominate** (+31.6 pp / −30.0 pp AMCE) — aligns with @concepts/competitive-geo-citation-factors.md price gatekeeper.
+- **Review volume** +8.3 pp; **recency** +1.6 pp.
+- **Management response ~0 pp** — deprioritize as GEO tactic; keep for human/GBP reasons (@concepts/reviews-reputation-management.md).
+- **List position** causal without content (−2.1 to −3.7 pp per slot) — retrieval rank still matters.
+
+Operator playbook: @concepts/llm-reputation-signals-geo.md; hands-on `briefs/2026-06-16_k120-geo-reputation-signal-audit-hands-on.md`. Barbershop queries untested `[NEEDS VERIFICATION 2026-06-16]`.
 
 ### Citation verification — claims vs sources [TENTATIVE]
 

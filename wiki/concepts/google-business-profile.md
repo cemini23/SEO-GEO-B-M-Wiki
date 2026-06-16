@@ -20,10 +20,12 @@ related:
   - concepts/federated-daily-research-digest.md
   - concepts/competitive-geo-citation-factors.md
   - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
+  - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
+  - concepts/llm-reputation-signals-geo.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-08
+updated: 2026-06-16
 
 ---
 
@@ -47,6 +49,8 @@ updated: 2026-06-08
 - @sources/trading-posts-compilation-20-2026-05-27.md — K69 Post 7 listings without websites
 - @concepts/federated-daily-research-digest.md — GBP policy/feature drift in daily digest queries
 - @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — website mirrors GBP visual semantics for multimodal GEO
+- @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — GBP star rating + review volume as LLM selection signals
+- @concepts/llm-reputation-signals-geo.md — reputation signal playbook
 
 
 ## Raw Concept

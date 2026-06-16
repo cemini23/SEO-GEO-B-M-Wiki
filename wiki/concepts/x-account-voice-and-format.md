@@ -26,6 +26,7 @@ related:
   - "@osint-wiki/sources/trading-posts-compilation-6-2026-06-08.md"
   - "@osint-wiki/sources/trading-posts-compilation-8-2026-06-09.md"
   - "@osint-wiki/sources/trading-posts-compilation-9-2026-06-12.md"
+  - concepts/devfun-tournament-s1-article-notes.md
   - concepts/cold-email-outbound-agency.md
   - concepts/obsidian-integration.md
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"

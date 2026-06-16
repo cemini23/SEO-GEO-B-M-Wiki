@@ -22,6 +22,8 @@ related:
   - concepts/citation-verification-aeo.md
   - concepts/citation-verification-aeo.md
   - sweeps/2026-06-06-daily.md
+  - sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md
+  - entities/tools/flowbank.md
 maturity: draft
 created: 2026-06-05
 updated: 2026-06-06

@@ -32,9 +32,16 @@ related:
   - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
   - concepts/geo-visibility-measurement.md
   - sweeps/2026-06-10-daily.md
+  - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
+  - sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md
+  - sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
+  - concepts/llm-reputation-signals-geo.md
+  - sweeps/2026-06-16-daily.md
+  - entities/tools/flowbank.md
+  - entities/tools/deeprubric-code.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-10
+updated: 2026-06-16
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -62,6 +69,11 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md — 2026-06-10 ingest (LLM search manipulation game theory)
 - @concepts/geo-visibility-measurement.md — measurement playbook from Sielinski paper
 - @sweeps/2026-06-10-daily.md — overnight fetch + dual arXiv ingest
+- @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — 2026-06-16 ingest (hotel reputation audit)
+- @sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md — 2026-06-16 ingest (FlowBank REFERENCE)
+- @sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md — 2026-06-16 ingest (DeepRubric REFERENCE)
+- @concepts/llm-reputation-signals-geo.md — K120 operator playbook
+- @sweeps/2026-06-16-daily.md — overnight fetch + K120 full ingest
 
 ## Raw Concept
 

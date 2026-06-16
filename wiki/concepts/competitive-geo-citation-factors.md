@@ -18,9 +18,12 @@ related:
   - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
   - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
   - concepts/geo-visibility-measurement.md
+  - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
+  - concepts/llm-reputation-signals-geo.md
+  - sweeps/2026-06-16-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-10
+updated: 2026-06-16
 ---
 
 ## Relations
@@ -38,6 +41,9 @@ updated: 2026-06-10
 - @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md — head-to-head citation comparisons need overlapping-CI check
 - @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md — manipulation cascades in shared RAG prompts; cooperative completeness vs defection
 - @concepts/geo-visibility-measurement.md — repeated sampling before declaring competitive citation wins
+- @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — causal reputation AMCEs at selection stage
+- @concepts/llm-reputation-signals-geo.md — operator reputation-signal playbook
+- @sweeps/2026-06-16-daily.md — K120 ingest
 
 ## Raw Concept
 
@@ -62,6 +68,20 @@ All six LLMs in the study treated these as near-binary eliminators:
 2. **Price not mentioned** — no explicit pricing when the query implies purchase/comparison. For barbershops: list service prices on the website and in structured service menus; avoid "contact us for pricing" on comparison-intent pages.
 3. **Stale timestamp** — old "last updated" vs recent competitor content. Refresh service pages, GBP posts, or visible "Updated [month year]" on key landing pages when hours/prices change.
 4. **List position** — source listed second in the injected pair loses heavily ("lost in the middle" + presentation-order bias). In production, retrieval rank and prompt order both matter; classical SEO still buys position in the candidate set.
+
+### Reputation gatekeepers — selection stage [CONFIRMED in hotel conjoint]
+
+@sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md (Baig et al., arXiv 2606.16344) isolates **selection among five fixed candidates** (post-retrieval). Pooled 12-model conjoint AMCEs:
+
+| Signal | AMCE | Gatekeeper read |
+|--------|------|-----------------|
+| Star rating | +31.6 pp | Dominant — fix before fine-tuning copy |
+| Price level | −30.0 pp | Dominant — matches Vishwakarma "price not mentioned" |
+| Review volume | +8.3 pp | Secondary — after rating floor |
+| Management response | +0.1 pp (null) | **Not a gatekeeper** for LLM selection |
+| List position | −2.1 to −3.7 pp/slot | Presentation order without content change |
+
+Full operator playbook: @concepts/llm-reputation-signals-geo.md. Local barbershop transfer `[NEEDS VERIFICATION 2026-06-16]`.
 
 ### Differentiators (after gatekeepers pass)
 

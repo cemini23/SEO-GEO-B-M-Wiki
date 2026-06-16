@@ -24,10 +24,12 @@ related:
   - entities/tools/marketingskills.md
   - concepts/high-ticket-smb-lead-generation.md
   - sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
+  - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
+  - concepts/llm-reputation-signals-geo.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-17
+updated: 2026-06-16
 
 ---
 
@@ -51,6 +53,8 @@ updated: 2026-05-17
 - @entities/tools/marketingskills.md
 - @concepts/high-ticket-smb-lead-generation.md
 - @sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
+- @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — LLM selection weights for rating/volume/response
+- @concepts/llm-reputation-signals-geo.md
 
 ## Raw Concept
 
@@ -75,6 +79,10 @@ Customer reviews are simultaneously a **ranking signal** for local pack placemen
 - ❌ **Filtering, gating, or hiding negatives** — even within the operator's own systems before public publication. Google's enforcement specifically targets the *practice* of selective solicitation, not just the technical mechanism.
 
 The wiki's `concepts/reviews-reputation-management.md` page is the primary reference for these boundaries.
+
+### LLM selection vs classical local SEO `[TENTATIVE]`
+
+@sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md (pre-registered conjoint, 12 LLMs, >60k calls): at the **selection** stage among comparable candidates, **star rating (+31.6 pp)** and **review volume (+8.3 pp)** move recommendations causally; **visible management response (+0.1 pp)** does not. Continue responding to reviews for human trust, GBP engagement, and policy compliance — but **do not prioritize response-rate KPIs as a GEO visibility tactic** without your own repeated assistant tests `[NEEDS VERIFICATION 2026-06-16]` on barbershop queries. See @concepts/llm-reputation-signals-geo.md.
 
 ### Monitoring
 

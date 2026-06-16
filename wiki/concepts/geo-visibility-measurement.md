@@ -13,9 +13,12 @@ related:
   - concepts/citation-verification-aeo.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-10-daily.md
+  - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
+  - concepts/llm-reputation-signals-geo.md
+  - sweeps/2026-06-16-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-16
 ---
 
 ## Relations
@@ -29,6 +32,9 @@ updated: 2026-06-10
 - @concepts/citation-verification-aeo.md — accuracy after citation; orthogonal to share measurement noise
 - @concepts/federated-daily-research-digest.md — K103 digest ingest routing
 - @sweeps/2026-06-10-daily.md — overnight fetch + ingest
+- @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — pre-registered conjoint audit methodology
+- @concepts/llm-reputation-signals-geo.md — reputation signal playbook
+- @sweeps/2026-06-16-daily.md — K120 ingest
 
 ## Raw Concept
 
@@ -91,6 +97,17 @@ For **citation prevalence**, target CI width **0.15** (higher because prevalence
 - Infrequently cited domains (zero-inflated counts) — open methodology gap in Sielinski §10.
 - B2B, navigational, local "near me" queries — not in study scope.
 - Nine-day window only — seasonal/platform updates not captured.
+
+### Pre-registered conjoint audits [STEAL from Baig 2026]
+
+@sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md: gold-standard **algorithm audit** design for operator competitive tests:
+
+1. **Pre-specify** hypotheses + analysis plan before data collection (paper used cryptographic hash).
+2. **Randomize** attribute levels independently (rating, price, volume, position, …) across card sets.
+3. **Estimate AMCEs** on recommendation probability — causal, not correlational SERP scraping.
+4. **Robustness** — repeat across prompt templates and model panel; report heterogeneity.
+
+Operator mini-version: 3–5 anonymized competitor cards, 3 personas, 3 prompt templates, 3 engines × 3 days — still noisy at small n but better than one-shot "ask ChatGPT who is best." Template: `briefs/2026-06-16_k120-geo-reputation-signal-audit-hands-on.md`.
 
 ## Snippets
 

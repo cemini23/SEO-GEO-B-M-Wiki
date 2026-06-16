@@ -12,10 +12,11 @@ related:
   - sweeps/2026-06-04-daily.md
   - concepts/adaptive-rag-internal-linking-geo.md
   - sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md
+  - sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-04
-updated: 2026-06-05
+updated: 2026-06-16
 ---
 
 ## Relations

@@ -15,6 +15,8 @@ related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-06-daily.md
   - concepts/geo-visibility-measurement.md
+  - sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
+  - entities/tools/deeprubric-code.md
 maturity: draft
 created: 2026-06-06
 updated: 2026-06-10

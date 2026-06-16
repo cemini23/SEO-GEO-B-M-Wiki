@@ -1,13 +1,31 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-10
+updated: 2026-06-16
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-16] ingest | K120 daily digest — 3 arXiv full ingest
+
+- **Sources** — arXiv 2606.16344 (Baig hotel LLM reputation conjoint); 2606.11290 (FlowBank); 2606.17029 (DeepRubric)
+- **New** — @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md, @sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md, @sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md, @concepts/llm-reputation-signals-geo.md, @entities/tools/flowbank.md, @entities/tools/deeprubric-code.md
+- **Updated** — @concepts/generative-engine-optimization.md, @concepts/competitive-geo-citation-factors.md, @concepts/reviews-reputation-management.md, @concepts/geo-visibility-measurement.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k120_phase0.sh` (DeepRubric Apache-2.0 REFERENCE; FlowBank project-page REFERENCE; hotel audit no code)
+- **Briefs (3)** — hands-on reputation-signal audit; FlowBank conductor prod handoff; DeepRubric CCC wiki-ingest handoff → **prod scp (1):** FlowBank conductor brief
+- **Cross-wiki** — CCC stubs: agent-workflow-portfolio-optimization, evidence-tree-rubric-supervision, tool entities
+- **PDFs** → `raw-sources/` + egress-fi archive; inbox cleared
+- **Operator note** — management response null at LLM selection; prioritize rating + price + volume `[NEEDS VERIFICATION 2026-06-16]` on barbershop queries
+
+## [2026-06-16] cross-wiki handoff | dev.fun Tournament S1 Article brief
+
+- **Brief** — `briefs/2026-06-16_devfun-tournament-s1-article-handoff.md` (full data pack: hero stats, top-5 field, loss attribution, Article beats)
+- **Stub** — @concepts/devfun-tournament-s1-article-notes.md (queue + hook)
+- **Source** — @osint-wiki/agents/devfun-poker-arena/briefs/2026-06-12_why-cemini-last-s1.md + S1 export on `cemini-prod`
+- **Lane** — X Article: prediction markets + agent OSS; Playground #1 → Tournament bust narrative
 
 ## [2026-06-10] ingest | AI visibility uncertainty + LLM search manipulation game theory (2 arXiv)
 

@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-08
+updated: 2026-06-16
 ---
 
 # Wiki Index
@@ -35,6 +35,9 @@ If you're new to this wiki:
 - [arxiv-caption-injection-2511.04080-2026-06-08](sources/arxiv-caption-injection-2511.04080-2026-06-08.md) — Caption Injection: first multimodal G-SEO; image captions woven into text (+1.12% G-EVAL in MRAG sim) (2026-06-08 digest)
 - [arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10](sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md) — AI visibility measurement: bootstrap CI, citation-share noise floor 5–7 pp (2026-06-10 digest)
 - [arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10](sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md) — LLM search ranking manipulation as repeated game; futile defense regions (2026-06-10 digest)
+- [arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16](sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md) — LLM hotel selection conjoint; reputation AMCEs (2026-06-16 digest)
+- [arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16](sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md) — FlowBank workflow portfolio REFERENCE (2026-06-16 digest)
+- [arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16](sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md) — DeepRubric evidence-tree rubrics REFERENCE (2026-06-16 digest)
 
 ### Audits + evaluations
 
@@ -88,6 +91,7 @@ If you're new to this wiki:
 - [citation-verification-aeo](concepts/citation-verification-aeo.md) — claim–source verification loop; Med-V1 hallucination evidence
 - [competitive-geo-citation-factors](concepts/competitive-geo-citation-factors.md) — SIGIR '26 gatekeeper/differentiator checklist for winning first AI citation
 - [geo-visibility-measurement](concepts/geo-visibility-measurement.md) — repeated sampling + bootstrap CI for AI citation share/prevalence (Sielinski 2026)
+- [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [google-business-profile](concepts/google-business-profile.md) — GBP optimization playbook (concept side); listing setup, categories, services, posts, photos
 - [local-seo-foundations](concepts/local-seo-foundations.md) — main local-SEO hub: NAP, GBP, reviews, on-page, local pack, behavioral signals
 - [near-me-search](concepts/near-me-search.md) — implicit-location query behavior; Relevance/Distance/Prominence; voice search; grid-based ranking
@@ -204,6 +208,8 @@ If you're new to this wiki:
 - [notfair-toprank](entities/tools/notfair-toprank.md) — nowork-studio NotFair MIT plugin; GSC + Google/Meta Ads + SEO diagnostics (Adopt-eligible, K71)
 - [goaccess](entities/tools/goaccess.md) — MIT real-time server log analyzer; Adopt-eligible complement to GA4 (K90 + K93)
 - [ai-text-humanizer-app](entities/tools/ai-text-humanizer-app.md) — MIT Streamlit academicizer; **NO-GO** for local marketing (smoke-tested 2026-06-06)
+- [deeprubric-code](entities/tools/deeprubric-code.md) — Apache-2.0 deep-research RL rubric pipeline; REFERENCE for wiki ingest QA (K120)
+- [flowbank](entities/tools/flowbank.md) — agentic workflow portfolio optimizer; REFERENCE for conductor routing (K120)
 - [claude-ads](entities/tools/claude-ads.md) — AgriciDaniel paid-media audit skill 250+ checks (Defer — security issues open, K71; K90 feature fit only)
 - [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes
 - [pm-claude-skills](entities/tools/pm-claude-skills.md) — 106 SKILL.md files; marketing-analysis + Figma-template-generation workflows

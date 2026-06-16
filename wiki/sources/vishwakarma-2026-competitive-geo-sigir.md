@@ -13,10 +13,12 @@ related:
   - sources/bespoke-2025-search-augmented-personalization-benchmark.md
   - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
   - concepts/citation-verification-aeo.md
+  - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
+  - concepts/llm-reputation-signals-geo.md
 maturity: validated
 read_status: deep-read
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-16
 ---
 
 ## Relations
