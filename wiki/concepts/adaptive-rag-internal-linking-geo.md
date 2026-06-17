@@ -24,9 +24,12 @@ related:
   - sweeps/2026-06-06-daily.md
   - sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md
   - entities/tools/flowbank.md
+  - sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md
+  - entities/tools/wikikv.md
+  - sweeps/2026-06-17-daily.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-06-06
+updated: 2026-06-17
 ---
 
 ## Relations
@@ -46,6 +49,8 @@ updated: 2026-06-06
 - @concepts/obsidian-integration.md — structured corpus + metadata for agentic retrieval
 - @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — high-stakes publish verification routing
 - @concepts/citation-verification-aeo.md — reflection-before-publish analog
+- @sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md — hierarchical NAV(q,B) vs flat chunk RAG
+- @entities/tools/wikikv.md — path-indexed wiki storage REFERENCE
 
 ## Raw Concept
 

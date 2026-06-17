@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-16
+updated: 2026-06-17
 ---
 
 # Wiki Index
@@ -38,6 +38,7 @@ If you're new to this wiki:
 - [arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16](sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md) — LLM hotel selection conjoint; reputation AMCEs (2026-06-16 digest)
 - [arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16](sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md) — FlowBank workflow portfolio REFERENCE (2026-06-16 digest)
 - [arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16](sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md) — DeepRubric evidence-tree rubrics REFERENCE (2026-06-16 digest)
+- [arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17](sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md) — WikiKV path-indexed hierarchical wiki storage REFERENCE (2026-06-17 digest)
 
 ### Audits + evaluations
 
@@ -210,6 +211,7 @@ If you're new to this wiki:
 - [ai-text-humanizer-app](entities/tools/ai-text-humanizer-app.md) — MIT Streamlit academicizer; **NO-GO** for local marketing (smoke-tested 2026-06-06)
 - [deeprubric-code](entities/tools/deeprubric-code.md) — Apache-2.0 deep-research RL rubric pipeline; REFERENCE for wiki ingest QA (K120)
 - [flowbank](entities/tools/flowbank.md) — agentic workflow portfolio optimizer; REFERENCE for conductor routing (K120)
+- [wikikv](entities/tools/wikikv.md) — hierarchical path-indexed wiki KV; REFERENCE for federation navigation (K121)
 - [claude-ads](entities/tools/claude-ads.md) — AgriciDaniel paid-media audit skill 250+ checks (Defer — security issues open, K71; K90 feature fit only)
 - [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes
 - [pm-claude-skills](entities/tools/pm-claude-skills.md) — 106 SKILL.md files; marketing-analysis + Figma-template-generation workflows

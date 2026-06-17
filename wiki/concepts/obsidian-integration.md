@@ -15,9 +15,11 @@ related:
   - concepts/federated-daily-research-digest.md
   - concepts/adaptive-rag-internal-linking-geo.md
   - sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md
+  - sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md
+  - entities/tools/wikikv.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-06-05
+updated: 2026-06-17
 ---
 
 ## Relations
@@ -31,6 +33,8 @@ updated: 2026-06-05
 - @concepts/x-account-voice-and-format.md — Cyril Article style reference; Obsidian read layer vs git canonical
 - @concepts/x-article-3-notes.md — Article #3 differentiates git CI from Obsidian PKM guides
 - @concepts/federated-daily-research-digest.md — sweep markdown + inbox triage alongside vault reading
+- @sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md — hierarchical wiki navigation substrate (REFERENCE)
+- @entities/tools/wikikv.md — path-indexed wiki storage pattern; git wiki stays canonical
 
 ## Raw Concept
 
@@ -151,6 +155,21 @@ K72 Posts 7 (@JulianGoldieSEO) and 21 (@zeuuss_01, via @sources/trading-posts-co
 ### K73 workflow note [TENTATIVE]
 
 K73 (via @sources/trading-posts-compilation-38-2026-05-28.md) reinforces the same direction: Obsidian + Claude as an editorial-coherence loop. No direct local-ranking mechanism was validated in that batch, so this remains a workflow reference rather than a ranking tactic.
+
+### Hierarchical wiki navigation — WikiKV pattern [REFERENCE]
+
+@sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md (Tencent WikiKV, arXiv 2606.14275): production systems compile corpora into **tree-structured wikis** and answer queries by **navigating paths** (Index → Dimension → Entity → Digest → Document), not flat chunk RAG alone.
+
+**Federation steal (post-librarian-decommission):**
+
+| WikiKV operator | This repo analog |
+|-----------------|------------------|
+| `GET(/concepts/geo)` | Read `wiki/concepts/generative-engine-optimization.md` |
+| `LS(/concepts)` | `wiki/index.md` + folder listing |
+| `NAV(q, budget)` | Session ritual: `index.md` → hub concept → `related:` edges |
+| Error Book | `wiki/log.md` corrections across ingests |
+
+Git `wiki/` stays **canonical**; Obsidian vault is the read/graph layer. No WikiKV install — no public code `[REFERENCE]`.
 
 ## Snippets
 

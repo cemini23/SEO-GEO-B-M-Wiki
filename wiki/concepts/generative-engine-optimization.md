@@ -57,6 +57,9 @@ related:
   - entities/tools/flowbank.md
   - entities/tools/deeprubric-code.md
   - sweeps/2026-06-16-daily.md
+  - sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md
+  - entities/tools/wikikv.md
+  - sweeps/2026-06-17-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -121,6 +124,9 @@ updated: 2026-06-16
 - @entities/tools/flowbank.md — REFERENCE cross-wiki
 - @entities/tools/deeprubric-code.md — REFERENCE cross-wiki
 - @sweeps/2026-06-16-daily.md — overnight fetch
+- @sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md — hierarchical wiki NAV vs flat RAG (K121)
+- @entities/tools/wikikv.md — REFERENCE cross-wiki
+- @sweeps/2026-06-17-daily.md — overnight fetch
 
 ### AI visibility measurement — uncertainty bands [CONFIRMED in consumer-product study]
 

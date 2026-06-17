@@ -1,13 +1,23 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-16
+updated: 2026-06-17
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-17] ingest | K121 daily digest — WikiKV hierarchical wiki storage (1 arXiv)
+
+- **Source** — arXiv 2606.14275 (WikiKV): path-indexed KV for LLM-curated hierarchical wikis; O(1) GET/LS; NAV(q,B) search-accelerated routing; WeChat production; AUTHTRACE 63.2% E2E correctness
+- **New** — @sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md, @entities/tools/wikikv.md
+- **Updated** — @concepts/obsidian-integration.md, @concepts/adaptive-rag-internal-linking-geo.md, @concepts/federated-daily-research-digest.md, @concepts/generative-engine-optimization.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k121_phase0.sh` (REFERENCE — no public code)
+- **Brief (1 prod)** — hierarchical wiki storage federation steal → **scp prod**
+- **Cross-wiki** — @osint-wiki/sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md, @osint-wiki/entities/tools/wikikv.md, @osint-wiki/concepts/wiki-tooling-evaluation.md update
+- **PDF** → `raw-sources/` + egress-fi archive; inbox cleared
 
 ## [2026-06-16] ingest | K120 daily digest — 3 arXiv full ingest
 

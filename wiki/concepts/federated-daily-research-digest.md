@@ -39,9 +39,12 @@ related:
   - sweeps/2026-06-16-daily.md
   - entities/tools/flowbank.md
   - entities/tools/deeprubric-code.md
+  - sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md
+  - entities/tools/wikikv.md
+  - sweeps/2026-06-17-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-16
+updated: 2026-06-17
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -74,6 +77,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md — 2026-06-16 ingest (DeepRubric REFERENCE)
 - @concepts/llm-reputation-signals-geo.md — K120 operator playbook
 - @sweeps/2026-06-16-daily.md — overnight fetch + K120 full ingest
+- @sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md — K121 hierarchical wiki storage REFERENCE
+- @entities/tools/wikikv.md
+- @sweeps/2026-06-17-daily.md — overnight fetch + K121 ingest
 
 ## Raw Concept
 
