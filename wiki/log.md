@@ -1,13 +1,23 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-17
+updated: 2026-06-18
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-18] ingest | K122 daily digest — incumbent brand bias / GEO competition (1 arXiv)
+
+- **Source** — arXiv 2606.17443 (Chu & Hou): Conditional Monopoly (IAI=10.0 at identical specs); +0.075★ breaks lock-in; authority BSV +0.17★; multi-brand GEO PD (+0.802→+0.007 at k=9)
+- **New** — @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md, @concepts/llm-brand-bias-geo-competition.md
+- **Updated** — @concepts/generative-engine-optimization.md, @concepts/competitive-geo-citation-factors.md, @concepts/llm-reputation-signals-geo.md, @concepts/geo-visibility-measurement.md, @concepts/content-strategy-local.md, @concepts/federated-daily-research-digest.md, @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k122_phase0.sh` (REFERENCE — academic audit; no code)
+- **Brief (1 hands-on)** — Conditional Monopoly / tie-breaker audit for local service queries
+- **PDF** → `raw-sources/` + egress-fi archive; inbox cleared
+- **Operator note** — break spec ties with real rating/price/volume; do not fabricate clinical authority claims `[NEEDS VERIFICATION 2026-06-18]` on barbershop queries
 
 ## [2026-06-17] ingest | K121 daily digest — WikiKV hierarchical wiki storage (1 arXiv)
 

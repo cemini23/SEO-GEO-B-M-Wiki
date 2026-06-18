@@ -60,12 +60,15 @@ related:
   - sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md
   - entities/tools/wikikv.md
   - sweeps/2026-06-17-daily.md
+  - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
+  - concepts/llm-brand-bias-geo-competition.md
+  - sweeps/2026-06-18-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-16
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -176,6 +179,14 @@ See also @concepts/on-page-seo-local.md (image SEO) and @concepts/content-strate
 - **List position** causal without content (−2.1 to −3.7 pp per slot) — retrieval rank still matters.
 
 Operator playbook: @concepts/llm-reputation-signals-geo.md; hands-on `briefs/2026-06-16_k120-geo-reputation-signal-audit-hands-on.md`. Barbershop queries untested `[NEEDS VERIFICATION 2026-06-16]`.
+
+### Brand bias and GEO arms race — Conditional Monopoly [CONFIRMED in CPG audit; TENTATIVE local]
+
+@sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md (Chu & Hou, arXiv 2606.17443): when product/reputation **cards tie**, famous brands win ~100% (IAI = 10.0); **+0.075★** or modest review/price edge breaks the lock-in. Authority-style marketing copy ≈ **+0.17★ BSV** in audit — but **multi-brand GEO homogenization** collapses individual lift (+0.802 → +0.007) and restores incumbent (~94% ISR at k=9). Complements Baig reputation AMCEs (when cards differ) and @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md (adversarial PD) with **commercial-copy** prisoner's dilemma.
+
+**Operator policy:** break ties with **real** rating, price, volume, verifiable credentials — not fabricated clinical claims. Differentiate copy; do not copy-paste authority boilerplate competitors also use.
+
+Playbook: @concepts/llm-brand-bias-geo-competition.md; hands-on `briefs/2026-06-18_k122-incumbent-brand-bias-geo-audit-hands-on.md`. Local queries untested `[NEEDS VERIFICATION 2026-06-18]`.
 
 ### Citation verification — claims vs sources [TENTATIVE]
 

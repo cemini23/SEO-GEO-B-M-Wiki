@@ -15,10 +15,12 @@ related:
   - sweeps/2026-06-10-daily.md
   - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
   - concepts/llm-reputation-signals-geo.md
-  - sweeps/2026-06-16-daily.md
+  - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
+  - concepts/llm-brand-bias-geo-competition.md
+  - sweeps/2026-06-18-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-06-16
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -34,7 +36,10 @@ updated: 2026-06-16
 - @sweeps/2026-06-10-daily.md — overnight fetch + ingest
 - @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — pre-registered conjoint audit methodology
 - @concepts/llm-reputation-signals-geo.md — reputation signal playbook
+- @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md — IAI / BSV audit methodology
+- @concepts/llm-brand-bias-geo-competition.md — Conditional Monopoly tests
 - @sweeps/2026-06-16-daily.md — K120 ingest
+- @sweeps/2026-06-18-daily.md — K122 ingest
 
 ## Raw Concept
 
@@ -107,7 +112,17 @@ For **citation prevalence**, target CI width **0.15** (higher because prevalence
 3. **Estimate AMCEs** on recommendation probability — causal, not correlational SERP scraping.
 4. **Robustness** — repeat across prompt templates and model panel; report heterogeneity.
 
-Operator mini-version: 3–5 anonymized competitor cards, 3 personas, 3 prompt templates, 3 engines × 3 days — still noisy at small n but better than one-shot "ask ChatGPT who is best." Template: `briefs/2026-06-16_k120-geo-reputation-signal-audit-hands-on.md`.
+Operator mini-version: 3–5 anonymized competitor cards, 3 personas, 3 prompt templates, 3 engines × 3 days — still noisy at small n but better than one-shot "ask ChatGPT who is best." Templates: `briefs/2026-06-16_k120-geo-reputation-signal-audit-hands-on.md` (reputation AMCEs); `briefs/2026-06-18_k122-incumbent-brand-bias-geo-audit-hands-on.md` (IAI / tie-breaker when specs match).
+
+### IAI / BSV audits [STEAL from Chu 2026]
+
+@sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md:
+
+1. **Matched-spec test** — equalize rating/price/reviews across 3–5 local names; measure Incumbent Advantage Index (share / random baseline).
+2. **Threshold test** — add +0.1★ or +10 reviews to operator shop only; measure flip rate (Chu L1 ≈ +0.075★).
+3. **Differentiation test** — replace matched specs with unique verifiable facts; compare to Test 1.
+
+See @concepts/llm-brand-bias-geo-competition.md.
 
 ## Snippets
 

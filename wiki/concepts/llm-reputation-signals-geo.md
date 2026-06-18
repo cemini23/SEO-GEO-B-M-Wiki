@@ -14,9 +14,12 @@ related:
   - sources/vishwakarma-2026-competitive-geo-sigir.md
   - sweeps/2026-06-16-daily.md
   - concepts/federated-daily-research-digest.md
+  - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
+  - concepts/llm-brand-bias-geo-competition.md
+  - sweeps/2026-06-18-daily.md
 maturity: validated
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -30,6 +33,9 @@ updated: 2026-06-16
 - @concepts/website-essentials-local-business.md — price transparency on owned site
 - @sources/vishwakarma-2026-competitive-geo-sigir.md — head-to-head **content** competition; complementary bottleneck
 - @sweeps/2026-06-16-daily.md — K120 ingest
+- @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md — when cards **tie**, brand default; small rating edge breaks it (Chu 2026)
+- @concepts/llm-brand-bias-geo-competition.md — brand bias + GEO competition playbook
+- @sweeps/2026-06-18-daily.md — K122 ingest
 
 ## Raw Concept
 
@@ -76,7 +82,9 @@ Ranked by absolute AMCE on recommendation probability:
 - Run **≥3-day repeated** assistant tests (@concepts/geo-visibility-measurement.md) — Baig used 60k+ calls; operator smoke tests are noisier.
 - Optional: **conjoint-style audit** — present 3–5 anonymized competitor cards with randomized attribute levels; log which shop assistant recommends (manual replication of paper method at small n).
 
-Hands-on template: `briefs/2026-06-16_k120-geo-reputation-signal-audit-hands-on.md`.
+Hands-on templates: `briefs/2026-06-16_k120-geo-reputation-signal-audit-hands-on.md` (reputation AMCEs); `briefs/2026-06-18_k122-incumbent-brand-bias-geo-audit-hands-on.md` (Conditional Monopoly / tie-breaker tests).
+
+Pair with @concepts/llm-brand-bias-geo-competition.md — Baig measures attribute weights when cards differ; Chu measures brand default when cards match.
 
 ## Snippets
 

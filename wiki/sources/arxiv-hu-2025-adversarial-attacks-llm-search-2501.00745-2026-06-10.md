@@ -10,10 +10,12 @@ related:
   - sources/dong-2025-safesearch-red-teaming.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-10-daily.md
+  - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
+  - concepts/llm-brand-bias-geo-competition.md
 maturity: validated
 read_status: read
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -24,6 +26,8 @@ updated: 2026-06-10
 - @sources/dong-2025-safesearch-red-teaming.md — adjacent search-agent attack surface (red teaming vs game-theoretic equilibrium)
 - @concepts/federated-daily-research-digest.md — 2026-06-10 digest fetch
 - @sweeps/2026-06-10-daily.md — overnight inbox drop
+- @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md — commercial-copy GEO prisoner's dilemma (complements adversarial PD)
+- @concepts/llm-brand-bias-geo-competition.md
 
 ## Raw Concept
 

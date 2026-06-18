@@ -42,9 +42,12 @@ related:
   - sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md
   - entities/tools/wikikv.md
   - sweeps/2026-06-17-daily.md
+  - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
+  - concepts/llm-brand-bias-geo-competition.md
+  - sweeps/2026-06-18-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-17
+updated: 2026-06-18
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -80,6 +83,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md — K121 hierarchical wiki storage REFERENCE
 - @entities/tools/wikikv.md
 - @sweeps/2026-06-17-daily.md — overnight fetch + K121 ingest
+- @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md — K122 incumbent brand bias / GEO competition audit
+- @concepts/llm-brand-bias-geo-competition.md — operator playbook
+- @sweeps/2026-06-18-daily.md — overnight fetch + K122 ingest
 
 ## Raw Concept
 

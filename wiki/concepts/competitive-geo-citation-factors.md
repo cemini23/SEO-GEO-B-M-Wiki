@@ -20,10 +20,12 @@ related:
   - concepts/geo-visibility-measurement.md
   - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
   - concepts/llm-reputation-signals-geo.md
-  - sweeps/2026-06-16-daily.md
+  - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
+  - concepts/llm-brand-bias-geo-competition.md
+  - sweeps/2026-06-18-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-16
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -43,7 +45,10 @@ updated: 2026-06-16
 - @concepts/geo-visibility-measurement.md — repeated sampling before declaring competitive citation wins
 - @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — causal reputation AMCEs at selection stage
 - @concepts/llm-reputation-signals-geo.md — operator reputation-signal playbook
+- @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md — brand tie-breaker + authority BSV when specs match
+- @concepts/llm-brand-bias-geo-competition.md — Conditional Monopoly + GEO arms race
 - @sweeps/2026-06-16-daily.md — K120 ingest
+- @sweeps/2026-06-18-daily.md — K122 ingest
 
 ## Raw Concept
 

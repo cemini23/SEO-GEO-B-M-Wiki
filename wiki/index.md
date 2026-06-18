@@ -39,6 +39,7 @@ If you're new to this wiki:
 - [arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16](sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md) — FlowBank workflow portfolio REFERENCE (2026-06-16 digest)
 - [arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16](sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md) — DeepRubric evidence-tree rubrics REFERENCE (2026-06-16 digest)
 - [arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17](sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md) — WikiKV path-indexed hierarchical wiki storage REFERENCE (2026-06-17 digest)
+- [arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18](sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md) — LLM brand bias + GEO competition audit (2026-06-18 digest)
 
 ### Audits + evaluations
 
@@ -93,6 +94,7 @@ If you're new to this wiki:
 - [competitive-geo-citation-factors](concepts/competitive-geo-citation-factors.md) — SIGIR '26 gatekeeper/differentiator checklist for winning first AI citation
 - [geo-visibility-measurement](concepts/geo-visibility-measurement.md) — repeated sampling + bootstrap CI for AI citation share/prevalence (Sielinski 2026)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
+- [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)
 - [google-business-profile](concepts/google-business-profile.md) — GBP optimization playbook (concept side); listing setup, categories, services, posts, photos
 - [local-seo-foundations](concepts/local-seo-foundations.md) — main local-SEO hub: NAP, GBP, reviews, on-page, local pack, behavioral signals
 - [near-me-search](concepts/near-me-search.md) — implicit-location query behavior; Relevance/Distance/Prominence; voice search; grid-based ranking

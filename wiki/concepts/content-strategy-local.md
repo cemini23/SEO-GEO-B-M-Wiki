@@ -16,9 +16,11 @@ related:
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
   - entities/tools/ai-text-humanizer-app.md
   - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
+  - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
+  - concepts/llm-brand-bias-geo-competition.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-08
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -33,6 +35,8 @@ updated: 2026-06-08
 - @concepts/competitive-geo-citation-factors.md
 - @concepts/first-90-days-playbook.md
 - @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — multimodal caption injection for gallery/style-guide posts
+- @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md — authority-claim ethics; fabricated clinical copy as audit stimulus only
+- @concepts/llm-brand-bias-geo-competition.md — verifiable credentials beat copycat GEO boilerplate
 
 ## Raw Concept
 
@@ -60,6 +64,15 @@ Content categories that work for barbershops:
 3. **Do not duplicate keyword-stuffed alt + body** — one natural injection point per image; avoid repeating the same phrase three times.
 
 Highest expected value on pages where competitors show generic stock interiors but the shop has distinctive visuals. Re-validate with engine citation tests `[NEEDS VERIFICATION 2026-06-08]`.
+
+### Authority claims and GEO ethics `[CONFIRMED risk in audit; operator policy]`
+
+@sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md shows **fabricated** authority language ("clinical trial n=120") shifts LLM picks as much as +0.17★ equivalent — but the paper uses these as **audit stimuli**, not marketing advice. Operator rule:
+
+- **Allowed:** state license numbers, years in business, named certifications, real review counts, verifiable awards, team credentials with links.
+- **Forbidden:** invented clinical studies, fake "dermatologist partnership" claims, unverifiable "#1 in [city]" without source, copy-paste authority templates competitors also run (@concepts/llm-brand-bias-geo-competition.md — homogenized GEO collapses to incumbent win).
+
+When all local competitors adopt identical authority boilerplate, individual lift vanishes; **unique factual differentiation** (specialty services, neighborhood, stylist bios, transparent pricing) is the durable path.
 
 Cadence: low. A barbershop content blog doesn't need weekly publishing. 1-2 quality posts a month with proper schema and real photos beats weekly AI-spun content. The 2024 Helpful Content Update specifically penalized low-effort high-volume content.
 
