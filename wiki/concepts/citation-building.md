@@ -18,10 +18,12 @@ related:
   - concepts/cold-email-outbound-agency.md
   - concepts/local-pack-rankings.md
   - entities/markets/local-market-template.md
+  - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
+  - concepts/content-strategy-local.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-06-19
 
 ---
 
@@ -42,6 +44,8 @@ updated: 2026-05-08
 - @concepts/generative-engine-optimization.md
 - @concepts/local-pack-rankings.md
 - @entities/markets/local-market-template.md
+- @sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md — third-party peer pages dominate AI citations (75%); listicle earning
+- @concepts/content-strategy-local.md — YouTube + listicle content plays
 
 
 ## Raw Concept
@@ -177,6 +181,18 @@ If any 2 of these fire, skip the directory. Adding the operator's NAP to a spam 
 - Pay for "100 citations for $99" services. They're spam directories. The bar is "would this directory exist if Cemini's friend's barbershop weren't in it?" — if no, it's spam.
 - Submit before the GBP listing is fully verified and populated. GBP is the anchor; citations point at it. Submitting elsewhere first creates orphan citations that don't aggregate.
 - Treat citation work as one-and-done. Quarterly re-audit is real work.
+
+### GEO-era: earn listicles and third-party pages [TENTATIVE — Ranqo B2B panel]
+
+@sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md: in AI-engine answers, **75.2%** of citations hit **other companies' pages**; own domain **2.9%**. **Listicles** ("best barbers in [city]") = **21%** of all citations — highest-leverage single format.
+
+Citation building for GEO is not only NAP directories:
+
+1. **Audit** which "best of [city]" listicles already rank and cite competitors — outreach for inclusion (see @concepts/cold-email-outbound-agency.md for pitch framing).
+2. **Chamber / local press / niche blogs** — editorial citations (3.8% in panel) compound with listicle targets.
+3. **YouTube** — treat as citation surface (4.2%), not only social — link from video descriptions to booking page.
+
+Core NAP directories still matter for **entity confidence** and local pack; listicle/editorial work matters for **AI answer citation share**.
 
 ## Snippets
 

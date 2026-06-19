@@ -40,6 +40,7 @@ If you're new to this wiki:
 - [arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16](sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md) — DeepRubric evidence-tree rubrics REFERENCE (2026-06-16 digest)
 - [arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17](sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md) — WikiKV path-indexed hierarchical wiki storage REFERENCE (2026-06-17 digest)
 - [arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18](sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md) — LLM brand bias + GEO competition audit (2026-06-18 digest)
+- [arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19](sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md) — Ranqo production GEO measurement baseline (2026-06-19 digest)
 
 ### Audits + evaluations
 
@@ -95,6 +96,7 @@ If you're new to this wiki:
 - [geo-visibility-measurement](concepts/geo-visibility-measurement.md) — repeated sampling + bootstrap CI for AI citation share/prevalence (Sielinski 2026)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)
+- [ranqo](entities/tools/ranqo.md) — AI brand visibility SaaS; production GEO baseline REFERENCE (K123)
 - [google-business-profile](concepts/google-business-profile.md) — GBP optimization playbook (concept side); listing setup, categories, services, posts, photos
 - [local-seo-foundations](concepts/local-seo-foundations.md) — main local-SEO hub: NAP, GBP, reviews, on-page, local pack, behavioral signals
 - [near-me-search](concepts/near-me-search.md) — implicit-location query behavior; Relevance/Distance/Prominence; voice search; grid-based ranking

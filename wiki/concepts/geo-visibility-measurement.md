@@ -18,9 +18,12 @@ related:
   - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
   - concepts/llm-brand-bias-geo-competition.md
   - sweeps/2026-06-18-daily.md
+  - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
+  - entities/tools/ranqo.md
+  - sweeps/2026-06-19-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-06-18
+updated: 2026-06-19
 ---
 
 ## Relations
@@ -40,6 +43,9 @@ updated: 2026-06-18
 - @concepts/llm-brand-bias-geo-competition.md — Conditional Monopoly tests
 - @sweeps/2026-06-16-daily.md — K120 ingest
 - @sweeps/2026-06-18-daily.md — K122 ingest
+- @sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md — production baseline (Ranqo 100K+ responses)
+- @entities/tools/ranqo.md — vendor REFERENCE
+- @sweeps/2026-06-19-daily.md — K123 ingest
 
 ## Raw Concept
 
@@ -96,6 +102,25 @@ For **citation prevalence**, target CI width **0.15** (higher because prevalence
 
 - @entities/tools/local-falcon.md **AI Visibility Tracking (SAIV)** — directional heatmaps; ask vendor for sample size and CI methodology before treating deltas as definitive.
 - @entities/tools/google-search-console.md **AI visibility reports** — useful trend signal; not a substitute for repeated-query citation testing on ChatGPT/Perplexity.
+- @entities/tools/ranqo.md **Ranqo** — multi-engine brand mention + citation source-class tracking (vendor REFERENCE); pair point estimates with bootstrap CIs from Sielinski discipline.
+
+### Production baseline — brand-stature ladder [CONFIRMED in B2B/SaaS panel; TENTATIVE local]
+
+@sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md (Kumar / Ranqo, arXiv 2606.20065): **100K+** AI-engine responses, **100+** brands, Mar–May 2026.
+
+| Tier | Day-1 unbranded mention rate | Operator read |
+|------|------------------------------|---------------|
+| Tier 1 (global) | ~**73%** | Share-of-voice vs peers; saturation |
+| Tier 2 (mid-market) | ~**44%** | Largest headroom; needs intervention — does not climb alone |
+| Tier 3 (niche/small) | ~**11%** | Brand-mass first (press, Wikipedia, YouTube) before micro-GEO |
+
+Local single-location shops likely analogize to Tier 3 `[NEEDS VERIFICATION 2026-06-19]`.
+
+**Mention vs sentiment noise:** mention flipping **6.8%**; sentiment flipping **45.5%** (**6.7×** noisier). Track **mention rate and citation presence** before sentiment-weighted scores; require ≥10 prompts per engine before trusting sentiment aggregates.
+
+**Per-engine markets:** same brand/prompts — Perplexity 37%→62% over 5 weeks; ChatGPT 45%→20%; Claude flat ~24%. Report visibility **per engine**, not blended.
+
+**Re-audit cadence:** 14–30 days after content/citation changes (vendor methodology; causal lift awaits Ranqo P3 RCT).
 
 ### What this does not solve
 
@@ -123,6 +148,8 @@ Operator mini-version: 3–5 anonymized competitor cards, 3 personas, 3 prompt t
 3. **Differentiation test** — replace matched specs with unique verifiable facts; compare to Test 1.
 
 See @concepts/llm-brand-bias-geo-competition.md.
+
+Hands-on Ranqo-style tier baseline: `briefs/2026-06-19_k123-ranqo-geo-visibility-baseline-hands-on.md`.
 
 ## Snippets
 

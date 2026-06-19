@@ -45,9 +45,12 @@ related:
   - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
   - concepts/llm-brand-bias-geo-competition.md
   - sweeps/2026-06-18-daily.md
+  - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
+  - entities/tools/ranqo.md
+  - sweeps/2026-06-19-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-18
+updated: 2026-06-19
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -86,6 +89,10 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md — K122 incumbent brand bias / GEO competition audit
 - @concepts/llm-brand-bias-geo-competition.md — operator playbook
 - @sweeps/2026-06-18-daily.md — overnight fetch + K122 ingest
+- @sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md — K123 Ranqo production GEO baseline
+- @entities/tools/ranqo.md
+- @osint-wiki/sources/arxiv-scholarquest-agentic-academic-search-2606.20235-2026-06-19.md — K123 cross-wiki: agentic literature search benchmark
+- @sweeps/2026-06-19-daily.md — overnight fetch + K123 ingest
 
 ## Raw Concept
 

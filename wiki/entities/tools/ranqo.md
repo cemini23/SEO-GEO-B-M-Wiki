@@ -1,0 +1,50 @@
+---
+title: Ranqo — AI brand visibility measurement platform (REFERENCE)
+type: entity
+tags: [tool, geo-aeo, saas, measurement, reference, k123]
+keywords: [Ranqo, Ranqo AI, AI search visibility, share of voice, brand tracking]
+related:
+  - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
+  - concepts/geo-visibility-measurement.md
+  - concepts/generative-engine-optimization.md
+  - entities/tools/local-falcon.md
+maturity: draft
+created: 2026-06-19
+updated: 2026-06-19
+phase_0_verdict: REFERENCE
+license_verified: n/a
+repo: n/a
+vendor: https://ranqo.ai
+---
+
+## Relations
+
+- @sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md — arXiv 2606.20065 production measurement paper
+- @concepts/geo-visibility-measurement.md — operator measurement playbook; pair vendor telemetry with bootstrap CI discipline
+- @concepts/generative-engine-optimization.md — GEO hub
+- @entities/tools/local-falcon.md — grid/local SAIV tracking; complementary not duplicate
+
+## Raw Concept
+
+Phase-0 audit of **Ranqo** (Ranqo AI) from Kumar 2026 arXiv 2606.20065 — commercial SaaS for multi-engine AI brand visibility tracking.
+
+## Narrative
+
+**Ranqo** issues controlled queries to ChatGPT, Perplexity, Gemini, Claude, and Grok; measures mention rate, position, sentiment, share of voice, citation source classes, and six-dimension page audits on recurring cadence. Paper reports **100K+ responses** across **100+ brands** (Mar–May 2026).
+
+### Phase-0 verdict: **REFERENCE**
+
+| Check | Result |
+|-------|--------|
+| License / export | Commercial SaaS — no FOSS adoption path |
+| Maturity | Production data in peer-facing arXiv; vendor-authored |
+| Failure mode | Vendor whitepaper bias; causal claims deferred to v1.1 RCT (P3) |
+| Wiki overlap | @entities/tools/local-falcon.md covers local grid SAIV; Ranqo covers multi-engine brand mention at category level |
+
+**Steal-from:** tier ladder framing, source-class taxonomy, listicle citation share, sentiment vs mention noise ratio, per-engine divergence monitoring, 14–30 day re-audit cadence.
+
+**Do not adopt** as canonical measurement without independent replication on local-service queries `[NEEDS VERIFICATION 2026-06-19]`.
+
+## Snippets
+
+> "We describe Ranqo … a platform that issues controlled queries to five AI engines and measures … mention, rank, framing, and share of voice." [Source: arxiv-2606.20065 §1]

@@ -11,9 +11,11 @@ related:
   - concepts/generative-engine-optimization.md
   - concepts/geo-visibility-measurement.md
   - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
+  - entities/tools/ranqo.md
+  - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-10
+updated: 2026-06-19
 
 ---
 

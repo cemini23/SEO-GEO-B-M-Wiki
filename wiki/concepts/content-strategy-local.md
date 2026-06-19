@@ -18,9 +18,11 @@ related:
   - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
   - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
   - concepts/llm-brand-bias-geo-competition.md
+  - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
+  - concepts/citation-building.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-18
+updated: 2026-06-19
 ---
 
 ## Relations
@@ -73,6 +75,16 @@ Highest expected value on pages where competitors show generic stock interiors b
 - **Forbidden:** invented clinical studies, fake "dermatologist partnership" claims, unverifiable "#1 in [city]" without source, copy-paste authority templates competitors also run (@concepts/llm-brand-bias-geo-competition.md — homogenized GEO collapses to incumbent win).
 
 When all local competitors adopt identical authority boilerplate, individual lift vanishes; **unique factual differentiation** (specialty services, neighborhood, stylist bios, transparent pricing) is the durable path.
+
+### Listicles and YouTube — highest-leverage third-party surfaces `[CONFIRMED B2B panel; TENTATIVE local]`
+
+@sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md: **listicles** ("best X in [city]") = **21%** of AI citations in production panel; **YouTube** = largest non-corporate source (4.2%, ahead of Reddit 3.3%). Own domain = **2.9%**.
+
+**Local plays:**
+
+1. **Pitch inclusion** on existing "best barbers / best fade [city]" listicles (local blogs, magazines, Yelp editorial, niche directories) — one list page can surface the shop across many assistant prompts.
+2. **YouTube** — short cuts, shop tour, "what to expect" clips with city + service in title/description; mirrors @concepts/social-media-for-barbershops.md but weighted for **AI citation**, not just IG reach.
+3. **Do not rely on owned-site blog alone** for AI visibility — peer pages dominate citation share.
 
 Cadence: low. A barbershop content blog doesn't need weekly publishing. 1-2 quality posts a month with proper schema and real photos beats weekly AI-spun content. The 2024 Helpful Content Update specifically penalized low-effort high-volume content.
 

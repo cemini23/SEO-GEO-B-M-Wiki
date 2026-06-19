@@ -1,13 +1,24 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-18
+updated: 2026-06-19
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-19] ingest | K123 daily digest — Ranqo GEO at scale + ScholarQuest cross-wiki (2 arXiv)
+
+- **Sources** — arXiv 2606.20065 (Kumar/Ranqo production GEO); 2606.20235 (ScholarQuest agentic academic search → OSINT)
+- **New (SEO)** — @sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md, @entities/tools/ranqo.md
+- **Updated (SEO)** — @concepts/geo-visibility-measurement.md, @concepts/generative-engine-optimization.md, @concepts/competitive-geo-citation-factors.md, @concepts/content-strategy-local.md, @concepts/citation-building.md, @concepts/federated-daily-research-digest.md, @entities/tools/local-falcon.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k123_phase0.sh` (Ranqo REFERENCE; ScholarQuest CONDITIONAL-GO — no GitHub LICENSE)
+- **Brief (1 hands-on)** — Ranqo-style tier + per-engine mention baseline
+- **Cross-wiki (OSINT)** — @osint-wiki/sources/arxiv-scholarquest-agentic-academic-search-2606.20235-2026-06-19.md, @osint-wiki/entities/tools/scholarquest.md, brief `briefs/2026-06-19_k123-scholarquest-digest-eval-handoff.md`
+- **PDFs** → `raw-sources/` + egress-fi archive; inbox cleared
+- **Operator note** — listicles 21% citations; own domain 2.9%; track mention not sentiment `[NEEDS VERIFICATION 2026-06-19]` on local queries
 
 ## [2026-06-18] ingest | K122 daily digest — incumbent brand bias / GEO competition (1 arXiv)
 

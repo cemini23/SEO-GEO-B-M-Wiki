@@ -63,6 +63,9 @@ related:
   - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
   - concepts/llm-brand-bias-geo-competition.md
   - sweeps/2026-06-18-daily.md
+  - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
+  - entities/tools/ranqo.md
+  - sweeps/2026-06-19-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -71,7 +74,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-18
+updated: 2026-06-19
 ---
 
 ## Relations
@@ -190,6 +193,20 @@ Operator playbook: @concepts/llm-reputation-signals-geo.md; hands-on `briefs/202
 **Operator policy:** break ties with **real** rating, price, volume, verifiable credentials — not fabricated clinical claims. Differentiate copy; do not copy-paste authority boilerplate competitors also use.
 
 Playbook: @concepts/llm-brand-bias-geo-competition.md; hands-on `briefs/2026-06-18_k122-incumbent-brand-bias-geo-audit-hands-on.md`. Local queries untested `[NEEDS VERIFICATION 2026-06-18]`.
+
+### Production visibility baseline — Ranqo at scale [CONFIRMED in vendor panel; TENTATIVE local]
+
+@sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md (Kumar / Ranqo, arXiv 2606.20065): first large-scale **production** GEO measurement — 100K+ responses, five engines, Mar–May 2026.
+
+- **Tier ladder:** Tier 1 ~73% / Tier 2 ~44% / Tier 3 ~11% day-1 unbranded mention — diagnose tier before spend.
+- **Citation anatomy:** 75% third-party corporate pages; 2.9% own domain; **listicles 21%** of all citations.
+- **YouTube > Reddit** among non-corporate sources.
+- **Sentiment 6.7× noisier** than mention — track mention first.
+- **Per-engine markets** — optimize separately; Perplexity and ChatGPT diverged on same brand over 5 weeks.
+- **Entity-first, not schema-first** — state facts early; P4 tests schema as hygiene not lever.
+- **14–30 day re-audit** loop; causal lifts await v1.1 RCT (Protocol P3).
+
+Playbook: @concepts/geo-visibility-measurement.md; hands-on `briefs/2026-06-19_k123-ranqo-geo-visibility-baseline-hands-on.md`. Local barbershop queries untested `[NEEDS VERIFICATION 2026-06-19]`.
 
 ### Citation verification — claims vs sources [TENTATIVE]
 

@@ -23,9 +23,12 @@ related:
   - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
   - concepts/llm-brand-bias-geo-competition.md
   - sweeps/2026-06-18-daily.md
+  - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
+  - entities/tools/ranqo.md
+  - sweeps/2026-06-19-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-18
+updated: 2026-06-19
 ---
 
 ## Relations
@@ -49,6 +52,9 @@ updated: 2026-06-18
 - @concepts/llm-brand-bias-geo-competition.md — Conditional Monopoly + GEO arms race
 - @sweeps/2026-06-16-daily.md — K120 ingest
 - @sweeps/2026-06-18-daily.md — K122 ingest
+- @sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md — citation source-class + listicle share (production panel)
+- @entities/tools/ranqo.md
+- @sweeps/2026-06-19-daily.md — K123 ingest
 
 ## Raw Concept
 
@@ -113,6 +119,20 @@ Significant in 4+ of 6 models — invest after baseline:
 4. Close **spec gaps** competitors already expose (duration, booking path, parking, payment).
 5. Run the **citation test** from @concepts/generative-engine-optimization.md with **repeated sampling** (@concepts/geo-visibility-measurement.md) — note whether failure mode is retrieval vs content; do not declare a head-to-head citation win when share deltas are <5–7 pp without non-overlapping CIs.
 6. Assume **manipulation pressure** in competitive niches — @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md models ranking manipulation as a repeated game; stay on cooperative completeness signals, not blackhat GEO.
+
+### Citation surfaces — production panel [CONFIRMED B2B/SaaS; TENTATIVE local]
+
+@sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md (149,912 citations, mention-bearing prompts):
+
+| Surface | Share | Local operator read |
+|---------|-------|---------------------|
+| **Third-party corporate pages** (competitors, vendors, peers) | **75.2%** | AI builds "alternatives" from **other businesses' sites** — not yours |
+| **Own domain** | **2.9%** | Owned-site SEO alone insufficient for citation share |
+| **YouTube** | **4.2%** | Largest **non-corporate** source — ahead of Reddit (3.3%) |
+| **Editorial media** | **3.8%** | Local press / trade blogs |
+| **Listicle content format** | **21%** of all citations | "Best barbers in [city]" roundups — **highest-leverage** single page type |
+
+**Earn third-party list inclusion** (@concepts/citation-building.md) before over-indexing on JSON-LD. One listicle placement can feed many AI answers. Schema = hygiene; facts early on page > schema-only play (Ranqo P4 hypothesis).
 
 ## Snippets
 
