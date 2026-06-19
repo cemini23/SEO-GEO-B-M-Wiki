@@ -6,15 +6,19 @@ keywords: [world-cup-bot, github-pages, google-search-console, bing-webmaster, i
 related:
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - concepts/generative-engine-optimization.md
+  - "@gambling-wiki/entities/sports/world-cup-2026-betting.md"
+  - "@gambling-wiki/concepts/world-cup-pm-retail-hygiene.md"
 maturity: draft
 created: 2026-05-30
-updated: 2026-05-31
+updated: 2026-06-18
 ---
 
 ## Relations
 
 - @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — Issue 3 launch (primary backlink)
 - @concepts/generative-engine-optimization.md — AEO / citation surface
+- @gambling-wiki/entities/sports/world-cup-2026-betting.md — retail WC hub (education CTA from landing page)
+- @gambling-wiki/concepts/world-cup-pm-retail-hygiene.md — K108 retail checklist companion
 
 ## Raw Concept
 

@@ -17,9 +17,11 @@ related:
   - concepts/creator-aesthetic-positioning.md
   - concepts/synthetic-creator-gtm.md
   - entities/platforms/twitter-x.md
+  - "@image-gen-wiki/entities/marketplaces/fanvue.md"
+  - "@image-gen-wiki/concepts/persona-monetization-models.md"
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -34,7 +36,8 @@ updated: 2026-05-08
 - @entities/platforms/niche.md
 - @sources/fanvue-gtm-blueprint-2026.md
 - @sources/ai-detection-enforcement-2026.md
-
+- @image-gen-wiki/entities/marketplaces/fanvue.md — build-side platform entity (Manager Accounts, TOS)
+- @image-gen-wiki/concepts/persona-monetization-models.md — revenue tiers + ROI math
 
 ## Raw Concept
 

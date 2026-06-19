@@ -10,11 +10,15 @@ related:
   - entities/platforms/youtube.md
   - "@osint-wiki/entities/tools/world-cup-bot.md"
   - "@gambling-wiki/entities/sports/world-cup-2026-betting.md"
+  - "@gambling-wiki/concepts/world-cup-pm-retail-hygiene.md"
+  - "@gambling-wiki/concepts/prediction-markets-crossover.md"
+  - "@gambling-wiki/concepts/world-cup-prediction-market-types.md"
+  - "@gambling-wiki/concepts/world-cup-books-vs-pm-divergence.md"
   - concepts/world-cup-bot-x-article-runbook-notes.md
   - entities/platforms/reddit.md
 maturity: draft
 created: 2026-05-30
-updated: 2026-06-03
+updated: 2026-06-18
 ship_draft: briefs/2026-06-03_outlier-weekly-issue3-drafts.md
 draft_version: published-2026-06-03
 substack_url: https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot
@@ -28,6 +32,10 @@ substack_url: https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-
 - @entities/platforms/youtube.md — trailer + Shorts distribution
 - @osint-wiki/entities/tools/world-cup-bot.md — product source of truth
 - @gambling-wiki/entities/sports/world-cup-2026-betting.md — retail/strategy companion (contract types, divergence)
+- @gambling-wiki/concepts/world-cup-pm-retail-hygiene.md — K108 retail checklist (education CTA in Issue 3)
+- @gambling-wiki/concepts/prediction-markets-crossover.md — PM/Kalshi retail lens
+- @gambling-wiki/concepts/world-cup-prediction-market-types.md — advance-to-knockout scope rationale
+- @gambling-wiki/concepts/world-cup-books-vs-pm-divergence.md — divergence education, not auto-arb
 - @concepts/world-cup-bot-x-article-runbook-notes.md — X Article #4 CLI runbook (follow-on to Issue 3)
 - @entities/platforms/reddit.md — sitewide filter recovery after r/SideProject removal
 

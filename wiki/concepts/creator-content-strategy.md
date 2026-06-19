@@ -35,9 +35,11 @@ related:
   - concepts/creator-aesthetic-positioning.md
   - concepts/synthetic-creator-gtm.md
   - entities/tools/oransim.md
+  - "@image-gen-wiki/concepts/persona-content-cadence.md"
+  - "@image-gen-wiki/concepts/marketing-your-persona.md"
 maturity: draft
 created: 2026-05-08
-updated: 2026-06-02
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -72,6 +74,8 @@ updated: 2026-06-02
 - @sources/instagram-reels-algorithm-2026.md
 - @sources/tiktok-algorithm-mechanics-2026.md
 - @entities/tools/oransim.md — causal simulator to stress-test a content plan against simulated audience reaction before posting
+- @image-gen-wiki/concepts/persona-content-cadence.md — 3–5 posts/wk post-AI-slop rhythm (build wiki)
+- @image-gen-wiki/concepts/marketing-your-persona.md — SEO/GEO bridge for persona GTM
 
 
 ## Raw Concept

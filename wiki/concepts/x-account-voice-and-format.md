@@ -32,9 +32,12 @@ related:
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
   - "@ccc-wiki/concepts/obsidian-vellum-second-brain-stack.md"
   - entities/tools/ai-text-humanizer-app.md
+  - "@gambling-wiki/entities/sports/world-cup-2026-betting.md"
+  - "@gambling-wiki/concepts/world-cup-pm-retail-hygiene.md"
+  - "@gambling-wiki/concepts/prediction-markets-crossover.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-12
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -57,6 +60,9 @@ updated: 2026-06-12
 - @sources/trading-posts-compilation-18-2026-06-04.md — K98 style pass (Horizon, Yahav, mphrediction)
 - @concepts/cold-email-outbound-agency.md — @MichLieben K90 outbound lane
 - @entities/tools/ai-text-humanizer-app.md — NO-GO for X/Outlier voice (smoke-tested 2026-06-06)
+- @gambling-wiki/entities/sports/world-cup-2026-betting.md — WC retail hub for PM/OSS posts
+- @gambling-wiki/concepts/world-cup-pm-retail-hygiene.md — K108 checklist to cite in prediction-market lane
+- @gambling-wiki/concepts/prediction-markets-crossover.md — PM/Kalshi retail explainer companion
 
 ## Raw Concept
 

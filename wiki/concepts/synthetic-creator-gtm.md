@@ -13,9 +13,13 @@ related:
   - concepts/creator-content-strategy.md
   - entities/platforms/fanvue.md
   - entities/companies/friend-1.md
+  - "@image-gen-wiki/concepts/marketing-your-persona.md"
+  - "@image-gen-wiki/concepts/persona-ops-stack.md"
+  - "@image-gen-wiki/concepts/persona-content-cadence.md"
+  - "@image-gen-wiki/entities/marketplaces/fanvue.md"
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -29,6 +33,10 @@ updated: 2026-05-08
 - @concepts/creator-content-strategy.md — content mix + posting cadence
 - @entities/platforms/fanvue.md — platform mechanics
 - @entities/companies/friend-1.md — placeholder creator entity
+- @image-gen-wiki/concepts/marketing-your-persona.md — GEO + persona build bridge
+- @image-gen-wiki/concepts/persona-ops-stack.md — ComfyUI / voice / DM automation stack
+- @image-gen-wiki/concepts/persona-content-cadence.md — 3–5 posts/wk post-AI-slop rhythm
+- @image-gen-wiki/entities/marketplaces/fanvue.md — platform deep-read (build wiki)
 
 ## Raw Concept
 

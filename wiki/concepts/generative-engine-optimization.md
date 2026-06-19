@@ -66,6 +66,9 @@ related:
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
+  - "@image-gen-wiki/concepts/marketing-your-persona.md"
+  - "@image-gen-wiki/concepts/persona-monetization-models.md"
+  - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
 updated: 2026-06-18

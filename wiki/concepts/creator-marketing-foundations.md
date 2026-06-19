@@ -30,9 +30,13 @@ related:
   - sources/paid-advertising-creators-2026.md
   - briefs/2026-05-09_creator-24hr-sprint.md
   - concepts/generative-engine-optimization.md
+  - "@image-gen-wiki/concepts/marketing-your-persona.md"
+  - "@image-gen-wiki/concepts/persona-monetization-models.md"
+  - "@image-gen-wiki/concepts/persona-ops-stack.md"
+  - "@image-gen-wiki/entities/marketplaces/fanvue.md"
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-17
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -61,6 +65,10 @@ updated: 2026-05-17
 - @sources/creator-email-marketing-2026.md
 - @sources/paid-advertising-creators-2026.md
 - @briefs/2026-05-09_creator-24hr-sprint.md
+- @image-gen-wiki/concepts/marketing-your-persona.md — build stack bridge (ComfyUI, LoRA, voice)
+- @image-gen-wiki/concepts/persona-monetization-models.md — revenue mechanics + ROI math
+- @image-gen-wiki/concepts/persona-ops-stack.md — automation architecture
+- @image-gen-wiki/entities/marketplaces/fanvue.md — platform entity (build side)
 
 
 ## Raw Concept
