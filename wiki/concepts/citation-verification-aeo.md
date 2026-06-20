@@ -16,7 +16,8 @@ related:
   - sweeps/2026-06-06-daily.md
   - concepts/geo-visibility-measurement.md
   - sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
-  - osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md
+  - "@osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md"
+  - "@osint-wiki/entities/tools/metaresearcher.md"
 maturity: draft
 created: 2026-06-06
 updated: 2026-06-20
@@ -36,6 +37,7 @@ updated: 2026-06-20
 - @sweeps/2026-06-06-daily.md — K101 overnight fetch
 - @concepts/geo-visibility-measurement.md — citation share noise vs claim–source accuracy
 - @osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md — adversarial misinformation injection in training corpora (K124)
+- @osint-wiki/entities/tools/metaresearcher.md — deep-research RL framework REFERENCE
 
 ## Raw Concept
 
