@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-17
+updated: 2026-06-20
 ---
 
 # Wiki Index
@@ -147,6 +147,7 @@ If you're new to this wiki:
 - [obsidian-navigation](concepts/obsidian-navigation.md) — operator's guide to reading the wiki in Obsidian (vault setup, recommended plugins, search/tags/graph workflow)
 - [obsidian-integration](concepts/obsidian-integration.md) — full integration guide: setup scripts, link conversion, portability, transfer to new readers
 - [federated-daily-research-digest](concepts/federated-daily-research-digest.md) — per-wiki Exa + inbox automation loop (K93 rollout); pairs with `scripts/daily_research_config.yaml`
+- [agent-first-web-atml-framework](concepts/agent-first-web-atml-framework.md) — CCC K119 cross-route: ATML, agents.txt, provenance tiers for GEO citability
 - [x-account-voice-and-format](concepts/x-account-voice-and-format.md) — X Article voice, Cyril style deconstruction, paste protocol, Posts.docx style exemplars
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
 - [outlier-weekly-issue3-world-cup-bot-notes](concepts/outlier-weekly-issue3-world-cup-bot-notes.md) — Issue 3 launch queue (2026-06-03)

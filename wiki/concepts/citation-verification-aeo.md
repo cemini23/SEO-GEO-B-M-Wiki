@@ -16,10 +16,10 @@ related:
   - sweeps/2026-06-06-daily.md
   - concepts/geo-visibility-measurement.md
   - sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
-  - entities/tools/deeprubric-code.md
+  - osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-10
+updated: 2026-06-20
 ---
 
 ## Relations
@@ -35,6 +35,7 @@ updated: 2026-06-10
 - @concepts/federated-daily-research-digest.md — 2026-06-06 digest ingest
 - @sweeps/2026-06-06-daily.md — K101 overnight fetch
 - @concepts/geo-visibility-measurement.md — citation share noise vs claim–source accuracy
+- @osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md — adversarial misinformation injection in training corpora (K124)
 
 ## Raw Concept
 
@@ -108,6 +109,7 @@ Med-V1 Phase-0 for local web pages: **NO-GO** — biomedical training data; no w
 - **Prefer canonical facts on owned surfaces** — engines retrieve and misparse; a single authoritative FAQ on the website reduces multi-verse drift (@sources/davidson-2026-factual-gv-gap.md).
 - **"Cite Sources" for GEO visibility ≠ verified accuracy** — Aggarwal's +27% lift measures citation prominence in generated answers, not whether your page's claims match reality when cited.
 - **More AI citations in answers may mean more errors** — GPT-5's higher claim volume did not proportionally increase supported claims.
+- **Adversarial single-source collapse** — @osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md cites Synthetic Web: one high-plausibility misinformation article can collapse frontier-model accuracy. Local operators should verify AI-claimed ratings/hours/prices against GBP + owned site, not assume citation presence implies correctness `[NEEDS VERIFICATION 2026-06-20]`.
 
 ## Snippets
 

@@ -48,9 +48,12 @@ related:
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
   - entities/tools/ranqo.md
   - sweeps/2026-06-19-daily.md
+  - sweeps/2026-06-20-daily.md
+  - concepts/citation-verification-aeo.md
+  - concepts/agent-first-web-atml-framework.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-19
+updated: 2026-06-20
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -93,6 +96,11 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @entities/tools/ranqo.md
 - @osint-wiki/sources/arxiv-scholarquest-agentic-academic-search-2606.20235-2026-06-19.md — K123 cross-wiki: agentic literature search benchmark
 - @sweeps/2026-06-19-daily.md — overnight fetch + K123 ingest
+- @osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md — K124 cross-wiki: adversarial deep-research RL framework
+- @osint-wiki/entities/tools/metaresearcher.md — Phase-0 REFERENCE entity
+- @sweeps/2026-06-20-daily.md — overnight fetch + K124 ingest (ScholarQuest re-archive)
+- @concepts/citation-verification-aeo.md — adversarial misinformation audit steal
+- @concepts/agent-first-web-atml-framework.md — CCC K119 cross-route stub
 
 ## Raw Concept
 

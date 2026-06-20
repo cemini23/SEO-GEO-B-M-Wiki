@@ -11,9 +11,10 @@ related:
   - entities/tools/marketingskills.md
   - entities/tools/seo-geo-claude-skills.md
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
+  - concepts/agent-first-web-atml-framework.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-31
+updated: 2026-06-19
 ---
 
 ## Relations

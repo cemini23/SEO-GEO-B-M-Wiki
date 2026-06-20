@@ -1,13 +1,24 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-19
+updated: 2026-06-20
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-20] ingest | K124 daily digest — MetaResearcher adversarial deep research + ScholarQuest re-archive (2 arXiv)
+
+- **Sources** — arXiv 2606.19893 (MetaResearcher → OSINT); 2606.20235 (ScholarQuest re-fetch — K123 duplicate archive)
+- **Updated (SEO)** — @concepts/federated-daily-research-digest.md, @concepts/citation-verification-aeo.md, @concepts/agent-first-web-atml-framework.md, @entities/tools/geo-seo-claude.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k124_phase0.sh` (MetaResearcher REFERENCE; ScholarQuest DUPLICATE-ARCHIVE, LICENSE still null)
+- **Briefs (1 hands-on)** — adversarial AI citation audit for local queries
+- **Cross-wiki (OSINT)** — @osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md, @osint-wiki/entities/tools/metaresearcher.md, brief `briefs/2026-06-20_k124-metaresearcher-deep-research-handoff.md`
+- **ScholarQuest** — OSINT pages unchanged (K123); GitHub LICENSE re-check 2026-06-20: still null
+- **PDFs** → `raw-sources/` + egress-fi archive; inbox cleared
+- **Operator note** — one plausible misinformation source can collapse AI answer accuracy `[NEEDS VERIFICATION 2026-06-20]` on local near-me queries
 
 ## [2026-06-19] ingest | K123 daily digest — Ranqo GEO at scale + ScholarQuest cross-wiki (2 arXiv)
 
