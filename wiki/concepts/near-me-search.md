@@ -12,12 +12,13 @@ related:
   - concepts/first-90-days-playbook.md
   - concepts/google-ads-local.md
   - entities/markets/local-market-template.md
+  - concepts/federated-daily-research-digest.md
 
   - concepts/on-page-seo-local.md
   - concepts/reviews-reputation-management.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-06-21
 
 ---
 
@@ -34,6 +35,8 @@ updated: 2026-05-08
 - @entities/tools/claude-seo-agrici.md
 - @concepts/first-90-days-playbook.md
 - @entities/markets/local-market-template.md
+- @game-dev-wiki/sources/arxiv-na-2026-binary-tracking-spatial-qa-2606.16902-2026-06-21.md — route-context spatial QA research analog (K125)
+- @concepts/federated-daily-research-digest.md — K125 cross-wiki route
 
 
 ## Raw Concept
@@ -95,6 +98,10 @@ For the website side, "near me" intent is captured by **service-area / location-
 - **Listing not in the geographic area Google thinks it is** (incorrect address pin in GBP) — listing won't surface for users physically nearby
 - **Wrong primary category** — `Hair Salon` instead of `Barber Shop` means the "barbershop near me" query doesn't trigger the listing
 - **No grid-based rank tracking** — operator thinks "we're #1 for barbershop near me" because they tested from inside the shop; misses that 5 blocks east the listing is #6
+
+### Route-context queries (emerging AI surface) `[TENTATIVE]`
+
+Robotics spatial-QA work (@game-dev-wiki/sources/arxiv-na-2026-binary-tracking-spatial-qa-2606.16902-2026-06-21.md) targets prompts like *"dry cleaner on the way back home"* — ordered route + landmark anchors, not a single lat/lng radius. AI assistants may eventually answer local-service questions along **commute corridors** rather than only "near me" bubbles. Operator prep: accurate service-area + landmark-rich copy; audit route-context mention separately from static near-me baselines (@briefs/2026-06-21_k125-route-aware-local-queries-hands-on.md) `[NEEDS VERIFICATION 2026-06-21]`.
 
 ## Snippets
 

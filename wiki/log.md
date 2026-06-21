@@ -1,13 +1,30 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-20
+updated: 2026-06-21
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-21] ingest | K125 daily digest — BinTrack spatial QA cross-wiki + duplicate re-archives (3 arXiv)
+
+- **Sources** — arXiv 2606.16902 (BinTrack → game-dev); 2606.19893 + 2606.20235 re-fetch (K124/K123 duplicate archive)
+- **Updated (SEO)** — @concepts/federated-daily-research-digest.md, @concepts/near-me-search.md, @wiki/log.md
+- **Phase-0** — `scripts/adopt_k125_phase0.sh` (BinTrack CONDITIONAL-GO no LICENSE; MetaResearcher + ScholarQuest DUPLICATE-ARCHIVE)
+- **Brief (1 hands-on)** — route-context local query audit (beyond static near-me)
+- **Cross-wiki (game-dev)** — @game-dev-wiki/sources/arxiv-na-2026-binary-tracking-spatial-qa-2606.16902-2026-06-21.md, @game-dev-wiki/entities/tools/binarytracking.md, brief `briefs/research/bintrack-spatial-qa-steal-2026-06-21.md`
+- **PDFs** → `raw-sources/` + egress-fi archive; inbox cleared
+- **Operator note** — route-aware AI queries ("on the way home") may diverge from radius near-me rankings `[NEEDS VERIFICATION 2026-06-21]`
+
+## [2026-06-20] brief | WC Ticket Monitor — SEO advertising handoff
+
+- **Brief** — `briefs/2026-06-20_wc-ticket-monitor-seo-advertising-handoff.md` (ready-for-draft)
+- **Product** — https://github.com/cemini23/wc-ticket-monitor — hourly knockout ticket price alerts (FIFA official + TicketWave); distinct from World Cup Bot (PM)
+- **Lane** — WC fans + OSS builders; X Article/thread, optional Outlier Weekly, GitHub topics
+- **Wiki stubs queued** — `entities/tools/wc-ticket-monitor.md`, `concepts/wc-ticket-monitor-search-discovery.md`
 
 ## [2026-06-20] ingest | K124 daily digest — MetaResearcher adversarial deep research + ScholarQuest re-archive (2 arXiv)
 
