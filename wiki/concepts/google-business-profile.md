@@ -22,10 +22,11 @@ related:
   - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
   - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
   - concepts/llm-reputation-signals-geo.md
+  - sweeps/2026-06-22-daily.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-16
+updated: 2026-06-22
 
 ---
 
@@ -51,6 +52,7 @@ updated: 2026-06-16
 - @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — website mirrors GBP visual semantics for multimodal GEO
 - @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — GBP star rating + review volume as LLM selection signals
 - @concepts/llm-reputation-signals-geo.md — reputation signal playbook
+- @sweeps/2026-06-22-daily.md — K126 digest news lane (GBP feature drift)
 
 
 ## Raw Concept
@@ -83,6 +85,11 @@ Google Business Profile (GBP, formerly Google My Business / GMB) is the single h
 - **Review management** — see @concepts/reviews-reputation-management.md.
 - **Performance review** — monthly check of GBP Insights / Performance: search queries the listing shows for, calls, direction-requests, website clicks, photo views.
 - **Photo refreshing** — Google rotates uploaded photos in the carousel; recency matters for which photos get shown.
+
+**Feature drift watchlist (2026-06-22 digest news lane)** `[NEEDS VERIFICATION 2026-06-22]`:
+
+- **Collected Info section** — Search Engine Roundtable reports a new GBP "Collected Info" surface aggregating third-party-derived business facts. Operator action: audit listing for auto-populated fields that contradict verified NAP/hours/services; dispute inaccuracies via GBP support. [Source: https://www.seroundtable.com/google-business-profiles-collected-info-41535.html (retrieved 2026-06-22)]
+- **GBP ↔ GA4 + Gemini management** — BrightLocal reports GBP can connect to GA4 and be managed via Gemini in-dashboard. Operator action: if available on your account, link GA4 to close the loop between GBP Performance and site conversions. [Source: https://www.brightlocal.com/blog/google-business-profile-connect-ga4-gemini/ (retrieved 2026-06-22)]
 
 **Two-shop operators** (relevant to this wiki's primary user):
 

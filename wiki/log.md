@@ -1,13 +1,21 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-21
+updated: 2026-06-22
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-22] ingest | K126 daily digest — duplicate re-archive batch (2 arXiv) + GBP news lane
+
+- **Sources** — arXiv 2606.16902 (BinTrack re-fetch — K125 game-dev); 2606.19893 (MetaResearcher re-fetch — K124 OSINT)
+- **Updated (SEO)** — @concepts/federated-daily-research-digest.md, @concepts/google-business-profile.md (Collected Info + GA4/Gemini feature drift), @wiki/log.md
+- **Phase-0** — `scripts/adopt_k126_phase0.sh` (both DUPLICATE-ARCHIVE; no new briefs)
+- **PDFs** → `raw-sources/` + egress-fi archive; inbox cleared
+- **News lane** — GBP Collected Info section, GBP+GA4+Gemini integration flagged `[NEEDS VERIFICATION 2026-06-22]`
 
 ## [2026-06-21] ingest | K125 daily digest — BinTrack spatial QA cross-wiki + duplicate re-archives (3 arXiv)
 

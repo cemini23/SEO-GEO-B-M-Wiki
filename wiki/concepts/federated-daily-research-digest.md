@@ -50,12 +50,13 @@ related:
   - sweeps/2026-06-19-daily.md
   - sweeps/2026-06-20-daily.md
   - sweeps/2026-06-21-daily.md
+  - sweeps/2026-06-22-daily.md
   - concepts/citation-verification-aeo.md
   - concepts/agent-first-web-atml-framework.md
   - concepts/near-me-search.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-21
+updated: 2026-06-22
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -105,6 +106,7 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @concepts/agent-first-web-atml-framework.md — CCC K119 cross-route stub
 - @game-dev-wiki/sources/arxiv-na-2026-binary-tracking-spatial-qa-2606.16902-2026-06-21.md — K125 cross-wiki: BinTrack spatial QA (route-query pattern analog)
 - @sweeps/2026-06-21-daily.md — overnight fetch + K125 ingest (2 duplicate re-archives)
+- @sweeps/2026-06-22-daily.md — overnight fetch + K126 duplicate-only batch
 
 ## Raw Concept
 
