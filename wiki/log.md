@@ -1,13 +1,23 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-22
+updated: 2026-06-23
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-23] ingest | K127 daily digest — PEBM verified-mention framework + MetaResearcher re-archive (2 arXiv)
+
+- **Sources** — arXiv 2606.21595 (Varga PEBM); 2606.19893 MetaResearcher re-fetch (K124 duplicate archive)
+- **New** — @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md, @concepts/per-entity-bias-mapping-geo.md
+- **Updated** — @concepts/geo-visibility-measurement.md, @concepts/citation-verification-aeo.md, @concepts/generative-engine-optimization.md, @concepts/llm-brand-bias-geo-competition.md, @entities/tools/ranqo.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k127_phase0.sh` (PEBM REFERENCE Zenodo; MetaResearcher DUPLICATE-ARCHIVE)
+- **Brief (1 hands-on)** — PEBM verified-mention audit (raw vs verified mention rate)
+- **PDFs** → `raw-sources/` + egress-fi archive; inbox cleared
+- **Operator note** — high-salience brands: 52.7% fabricated citations vs 37.9% Tier 3 in Varga B2B panel `[NEEDS VERIFICATION 2026-06-23]` on local barbershop queries
 
 ## [2026-06-22] ingest | K126 daily digest — duplicate re-archive batch (2 arXiv) + GBP news lane
 

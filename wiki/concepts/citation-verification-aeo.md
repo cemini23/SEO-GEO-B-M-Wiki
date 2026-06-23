@@ -18,9 +18,11 @@ related:
   - sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
   - "@osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md"
   - "@osint-wiki/entities/tools/metaresearcher.md"
+  - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
+  - concepts/per-entity-bias-mapping-geo.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-20
+updated: 2026-06-23
 ---
 
 ## Relations
@@ -38,6 +40,8 @@ updated: 2026-06-20
 - @concepts/geo-visibility-measurement.md — citation share noise vs claim–source accuracy
 - @osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md — adversarial misinformation injection in training corpora (K124)
 - @osint-wiki/entities/tools/metaresearcher.md — deep-research RL framework REFERENCE
+- @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — citation fidelity + false attribution dimensions (K127)
+- @concepts/per-entity-bias-mapping-geo.md — verified mention playbook
 
 ## Raw Concept
 
@@ -112,6 +116,7 @@ Med-V1 Phase-0 for local web pages: **NO-GO** — biomedical training data; no w
 - **"Cite Sources" for GEO visibility ≠ verified accuracy** — Aggarwal's +27% lift measures citation prominence in generated answers, not whether your page's claims match reality when cited.
 - **More AI citations in answers may mean more errors** — GPT-5's higher claim volume did not proportionally increase supported claims.
 - **Adversarial single-source collapse** — @osint-wiki/sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md cites Synthetic Web: one high-plausibility misinformation article can collapse frontier-model accuracy. Local operators should verify AI-claimed ratings/hours/prices against GBP + owned site, not assume citation presence implies correctness `[NEEDS VERIFICATION 2026-06-20]`.
+- **Brand Hallucination Paradox** — @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md: high-salience entities exhibit **higher fabricated citation rates** than low-salience ones despite equal or higher mention rates. Verification is mandatory for familiar local brands, not only unknown shops `[NEEDS VERIFICATION 2026-06-23]`.
 
 ## Snippets
 

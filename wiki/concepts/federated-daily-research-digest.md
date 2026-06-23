@@ -54,9 +54,12 @@ related:
   - concepts/citation-verification-aeo.md
   - concepts/agent-first-web-atml-framework.md
   - concepts/near-me-search.md
+  - sweeps/2026-06-23-daily.md
+  - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
+  - concepts/per-entity-bias-mapping-geo.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-22
+updated: 2026-06-23
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -107,6 +110,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @game-dev-wiki/sources/arxiv-na-2026-binary-tracking-spatial-qa-2606.16902-2026-06-21.md — K125 cross-wiki: BinTrack spatial QA (route-query pattern analog)
 - @sweeps/2026-06-21-daily.md — overnight fetch + K125 ingest (2 duplicate re-archives)
 - @sweeps/2026-06-22-daily.md — overnight fetch + K126 duplicate-only batch
+- @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — K127 PEBM verified-mention framework
+- @concepts/per-entity-bias-mapping-geo.md — operator playbook
+- @sweeps/2026-06-23-daily.md — overnight fetch + K127 ingest
 
 ## Raw Concept
 

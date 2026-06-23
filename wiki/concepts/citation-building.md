@@ -20,10 +20,11 @@ related:
   - entities/markets/local-market-template.md
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
   - concepts/content-strategy-local.md
+  - concepts/per-entity-bias-mapping-geo.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-19
+updated: 2026-06-23
 
 ---
 

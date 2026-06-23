@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-20
+updated: 2026-06-23
 ---
 
 # Wiki Index
@@ -41,6 +41,7 @@ If you're new to this wiki:
 - [arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17](sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md) — WikiKV path-indexed hierarchical wiki storage REFERENCE (2026-06-17 digest)
 - [arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18](sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md) — LLM brand bias + GEO competition audit (2026-06-18 digest)
 - [arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19](sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md) — Ranqo production GEO measurement baseline (2026-06-19 digest)
+- [arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23](sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md) — PEBM verified-mention framework; Brand Hallucination Paradox (2026-06-23 digest)
 
 ### Audits + evaluations
 
@@ -94,6 +95,7 @@ If you're new to this wiki:
 - [citation-verification-aeo](concepts/citation-verification-aeo.md) — claim–source verification loop; Med-V1 hallucination evidence
 - [competitive-geo-citation-factors](concepts/competitive-geo-citation-factors.md) — SIGIR '26 gatekeeper/differentiator checklist for winning first AI citation
 - [geo-visibility-measurement](concepts/geo-visibility-measurement.md) — repeated sampling + bootstrap CI for AI citation share/prevalence (Sielinski 2026)
+- [per-entity-bias-mapping-geo](concepts/per-entity-bias-mapping-geo.md) — PEBM verified-mention audits; Brand Hallucination Paradox (Varga 2026)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)
 - [ranqo](entities/tools/ranqo.md) — AI brand visibility SaaS; production GEO baseline REFERENCE (K123)

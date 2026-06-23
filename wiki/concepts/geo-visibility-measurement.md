@@ -21,9 +21,11 @@ related:
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
   - entities/tools/ranqo.md
   - sweeps/2026-06-19-daily.md
+  - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
+  - concepts/per-entity-bias-mapping-geo.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-06-19
+updated: 2026-06-23
 ---
 
 ## Relations
@@ -46,6 +48,8 @@ updated: 2026-06-19
 - @sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md — production baseline (Ranqo 100K+ responses)
 - @entities/tools/ranqo.md — vendor REFERENCE
 - @sweeps/2026-06-19-daily.md — K123 ingest
+- @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — verified mention rate overlay (K127)
+- @concepts/per-entity-bias-mapping-geo.md — entity error-profile calibration
 
 ## Raw Concept
 
@@ -150,6 +154,10 @@ Operator mini-version: 3–5 anonymized competitor cards, 3 personas, 3 prompt t
 See @concepts/llm-brand-bias-geo-competition.md.
 
 Hands-on Ranqo-style tier baseline: `briefs/2026-06-19_k123-ranqo-geo-visibility-baseline-hands-on.md`.
+
+### Verified mention overlay [STEAL from Varga 2026 PEBM]
+
+@sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md: track **verified mention rate** alongside raw mention — equal mention rates can mean accurate visibility vs high false-attribution exposure. High-salience entities show **higher fabricated citation rates** (52.7% vs 37.9% in B2B panel). See @concepts/per-entity-bias-mapping-geo.md; hands-on: `briefs/2026-06-23_k127-pebm-verified-mention-audit-hands-on.md`.
 
 ## Snippets
 

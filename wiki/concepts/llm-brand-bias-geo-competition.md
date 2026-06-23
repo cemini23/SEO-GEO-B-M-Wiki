@@ -14,9 +14,11 @@ related:
   - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-18-daily.md
+  - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
+  - concepts/per-entity-bias-mapping-geo.md
 maturity: validated
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-06-23
 ---
 
 ## Relations
@@ -31,6 +33,8 @@ updated: 2026-06-18
 - @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md — adversarial injection PD; Chu = commercial copy PD
 - @concepts/federated-daily-research-digest.md — K122 ingest
 - @sweeps/2026-06-18-daily.md — digest
+- @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — Brand Hallucination Paradox: familiar brands get more fabricated citations
+- @concepts/per-entity-bias-mapping-geo.md — verified mention calibration
 
 ## Raw Concept
 
@@ -58,6 +62,8 @@ Brand identity explains only **1.2%** of ranking variance overall; product param
 | **Chu** | What happens when cards **look the same**? | Brand name; then authority copy as synthetic quality |
 
 **Unified operator rule:** publish **real** rating, review count, and price on GBP + website so assistants never face a tie where brand recognition alone decides. Chu’s +0.075★ threshold is smaller than Baig’s 4.7 vs 3.9★ contrast — even modest visible quality edges matter.
+
+**Brand Hallucination Paradox (Varga 2026):** when the brand is **familiar enough to mention**, fabricated citations can **exceed** low-salience entities (52.7% vs 37.9% in B2B panel) — opposite failure mode from Conditional Monopoly tie-breaking. Pair Chu tie-breaker tests with @concepts/per-entity-bias-mapping-geo.md verified-mention audits.
 
 ### Bias Surplus Value (BSV) — authority language as GEO `[CONFIRMED in skincare audit]`
 

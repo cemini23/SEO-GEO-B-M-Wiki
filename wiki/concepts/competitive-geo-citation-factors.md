@@ -26,9 +26,12 @@ related:
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
   - entities/tools/ranqo.md
   - sweeps/2026-06-19-daily.md
+  - concepts/per-entity-bias-mapping-geo.md
+  - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
+  - sweeps/2026-06-23-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-19
+updated: 2026-06-23
 ---
 
 ## Relations

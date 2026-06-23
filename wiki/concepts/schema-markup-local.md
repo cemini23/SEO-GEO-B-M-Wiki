@@ -14,10 +14,11 @@ related:
   - concepts/first-90-days-playbook.md
   - concepts/content-strategy-local.md
   - concepts/local-pack-rankings.md
+  - concepts/per-entity-bias-mapping-geo.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-06-23
 
 ---
 

@@ -66,6 +66,9 @@ related:
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
   - entities/tools/ranqo.md
   - sweeps/2026-06-19-daily.md
+  - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
+  - concepts/per-entity-bias-mapping-geo.md
+  - sweeps/2026-06-23-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -74,7 +77,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-19
+updated: 2026-06-23
 ---
 
 ## Relations
@@ -207,6 +210,8 @@ Playbook: @concepts/llm-brand-bias-geo-competition.md; hands-on `briefs/2026-06-
 - **14–30 day re-audit** loop; causal lifts await v1.1 RCT (Protocol P3).
 
 Playbook: @concepts/geo-visibility-measurement.md; hands-on `briefs/2026-06-19_k123-ranqo-geo-visibility-baseline-hands-on.md`. Local barbershop queries untested `[NEEDS VERIFICATION 2026-06-19]`.
+
+**Pair with PEBM:** @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — raw mention rate from Ranqo-style tracking is insufficient; add **verified mention rate** and citation fidelity (@concepts/per-entity-bias-mapping-geo.md). High-salience tiers may show **more fabricated citations**, not fewer.
 
 ### Citation verification — claims vs sources [TENTATIVE]
 

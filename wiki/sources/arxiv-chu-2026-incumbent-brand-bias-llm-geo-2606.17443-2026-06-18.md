@@ -15,10 +15,11 @@ related:
   - sources/aggarwal-2024-geo-paper.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-18-daily.md
+  - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
 maturity: validated
 read_status: read
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-06-23
 ---
 
 ## Relations

@@ -8,9 +8,13 @@ related:
   - concepts/geo-visibility-measurement.md
   - concepts/generative-engine-optimization.md
   - entities/tools/local-falcon.md
+  - concepts/per-entity-bias-mapping-geo.md
+  - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
+  - concepts/competitive-geo-citation-factors.md
+  - concepts/federated-daily-research-digest.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-23
 phase_0_verdict: REFERENCE
 license_verified: n/a
 repo: n/a
@@ -23,6 +27,7 @@ vendor: https://ranqo.ai
 - @concepts/geo-visibility-measurement.md — operator measurement playbook; pair vendor telemetry with bootstrap CI discipline
 - @concepts/generative-engine-optimization.md — GEO hub
 - @entities/tools/local-falcon.md — grid/local SAIV tracking; complementary not duplicate
+- @concepts/per-entity-bias-mapping-geo.md — pair mention telemetry with verified-mention audits (K127)
 
 ## Raw Concept
 
