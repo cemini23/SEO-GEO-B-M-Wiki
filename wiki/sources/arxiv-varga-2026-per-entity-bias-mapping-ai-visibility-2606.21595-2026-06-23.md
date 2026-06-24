@@ -16,10 +16,11 @@ related:
   - entities/tools/ranqo.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-23-daily.md
+  - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
 maturity: validated
 read_status: read
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

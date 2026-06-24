@@ -17,11 +17,12 @@ related:
   - sweeps/2026-06-19-daily.md
   - concepts/per-entity-bias-mapping-geo.md
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
+  - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
   - entities/tools/local-falcon.md
 maturity: validated
 read_status: read
 created: 2026-06-19
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

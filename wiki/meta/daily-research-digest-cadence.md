@@ -44,7 +44,7 @@ Wiki-local cadence page created with K93 federated digest rollout (`briefs/2026-
 | **Schedule** | Daily ~08:15 local via LaunchAgent (after install) |
 | **Wrapper** | `~/bin/cemini-daily-research-digest-seo` |
 | **Label** | `com.cemini.daily-research-digest.seo` |
-| **Repo** | `/Users/claudiobarone/Desktop/projects/SEO:GEO B&M Business` |
+| **Repo** | `/Users/claudiobarone/Projects/SEO:GEO B&M Business` |
 | **Output** | `wiki/sweeps/YYYY-MM-DD-daily.md` |
 | **Inbox** | PDFs / new sources → `research to be indexed/` |
 

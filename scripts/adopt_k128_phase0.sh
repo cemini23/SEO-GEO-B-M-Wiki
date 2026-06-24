@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# K128 Phase-0 — SEO daily digest full ingest (Language Blind Spot + sentiment polarity + archives)
+set -euo pipefail
+
+echo "K128 Phase-0 audits (SEO wiki)"
+echo "=============================="
+echo ""
+echo "Verdicts (2026-06-24):"
+echo "  arxiv-2606.23165 (Žatuchin/Language Blind Spot)  REFERENCE — multilingual GEO measurement;"
+echo "                                      Rankfor.AI author; steal query-language matrix audit;"
+echo "                                      no vendor product audit"
+echo ""
+echo "  arxiv-2606.22745 (Rajiv/sentiment polarity)      REFERENCE — polarity bias in FR/JA review"
+echo "                                      classification; manual triage for multilingual reviews"
+echo ""
+echo "  arxiv-2606.20853 (ReSequel)                    REFERENCE — routed @osint-wiki brief;"
+echo "                                      Apache-2.0 github.com/CoDS-GCS/ReSequel;"
+echo "                                      SQL LLM rewrite layer (not local SEO)"
+echo ""
+echo "  arxiv-2606.19893 (MetaResearcher)              DUPLICATE-ARCHIVE — K124 @osint-wiki ingest complete"
+echo ""
+echo "  arxiv-2606.19635 (Token Factory)               REFERENCE-ARCHIVE — Google industrial recsys;"
+echo "                                      triaged @concepts/corpus-overflow-out-of-scope.md"
+echo ""
+echo "Primary synthesis: @concepts/multilingual-geo-audit.md"
+echo "                   @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md"
+echo "Hands-on briefs:   briefs/2026-06-24_k128-multilingual-geo-query-audit-hands-on.md"
+echo "                   briefs/2026-06-24_k128-review-sentiment-polarity-check-hands-on.md"

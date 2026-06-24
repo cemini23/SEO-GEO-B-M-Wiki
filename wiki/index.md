@@ -42,6 +42,9 @@ If you're new to this wiki:
 - [arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18](sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md) — LLM brand bias + GEO competition audit (2026-06-18 digest)
 - [arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19](sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md) — Ranqo production GEO measurement baseline (2026-06-19 digest)
 - [arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23](sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md) — PEBM verified-mention framework; Brand Hallucination Paradox (2026-06-23 digest)
+- [arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24](sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md) — query-language blind spot; multilingual GEO measurement (2026-06-24 digest)
+- [arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24](sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md) — LLM polarity bias in FR/JA review classification (2026-06-24 digest)
+- [arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24](sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md) — Token Factory industrial recsys archive (out of scope)
 
 ### Audits + evaluations
 
@@ -96,9 +99,11 @@ If you're new to this wiki:
 - [competitive-geo-citation-factors](concepts/competitive-geo-citation-factors.md) — SIGIR '26 gatekeeper/differentiator checklist for winning first AI citation
 - [geo-visibility-measurement](concepts/geo-visibility-measurement.md) — repeated sampling + bootstrap CI for AI citation share/prevalence (Sielinski 2026)
 - [per-entity-bias-mapping-geo](concepts/per-entity-bias-mapping-geo.md) — PEBM verified-mention audits; Brand Hallucination Paradox (Varga 2026)
+- [multilingual-geo-audit](concepts/multilingual-geo-audit.md) — query-language blind spot; home-language recommendation share (Žatuchin 2026)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)
 - [ranqo](entities/tools/ranqo.md) — AI brand visibility SaaS; production GEO baseline REFERENCE (K123)
+- [rankfor-ai](entities/tools/rankfor-ai.md) — GEO monitoring vendor stub; Žatuchin 2026 author affiliation (K128)
 - [google-business-profile](concepts/google-business-profile.md) — GBP optimization playbook (concept side); listing setup, categories, services, posts, photos
 - [local-seo-foundations](concepts/local-seo-foundations.md) — main local-SEO hub: NAP, GBP, reviews, on-page, local pack, behavioral signals
 - [near-me-search](concepts/near-me-search.md) — implicit-location query behavior; Relevance/Distance/Prominence; voice search; grid-based ranking

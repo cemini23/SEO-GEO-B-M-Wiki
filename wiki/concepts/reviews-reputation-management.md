@@ -26,10 +26,12 @@ related:
   - sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
   - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
   - concepts/llm-reputation-signals-geo.md
+  - sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
+  - concepts/multilingual-geo-audit.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-16
+updated: 2026-06-24
 
 ---
 
@@ -55,6 +57,8 @@ updated: 2026-06-16
 - @sources/bowtied-bull-solopreneur-leadgen-macro-2026-05-22.md
 - @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — LLM selection weights for rating/volume/response
 - @concepts/llm-reputation-signals-geo.md
+- @sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md — LLM polarity bias in FR/JA review classification
+- @concepts/multilingual-geo-audit.md — language-specific AI reputation effects
 
 ## Raw Concept
 
@@ -83,6 +87,8 @@ The wiki's `concepts/reviews-reputation-management.md` page is the primary refer
 ### LLM selection vs classical local SEO `[TENTATIVE]`
 
 @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md (pre-registered conjoint, 12 LLMs, >60k calls): at the **selection** stage among comparable candidates, **star rating (+31.6 pp)** and **review volume (+8.3 pp)** move recommendations causally; **visible management response (+0.1 pp)** does not. Continue responding to reviews for human trust, GBP engagement, and policy compliance — but **do not prioritize response-rate KPIs as a GEO visibility tactic** without your own repeated assistant tests `[NEEDS VERIFICATION 2026-06-16]` on barbershop queries. See @concepts/llm-reputation-signals-geo.md.
+
+**Automated sentiment polarity:** @sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md — LLM classifiers show **negative bias in French** and encoder **positive bias in Japanese** (misses indirect criticism). Do not auto-escalate dashboard sentiment flags in non-English reviews without human read `[NEEDS VERIFICATION 2026-06-24]`. Hands-on: `briefs/2026-06-24_k128-review-sentiment-polarity-check-hands-on.md`.
 
 ### Monitoring
 

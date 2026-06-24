@@ -5,14 +5,16 @@ tags: [concept, corpus-hygiene, out-of-scope, research-index, librarian-bookkeep
 keywords: [corpus inventory, out of scope, research overflow, misfiled source]
 related:
   - sources/slcg-paper-off-topic.md
+  - sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-06-24
 ---
 
 ## Relations
 
 - @sources/slcg-paper-off-topic.md — *S-LCG: Structured Linear Congruential Generator-Based Deterministic Algorithm* — pure-mathematics optimization paper; no relevance to the local-SEO/GEO/marketing remit, likely misfiled
+- @sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md — Google industrial LRM/recsys engineering; archived K128 digest fetch
 
 ## Raw Concept
 
@@ -30,11 +32,12 @@ A source lands here if it was dropped into the ingest queue, a stub was created 
 
 Deleting the stub loses the record that the file was already triaged-and-rejected, risking duplicate effort on the next sweep. Keeping it under this hub is the "we looked, we passed" marker.
 
-### Current contents (1 source, 2026-05-16)
+### Current contents (2 sources, 2026-06-24)
 
 | Stub | Topic | Why out-of-scope |
 |---|---|---|
 | @sources/slcg-paper-off-topic.md | S-LCG deterministic optimization algorithm (pure math, arXiv 2605.05198) | Mathematical-optimization "search", not search-engine SEO; misfiled — belongs in a quant/OSINT research workspace |
+| @sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md | Token Factory — Google Large Recommendation Models soft tokens (arXiv 2606.19635) | Industrial video/recsys ML; no brick-and-mortar local SEO operator playbook |
 
 ## Snippets
 

@@ -57,9 +57,15 @@ related:
   - sweeps/2026-06-23-daily.md
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
   - concepts/per-entity-bias-mapping-geo.md
+  - sweeps/2026-06-23-daily.md
+  - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
+  - concepts/multilingual-geo-audit.md
+  - sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
+  - sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md
+  - sweeps/2026-06-24-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-23
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -113,6 +119,12 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — K127 PEBM verified-mention framework
 - @concepts/per-entity-bias-mapping-geo.md — operator playbook
 - @sweeps/2026-06-23-daily.md — overnight fetch + K127 ingest
+- @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — K128 Language Blind Spot multilingual GEO
+- @concepts/multilingual-geo-audit.md — operator playbook
+- @sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md — review sentiment polarity bias
+- @osint-wiki/briefs/2026-06-24_k128-resequel-llm-query-rewrite-handoff.md — K128 ReSequel cross-wiki brief
+- @sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md — Token Factory archive (out of scope)
+- @sweeps/2026-06-24-daily.md — overnight fetch + K128 ingest
 
 ## Raw Concept
 
@@ -135,8 +147,8 @@ Canonical federation docs: @osint-wiki/concepts/federated-daily-research-digest.
 ### Install (operator hands-on)
 
 ```bash
-bash "/Users/claudiobarone/Desktop/OSINT WORKSPACE/scripts/federation/daily_digest/install_federated_daily_digest.sh" \
-  "/Users/claudiobarone/Desktop/projects/SEO:GEO B&M Business" seo
+bash "/Users/claudiobarone/Projects/OSINT WORKSPACE/scripts/federation/daily_digest/install_federated_daily_digest.sh" \
+  "/Users/claudiobarone/Projects/SEO:GEO B&M Business" seo
 ```
 
 Creates `~/bin/cemini-daily-research-digest-seo` + LaunchAgent `com.cemini.daily-research-digest.seo` (08:15 local). Requires `.env` Exa key per `.env.example`.

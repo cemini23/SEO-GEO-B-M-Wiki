@@ -17,9 +17,13 @@ related:
   - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
   - concepts/llm-brand-bias-geo-competition.md
   - sweeps/2026-06-18-daily.md
+  - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
+  - concepts/multilingual-geo-audit.md
+  - sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
+  - sweeps/2026-06-24-daily.md
 maturity: validated
 created: 2026-06-16
-updated: 2026-06-18
+updated: 2026-06-24
 ---
 
 ## Relations
@@ -36,6 +40,10 @@ updated: 2026-06-18
 - @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md — when cards **tie**, brand default; small rating edge breaks it (Chu 2026)
 - @concepts/llm-brand-bias-geo-competition.md — brand bias + GEO competition playbook
 - @sweeps/2026-06-18-daily.md — K122 ingest
+- @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — recommendation share vs sentiment by query language
+- @concepts/multilingual-geo-audit.md — language matrix for selection-stage audits
+- @sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md — automated sentiment polarity bias (K128)
+- @sweeps/2026-06-24-daily.md — K128 ingest
 
 ## Raw Concept
 

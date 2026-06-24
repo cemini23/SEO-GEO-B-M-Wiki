@@ -10,9 +10,10 @@ related:
   - concepts/citation-building.md
   - concepts/competitor-analysis-local.md
   - concepts/near-me-search.md
+  - concepts/multilingual-geo-audit.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-06-24
 ---
 
 ## Relations
@@ -23,6 +24,7 @@ updated: 2026-05-08
 - @entities/companies/shop-2.md
 - @concepts/first-90-days-playbook.md
 - @concepts/session-1-facilitator-notes.md
+- @concepts/multilingual-geo-audit.md — bilingual markets: home-language GEO query matrix
 
 ## Raw Concept
 

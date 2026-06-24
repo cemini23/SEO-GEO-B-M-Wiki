@@ -1,13 +1,24 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-23
+updated: 2026-06-24
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-24] ingest | K128 daily digest — Language Blind Spot multilingual GEO + review polarity bias + archives (5 arXiv)
+
+- **Sources** — arXiv 2606.23165 (Žatuchin Language Blind Spot); 2606.22745 (Rajiv sentiment polarity); 2606.20853 ReSequel → @osint-wiki brief; 2606.19893 MetaResearcher re-fetch (K124 duplicate); 2606.19635 Token Factory archive
+- **New** — @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md, @concepts/multilingual-geo-audit.md, @sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md, @entities/tools/rankfor-ai.md, @sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md
+- **Updated** — @concepts/geo-visibility-measurement.md, @concepts/generative-engine-optimization.md, @concepts/llm-reputation-signals-geo.md, @concepts/reviews-reputation-management.md, @concepts/review-response-templates.md, @concepts/federated-daily-research-digest.md, @entities/tools/ranqo.md, @concepts/corpus-overflow-out-of-scope.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k128_phase0.sh` (Žatuchin/Rajiv REFERENCE; ReSequel CONDITIONAL-GO @osint-wiki; MetaResearcher DUPLICATE-ARCHIVE; Token Factory REFERENCE-ARCHIVE)
+- **Briefs (2 hands-on)** — multilingual GEO query audit; review sentiment polarity check
+- **Cross-wiki (OSINT)** — `briefs/2026-06-24_k128-resequel-llm-query-rewrite-handoff.md`
+- **PDFs** → `raw-sources/` + egress-fi archive; inbox cleared
+- **Operator note** — English-only GEO audits understate local-champion recommendation share (+0.80 home-language shift vs +0.15 for globals) `[NEEDS VERIFICATION 2026-06-24]` on barbershop queries
 
 ## [2026-06-23] ingest | K127 daily digest — PEBM verified-mention framework + MetaResearcher re-archive (2 arXiv)
 

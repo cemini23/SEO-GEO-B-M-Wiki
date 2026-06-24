@@ -16,9 +16,11 @@ related:
   - concepts/citation-building.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-23-daily.md
+  - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
+  - concepts/multilingual-geo-audit.md
 maturity: validated
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations
@@ -35,6 +37,8 @@ updated: 2026-06-23
 - @concepts/citation-building.md — third-party co-citation density
 - @concepts/federated-daily-research-digest.md — K127 ingest
 - @sweeps/2026-06-23-daily.md — overnight fetch
+- @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — language tier effects complement PEBM tiers (K128)
+- @concepts/multilingual-geo-audit.md — query-language blind spot playbook
 
 ## Raw Concept
 

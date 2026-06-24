@@ -10,10 +10,12 @@ related:
   - entities/tools/easy-review.md
   - concepts/local-pack-rankings.md
   - concepts/high-ticket-smb-lead-generation.md
+  - sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
+  - concepts/multilingual-geo-audit.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-01
+updated: 2026-06-24
 
 ---
 
@@ -28,6 +30,8 @@ updated: 2026-06-01
 - @entities/tools/easy-review.md
 - @concepts/local-pack-rankings.md
 - @concepts/high-ticket-smb-lead-generation.md
+- @sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
+- @concepts/multilingual-geo-audit.md
 - @log.md
 
 

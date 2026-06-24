@@ -69,6 +69,10 @@ related:
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
   - concepts/per-entity-bias-mapping-geo.md
   - sweeps/2026-06-23-daily.md
+  - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
+  - concepts/multilingual-geo-audit.md
+  - sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
+  - sweeps/2026-06-24-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -77,7 +81,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations
@@ -212,6 +216,8 @@ Playbook: @concepts/llm-brand-bias-geo-competition.md; hands-on `briefs/2026-06-
 Playbook: @concepts/geo-visibility-measurement.md; hands-on `briefs/2026-06-19_k123-ranqo-geo-visibility-baseline-hands-on.md`. Local barbershop queries untested `[NEEDS VERIFICATION 2026-06-19]`.
 
 **Pair with PEBM:** @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — raw mention rate from Ranqo-style tracking is insufficient; add **verified mention rate** and citation fidelity (@concepts/per-entity-bias-mapping-geo.md). High-salience tiers may show **more fabricated citations**, not fewer.
+
+**Multilingual blind spot:** @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — English-only GEO audits understate **local champion** recommendation share; run home-language query matrix (@concepts/multilingual-geo-audit.md).
 
 ### Citation verification — claims vs sources [TENTATIVE]
 

@@ -23,9 +23,12 @@ related:
   - sweeps/2026-06-19-daily.md
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
   - concepts/per-entity-bias-mapping-geo.md
+  - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
+  - concepts/multilingual-geo-audit.md
+  - sweeps/2026-06-24-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations
@@ -50,6 +53,9 @@ updated: 2026-06-23
 - @sweeps/2026-06-19-daily.md — K123 ingest
 - @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — verified mention rate overlay (K127)
 - @concepts/per-entity-bias-mapping-geo.md — entity error-profile calibration
+- @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — query-language matrix (K128)
+- @concepts/multilingual-geo-audit.md — English-only blind spot for local champions
+- @sweeps/2026-06-24-daily.md — K128 ingest
 
 ## Raw Concept
 
@@ -158,6 +164,10 @@ Hands-on Ranqo-style tier baseline: `briefs/2026-06-19_k123-ranqo-geo-visibility
 ### Verified mention overlay [STEAL from Varga 2026 PEBM]
 
 @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md: track **verified mention rate** alongside raw mention — equal mention rates can mean accurate visibility vs high false-attribution exposure. High-salience entities show **higher fabricated citation rates** (52.7% vs 37.9% in B2B panel). See @concepts/per-entity-bias-mapping-geo.md; hands-on: `briefs/2026-06-23_k127-pebm-verified-mention-audit-hands-on.md`.
+
+### Multilingual query matrix [STEAL from Žatuchin 2026]
+
+@sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md: English-only probes **understate recommendation share** for local champions (home-language shift **+0.80** vs **+0.15** for global brands). Fix **engine set** before comparing languages — stability η²_model=0.32 vs η²_language=0.01. Full playbook: @concepts/multilingual-geo-audit.md; hands-on: `briefs/2026-06-24_k128-multilingual-geo-query-audit-hands-on.md`.
 
 ## Snippets
 

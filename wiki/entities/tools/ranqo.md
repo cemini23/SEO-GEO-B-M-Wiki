@@ -12,9 +12,12 @@ related:
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
   - concepts/competitive-geo-citation-factors.md
   - concepts/federated-daily-research-digest.md
+  - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
+  - concepts/multilingual-geo-audit.md
+  - entities/tools/rankfor-ai.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-23
+updated: 2026-06-24
 phase_0_verdict: REFERENCE
 license_verified: n/a
 repo: n/a
@@ -28,6 +31,9 @@ vendor: https://ranqo.ai
 - @concepts/generative-engine-optimization.md — GEO hub
 - @entities/tools/local-falcon.md — grid/local SAIV tracking; complementary not duplicate
 - @concepts/per-entity-bias-mapping-geo.md — pair mention telemetry with verified-mention audits (K127)
+- @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — English-only blind spot (K128)
+- @concepts/multilingual-geo-audit.md — home-language query matrix
+- @entities/tools/rankfor-ai.md — peer vendor (study author)
 
 ## Raw Concept
 
