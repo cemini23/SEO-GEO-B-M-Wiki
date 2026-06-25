@@ -9,6 +9,16 @@ last_easy_review_ingest: 2026-05-08
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
 
+## [2026-06-25] ingest | K129 daily digest — ABSA peer-review aspect steal + duplicate re-archives (3 arXiv)
+
+- **Sources** — arXiv 2606.24188 (Han ABSA peer-review evolution); 2606.20853 ReSequel re-fetch (K128 duplicate); 2606.19893 MetaResearcher re-fetch (K124 duplicate)
+- **New** — @sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md
+- **Updated** — @concepts/reviews-reputation-management.md, @concepts/review-response-templates.md, @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k129_phase0.sh` (Han REFERENCE LICENSE null; ReSequel + MetaResearcher DUPLICATE-ARCHIVE)
+- **Briefs (1 hands-on)** — negative review aspect-theme audit
+- **Brief backfill** — git-track K120–K127 hands-on suite cited in wiki (`briefs/2026-06-16_k120-*` … `2026-06-23_k127-*`)
+- **PDFs** → `raw-sources/` + egress-fi archive; inbox cleared
+
 ## [2026-06-24] ingest | K128 daily digest — Language Blind Spot multilingual GEO + review polarity bias + archives (5 arXiv)
 
 - **Sources** — arXiv 2606.23165 (Žatuchin Language Blind Spot); 2606.22745 (Rajiv sentiment polarity); 2606.20853 ReSequel → @osint-wiki brief; 2606.19893 MetaResearcher re-fetch (K124 duplicate); 2606.19635 Token Factory archive

@@ -63,9 +63,11 @@ related:
   - sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
   - sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md
   - sweeps/2026-06-24-daily.md
+  - sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md
+  - sweeps/2026-06-25-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-24
+updated: 2026-06-25
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -125,6 +127,8 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @osint-wiki/briefs/2026-06-24_k128-resequel-llm-query-rewrite-handoff.md — K128 ReSequel cross-wiki brief
 - @sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md — Token Factory archive (out of scope)
 - @sweeps/2026-06-24-daily.md — overnight fetch + K128 ingest
+- @sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md — K129 ABSA peer-review aspect evolution (methodology steal)
+- @sweeps/2026-06-25-daily.md — overnight fetch + K129 ingest (2 duplicate re-archives)
 
 ## Raw Concept
 

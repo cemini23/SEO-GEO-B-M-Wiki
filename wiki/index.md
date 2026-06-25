@@ -45,6 +45,7 @@ If you're new to this wiki:
 - [arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24](sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md) — query-language blind spot; multilingual GEO measurement (2026-06-24 digest)
 - [arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24](sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md) — LLM polarity bias in FR/JA review classification (2026-06-24 digest)
 - [arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24](sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md) — Token Factory industrial recsys archive (out of scope)
+- [arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25](sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md) — ABSA peer-review evolution; aspect-theme steal for customer reviews (2026-06-25 digest)
 
 ### Audits + evaluations
 
