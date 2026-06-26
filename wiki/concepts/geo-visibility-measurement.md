@@ -26,9 +26,12 @@ related:
   - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
   - concepts/multilingual-geo-audit.md
   - sweeps/2026-06-24-daily.md
+  - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
+  - concepts/ai-citation-sourcing-geo.md
+  - sweeps/2026-06-26-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-06-24
+updated: 2026-06-26
 ---
 
 ## Relations
@@ -56,6 +59,9 @@ updated: 2026-06-24
 - @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — query-language matrix (K128)
 - @concepts/multilingual-geo-audit.md — English-only blind spot for local champions
 - @sweeps/2026-06-24-daily.md — K128 ingest
+- @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — citation URL layer; 85.7% third-party (K130)
+- @concepts/ai-citation-sourcing-geo.md — earned-media source audit before share wins
+- @sweeps/2026-06-26-daily.md — K130 ingest
 
 ## Raw Concept
 

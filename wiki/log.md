@@ -1,13 +1,23 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-24
+updated: 2026-06-26
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-26] ingest | K130 daily digest — Žatuchin citation sourcing (earned-media GEO layer) (1 arXiv)
+
+- **Sources** — arXiv 2606.25787 (Žatuchin LLM brand reputation sourcing across languages)
+- **New** — @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md, @concepts/ai-citation-sourcing-geo.md
+- **Updated** — @concepts/citation-building.md, @concepts/competitive-geo-citation-factors.md, @concepts/geo-visibility-measurement.md, @concepts/generative-engine-optimization.md, @concepts/multilingual-geo-audit.md, @entities/tools/rankfor-ai.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k130_phase0.sh` (Žatuchin REFERENCE; Zenodo + open.rankfor.ai data; no SaaS audit)
+- **Brief (1 hands-on)** — earned-media citation audit (`briefs/2026-06-26_k130-earned-media-citation-audit-hands-on.md`)
+- **PDF** → `raw-sources/` + egress-fi archive; inbox cleared
+- **Operator note** — 85.7% third-party citation share; Wikipedia #1 in 11/12 languages `[NEEDS VERIFICATION 2026-06-26]` on local barbershop queries
 
 ## [2026-06-25] ingest | K129 daily digest — ABSA peer-review aspect steal + duplicate re-archives (3 arXiv)
 

@@ -65,9 +65,12 @@ related:
   - sweeps/2026-06-24-daily.md
   - sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md
   - sweeps/2026-06-25-daily.md
+  - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
+  - concepts/ai-citation-sourcing-geo.md
+  - sweeps/2026-06-26-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-25
+updated: 2026-06-26
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -129,6 +132,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sweeps/2026-06-24-daily.md — overnight fetch + K128 ingest
 - @sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md — K129 ABSA peer-review aspect evolution (methodology steal)
 - @sweeps/2026-06-25-daily.md — overnight fetch + K129 ingest (2 duplicate re-archives)
+- @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — K130 citation sourcing across languages (Žatuchin companion to K128)
+- @concepts/ai-citation-sourcing-geo.md — earned-media GEO source-layer playbook
+- @sweeps/2026-06-26-daily.md — overnight fetch + K130 ingest
 
 ## Raw Concept
 

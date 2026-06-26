@@ -15,10 +15,12 @@ related:
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-24-daily.md
+  - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
+  - concepts/ai-citation-sourcing-geo.md
 maturity: validated
 read_status: read
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-26
 ---
 
 ## Relations
@@ -34,6 +36,8 @@ updated: 2026-06-24
 - @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — brand tier error profiles
 - @concepts/federated-daily-research-digest.md — K128 ingest
 - @sweeps/2026-06-24-daily.md — overnight inbox drop
+- @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — citation URL layer companion (K130)
+- @concepts/ai-citation-sourcing-geo.md — earned-media sourcing playbook
 
 ## Raw Concept
 

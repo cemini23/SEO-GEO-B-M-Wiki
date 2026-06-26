@@ -29,9 +29,12 @@ related:
   - concepts/per-entity-bias-mapping-geo.md
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
   - sweeps/2026-06-23-daily.md
+  - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
+  - concepts/ai-citation-sourcing-geo.md
+  - sweeps/2026-06-26-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-23
+updated: 2026-06-26
 ---
 
 ## Relations
@@ -58,6 +61,9 @@ updated: 2026-06-23
 - @sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md — citation source-class + listicle share (production panel)
 - @entities/tools/ranqo.md
 - @sweeps/2026-06-19-daily.md — K123 ingest
+- @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — 85.7% third-party citation share (K130)
+- @concepts/ai-citation-sourcing-geo.md — source-layer audit before answer-text wins
+- @sweeps/2026-06-26-daily.md — K130 ingest
 
 ## Raw Concept
 

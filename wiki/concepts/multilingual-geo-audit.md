@@ -18,9 +18,11 @@ related:
   - concepts/review-response-templates.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-24-daily.md
+  - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
+  - concepts/ai-citation-sourcing-geo.md
 maturity: validated
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-26
 ---
 
 ## Relations
@@ -38,6 +40,8 @@ updated: 2026-06-24
 - @entities/markets/local-market-template.md — bilingual market checklist
 - @concepts/federated-daily-research-digest.md — K128 ingest
 - @sweeps/2026-06-24-daily.md — overnight fetch
+- @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — citation sourcing companion (K130)
+- @concepts/ai-citation-sourcing-geo.md — earned-media citation audit layer
 
 ## Raw Concept
 

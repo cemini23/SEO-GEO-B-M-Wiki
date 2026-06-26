@@ -21,10 +21,12 @@ related:
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
   - concepts/content-strategy-local.md
   - concepts/per-entity-bias-mapping-geo.md
+  - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
+  - concepts/ai-citation-sourcing-geo.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-23
+updated: 2026-06-26
 
 ---
 
@@ -46,6 +48,8 @@ updated: 2026-06-23
 - @concepts/local-pack-rankings.md
 - @entities/markets/local-market-template.md
 - @sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md — third-party peer pages dominate AI citations (75%); listicle earning
+- @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — 85.7% third-party citation share; Wikipedia gatekeeper (K130)
+- @concepts/ai-citation-sourcing-geo.md — earned-media source audit before NAP-only work
 - @concepts/content-strategy-local.md — YouTube + listicle content plays
 
 
@@ -192,6 +196,8 @@ Citation building for GEO is not only NAP directories:
 1. **Audit** which "best of [city]" listicles already rank and cite competitors — outreach for inclusion (see @concepts/cold-email-outbound-agency.md for pitch framing).
 2. **Chamber / local press / niche blogs** — editorial citations (3.8% in panel) compound with listicle targets.
 3. **YouTube** — treat as citation surface (4.2%), not only social — link from video descriptions to booking page.
+
+@sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md (Žatuchin 2026, K130): across 12 languages, **85.7%** of brand-reputation citations hit **third-party** domains; owned sites **14.3%** — Wikipedia #1 in 11/12 languages. Even the best self-cited brand still draws minority owned share; many brands get **zero** owned citations. NAP consistency on directories is table stakes; **earned coverage** on sites the operator does not control is the dominant citation path (@concepts/ai-citation-sourcing-geo.md).
 
 Core NAP directories still matter for **entity confidence** and local pack; listicle/editorial work matters for **AI answer citation share**.
 

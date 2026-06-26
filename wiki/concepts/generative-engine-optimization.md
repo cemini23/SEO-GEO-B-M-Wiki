@@ -65,6 +65,7 @@ related:
   - sweeps/2026-06-18-daily.md
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
   - entities/tools/ranqo.md
+  - entities/tools/rankfor-ai.md
   - sweeps/2026-06-19-daily.md
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
   - concepts/per-entity-bias-mapping-geo.md
@@ -73,6 +74,9 @@ related:
   - concepts/multilingual-geo-audit.md
   - sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
   - sweeps/2026-06-24-daily.md
+  - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
+  - concepts/ai-citation-sourcing-geo.md
+  - sweeps/2026-06-26-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -81,7 +85,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-24
+updated: 2026-06-26
 ---
 
 ## Relations
@@ -218,6 +222,8 @@ Playbook: @concepts/geo-visibility-measurement.md; hands-on `briefs/2026-06-19_k
 **Pair with PEBM:** @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — raw mention rate from Ranqo-style tracking is insufficient; add **verified mention rate** and citation fidelity (@concepts/per-entity-bias-mapping-geo.md). High-salience tiers may show **more fabricated citations**, not fewer.
 
 **Multilingual blind spot:** @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — English-only GEO audits understate **local champion** recommendation share; run home-language query matrix (@concepts/multilingual-geo-audit.md).
+
+**Citation sourcing layer:** @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — before optimizing answer text, audit **which URLs** engines cite: **85.7%** third-party vs **14.3%** owned across 12 languages; Wikipedia #1 in 11/12; owned site is minority even for best self-cited brands. Playbook: @concepts/ai-citation-sourcing-geo.md; hands-on `briefs/2026-06-26_k130-earned-media-citation-audit-hands-on.md`. Local barbershop queries untested `[NEEDS VERIFICATION 2026-06-26]`.
 
 ### Citation verification — claims vs sources [TENTATIVE]
 
