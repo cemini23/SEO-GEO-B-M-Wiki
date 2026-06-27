@@ -28,9 +28,10 @@ related:
   - concepts/website-essentials-local-business.md
   - sources/github-repo-audit-2026-05-07.md
   - concepts/first-90-days-playbook.md
+  - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-17
+updated: 2026-06-27
 ---
 
 ## Relations

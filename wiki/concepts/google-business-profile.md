@@ -23,10 +23,12 @@ related:
   - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
   - concepts/llm-reputation-signals-geo.md
   - sweeps/2026-06-22-daily.md
+  - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
+  - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-22
+updated: 2026-06-27
 
 ---
 
@@ -53,7 +55,8 @@ updated: 2026-06-22
 - @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md — GBP star rating + review volume as LLM selection signals
 - @concepts/llm-reputation-signals-geo.md — reputation signal playbook
 - @sweeps/2026-06-22-daily.md — K126 digest news lane (GBP feature drift)
-
+- @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md — maps/listing data as entity-model input (K131)
+- @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md — GBP as AI visibility input (K131)
 
 ## Raw Concept
 
@@ -62,6 +65,8 @@ Concept hub for *how* to optimize a Google Business Profile (formerly Google My 
 ## Narrative
 
 Google Business Profile (GBP, formerly Google My Business / GMB) is the single highest-leverage surface for a brick-and-mortar barbershop. It controls the listing's appearance in (a) Google Maps, (b) the local pack on the SERP, (c) Knowledge Panel on branded queries, and (d) increasingly, citations in AI Overviews and assistant answers.
+
+**Entity-model inputs:** Google patent narrative (@sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md) and June 2026 first-party guidance (@sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md) both treat **maps/listing business data** as core inputs to how Google understands a local entity — not optional sidebar metadata. Keep GBP hours, services, categories, photos, and review depth aligned with the website.
 
 **Listing setup checklist** (the load-bearing decisions):
 

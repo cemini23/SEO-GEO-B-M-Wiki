@@ -68,9 +68,12 @@ related:
   - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
   - concepts/ai-citation-sourcing-geo.md
   - sweeps/2026-06-26-daily.md
+  - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
+  - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
+  - sweeps/2026-06-27-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-26
+updated: 2026-06-27
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -135,6 +138,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — K130 citation sourcing across languages (Žatuchin companion to K128)
 - @concepts/ai-citation-sourcing-geo.md — earned-media GEO source-layer playbook
 - @sweeps/2026-06-26-daily.md — overnight fetch + K130 ingest
+- @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md — K131 Google LLM entity-characterization patent (news lane)
+- @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md — K131 “good SEO is good GEO” first-party summary
+- @sweeps/2026-06-27-daily.md — overnight fetch + K131 news-lane ingest (0 PDFs)
 
 ## Raw Concept
 

@@ -14,9 +14,10 @@ related:
   - entities/platforms/bing-places.md
   - concepts/geo-visibility-measurement.md
   - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
+  - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-10
+updated: 2026-06-27
 
 ---
 
@@ -31,6 +32,7 @@ updated: 2026-06-10
 - @entities/tools/local-falcon.md
 - @concepts/geo-visibility-measurement.md — GSC AI visibility reports are point estimates; pair with repeated citation tests
 - @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md — single-run visibility metrics need bootstrap CIs
+- @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md — GSC generative AI performance as Google-native baseline
 
 ## Raw Concept
 
@@ -57,7 +59,8 @@ GSC does **not** report:
 - Anything about the operator's [Google Business Profile](../platforms/google-business-profile.md) — GBP performance is a separate dashboard inside the GBP product
 - Bing or other engines (Bing has @entities/platforms/bing-places.md plus Bing Webmaster Tools as the analog)
 - Phone calls, conversions, or revenue (use @entities/tools/google-analytics-4.md for on-site events)
-- AI-engine citations (no first-party tool exists yet for ChatGPT / Claude / Perplexity citation tracking — see @concepts/generative-engine-optimization.md)
+- AI-engine citations on **non-Google** engines (ChatGPT / Claude / Perplexity) — use repeated citation tests (@concepts/geo-visibility-measurement.md)
+- **Google Search generative AI performance** — rolling out in GSC (June 2026); impressions from AI features on Google Search when property has access `[NEEDS VERIFICATION 2026-06-27]` — see @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md; pair with business outcomes, not vanity impressions alone
 
 ### Verification (one-time setup)
 

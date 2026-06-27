@@ -15,10 +15,11 @@ related:
   - concepts/content-strategy-local.md
   - concepts/local-pack-rankings.md
   - concepts/per-entity-bias-mapping-geo.md
+  - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-23
+updated: 2026-06-27
 
 ---
 
@@ -37,13 +38,15 @@ updated: 2026-06-23
 - @concepts/first-90-days-playbook.md
 - @concepts/content-strategy-local.md
 - @concepts/local-pack-rankings.md
-
+- @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md — unstructured + structured entity evidence
 
 ## Raw Concept
 
 Concept hub for **schema markup** — JSON-LD structured data on the website that tells search engines and AI engines what the business is, where it is, what it offers, and what people say about it. Critical for both classical local SEO (rich results in SERPs, Knowledge Panel data, local pack qualification) and 2026 GEO/AEO citation behavior (AI engines preferentially cite pages with valid `Service` / `FAQPage` / `LocalBusiness` markup that disambiguates the entity).
 
-For the barbershop operator, schema markup is **a one-time setup task that pays off forever**. Plugin-driven (Yoast on WordPress, Rank Math, Schema Pro) or hand-written depending on the website platform. This page is the operator's reference for what to ship.
+Schema supports **entity confidence**, but @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md describes LLM pipelines that also interpret **unstructured** page copy — JSON-LD is hygiene, not a substitute for clear services/team/experience evidence. Google June 2026 guidance (@sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md): structured data + helpful content over speculative AI-only files (e.g. llms.txt).
+
+For the barbershop operator, schema markup is **a one-time setup task that pays off forever**.
 
 ## Narrative
 

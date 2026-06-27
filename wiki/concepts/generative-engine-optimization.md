@@ -77,6 +77,9 @@ related:
   - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
   - concepts/ai-citation-sourcing-geo.md
   - sweeps/2026-06-26-daily.md
+  - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
+  - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
+  - sweeps/2026-06-27-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -85,7 +88,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-26
+updated: 2026-06-27
 ---
 
 ## Relations
@@ -224,6 +227,24 @@ Playbook: @concepts/geo-visibility-measurement.md; hands-on `briefs/2026-06-19_k
 **Multilingual blind spot:** @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — English-only GEO audits understate **local champion** recommendation share; run home-language query matrix (@concepts/multilingual-geo-audit.md).
 
 **Citation sourcing layer:** @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — before optimizing answer text, audit **which URLs** engines cite: **85.7%** third-party vs **14.3%** owned across 12 languages; Wikipedia #1 in 11/12; owned site is minority even for best self-cited brands. Playbook: @concepts/ai-citation-sourcing-geo.md; hands-on `briefs/2026-06-26_k130-earned-media-citation-audit-hands-on.md`. Local barbershop queries untested `[NEEDS VERIFICATION 2026-06-26]`.
+
+### Google first-party framing — “Good SEO is good GEO” [TENTATIVE — June 2026 messaging]
+
+@sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md (TechWyse summary of Brendon Kraham, Think with Google June 2026): Google positions AI Mode / AI Overviews on the **same index + quality systems** as classic Search — not a parallel bot-first stack.
+
+- **Do:** non-commodity expert content, crawl/index clarity, structured data, GBP/product feeds, GSC generative AI performance reports tied to business outcomes.
+- **Skip for Google Search:** llms.txt, bot-targeted fragments, inauthentic mention chasing, third-party AI dashboards as sole truth.
+- **Query fan-out:** eligibility across related questions + supporting evidence, not only the head keyword.
+
+Hands-on: `briefs/2026-06-27_k131-entity-evidence-audit-hands-on.md`.
+
+### Entity characterization patent — webpages as evidence [TENTATIVE — patent ≠ product]
+
+@sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md (SEL analysis of Google “Data extraction using LLMs” patent, 2023 filing): LLM pipeline to build **holistic entity characterizations** from websites + maps/business data + job listings + reviews — interpretive summaries and attribute graphs, not verbatim extraction.
+
+- Webpages function as **evidence** (services, team, case studies) for entity models.
+- Third-party maps/listing/review data explicitly cited as augmenting inputs — pairs with @concepts/ai-citation-sourcing-geo.md earned-media layer.
+- Patents are **not** confirmed live ranking implementations `[NEEDS VERIFICATION 2026-06-27]`.
 
 ### Citation verification — claims vs sources [TENTATIVE]
 

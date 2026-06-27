@@ -1,13 +1,24 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-26
+updated: 2026-06-27
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-27] ingest | K131 daily digest — Google entity-model news lane (0 arXiv)
+
+- **Inbox** — empty (0 PDFs; paper hits non-arXiv or wiki dupes)
+- **Sources** — Search Engine Land 480625 (Google LLM patent entity characterization); TechWyse/Kraham “Good SEO is good GEO” (Think with Google June 2026 summary)
+- **New** — @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md, @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
+- **Updated** — @concepts/generative-engine-optimization.md, @concepts/schema-markup-local.md, @concepts/google-business-profile.md, @entities/tools/google-search-console.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k131_phase0.sh` (both REFERENCE journalism; R2/R4–R6 syndicated rows SKIP)
+- **Brief (1 hands-on)** — entity evidence audit (`briefs/2026-06-27_k131-entity-evidence-audit-hands-on.md`)
+- **News skipped** — vendor playbook (R2), KBEW dental syndication (R4–R6)
+- **Operator note** — patent ≠ product; llms.txt not needed for Google Search per June 2026 messaging `[NEEDS VERIFICATION 2026-06-27]`
 
 ## [2026-06-26] ingest | K130 daily digest — Žatuchin citation sourcing (earned-media GEO layer) (1 arXiv)
 
@@ -888,4 +899,10 @@ Full inventory and triage of every unprocessed brief in `briefs/`. 19 briefs, 19
 
 **Pages touched**: 7 created + index.md + log.md = 9. 19 briefs marked processed.
 style-pass | Posts.docx K88 | 42 posts (5 PM/HL deep-read) | authors: ScottyBeamIO, myttle_web3, DankoWeb3, cyrilXBT, Damir_Akaza
-style-pass | Posts.docx K112 | 8 long-forms | authors: Gustafssonkotte, horizon_trade_x, AlterEgo_eth, Arvin Shivram, Lutchyn13, 0xSurferX, zodchiii, akshay_pachaar
+style-pass | Posts.docx K112 | 8 long-forms | authors: Gustafssonkotte, horizon_trade_x, AlterEgo_eth, Arvin Shivram, Lutchyn13, 0xSurferX, zodchiii, akshay_pacha
+
+## [2026-06-26] brief | CXW/GEO detention turnkey — WSB handoff
+
+- **Brief:** `briefs/2026-06-26_cxw-geo-detention-turnkey-wsb-handoff.md` — cross-wiki from `@osint-wiki/concepts/geo-ice-turnkey-acquisition-thesis.md` + Jun 2026 catalyst chain (Secure America Act, Appropriations hearing timing, Benchmark PT $36)
+- **Target:** r/wallstreetbets DD draft ready-for-post
+- **Primary source:** Investing.com Benchmark note (Jun 26, 2026)ar

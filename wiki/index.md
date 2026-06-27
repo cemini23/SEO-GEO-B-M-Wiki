@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-23
+updated: 2026-06-27
 ---
 
 # Wiki Index
@@ -47,6 +47,11 @@ If you're new to this wiki:
 - [arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24](sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md) — Token Factory industrial recsys archive (out of scope)
 - [arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25](sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md) — ABSA peer-review evolution; aspect-theme steal for customer reviews (2026-06-25 digest)
 - [arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26](sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md) — citation sourcing across languages; 85.7% third-party (2026-06-26 digest)
+
+### Platform / practitioner news
+
+- [searchengineland-2026-google-llm-patent-entity-characterization-480625](sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md) — Google LLM patent entity characterization; webpages as evidence (2026-06-27 digest)
+- [techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06](sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md) — Google “Good SEO is good GEO”; llms.txt skip; GSC AI reports (2026-06-27 digest)
 
 ### Audits + evaluations
 
