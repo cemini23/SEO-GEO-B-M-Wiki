@@ -20,9 +20,11 @@ related:
   - "@osint-wiki/entities/tools/metaresearcher.md"
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
   - concepts/per-entity-bias-mapping-geo.md
+  - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
+  - concepts/canonical-business-facts-geo.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-23
+updated: 2026-06-28
 ---
 
 ## Relations
@@ -42,6 +44,8 @@ updated: 2026-06-23
 - @osint-wiki/entities/tools/metaresearcher.md — deep-research RL framework REFERENCE
 - @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — citation fidelity + false attribution dimensions (K127)
 - @concepts/per-entity-bias-mapping-geo.md — verified mention playbook
+- @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md — KB provenance vs parametric hallucination (K132)
+- @concepts/canonical-business-facts-geo.md — sync checklist before verification runs
 
 ## Raw Concept
 

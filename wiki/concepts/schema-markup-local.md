@@ -16,10 +16,12 @@ related:
   - concepts/local-pack-rankings.md
   - concepts/per-entity-bias-mapping-geo.md
   - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
+  - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
+  - concepts/canonical-business-facts-geo.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-06-28
 
 ---
 
@@ -39,6 +41,8 @@ updated: 2026-06-27
 - @concepts/content-strategy-local.md
 - @concepts/local-pack-rankings.md
 - @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md — unstructured + structured entity evidence
+- @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md — typed relation layer (KARLA analog)
+- @concepts/canonical-business-facts-geo.md — GBP + schema sync playbook
 
 ## Raw Concept
 

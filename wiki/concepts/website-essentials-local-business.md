@@ -26,10 +26,12 @@ related:
   - concepts/competitive-geo-citation-factors.md
   - sources/davidson-2026-factual-gv-gap.md
   - concepts/llm-reputation-signals-geo.md
+  - concepts/canonical-business-facts-geo.md
+  - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-16
+updated: 2026-06-28
 
 ---
 

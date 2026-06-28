@@ -25,10 +25,12 @@ related:
   - sweeps/2026-06-22-daily.md
   - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
+  - concepts/canonical-business-facts-geo.md
+  - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-06-28
 
 ---
 
@@ -57,6 +59,8 @@ updated: 2026-06-27
 - @sweeps/2026-06-22-daily.md — K126 digest news lane (GBP feature drift)
 - @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md — maps/listing data as entity-model input (K131)
 - @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md — GBP as AI visibility input (K131)
+- @concepts/canonical-business-facts-geo.md — listing as canonical fact anchor (K132)
+- @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md — updatable KB analog
 
 ## Raw Concept
 

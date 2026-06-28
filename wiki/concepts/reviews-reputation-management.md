@@ -32,7 +32,7 @@ related:
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-25
+updated: 2026-06-28
 
 ---
 
@@ -80,7 +80,7 @@ Customer reviews are simultaneously a **ranking signal** for local pack placemen
 **Hard policy boundaries** (these are non-negotiable; violating them risks GBP suspension and Yelp filter penalties, both of which are catastrophic):
 
 - ❌ **Review gating is forbidden** `[CONFIRMED]` — Google's GBP policy explicitly prohibits selectively soliciting positive reviews while filtering out unhappy customers. The **April 2026 GBP policy update** added new clauses to the Maps User Generated Content Policy under Rating Manipulation, **explicitly listing review gating, incentivized reviews, on-premises kiosk pressure, staff quotas, and review content direction** as violations (retrieved 2026-05-17). AI-driven enforcement is actively removing violating reviews. Asking *every* customer for a review is fine; asking only the smiling ones is not. Penalty range: review removal → ranking suppression → profile suspension. [Sources: https://support.google.com/business/answer/13762416 (retrieved 2026-05-17); https://launchcodex.com/blog/seo-geo-ai/google-business-profile-review-policy-update/ (retrieved 2026-05-17)]
-- ❌ **Incentivized reviews forbidden** — no "leave a review and get $5 off." Google and Yelp both forbid this; if the operator does it, surfaced reviews can be removed and the listing flagged.
+- ❌ **Incentivized reviews forbidden** — no "leave a review and get $5 off." Google and Yelp both forbid this; if the operator does it, surfaced reviews can be removed and the listing flagged. June 2026 practitioner press continues to flag **reward-for-review** programs as Google penalty risk [Source: https://says.com/my/tech/psa-businesses-risk-google-penalties-if-they-offer-rewards-in-exchange-for-reviews (retrieved 2026-06-28)].
 - ❌ **Fake reviews forbidden** — buying reviews, friends-and-family astroturfing, AI-generated review content. All risk listing suspension and structured-data-spam penalties.
 - ❌ **Filtering, gating, or hiding negatives** — even within the operator's own systems before public publication. Google's enforcement specifically targets the *practice* of selective solicitation, not just the technical mechanism.
 

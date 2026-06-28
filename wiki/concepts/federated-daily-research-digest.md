@@ -71,9 +71,12 @@ related:
   - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
   - sweeps/2026-06-27-daily.md
+  - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
+  - concepts/canonical-business-facts-geo.md
+  - sweeps/2026-06-28-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-27
+updated: 2026-06-28
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -141,6 +144,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md — K131 Google LLM entity-characterization patent (news lane)
 - @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md — K131 “good SEO is good GEO” first-party summary
 - @sweeps/2026-06-27-daily.md — overnight fetch + K131 news-lane ingest (0 PDFs)
+- @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md — K132 KARLA canonical-fact externalization
+- @concepts/canonical-business-facts-geo.md — operator KB sync playbook
+- @sweeps/2026-06-28-daily.md — overnight fetch + K132 ingest
 
 ## Raw Concept
 

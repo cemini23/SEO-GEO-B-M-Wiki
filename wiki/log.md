@@ -1,13 +1,23 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-27
+updated: 2026-06-28
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-28] ingest | K132 daily digest — KARLA canonical-fact KB layer (1 arXiv)
+
+- **Sources** — arXiv 2606.26807 (Crespin KARLA knowledge-base augmented retrieval)
+- **New** — @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md, @concepts/canonical-business-facts-geo.md
+- **Updated** — @concepts/generative-engine-optimization.md, @concepts/citation-verification-aeo.md, @concepts/schema-markup-local.md, @concepts/google-business-profile.md, @concepts/reviews-reputation-management.md (incentivized-review news cite), @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k132_phase0.sh` (KARLA REFERENCE; news dupes skipped)
+- **Brief (1 hands-on)** — canonical fact sync audit (`briefs/2026-06-28_k132-canonical-fact-sync-audit-hands-on.md`)
+- **PDF** → `raw-sources/` + egress-fi archive; inbox cleared
+- **Operator note** — KB edits beat parametric memory in paper; 1-hop RAG can ignore retrieved facts `[NEEDS VERIFICATION 2026-06-28]` on local hours/price queries
 
 ## [2026-06-27] ingest | K131 daily digest — Google entity-model news lane (0 arXiv)
 

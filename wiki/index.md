@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-27
+updated: 2026-06-28
 ---
 
 # Wiki Index
@@ -47,6 +47,7 @@ If you're new to this wiki:
 - [arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24](sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md) — Token Factory industrial recsys archive (out of scope)
 - [arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25](sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md) — ABSA peer-review evolution; aspect-theme steal for customer reviews (2026-06-25 digest)
 - [arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26](sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md) — citation sourcing across languages; 85.7% third-party (2026-06-26 digest)
+- [arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28](sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md) — KARLA KB-augmented retrieval; factual externalization (2026-06-28 digest)
 
 ### Platform / practitioner news
 
@@ -108,6 +109,7 @@ If you're new to this wiki:
 - [per-entity-bias-mapping-geo](concepts/per-entity-bias-mapping-geo.md) — PEBM verified-mention audits; Brand Hallucination Paradox (Varga 2026)
 - [multilingual-geo-audit](concepts/multilingual-geo-audit.md) — query-language blind spot; home-language recommendation share (Žatuchin 2026)
 - [ai-citation-sourcing-geo](concepts/ai-citation-sourcing-geo.md) — earned-media citation audit; owned vs third-party URL layer (Žatuchin 2026 K130)
+- [canonical-business-facts-geo](concepts/canonical-business-facts-geo.md) — GBP + schema canonical fact KB sync (KARLA 2026 K132)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)
 - [ranqo](entities/tools/ranqo.md) — AI brand visibility SaaS; production GEO baseline REFERENCE (K123)

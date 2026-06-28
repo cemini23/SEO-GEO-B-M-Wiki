@@ -80,6 +80,9 @@ related:
   - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
   - sweeps/2026-06-27-daily.md
+  - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
+  - concepts/canonical-business-facts-geo.md
+  - sweeps/2026-06-28-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -88,7 +91,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-06-28
 ---
 
 ## Relations
@@ -245,6 +248,12 @@ Hands-on: `briefs/2026-06-27_k131-entity-evidence-audit-hands-on.md`.
 - Webpages function as **evidence** (services, team, case studies) for entity models.
 - Third-party maps/listing/review data explicitly cited as augmenting inputs — pairs with @concepts/ai-citation-sourcing-geo.md earned-media layer.
 - Patents are **not** confirmed live ranking implementations `[NEEDS VERIFICATION 2026-06-27]`.
+
+### Canonical fact KB — externalize facts from model memory [TENTATIVE — academic analog]
+
+@sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md (KARLA, arXiv 2606.26807): LLMs can query a structured KB during generation with **traceable provenance**; KB edits update outputs without retraining (**96.1%** on counterfactual updates vs slow parametric fine-tuning). Classic 1-hop RAG can still ignore retrieved facts on popular entities.
+
+**Operator analog:** GBP + schema + website = the shop's canonical fact KB (@concepts/canonical-business-facts-geo.md). Update listings before rewriting marketing copy. Hands-on: `briefs/2026-06-28_k132-canonical-fact-sync-audit-hands-on.md`. Local barbershop AI queries untested `[NEEDS VERIFICATION 2026-06-28]`.
 
 ### Citation verification — claims vs sources [TENTATIVE]
 
