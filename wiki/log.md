@@ -1,13 +1,29 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-28
+updated: 2026-06-30
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-06-30] ingest | K134 daily digest — zero-click AEO + geo-optimizer-skill Phase-0 (0 arXiv)
+
+- **Inbox** — empty (KARLA dupe skipped)
+- **Sources** — HousingWire 2026-06-29 zero-click AEO / GBP AI feed
+- **New** — @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md, @entities/tools/geo-optimizer-skill.md
+- **Updated** — @concepts/generative-engine-optimization.md, @concepts/google-business-profile.md, @concepts/geo-visibility-measurement.md, @entities/tools/geo-seo-claude.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k134_phase0.sh` (HousingWire REFERENCE; Auriti CONDITIONAL-GO — ignore llms.txt for Google)
+- **Brief (1 hands-on)** — AI citation vs click audit (`briefs/2026-06-30_k134-ai-citation-vs-click-audit-hands-on.md`)
+
+## [2026-06-29] ingest | K133 daily digest — wiki-cited brief backfill (0 arXiv)
+
+- **Inbox** — empty (4 arXiv dupes; non-arXiv skipped)
+- **Brief backfill (git-track)** — K124 adversarial citation audit; K100 two-shop internal-link audit + eastside example
+- **Updated** — @concepts/citation-verification-aeo.md (K124 hands-on link)
+- **Phase-0** — `scripts/adopt_k133_phase0.sh` (no new sources; news dupes skipped)
 
 ## [2026-06-28] ingest | K132 daily digest — KARLA canonical-fact KB layer (1 arXiv)
 

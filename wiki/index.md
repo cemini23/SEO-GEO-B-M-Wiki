@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-28
+updated: 2026-06-30
 ---
 
 # Wiki Index
@@ -53,6 +53,7 @@ If you're new to this wiki:
 
 - [searchengineland-2026-google-llm-patent-entity-characterization-480625](sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md) — Google LLM patent entity characterization; webpages as evidence (2026-06-27 digest)
 - [techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06](sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md) — Google “Good SEO is good GEO”; llms.txt skip; GSC AI reports (2026-06-27 digest)
+- [housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29](sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md) — zero-click AEO; GBP as AI data feed (2026-06-30 digest)
 
 ### Audits + evaluations
 
@@ -114,6 +115,7 @@ If you're new to this wiki:
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)
 - [ranqo](entities/tools/ranqo.md) — AI brand visibility SaaS; production GEO baseline REFERENCE (K123)
 - [rankfor-ai](entities/tools/rankfor-ai.md) — GEO monitoring vendor stub; Žatuchin 2026 author affiliation (K128)
+- [geo-optimizer-skill](entities/tools/geo-optimizer-skill.md) — Auriti-Labs MIT AEO/GEO audit CLI; CONDITIONAL-GO (K134)
 - [google-business-profile](concepts/google-business-profile.md) — GBP optimization playbook (concept side); listing setup, categories, services, posts, photos
 - [local-seo-foundations](concepts/local-seo-foundations.md) — main local-SEO hub: NAP, GBP, reviews, on-page, local pack, behavioral signals
 - [near-me-search](concepts/near-me-search.md) — implicit-location query behavior; Relevance/Distance/Prominence; voice search; grid-based ranking

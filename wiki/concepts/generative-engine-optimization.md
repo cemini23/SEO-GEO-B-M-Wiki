@@ -83,6 +83,9 @@ related:
   - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
   - concepts/canonical-business-facts-geo.md
   - sweeps/2026-06-28-daily.md
+  - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
+  - entities/tools/geo-optimizer-skill.md
+  - sweeps/2026-06-30-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -91,7 +94,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-28
+updated: 2026-06-30
 ---
 
 ## Relations
@@ -254,6 +257,12 @@ Hands-on: `briefs/2026-06-27_k131-entity-evidence-audit-hands-on.md`.
 @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md (KARLA, arXiv 2606.26807): LLMs can query a structured KB during generation with **traceable provenance**; KB edits update outputs without retraining (**96.1%** on counterfactual updates vs slow parametric fine-tuning). Classic 1-hop RAG can still ignore retrieved facts on popular entities.
 
 **Operator analog:** GBP + schema + website = the shop's canonical fact KB (@concepts/canonical-business-facts-geo.md). Update listings before rewriting marketing copy. Hands-on: `briefs/2026-06-28_k132-canonical-fact-sync-audit-hands-on.md`. Local barbershop AI queries untested `[NEEDS VERIFICATION 2026-06-28]`.
+
+### Zero-click discovery — citation beats click [TENTATIVE — practitioner journalism]
+
+@sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md (HousingWire, 2026-06-29): **~68%** of Google searches ended without a click (early 2026); **83%** with AI Overviews; **93%** in AI Mode. AEO optimizes for **being cited in answers**, not only SERP clicks. GBP treated as **tier-one data feed** to Gemini/AI Overviews; cross-platform NAP consistency drives citation confidence. Hands-on: `briefs/2026-06-30_k134-ai-citation-vs-click-audit-hands-on.md`. Stats via SparkToro/Similarweb in article `[NEEDS VERIFICATION 2026-06-30]` on barbershop queries.
+
+**FOSS audit CLI:** @entities/tools/geo-optimizer-skill.md — MIT `geo-optimizer-skill` (CONDITIONAL-GO): use schema/citability modules; ignore `llms.txt` recommendations for Google Search per @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md.
 
 ### Citation verification — claims vs sources [TENTATIVE]
 

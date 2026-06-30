@@ -24,7 +24,7 @@ related:
   - concepts/canonical-business-facts-geo.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-28
+updated: 2026-06-30
 ---
 
 ## Relations
@@ -46,6 +46,9 @@ updated: 2026-06-28
 - @concepts/per-entity-bias-mapping-geo.md — verified mention playbook
 - @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md — KB provenance vs parametric hallucination (K132)
 - @concepts/canonical-business-facts-geo.md — sync checklist before verification runs
+- @sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md — adversarial misinformation (K124 OSINT)
+
+Hands-on adversarial local audit: `briefs/2026-06-20_k124-adversarial-ai-citation-audit-hands-on.md`.
 
 ## Raw Concept
 

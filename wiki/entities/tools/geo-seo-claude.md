@@ -12,9 +12,10 @@ related:
   - entities/tools/seo-geo-claude-skills.md
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - concepts/agent-first-web-atml-framework.md
+  - entities/tools/geo-optimizer-skill.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-19
+updated: 2026-06-30
 ---
 
 ## Relations
@@ -29,6 +30,7 @@ updated: 2026-06-19
 - @ccc-wiki/entities/skills/geo-seo-claude.md — CCC-side installed-skill page
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 cross-wiki eval (independent reconfirmation, doc-level)
 - @entities/tools/seo-geo-claude-skills.md — parallel skill pack; Steal-from only (K88)
+- @entities/tools/geo-optimizer-skill.md — MIT CLI audit complement (K134 CONDITIONAL-GO)
 
 ## Raw Concept
 

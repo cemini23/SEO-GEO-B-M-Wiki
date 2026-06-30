@@ -29,9 +29,12 @@ related:
   - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
   - concepts/ai-citation-sourcing-geo.md
   - sweeps/2026-06-26-daily.md
+  - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
+  - entities/tools/geo-optimizer-skill.md
+  - sweeps/2026-06-30-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-06-26
+updated: 2026-06-30
 ---
 
 ## Relations
@@ -62,6 +65,9 @@ updated: 2026-06-26
 - @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — citation URL layer; 85.7% third-party (K130)
 - @concepts/ai-citation-sourcing-geo.md — earned-media source audit before share wins
 - @sweeps/2026-06-26-daily.md — K130 ingest
+- @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — zero-click KPI shift; track citation not clicks (K134)
+- @entities/tools/geo-optimizer-skill.md — third-party audit CLI; directional only
+- @sweeps/2026-06-30-daily.md — K134 ingest
 
 ## Raw Concept
 
@@ -166,6 +172,8 @@ Operator mini-version: 3–5 anonymized competitor cards, 3 personas, 3 prompt t
 See @concepts/llm-brand-bias-geo-competition.md.
 
 Hands-on Ranqo-style tier baseline: `briefs/2026-06-19_k123-ranqo-geo-visibility-baseline-hands-on.md`.
+
+**Zero-click KPI:** @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — pair GSC AI impressions with citation prevalence; declining clicks ≠ declining AI visibility. Hands-on: `briefs/2026-06-30_k134-ai-citation-vs-click-audit-hands-on.md` `[NEEDS VERIFICATION 2026-06-30]`.
 
 ### Verified mention overlay [STEAL from Varga 2026 PEBM]
 

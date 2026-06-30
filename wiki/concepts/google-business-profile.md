@@ -27,10 +27,11 @@ related:
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
   - concepts/canonical-business-facts-geo.md
   - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
+  - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-28
+updated: 2026-06-30
 
 ---
 
@@ -61,6 +62,7 @@ updated: 2026-06-28
 - @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md — GBP as AI visibility input (K131)
 - @concepts/canonical-business-facts-geo.md — listing as canonical fact anchor (K132)
 - @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md — updatable KB analog
+- @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — GBP as tier-one AI data feed (K134)
 
 ## Raw Concept
 
@@ -71,6 +73,8 @@ Concept hub for *how* to optimize a Google Business Profile (formerly Google My 
 Google Business Profile (GBP, formerly Google My Business / GMB) is the single highest-leverage surface for a brick-and-mortar barbershop. It controls the listing's appearance in (a) Google Maps, (b) the local pack on the SERP, (c) Knowledge Panel on branded queries, and (d) increasingly, citations in AI Overviews and assistant answers.
 
 **Entity-model inputs:** Google patent narrative (@sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md) and June 2026 first-party guidance (@sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md) both treat **maps/listing business data** as core inputs to how Google understands a local entity — not optional sidebar metadata. Keep GBP hours, services, categories, photos, and review depth aligned with the website.
+
+**Zero-click citation layer:** @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — incomplete GBP suppresses AI citations even when classic rankings hold; measure mention/citation not clicks alone `[NEEDS VERIFICATION 2026-06-30]`.
 
 **Listing setup checklist** (the load-bearing decisions):
 

@@ -74,9 +74,13 @@ related:
   - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
   - concepts/canonical-business-facts-geo.md
   - sweeps/2026-06-28-daily.md
+  - sweeps/2026-06-29-daily.md
+  - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
+  - entities/tools/geo-optimizer-skill.md
+  - sweeps/2026-06-30-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-28
+updated: 2026-06-30
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -147,6 +151,10 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md — K132 KARLA canonical-fact externalization
 - @concepts/canonical-business-facts-geo.md — operator KB sync playbook
 - @sweeps/2026-06-28-daily.md — overnight fetch + K132 ingest
+- @sweeps/2026-06-29-daily.md — overnight fetch + K133 brief backfill (0 PDFs)
+- @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — K134 zero-click AEO / GBP feed
+- @entities/tools/geo-optimizer-skill.md — K134 Auriti geo-optimizer-skill CONDITIONAL-GO
+- @sweeps/2026-06-30-daily.md — overnight fetch + K134 ingest
 
 ## Raw Concept
 
