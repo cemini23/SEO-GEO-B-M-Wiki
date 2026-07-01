@@ -21,9 +21,10 @@ related:
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
   - concepts/citation-building.md
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
+  - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-07-01
 ---
 
 ## Relations

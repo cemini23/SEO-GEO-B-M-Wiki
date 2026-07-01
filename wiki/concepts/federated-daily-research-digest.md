@@ -78,9 +78,12 @@ related:
   - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
   - entities/tools/geo-optimizer-skill.md
   - sweeps/2026-06-30-daily.md
+  - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
+  - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
+  - sweeps/2026-07-01-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-30
+updated: 2026-07-01
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -154,7 +157,10 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sweeps/2026-06-29-daily.md — overnight fetch + K133 brief backfill (0 PDFs)
 - @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — K134 zero-click AEO / GBP feed
 - @entities/tools/geo-optimizer-skill.md — K134 Auriti geo-optimizer-skill CONDITIONAL-GO
-- @sweeps/2026-06-30-daily.md — overnight fetch + K134 ingest
+  - sweeps/2026-06-30-daily.md — overnight fetch + K134 ingest
+  - @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md — K135 review gating / FTC enforcement
+  - @sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md — K135 AEO taxonomy primer
+  - @sweeps/2026-07-01-daily.md — overnight fetch + K135 ingest
 
 ## Raw Concept
 

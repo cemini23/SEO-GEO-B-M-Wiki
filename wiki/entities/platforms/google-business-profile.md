@@ -12,10 +12,11 @@ related:
   - entities/tools/easy-review.md
   - concepts/google-ads-local.md
   - concepts/local-pack-rankings.md
+  - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-07-01
 
 ---
 
@@ -32,6 +33,7 @@ updated: 2026-05-08
 - @entities/tools/easy-review.md
 - @concepts/google-ads-local.md
 - @concepts/local-pack-rankings.md
+- @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md — review enforcement ladder (K135)
 
 
 ## Raw Concept
@@ -99,7 +101,7 @@ The page-level boundaries are at @concepts/reviews-reputation-management.md (rev
 - **No keyword stuffing in business name** — name must match real signage, not "[City] Barber Shop - Best Fades & Beard Trims"
 - **No fake addresses / virtual offices** — must serve customers at the listed address (or, for service-area businesses, must be physically based there)
 - **No multiple listings for same location** — duplicate listings get merged or suppressed
-- **No review gating, no fake reviews, no fake services** — see @concepts/reviews-reputation-management.md
+- **No review gating, no fake reviews, no fake services** — see @concepts/reviews-reputation-management.md; enforcement ladder (shadow-filter → pause → public banner → suspension) in @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md `[TENTATIVE]`
 - **Hours must reflect reality** — closed-when-listed-open is a quality flag
 
 Suspension risk: violations can result in soft suspension (listing hidden from search) or hard suspension (listing removed entirely). Reinstatement is a documented appeal process but takes 1-4 weeks if granted at all.

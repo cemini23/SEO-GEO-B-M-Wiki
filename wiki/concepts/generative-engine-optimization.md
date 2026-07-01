@@ -86,6 +86,8 @@ related:
   - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
   - entities/tools/geo-optimizer-skill.md
   - sweeps/2026-06-30-daily.md
+  - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
+  - sweeps/2026-07-01-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -94,7 +96,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-30
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -263,6 +265,10 @@ Hands-on: `briefs/2026-06-27_k131-entity-evidence-audit-hands-on.md`.
 @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md (HousingWire, 2026-06-29): **~68%** of Google searches ended without a click (early 2026); **83%** with AI Overviews; **93%** in AI Mode. AEO optimizes for **being cited in answers**, not only SERP clicks. GBP treated as **tier-one data feed** to Gemini/AI Overviews; cross-platform NAP consistency drives citation confidence. Hands-on: `briefs/2026-06-30_k134-ai-citation-vs-click-audit-hands-on.md`. Stats via SparkToro/Similarweb in article `[NEEDS VERIFICATION 2026-06-30]` on barbershop queries.
 
 **FOSS audit CLI:** @entities/tools/geo-optimizer-skill.md — MIT `geo-optimizer-skill` (CONDITIONAL-GO): use schema/citability modules; ignore `llms.txt` recommendations for Google Search per @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md.
+
+### AEO taxonomy — visibility forms + SEO complement [TENTATIVE — vendor primer]
+
+@sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md (HubSpot, 2026-06-29): consolidates **AEO = GEO = AI SEO = LLMO** vocabulary; AEO **complements** SEO (passage retrieval, multi-engine crawlers, unlinked mentions, visibility-over-click KPI). Track five answer-surface forms: **inline citations**, **unlinked named mentions**, **comparison tables**, **source lists**, **rich product results** — see @concepts/geo-visibility-measurement.md. **JS gap:** some answer-engine crawlers skip JS-rendered content Googlebot still indexes `[NEEDS VERIFICATION 2026-07-01]` on operator CMS. HubSpot AEO SaaS = CONDITIONAL-GO; default to GSC + manual probes.
 
 ### Citation verification — claims vs sources [TENTATIVE]
 

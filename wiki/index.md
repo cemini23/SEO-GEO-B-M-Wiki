@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-06-30
+updated: 2026-07-01
 ---
 
 # Wiki Index
@@ -54,6 +54,8 @@ If you're new to this wiki:
 - [searchengineland-2026-google-llm-patent-entity-characterization-480625](sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md) — Google LLM patent entity characterization; webpages as evidence (2026-06-27 digest)
 - [techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06](sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md) — Google “Good SEO is good GEO”; llms.txt skip; GSC AI reports (2026-06-27 digest)
 - [housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29](sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md) — zero-click AEO; GBP as AI data feed (2026-06-30 digest)
+- [salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24](sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md) — review gating enforcement; FTC penalties; vendor audit (2026-07-01 digest)
+- [hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29](sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md) — AEO taxonomy; visibility forms; SEO complement (2026-07-01 digest)
 
 ### Audits + evaluations
 

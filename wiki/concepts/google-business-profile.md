@@ -28,10 +28,11 @@ related:
   - concepts/canonical-business-facts-geo.md
   - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
   - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
+  - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-30
+updated: 2026-07-01
 
 ---
 

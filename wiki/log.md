@@ -1,13 +1,23 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-06-30
+updated: 2026-07-01
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-07-01] ingest | K135 daily digest — review compliance + HubSpot AEO primer (0 arXiv)
+
+- **Inbox** — empty (Žatuchin + KARLA dupes; non-arXiv skipped)
+- **Sources** — Salon Today 2026-06-24 review gating / FTC enforcement; HubSpot 2026-06-29 AI search optimization primer
+- **New** — @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md, @sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
+- **Updated** — @concepts/reviews-reputation-management.md, @concepts/generative-engine-optimization.md, @concepts/geo-visibility-measurement.md, @entities/platforms/google-business-profile.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k135_phase0.sh` (Salon Today REFERENCE; HubSpot REFERENCE; news dupes skipped)
+- **Brief (1 hands-on)** — review compliance vendor audit (`briefs/2026-07-01_k135-review-compliance-vendor-audit-hands-on.md`)
+- **Wiki-cited brief audit** — K120–K134 hands-on suite confirmed git-tracked (21 briefs)
 
 ## [2026-06-30] ingest | K134 daily digest — zero-click AEO + geo-optimizer-skill Phase-0 (0 arXiv)
 

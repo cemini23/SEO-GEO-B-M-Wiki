@@ -32,9 +32,11 @@ related:
   - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
   - entities/tools/geo-optimizer-skill.md
   - sweeps/2026-06-30-daily.md
+  - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
+  - sweeps/2026-07-01-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-06-30
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -66,6 +68,7 @@ updated: 2026-06-30
 - @concepts/ai-citation-sourcing-geo.md — earned-media source audit before share wins
 - @sweeps/2026-06-26-daily.md — K130 ingest
 - @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — zero-click KPI shift; track citation not clicks (K134)
+- @sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md — answer-surface form taxonomy (K135)
 - @entities/tools/geo-optimizer-skill.md — third-party audit CLI; directional only
 - @sweeps/2026-06-30-daily.md — K134 ingest
 
@@ -174,6 +177,20 @@ See @concepts/llm-brand-bias-geo-competition.md.
 Hands-on Ranqo-style tier baseline: `briefs/2026-06-19_k123-ranqo-geo-visibility-baseline-hands-on.md`.
 
 **Zero-click KPI:** @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — pair GSC AI impressions with citation prevalence; declining clicks ≠ declining AI visibility. Hands-on: `briefs/2026-06-30_k134-ai-citation-vs-click-audit-hands-on.md` `[NEEDS VERIFICATION 2026-06-30]`.
+
+### Answer-surface forms [STEAL from HubSpot 2026]
+
+@sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md — log which form each probe returns (not only "mentioned Y/N"):
+
+| Form | What to record |
+|------|----------------|
+| **Inline citation** | Linked chip after a specific claim about your shop |
+| **Unlinked mention** | Brand name in answer text, no URL |
+| **Comparison table** | Row in AI-generated competitor matrix |
+| **Source list** | URL in sidebar/rail without inline tie |
+| **Rich product** | Shopping-style card (rare for barbershops) |
+
+Unlinked mentions produce **zero referral traffic** but still shape buyer decisions — count them in weekly probes.
 
 ### Verified mention overlay [STEAL from Varga 2026 PEBM]
 
