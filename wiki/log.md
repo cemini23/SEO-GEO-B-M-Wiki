@@ -1,13 +1,23 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-01
+updated: 2026-07-02
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-07-02] ingest | K136 daily digest — Google Search Central first-party GEO + GBP reviews (0 arXiv)
+
+- **Inbox** — empty (10 non-arXiv hits; wiki dupes skipped)
+- **Sources** — Search Central AI optimization guide; GBP Help tips to get more reviews (3474122)
+- **New** — @sources/google-search-central-2026-ai-optimization-guide.md, @sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
+- **Updated** — @concepts/generative-engine-optimization.md, @concepts/reviews-reputation-management.md, @concepts/review-response-templates.md, @concepts/schema-markup-local.md, @concepts/google-business-profile.md, @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md, @entities/tools/geo-optimizer-skill.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k136_phase0.sh` (both CORE first-party; vendor rows skipped)
+- **Brief (1 hands-on)** — Google first-party GEO + review checklist (`briefs/2026-07-02_k136-google-first-party-geo-review-checklist-hands-on.md`)
+- **Wiki-cited brief audit** — K120–K135 hands-on suite confirmed git-tracked
 
 ## [2026-07-01] ingest | K135 daily digest — review compliance + HubSpot AEO primer (0 arXiv)
 

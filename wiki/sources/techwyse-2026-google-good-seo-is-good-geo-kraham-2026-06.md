@@ -12,12 +12,13 @@ related:
   - concepts/geo-visibility-measurement.md
   - concepts/citation-building.md
   - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-27-daily.md
 maturity: validated
 read_status: read
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-02
 ---
 
 ## Relations
@@ -30,6 +31,7 @@ updated: 2026-06-27
 - @concepts/geo-visibility-measurement.md — GSC vs third-party AI dashboards
 - @concepts/citation-building.md — crawlable structured product/local data
 - @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md — entity-model patent companion
+- @sources/google-search-central-2026-ai-optimization-guide.md — canonical upstream primary (K136)
 - @concepts/federated-daily-research-digest.md — K131 news-lane ingest
 - @sweeps/2026-06-27-daily.md — overnight digest R3
 
@@ -43,7 +45,7 @@ updated: 2026-06-27
 | **URL** | https://www.techwyse.com/news/search-news/google-ai-search-brand-authority-seo-strategy |
 | **Published** | 2026-06-23 |
 | **Retrieved** | 2026-06-27 |
-| **Upstream primary** | Think with Google article (June 2026) — URL not archived in wiki |
+| **Upstream primary** | @sources/google-search-central-2026-ai-optimization-guide.md (Search Central, retrieved 2026-07-02); Think with Google article cited by TechWyse not separately archived |
 | **Read status** | read |
 
 ## Narrative
@@ -61,7 +63,7 @@ Google’s June 2026 messaging: **“Good SEO is good GEO.”** AI Mode and AI O
 
 **Mechanics cited:** RAG grounding in indexed pages + **query fan-out** (parallel related searches) — brands must earn eligibility across supporting evidence, not only the head query.
 
-Secondary journalism `[TENTATIVE]` — verify against Search Central when policy-critical.
+Secondary journalism `[TENTATIVE]` — policy-critical claims now verified against @sources/google-search-central-2026-ai-optimization-guide.md `[CONFIRMED]` for Google Search.
 
 ## Snippets
 

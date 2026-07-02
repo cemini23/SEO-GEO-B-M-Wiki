@@ -81,9 +81,12 @@ related:
   - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
   - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
   - sweeps/2026-07-01-daily.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
+  - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
+  - sweeps/2026-07-02-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-01
+updated: 2026-07-02
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -161,6 +164,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
   - @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md — K135 review gating / FTC enforcement
   - @sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md — K135 AEO taxonomy primer
   - @sweeps/2026-07-01-daily.md — overnight fetch + K135 ingest
+- @sources/google-search-central-2026-ai-optimization-guide.md — K136 Search Central AI optimization (first-party)
+- @sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md — K136 GBP review help
+- @sweeps/2026-07-02-daily.md — overnight fetch + K136 ingest
 
 ## Raw Concept
 

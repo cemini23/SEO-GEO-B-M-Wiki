@@ -13,10 +13,11 @@ related:
   - concepts/google-ads-local.md
   - concepts/local-pack-rankings.md
   - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
+  - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-01
+updated: 2026-07-02
 
 ---
 
@@ -34,6 +35,7 @@ updated: 2026-07-01
 - @concepts/google-ads-local.md
 - @concepts/local-pack-rankings.md
 - @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md — review enforcement ladder (K135)
+- @sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md — first-party acquisition + replies (K136)
 
 
 ## Raw Concept

@@ -18,10 +18,12 @@ related:
   - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
   - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
   - concepts/canonical-business-facts-geo.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
+  - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-28
+updated: 2026-07-02
 
 ---
 
@@ -48,7 +50,7 @@ updated: 2026-06-28
 
 Concept hub for **schema markup** — JSON-LD structured data on the website that tells search engines and AI engines what the business is, where it is, what it offers, and what people say about it. Critical for both classical local SEO (rich results in SERPs, Knowledge Panel data, local pack qualification) and 2026 GEO/AEO citation behavior (AI engines preferentially cite pages with valid `Service` / `FAQPage` / `LocalBusiness` markup that disambiguates the entity).
 
-Schema supports **entity confidence**, but @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md describes LLM pipelines that also interpret **unstructured** page copy — JSON-LD is hygiene, not a substitute for clear services/team/experience evidence. Google June 2026 guidance (@sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md): structured data + helpful content over speculative AI-only files (e.g. llms.txt).
+Schema supports **entity confidence**, but @sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md describes LLM pipelines that also interpret **unstructured** page copy — JSON-LD is hygiene, not a substitute for clear services/team/experience evidence. Google June 2026 guidance (@sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md): structured data + helpful content over speculative AI-only files (e.g. llms.txt). **Search Central confirms** llms.txt not used by Google Search generative features `@sources/google-search-central-2026-ai-optimization-guide.md` `[CONFIRMED]`.
 
 For the barbershop operator, schema markup is **a one-time setup task that pays off forever**.
 

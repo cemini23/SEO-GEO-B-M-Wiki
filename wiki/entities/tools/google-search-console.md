@@ -15,6 +15,7 @@ related:
   - concepts/geo-visibility-measurement.md
   - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-06-27
@@ -33,6 +34,7 @@ updated: 2026-06-27
 - @concepts/geo-visibility-measurement.md — GSC AI visibility reports are point estimates; pair with repeated citation tests
 - @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md — single-run visibility metrics need bootstrap CIs
 - @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md — GSC generative AI performance as Google-native baseline
+- @sources/google-search-central-2026-ai-optimization-guide.md — verify index/snippet eligibility for AI features (K136)
 
 ## Raw Concept
 

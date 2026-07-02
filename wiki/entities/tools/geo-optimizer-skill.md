@@ -12,12 +12,13 @@ related:
   - concepts/schema-markup-local.md
   - sources/aggarwal-2024-geo-paper.md
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
   - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-30-daily.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-02
 ---
 
 ## Relations
@@ -30,6 +31,7 @@ updated: 2026-06-30
 - @concepts/schema-markup-local.md — JSON-LD checks in audit
 - @sources/aggarwal-2024-geo-paper.md — cited in tool docs (KDD 2024 methods)
 - @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md — **ignore llms.txt push** for Google Search
+- @sources/google-search-central-2026-ai-optimization-guide.md — first-party llms.txt mythbust `[CONFIRMED]`
 - @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — zero-click / citation KPI framing
 - @concepts/federated-daily-research-digest.md — K134 sweep fetch
 - @sweeps/2026-06-30-daily.md — overnight Exa hit
@@ -47,7 +49,7 @@ Phase-0 from K134 ingest — [Auriti-Labs/geo-optimizer-skill](https://github.co
 | **Category** | GEO/AEO audit CLI — robots.txt, schema, citability scoring, optional live citation probes |
 | **Phase-0 verdict** | **CONDITIONAL-GO** — local CLI audit only; do not treat `geo citations` as ground truth without bootstrap CIs (@concepts/geo-visibility-measurement.md) |
 | **Steal** | 8-category AI-readiness audit; schema/citability modules; MCP hook for Cursor |
-| **Reject module** | **`llms.txt` generation/checks for Google Search** — Google June 2026 guidance says not needed (@sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md) |
+| **Reject module** | **`llms.txt` generation/checks for Google Search** — @sources/google-search-central-2026-ai-optimization-guide.md: not used by Google Search generative features `[CONFIRMED]` |
 | **Compare** | @entities/tools/geo-seo-claude.md (Claude skill, installed); @entities/tools/ranqo.md (SaaS mention tracking REFERENCE) |
 | **Operator install** | `uvx --from geo-optimizer-skill geo audit --url https://yoursite.com` — laptop-only; no GBP write access |
 

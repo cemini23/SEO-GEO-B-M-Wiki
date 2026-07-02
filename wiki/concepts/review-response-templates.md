@@ -13,10 +13,11 @@ related:
   - sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
   - concepts/multilingual-geo-audit.md
   - sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md
+  - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-25
+updated: 2026-07-02
 
 ---
 
@@ -34,6 +35,7 @@ updated: 2026-06-25
 - @sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
 - @concepts/multilingual-geo-audit.md
 - @sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md
+- @sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md — Google reply tone: short, conversational, not promotional (K136)
 - @log.md
 
 

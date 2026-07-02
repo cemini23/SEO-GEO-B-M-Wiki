@@ -30,10 +30,11 @@ related:
   - concepts/multilingual-geo-audit.md
   - sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md
   - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
+  - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-01
+updated: 2026-07-02
 
 ---
 
@@ -63,6 +64,7 @@ updated: 2026-07-01
 - @concepts/multilingual-geo-audit.md — language-specific AI reputation effects
 - @sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md — aspect-theme steal (K129)
 - @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md — FTC + enforcement ladder; vendor audit (K135)
+- @sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md — first-party acquisition + reply rules (K136)
 
 ## Raw Concept
 
@@ -75,7 +77,7 @@ Customer reviews are simultaneously a **ranking signal** for local pack placemen
 ### Acquisition
 
 - **Ask in person at checkout** — the highest-converting channel; in-person ask after a successful service (haircut goes well, customer happy) yields review rates that automated email/text flows cannot match `[TENTATIVE]`. Industry-specific conversion rates are not publicly benchmarked for barbershops; the operator's own data (asks made vs reviews received) will be the only reliable signal once Easy Review starts logging.
-- **Text/email follow-up** — automated post-service ask, typically 1-2 hours after the appointment. Tools like Square, Booksy, Vagaro, Birdeye automate this. Must include a direct GBP review link (see GBP "share review form" link in the GBP dashboard).
+- **Text/email follow-up** — automated post-service ask, typically 1-2 hours after the appointment. Tools like Square, Booksy, Vagaro, Birdeye automate this. Must include a direct GBP review link (see GBP "share review form" link in the GBP dashboard). Google first-party guidance [@sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md]: use **Google link or QR** from GBP; value balanced reviews; reply to show feedback matters `[CONFIRMED]`.
 - **QR code at the front desk** — sticker linking directly to GBP review form; passive but works for in-store conversion.
 - **Review link card** — physical handout post-service with a QR + URL.
 
@@ -83,7 +85,7 @@ Customer reviews are simultaneously a **ranking signal** for local pack placemen
 
 - ❌ **Review gating is forbidden** `[CONFIRMED]` — Google's GBP policy explicitly prohibits selectively soliciting positive reviews while filtering out unhappy customers. The **April 2026 GBP policy update** added new clauses to the Maps User Generated Content Policy under Rating Manipulation, **explicitly listing review gating, incentivized reviews, on-premises kiosk pressure, staff quotas, and review content direction** as violations (retrieved 2026-05-17). AI-driven enforcement is actively removing violating reviews. Asking *every* customer for a review is fine; asking only the smiling ones is not. Penalty range: review removal → ranking suppression → profile suspension. [Sources: https://support.google.com/business/answer/13762416 (retrieved 2026-05-17); https://launchcodex.com/blog/seo-geo-ai/google-business-profile-review-policy-update/ (retrieved 2026-05-17)]
 - ❌ **Incentivized reviews forbidden** — no "leave a review and get $5 off." Google and Yelp both forbid this; if the operator does it, surfaced reviews can be removed and the listing flagged. June 2026 practitioner press continues to flag **reward-for-review** programs as Google penalty risk [Source: https://says.com/my/tech/psa-businesses-risk-google-penalties-if-they-offer-rewards-in-exchange-for-reviews (retrieved 2026-06-28)].
-- **Enforcement ladder (2026 trade press)** `[TENTATIVE]` — @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md: shadow-filtering → new-review pause → public GBP warning banner → full Maps/Search suspension. FTC Consumer Review Rule cited at up to **$53,088/violation** for fake/paid/suppressed reviews `[NEEDS VERIFICATION 2026-07-01]` on local enforcement cases. **Vendor audit:** three yes/no questions (pre-screen gating, incentivized asks, on-prem kiosk) — hands-on `briefs/2026-07-01_k135-review-compliance-vendor-audit-hands-on.md`.
+- **Enforcement ladder (2026 trade press)** `[TENTATIVE]` — @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md: shadow-filtering → new-review pause → public GBP warning banner → full Maps/Search suspension. FTC Consumer Review Rule cited at up to **$53,088/violation** for fake/paid/suppressed reviews `[NEEDS VERIFICATION 2026-07-01]` on local enforcement cases. **Vendor audit:** three yes/no questions (pre-screen gating, incentivized asks, on-prem kiosk) — hands-on `briefs/2026-07-01_k135-review-compliance-vendor-audit-hands-on.md`. First-party checklist: `briefs/2026-07-02_k136-google-first-party-geo-review-checklist-hands-on.md`.
 - ❌ **Fake reviews forbidden** — buying reviews, friends-and-family astroturfing, AI-generated review content. All risk listing suspension and structured-data-spam penalties.
 - ❌ **Filtering, gating, or hiding negatives** — even within the operator's own systems before public publication. Google's enforcement specifically targets the *practice* of selective solicitation, not just the technical mechanism.
 
@@ -106,7 +108,9 @@ The wiki's `concepts/reviews-reputation-management.md` page is the primary refer
 
 ### Response
 
-Every review should get a response. Operator-reviewed responses, never auto-posted from a tool. Conventions:
+Every review should get a response. Operator-reviewed responses, never auto-posted from a tool. Google first-party guidance [@sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md]: keep replies **professional, short, conversational (not promotional)**; vary wording instead of identical thank-yous; negatives get personalized timely replies with offline resolution path.
+
+Conventions:
 
 - **5-star reviews**: thank by name, reference something specific (the haircut style, the visit reason). Length 2-3 sentences. Natural keyword inclusion is fine ("glad you loved your fade") but not stuffed. See @concepts/review-response-templates.md for templates.
 - **4-star reviews**: thank, acknowledge what they liked, briefly invite back. Don't ask "what can we do better" publicly — handle that privately.

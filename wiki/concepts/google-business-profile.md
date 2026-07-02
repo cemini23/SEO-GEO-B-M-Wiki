@@ -29,10 +29,12 @@ related:
   - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
   - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
   - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
+  - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-01
+updated: 2026-07-02
 
 ---
 

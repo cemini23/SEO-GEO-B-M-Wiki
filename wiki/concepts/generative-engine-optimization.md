@@ -88,6 +88,9 @@ related:
   - sweeps/2026-06-30-daily.md
   - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
   - sweeps/2026-07-01-daily.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
+  - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
+  - sweeps/2026-07-02-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -96,7 +99,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-07-01
+updated: 2026-07-02
 ---
 
 ## Relations
@@ -236,15 +239,15 @@ Playbook: @concepts/geo-visibility-measurement.md; hands-on `briefs/2026-06-19_k
 
 **Citation sourcing layer:** @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — before optimizing answer text, audit **which URLs** engines cite: **85.7%** third-party vs **14.3%** owned across 12 languages; Wikipedia #1 in 11/12; owned site is minority even for best self-cited brands. Playbook: @concepts/ai-citation-sourcing-geo.md; hands-on `briefs/2026-06-26_k130-earned-media-citation-audit-hands-on.md`. Local barbershop queries untested `[NEEDS VERIFICATION 2026-06-26]`.
 
-### Google first-party framing — “Good SEO is good GEO” [TENTATIVE — June 2026 messaging]
+### Google first-party framing — Search Central AI optimization guide [CONFIRMED]
 
-@sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md (TechWyse summary of Brendon Kraham, Think with Google June 2026): Google positions AI Mode / AI Overviews on the **same index + quality systems** as classic Search — not a parallel bot-first stack.
+@sources/google-search-central-2026-ai-optimization-guide.md (Google Search Central, retrieved 2026-07-02): **SEO best practices remain the foundation** for AI Overviews and AI Mode — same index + quality systems. **RAG grounding** pulls from indexed pages with clickable citations; **query fan-out** generates related searches to broaden evidence retrieval.
 
-- **Do:** non-commodity expert content, crawl/index clarity, structured data, GBP/product feeds, GSC generative AI performance reports tied to business outcomes.
-- **Skip for Google Search:** llms.txt, bot-targeted fragments, inauthentic mention chasing, third-party AI dashboards as sole truth.
-- **Query fan-out:** eligibility across related questions + supporting evidence, not only the head keyword.
+- **Do:** non-commodity people-first content, crawl/index clarity, page experience, GBP + Merchant Center for local/commerce facts, image/video SEO where helpful.
+- **Skip for Google Search:** llms.txt and special AI text files, chunking-only pages, AI synonym rewrites, inauthentic mention chasing, structured-data-as-AI-hack.
+- **Scaled content abuse:** creating pages primarily for fan-out query manipulation violates spam policy.
 
-Hands-on: `briefs/2026-06-27_k131-entity-evidence-audit-hands-on.md`.
+Journalism summary: @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md (“Good SEO is good GEO”). Hands-on: `briefs/2026-07-02_k136-google-first-party-geo-review-checklist-hands-on.md`; entity evidence: `briefs/2026-06-27_k131-entity-evidence-audit-hands-on.md`.
 
 ### Entity characterization patent — webpages as evidence [TENTATIVE — patent ≠ product]
 
@@ -264,7 +267,7 @@ Hands-on: `briefs/2026-06-27_k131-entity-evidence-audit-hands-on.md`.
 
 @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md (HousingWire, 2026-06-29): **~68%** of Google searches ended without a click (early 2026); **83%** with AI Overviews; **93%** in AI Mode. AEO optimizes for **being cited in answers**, not only SERP clicks. GBP treated as **tier-one data feed** to Gemini/AI Overviews; cross-platform NAP consistency drives citation confidence. Hands-on: `briefs/2026-06-30_k134-ai-citation-vs-click-audit-hands-on.md`. Stats via SparkToro/Similarweb in article `[NEEDS VERIFICATION 2026-06-30]` on barbershop queries.
 
-**FOSS audit CLI:** @entities/tools/geo-optimizer-skill.md — MIT `geo-optimizer-skill` (CONDITIONAL-GO): use schema/citability modules; ignore `llms.txt` recommendations for Google Search per @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md.
+**FOSS audit CLI:** @entities/tools/geo-optimizer-skill.md — MIT `geo-optimizer-skill` (CONDITIONAL-GO): use schema/citability modules; ignore `llms.txt` per @sources/google-search-central-2026-ai-optimization-guide.md.
 
 ### AEO taxonomy — visibility forms + SEO complement [TENTATIVE — vendor primer]
 
