@@ -1,13 +1,19 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-02
+updated: 2026-07-03
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-07-03] brief | CXW/GEO Outlier front-to-back article handoff
+
+- **Brief (1 master):** `briefs/2026-07-03_cxw-geo-outlier-front-to-back-thesis.md` — article spine from warehouse failure → turnkey pivot → funding → site sequencing → Cal City/Bonta → Florence/J&A trap → recorder monitor negatives → BOP closure counterpoint.
+- **Updated:** `briefs/2026-06-26_cxw-geo-detention-turnkey-wsb-handoff.md` now points to the master Outlier brief; `wiki/index.md` adds the brief row.
+- **Frame:** real thesis / dirty timing; base case contract continuity, upside tail turnkey 8-K; avoid overclaims on BOP privatization, Nantucket jet routing, Florence CAFCC, and options flow.
 
 ## [2026-07-02] ingest | K136 daily digest — Google Search Central first-party GEO + GBP reviews (0 arXiv)
 

@@ -149,6 +149,7 @@ If you're new to this wiki:
 ### Briefs
 
 - [creator-launch-decision-hub](briefs/2026-05-09_creator-launch-decision-hub.md) — 24-hour launch-day decision resource: platform choice, pricing, content strategy, AI guardrails, retention, revenue projections, action checklist (bridges SEO:GEO + Image Gen wikis)
+- [CXW/GEO Outlier front-to-back thesis handoff](briefs/2026-07-03_cxw-geo-outlier-front-to-back-thesis.md) — Master Outlier article spine: warehouse failure → turnkey pivot → funding → site sequencing → Cal City/Bonta → Florence/J&A trap → recorder negatives → BOP counterpoint — cxw, geo, ice, outlier, trading
 
 ### Creator marketing (new vertical)
 
