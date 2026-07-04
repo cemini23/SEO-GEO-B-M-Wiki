@@ -22,9 +22,11 @@ related:
   - concepts/citation-building.md
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
   - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
+  - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
+  - concepts/evidence-ecosystem-geo.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-01
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -41,6 +43,8 @@ updated: 2026-07-01
 - @sources/arxiv-caption-injection-2511.04080-2026-06-08.md — multimodal caption injection for gallery/style-guide posts
 - @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md — authority-claim ethics; fabricated clinical copy as audit stimulus only
 - @concepts/llm-brand-bias-geo-competition.md — verifiable credentials beat copycat GEO boilerplate
+- @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md — evidence ecosystem architecture (K138)
+- @concepts/evidence-ecosystem-geo.md — local-safe checklist
 
 ## Raw Concept
 
@@ -77,6 +81,17 @@ Highest expected value on pages where competitors show generic stock interiors b
 - **Forbidden:** invented clinical studies, fake "dermatologist partnership" claims, unverifiable "#1 in [city]" without source, copy-paste authority templates competitors also run (@concepts/llm-brand-bias-geo-competition.md — homogenized GEO collapses to incumbent win).
 
 When all local competitors adopt identical authority boilerplate, individual lift vanishes; **unique factual differentiation** (specialty services, neighborhood, stylist bios, transparent pricing) is the durable path.
+
+### Evidence ecosystem content `[TENTATIVE]`
+
+@sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md reframes content as an agent-traversable evidence graph. For a local business, the content plan should not stop at "write a service page." Each hub page should route to real proof:
+
+- Service/location hub -> booking, NAP, service details, staff proof, FAQ, gallery.
+- Service page -> relevant gallery examples and review themes.
+- Review/testimonial page -> no gating, no fake review excerpts; cite GBP/Yelp where appropriate.
+- Earned mention page/list -> chamber, local press, awards, and listicles that actually exist.
+
+Avoid synthetic "expert", "news", "forum", or "social" pages. EcoGEO's benchmark was controlled and non-public; public-web translation must be truthful evidence coordination only.
 
 ### Listicles and YouTube — highest-leverage third-party surfaces `[CONFIRMED B2B panel; TENTATIVE local]`
 

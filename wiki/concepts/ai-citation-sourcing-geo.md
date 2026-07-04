@@ -17,9 +17,12 @@ related:
   - concepts/per-entity-bias-mapping-geo.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-26-daily.md
+  - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
+  - concepts/evidence-ecosystem-geo.md
+  - sweeps/2026-07-04-daily.md
 maturity: validated
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -37,6 +40,8 @@ updated: 2026-06-26
 - @concepts/per-entity-bias-mapping-geo.md — citation fidelity per entity
 - @concepts/federated-daily-research-digest.md — K130 ingest
 - @sweeps/2026-06-26-daily.md — overnight fetch
+- @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md — evidence ecosystem / trajectory layer (K138)
+- @concepts/evidence-ecosystem-geo.md — coordinated real evidence checklist
 
 ## Raw Concept
 
@@ -82,6 +87,19 @@ Perplexity cited **most** (90k+ rows) and **widest domain set** (16k domains) wi
 5. Verify claims on cited pages (@concepts/citation-verification-aeo.md).
 
 Hands-on template: `briefs/2026-06-26_k130-earned-media-citation-audit-hands-on.md`
+
+### Evidence ecosystem overlay `[TENTATIVE]`
+
+@sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md shows that a web-enabled agent may follow internal links and later search the target entity by name after encountering an entry page. Add one question to citation audits: **does the cited URL lead to more real support evidence?**
+
+For local operators, prioritize earned placements and owned pages that interconnect truthfully:
+
+- GBP/Yelp/directories point to correct location page.
+- Location page links to service proof, reviews, booking, FAQ, and gallery.
+- Local press/chamber/listicle pages use the same NAP/category language.
+- Service pages cite or link to relevant proof without inventing third-party validation.
+
+Hands-on ecosystem audit: `briefs/2026-07-04_k138-evidence-ecosystem-geo-audit-hands-on.md`.
 
 ## Snippets
 

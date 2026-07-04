@@ -27,9 +27,12 @@ related:
   - sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md
   - entities/tools/wikikv.md
   - sweeps/2026-06-17-daily.md
+  - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
+  - concepts/evidence-ecosystem-geo.md
+  - sweeps/2026-07-04-daily.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-06-17
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -51,6 +54,8 @@ updated: 2026-06-17
 - @concepts/citation-verification-aeo.md — reflection-before-publish analog
 - @sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md — hierarchical NAV(q,B) vs flat chunk RAG
 - @entities/tools/wikikv.md — path-indexed wiki storage REFERENCE
+- @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md — agent trajectory + evidence ecosystem view (K138)
+- @concepts/evidence-ecosystem-geo.md — local-business safe translation
 
 ## Raw Concept
 
@@ -167,6 +172,19 @@ For a **client site audit + content refresh** session:
 4. **Score batch** against four metrics — reject sets with high AY but bad Down/Up or large coherence penalty
 5. **Expert pass** — template/UX/deployability (matches paper's expert-assisted regime)
 6. **Deploy** → monitor GSC impressions/clicks 4–8 weeks (paper does not substitute live measurement)
+
+### Part C — Agent trajectory evidence ecosystems `[TENTATIVE]`
+
+From @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md.
+
+EcoGEO extends the link-graph idea from "which pages pass authority?" to "which pages help a web-enabled agent keep gathering real evidence?" TRACE's controlled benchmark used a navigation entry page plus role-specialized support pages. Local-safe translation:
+
+- Use one entry page per major journey (location/service hub).
+- Link from that hub to real support evidence (GBP, service proof, gallery, reviews, FAQ, booking, earned local press).
+- Keep NAP, service names, prices, and limitations consistent across pages and citations.
+- Do not publish synthetic review/news/forum/social pages; the paper's authors explicitly avoided public-web deployment.
+
+Hands-on: `briefs/2026-07-04_k138-evidence-ecosystem-geo-audit-hands-on.md`.
 
 For a **wiki research session**:
 

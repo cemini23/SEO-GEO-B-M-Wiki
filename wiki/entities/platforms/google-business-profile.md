@@ -14,10 +14,11 @@ related:
   - concepts/local-pack-rankings.md
   - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
   - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
+  - sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-02
+updated: 2026-07-04
 
 ---
 
@@ -36,6 +37,7 @@ updated: 2026-07-02
 - @concepts/local-pack-rankings.md
 - @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md — review enforcement ladder (K135)
 - @sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md — first-party acquisition + replies (K136)
+- @sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md — missing reviews + additive review restrictions (K137)
 
 
 ## Raw Concept
@@ -104,6 +106,7 @@ The page-level boundaries are at @concepts/reviews-reputation-management.md (rev
 - **No fake addresses / virtual offices** — must serve customers at the listed address (or, for service-area businesses, must be physically based there)
 - **No multiple listings for same location** — duplicate listings get merged or suppressed
 - **No review gating, no fake reviews, no fake services** — see @concepts/reviews-reputation-management.md; enforcement ladder (shadow-filter → pause → public banner → suspension) in @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md `[TENTATIVE]`
+- **Review systems can pause/hide reviews** — July 2026 reports show suspicious-review detection can temporarily remove or pause reviews; repeated incentivized-review violations can stack longer restrictions. See @sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md.
 - **Hours must reflect reality** — closed-when-listed-open is a quality flag
 
 Suspension risk: violations can result in soft suspension (listing hidden from search) or hard suspension (listing removed entirely). Reinstatement is a documented appeal process but takes 1-4 weeks if granted at all.

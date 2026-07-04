@@ -91,6 +91,9 @@ related:
   - sources/google-search-central-2026-ai-optimization-guide.md
   - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
   - sweeps/2026-07-02-daily.md
+  - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
+  - concepts/evidence-ecosystem-geo.md
+  - sweeps/2026-07-04-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -99,7 +102,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-07-02
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -238,6 +241,12 @@ Playbook: @concepts/geo-visibility-measurement.md; hands-on `briefs/2026-06-19_k
 **Multilingual blind spot:** @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — English-only GEO audits understate **local champion** recommendation share; run home-language query matrix (@concepts/multilingual-geo-audit.md).
 
 **Citation sourcing layer:** @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — before optimizing answer text, audit **which URLs** engines cite: **85.7%** third-party vs **14.3%** owned across 12 languages; Wikipedia #1 in 11/12; owned site is minority even for best self-cited brands. Playbook: @concepts/ai-citation-sourcing-geo.md; hands-on `briefs/2026-06-26_k130-earned-media-citation-audit-hands-on.md`. Local barbershop queries untested `[NEEDS VERIFICATION 2026-06-26]`.
+
+### Evidence ecosystem GEO - agent trajectories [TENTATIVE - controlled benchmark]
+
+@sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md (EcoGEO / TRACE, arXiv 2605.12887): web-enabled agents do not answer from one fixed document; they search, crawl, follow links, reformulate, and synthesize across a trajectory. TRACE beat page-level GEO baselines on controlled product recommendation (target recommendation **67.2% / 71.9% / 73.9%** across three datasets; +14.9 to +31.3 pp over best baselines) by coordinating a navigation entry page plus official/review/expert/news/forum/social-style support pages.
+
+Safe local analog: coordinate **real** evidence - GBP, owned service/location pages, reviews, local press/chamber/listicles, social proof - with consistent NAP/service language and helpful internal links. Do **not** fabricate support pages; the paper explicitly used synthetic products in a non-public controlled environment and does not advocate public-web manipulation. Playbook: @concepts/evidence-ecosystem-geo.md; hands-on `briefs/2026-07-04_k138-evidence-ecosystem-geo-audit-hands-on.md`.
 
 ### Google first-party framing — Search Central AI optimization guide [CONFIRMED]
 

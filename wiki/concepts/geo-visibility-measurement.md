@@ -34,9 +34,12 @@ related:
   - sweeps/2026-06-30-daily.md
   - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
   - sweeps/2026-07-01-daily.md
+  - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
+  - concepts/evidence-ecosystem-geo.md
+  - sweeps/2026-07-04-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-07-01
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -71,6 +74,8 @@ updated: 2026-07-01
 - @sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md — answer-surface form taxonomy (K135)
 - @entities/tools/geo-optimizer-skill.md — third-party audit CLI; directional only
 - @sweeps/2026-06-30-daily.md — K134 ingest
+- @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md — agent trajectory metrics (K138)
+- @concepts/evidence-ecosystem-geo.md — evidence path audit
 
 ## Raw Concept
 
@@ -191,6 +196,19 @@ Hands-on Ranqo-style tier baseline: `briefs/2026-06-19_k123-ranqo-geo-visibility
 | **Rich product** | Shopping-style card (rare for barbershops) |
 
 Unlinked mentions produce **zero referral traffic** but still shape buyer decisions — count them in weekly probes.
+
+### Trajectory proxies [STEAL from EcoGEO 2026]
+
+@sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md measured hidden agent actions in a controlled environment: initial target-result crawls, target-specific second searches, follow-up crawls, and internal-link crawls. Public engines usually do not expose these actions, so use visible proxies:
+
+| Proxy | Record |
+|-------|--------|
+| **Entry citation** | Did the engine cite the intended hub/location/service page? |
+| **Support citation** | Did it also cite review, GBP, Yelp, local press, or service proof? |
+| **Name refinement** | Did the answer search/mention the exact shop after a broad query? |
+| **Internal path** | Did cited pages link to each other in a human-useful way? |
+
+Do not claim causal lift from one probe. Use this as an audit layer on top of the existing mention/citation CI discipline.
 
 ### Verified mention overlay [STEAL from Varga 2026 PEBM]
 

@@ -31,10 +31,11 @@ related:
   - sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md
   - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
   - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
+  - sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-02
+updated: 2026-07-04
 
 ---
 
@@ -65,6 +66,7 @@ updated: 2026-07-02
 - @sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md — aspect-theme steal (K129)
 - @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md — FTC + enforcement ladder; vendor audit (K135)
 - @sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md — first-party acquisition + reply rules (K136)
+- @sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md — missing reviews + additive restrictions (K137)
 
 ## Raw Concept
 
@@ -86,6 +88,7 @@ Customer reviews are simultaneously a **ranking signal** for local pack placemen
 - ❌ **Review gating is forbidden** `[CONFIRMED]` — Google's GBP policy explicitly prohibits selectively soliciting positive reviews while filtering out unhappy customers. The **April 2026 GBP policy update** added new clauses to the Maps User Generated Content Policy under Rating Manipulation, **explicitly listing review gating, incentivized reviews, on-premises kiosk pressure, staff quotas, and review content direction** as violations (retrieved 2026-05-17). AI-driven enforcement is actively removing violating reviews. Asking *every* customer for a review is fine; asking only the smiling ones is not. Penalty range: review removal → ranking suppression → profile suspension. [Sources: https://support.google.com/business/answer/13762416 (retrieved 2026-05-17); https://launchcodex.com/blog/seo-geo-ai/google-business-profile-review-policy-update/ (retrieved 2026-05-17)]
 - ❌ **Incentivized reviews forbidden** — no "leave a review and get $5 off." Google and Yelp both forbid this; if the operator does it, surfaced reviews can be removed and the listing flagged. June 2026 practitioner press continues to flag **reward-for-review** programs as Google penalty risk [Source: https://says.com/my/tech/psa-businesses-risk-google-penalties-if-they-offer-rewards-in-exchange-for-reviews (retrieved 2026-06-28)].
 - **Enforcement ladder (2026 trade press)** `[TENTATIVE]` — @sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md: shadow-filtering → new-review pause → public GBP warning banner → full Maps/Search suspension. FTC Consumer Review Rule cited at up to **$53,088/violation** for fake/paid/suppressed reviews `[NEEDS VERIFICATION 2026-07-01]` on local enforcement cases. **Vendor audit:** three yes/no questions (pre-screen gating, incentivized asks, on-prem kiosk) — hands-on `briefs/2026-07-01_k135-review-compliance-vendor-audit-hands-on.md`. First-party checklist: `briefs/2026-07-02_k136-google-first-party-geo-review-checklist-hands-on.md`.
+- **Missing-review incident response (July 2026)** `[TENTATIVE]` — @sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md: Google acknowledged investigating reports where legitimate GBP reviews disappeared or review posting paused after suspicious-review detection. Treat sudden loss as either bug or policy action until evidence says which. Weekly screenshots + support case workflow: `briefs/2026-07-03_k137-gbp-review-loss-restriction-response-hands-on.md`.
 - ❌ **Fake reviews forbidden** — buying reviews, friends-and-family astroturfing, AI-generated review content. All risk listing suspension and structured-data-spam penalties.
 - ❌ **Filtering, gating, or hiding negatives** — even within the operator's own systems before public publication. Google's enforcement specifically targets the *practice* of selective solicitation, not just the technical mechanism.
 

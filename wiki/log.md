@@ -1,13 +1,32 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-03
+updated: 2026-07-04
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-07-04] ingest | K138 daily digest — EcoGEO trajectory-aware evidence ecosystems (1 arXiv)
+
+- **Inbox** — 1 PDF (arXiv 2605.12887 EcoGEO) archived to `cemini-egress-fi:/opt/cemini-bulk/research/seo/`
+- **Source** — @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
+- **New** — @concepts/evidence-ecosystem-geo.md
+- **Updated** — @concepts/generative-engine-optimization.md, @concepts/adaptive-rag-internal-linking-geo.md, @concepts/ai-citation-sourcing-geo.md, @concepts/geo-visibility-measurement.md, @concepts/content-strategy-local.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k138_phase0.sh` (EcoGEO REFERENCE; no public-web synthetic evidence adoption)
+- **Brief (1 hands-on)** — evidence ecosystem GEO audit (`briefs/2026-07-04_k138-evidence-ecosystem-geo-audit-hands-on.md`)
+- **Operator note** — coordinate real evidence paths (GBP/site/reviews/citations); do not fabricate support pages or planted forum/social proof
+
+## [2026-07-03] ingest | K137 daily digest — GBP missing reviews + additive restrictions (0 arXiv)
+
+- **Inbox** — empty (no PDFs)
+- **Source** — @sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
+- **Updated** — @concepts/reviews-reputation-management.md, @concepts/google-business-profile.md, @entities/platforms/google-business-profile.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k137_phase0.sh` (SERoundtable REFERENCE; first-party GBP Help already K136; vendor rows skipped)
+- **Brief (1 hands-on)** — GBP review loss + restriction response (`briefs/2026-07-03_k137-gbp-review-loss-restriction-response-hands-on.md`)
+- **Operator note** — distinguish platform bug / suspicious-review pause from policy restriction; preserve weekly review-count screenshots
 
 ## [2026-07-03] brief | CXW/GEO Outlier front-to-back article handoff
 

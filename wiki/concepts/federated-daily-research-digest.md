@@ -84,9 +84,14 @@ related:
   - sources/google-search-central-2026-ai-optimization-guide.md
   - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
   - sweeps/2026-07-02-daily.md
+  - sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
+  - sweeps/2026-07-03-daily.md
+  - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
+  - concepts/evidence-ecosystem-geo.md
+  - sweeps/2026-07-04-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-02
+updated: 2026-07-04
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -167,6 +172,11 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/google-search-central-2026-ai-optimization-guide.md — K136 Search Central AI optimization (first-party)
 - @sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md — K136 GBP review help
 - @sweeps/2026-07-02-daily.md — overnight fetch + K136 ingest
+- @sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md — K137 GBP missing reviews + additive restrictions
+- @sweeps/2026-07-03-daily.md — overnight fetch + K137 news-lane ingest
+- @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md — K138 EcoGEO / TRACE evidence ecosystem
+- @concepts/evidence-ecosystem-geo.md — K138 operator playbook
+- @sweeps/2026-07-04-daily.md — overnight fetch + K138 PDF ingest
 
 ## Raw Concept
 

@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-07-02
+updated: 2026-07-04
 ---
 
 # Wiki Index
@@ -48,6 +48,7 @@ If you're new to this wiki:
 - [arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25](sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md) — ABSA peer-review evolution; aspect-theme steal for customer reviews (2026-06-25 digest)
 - [arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26](sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md) — citation sourcing across languages; 85.7% third-party (2026-06-26 digest)
 - [arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28](sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md) — KARLA KB-augmented retrieval; factual externalization (2026-06-28 digest)
+- [arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04](sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md) — EcoGEO / TRACE: coordinated evidence ecosystems for web-enabled search agents (2026-07-04 digest)
 
 ### Platform / practitioner news
 
@@ -58,6 +59,7 @@ If you're new to this wiki:
 - [hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29](sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md) — AEO taxonomy; visibility forms; SEO complement (2026-07-01 digest)
 - [google-search-central-2026-ai-optimization-guide](sources/google-search-central-2026-ai-optimization-guide.md) — first-party AI Overviews/AI Mode SEO guide; RAG; query fan-out; llms.txt mythbust (2026-07-02 digest)
 - [google-business-profile-help-2026-tips-get-more-reviews-3474122](sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md) — first-party GBP review acquisition + reply rules (2026-07-02 digest)
+- [seroundtable-2026-gbp-review-loss-restrictions-2026-07-03](sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md) — GBP missing reviews + additive review restrictions (2026-07-03/04 digest)
 
 ### Audits + evaluations
 
@@ -114,6 +116,7 @@ If you're new to this wiki:
 - [per-entity-bias-mapping-geo](concepts/per-entity-bias-mapping-geo.md) — PEBM verified-mention audits; Brand Hallucination Paradox (Varga 2026)
 - [multilingual-geo-audit](concepts/multilingual-geo-audit.md) — query-language blind spot; home-language recommendation share (Žatuchin 2026)
 - [ai-citation-sourcing-geo](concepts/ai-citation-sourcing-geo.md) — earned-media citation audit; owned vs third-party URL layer (Žatuchin 2026 K130)
+- [evidence-ecosystem-geo](concepts/evidence-ecosystem-geo.md) — EcoGEO/TRACE safe translation: real evidence graph for agentic search
 - [canonical-business-facts-geo](concepts/canonical-business-facts-geo.md) — GBP + schema canonical fact KB sync (KARLA 2026 K132)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)

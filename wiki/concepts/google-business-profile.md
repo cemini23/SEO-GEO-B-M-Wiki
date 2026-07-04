@@ -31,10 +31,11 @@ related:
   - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
   - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
   - sources/google-search-central-2026-ai-optimization-guide.md
+  - sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-02
+updated: 2026-07-04
 
 ---
 
@@ -66,6 +67,7 @@ updated: 2026-07-02
 - @concepts/canonical-business-facts-geo.md — listing as canonical fact anchor (K132)
 - @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md — updatable KB analog
 - @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — GBP as tier-one AI data feed (K134)
+- @sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md — review disappearance / additive restrictions incident (K137)
 
 ## Raw Concept
 
@@ -78,6 +80,8 @@ Google Business Profile (GBP, formerly Google My Business / GMB) is the single h
 **Entity-model inputs:** Google patent narrative (@sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md) and June 2026 first-party guidance (@sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md) both treat **maps/listing business data** as core inputs to how Google understands a local entity — not optional sidebar metadata. Keep GBP hours, services, categories, photos, and review depth aligned with the website.
 
 **Zero-click citation layer:** @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — incomplete GBP suppresses AI citations even when classic rankings hold; measure mention/citation not clicks alone `[NEEDS VERIFICATION 2026-06-30]`.
+
+**Review incident response:** @sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md — July 2026 reports separate possible Google-side missing-review bugs from policy restrictions for suspicious/incentivized reviews. Weekly review-count screenshots and response workflow: `briefs/2026-07-03_k137-gbp-review-loss-restriction-response-hands-on.md`.
 
 **Listing setup checklist** (the load-bearing decisions):
 
