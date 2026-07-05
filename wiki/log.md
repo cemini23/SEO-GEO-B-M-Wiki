@@ -977,3 +977,8 @@ style-pass | Posts.docx K112 | 8 long-forms | authors: Gustafssonkotte, horizon_
 - **Brief:** `briefs/2026-06-26_cxw-geo-detention-turnkey-wsb-handoff.md` — cross-wiki from `@osint-wiki/concepts/geo-ice-turnkey-acquisition-thesis.md` + Jun 2026 catalyst chain (Secure America Act, Appropriations hearing timing, Benchmark PT $36)
 - **Target:** r/wallstreetbets DD draft ready-for-post
 - **Primary source:** Investing.com Benchmark note (Jun 26, 2026)ar
+
+## [2026-07-05] cross-wiki route | SparkToro Blog — New Research from Similarweb: How AI Brand Mentions Influence Direct Visits & Traditional Search Queries
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-sparktoro-2026-06-29-new-research-from-similarweb-how-ai-brand-mentio.md`.
+- Created wiki/sources/newsletter-rss-sparktoro-2026-06-29-new-research-from-similarweb-how-ai-brand-mentio.md (stub)

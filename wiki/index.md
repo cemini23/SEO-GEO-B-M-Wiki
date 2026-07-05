@@ -97,6 +97,7 @@ If you're new to this wiki:
 - [onlyfans-funnel-optimization-2026](sources/onlyfans-funnel-optimization-2026.md) — Full funnel stages, traffic source conversion rates (Reddit 3–8%, X 2–5%, IG 1–3%), value ladder, retention economics
 - [fanvue-gtm-blueprint-2026](sources/fanvue-gtm-blueprint-2026.md) — Fanvue synthetic creator GTM blueprint: niche selection, GEO traffic, conversion/retention, brand partnerships (171 paragraphs, 2026)
 - [ai-detection-enforcement-2026](sources/ai-detection-enforcement-2026.md) — OnlyFans AI policy, platform comparison (OF/Fansly/Fanvue), TAKE IT DOWN Act, compliance checklist
+- [SparkToro Blog — New Research from Similarweb: How AI Brand Mentions Influence Direct Visits & Traditional Search Queries](sources/newsletter-rss-sparktoro-2026-06-29-new-research-from-similarweb-how-ai-brand-mentio.md) — cross-wiki stub routed from ingest — `cross-wiki`
 
 ## Concepts
 
