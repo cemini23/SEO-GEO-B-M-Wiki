@@ -1,60 +1,54 @@
-# Daily research digest — SEO / GEO / B&M Business wiki
-# Read by: scripts/daily_research_digest_run.py
-# Install LaunchAgent: bash "../OSINT WORKSPACE/scripts/federation/daily_digest/install_federated_daily_digest.sh" "$(pwd)" seo
-
 loop:
   recency_window_days: 7
   max_results_per_query: 3
-
 fetch:
   enabled: true
   max_downloads: 5
   fetch_likely: false
   max_results_per_paper_query: 5
-
+arxiv_fallback:
+  enabled: true
+  request_interval_seconds: 3
+  max_terms_per_query: 6
 active_topics:
-  - "Google Business Profile — features, suspensions, review policy 2026"
-  - "Generative / answer engine optimization — AI Overviews, citation surfaces"
-  - "Local pack + near-me — ranking studies, practitioner threads"
-  - "Review acquisition + response — platform policy, Easy Review loop"
-  - "Brick-and-mortar web stack — schema, Core Web Vitals, GA4/GSC"
-
+- Google Business Profile — features, suspensions, review policy 2026
+- Generative / answer engine optimization — AI Overviews, citation surfaces
+- Local pack + near-me — ranking studies, practitioner threads
+- Review acquisition + response — platform policy, Easy Review loop
+- Brick-and-mortar web stack — schema, Core Web Vitals, GA4/GSC
 paper_queries:
-  - cluster: geo-aeo-paper
-    query: "research paper generative engine optimization answer engine citation local search"
-    category: research paper
-
-  - cluster: local-seo-paper
-    query: "research paper local search ranking Google Business Profile reviews"
-    category: research paper
-
+- cluster: geo-aeo-paper
+  query: research paper generative engine optimization answer engine citation local
+    search
+  category: research paper
+- cluster: local-seo-paper
+  query: research paper local search ranking Google Business Profile reviews
+  category: research paper
 queries:
-  - cluster: gbp-news
-    query: '"Google Business Profile" OR "Google Maps" local business listing update OR suspension OR review policy'
-    category: news
-
-  - cluster: geo-aeo-news
-    query: '"generative engine optimization" OR "answer engine optimization" OR "AI Overviews" local business citation'
-    category: news
-
-  - cluster: local-seo-practitioner
-    query: '"local SEO" OR "local pack" barbershop OR salon OR dental reviews citations 2026'
-    category: news
-
+- cluster: gbp-news
+  query: '"Google Business Profile" OR "Google Maps" local business listing update
+    OR suspension OR review policy'
+  category: news
+- cluster: geo-aeo-news
+  query: '"generative engine optimization" OR "answer engine optimization" OR "AI
+    Overviews" local business citation'
+  category: news
+- cluster: local-seo-practitioner
+  query: '"local SEO" OR "local pack" barbershop OR salon OR dental reviews citations
+    2026'
+  category: news
 monokern_pipeline:
   enabled: true
   cadence: weekly
   default_deliverable: none
   source_modules:
-    - yt-dlp
-    - inbox_pdf
-    - web_url
-  ingest_hook: "After weekly digest, run one deep ingest on top ROADMAP workstream"
-
+  - yt-dlp
+  - inbox_pdf
+  - web_url
+  ingest_hook: After weekly digest, run one deep ingest on top ROADMAP workstream
 social:
   manual_pass:
-    - tool: opencli-reader
-      prompt: "Local SEO / GBP / GEO practitioner threads last 24h"
-
+  - tool: opencli-reader
+    prompt: Local SEO / GBP / GEO practitioner threads last 24h
 output:
-  path_template: "wiki/sweeps/{date}-daily.md"
+  path_template: wiki/sweeps/{date}-daily.md
