@@ -16,13 +16,16 @@ related:
   - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
   - concepts/citation-verification-aeo.md
   - sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
+  - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-02
-updated: 2026-06-16
+updated: 2026-07-15
 ---
 
 ## Relations
+
+- @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md — K139 DeepSearch / process-verified GEO
 
 - @concepts/generative-engine-optimization.md — industry "deep research" shift from single answers to cited long-form synthesis
 - @sources/davidson-2026-factual-gv-gap.md — generation vs verification asymmetry in factual outputs

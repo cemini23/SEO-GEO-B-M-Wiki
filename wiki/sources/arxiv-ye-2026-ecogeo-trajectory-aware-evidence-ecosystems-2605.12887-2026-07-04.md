@@ -15,10 +15,12 @@ related:
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-04-daily.md
+  - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
+  - concepts/process-verified-agentic-search-geo.md
 maturity: validated
 read_status: read
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-15
 ---
 
 ## Relations

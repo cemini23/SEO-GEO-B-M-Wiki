@@ -11,13 +11,16 @@ related:
   - concepts/geo-visibility-measurement.md
   - concepts/content-strategy-local.md
   - concepts/citation-building.md
+  - concepts/process-verified-agentic-search-geo.md
+  - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
   - sources/google-search-central-2026-ai-optimization-guide.md
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-04-daily.md
+  - sweeps/2026-07-15-daily.md
 maturity: draft
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-15
 ---
 
 ## Relations
@@ -29,10 +32,13 @@ updated: 2026-07-04
 - @concepts/geo-visibility-measurement.md - measurement layer
 - @concepts/content-strategy-local.md - service/location hub content
 - @concepts/citation-building.md - off-site real evidence
+- @concepts/process-verified-agentic-search-geo.md - DeepSearch entity-hit / failure-recovery lens (K139)
+- @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md - DeepSearch-World source
 - @sources/google-search-central-2026-ai-optimization-guide.md - Google Search fan-out and spam-policy constraints
 - @sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md - internal-link graph evaluation
-- @concepts/federated-daily-research-digest.md - K138 ingest
+- @concepts/federated-daily-research-digest.md - K138 / K139 ingest
 - @sweeps/2026-07-04-daily.md - overnight fetch
+- @sweeps/2026-07-15-daily.md - DeepSearch-World inbox
 
 ## Raw Concept
 

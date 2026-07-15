@@ -30,9 +30,12 @@ related:
   - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
   - concepts/evidence-ecosystem-geo.md
   - sweeps/2026-07-04-daily.md
+  - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
+  - concepts/process-verified-agentic-search-geo.md
+  - sweeps/2026-07-15-daily.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-07-04
+updated: 2026-07-15
 ---
 
 ## Relations
@@ -56,6 +59,9 @@ updated: 2026-07-04
 - @entities/tools/wikikv.md — path-indexed wiki storage REFERENCE
 - @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md — agent trajectory + evidence ecosystem view (K138)
 - @concepts/evidence-ecosystem-geo.md — local-business safe translation
+
+- @concepts/process-verified-agentic-search-geo.md — DeepSearch process verification (K139)
+- @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
 
 ## Raw Concept
 

@@ -37,9 +37,12 @@ related:
   - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
   - concepts/evidence-ecosystem-geo.md
   - sweeps/2026-07-04-daily.md
+  - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
+  - concepts/process-verified-agentic-search-geo.md
+  - sweeps/2026-07-15-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-07-04
+updated: 2026-07-15
 ---
 
 ## Relations
@@ -76,6 +79,8 @@ updated: 2026-07-04
 - @sweeps/2026-06-30-daily.md — K134 ingest
 - @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md — agent trajectory metrics (K138)
 - @concepts/evidence-ecosystem-geo.md — evidence path audit
+- @concepts/process-verified-agentic-search-geo.md — entity-hit / first-miss recovery proxies (K139)
+- @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
 
 ## Raw Concept
 
@@ -198,6 +203,8 @@ Hands-on Ranqo-style tier baseline: `briefs/2026-06-19_k123-ranqo-geo-visibility
 Unlinked mentions produce **zero referral traffic** but still shape buyer decisions — count them in weekly probes.
 
 ### Trajectory proxies [STEAL from EcoGEO 2026]
+
+DeepSearch-World (@sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md) adds **entity-hit** and first-miss recovery as process metrics inside a verifiable sandbox — use answer-text entity coverage as the public proxy (@concepts/process-verified-agentic-search-geo.md).
 
 @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md measured hidden agent actions in a controlled environment: initial target-result crawls, target-specific second searches, follow-up crawls, and internal-link crawls. Public engines usually do not expose these actions, so use visible proxies:
 

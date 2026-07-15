@@ -49,6 +49,7 @@ If you're new to this wiki:
 - [arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26](sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md) — citation sourcing across languages; 85.7% third-party (2026-06-26 digest)
 - [arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28](sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md) — KARLA KB-augmented retrieval; factual externalization (2026-06-28 digest)
 - [arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04](sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md) — EcoGEO / TRACE: coordinated evidence ecosystems for web-enabled search agents (2026-07-04 digest)
+- [arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15](sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md) — DeepSearch-World / Evolve: verifiable env self-distillation for deep search agents (2026-07-15 digest)
 
 ### Platform / practitioner news
 
@@ -118,6 +119,7 @@ If you're new to this wiki:
 - [multilingual-geo-audit](concepts/multilingual-geo-audit.md) — query-language blind spot; home-language recommendation share (Žatuchin 2026)
 - [ai-citation-sourcing-geo](concepts/ai-citation-sourcing-geo.md) — earned-media citation audit; owned vs third-party URL layer (Žatuchin 2026 K130)
 - [evidence-ecosystem-geo](concepts/evidence-ecosystem-geo.md) — EcoGEO/TRACE safe translation: real evidence graph for agentic search
+- [process-verified-agentic-search-geo](concepts/process-verified-agentic-search-geo.md) — DeepSearch entity-hit / failure-recovery process lens for local GEO
 - [canonical-business-facts-geo](concepts/canonical-business-facts-geo.md) — GBP + schema canonical fact KB sync (KARLA 2026 K132)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)
@@ -154,6 +156,7 @@ If you're new to this wiki:
 
 - [creator-launch-decision-hub](briefs/2026-05-09_creator-launch-decision-hub.md) — 24-hour launch-day decision resource: platform choice, pricing, content strategy, AI guardrails, retention, revenue projections, action checklist (bridges SEO:GEO + Image Gen wikis)
 - [CXW/GEO Outlier front-to-back thesis handoff](briefs/2026-07-03_cxw-geo-outlier-front-to-back-thesis.md) — Master Outlier article spine: warehouse failure → turnkey pivot → funding → site sequencing → Cal City/Bonta → Florence/J&A trap → recorder negatives → BOP counterpoint — cxw, geo, ice, outlier, trading
+- [CXW turnkey 8-K vindication — X Article + GEO chase](briefs/2026-07-06_cxw-turnkey-8k-vindication-x-article.md) — `[READY 2026-07-06]` Cal City + Otay $1.5B to DHS; paste-ready X Article; GEO sympathy leg — cxw, geo, ice, x-article
 
 ### Creator marketing (new vertical)
 
@@ -178,6 +181,7 @@ If you're new to this wiki:
 - [agent-first-web-atml-framework](concepts/agent-first-web-atml-framework.md) — CCC K119 cross-route: ATML, agents.txt, provenance tiers for GEO citability
 - [x-account-voice-and-format](concepts/x-account-voice-and-format.md) — X Article voice, Cyril style deconstruction, paste protocol, Posts.docx style exemplars
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
+- [x-article-cxw-geo-th-postmortem-notes](concepts/x-article-cxw-geo-th-postmortem-notes.md) — Jul 8 CXW/GEO/TH postmortem Article notes (after Jul 6 vindication)
 - [outlier-weekly-issue3-world-cup-bot-notes](concepts/outlier-weekly-issue3-world-cup-bot-notes.md) — Issue 3 launch queue (2026-06-03)
 - [world-cup-bot-x-article-runbook-notes](concepts/world-cup-bot-x-article-runbook-notes.md) — X Article #4 CLI runbook (draft)
 - [world-cup-bot-search-discovery](concepts/world-cup-bot-search-discovery.md) — GitHub Pages + Google/Bing indexing for Polymarket/Kalshi queries

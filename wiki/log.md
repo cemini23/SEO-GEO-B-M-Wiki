@@ -1,13 +1,47 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-04
+updated: 2026-07-15
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
 
+## [2026-07-15] ingest | K139 DeepSearch-World process-verified agentic search (1 arXiv)
+
+- **Inbox** — 1 PDF (arXiv 2607.07820 DeepSearch-World) archived to `cemini-egress-fi:/opt/cemini-bulk/research/seo/`
+- **Source** — @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
+- **New** — @concepts/process-verified-agentic-search-geo.md
+- **Updated** — @concepts/evidence-ecosystem-geo.md, @concepts/generative-engine-optimization.md, @concepts/adaptive-rag-internal-linking-geo.md, @concepts/geo-visibility-measurement.md, @concepts/federated-daily-research-digest.md, @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md, @sources/score-2026-self-evolving-deep-research.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k139_phase0.sh` (REFERENCE/Watch; code+420K not released; no local adopt)
+- **Brief (1 hands-on)** — entity-hit agent path audit (`briefs/2026-07-15_k139-entity-hit-agent-path-audit-hands-on.md`)
+- **Poker delta** — OSINT `agents/devfun-poker-arena/briefs/2026-07-15_k139-deepsearch-scaffold-staged-reflection-delta.md` (on top of shipped K161 filter); mirrored to Gambling arena briefs
+- **David / tipdrop** — SKIP (no ComfyUI/image path)
+- **Prod scp** — SKIP (default wiki-only)
+- **Federated note** — OSINT+Gambling already ingested 2026-07-13; SEO adds GEO operator angle
+
 Append-only chronological log of wiki operations: scaffolding, ingests, lints, distributions. Most recent at top.
+
+## [2026-07-14] style-pass | OW7 wikilint / contribution rate
+
+- **Brief:** `briefs/2026-07-14_outlier-weekly-issue7-wikilint-contribution-rate.md` — voice pass vs `@concepts/x-account-voice-and-format.md`
+- **Pass:** Cyril checklist (failure open, 4 modes, CLI+checklist, contribution rate, limitation)
+- **Cuts:** "steal these names"; Not X / Not Y stack; bold lead-ins; Article #1/#2 insider aside; newsletter-admin closer; em dashes in paste + X replies
+
+## [2026-07-08] style-pass | CXW/GEO/TH turnkey postmortem Article (new after Jul 6)
+
+- **New Article notes:** `@concepts/x-article-cxw-geo-th-postmortem-notes.md` — companion to published Jul 6 vindication; hook = right on sale / wrong on pop
+- **Paste brief (OSINT):** `Desktop/OSINT WORKSPACE/briefs/2026-07-08_cxw-geo-th-turnkey-postmortem-x-article.md`
+- **Voice table:** operator Jul 6 LIVE + Jul 8 Ready rows on `@concepts/x-account-voice-and-format.md`
+- **Steal:** flat-close failure open; 6 right / 5 wrong; fade stack; TH cousin not clone; Aug 5/6 CTA
+- **Avoid:** re-vindicating the 8-K; Dilley turnkey as base case; em dashes; line-per-sentence paste
+
+## [2026-07-06] brief | CXW turnkey 8-K vindication — X Article + GEO chase
+
+- **Brief:** `briefs/2026-07-06_cxw-turnkey-8k-vindication-x-article.md` — paste-ready X Article; opener tweet + reply stack; GEO sympathy/chase frame
+- **Event:** CoreCivic 8-K (Jul 2 close / Jul 6 announce) — Cal City $732.6M + Otay $739.2M = **$1.5B gross**, **~$1.1B net**; retains ICE management contracts; additional ICE sale talks
+- **Updated:** `briefs/2026-07-03_cxw-geo-outlier-front-to-back-thesis.md` (vindication addendum), `briefs/2026-06-26_cxw-geo-detention-turnkey-wsb-handoff.md`, `wiki/index.md`
+- **Primary:** https://ir.corecivic.com/news-releases/news-release-details/corecivic-sells-two-detention-facilities
 
 ## [2026-07-04] ingest | K138 daily digest — EcoGEO trajectory-aware evidence ecosystems (1 arXiv)
 

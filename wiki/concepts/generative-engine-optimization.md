@@ -93,7 +93,10 @@ related:
   - sweeps/2026-07-02-daily.md
   - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
   - concepts/evidence-ecosystem-geo.md
+  - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
+  - concepts/process-verified-agentic-search-geo.md
   - sweeps/2026-07-04-daily.md
+  - sweeps/2026-07-15-daily.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md
@@ -102,7 +105,7 @@ related:
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
 maturity: validated
 created: 2026-05-07
-updated: 2026-07-04
+updated: 2026-07-15
 ---
 
 ## Relations
@@ -247,6 +250,12 @@ Playbook: @concepts/geo-visibility-measurement.md; hands-on `briefs/2026-06-19_k
 @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md (EcoGEO / TRACE, arXiv 2605.12887): web-enabled agents do not answer from one fixed document; they search, crawl, follow links, reformulate, and synthesize across a trajectory. TRACE beat page-level GEO baselines on controlled product recommendation (target recommendation **67.2% / 71.9% / 73.9%** across three datasets; +14.9 to +31.3 pp over best baselines) by coordinating a navigation entry page plus official/review/expert/news/forum/social-style support pages.
 
 Safe local analog: coordinate **real** evidence - GBP, owned service/location pages, reviews, local press/chamber/listicles, social proof - with consistent NAP/service language and helpful internal links. Do **not** fabricate support pages; the paper explicitly used synthetic products in a non-public controlled environment and does not advocate public-web manipulation. Playbook: @concepts/evidence-ecosystem-geo.md; hands-on `briefs/2026-07-04_k138-evidence-ecosystem-geo-audit-hands-on.md`.
+
+### Process-verified agentic search - entity hits [TENTATIVE - Wikipedia sandbox]
+
+@sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md (DeepSearch-World / Evolve, arXiv 2607.07820): competitive deep-search agents improve from **process-level** supervision in a verifiable environment - entity progress verification after each tool call, grounded reflection on misses, and failure recovery - without stronger-model trajectory distillation. DeepSearch-World-9B: **31.2%** BrowseComp, **61.5%** GAIA, **93.4%** HotpotQA.
+
+Safe local analog: treat shop name / location / services / hours as entities that must be **hittable** on successive search→read hops, with a recovery path when the hub miss. Do **not** adopt the Wikipedia env or fabricate evidence. Playbook: @concepts/process-verified-agentic-search-geo.md; hands-on `briefs/2026-07-15_k139-entity-hit-agent-path-audit-hands-on.md`. Code release Watch (not local-adopt).
 
 ### Google first-party framing — Search Central AI optimization guide [CONFIRMED]
 

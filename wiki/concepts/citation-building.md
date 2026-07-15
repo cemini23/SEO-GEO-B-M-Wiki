@@ -24,13 +24,16 @@ related:
   - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
   - concepts/ai-citation-sourcing-geo.md
 
+  - concepts/process-verified-agentic-search-geo.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-26
+updated: 2026-07-15
 
 ---
 
 ## Relations
+
+- @concepts/process-verified-agentic-search-geo.md — K139 DeepSearch / process-verified GEO
 
 - @concepts/local-seo-foundations.md
 - @concepts/reviews-reputation-management.md

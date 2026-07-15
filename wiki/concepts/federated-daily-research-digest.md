@@ -89,9 +89,12 @@ related:
   - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
   - concepts/evidence-ecosystem-geo.md
   - sweeps/2026-07-04-daily.md
+  - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
+  - concepts/process-verified-agentic-search-geo.md
+  - sweeps/2026-07-15-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-04
+updated: 2026-07-15
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -177,6 +180,9 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md — K138 EcoGEO / TRACE evidence ecosystem
 - @concepts/evidence-ecosystem-geo.md — K138 operator playbook
 - @sweeps/2026-07-04-daily.md — overnight fetch + K138 PDF ingest
+- @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md — K139 DeepSearch-World process verification
+- @concepts/process-verified-agentic-search-geo.md — K139 operator playbook
+- @sweeps/2026-07-15-daily.md — overnight fetch + K139 PDF ingest
 
 ## Raw Concept
 

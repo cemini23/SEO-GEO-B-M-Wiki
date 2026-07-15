@@ -24,12 +24,18 @@ related:
   - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
   - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
   - concepts/evidence-ecosystem-geo.md
+  - concepts/process-verified-agentic-search-geo.md
+  - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-04
+updated: 2026-07-15
 ---
 
 ## Relations
+
+- @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md — K139 DeepSearch / process-verified GEO
+
+- @concepts/process-verified-agentic-search-geo.md — K139 DeepSearch / process-verified GEO
 
 - @concepts/website-essentials-local-business.md
 - @concepts/generative-engine-optimization.md

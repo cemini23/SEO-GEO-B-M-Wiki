@@ -20,12 +20,18 @@ related:
   - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
   - concepts/evidence-ecosystem-geo.md
   - sweeps/2026-07-04-daily.md
+  - concepts/process-verified-agentic-search-geo.md
+  - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
 maturity: validated
 created: 2026-06-26
-updated: 2026-07-04
+updated: 2026-07-15
 ---
 
 ## Relations
+
+- @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md — K139 DeepSearch / process-verified GEO
+
+- @concepts/process-verified-agentic-search-geo.md — K139 DeepSearch / process-verified GEO
 
 - @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — primary source (arXiv 2606.25787)
 - @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — answer-text layer (recommendation share)
