@@ -1,15 +1,21 @@
 loop:
-  recency_window_days: 7
+  recency_window_days: 14
   max_results_per_query: 3
 fetch:
   enabled: true
   max_downloads: 5
   fetch_likely: false
-  max_results_per_paper_query: 5
+  max_results_per_paper_query: 3
 arxiv_fallback:
   enabled: true
   request_interval_seconds: 3
-  max_terms_per_query: 6
+  max_terms_per_query: 4
+exa:
+  news_enabled: false
+  paper_mode: arxiv-only
+  include_domains:
+  - arxiv.org
+  search_type: auto
 active_topics:
 - Google Business Profile — features, suspensions, review policy 2026
 - Generative / answer engine optimization — AI Overviews, citation surfaces
@@ -18,24 +24,24 @@ active_topics:
 - Brick-and-mortar web stack — schema, Core Web Vitals, GA4/GSC
 paper_queries:
 - cluster: geo-aeo-paper
-  query: research paper generative engine optimization answer engine citation local
-    search
+  query: research paper generative engine optimization answer engine citation local search
   category: research paper
+  arxiv_query: (all:GEO OR all:AEO OR all:"generative engine") AND (all:SEO OR all:search OR all:ranking)
 - cluster: local-seo-paper
   query: research paper local search ranking Google Business Profile reviews
   category: research paper
+  arxiv_query: (all:"local SEO" OR all:"Google Business" OR all:GBP) AND (all:local OR all:maps OR all:ranking)
 queries:
 - cluster: gbp-news
-  query: '"Google Business Profile" OR "Google Maps" local business listing update
-    OR suspension OR review policy'
+  query: '"Google Business Profile" OR "Google Maps" local business listing update OR suspension OR review
+    policy'
   category: news
 - cluster: geo-aeo-news
-  query: '"generative engine optimization" OR "answer engine optimization" OR "AI
-    Overviews" local business citation'
+  query: '"generative engine optimization" OR "answer engine optimization" OR "AI Overviews" local business
+    citation'
   category: news
 - cluster: local-seo-practitioner
-  query: '"local SEO" OR "local pack" barbershop OR salon OR dental reviews citations
-    2026'
+  query: '"local SEO" OR "local pack" barbershop OR salon OR dental reviews citations 2026'
   category: news
 monokern_pipeline:
   enabled: true
