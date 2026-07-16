@@ -16,13 +16,17 @@ related:
   - sweeps/2026-06-18-daily.md
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
   - concepts/per-entity-bias-mapping-geo.md
+  - concepts/geo-visibility-vector-protocol.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
 maturity: validated
 created: 2026-06-18
-updated: 2026-06-23
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
 - @sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md — primary audit (skincare + search-goods robustness)
 - @concepts/llm-reputation-signals-geo.md — when cards **differ**, rating/price/volume dominate (Baig); this page = when cards **tie**, brand default + GEO language arms race
 - @concepts/competitive-geo-citation-factors.md — price/spec completeness as quality differentiators that break brand lock-in

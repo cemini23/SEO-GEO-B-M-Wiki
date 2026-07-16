@@ -50,6 +50,9 @@ If you're new to this wiki:
 - [arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28](sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md) — KARLA KB-augmented retrieval; factual externalization (2026-06-28 digest)
 - [arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04](sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md) — EcoGEO / TRACE: coordinated evidence ecosystems for web-enabled search agents (2026-07-04 digest)
 - [arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15](sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md) — DeepSearch-World / Evolve: verifiable env self-distillation for deep search agents (2026-07-15 digest)
+- [arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16](sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md) — Critical survey of GEO 2023–2026; visibility vector + measurement protocol (2026-07-16 digest)
+- [arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16](sources/arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16.md) — overflow: Evo 2 biosecurity metagenomics (K140)
+- [arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16](sources/arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16.md) — overflow: optomechanical sail membranes (K140)
 
 ### Platform / practitioner news
 
@@ -120,6 +123,7 @@ If you're new to this wiki:
 - [ai-citation-sourcing-geo](concepts/ai-citation-sourcing-geo.md) — earned-media citation audit; owned vs third-party URL layer (Žatuchin 2026 K130)
 - [evidence-ecosystem-geo](concepts/evidence-ecosystem-geo.md) — EcoGEO/TRACE safe translation: real evidence graph for agentic search
 - [process-verified-agentic-search-geo](concepts/process-verified-agentic-search-geo.md) — DeepSearch entity-hit / failure-recovery process lens for local GEO
+- [geo-visibility-vector-protocol](concepts/geo-visibility-vector-protocol.md) — Martinez visibility vector + reproducible GEO probe protocol
 - [canonical-business-facts-geo](concepts/canonical-business-facts-geo.md) — GBP + schema canonical fact KB sync (KARLA 2026 K132)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)

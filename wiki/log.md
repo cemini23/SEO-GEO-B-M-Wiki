@@ -1,11 +1,24 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-15
+updated: 2026-07-16
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-16] ingest | K140 Martinez GEO critical survey + 2 OOD archives (3 arXiv)
+
+- **Inbox** — 3 PDFs; GEO survey ingested; biosecurity + optomechanics overflow
+- **Source (core)** — @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
+- **New** — @concepts/geo-visibility-vector-protocol.md
+- **Overflow** — @sources/arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16.md; @sources/arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16.md
+- **Updated** — @concepts/generative-engine-optimization.md, @concepts/geo-visibility-measurement.md, @concepts/competitive-geo-citation-factors.md, @concepts/ai-citation-sourcing-geo.md, @concepts/citation-verification-aeo.md, @sources/aggarwal-2024-geo-paper.md, @concepts/federated-daily-research-digest.md, @concepts/corpus-overflow-out-of-scope.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k140_phase0.sh` (survey REFERENCE; ancillary CSVs Adopt ~15KB; OOD no-adopt)
+- **Local adopt** — `raw-sources/ancillary/arxiv-2607.14035/{literature_matrix,search_protocol}.csv`
+- **Brief (1 hands-on)** — visibility vector probe protocol (`briefs/2026-07-16_k140-geo-visibility-vector-probe-protocol-hands-on.md`)
+- **Cross-wiki** — cybersecurity brief for Evo2 biosecurity (`Cybersecurity wiki/briefs/2026-07-16_k140-evo2-biosecurity-metagenomic-probes-from-seo.md`)
+- **Poker / David / prod** — SKIP (no arena / ComfyUI / XSP hook)
 
 ## [2026-07-15] ingest | K139 DeepSearch-World process-verified agentic search (1 arXiv)
 

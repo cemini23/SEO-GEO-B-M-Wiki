@@ -92,14 +92,24 @@ related:
   - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
   - concepts/process-verified-agentic-search-geo.md
   - sweeps/2026-07-15-daily.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
+  - concepts/geo-visibility-vector-protocol.md
+  - sources/arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16.md
+  - sources/arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16.md
+  - sweeps/2026-07-16-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-15
+updated: 2026-07-16
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-07-16-daily.md — K140 Martinez GEO survey
+- @sources/arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16.md — K140 Martinez GEO survey
+- @sources/arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16.md — K140 Martinez GEO survey
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
 - @meta/daily-research-digest-cadence.md — operator cadence + LaunchAgent label for this repo
 - @concepts/generative-engine-optimization.md — GEO/AEO queries in digest config
 - @concepts/google-business-profile.md — GBP policy + feature drift queries

@@ -15,14 +15,16 @@ related:
   - concepts/citation-verification-aeo.md
   - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
   - concepts/llm-reputation-signals-geo.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
 maturity: validated
 read_status: deep-read
 created: 2026-06-01
-updated: 2026-06-16
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
 - @concepts/generative-engine-optimization.md — extends Aggarwal 2024 with head-to-head citation competition
 - @concepts/competitive-geo-citation-factors.md — operator digest of the 18-factor taxonomy
 - @sources/aggarwal-2024-geo-paper.md — prior GEO framework; this paper cites and extends it

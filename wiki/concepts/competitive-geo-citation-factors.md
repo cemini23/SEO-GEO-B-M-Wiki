@@ -32,13 +32,17 @@ related:
   - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
   - concepts/ai-citation-sourcing-geo.md
   - sweeps/2026-06-26-daily.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
+  - concepts/geo-visibility-vector-protocol.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-26
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
 - @concepts/generative-engine-optimization.md — parent GEO/AEO hub
 - @sources/vishwakarma-2026-competitive-geo-sigir.md — SIGIR '26 empirical source (252k trials)
 - @sources/aggarwal-2024-geo-paper.md — single-source rewrite methods; complementary not contradictory

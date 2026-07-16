@@ -15,14 +15,16 @@ related:
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-26-daily.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
 maturity: validated
 read_status: read
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
 - @concepts/ai-citation-sourcing-geo.md — operator playbook hub (source-side layer)
 - @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — companion paper (what AI **says**); this paper = what AI **cites**
 - @concepts/multilingual-geo-audit.md — language × market citation patterns

@@ -14,14 +14,18 @@ related:
   - sweeps/2026-06-10-daily.md
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
+  - concepts/geo-visibility-vector-protocol.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
 maturity: validated
 read_status: read
 created: 2026-06-10
-updated: 2026-06-23
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
 - @concepts/generative-engine-optimization.md — reframes step 7 citation tests with uncertainty bands
 - @concepts/geo-visibility-measurement.md — operator playbook distilled from this paper
 - @sources/aggarwal-2024-geo-paper.md — GEO-BENCH lacks CI on baseline and intervention lifts; this paper flags that gap

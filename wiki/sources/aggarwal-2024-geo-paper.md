@@ -15,14 +15,18 @@ related:
   - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
   - concepts/geo-visibility-measurement.md
   - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
+  - concepts/geo-visibility-vector-protocol.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-10
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
 - @concepts/generative-engine-optimization.md
 - @concepts/content-strategy-local.md
 - @concepts/schema-markup-local.md

@@ -22,13 +22,17 @@ related:
   - sweeps/2026-07-04-daily.md
   - concepts/process-verified-agentic-search-geo.md
   - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
+  - concepts/geo-visibility-vector-protocol.md
 maturity: validated
 created: 2026-06-26
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
 - @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md — K139 DeepSearch / process-verified GEO
 
 - @concepts/process-verified-agentic-search-geo.md — K139 DeepSearch / process-verified GEO

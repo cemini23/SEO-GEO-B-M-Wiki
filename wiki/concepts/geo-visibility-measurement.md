@@ -40,13 +40,19 @@ related:
   - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
   - concepts/process-verified-agentic-search-geo.md
   - sweeps/2026-07-15-daily.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
+  - concepts/geo-visibility-vector-protocol.md
+  - sweeps/2026-07-16-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @sweeps/2026-07-16-daily.md — K140 Martinez GEO survey
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
 - @concepts/generative-engine-optimization.md — parent GEO/AEO hub; step 7 citation tests
 - @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md — empirical foundation (IQRush / arXiv 2603.08924)
 - @sources/aggarwal-2024-geo-paper.md — GEO-BENCH intervention lifts need CI validation per Sielinski critique
@@ -156,6 +162,10 @@ Local single-location shops likely analogize to Tier 3 `[NEEDS VERIFICATION 2026
 **Per-engine markets:** same brand/prompts — Perplexity 37%→62% over 5 weeks; ChatGPT 45%→20%; Claude flat ~24%. Report visibility **per engine**, not blended.
 
 **Re-audit cadence:** 14–30 days after content/citation changes (vendor methodology; causal lift awaits Ranqo P3 RCT).
+
+### Visibility vector (Martinez 2026) [TENTATIVE operator framing]
+
+@sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md separates discoverability (Ds), citation (Cs), absorption, fidelity, and behavior (Bs). Pair Sielinski CIs with an explicit estimand: conditional rewrite ≠ live retrieval ≠ traffic. Protocol: @concepts/geo-visibility-vector-protocol.md.
 
 ### What this does not solve
 

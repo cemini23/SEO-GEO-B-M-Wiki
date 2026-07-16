@@ -103,13 +103,19 @@ related:
   - "@image-gen-wiki/concepts/marketing-your-persona.md"
   - "@image-gen-wiki/concepts/persona-monetization-models.md"
   - "@image-gen-wiki/concepts/persona-content-cadence.md"
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
+  - concepts/geo-visibility-vector-protocol.md
+  - sweeps/2026-07-16-daily.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @sweeps/2026-07-16-daily.md — K140 Martinez GEO survey
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
 - @concepts/local-seo-foundations.md
 - @concepts/schema-markup-local.md
 - @concepts/content-strategy-local.md
@@ -250,6 +256,10 @@ Playbook: @concepts/geo-visibility-measurement.md; hands-on `briefs/2026-06-19_k
 @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md (EcoGEO / TRACE, arXiv 2605.12887): web-enabled agents do not answer from one fixed document; they search, crawl, follow links, reformulate, and synthesize across a trajectory. TRACE beat page-level GEO baselines on controlled product recommendation (target recommendation **67.2% / 71.9% / 73.9%** across three datasets; +14.9 to +31.3 pp over best baselines) by coordinating a navigation entry page plus official/review/expert/news/forum/social-style support pages.
 
 Safe local analog: coordinate **real** evidence - GBP, owned service/location pages, reviews, local press/chamber/listicles, social proof - with consistent NAP/service language and helpful internal links. Do **not** fabricate support pages; the paper explicitly used synthetic products in a non-public controlled environment and does not advocate public-web manipulation. Playbook: @concepts/evidence-ecosystem-geo.md; hands-on `briefs/2026-07-04_k138-evidence-ecosystem-geo-audit-hands-on.md`.
+
+### Critical survey — visibility vector [CONFIRMED as literature synthesis; TENTATIVE local ROI]
+
+@sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md (Martinez 2026, arXiv 2607.14035): reviews **45** GEO studies (2023–2026). GEO is a multistage stochastic pipeline; report a **visibility vector** (discoverability, context, citation, prominence, absorption, fidelity, behavior) instead of a single rank. Aggarwal “up to ~40%” is a **conditional-on-context** pawc gain — not organic discoverability or traffic. Topical relevance + context position are the most reproducible levers; generic heuristics transfer poorly; competition erodes gains; commercial audits show low overlap and fidelity gaps. Playbook: @concepts/geo-visibility-vector-protocol.md; hands-on `briefs/2026-07-16_k140-geo-visibility-vector-probe-protocol-hands-on.md`.
 
 ### Process-verified agentic search - entity hits [TENTATIVE - Wikipedia sandbox]
 

@@ -22,13 +22,17 @@ related:
   - concepts/per-entity-bias-mapping-geo.md
   - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
   - concepts/canonical-business-facts-geo.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
+  - concepts/geo-visibility-vector-protocol.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-30
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
 - @concepts/generative-engine-optimization.md — parent GEO/AEO hub; measurement loop step 7
 - @concepts/competitive-geo-citation-factors.md — winning the citation slot vs verifying citation accuracy
 - @sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md — empirical hallucination rates under citation formats

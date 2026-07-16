@@ -20,13 +20,15 @@ related:
   - sweeps/2026-06-24-daily.md
   - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
   - concepts/ai-citation-sourcing-geo.md
+  - concepts/geo-visibility-vector-protocol.md
 maturity: validated
 created: 2026-06-24
-updated: 2026-06-26
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
 - @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — primary source (arXiv 2606.23165)
 - @concepts/geo-visibility-measurement.md — repeated sampling + model choice discipline
 - @concepts/generative-engine-optimization.md — GEO hub

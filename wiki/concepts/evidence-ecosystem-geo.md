@@ -18,13 +18,17 @@ related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-04-daily.md
   - sweeps/2026-07-15-daily.md
+  - concepts/geo-visibility-vector-protocol.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
 maturity: draft
 created: 2026-07-04
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations
 
+- @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
+- @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
 - @sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md - EcoGEO / TRACE primary source
 - @concepts/generative-engine-optimization.md - parent GEO/AEO hub
 - @concepts/adaptive-rag-internal-linking-geo.md - internal-link graph and RAG-routing analog
