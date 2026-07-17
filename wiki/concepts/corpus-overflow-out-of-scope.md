@@ -11,13 +11,21 @@ related:
   - sources/arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16.md
   - sources/arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16.md
   - sweeps/2026-07-16-daily.md
+  - sources/arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17.md
+  - sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md
+  - sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md
+  - sweeps/2026-07-17-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations
 
+- @sweeps/2026-07-17-daily.md — K141 arXiv API false positive
+- @sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md — K141 arXiv API false positive
+- @sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md — K141 arXiv API false positive
+- @sources/arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17.md — K141 arXiv API false positive
 - @sweeps/2026-07-16-daily.md — K140 overnight fetch
 - @sources/arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16.md — K140 digest false positive; optomechanics physics
 - @sources/arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16.md — K140 digest false positive; AIxBio metagenomics (routed cyber)
@@ -41,7 +49,7 @@ A source lands here if it was dropped into the ingest queue, a stub was created 
 
 Deleting the stub loses the record that the file was already triaged-and-rejected, risking duplicate effort on the next sweep. Keeping it under this hub is the "we looked, we passed" marker.
 
-### Current contents (updated 2026-07-16)
+### Current contents (updated 2026-07-17)
 
 | Stub | Topic | Why out-of-scope |
 |---|---|---|
@@ -50,6 +58,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md | ABSA on Nature Communications **peer-review** rounds (arXiv 2606.24188) | Academic publishing workflow; operator steal = aspect-theme tagging on customer reviews only |
 | @sources/arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16.md | Evo 2 AMR biosecurity probes (arXiv 2607.14070) | AIxBio / metagenomics — routed cybersecurity brief |
 | @sources/arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16.md | Sail membranes optomechanical accelerometry (arXiv 2607.14089) | Pure physics false positive from arXiv API bleed |
+| @sources/arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17.md | Swift BAT-GLIMPSE γ-ray localization (arXiv 2607.15130) | Astrophysics false positive (K141) |
+| @sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md | Z′ quantum spin tt̄ (arXiv 2607.15153) | HEP false positive (K141) |
+| @sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md | Stigmergic Graph Memory MAPD (arXiv 2607.15182) | Warehouse robotics; routed game-dev/OSINT/poker (K141) |
 
 ## Snippets
 

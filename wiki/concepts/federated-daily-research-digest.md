@@ -97,14 +97,22 @@ related:
   - sources/arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16.md
   - sources/arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16.md
   - sweeps/2026-07-16-daily.md
+  - sources/arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17.md
+  - sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md
+  - sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md
+  - sweeps/2026-07-17-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-16
+updated: 2026-07-17
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-07-17-daily.md — K141 digest
+- @sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md — K141 digest
+- @sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md — K141 digest
+- @sources/arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17.md — K141 digest
 - @sweeps/2026-07-16-daily.md — K140 Martinez GEO survey
 - @sources/arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16.md — K140 Martinez GEO survey
 - @sources/arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16.md — K140 Martinez GEO survey

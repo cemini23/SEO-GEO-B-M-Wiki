@@ -53,6 +53,9 @@ If you're new to this wiki:
 - [arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16](sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md) — Critical survey of GEO 2023–2026; visibility vector + measurement protocol (2026-07-16 digest)
 - [arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16](sources/arxiv-guntoro-2026-evo2-biosecurity-metagenomic-2607.14070-2026-07-16.md) — overflow: Evo 2 biosecurity metagenomics (K140)
 - [arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16](sources/arxiv-hyatt-2026-sail-membranes-optomechanical-2607.14089-2026-07-16.md) — overflow: optomechanical sail membranes (K140)
+- [arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17](sources/arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17.md) — overflow: Swift BAT-GLIMPSE astrophysics (K141)
+- [arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17](sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md) — overflow: Z′ quantum spin HEP (K141)
+- [arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17](sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md) — overflow: SGM warehouse MAPD; federated briefs (K141)
 
 ### Platform / practitioner news
 

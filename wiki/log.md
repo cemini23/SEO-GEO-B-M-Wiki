@@ -1,11 +1,21 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-16
+updated: 2026-07-17
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-17] ingest | K141 arXiv API false-positive batch (3 OOD)
+
+- **Inbox** — 3 PDFs; **0** in-scope for local SEO/GEO
+- **Overflow** — @sources/arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17.md (Swift BAT astrophysics); @sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md (HEP Z′); @sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md (SGM warehouse MAPD)
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md
+- **Phase-0** — `scripts/adopt_k141_phase0.sh` (all OUT-OF-SCOPE; no local adopt)
+- **Cross-wiki** — game-dev + OSINT briefs for SGM; poker arena delta (stigmergic spot-class ranking)
+- **SEO hands-on / David / tipdrop / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lane 3/3 false positives again; consider query tighten
 
 ## [2026-07-16] ingest | K140 Martinez GEO critical survey + 2 OOD archives (3 arXiv)
 
