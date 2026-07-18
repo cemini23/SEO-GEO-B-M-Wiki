@@ -7,6 +7,16 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-07-18] adopt | local CONDITIONAL-GO clones + E-GEO slim HF
+
+- **E-GEO** — slim HF → `raw-sources/datasets/E-GEO` (~91 MB); skipped `queries_products` + `train_val_full` (≈558 MB)
+- **geo-optimizer-skill** (K134) — `raw-sources/tools/geo-optimizer-skill` (~62 MB, MIT)
+- **wondelai/skills** (K113) — `raw-sources/tools/wondelai-skills` (~8.7 MB, MIT)
+- **Total adopt disk** — ~163 MB (under 500 MB)
+- **Skipped (pending Phase-0)** — taste-skill, social-media-skills, notfair-toprank, goaccess, open-seo
+- **Skipped (over budget / REFERENCE)** — full E-GEO HF corpus; agent-ready (no code)
+- **Updated** — @entities/tools/e-geo.md, @entities/tools/geo-optimizer-skill.md, @entities/tools/wondelai-skills.md, @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md, `scripts/adopt_k142_phase0.sh`
+
 ## [2026-07-18] ingest | K142 E-GEO testbed + agent-ready websites (Brave rescue)
 
 - **Inbox** — overnight empty (3 K141 dupes skipped); Brave rescue fetched 2 in-scope PDFs

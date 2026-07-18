@@ -18,7 +18,7 @@ related:
   - sweeps/2026-06-30-daily.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-07-02
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -46,12 +46,13 @@ Phase-0 from K134 ingest — [Auriti-Labs/geo-optimizer-skill](https://github.co
 |-------|-------|
 | **Repo** | github.com/Auriti-Labs/geo-optimizer-skill |
 | **License** | MIT |
+| **Local clone** | `raw-sources/tools/geo-optimizer-skill` (~62 MB shallow) — **adopted 2026-07-18** |
 | **Category** | GEO/AEO audit CLI — robots.txt, schema, citability scoring, optional live citation probes |
 | **Phase-0 verdict** | **CONDITIONAL-GO** — local CLI audit only; do not treat `geo citations` as ground truth without bootstrap CIs (@concepts/geo-visibility-measurement.md) |
 | **Steal** | 8-category AI-readiness audit; schema/citability modules; MCP hook for Cursor |
 | **Reject module** | **`llms.txt` generation/checks for Google Search** — @sources/google-search-central-2026-ai-optimization-guide.md: not used by Google Search generative features `[CONFIRMED]` |
 | **Compare** | @entities/tools/geo-seo-claude.md (Claude skill, installed); @entities/tools/ranqo.md (SaaS mention tracking REFERENCE) |
-| **Operator install** | `uvx --from geo-optimizer-skill geo audit --url https://yoursite.com` — laptop-only; no GBP write access |
+| **Operator install** | `uvx --from geo-optimizer-skill geo audit --url https://yoursite.com` — laptop-only; no GBP write access. Local tree for offline README/SKILL study. |
 
 Do not bulk-automate GBP posts or review flows through this tool — audit/read-only surfaces only.
 
