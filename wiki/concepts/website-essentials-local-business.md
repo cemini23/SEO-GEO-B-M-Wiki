@@ -28,10 +28,13 @@ related:
   - concepts/llm-reputation-signals-geo.md
   - concepts/canonical-business-facts-geo.md
   - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
+  - concepts/agent-ready-website-local-bm.md
+  - sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md
+  - concepts/e-geo-universal-rewrite-playbook.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-28
+updated: 2026-07-18
 
 ---
 
@@ -56,6 +59,9 @@ updated: 2026-06-28
 - @sources/vishwakarma-2026-competitive-geo-sigir.md — explicit pricing gatekeeper for AI citations
 - @concepts/competitive-geo-citation-factors.md
 - @concepts/llm-reputation-signals-geo.md — price transparency for LLM selection stage
+- @concepts/agent-ready-website-local-bm.md — K142 agent interpretability / executability / decision reliability
+- @sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md — K142 agent-ready paper
+- @concepts/e-geo-universal-rewrite-playbook.md — K142 scannable service-page rewrite pattern
 
 ## Raw Concept
 

@@ -32,15 +32,17 @@ related:
   - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
   - sources/google-search-central-2026-ai-optimization-guide.md
   - sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
+  - concepts/agent-ready-website-local-bm.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-04
+updated: 2026-07-18
 
 ---
 
 ## Relations
 
+- @concepts/agent-ready-website-local-bm.md — K142 hours/NAP must match site for agent decision reliability
 - @concepts/local-seo-foundations.md
 - @concepts/reviews-reputation-management.md
 - @concepts/schema-markup-local.md

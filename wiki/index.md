@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-07-04
+updated: 2026-07-18
 ---
 
 # Wiki Index
@@ -56,6 +56,8 @@ If you're new to this wiki:
 - [arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17](sources/arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17.md) — overflow: Swift BAT-GLIMPSE astrophysics (K141)
 - [arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17](sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md) — overflow: Z′ quantum spin HEP (K141)
 - [arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17](sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md) — overflow: SGM warehouse MAPD; federated briefs (K141)
+- [arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18](sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md) — E-GEO e-commerce GEO testbed; universal rewrite playbook (K142)
+- [arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18](sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md) — agent-ready website framework (K142)
 
 ### Platform / practitioner news
 
@@ -127,6 +129,8 @@ If you're new to this wiki:
 - [evidence-ecosystem-geo](concepts/evidence-ecosystem-geo.md) — EcoGEO/TRACE safe translation: real evidence graph for agentic search
 - [process-verified-agentic-search-geo](concepts/process-verified-agentic-search-geo.md) — DeepSearch entity-hit / failure-recovery process lens for local GEO
 - [geo-visibility-vector-protocol](concepts/geo-visibility-vector-protocol.md) — Martinez visibility vector + reproducible GEO probe protocol
+- [e-geo-universal-rewrite-playbook](concepts/e-geo-universal-rewrite-playbook.md) — E-GEO converged rewrite pattern for service pages (K142)
+- [agent-ready-website-local-bm](concepts/agent-ready-website-local-bm.md) — interpretability / executability / decision reliability for local sites (K142)
 - [canonical-business-facts-geo](concepts/canonical-business-facts-geo.md) — GBP + schema canonical fact KB sync (KARLA 2026 K132)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)
@@ -255,6 +259,7 @@ If you're new to this wiki:
 - [ai-text-humanizer-app](entities/tools/ai-text-humanizer-app.md) — MIT Streamlit academicizer; **NO-GO** for local marketing (smoke-tested 2026-06-06)
 - [deeprubric-code](entities/tools/deeprubric-code.md) — Apache-2.0 deep-research RL rubric pipeline; REFERENCE for wiki ingest QA (K120)
 - [flowbank](entities/tools/flowbank.md) — agentic workflow portfolio optimizer; REFERENCE for conductor routing (K120)
+- [e-geo](entities/tools/e-geo.md) — E-GEO e-commerce GEO testbed + optimized prompts; CONDITIONAL-GO (K142)
 - [wikikv](entities/tools/wikikv.md) — hierarchical path-indexed wiki KV; REFERENCE for federation navigation (K121)
 - [claude-ads](entities/tools/claude-ads.md) — AgriciDaniel paid-media audit skill 250+ checks (Defer — security issues open, K71; K90 feature fit only)
 - [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes

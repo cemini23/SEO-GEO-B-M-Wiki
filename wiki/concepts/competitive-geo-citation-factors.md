@@ -34,15 +34,19 @@ related:
   - sweeps/2026-06-26-daily.md
   - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
   - concepts/geo-visibility-vector-protocol.md
+  - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
+  - concepts/e-geo-universal-rewrite-playbook.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-07-16
+updated: 2026-07-18
 ---
 
 ## Relations
 
 - @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
 - @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
+- @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md — K142 anti-manipulation / factual rewrite boundary
+- @concepts/e-geo-universal-rewrite-playbook.md — K142 universal rewrite (no competitor denigration)
 - @concepts/generative-engine-optimization.md — parent GEO/AEO hub
 - @sources/vishwakarma-2026-competitive-geo-sigir.md — SIGIR '26 empirical source (252k trials)
 - @sources/aggarwal-2024-geo-paper.md — single-source rewrite methods; complementary not contradictory

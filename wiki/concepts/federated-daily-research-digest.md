@@ -101,14 +101,26 @@ related:
   - sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md
   - sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md
   - sweeps/2026-07-17-daily.md
+  - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
+  - sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md
+  - concepts/e-geo-universal-rewrite-playbook.md
+  - concepts/agent-ready-website-local-bm.md
+  - entities/tools/e-geo.md
+  - sweeps/2026-07-18-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-17
+updated: 2026-07-18
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-07-18-daily.md — K142 Brave rescue (overnight empty)
+- @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md — K142 E-GEO
+- @sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md — K142 agent-ready
+- @concepts/e-geo-universal-rewrite-playbook.md — K142
+- @concepts/agent-ready-website-local-bm.md — K142
+- @entities/tools/e-geo.md — K142
 - @sweeps/2026-07-17-daily.md — K141 digest
 - @sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md — K141 digest
 - @sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md — K141 digest

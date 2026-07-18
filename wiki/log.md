@@ -1,11 +1,23 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-17
+updated: 2026-07-18
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-18] ingest | K142 E-GEO testbed + agent-ready websites (Brave rescue)
+
+- **Inbox** — overnight empty (3 K141 dupes skipped); Brave rescue fetched 2 in-scope PDFs
+- **Sources** — @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md; @sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md
+- **New** — @concepts/e-geo-universal-rewrite-playbook.md; @concepts/agent-ready-website-local-bm.md; @entities/tools/e-geo.md
+- **Updated** — @concepts/generative-engine-optimization.md, @concepts/website-essentials-local-business.md, @concepts/geo-visibility-vector-protocol.md, @concepts/agent-first-web-atml-framework.md, @concepts/federated-daily-research-digest.md, @concepts/competitive-geo-citation-factors.md, @concepts/content-strategy-local.md, @concepts/schema-markup-local.md, @concepts/google-business-profile.md, @concepts/canonical-business-facts-geo.md, @sources/aggarwal-2024-geo-paper.md, @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md, @wiki/index.md, @sweeps/2026-07-18-daily.md
+- **Phase-0** — `scripts/adopt_k142_phase0.sh` (E-GEO CONDITIONAL-GO no LICENSE; agent-ready REFERENCE)
+- **Local adopt** — `raw-sources/tools/E-GEO` (~1.4 MB shallow); HF dataset Watch (not pulled)
+- **Briefs (2 hands-on)** — rewrite audit + agent-ready audit (gitignored `briefs/`)
+- **Cross-wiki** — CCC thin steal `Cemini claude code CCC/briefs/2026-07-18_k142-agent-ready-websites-from-seo.md`
+- **Poker / David / tipdrop / prod** — SKIP (no arena / ComfyUI / XSP hook)
 
 ## [2026-07-17] ingest | K141 arXiv API false-positive batch (3 OOD)
 

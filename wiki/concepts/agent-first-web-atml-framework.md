@@ -8,9 +8,11 @@ related:
   - ccc-wiki/sources/arxiv-agent-first-web-redesign-2606.19116.md
   - entities/tools/geo-seo-claude.md
   - concepts/federated-daily-research-digest.md
+  - concepts/agent-ready-website-local-bm.md
+  - sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -19,6 +21,8 @@ updated: 2026-06-19
 - `@ccc-wiki/sources/arxiv-agent-first-web-redesign-2606.19116.md` — arXiv 2606.19116 source
 - `@entities/tools/geo-seo-claude.md` — citability / AI-crawler operator skill
 - `@concepts/federated-daily-research-digest.md` — K119 CCC cross-route from digest lane
+- `@concepts/agent-ready-website-local-bm.md` — K142 executability / decision-reliability checklist
+- `@sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md` — K142 agent-ready paper
 
 ## Raw Concept
 

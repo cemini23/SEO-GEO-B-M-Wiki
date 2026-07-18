@@ -17,14 +17,16 @@ related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-28-daily.md
   - concepts/process-verified-agentic-search-geo.md
+  - concepts/agent-ready-website-local-bm.md
 maturity: validated
 created: 2026-06-28
-updated: 2026-07-15
+updated: 2026-07-18
 ---
 
 ## Relations
 
 - @concepts/process-verified-agentic-search-geo.md — K139 DeepSearch / process-verified GEO
+- @concepts/agent-ready-website-local-bm.md — K142 decision reliability (hours/price freshness)
 
 - @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md — KARLA factual externalization evidence (academic)
 - @concepts/google-business-profile.md — primary listing fact store

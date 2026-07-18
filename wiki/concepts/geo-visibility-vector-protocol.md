@@ -17,9 +17,11 @@ related:
   - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-16-daily.md
+  - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
+  - concepts/e-geo-universal-rewrite-playbook.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -37,6 +39,8 @@ updated: 2026-07-16
 - @sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md - variance and CIs
 - @concepts/federated-daily-research-digest.md - K140
 - @sweeps/2026-07-16-daily.md - overnight fetch
+- @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md - K142 fixed-set rank lift ≈ conditional estimand
+- @concepts/e-geo-universal-rewrite-playbook.md - K142 rewrite before measuring vector deltas
 
 ## Raw Concept
 

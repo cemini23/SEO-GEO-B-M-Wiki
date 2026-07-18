@@ -26,9 +26,11 @@ related:
   - concepts/evidence-ecosystem-geo.md
   - concepts/process-verified-agentic-search-geo.md
   - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
+  - concepts/e-geo-universal-rewrite-playbook.md
+  - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-15
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -36,6 +38,9 @@ updated: 2026-07-15
 - @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md — K139 DeepSearch / process-verified GEO
 
 - @concepts/process-verified-agentic-search-geo.md — K139 DeepSearch / process-verified GEO
+
+- @concepts/e-geo-universal-rewrite-playbook.md — K142 universal rewrite pattern for service pages
+- @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md — K142 E-GEO
 
 - @concepts/website-essentials-local-business.md
 - @concepts/generative-engine-optimization.md

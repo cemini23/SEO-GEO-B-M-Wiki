@@ -18,14 +18,16 @@ related:
   - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-16-daily.md
+  - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
 maturity: validated
 read_status: read
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-18
 ---
 
 ## Relations
 
+- @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md — K142 e-commerce GEO benchmark (conditional rank lift)
 - @concepts/geo-visibility-vector-protocol.md - operator playbook from this survey
 - @concepts/geo-visibility-measurement.md - pairs with Sielinski repeated-sampling discipline
 - @concepts/generative-engine-optimization.md - GEO/AEO hub

@@ -106,13 +106,25 @@ related:
   - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
   - concepts/geo-visibility-vector-protocol.md
   - sweeps/2026-07-16-daily.md
+  - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
+  - concepts/e-geo-universal-rewrite-playbook.md
+  - entities/tools/e-geo.md
+  - sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md
+  - concepts/agent-ready-website-local-bm.md
+  - sweeps/2026-07-18-daily.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-07-16
+updated: 2026-07-18
 ---
 
 ## Relations
 
+- @sweeps/2026-07-18-daily.md — K142 E-GEO + agent-ready
+- @concepts/e-geo-universal-rewrite-playbook.md — K142 universal rewrite pattern
+- @entities/tools/e-geo.md — K142 Phase-0 CONDITIONAL-GO
+- @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md — K142 E-GEO testbed
+- @concepts/agent-ready-website-local-bm.md — K142 agent-ready local sites
+- @sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md — K142 agent-ready paper
 - @sweeps/2026-07-16-daily.md — K140 Martinez GEO survey
 - @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
 - @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
@@ -260,6 +272,12 @@ Safe local analog: coordinate **real** evidence - GBP, owned service/location pa
 ### Critical survey — visibility vector [CONFIRMED as literature synthesis; TENTATIVE local ROI]
 
 @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md (Martinez 2026, arXiv 2607.14035): reviews **45** GEO studies (2023–2026). GEO is a multistage stochastic pipeline; report a **visibility vector** (discoverability, context, citation, prominence, absorption, fidelity, behavior) instead of a single rank. Aggarwal “up to ~40%” is a **conditional-on-context** pawc gain — not organic discoverability or traffic. Topical relevance + context position are the most reproducible levers; generic heuristics transfer poorly; competition erodes gains; commercial audits show low overlap and fidelity gaps. Playbook: @concepts/geo-visibility-vector-protocol.md; hands-on `briefs/2026-07-16_k140-geo-visibility-vector-probe-protocol-hands-on.md`.
+
+### E-GEO universal rewrite + agent-ready sites [TENTATIVE — e-commerce / lab POC]
+
+@sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md (E-GEO, arXiv 2511.20867v2): e-commerce GEO testbed (13,747 queries × 10 listings). Prompt meta-optimization beats hand heuristics; optimized prompts converge on a **universally effective** rewrite pattern (intent-aligned, keyword-rich-but-factual, scannable structure). Metric is rank lift in a fixed candidate set — closer to conditional visibility than organic discovery. Code: @entities/tools/e-geo.md (**CONDITIONAL-GO**, no LICENSE). Playbook: @concepts/e-geo-universal-rewrite-playbook.md; hands-on `briefs/2026-07-18_k142-e-geo-universal-rewrite-audit-hands-on.md`.
+
+@sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md: websites as agent runtimes — interpretability / executability / decision reliability; POC 89.3% vs 49.3% PASS. Playbook: @concepts/agent-ready-website-local-bm.md; hands-on `briefs/2026-07-18_k142-agent-ready-website-audit-hands-on.md`.
 
 ### Process-verified agentic search - entity hits [TENTATIVE - Wikipedia sandbox]
 

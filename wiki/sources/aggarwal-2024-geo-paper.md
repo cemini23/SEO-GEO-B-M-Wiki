@@ -17,14 +17,16 @@ related:
   - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
   - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
   - concepts/geo-visibility-vector-protocol.md
+  - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-07-16
+updated: 2026-07-18
 ---
 
 ## Relations
 
+- @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md — K142 E-GEO moves beyond hand heuristics
 - @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
 - @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey
 - @concepts/generative-engine-optimization.md
