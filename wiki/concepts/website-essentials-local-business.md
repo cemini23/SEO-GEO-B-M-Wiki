@@ -31,11 +31,11 @@ related:
   - concepts/agent-ready-website-local-bm.md
   - sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md
   - concepts/e-geo-universal-rewrite-playbook.md
+  - entities/tools/wondelai-skills.md
 
 maturity: draft
 created: 2026-05-07
 updated: 2026-07-18
-
 ---
 
 ## Relations
@@ -62,6 +62,7 @@ updated: 2026-07-18
 - @concepts/agent-ready-website-local-bm.md — K142 agent interpretability / executability / decision reliability
 - @sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md — K142 agent-ready paper
 - @concepts/e-geo-universal-rewrite-playbook.md — K142 scannable service-page rewrite pattern
+- @entities/tools/wondelai-skills.md — adopted CRO / improve-website skills
 
 ## Raw Concept
 
@@ -105,6 +106,22 @@ Page-builder choice often determines whether these are achievable cheaply:
 - **Custom static site** (Astro, Next, Hugo): fastest possible, requires engineer
 
 The operator's current platform determines which `entities/tools/<platform>.md` page is high-priority. See ROADMAP for the open decision.
+
+### Conversion diagnostic (from adopted wondelai cro-methodology)
+
+Before redesigning, score the booking funnel. Big-5 objections to mine from reviews / GBP / chat: **Trust, Price, Fit, Timing, Effort**. Prefer customer language in headlines over polished marketing copy.
+
+Quick gates (fail any → fix before new GEO content):
+
+1. One primary action (Book / Call) — not competing CTAs
+2. Value prop legible in ~5 seconds on mobile
+3. Price band visible on service pages
+4. Hours + walk-in vs appointment policy in text
+5. Proof near friction (reviews near Book CTA)
+6. Forms labeled; tap-to-call works
+7. Funnel mapped (land → service → book) with no dead ends
+
+Full method: `raw-sources/tools/wondelai-skills/cro-methodology/SKILL.md`. Journey orchestrator: `…/improve-website/SKILL.md`. Agent skill wrapper: `.cursor/skills/adopted-geo-tools/SKILL.md`.
 
 ### Schema markup attachment points
 

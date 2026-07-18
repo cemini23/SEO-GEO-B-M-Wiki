@@ -7,6 +7,13 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-07-18] adopt | raise budget to 750MB + wire tools into use
+
+- **Budget** — raised adopt cap **500 → 750 MB** for full E-GEO HF `data/` (~624 MB); total adopts ~696 MB
+- **Wired** — `scripts/e_geo_rewrite_service_page.py` (used: competitive-style sample rewrite); `scripts/run_geo_audit.sh` (used: smoke audit of Google AI docs → `briefs/2026-07-18_geo-optimizer-audit.txt`); wondelai CRO Big-5 → @concepts/website-essentials-local-business.md; Cursor skill `.cursor/skills/adopted-geo-tools/SKILL.md`
+- **Operator blockers** — fill @entities/companies/shop-1.md website URL for a real GEO audit; optional `npx skills add wondelai/skills/cro-methodology --global`
+- **Updated** — entity pages e-geo / geo-optimizer / wondelai; @concepts/e-geo-universal-rewrite-playbook.md; `scripts/adopt_k142_phase0.sh`
+
 ## [2026-07-18] adopt | local CONDITIONAL-GO clones + E-GEO slim HF
 
 - **E-GEO** — slim HF → `raw-sources/datasets/E-GEO` (~91 MB); skipped `queries_products` + `train_val_full` (≈558 MB)

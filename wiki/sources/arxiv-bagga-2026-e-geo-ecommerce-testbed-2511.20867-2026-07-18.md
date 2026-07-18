@@ -66,7 +66,7 @@ First large-scale **e-commerce GEO** benchmark: **13,747** multi-sentence consum
 
 For barbershop/service pages: rewrite service/location copy toward the converged playbook (structured sections, intent-matched language, factual claims) — do not inject “rank me first” or fake awards. Pair with @concepts/geo-visibility-vector-protocol.md estimands (this paper measures **rank in a fixed candidate set**, closer to conditional visibility than organic Ds).
 
-**Phase-0:** Code repo **CONDITIONAL-GO** (cloned locally, ~1.4 MB; no SPDX LICENSE). Slim HF dataset **adopted** (~91 MB: test/train splits + rankings + best_prompts; full corpus Watch — exceeds 500 MB). Hands-on: `briefs/2026-07-18_k142-e-geo-universal-rewrite-audit-hands-on.md`.
+**Phase-0:** Code repo **CONDITIONAL-GO** (cloned locally, ~1.4 MB; no SPDX LICENSE). Full HF `data/` **adopted** (~624 MB; budget raised to 750 MB). Helper: `scripts/e_geo_rewrite_service_page.py`. Hands-on: `briefs/2026-07-18_k142-e-geo-universal-rewrite-audit-hands-on.md`.
 
 ## Snippets
 

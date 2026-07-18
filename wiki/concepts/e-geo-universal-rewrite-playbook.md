@@ -47,6 +47,21 @@ Apply to **service / location / FAQ** pages (not GBP spam posts):
 | Outcomes | Real use cases (first fade, beard trim before interview) | Fake testimonials |
 | Facts | Hours, price bands, services you actually offer | Invented awards / competitor attacks |
 
+### How to run the adopted prompts (agent + operator)
+
+Local clone ships 15 optimized styles. Helper builds a paste-ready prompt with a local-B&M adapter (no engine-gaming, no invented facts):
+
+```bash
+python3 scripts/e_geo_rewrite_service_page.py --list
+python3 scripts/e_geo_rewrite_service_page.py --style competitive --file path/to/service-page.txt
+```
+
+Recommended styles for service/location pages: **`competitive`**, **`FAQ`**, **`authoritative`**, **`format`**.
+
+Worked sample: `briefs/2026-07-18_e-geo-worked-rewrite-sample.md`. Cursor skill: `.cursor/skills/adopted-geo-tools/SKILL.md`.
+
+Full HF corpus (for research / leaderboard study): `raw-sources/datasets/E-GEO` (~624 MB `data/`).
+
 ### Measurement note
 
 E-GEO scores **rank lift inside a fixed 10-product set**. That is closer to Martinez **conditional** visibility than organic discovery. For local GEO, pair rewrites with a visibility-vector protocol (engines × query classes × estimands) — see @concepts/geo-visibility-vector-protocol.md.
@@ -58,3 +73,5 @@ In-prompt defenses flag overt adversarial rewrites. Durable gains need **genuine
 ## Snippets
 
 Hands-on audit checklist: `briefs/2026-07-18_k142-e-geo-universal-rewrite-audit-hands-on.md` (gitignored staging).
+Worked rewrite: `briefs/2026-07-18_e-geo-worked-rewrite-sample.md`.
+Helper: `scripts/e_geo_rewrite_service_page.py`.

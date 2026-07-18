@@ -52,9 +52,13 @@ Phase-0 from K134 ingest — [Auriti-Labs/geo-optimizer-skill](https://github.co
 | **Steal** | 8-category AI-readiness audit; schema/citability modules; MCP hook for Cursor |
 | **Reject module** | **`llms.txt` generation/checks for Google Search** — @sources/google-search-central-2026-ai-optimization-guide.md: not used by Google Search generative features `[CONFIRMED]` |
 | **Compare** | @entities/tools/geo-seo-claude.md (Claude skill, installed); @entities/tools/ranqo.md (SaaS mention tracking REFERENCE) |
-| **Operator install** | `uvx --from geo-optimizer-skill geo audit --url https://yoursite.com` — laptop-only; no GBP write access. Local tree for offline README/SKILL study. |
+| **Operator install** | `bash scripts/run_geo_audit.sh https://YOUR-SHOP` (wraps local clone / `uvx`) |
+| **Agent use** | Run the script when a shop URL exists; file output under `briefs/`; ignore llms.txt-for-Google advice |
+| **Operator blocker** | Shop website URL still blank on @entities/companies/shop-1.md — **you need to fill NAP + website** before a real audit |
 
 Do not bulk-automate GBP posts or review flows through this tool — audit/read-only surfaces only.
+
+Smoke audit (tool verify, not shop): `briefs/2026-07-18_geo-optimizer-audit.txt` against Google Search Central AI docs (score 45/100 foundation — demo only).
 
 ## Snippets
 
