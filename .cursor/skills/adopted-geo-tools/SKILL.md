@@ -1,46 +1,77 @@
 ---
 name: adopted-geo-tools
 description: >-
-  Use locally adopted GEO/website tools in this wiki (E-GEO rewrite prompts,
-  geo-optimizer CLI, wondelai CRO skills). Trigger when rewriting service pages
-  for AI citation, auditing a site for GEO/AEO readiness, or diagnosing why a
-  local-business site does not convert / book.
+  Use Cemini-adopted GEO/website tools (E-GEO rewrite prompts, geo-optimizer CLI,
+  wondelai CRO skills) owned by the SEO/GEO wiki. Trigger from ANY Cursor workspace
+  when rewriting local-business service pages for AI citation, auditing a site for
+  GEO/AEO readiness, diagnosing why a brick-and-mortar site does not convert/book,
+  or the user mentions E-GEO / geo-optimizer / wondelai CRO.
 ---
 
-# Adopted GEO / website tools (SEO wiki)
+# Adopted GEO / website tools (federation)
 
-Local trees live under `raw-sources/` (gitignored). Prefer these over inventing parallel workflows.
+Canon + on-disk clones live in the **SEO/GEO wiki**. This skill is synced to
+`~/.cursor/skills/` and all Cemini Cursor workspaces via CCC
+`scripts/sync_federation_cursor_skills.sh` — use it from any open folder.
+
+```bash
+SEO_ROOT="/Users/claudiobarone/Projects/SEO:GEO B&M Business"
+```
+
+Always `cd "$SEO_ROOT"` (or pass absolute paths) before running helpers — do not
+assume the current workspace root is the SEO wiki.
 
 ## E-GEO service-page rewrite
 
-1. Build the prompt from adopted optimized styles:
-   ```bash
-   python3 scripts/e_geo_rewrite_service_page.py --list
-   python3 scripts/e_geo_rewrite_service_page.py --style competitive --file path/to/copy.md
-   ```
-2. Run the printed prompt in this session (or paste to Claude) with **only factual** shop copy.
-3. Record before/after under `briefs/` and measure with `@wiki/concepts/geo-visibility-vector-protocol.md`.
+```bash
+cd "$SEO_ROOT"
+python3 scripts/e_geo_rewrite_service_page.py --list
+python3 scripts/e_geo_rewrite_service_page.py --style competitive --file path/to/copy.md
+```
+
+1. Run the printed prompt in-session with **only factual** shop copy.
+2. Stage before/after under `"$SEO_ROOT/briefs/"`.
+3. Measure with `@seo-wiki/concepts/geo-visibility-vector-protocol.md` (or open that file under `$SEO_ROOT/wiki/…`).
 
 Recommended styles: `competitive`, `FAQ`, `authoritative`, `format`.
+
+Prompts on disk: `$SEO_ROOT/raw-sources/tools/E-GEO/src/optimized_prompts.json`
 
 ## geo-optimizer-skill audit
 
 ```bash
+cd "$SEO_ROOT"
 bash scripts/run_geo_audit.sh https://THE-SHOP-SITE
 ```
 
-- Needs a real shop URL — fill `@wiki/entities/companies/shop-1.md` first if blank.
-- Treat citation scores as **directional**; do not claim wins without bootstrap CIs.
+- Needs a real shop URL — fill `$SEO_ROOT/wiki/entities/companies/shop-1.md` if blank.
+- Citation scores are **directional**; pair with bootstrap CIs (geo-visibility-measurement).
 - **Ignore** `/llms.txt` recommendations for Google Search (first-party mythbust).
+
+Local clone: `$SEO_ROOT/raw-sources/tools/geo-optimizer-skill`
 
 ## wondelai CRO / website journeys
 
 Read from disk (do not re-invent):
 
-- `raw-sources/tools/wondelai-skills/cro-methodology/SKILL.md`
-- `raw-sources/tools/wondelai-skills/improve-website/SKILL.md`
-- `raw-sources/tools/wondelai-skills/ux-heuristics/SKILL.md`
+- `$SEO_ROOT/raw-sources/tools/wondelai-skills/cro-methodology/SKILL.md`
+- `$SEO_ROOT/raw-sources/tools/wondelai-skills/improve-website/SKILL.md`
+- `$SEO_ROOT/raw-sources/tools/wondelai-skills/ux-heuristics/SKILL.md`
 
 Big-5 objections for local B&M: Trust, Price, Fit, Timing, Effort — mine reviews/GBP for voice-of-customer language.
 
-Operator may also install globally: `npx skills add wondelai/skills/cro-methodology --global` (and sibling slugs as needed).
+### Operator (optional Claude Code plugin install)
+
+```bash
+npx skills add wondelai/skills/cro-methodology --global
+npx skills add wondelai/skills/improve-website --global
+npx skills add wondelai/skills/ux-heuristics --global
+```
+
+Agents can read the local clones without that install.
+
+## Re-deploy this skill after edits
+
+```bash
+bash "/Users/claudiobarone/Projects/Cemini claude code CCC/scripts/sync_federation_cursor_skills.sh"
+```

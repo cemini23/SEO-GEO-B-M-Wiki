@@ -7,6 +7,12 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-07-18] cursor | federate adopted-geo-tools skill
+
+- **Canon** — `.cursor/skills/adopted-geo-tools/SKILL.md` (absolute `SEO_ROOT` so it works from any workspace)
+- **Sync** — CCC `scripts/sync_federation_cursor_skills.sh` now includes `DOMAIN_SKILL_DIRS` → user-global + 20 workspaces (tipdrop, OSINT, gambling, CeminiSuite, …)
+- **Operator** — re-run sync after editing this skill; no per-repo hand copies
+
 ## [2026-07-18] adopt | raise budget to 750MB + wire tools into use
 
 - **Budget** — raised adopt cap **500 → 750 MB** for full E-GEO HF `data/` (~624 MB); total adopts ~696 MB
