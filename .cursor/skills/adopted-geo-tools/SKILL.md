@@ -6,6 +6,9 @@ description: >-
   when rewriting local-business service pages for AI citation, auditing a site for
   GEO/AEO readiness, diagnosing why a brick-and-mortar site does not convert/book,
   or the user mentions E-GEO / geo-optimizer / wondelai CRO.
+license: MIT
+metadata.author: cemini23
+metadata.version: "1.0.0"
 ---
 
 # Adopted GEO / website tools (federation)
