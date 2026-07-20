@@ -107,14 +107,22 @@ related:
   - concepts/agent-ready-website-local-bm.md
   - entities/tools/e-geo.md
   - sweeps/2026-07-18-daily.md
+  - sources/arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20.md
+  - sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md
+  - sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md
+  - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-18
+updated: 2026-07-20
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-07-20-daily.md — K143 digest (3/3 arXiv API false positives)
+- @sources/arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20.md — K143 overflow
+- @sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md — K143 overflow
+- @sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md — K143 overflow
 - @sweeps/2026-07-18-daily.md — K142 Brave rescue (overnight empty)
 - @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md — K142 E-GEO
 - @sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md — K142 agent-ready

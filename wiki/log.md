@@ -1,11 +1,21 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-18
+updated: 2026-07-20
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-20] ingest | K143 arXiv API false-positive batch (3 OOD)
+
+- **Inbox** — 3 PDFs; **0** in-scope for local SEO/GEO
+- **Overflow** — @sources/arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20.md (AppWorld merge vs joint RL); @sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md (CGW/QECC); @sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md (memoryless best-choice)
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-07-20-daily.md
+- **Phase-0** — `scripts/adopt_k143_phase0.sh` (all OUT-OF-SCOPE; no SEO local adopt — maml-agent/appworld-rl OOD + GPU/vLLM)
+- **Cross-wiki** — OSINT + CCC (model merging); cybersecurity (CGW→QECC); poker arena + Gambling (memoryless threshold)
+- **SEO hands-on / David / tipdrop / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lane 3/3 false positives again (same as K141)
 
 ## [2026-07-18] cursor | federate adopted-geo-tools skill
 

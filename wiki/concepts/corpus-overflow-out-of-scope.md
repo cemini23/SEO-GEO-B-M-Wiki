@@ -15,13 +15,21 @@ related:
   - sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md
   - sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md
   - sweeps/2026-07-17-daily.md
+  - sources/arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20.md
+  - sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md
+  - sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md
+  - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-17
+updated: 2026-07-20
 ---
 
 ## Relations
 
+- @sweeps/2026-07-20-daily.md — K143 arXiv API false positive
+- @sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md — K143 math.PR best-choice
+- @sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md — K143 math.CO / QECC
+- @sources/arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20.md — K143 agent RL model merging
 - @sweeps/2026-07-17-daily.md — K141 arXiv API false positive
 - @sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md — K141 arXiv API false positive
 - @sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md — K141 arXiv API false positive
@@ -49,7 +57,7 @@ A source lands here if it was dropped into the ingest queue, a stub was created 
 
 Deleting the stub loses the record that the file was already triaged-and-rejected, risking duplicate effort on the next sweep. Keeping it under this hub is the "we looked, we passed" marker.
 
-### Current contents (updated 2026-07-17)
+### Current contents (updated 2026-07-20)
 
 | Stub | Topic | Why out-of-scope |
 |---|---|---|
@@ -61,6 +69,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-ronchini-2026-swift-bat-glimpse-2607.15130-2026-07-17.md | Swift BAT-GLIMPSE γ-ray localization (arXiv 2607.15130) | Astrophysics false positive (K141) |
 | @sources/arxiv-sankar-2026-quantum-spin-zprime-ttbar-2607.15153-2026-07-17.md | Z′ quantum spin tt̄ (arXiv 2607.15153) | HEP false positive (K141) |
 | @sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md | Stigmergic Graph Memory MAPD (arXiv 2607.15182) | Warehouse robotics; routed game-dev/OSINT/poker (K141) |
+| @sources/arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20.md | Model merging vs joint multi-task RL (arXiv 2607.16062) | AppWorld agent RL; routed OSINT + CCC (K143) |
+| @sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md | Complex generalised weighing matrices (arXiv 2607.16069) | math.CO / QECC; routed cyber (K143) |
+| @sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md | Memoryless best-choice problem (arXiv 2607.16145) | math.PR optimal stopping; routed poker + gambling (K143) |
 
 ## Snippets
 

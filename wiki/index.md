@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-07-18
+updated: 2026-07-20
 ---
 
 # Wiki Index
@@ -58,6 +58,9 @@ If you're new to this wiki:
 - [arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17](sources/arxiv-dutta-2026-stigmergic-graph-memory-mapd-2607.15182-2026-07-17.md) — overflow: SGM warehouse MAPD; federated briefs (K141)
 - [arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18](sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md) — E-GEO e-commerce GEO testbed; universal rewrite playbook (K142)
 - [arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18](sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md) — agent-ready website framework (K142)
+- [arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20](sources/arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20.md) — overflow: model merging vs joint RL (K143)
+- [arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20](sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md) — overflow: CGW / QECC math (K143)
+- [arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20](sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md) — overflow: memoryless best-choice; poker/gambling briefs (K143)
 
 ### Platform / practitioner news
 
