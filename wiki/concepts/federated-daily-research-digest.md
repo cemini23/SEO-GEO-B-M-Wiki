@@ -111,14 +111,22 @@ related:
   - sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md
   - sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md
   - sweeps/2026-07-20-daily.md
+  - sources/arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22.md
+  - sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md
+  - sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md
+  - sweeps/2026-07-22-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-20
+updated: 2026-07-22
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-07-22-daily.md — K144 digest (3/3 arXiv API false positives)
+- @sources/arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22.md — K144 overflow
+- @sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md — K144 overflow
+- @sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md — K144 overflow
 - @sweeps/2026-07-20-daily.md — K143 digest (3/3 arXiv API false positives)
 - @sources/arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20.md — K143 overflow
 - @sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md — K143 overflow

@@ -19,13 +19,21 @@ related:
   - sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md
   - sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md
   - sweeps/2026-07-20-daily.md
+  - sources/arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22.md
+  - sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md
+  - sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md
+  - sweeps/2026-07-22-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-20
+updated: 2026-07-22
 ---
 
 ## Relations
 
+- @sweeps/2026-07-22-daily.md — K144 arXiv API false positive
+- @sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md — K144 MaLoRA/MaRA
+- @sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md — K144 hep-ex dark matter
+- @sources/arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22.md — K144 ERank vision
 - @sweeps/2026-07-20-daily.md — K143 arXiv API false positive
 - @sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md — K143 math.PR best-choice
 - @sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md — K143 math.CO / QECC
@@ -57,7 +65,7 @@ A source lands here if it was dropped into the ingest queue, a stub was created 
 
 Deleting the stub loses the record that the file was already triaged-and-rejected, risking duplicate effort on the next sweep. Keeping it under this hub is the "we looked, we passed" marker.
 
-### Current contents (updated 2026-07-20)
+### Current contents (updated 2026-07-22)
 
 | Stub | Topic | Why out-of-scope |
 |---|---|---|
@@ -72,6 +80,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20.md | Model merging vs joint multi-task RL (arXiv 2607.16062) | AppWorld agent RL; routed OSINT + CCC (K143) |
 | @sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md | Complex generalised weighing matrices (arXiv 2607.16069) | math.CO / QECC; routed cyber (K143) |
 | @sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md | Memoryless best-choice problem (arXiv 2607.16145) | math.PR optimal stopping; routed poker + gambling (K143) |
+| @sources/arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22.md | ERank latent image richness (arXiv 2607.19315) | Vision data-selection; routed Image Gen + TipDrop (K144) |
+| @sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md | Dark matter 13 meV MKID (arXiv 2607.19319) | hep-ex false positive (K144) |
+| @sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md | MaLoRA/MaRA state-space adapters (arXiv 2607.19326) | PEFT/retrieval; routed OSINT/CCC/poker (K144) |
 
 ## Snippets
 

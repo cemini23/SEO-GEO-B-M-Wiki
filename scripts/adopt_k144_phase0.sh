@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# K144 Phase-0 - SEO daily digest (3 arXiv API false positives)
+set -euo pipefail
+
+echo "K144 Phase-0 audits (SEO wiki)"
+echo "=============================="
+echo ""
+echo "Inbox: 3 PDFs (2026-07-22 sweep) — ALL out of local-SEO/GEO remit"
+echo ""
+echo "Verdicts (2026-07-22):"
+echo "  arXiv 2607.19315 ERank latent image richness"
+echo "      OUT-OF-SCOPE vision / data-selection; no code;"
+echo "      → Image Gen + TipDrop/David briefs (richness pruning)"
+echo "  arXiv 2607.19319 Dark matter 13 meV MKID array"
+echo "      OUT-OF-SCOPE hep-ex; no code; overflow only (no federation)"
+echo "  arXiv 2607.19326 MaLoRA/MaRA selective state-space adapters"
+echo "      OUT-OF-SCOPE PEFT/retrieval; no code;"
+echo "      → OSINT + CCC + poker thin; prod SKIP (no installable artifact)"
+echo ""
+echo "SEO pages: overflow stubs only (no new GEO concept)"
+echo "Hands-on SEO brief: SKIP"
+echo "Local adopt: SKIP (0 repos; under 500MB by doing nothing)"
+echo "David / tipdrop: ERank brief only"
+echo "Prod scp: SKIP"
+echo "Digest hygiene: geo-aeo arXiv API lane 3/3 false positives (K141/K143/K144)"

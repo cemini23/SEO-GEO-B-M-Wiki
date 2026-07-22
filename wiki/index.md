@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-07-20
+updated: 2026-07-22
 ---
 
 # Wiki Index
@@ -61,6 +61,9 @@ If you're new to this wiki:
 - [arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20](sources/arxiv-mcclendon-2026-model-merging-joint-rl-2607.16062-2026-07-20.md) — overflow: model merging vs joint RL (K143)
 - [arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20](sources/arxiv-egan-2026-complex-generalised-weighing-matrices-2607.16069-2026-07-20.md) — overflow: CGW / QECC math (K143)
 - [arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20](sources/arxiv-gnedin-2026-memoryless-best-choice-2607.16145-2026-07-20.md) — overflow: memoryless best-choice; poker/gambling briefs (K143)
+- [arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22](sources/arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22.md) — overflow: ERank image richness; Image Gen + TipDrop (K144)
+- [arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22](sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md) — overflow: dark matter MKID hep-ex (K144)
+- [arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22](sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md) — overflow: MaLoRA/MaRA adapters; OSINT/CCC/poker (K144)
 
 ### Platform / practitioner news
 

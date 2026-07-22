@@ -1,11 +1,21 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-20
+updated: 2026-07-22
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-22] ingest | K144 arXiv API false-positive batch (3 OOD)
+
+- **Inbox** — 3 PDFs; **0** in-scope for local SEO/GEO
+- **Overflow** — @sources/arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22.md (ERank vision); @sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md (hep-ex); @sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md (MaLoRA/MaRA)
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-07-22-daily.md
+- **Phase-0** — `scripts/adopt_k144_phase0.sh` (all OUT-OF-SCOPE; no code; no SEO local adopt)
+- **Cross-wiki** — Image Gen + TipDrop/David (ERank); OSINT + CCC + poker (MaLoRA/MaRA); dark matter overflow-only
+- **SEO hands-on / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lane 3/3 false positives again (K141/K143/K144)
 
 ## [2026-07-20] ingest | K143 arXiv API false-positive batch (3 OOD)
 
