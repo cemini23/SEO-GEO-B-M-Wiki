@@ -149,6 +149,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 | 2026-05-11 | Extracted `wiki-template/` skeleton + anchored parent `.gitignore` dropzone patterns | First reusable cross-domain artifact: 24 files (CLAUDE.md/README.md/ROADMAP.md/LESSONS.md/SETUP.md + .env.example + claude_desktop_config.json.example + 5 scripts + github-repo-eval prompt + wiki/index.md + wiki/log.md + 9 .gitkeep). Domain-specific bits parameterized with `{{PLACEHOLDER}}` plus inline comment blocks showing example fills from sister wikis. Parent `.gitignore` `briefs/`/`raw-sources/`/`research to be indexed/` patterns anchored to root so template `.gitkeep` files survive clone. `wiki_lint.py` passes clean against the template. Unblocks future domain wikis — fork, run through `SETUP.md`, start ingesting. |
 | 2026-07-20 | K143 ingest: 3/3 arXiv API false positives → overflow + federated briefs | Model-merging RL, CGW/QECC, memoryless best-choice archived; Phase-0 no SEO adopt; briefs to OSINT/CCC/cyber/poker/gambling; tipdrop+prod SKIP |
 | 2026-07-22 | K144 ingest: 3/3 arXiv API false positives → overflow + TipDrop/poker briefs | ERank→Image Gen+David; dark matter overflow-only; MaLoRA/MaRA→OSINT/CCC/poker; no local adopt; prod SKIP |
+| 2026-07-23 | K145 ingest: 3/3 arXiv API false positives → overflow + cyber brief | Gabidulin/RQC→cyber; smell+TQFT overflow-only; no local adopt; tipdrop/poker/prod SKIP |
 
 ---
 

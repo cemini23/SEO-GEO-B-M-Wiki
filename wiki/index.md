@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 # Wiki Index
@@ -64,6 +64,9 @@ If you're new to this wiki:
 - [arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22](sources/arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22.md) — overflow: ERank image richness; Image Gen + TipDrop (K144)
 - [arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22](sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md) — overflow: dark matter MKID hep-ex (K144)
 - [arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22](sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md) — overflow: MaLoRA/MaRA adapters; OSINT/CCC/poker (K144)
+- [arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23](sources/arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23.md) — overflow: Gabidulin/RQC constant-time decode; cyber (K145)
+- [arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23](sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md) — overflow: stereo olfaction neuroscience (K145)
+- [arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23](sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md) — overflow: 3d TQFT Argyres–Douglas (K145)
 
 ### Platform / practitioner news
 

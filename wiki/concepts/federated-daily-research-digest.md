@@ -115,14 +115,22 @@ related:
   - sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md
   - sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md
   - sweeps/2026-07-22-daily.md
+  - sources/arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23.md
+  - sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md
+  - sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md
+  - sweeps/2026-07-23-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-22
+updated: 2026-07-23
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-07-23-daily.md — K145 digest (3/3 arXiv API false positives)
+- @sources/arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23.md — K145 overflow
+- @sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md — K145 overflow
+- @sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md — K145 overflow
 - @sweeps/2026-07-22-daily.md — K144 digest (3/3 arXiv API false positives)
 - @sources/arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22.md — K144 overflow
 - @sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md — K144 overflow

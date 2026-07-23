@@ -23,13 +23,21 @@ related:
   - sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md
   - sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md
   - sweeps/2026-07-22-daily.md
+  - sources/arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23.md
+  - sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md
+  - sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md
+  - sweeps/2026-07-23-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations
 
+- @sweeps/2026-07-23-daily.md — K145 arXiv API false positive
+- @sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md — K145 hep-th TQFT
+- @sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md — K145 neuroscience
+- @sources/arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23.md — K145 Gabidulin/RQC crypto
 - @sweeps/2026-07-22-daily.md — K144 arXiv API false positive
 - @sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md — K144 MaLoRA/MaRA
 - @sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md — K144 hep-ex dark matter
@@ -65,7 +73,7 @@ A source lands here if it was dropped into the ingest queue, a stub was created 
 
 Deleting the stub loses the record that the file was already triaged-and-rejected, risking duplicate effort on the next sweep. Keeping it under this hub is the "we looked, we passed" marker.
 
-### Current contents (updated 2026-07-22)
+### Current contents (updated 2026-07-23)
 
 | Stub | Topic | Why out-of-scope |
 |---|---|---|
@@ -83,6 +91,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-smirnov-2026-erank-latent-image-richness-2607.19315-2026-07-22.md | ERank latent image richness (arXiv 2607.19315) | Vision data-selection; routed Image Gen + TipDrop (K144) |
 | @sources/arxiv-albert-2026-dark-matter-13mev-mkid-2607.19319-2026-07-22.md | Dark matter 13 meV MKID (arXiv 2607.19319) | hep-ex false positive (K144) |
 | @sources/arxiv-dokme-2026-malora-mara-state-space-adapters-2607.19326-2026-07-22.md | MaLoRA/MaRA state-space adapters (arXiv 2607.19326) | PEFT/retrieval; routed OSINT/CCC/poker (K144) |
+| @sources/arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23.md | Gabidulin constant-time RQC (arXiv 2607.20305) | Post-quantum crypto; routed cyber (K145) |
+| @sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md | When to smell in stereo (arXiv 2607.20307) | Neuroscience false positive (K145) |
+| @sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md | 3d TQFTs Argyres–Douglas (arXiv 2607.20308) | hep-th false positive (K145) |
 
 ## Snippets
 

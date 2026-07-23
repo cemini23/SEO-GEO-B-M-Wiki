@@ -1,11 +1,21 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-22
+updated: 2026-07-23
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-23] ingest | K145 arXiv API false-positive batch (3 OOD)
+
+- **Inbox** — 3 PDFs; **0** in-scope for local SEO/GEO
+- **Overflow** — @sources/arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23.md (Gabidulin/RQC); @sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md (olfaction); @sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md (hep-th TQFT)
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-07-23-daily.md
+- **Phase-0** — `scripts/adopt_k145_phase0.sh` (all OUT-OF-SCOPE; no public Gabidulin repo; no SEO local adopt)
+- **Cross-wiki** — cybersecurity (Gabidulin constant-time RQC); smell + TQFT overflow-only
+- **SEO hands-on / David / tipdrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lane still 3/3 false positives (K141–K145)
 
 ## [2026-07-22] ingest | K144 arXiv API false-positive batch (3 OOD)
 
