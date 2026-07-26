@@ -119,14 +119,22 @@ related:
   - sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md
   - sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md
   - sweeps/2026-07-23-daily.md
+  - sources/arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26.md
+  - sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md
+  - sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md
+  - sweeps/2026-07-26-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-23
+updated: 2026-07-26
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-07-26-daily.md — K146 digest (3/3 arXiv API false positives; backlog from 2026-07-24)
+- @sources/arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26.md — K146 overflow
+- @sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md — K146 overflow
+- @sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md — K146 overflow
 - @sweeps/2026-07-23-daily.md — K145 digest (3/3 arXiv API false positives)
 - @sources/arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23.md — K145 overflow
 - @sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md — K145 overflow

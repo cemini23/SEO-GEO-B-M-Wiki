@@ -27,13 +27,21 @@ related:
   - sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md
   - sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md
   - sweeps/2026-07-23-daily.md
+  - sources/arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26.md
+  - sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md
+  - sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md
+  - sweeps/2026-07-26-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-23
+updated: 2026-07-26
 ---
 
 ## Relations
 
+- @sweeps/2026-07-26-daily.md — K146 arXiv API false-positive backlog
+- @sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md — K146 robot factor bias
+- @sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md — K146 sequential EQA memory
+- @sources/arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26.md — K146 BEAP neutron
 - @sweeps/2026-07-23-daily.md — K145 arXiv API false positive
 - @sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md — K145 hep-th TQFT
 - @sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md — K145 neuroscience
@@ -73,7 +81,7 @@ A source lands here if it was dropped into the ingest queue, a stub was created 
 
 Deleting the stub loses the record that the file was already triaged-and-rejected, risking duplicate effort on the next sweep. Keeping it under this hub is the "we looked, we passed" marker.
 
-### Current contents (updated 2026-07-23)
+### Current contents (updated 2026-07-26)
 
 | Stub | Topic | Why out-of-scope |
 |---|---|---|
@@ -94,6 +102,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23.md | Gabidulin constant-time RQC (arXiv 2607.20305) | Post-quantum crypto; routed cyber (K145) |
 | @sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md | When to smell in stereo (arXiv 2607.20307) | Neuroscience false positive (K145) |
 | @sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md | 3d TQFTs Argyres–Douglas (arXiv 2607.20308) | hep-th false positive (K145) |
+| @sources/arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26.md | BEAP neutron source ID (arXiv 2607.21543) | Nuclear sensing; routed cyber (K146) |
+| @sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md | Sequential EQA memory (arXiv 2607.21571) | Embodied AI; routed OSINT/CCC/poker (K146) |
+| @sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md | Bias-aware compositional robot data (arXiv 2607.21582) | Robot factor bias; routed TipDrop + Image Gen (K146) |
 
 ## Snippets
 

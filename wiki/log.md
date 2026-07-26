@@ -1,11 +1,21 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-23
+updated: 2026-07-26
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-26] ingest | K146 arXiv API false-positive backlog (3 OOD from 2026-07-24)
+
+- **Inbox** — 3 PDFs sitting since 2026-07-24 (also noted on 2026-07-25/26); **0** in-scope for local SEO/GEO
+- **Overflow** — @sources/arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26.md (BEAP neutron); @sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md (sequential EQA memory); @sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md (factor-bias robot data)
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-07-24-daily.md, @sweeps/2026-07-25-daily.md, @sweeps/2026-07-26-daily.md
+- **Phase-0** — `scripts/adopt_k146_phase0.sh` (all OUT-OF-SCOPE; EQA GitHub URL truncated; no SEO local adopt)
+- **Cross-wiki** — cyber (BEAP); OSINT + CCC + poker (EQA memory); TipDrop/David + Image Gen (factor bias)
+- **SEO hands-on / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lane still noisy (K141–K146)
 
 ## [2026-07-23] ingest | K145 arXiv API false-positive batch (3 OOD)
 

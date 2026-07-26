@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-07-23
+updated: 2026-07-26
 ---
 
 # Wiki Index
@@ -67,6 +67,9 @@ If you're new to this wiki:
 - [arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23](sources/arxiv-aragon-2026-gabidulin-constant-time-rqc-2607.20305-2026-07-23.md) — overflow: Gabidulin/RQC constant-time decode; cyber (K145)
 - [arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23](sources/arxiv-tootoonian-2026-smell-in-stereo-2607.20307-2026-07-23.md) — overflow: stereo olfaction neuroscience (K145)
 - [arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23](sources/arxiv-closset-2026-tqft-argyres-douglas-2607.20308-2026-07-23.md) — overflow: 3d TQFT Argyres–Douglas (K145)
+- [arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26](sources/arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26.md) — overflow: BEAP neutron source ID; cyber (K146)
+- [arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26](sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md) — overflow: sequential EQA memory; OSINT/CCC/poker (K146)
+- [arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26](sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md) — overflow: factor-bias robot data; TipDrop + Image Gen (K146)
 
 ### Platform / practitioner news
 
