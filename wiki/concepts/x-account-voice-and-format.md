@@ -6,7 +6,10 @@ keywords: [x-articles, prose, authentic voice, cyrilXBT, formatting, docx ingest
 related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
+  - concepts/x-article-cxw-geo-th-postmortem-notes.md
+  - concepts/x-article-uw-polymarket-bridge-notes.md
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
+  - concepts/guruwatcher-outlier-x-article-notes.md
   - concepts/world-cup-bot-x-article-runbook-notes.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - entities/platforms/youtube.md
@@ -37,14 +40,17 @@ related:
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-18
+updated: 2026-07-27
 ---
 
 ## Relations
 
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — toolkit launch thread (Article-adjacent distribution)
 - @concepts/x-article-3-notes.md — Article #3 queue; style pass updates both pages
+- @concepts/x-article-cxw-geo-th-postmortem-notes.md — Jul 8 CXW/GEO/TH postmortem Article (after Jul 6 vindication)
+- @concepts/x-article-uw-polymarket-bridge-notes.md — Jul 17 UW API → Polymarket policy/politics bridge Article
 - @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — Issue 3 / World Cup Bot launch queue
+- @concepts/guruwatcher-outlier-x-article-notes.md — GuruWatcher Outlier + X Article queue (2026-07-27)
 - @entities/platforms/youtube.md — @Cemini23 video lane (Shorts + long-form)
 - @entities/platforms/twitter-x.md — platform algorithm + engagement signals
 - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md — K78 includes @cyrilXBT Obsidian contribution-rate article
@@ -87,9 +93,13 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 |---|--------|--------|
 | 1 | Why local wiki beats restarting Claude from zero | Live |
 | 2 | Normal day in the local wiki workflow | Live |
-| 3 | Git wiki + CI lint (contribution rate, wikilint) — see @concepts/x-article-3-notes.md | Notes |
+| 3 / OW7 | Git wiki + CI lint (contribution rate, wikilint) — @concepts/x-article-3-notes.md · paste `briefs/2026-07-14_outlier-weekly-issue7-wikilint-contribution-rate.md` | **Ready** 2026-07-14 |
 | OW3 | [Outlier Weekly Issue 3](https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot) — World Cup Bot OSS — @concepts/outlier-weekly-issue3-world-cup-bot-notes.md | **LIVE** 2026-06-03 |
-| OW4 / X Art. #4 | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | **draft** |
+| OW4 | [Poker playground](https://outlierweekly.substack.com/p/what-1-on-the-poker-playground-actually) | **LIVE** 2026-06-08 |
+| OW5 | World Cup Bot setup guide | **LIVE** 2026-06-11 |
+| OW6 | Tournament S1 postmortem | **LIVE** 2026-06-16 |
+| OW / X (queued) | GuruWatcher — newsletter levels → Discord (alert-only, fluid mind) — @concepts/guruwatcher-outlier-x-article-notes.md · paste `briefs/2026-07-27_guruwatcher-outlier-x-article.md` | **Brief ready** 2026-07-27 |
+| OW4 / X Art. #4 (legacy label) | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | superseded by OW5 setup guide |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"
 
@@ -228,8 +238,13 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | @0xSurferX | builder | X Article | Obvious fixes still losing | CPU pin + hot-path bloat | Wallet proof | **K112** — **OSINT PM lane**; contrarian hook; verify PnL claims |
 | @zodchiii | educator | X Article | Claude agrees with everything | Honesty CLAUDE.md + @critic + contractor trick | Telegram | **K112** — **CCC lane**; **steal:** 5-min setup + paste-ready rules blocks |
 | @akshay_pachaar | educator | X Article | First-token latency quirk | KV cache Parts 1–4 | Follow | **K112** — **CCC/infra lane**; Part N educator scaffold |
+| Operator CXW Jul 6 | — | X Article | ICE bought two CXW sites | Vindication map + GEO chase | Article link | **LIVE** — deal confirmation; do not republish as news |
+| Operator CXW/GEO/TH Jul 8 | — | X Article | Right on sale, wrong on pop | Scorecard 6+5 + fade stack + TH cousin | Watchlist replies | **LIVE** (operator-confirmed published; wiki flip 2026-07-17) |
+| Operator UW→Poly Jul 17 | — | X Article | UW key ≠ Poly edge | Flow + congress → policy/politics map + 3 gates | Soft Poly referral | **Ready** — `@concepts/x-article-uw-polymarket-bridge-notes.md` · `briefs/2026-07-17_uw-key-polymarket-bridge-x-article.md` |
 
 **K112 steal flags:** Gustafsson = dual-telemetry hook; zodchiii = contractor framing; akshay = Part N explainer; Lutchyn/Arvin/Surfer/AlterEgo routed to sibling wikis — exemplars only here.
+
+**Jul 8 postmortem steal flags:** open with flat-close/fade failure; one metric ($329k/bed vs day return); numbered right/wrong; TH = cousin not clone; calendar CTA Aug 5/6. Pair with Jul 6 Article but do not re-vindicate the 8-K.
 
 Update this table on each Posts.docx style pass.
 

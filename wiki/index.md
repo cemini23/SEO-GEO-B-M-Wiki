@@ -180,6 +180,7 @@ If you're new to this wiki:
 - [creator-launch-decision-hub](briefs/2026-05-09_creator-launch-decision-hub.md) — 24-hour launch-day decision resource: platform choice, pricing, content strategy, AI guardrails, retention, revenue projections, action checklist (bridges SEO:GEO + Image Gen wikis)
 - [CXW/GEO Outlier front-to-back thesis handoff](briefs/2026-07-03_cxw-geo-outlier-front-to-back-thesis.md) — Master Outlier article spine: warehouse failure → turnkey pivot → funding → site sequencing → Cal City/Bonta → Florence/J&A trap → recorder negatives → BOP counterpoint — cxw, geo, ice, outlier, trading
 - [CXW turnkey 8-K vindication — X Article + GEO chase](briefs/2026-07-06_cxw-turnkey-8k-vindication-x-article.md) — `[READY 2026-07-06]` Cal City + Otay $1.5B to DHS; paste-ready X Article; GEO sympathy leg — cxw, geo, ice, x-article
+- [GuruWatcher — Outlier + X Article pack](briefs/2026-07-27_guruwatcher-outlier-x-article.md) — Alert-only newsletter levels → Discord; fluid claim ledger; private repo; Outlier + X Article spines — guruwatcher, outlier, agents
 
 ### Creator marketing (new vertical)
 
@@ -205,6 +206,7 @@ If you're new to this wiki:
 - [x-account-voice-and-format](concepts/x-account-voice-and-format.md) — X Article voice, Cyril style deconstruction, paste protocol, Posts.docx style exemplars
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
 - [x-article-cxw-geo-th-postmortem-notes](concepts/x-article-cxw-geo-th-postmortem-notes.md) — Jul 8 CXW/GEO/TH postmortem Article notes (after Jul 6 vindication)
+- [guruwatcher-outlier-x-article-notes](concepts/guruwatcher-outlier-x-article-notes.md) — GuruWatcher Outlier + X Article queue (alert-only newsletter → Discord)
 - [outlier-weekly-issue3-world-cup-bot-notes](concepts/outlier-weekly-issue3-world-cup-bot-notes.md) — Issue 3 launch queue (2026-06-03)
 - [world-cup-bot-x-article-runbook-notes](concepts/world-cup-bot-x-article-runbook-notes.md) — X Article #4 CLI runbook (draft)
 - [world-cup-bot-search-discovery](concepts/world-cup-bot-search-discovery.md) — GitHub Pages + Google/Bing indexing for Polymarket/Kalshi queries

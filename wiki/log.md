@@ -1,11 +1,19 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-26
+updated: 2026-07-27
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-27] brief | GuruWatcher Outlier + X Article pack
+
+- **Brief:** `briefs/2026-07-27_guruwatcher-outlier-x-article.md` — dual spine for Outlier Weekly + X Article (alert-only newsletter → Discord)
+- **Queue notes:** @concepts/guruwatcher-outlier-x-article-notes.md
+- **Guardrails:** private repo (no fork CTA); alert-only; verbatim levels; Macro Charts named without dumping paid text
+- **Blocked on ship:** one clean Discord fire screenshot (dedicated webhook installed on prod 2026-07-27)
+- **Updated:** @wiki/index.md, @concepts/x-account-voice-and-format.md (published arc row)
 
 ## [2026-07-26] ingest | K146 arXiv API false-positive backlog (3 OOD from 2026-07-24)
 
