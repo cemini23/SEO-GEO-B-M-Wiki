@@ -123,14 +123,22 @@ related:
   - sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md
   - sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md
   - sweeps/2026-07-26-daily.md
+  - sources/arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29.md
+  - sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md
+  - sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md
+  - sweeps/2026-07-29-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-26
+updated: 2026-07-29
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-07-29-daily.md — K147 digest (3/3 arXiv API false positives)
+- @sources/arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29.md — K147 overflow
+- @sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md — K147 overflow
+- @sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md — K147 overflow
 - @sweeps/2026-07-26-daily.md — K146 digest (3/3 arXiv API false positives; backlog from 2026-07-24)
 - @sources/arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26.md — K146 overflow
 - @sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md — K146 overflow

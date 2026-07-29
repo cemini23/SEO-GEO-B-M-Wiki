@@ -31,13 +31,21 @@ related:
   - sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md
   - sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md
   - sweeps/2026-07-26-daily.md
+  - sources/arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29.md
+  - sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md
+  - sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md
+  - sweeps/2026-07-29-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-26
+updated: 2026-07-29
 ---
 
 ## Relations
 
+- @sweeps/2026-07-29-daily.md — K147 arXiv API false positive
+- @sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md — K147 QuickGWecc
+- @sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md — K147 EFG eigenframe
+- @sources/arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29.md — K147 ATLAS jets
 - @sweeps/2026-07-26-daily.md — K146 arXiv API false-positive backlog
 - @sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md — K146 robot factor bias
 - @sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md — K146 sequential EQA memory
@@ -81,7 +89,7 @@ A source lands here if it was dropped into the ingest queue, a stub was created 
 
 Deleting the stub loses the record that the file was already triaged-and-rejected, risking duplicate effort on the next sweep. Keeping it under this hub is the "we looked, we passed" marker.
 
-### Current contents (updated 2026-07-26)
+### Current contents (updated 2026-07-29)
 
 | Stub | Topic | Why out-of-scope |
 |---|---|---|
@@ -105,6 +113,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26.md | BEAP neutron source ID (arXiv 2607.21543) | Nuclear sensing; routed cyber (K146) |
 | @sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md | Sequential EQA memory (arXiv 2607.21571) | Embodied AI; routed OSINT/CCC/poker (K146) |
 | @sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md | Bias-aware compositional robot data (arXiv 2607.21582) | Robot factor bias; routed TipDrop + Image Gen (K146) |
+| @sources/arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29.md | ATLAS large-R jet calibration (arXiv 2607.25893) | hep-ex false positive (K147) |
+| @sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md | EFG eigenframe topology (arXiv 2607.26008) | cond-mat false positive (K147) |
+| @sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md | QuickGWecc eccentric PTA (arXiv 2607.26051) | GW astronomy; thin OSINT Bayes steal (K147) |
 
 ## Snippets
 

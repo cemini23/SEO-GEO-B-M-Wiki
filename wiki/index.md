@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-07-26
+updated: 2026-07-29
 ---
 
 # Wiki Index
@@ -70,6 +70,9 @@ If you're new to this wiki:
 - [arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26](sources/arxiv-breitenmoser-2026-beap-neutron-source-id-2607.21543-2026-07-26.md) — overflow: BEAP neutron source ID; cyber (K146)
 - [arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26](sources/arxiv-cai-2026-sequential-eqa-memory-bottlenecks-2607.21571-2026-07-26.md) — overflow: sequential EQA memory; OSINT/CCC/poker (K146)
 - [arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26](sources/arxiv-qi-2026-bias-aware-compositional-robot-data-2607.21582-2026-07-26.md) — overflow: factor-bias robot data; TipDrop + Image Gen (K146)
+- [arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29](sources/arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29.md) — overflow: ATLAS large-R jet calibration (K147)
+- [arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29](sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md) — overflow: EFG eigenframe topology (K147)
+- [arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29](sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md) — overflow: QuickGWecc PTA; OSINT Bayes thin (K147)
 
 ### Platform / practitioner news
 

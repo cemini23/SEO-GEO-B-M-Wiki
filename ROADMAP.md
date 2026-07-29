@@ -151,6 +151,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 | 2026-07-22 | K144 ingest: 3/3 arXiv API false positives → overflow + TipDrop/poker briefs | ERank→Image Gen+David; dark matter overflow-only; MaLoRA/MaRA→OSINT/CCC/poker; no local adopt; prod SKIP |
 | 2026-07-23 | K145 ingest: 3/3 arXiv API false positives → overflow + cyber brief | Gabidulin/RQC→cyber; smell+TQFT overflow-only; no local adopt; tipdrop/poker/prod SKIP |
 | 2026-07-26 | K146 ingest: 3 OOD backlog (from 2026-07-24) → overflow + federated briefs | BEAP→cyber; EQA memory→OSINT/CCC/poker; factor bias→TipDrop+Image Gen; no local adopt; prod SKIP |
+| 2026-07-29 | K147 ingest: 3/3 arXiv API false positives → overflow + OSINT thin | ATLAS jets+EFG overflow-only; QuickGWecc→OSINT Bayes; Atto/tipdrop/poker/prod SKIP |
 
 ---
 

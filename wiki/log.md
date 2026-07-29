@@ -1,11 +1,31 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-27
+updated: 2026-07-29
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-29] ingest | K147 arXiv API false-positive batch (3 OOD)
+
+- **Inbox** — 3 PDFs; **0** in-scope for local SEO/GEO
+- **Overflow** — @sources/arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29.md (ATLAS jets); @sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md (EFG topology); @sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md (QuickGWecc)
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-07-29-daily.md
+- **Phase-0** — `scripts/adopt_k147_phase0.sh` (all OUT-OF-SCOPE; no SEO local adopt)
+- **Cross-wiki** — OSINT thin Bayes brief (QuickGWecc projection/shape); ATLAS + EFG overflow-only
+- **SEO hands-on / Atto / David / tipdrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lane still noisy (K141–K147)
+
+## [2026-07-28] voice pass | GuruWatcher Outlier + X Article ship-ready paste
+
+- **Brief:** `briefs/2026-07-27_guruwatcher-outlier-x-article.md` upgraded outline → paste packages (Cyril voice, no em dashes, IP boundary intact)
+- **Outlier title:** Discord Only Fires When the Newsletter Level Is Real (~1.5k)
+- **X Article title:** The Newsletter Bot That Refuses to Hallucinate Levels (~0.9k+ after expand)
+- **Notes:** @concepts/guruwatcher-outlier-x-article-notes.md → SHIP-READY
+- **Voice table:** @concepts/x-account-voice-and-format.md row flipped Brief ready → SHIP-READY
+- **Still optional before publish:** Discord fire screenshot; confirm Outlier issue # (likely 8)
+- **Ship order:** Outlier first, X Article D+2
 
 ## [2026-07-27] brief | GuruWatcher Outlier + X Article pack
 
