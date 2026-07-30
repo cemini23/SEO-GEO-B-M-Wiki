@@ -35,13 +35,19 @@ related:
   - sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md
   - sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md
   - sweeps/2026-07-29-daily.md
+  - sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md
+  - sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md
+  - sweeps/2026-07-30-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 ## Relations
 
+- @sweeps/2026-07-30-daily.md — K148 RND options + axion overflow
+- @sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md — K148 RND inverse learning
+- @sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md — K148 quadratic axion
 - @sweeps/2026-07-29-daily.md — K147 arXiv API false positive
 - @sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md — K147 QuickGWecc
 - @sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md — K147 EFG eigenframe
@@ -116,6 +122,8 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29.md | ATLAS large-R jet calibration (arXiv 2607.25893) | hep-ex false positive (K147) |
 | @sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md | EFG eigenframe topology (arXiv 2607.26008) | cond-mat false positive (K147) |
 | @sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md | QuickGWecc eccentric PTA (arXiv 2607.26051) | GW astronomy; thin OSINT Bayes steal (K147) |
+| @sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md | Latent RND from options (arXiv 2607.27188) | Quant options; OSINT + Gambling (K148) |
+| @sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md | Quadratic axion couplings (arXiv 2607.27190) | hep-th false positive (K148) |
 
 ## Snippets
 

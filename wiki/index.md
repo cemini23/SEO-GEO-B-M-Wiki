@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-07-29
+updated: 2026-07-30
 ---
 
 # Wiki Index
@@ -73,6 +73,9 @@ If you're new to this wiki:
 - [arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29](sources/arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29.md) — overflow: ATLAS large-R jet calibration (K147)
 - [arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29](sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md) — overflow: EFG eigenframe topology (K147)
 - [arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29](sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md) — overflow: QuickGWecc PTA; OSINT Bayes thin (K147)
+- [arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30](sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md) — DenseOn/LateOn open dense + late-interaction retrieval (K148)
+- [arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30](sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md) — overflow: latent RND from options; OSINT+Gambling (K148)
+- [arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30](sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md) — overflow: quadratic axion string theory (K148)
 
 ### Platform / practitioner news
 
@@ -277,6 +280,7 @@ If you're new to this wiki:
 - [deeprubric-code](entities/tools/deeprubric-code.md) — Apache-2.0 deep-research RL rubric pipeline; REFERENCE for wiki ingest QA (K120)
 - [flowbank](entities/tools/flowbank.md) — agentic workflow portfolio optimizer; REFERENCE for conductor routing (K120)
 - [e-geo](entities/tools/e-geo.md) — E-GEO e-commerce GEO testbed + optimized prompts; CONDITIONAL-GO (K142)
+- [denseon-lateon](entities/tools/denseon-lateon.md) — DenseOn/LateOn open retrieval; weights Watch; pylate/fast-plaid Adopt (K148)
 - [wikikv](entities/tools/wikikv.md) — hierarchical path-indexed wiki KV; REFERENCE for federation navigation (K121)
 - [claude-ads](entities/tools/claude-ads.md) — AgriciDaniel paid-media audit skill 250+ checks (Defer — security issues open, K71; K90 feature fit only)
 - [n8n-workflows](entities/tools/n8n-workflows.md) — 4,343-script automation library (MIT); spot-audit for SEO-automation nodes

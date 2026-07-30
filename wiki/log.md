@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-29
+updated: 2026-07-30
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-30] ingest | K148 DenseOn/LateOn + 2 OOD
+
+- **Inbox** — 3 PDFs; **1** in-scope (DenseOn/LateOn), **2** overflow
+- **In-scope** — @sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md → @entities/tools/denseon-lateon.md; GEO hub + adaptive-RAG / evidence / visibility backlinks
+- **Overflow** — @sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md (RND options → OSINT+Gambling); @sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md (axion → overflow only)
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @concepts/generative-engine-optimization.md, @wiki/index.md, @sweeps/2026-07-30-daily.md
+- **Phase-0** — `scripts/adopt_k148_phase0.sh`: DenseOn/LateOn weights **Watch** (~600MB over cap); adopted `pylate`+`fast-plaid` (~7MB) under `raw-sources/tools/`
+- **Briefs** — SEO hands-on passage probe; Atto multilingual retrieval; OSINT RND; Gambling RND; CCC RAG advisory (no prod scp)
+- **TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API still noisy (2/3 FP this pass; DenseOn was a true hit)
 
 ## [2026-07-29] ingest | K147 arXiv API false-positive batch (3 OOD)
 

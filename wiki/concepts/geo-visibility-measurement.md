@@ -43,13 +43,19 @@ related:
   - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
   - concepts/geo-visibility-vector-protocol.md
   - sweeps/2026-07-16-daily.md
+  - sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md
+  - entities/tools/denseon-lateon.md
+  - sweeps/2026-07-30-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-07-16
+updated: 2026-07-30
 ---
 
 ## Relations
 
+- @sweeps/2026-07-30-daily.md — K148 DenseOn/LateOn open retrieval
+- @sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md — K148 open retrieval as probe, not ranking factor
+- @entities/tools/denseon-lateon.md — K148 Phase-0 (weights Watch; pylate Adopt)
 - @sweeps/2026-07-16-daily.md — K140 Martinez GEO survey
 - @concepts/geo-visibility-vector-protocol.md — K140 Martinez GEO survey
 - @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md — K140 Martinez GEO survey

@@ -127,14 +127,24 @@ related:
   - sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md
   - sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md
   - sweeps/2026-07-29-daily.md
+  - sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md
+  - entities/tools/denseon-lateon.md
+  - sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md
+  - sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md
+  - sweeps/2026-07-30-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-29
+updated: 2026-07-30
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-07-30-daily.md — K148 digest (1 in-scope DenseOn/LateOn + 2 OOD)
+- @sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md — K148 DenseOn/LateOn
+- @entities/tools/denseon-lateon.md — K148 Phase-0 entity
+- @sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md — K148 RND overflow
+- @sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md — K148 axion overflow
 - @sweeps/2026-07-29-daily.md — K147 digest (3/3 arXiv API false positives)
 - @sources/arxiv-atlas-2026-large-r-jet-calibration-run2-2607.25893-2026-07-29.md — K147 overflow
 - @sources/arxiv-yap-2026-eigenframe-topology-efg-2607.26008-2026-07-29.md — K147 overflow

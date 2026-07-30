@@ -16,13 +16,15 @@ related:
   - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-30-daily.md
+  - entities/tools/denseon-lateon.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-07-18
+updated: 2026-07-30
 ---
 
 ## Relations
 
+- @entities/tools/denseon-lateon.md — K148 open dense/late retrieval probe (complementary)
 - @concepts/generative-engine-optimization.md — GEO/AEO tool stack
 - @entities/tools/geo-seo-claude.md — adopted Claude Code GEO skill (GO 2026-05-07); complementary audit CLI
 - @entities/tools/seo-geo-claude-skills.md — Steal-from pattern reference

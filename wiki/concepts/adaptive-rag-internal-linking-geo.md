@@ -33,13 +33,19 @@ related:
   - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
   - concepts/process-verified-agentic-search-geo.md
   - sweeps/2026-07-15-daily.md
+  - sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md
+  - entities/tools/denseon-lateon.md
+  - sweeps/2026-07-30-daily.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-07-15
+updated: 2026-07-30
 ---
 
 ## Relations
 
+- @sweeps/2026-07-30-daily.md — K148 DenseOn/LateOn open retrieval
+- @sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md — K148 dense + late-interaction retrieval
+- @entities/tools/denseon-lateon.md — K148 Phase-0 (weights Watch; pylate Adopt)
 - @sources/arxiv-agent-orchestrated-adaptive-rag-2606.05658-2026-06-05.md — adaptive RAG routing evidence
 - @sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md — pre-deployment internal-link evaluation
 - @concepts/generative-engine-optimization.md — semantic coherence + citation surfaces

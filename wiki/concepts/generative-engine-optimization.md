@@ -112,13 +112,19 @@ related:
   - sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md
   - concepts/agent-ready-website-local-bm.md
   - sweeps/2026-07-18-daily.md
+  - sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md
+  - entities/tools/denseon-lateon.md
+  - sweeps/2026-07-30-daily.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-07-18
+updated: 2026-07-30
 ---
 
 ## Relations
 
+- @sweeps/2026-07-30-daily.md — K148 DenseOn/LateOn open retrieval
+- @sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md — K148 open dense + late-interaction
+- @entities/tools/denseon-lateon.md — K148 Phase-0 (weights Watch; pylate Adopt)
 - @sweeps/2026-07-18-daily.md — K142 E-GEO + agent-ready
 - @concepts/e-geo-universal-rewrite-playbook.md — K142 universal rewrite pattern
 - @entities/tools/e-geo.md — K142 Phase-0 CONDITIONAL-GO
@@ -276,6 +282,8 @@ Safe local analog: coordinate **real** evidence - GBP, owned service/location pa
 ### E-GEO universal rewrite + agent-ready sites [TENTATIVE — e-commerce / lab POC]
 
 @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md (E-GEO, arXiv 2511.20867v2): e-commerce GEO testbed (13,747 queries × 10 listings). Prompt meta-optimization beats hand heuristics; optimized prompts converge on a **universally effective** rewrite pattern (intent-aligned, keyword-rich-but-factual, scannable structure). Metric is rank lift in a fixed candidate set — closer to conditional visibility than organic discovery. Code: @entities/tools/e-geo.md (**CONDITIONAL-GO**, no LICENSE). Playbook: @concepts/e-geo-universal-rewrite-playbook.md; hands-on `briefs/2026-07-18_k142-e-geo-universal-rewrite-audit-hands-on.md`.
+
+@sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md (DenseOn/LateOn, arXiv 2607.27178): fully open dense + late-interaction retrieval (Apache-2.0 weights; MIT PyLate). DenseOn 149M hits **56.20** BEIR nDCG@10; LateOn **57.22**. Translate-train: late-interaction generalizes better to unseen languages. Operator use = **passage-retrieval probe** for answer engines (not a Google ranking factor). Entity: @entities/tools/denseon-lateon.md — weights Watch (~600MB over adopt cap); pylate/fast-plaid Adopt (~7MB). Hands-on `briefs/2026-07-30_k148-denseon-lateon-passage-probe-hands-on.md`.
 
 @sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md: websites as agent runtimes — interpretability / executability / decision reliability; POC 89.3% vs 49.3% PASS. Playbook: @concepts/agent-ready-website-local-bm.md; hands-on `briefs/2026-07-18_k142-agent-ready-website-audit-hands-on.md`.
 
