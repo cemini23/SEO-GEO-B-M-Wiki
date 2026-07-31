@@ -19,7 +19,9 @@ related:
   - entities/tools/denseon-lateon.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-07-30
+updated: 2026-07-31
+wire_status: runtime_wired
+wire_target: .cursor/skills/adopted-geo-tools/SKILL.md + .cursor/mcp.json (geo-optimizer / geo-mcp; mcp SDK pinned 1.x)
 ---
 
 ## Relations

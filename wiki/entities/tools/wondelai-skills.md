@@ -10,7 +10,9 @@ related:
   - "@ccc-wiki/entities/tools/wondelai-skills.md"
 maturity: draft
 created: 2026-06-12
-updated: 2026-07-18
+updated: 2026-07-31
+wire_status: runtime_wired
+wire_target: .cursor/skills/adopted-geo-tools/SKILL.md
 ---
 
 ## Relations

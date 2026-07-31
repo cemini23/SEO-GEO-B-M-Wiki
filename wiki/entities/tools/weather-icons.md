@@ -9,8 +9,10 @@ related:
   - entities/tools/awesome-design-md.md
 maturity: draft
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
+wire_status: wont_wire
+wire_target: Steal-from icon assets; verify LICENSE before bundle
 ---
 
 ## Relations

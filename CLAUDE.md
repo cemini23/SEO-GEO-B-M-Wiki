@@ -294,6 +294,15 @@ Before adopting an SEO / GBP / review-management / schema / social-media tool in
 
 The reusable prompt for evaluating a list of GitHub repos is at `prompts/github-repo-eval.md`.
 
+## Phase-1 wires (adopted tools → harness)
+
+Phase-0 audits; Phase-1 wires. Canon: `@ccc-wiki/concepts/phase1-adopt-wire.md` + `/phase1` skill.
+
+- **Policy (alwaysApply):** `.cursor/rules/cemini-phase1-seo-geo-wires.mdc` — dual GEO Claude skills, Easy Review / GBP hands-on, DenseOn/LateOn passage-probe rules.
+- **Runtime (federation skill + MCP):** `.cursor/skills/adopted-geo-tools/SKILL.md` + project `.cursor/mcp.json` → `geo-optimizer` (`geo-mcp`; pin `mcp` 1.x).
+- **Entity tracking:** every `wiki/entities/tools/*` Phase-0 decision must have `wire_status` ∈ {`policy_wired`,`runtime_wired`,`wont_wire`,`deferred`} (never leave GO/ADOPT as bare `unwired`).
+- Do **not** wire Image-gen / 3D-printing local backlogs here. Ask before MCP / `settings.json` installs.
+
 ## Session-start ritual
 
 On every new session, **before any other work**:

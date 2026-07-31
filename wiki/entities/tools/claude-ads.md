@@ -11,8 +11,10 @@ related:
   - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-27url-2026-05-27.md"
+wire_status: deferred
+wire_target: Next: wait SSRF/path-traversal issues close + re-audit
 ---
 
 ## Relations

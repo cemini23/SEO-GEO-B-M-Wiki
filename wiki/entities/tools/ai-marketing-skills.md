@@ -7,8 +7,10 @@ related:
   - entities/tools/marketingskills.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-07-31
 osint_eval_origin: doc1-url-13 (cross-routed; SEO primary)
+wire_status: wont_wire
+wire_target: Catalog / overlap marketingskills; no second wire
 ---
 
 ## Relations

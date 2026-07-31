@@ -13,11 +13,13 @@ related:
   - osint-wiki/concepts/wiki-tooling-evaluation.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-07-31
 phase_0_verdict: REFERENCE
 license_verified: n/a
 repo: n/a
 cross-wiki-source: "@osint-wiki/entities/tools/wikikv.md"
+wire_status: wont_wire
+wire_target: REFERENCE — no public install; pattern steal only
 ---
 
 ## Relations

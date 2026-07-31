@@ -15,8 +15,9 @@ related:
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-19
-
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: Operator SaaS dashboard — no Cursor harness
 ---
 
 ## Relations

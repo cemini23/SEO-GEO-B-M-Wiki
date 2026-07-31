@@ -1,0 +1,38 @@
+---
+description: Phase-1 SEO/GEO adopted-tool wires — dual GEO stack, E-GEO/geo-optimizer/wondelai, passage probes, Easy Review loop
+alwaysApply: true
+---
+
+# Phase-1 SEO / GEO tool wires
+
+Harness behavior for Phase-0 GO / CONDITIONAL-GO adopts owned by this wiki. Prefer policy here; runtime for E-GEO / geo-optimizer / wondelai is the federation skill `adopted-geo-tools`.
+
+## Dual GEO Claude Code skills (GO 2026-05-07)
+
+- Classical local SEO → **claude-seo-agrici** (GBP, citations, local pack). Generative/AEO citability → **geo-seo-claude**. Do not install a third parallel `/seo` skill pack (@entities/tools/seo-geo-claude-skills.md is Steal-from only).
+- Pair citability audits with Aggarwal tactics (Quotation / Statistics / Fluency) — never keyword stuffing.
+- Copy frameworks → **marketingskills**; schema generation in WordPress → **Yoast** (skill audits; Yoast writes markup).
+
+## Adopted GEO helpers (runtime via `adopted-geo-tools` + MCP)
+
+- Service-page AI-citation rewrites → `python3 scripts/e_geo_rewrite_service_page.py` (facts only; operator CMS paste). Playbook: @concepts/e-geo-universal-rewrite-playbook.md.
+- Site GEO/AEO audit → `bash scripts/run_geo_audit.sh <shop-url>` **or** Cursor MCP `geo-optimizer` (`geo_audit` / related tools). Citation scores are directional; pair with @concepts/geo-visibility-measurement.md. Ignore `/llms.txt` for Google Search.
+- Landing CRO / booking friction → read `raw-sources/tools/wondelai-skills/cro-methodology/SKILL.md` (do not reinvent).
+- MCP install note: `uv tool install --with 'mcp>=1.0,<2' 'geo-optimizer-skill[mcp]'` — mcp 2.x breaks FastMCP import used by `geo-mcp`.
+
+## Passage-retrieval probe (DenseOn / LateOn)
+
+- Dense/late-interaction models are **answer-engine retrieval probes**, not Google ranking factors.
+- Local entry: `raw-sources/tools/pylate` + `fast-plaid`. HF DenseOn/LateOn weights stay **Watch** (~600MB+; over default adopt cap) until operator pulls outside wiki disk budget.
+- Prefer late-interaction for long service pages; never pull multi-GB embedding datasets into this laptop.
+
+## Easy Review + hands-on policy
+
+- Draft review replies in-wiki / Easy Review; **operator posts**. Never automate review gating or selective solicitation.
+- Never bulk-identical GBP posts; coordinate NAP edits with citations; schema must match reality.
+
+## Phase-1 meta (this surface)
+
+- After ingest ADOPT/GO: set `wire_status` + propose `/phase1` before claiming done.
+- Skip Image-gen / 3D local wire backlogs. No secrets in rules. Ask before MCP/`settings.json` installs.
+- Inventory pattern: entity `wire_status` on `wiki/entities/tools/*` (SEO has no `.local/adopts/`).

@@ -7,8 +7,10 @@ related:
   - concepts/competitor-analysis-local.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-07-31
 osint_eval_origin: doc1-url-3 (cross-routed; SEO competitor-research angle)
+wire_status: wont_wire
+wire_target: Utility catalog — no always-on harness
 ---
 
 ## Relations

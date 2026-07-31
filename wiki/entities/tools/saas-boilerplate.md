@@ -9,8 +9,10 @@ related:
   - concepts/free-smb-ops-stack.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-22
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
+wire_status: deferred
+wire_target: Next: run Phase-0 (LICENSE + maturity) before any wire
 ---
 
 ## Relations

@@ -7,8 +7,10 @@ related:
   - entities/tools/marketingskills.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/entities/tools/n8n-workflows.md"
+wire_status: wont_wire
+wire_target: Catalog — spot-audit only; no default install
 ---
 
 ## Relations

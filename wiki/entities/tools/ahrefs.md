@@ -11,7 +11,9 @@ related:
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-05
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: Operator SaaS dashboard — no Cursor harness
 ---
 
 ## Relations

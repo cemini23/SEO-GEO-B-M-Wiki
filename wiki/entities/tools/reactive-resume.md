@@ -7,8 +7,10 @@ related:
   - concepts/website-essentials-local-business.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-26url-2026-05-19.md"
+wire_status: wont_wire
+wire_target: Steal-from CSS/export patterns only
 ---
 
 ## Relations

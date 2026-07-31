@@ -11,11 +11,13 @@ related:
   - sweeps/2026-06-16-daily.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-07-31
 phase_0_verdict: REFERENCE
 license_verified: Apache-2.0
 repo: https://github.com/zminghang/DeepRubric-Code
 cross-wiki-source: "@ccc-wiki/entities/tools/deeprubric-code.md"
+wire_status: wont_wire
+wire_target: REFERENCE — RL trainer; no harness install
 ---
 
 ## Relations

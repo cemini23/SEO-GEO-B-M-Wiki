@@ -13,7 +13,9 @@ related:
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-05
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: .cursor/rules/cemini-phase1-seo-geo-wires.mdc
 ---
 
 ## Relations

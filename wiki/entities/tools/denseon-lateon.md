@@ -14,7 +14,9 @@ related:
   - sweeps/2026-07-30-daily.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: .cursor/rules/cemini-phase1-seo-geo-wires.mdc
 ---
 
 ## Relations

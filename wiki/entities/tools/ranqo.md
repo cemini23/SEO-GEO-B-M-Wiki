@@ -17,11 +17,13 @@ related:
   - entities/tools/rankfor-ai.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-24
+updated: 2026-07-31
 phase_0_verdict: REFERENCE
 license_verified: n/a
 repo: n/a
 vendor: https://ranqo.ai
+wire_status: wont_wire
+wire_target: REFERENCE — commercial SaaS; no agent wire
 ---
 
 ## Relations

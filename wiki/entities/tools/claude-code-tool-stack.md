@@ -12,7 +12,9 @@ related:
   - entities/tools/itshover.md
 maturity: draft
 created: 2026-05-10
-updated: 2026-05-17
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: CCC meta reference — wire lives on CCC surface
 ---
 
 ## Relations

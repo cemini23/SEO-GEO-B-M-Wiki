@@ -13,11 +13,13 @@ related:
   - concepts/x-account-voice-and-format.md
 maturity: validated
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/entities/tools/ai-text-humanizer-app.md"
 phase_0_verdict: NO-GO
 license_verified: MIT
 repo: https://github.com/DadaNanjesha/AI-Text-Humanizer-App
+wire_status: wont_wire
+wire_target: NO-GO — academicizer; not marketing voice
 ---
 
 ## Relations

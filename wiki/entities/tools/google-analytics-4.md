@@ -12,7 +12,9 @@ related:
   - entities/companies/shop-2.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-31
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: Operator Google account — no Cursor harness
 ---
 
 ## Relations

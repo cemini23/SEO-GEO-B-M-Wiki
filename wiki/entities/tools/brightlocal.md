@@ -9,7 +9,9 @@ related:
   - concepts/local-pack-rankings.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: Operator SaaS dashboard — no Cursor harness
 ---
 
 ## Relations

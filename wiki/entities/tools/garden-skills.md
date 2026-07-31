@@ -10,8 +10,10 @@ related:
   - entities/tools/taste-skill.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/tool-evaluation-multi-wiki-audit-may-2026.md"
+wire_status: wont_wire
+wire_target: Catalog / steal-from templates only
 ---
 
 ## Relations

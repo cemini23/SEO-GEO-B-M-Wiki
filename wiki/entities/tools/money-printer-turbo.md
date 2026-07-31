@@ -8,8 +8,10 @@ related:
   - concepts/creator-content-strategy.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-22url-2026-05-26.md"
+wire_status: wont_wire
+wire_target: Defer with no schedule — ToS/mass-content risk
 ---
 
 ## Relations

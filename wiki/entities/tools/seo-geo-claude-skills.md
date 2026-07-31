@@ -14,7 +14,9 @@ related:
   - "@osint-wiki/sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md"
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-03
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: Steal-from only — parallel niche rejected
 ---
 
 ## Relations

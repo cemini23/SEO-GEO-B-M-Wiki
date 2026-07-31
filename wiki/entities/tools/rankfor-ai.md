@@ -13,7 +13,9 @@ related:
   - concepts/generative-engine-optimization.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-26
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: REFERENCE — vendor stub; no product Phase-0
 ---
 
 ## Relations

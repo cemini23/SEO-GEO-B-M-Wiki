@@ -7,6 +7,15 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-07-31] phase1 | SEO/GEO adopt-wire backlog clear
+
+- **Policy rule** — `.cursor/rules/cemini-phase1-seo-geo-wires.mdc` (alwaysApply): dual GEO Claude skills, Easy Review/GBP hands-on, DenseOn/LateOn probe
+- **CLAUDE.md** — new Phase-1 section pointing at policy rule + `adopted-geo-tools` runtime skill
+- **Entity stamps** — all 47 `wiki/entities/tools/*` now have `wire_status` ≠ unwired (6 policy / 3 runtime / 28 wont_wire / 10 deferred)
+- **Runtime** — E-GEO / geo-optimizer / wondelai via `.cursor/skills/adopted-geo-tools/SKILL.md`; **MCP** `geo-optimizer` → `/Users/claudiobarone/.local/bin/geo-mcp` in `.cursor/mcp.json` (`uv tool install --with 'mcp>=1.0,<2' 'geo-optimizer-skill[mcp]'`)
+- **Deferred next actions** — seomachine (DataForSEO), claude-ads (security issues), saas-boilerplate + Adopt-eligible pending Phase-0 (taste/social/notfair/goaccess/open-seo/digital-marketing-pro/pm-claude-skills)
+- **Skipped** — Image-gen / 3D local wires; no Harbor/ORCA/AskChem MCP
+
 ## [2026-07-31] ingest | K149 arXiv API false-positive batch (4 OOD)
 
 - **Inbox** — 4 PDFs; **0** in-scope for local SEO/GEO

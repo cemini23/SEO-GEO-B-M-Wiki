@@ -7,8 +7,10 @@ related:
   - concepts/competitor-analysis-local.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-07-31
 osint_eval_origin: doc2-url-2 (cross-routed; general SEO tool discovery utility)
+wire_status: wont_wire
+wire_target: Catalog / no SEO operator wire
 ---
 
 ## Relations

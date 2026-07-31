@@ -11,7 +11,9 @@ related:
   - concepts/federated-daily-research-digest.md
 maturity: draft
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-31
+wire_status: runtime_wired
+wire_target: .cursor/skills/adopted-geo-tools/SKILL.md
 ---
 
 ## Relations

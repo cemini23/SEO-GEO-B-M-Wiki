@@ -7,8 +7,10 @@ related:
   - entities/tools/claude-code-tool-stack.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-07-31
 osint_eval_origin: doc1-url-23 (cross-routed; SEO creator-marketing primary)
+wire_status: wont_wire
+wire_target: Catalog list — no default install
 ---
 
 ## Relations

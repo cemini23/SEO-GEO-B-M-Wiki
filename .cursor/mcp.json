@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "codebase-memory-mcp": {
+      "type": "stdio",
+      "disabled": false,
+      "command": "/Users/claudiobarone/.local/bin/codebase-memory-mcp",
+      "args": [],
+      "env": {}
+    },
+    "geo-optimizer": {
+      "command": "/Users/claudiobarone/.local/bin/geo-mcp",
+      "args": [],
+      "env": {}
+    }
+  }
+}

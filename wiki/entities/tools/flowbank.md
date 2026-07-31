@@ -11,11 +11,13 @@ related:
   - sweeps/2026-06-16-daily.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-07-31
 phase_0_verdict: REFERENCE
 license_verified: n/a
 repo: https://agentic-flowbank.github.io
 cross-wiki-source: "@ccc-wiki/entities/tools/flowbank.md"
+wire_status: wont_wire
+wire_target: REFERENCE — paper/workflow portfolio pattern only
 ---
 
 ## Relations

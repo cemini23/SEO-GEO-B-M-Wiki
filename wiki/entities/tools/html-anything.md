@@ -9,8 +9,10 @@ related:
   - concepts/website-essentials-local-business.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-07-31
 osint_eval_origin: "OSINT 56-repo multi-wiki tool eval, 2026-05-17 (SEO primary fit)"
+wire_status: wont_wire
+wire_target: Catalog / no SEO operator wire
 ---
 
 ## Relations
