@@ -132,14 +132,24 @@ related:
   - sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md
   - sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md
   - sweeps/2026-07-30-daily.md
+  - sources/arxiv-bushnell-2026-indelfreealigner-2607.27291-2026-07-31.md
+  - sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md
+  - sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md
+  - sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md
+  - sweeps/2026-07-31-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-30
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-07-31-daily.md — K149 digest (4/4 arXiv API false positives)
+- @sources/arxiv-bushnell-2026-indelfreealigner-2607.27291-2026-07-31.md — K149 overflow
+- @sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md — K149 overflow → CCC+Cyber
+- @sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md — K149 overflow
+- @sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md — K149 overflow → thin CCC
 - @sweeps/2026-07-30-daily.md — K148 digest (1 in-scope DenseOn/LateOn + 2 OOD)
 - @sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md — K148 DenseOn/LateOn
 - @entities/tools/denseon-lateon.md — K148 Phase-0 entity

@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 # Wiki Index
@@ -76,6 +76,10 @@ If you're new to this wiki:
 - [arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30](sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md) — DenseOn/LateOn open dense + late-interaction retrieval (K148)
 - [arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30](sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md) — overflow: latent RND from options; OSINT+Gambling (K148)
 - [arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30](sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md) — overflow: quadratic axion string theory (K148)
+- [arxiv-bushnell-2026-indelfreealigner-2607.27291-2026-07-31](sources/arxiv-bushnell-2026-indelfreealigner-2607.27291-2026-07-31.md) — overflow: IndelFreeAligner genomics (K149)
+- [arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31](sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md) — overflow: ORCA-bench oncall RCA; CCC+Cyber (K149)
+- [arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31](sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md) — overflow: Böotes III / Styx (K149)
+- [arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31](sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md) — overflow: Seiberg dualities ML; thin CCC (K149)
 
 ### Platform / practitioner news
 

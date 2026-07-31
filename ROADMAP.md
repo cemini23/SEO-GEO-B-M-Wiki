@@ -153,6 +153,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 | 2026-07-26 | K146 ingest: 3 OOD backlog (from 2026-07-24) → overflow + federated briefs | BEAP→cyber; EQA memory→OSINT/CCC/poker; factor bias→TipDrop+Image Gen; no local adopt; prod SKIP |
 | 2026-07-29 | K147 ingest: 3/3 arXiv API false positives → overflow + OSINT thin | ATLAS jets+EFG overflow-only; QuickGWecc→OSINT Bayes; Atto/tipdrop/poker/prod SKIP |
 | 2026-07-30 | K148 ingest: DenseOn/LateOn in-scope + 2 OOD | DenseOn/LateOn→entity+Atto/CCC/SEO hands-on; RND→OSINT+Gambling; axion overflow; pylate/fast-plaid adopt (~7MB); tipdrop/poker/prod SKIP |
+| 2026-07-31 | K149 ingest: 4/4 arXiv API false positives → overflow + CCC/Cyber | IndelFreeAligner+Boo3 overflow-only; ORCA→CCC+Cyber; Seiberg→thin CCC; Atto/tipdrop/poker/prod SKIP |
 
 ---
 

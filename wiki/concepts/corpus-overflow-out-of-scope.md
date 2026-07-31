@@ -38,13 +38,23 @@ related:
   - sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md
   - sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md
   - sweeps/2026-07-30-daily.md
+  - sources/arxiv-bushnell-2026-indelfreealigner-2607.27291-2026-07-31.md
+  - sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md
+  - sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md
+  - sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md
+  - sweeps/2026-07-31-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Relations
 
+- @sweeps/2026-07-31-daily.md — K149 4/4 arXiv API false positives
+- @sources/arxiv-bushnell-2026-indelfreealigner-2607.27291-2026-07-31.md — K149 IndelFreeAligner genomics
+- @sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md — K149 ORCA-bench oncall
+- @sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md — K149 Böotes III
+- @sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md — K149 Seiberg dualities ML
 - @sweeps/2026-07-30-daily.md — K148 RND options + axion overflow
 - @sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md — K148 RND inverse learning
 - @sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md — K148 quadratic axion
@@ -124,6 +134,10 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-dey-2026-quickgwecc-eccentric-pta-2607.26051-2026-07-29.md | QuickGWecc eccentric PTA (arXiv 2607.26051) | GW astronomy; thin OSINT Bayes steal (K147) |
 | @sources/arxiv-shikhman-2026-latent-risk-neutral-densities-2607.27188-2026-07-30.md | Latent RND from options (arXiv 2607.27188) | Quant options; OSINT + Gambling (K148) |
 | @sources/arxiv-agarwal-2026-quadratic-axion-couplings-2607.27190-2026-07-30.md | Quadratic axion couplings (arXiv 2607.27190) | hep-th false positive (K148) |
+| @sources/arxiv-bushnell-2026-indelfreealigner-2607.27291-2026-07-31.md | IndelFreeAligner / BBTools (arXiv 2607.27291) | Genomics false positive (K149) |
+| @sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md | ORCA-bench oncall agents (arXiv 2607.28545) | Agent RCA; CCC + Cyber (K149) |
+| @sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md | Böotes III / Styx (arXiv 2607.28594) | astro-ph false positive (K149) |
+| @sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md | Seiberg dualities ML (arXiv 2607.28628) | hep-th; thin CCC pathfinder (K149) |
 
 ## Snippets
 

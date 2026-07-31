@@ -1,11 +1,21 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-30
+updated: 2026-07-31
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-07-31] ingest | K149 arXiv API false-positive batch (4 OOD)
+
+- **Inbox** — 4 PDFs; **0** in-scope for local SEO/GEO
+- **Overflow** — @sources/arxiv-bushnell-2026-indelfreealigner-2607.27291-2026-07-31.md (genomics); @sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md (ORCA-bench); @sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md (Boo3/Styx); @sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md (Seiberg ML)
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-07-31-daily.md
+- **Phase-0** — `scripts/adopt_k149_phase0.sh` (all OUT-OF-SCOPE; ORCA Harbor ~50GB Watch; no SEO local adopt)
+- **Cross-wiki** — CCC ORCA + Seiberg thin; Cyber ORCA oncall RCA
+- **SEO hands-on / Atto / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo + local-seo arXiv API lanes still noisy (K141–K149)
 
 ## [2026-07-30] ingest | K148 DenseOn/LateOn + 2 OOD
 
