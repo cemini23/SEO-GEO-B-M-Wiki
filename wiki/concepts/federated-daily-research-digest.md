@@ -137,14 +137,22 @@ related:
   - sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md
   - sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md
   - sweeps/2026-07-31-daily.md
+  - sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md
+  - sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md
+  - sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md
+  - sweeps/2026-08-03-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-31
+updated: 2026-08-03
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-03-daily.md — K150 digest (3/3 arXiv API false positives)
+- @sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md — K150 overflow → CCC
+- @sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md — K150 overflow → CCC+OSINT
+- @sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md — K150 overflow → Atto+CCC
 - @sweeps/2026-07-31-daily.md — K149 digest (4/4 arXiv API false positives)
 - @sources/arxiv-bushnell-2026-indelfreealigner-2607.27291-2026-07-31.md — K149 overflow
 - @sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md — K149 overflow → CCC+Cyber

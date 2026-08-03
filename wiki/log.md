@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-07-31
+updated: 2026-08-03
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-03] ingest | K150 arXiv API false-positive batch (3 OOD)
+
+- **Inbox** — 3 PDFs; **0** in-scope for local SEO/GEO (schema keyword collision on ExtractBench)
+- **Overflow** — @sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md (PEFT); @sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md (QASP ANN); @sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md (ExtractBench IE)
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @entities/tools/denseon-lateon.md (QASP infra note), @wiki/index.md, @sweeps/2026-08-03-daily.md
+- **Phase-0** — `scripts/adopt_k150_phase0.sh` (all OUT-OF-SCOPE; ExtractBench GitHub 404 Watch; Quake related-not-this-paper Watch; 0 MB local adopt)
+- **Phase-1** — no new SEO wires (no ADOPT/GO); DenseOn remains `policy_wired`
+- **Cross-wiki** — Atto ExtractBench; CCC PEFT + QASP + ExtractBench; OSINT QASP thin
+- **SEO hands-on / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K150)
 
 ## [2026-07-31] phase1 | SEO/GEO adopt-wire backlog clear
 

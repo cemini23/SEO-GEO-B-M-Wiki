@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-07-31
+updated: 2026-08-03
 ---
 
 # Wiki Index
@@ -80,6 +80,9 @@ If you're new to this wiki:
 - [arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31](sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md) — overflow: ORCA-bench oncall RCA; CCC+Cyber (K149)
 - [arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31](sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md) — overflow: Böotes III / Styx (K149)
 - [arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31](sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md) — overflow: Seiberg dualities ML; thin CCC (K149)
+- [arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03](sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md) — overflow: multi-policy PEFT; CCC (K150)
+- [arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03](sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md) — overflow: QASP ANN policy; CCC+OSINT (K150)
+- [arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03](sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md) — overflow: ExtractBench IE ≠ schema.org; Atto+CCC (K150)
 
 ### Platform / practitioner news
 

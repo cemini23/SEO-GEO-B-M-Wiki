@@ -43,13 +43,21 @@ related:
   - sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md
   - sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md
   - sweeps/2026-07-31-daily.md
+  - sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md
+  - sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md
+  - sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md
+  - sweeps/2026-08-03-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-31
+updated: 2026-08-03
 ---
 
 ## Relations
 
+- @sweeps/2026-08-03-daily.md — K150 3/3 arXiv API false positives
+- @sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md — K150 multi-policy PEFT
+- @sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md — K150 QASP ANN policy
+- @sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md — K150 ExtractBench (not schema.org)
 - @sweeps/2026-07-31-daily.md — K149 4/4 arXiv API false positives
 - @sources/arxiv-bushnell-2026-indelfreealigner-2607.27291-2026-07-31.md — K149 IndelFreeAligner genomics
 - @sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md — K149 ORCA-bench oncall
@@ -138,6 +146,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-gong-2026-orca-bench-oncall-agents-2607.28545-2026-07-31.md | ORCA-bench oncall agents (arXiv 2607.28545) | Agent RCA; CCC + Cyber (K149) |
 | @sources/arxiv-jensen-2026-bootes-iii-styx-2607.28594-2026-07-31.md | Böotes III / Styx (arXiv 2607.28594) | astro-ph false positive (K149) |
 | @sources/arxiv-heckman-2026-seiberg-dualities-ml-2607.28628-2026-07-31.md | Seiberg dualities ML (arXiv 2607.28628) | hep-th; thin CCC pathfinder (K149) |
+| @sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md | Multi-policy PEFT task sequencing (arXiv 2607.29601) | PEFT training; routed CCC (K150) |
+| @sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md | QASP vector search policy (arXiv 2607.29606) | ANN infra; routed CCC + OSINT (K150) |
+| @sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md | ExtractBench enterprise IE (arXiv 2607.29677) | JSON Schema IE ≠ schema.org; Atto + CCC (K150) |
 
 ## Snippets
 

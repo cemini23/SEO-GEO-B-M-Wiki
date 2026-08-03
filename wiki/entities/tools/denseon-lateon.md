@@ -12,9 +12,10 @@ related:
   - entities/tools/geo-optimizer-skill.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-30-daily.md
+  - sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-07-31
+updated: 2026-08-03
 wire_status: policy_wired
 wire_target: .cursor/rules/cemini-phase1-seo-geo-wires.mdc
 ---
@@ -29,6 +30,7 @@ wire_target: .cursor/rules/cemini-phase1-seo-geo-wires.mdc
 - @entities/tools/geo-optimizer-skill.md — complementary GEO audit CLI
 - @concepts/federated-daily-research-digest.md — K148 digest
 - @sweeps/2026-07-30-daily.md — overnight fetch
+- @sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md — K150 ANN search-depth policy (overflow; complementary infra note)
 
 ## Raw Concept
 
@@ -57,6 +59,10 @@ Open retrieval stack from LightOn (arXiv 2607.27178): DenseOn (dense) + LateOn (
 - Treating DenseOn as a Google ranking factor (it is not) — use only as **answer-engine retrieval probe**
 - Pulling full embedding datasets into laptop disk
 - Confusing API closed embedders (Voyage, etc.) with this open recipe
+
+### Related infra (not adopted)
+
+QASP (arXiv 2607.29606) learns query-adaptive ANN search depth — complementary when serving FAISS-scale indexes, but **overflow** for this wiki (no public code; not a ranking factor). See @sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md.
 
 ## Snippets
 
