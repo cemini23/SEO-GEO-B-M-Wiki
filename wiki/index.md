@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 # Wiki Index
@@ -83,6 +83,9 @@ If you're new to this wiki:
 - [arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03](sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md) — overflow: multi-policy PEFT; CCC (K150)
 - [arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03](sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md) — overflow: QASP ANN policy; CCC+OSINT (K150)
 - [arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03](sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md) — overflow: ExtractBench IE ≠ schema.org; Atto+CCC (K150)
+- [arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04](sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md) — overflow: Pinterest VLM relevance; thin GEO steal (K151)
+- [arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04](sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md) — overflow: AtumAI datacenter policies; CCC (K151)
+- [arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04](sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md) — overflow: simplicial Riemannian reparam (K151)
 
 ### Platform / practitioner news
 

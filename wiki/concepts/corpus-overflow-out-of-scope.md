@@ -47,13 +47,21 @@ related:
   - sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md
   - sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md
   - sweeps/2026-08-03-daily.md
+  - sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md
+  - sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md
+  - sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md
+  - sweeps/2026-08-04-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 ## Relations
 
+- @sweeps/2026-08-04-daily.md — K151 3/3 arXiv API false positives (1 thin GEO steal)
+- @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md — K151 Pinterest VLM relevance
+- @sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md — K151 AtumAI
+- @sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md — K151 simplicial reparam
 - @sweeps/2026-08-03-daily.md — K150 3/3 arXiv API false positives
 - @sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md — K150 multi-policy PEFT
 - @sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md — K150 QASP ANN policy
@@ -149,6 +157,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md | Multi-policy PEFT task sequencing (arXiv 2607.29601) | PEFT training; routed CCC (K150) |
 | @sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md | QASP vector search policy (arXiv 2607.29606) | ANN infra; routed CCC + OSINT (K150) |
 | @sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md | ExtractBench enterprise IE (arXiv 2607.29677) | JSON Schema IE ≠ schema.org; Atto + CCC (K150) |
+| @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md | Pinterest VLM relevance (arXiv 2608.02446) | RecSys search eval; thin GEO measurement steal (K151) |
+| @sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md | AtumAI datacenter policies (arXiv 2608.02569) | Systems/cloud; routed CCC (K151) |
+| @sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md | Smooth simplicial reparam (arXiv 2608.02576) | Pure math optimization false positive (K151) |
 
 ## Snippets
 

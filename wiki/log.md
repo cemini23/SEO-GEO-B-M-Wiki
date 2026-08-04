@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-03
+updated: 2026-08-04
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-04] ingest | K151 arXiv API false-positive batch (3 OOD; 1 thin GEO steal)
+
+- **Inbox** — 3 PDFs; **0** SEO Adopt; thin measurement steal from Pinterest VLM relevance
+- **Overflow** — @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md; @sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md; @sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md
+- **Updated** — @concepts/geo-visibility-measurement.md (engagement vs semantic relevance guardrail); @concepts/corpus-overflow-out-of-scope.md; @concepts/federated-daily-research-digest.md; @wiki/index.md; @sweeps/2026-08-04-daily.md
+- **Phase-0** — `scripts/adopt_k151_phase0.sh` (all OUT-OF-SCOPE Adopt; smooth_reparam ~17KB wrong-domain; 0 MB local adopt)
+- **Phase-1** — no new wires (no ADOPT/GO tools)
+- **Cross-wiki** — CCC: VLM relevance guardrail + AtumAI agentic policy search
+- **Atto / GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K151)
 
 ## [2026-08-03] ingest | K150 arXiv API false-positive batch (3 OOD)
 
@@ -1183,3 +1194,7 @@ style-pass | Posts.docx K112 | 8 long-forms | authors: Gustafssonkotte, horizon_
 
 Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-sparktoro-2026-06-29-new-research-from-similarweb-how-ai-brand-mentio.md`.
 - Created wiki/sources/newsletter-rss-sparktoro-2026-06-29-new-research-from-similarweb-how-ai-brand-mentio.md (stub)
+
+## [2026-08-03] brief | K220 eve marketing extract from OSINT
+
+- Brief: `briefs/2026-08-03_k220-eve-marketing-extract.md` (OSINT K220 revenue eval)

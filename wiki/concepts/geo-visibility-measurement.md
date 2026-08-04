@@ -46,13 +46,17 @@ related:
   - sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md
   - entities/tools/denseon-lateon.md
   - sweeps/2026-07-30-daily.md
+  - sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md
+  - sweeps/2026-08-04-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-07-30
+updated: 2026-08-04
 ---
 
 ## Relations
 
+- @sweeps/2026-08-04-daily.md — K151 Pinterest VLM relevance (thin steal)
+- @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md — engagement ≠ semantic relevance guardrail
 - @sweeps/2026-07-30-daily.md — K148 DenseOn/LateOn open retrieval
 - @sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md — K148 open retrieval as probe, not ranking factor
 - @entities/tools/denseon-lateon.md — K148 Phase-0 (weights Watch; pylate Adopt)
@@ -109,6 +113,10 @@ Operator playbook for measuring **AI citation visibility** without false precisi
 | **Citation prevalence** | Fraction of responses with ≥1 citation to domain | Breadth across queries vs depth within one response |
 
 All three are **random variables** — report as estimates with uncertainty, not ground truth.
+
+### Engagement vs semantic relevance (guardrail) `[TENTATIVE]`
+
+Industrial search A/B practice (Pinterest RecSys ’26 / arXiv 2608.02446) separates **engagement** (clicks/saves) from **semantic relevance** of top slots: personalization can lift engagement while injecting irrelevant results. When measuring AI Overviews / answer-engine citation, treat citation-share wins that come with off-intent answers as a failed guardrail — scale LLM/VLM-as-judge only after human-label alignment. See @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md.
 
 ### Why single-run tests mislead `[CONFIRMED in consumer-product study]`
 

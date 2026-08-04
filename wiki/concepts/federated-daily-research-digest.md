@@ -141,14 +141,22 @@ related:
   - sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md
   - sources/arxiv-zhang-2026-extractbench-schema-guided-extraction-2607.29677-2026-08-03.md
   - sweeps/2026-08-03-daily.md
+  - sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md
+  - sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md
+  - sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md
+  - sweeps/2026-08-04-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-03
+updated: 2026-08-04
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-04-daily.md — K151 digest (3/3 OOD; VLM relevance thin steal)
+- @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md — K151 overflow → CCC + GEO measurement note
+- @sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md — K151 overflow → CCC
+- @sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md — K151 overflow only
 - @sweeps/2026-08-03-daily.md — K150 digest (3/3 arXiv API false positives)
 - @sources/arxiv-tang-2026-multi-policy-peft-task-sequencing-2607.29601-2026-08-03.md — K150 overflow → CCC
 - @sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md — K150 overflow → CCC+OSINT
