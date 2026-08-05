@@ -145,14 +145,22 @@ related:
   - sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md
   - sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md
   - sweeps/2026-08-04-daily.md
+  - sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md
+  - sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md
+  - sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md
+  - sweeps/2026-08-05-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-04
+updated: 2026-08-05
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-05-daily.md — K152 digest (3/3 OOD; TTS → CCC+poker)
+- @sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md — K152 overflow only
+- @sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md — K152 overflow only
+- @sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md — K152 overflow → CCC+poker
 - @sweeps/2026-08-04-daily.md — K151 digest (3/3 OOD; VLM relevance thin steal)
 - @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md — K151 overflow → CCC + GEO measurement note
 - @sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md — K151 overflow → CCC

@@ -51,13 +51,21 @@ related:
   - sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md
   - sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md
   - sweeps/2026-08-04-daily.md
+  - sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md
+  - sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md
+  - sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md
+  - sweeps/2026-08-05-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 ## Relations
 
+- @sweeps/2026-08-05-daily.md — K152 3/3 arXiv API false positives
+- @sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md — K152 quantum telephone
+- @sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md — K152 doubly charged Higgs
+- @sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md — K152 TTS/Scorio → CCC+poker
 - @sweeps/2026-08-04-daily.md — K151 3/3 arXiv API false positives (1 thin GEO steal)
 - @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md — K151 Pinterest VLM relevance
 - @sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md — K151 AtumAI
@@ -160,6 +168,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md | Pinterest VLM relevance (arXiv 2608.02446) | RecSys search eval; thin GEO measurement steal (K151) |
 | @sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md | AtumAI datacenter policies (arXiv 2608.02569) | Systems/cloud; routed CCC (K151) |
 | @sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md | Smooth simplicial reparam (arXiv 2608.02576) | Pure math optimization false positive (K151) |
+| @sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md | Quantum telephone (arXiv 2608.03963) | quant-ph network tomography (K152) |
+| @sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md | Doubly charged Higgs reanalysis (arXiv 2608.03988) | hep-ph false positive (K152) |
+| @sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md | Test-time scaling / Scorio (arXiv 2608.04001) | Reasoning eval taxonomy; CCC + poker (K152) |
 
 ## Snippets
 

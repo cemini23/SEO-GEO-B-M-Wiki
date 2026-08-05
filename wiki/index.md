@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 # Wiki Index
@@ -86,6 +86,9 @@ If you're new to this wiki:
 - [arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04](sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md) — overflow: Pinterest VLM relevance; thin GEO steal (K151)
 - [arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04](sources/arxiv-lin-2026-atumai-datacenter-control-plane-2608.02569-2026-08-04.md) — overflow: AtumAI datacenter policies; CCC (K151)
 - [arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04](sources/arxiv-kumar-2026-smooth-reparameterizations-simplicial-2608.02576-2026-08-04.md) — overflow: simplicial Riemannian reparam (K151)
+- [arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05](sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md) — overflow: quantum telephone tomography (K152)
+- [arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05](sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md) — overflow: doubly charged Higgs reanalysis (K152)
+- [arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05](sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md) — overflow: TTS/Scorio; CCC+poker (K152)
 
 ### Platform / practitioner news
 

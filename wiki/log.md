@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-04
+updated: 2026-08-05
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-05] ingest | K152 arXiv API false-positive batch (3 OOD)
+
+- **Inbox** — 3 PDFs; **0** in-scope for local SEO/GEO
+- **Overflow** — @sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md (quant-ph); @sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md (hep-ph); @sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md (TTS/Scorio)
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-05-daily.md
+- **Phase-0** — `scripts/adopt_k152_phase0.sh` (all OUT-OF-SCOPE; Scorio HF Watch / over cap; 0 MB local adopt)
+- **Phase-1** — no new SEO wires
+- **Cross-wiki** — CCC TTS eval taxonomy; poker inference-regime delta
+- **Atto / GuruWatcher / TipDrop / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K152)
 
 ## [2026-08-04] ingest | K151 arXiv API false-positive batch (3 OOD; 1 thin GEO steal)
 
