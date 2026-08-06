@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-05
+updated: 2026-08-06
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-06] ingest | K153 arXiv API false-positive batch (3 OOD; RepairFormer → Atto)
+
+- **Inbox** — 3 PDFs; **0** SEO Adopt; RepairFormer MIT → Atto local adopt
+- **Overflow** — @sources/arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06.md; @sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md; @sources/arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-06-daily.md
+- **Phase-0** — `scripts/adopt_k153_phase0.sh` (SEO OOD; Atto `.local/adopts/RepairFormer` ~5MB MIT)
+- **Phase-1** — no new SEO wires; Atto holds runtime clone (HITL only)
+- **Cross-wiki** — Atto RepairFormer brief + adopt; CCC RepairFormer + DASyR
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K153)
 
 ## [2026-08-05] ingest | K152 arXiv API false-positive batch (3 OOD)
 

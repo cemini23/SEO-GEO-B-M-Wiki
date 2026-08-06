@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-05
+updated: 2026-08-06
 ---
 
 # Wiki Index
@@ -89,6 +89,9 @@ If you're new to this wiki:
 - [arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05](sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md) — overflow: quantum telephone tomography (K152)
 - [arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05](sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md) — overflow: doubly charged Higgs reanalysis (K152)
 - [arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05](sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md) — overflow: TTS/Scorio; CCC+poker (K152)
+- [arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06](sources/arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06.md) — overflow: RepairFormer; Atto adopt (K153)
+- [arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06](sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md) — overflow: Glauber axion/graviton (K153)
+- [arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06](sources/arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06.md) — overflow: DASyR-LLM; thin CCC (K153)
 
 ### Platform / practitioner news
 

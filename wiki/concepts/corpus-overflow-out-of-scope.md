@@ -55,13 +55,21 @@ related:
   - sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md
   - sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md
   - sweeps/2026-08-05-daily.md
+  - sources/arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06.md
+  - sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md
+  - sources/arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06.md
+  - sweeps/2026-08-06-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-05
+updated: 2026-08-06
 ---
 
 ## Relations
 
+- @sweeps/2026-08-06-daily.md — K153 3/3 OOD (RepairFormer → Atto adopt)
+- @sources/arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06.md — K153 RepairFormer
+- @sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md — K153 Glauber axion
+- @sources/arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06.md — K153 DASyR-LLM
 - @sweeps/2026-08-05-daily.md — K152 3/3 arXiv API false positives
 - @sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md — K152 quantum telephone
 - @sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md — K152 doubly charged Higgs
@@ -171,6 +179,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md | Quantum telephone (arXiv 2608.03963) | quant-ph network tomography (K152) |
 | @sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md | Doubly charged Higgs reanalysis (arXiv 2608.03988) | hep-ph false positive (K152) |
 | @sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md | Test-time scaling / Scorio (arXiv 2608.04001) | Reasoning eval taxonomy; CCC + poker (K152) |
+| @sources/arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06.md | RepairFormer structured repair (arXiv 2608.05060) | SE tool; Atto adopt + CCC (K153) |
+| @sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md | Glauber axion/graviton (arXiv 2608.05082) | hep-ph false positive (K153) |
+| @sources/arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06.md | DASyR-LLM kinetic SR (arXiv 2608.05120) | Chemeng; thin CCC (K153) |
 
 ## Snippets
 

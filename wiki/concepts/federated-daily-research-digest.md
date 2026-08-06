@@ -149,14 +149,22 @@ related:
   - sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md
   - sources/arxiv-hariri-2026-test-time-scaling-reasoning-llms-2608.04001-2026-08-05.md
   - sweeps/2026-08-05-daily.md
+  - sources/arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06.md
+  - sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md
+  - sources/arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06.md
+  - sweeps/2026-08-06-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-05
+updated: 2026-08-06
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-06-daily.md — K153 digest (3/3 OOD; RepairFormer → Atto)
+- @sources/arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06.md — K153 overflow → Atto adopt + CCC
+- @sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md — K153 overflow only
+- @sources/arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06.md — K153 overflow → CCC
 - @sweeps/2026-08-05-daily.md — K152 digest (3/3 OOD; TTS → CCC+poker)
 - @sources/arxiv-rahman-2026-quantum-game-of-telephone-2608.03963-2026-08-05.md — K152 overflow only
 - @sources/arxiv-ghosh-2026-doubly-charged-higgs-exclusion-2608.03988-2026-08-05.md — K152 overflow only
