@@ -36,13 +36,17 @@ related:
   - sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md
   - entities/tools/denseon-lateon.md
   - sweeps/2026-07-30-daily.md
+  - sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md
+  - sweeps/2026-08-07-daily.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-07-30
+updated: 2026-08-07
 ---
 
 ## Relations
 
+- @sweeps/2026-08-07-daily.md — K154 READ document-ops caveat (overflow)
+- @sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md — embedding-free MCP reads vs dense top-k on tabular docs
 - @sweeps/2026-07-30-daily.md — K148 DenseOn/LateOn open retrieval
 - @sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md — K148 dense + late-interaction retrieval
 - @entities/tools/denseon-lateon.md — K148 Phase-0 (weights Watch; pylate Adopt)

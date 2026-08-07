@@ -13,9 +13,10 @@ related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-30-daily.md
   - sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md
+  - sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-08-03
+updated: 2026-08-07
 wire_status: policy_wired
 wire_target: .cursor/rules/cemini-phase1-seo-geo-wires.mdc
 ---
@@ -31,6 +32,7 @@ wire_target: .cursor/rules/cemini-phase1-seo-geo-wires.mdc
 - @concepts/federated-daily-research-digest.md — K148 digest
 - @sweeps/2026-07-30-daily.md — overnight fetch
 - @sources/arxiv-ferhatosmanoglu-2026-qasp-vector-search-policy-2607.29606-2026-08-03.md — K150 ANN search-depth policy (overflow; complementary infra note)
+- @sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md — K154 READ: dense top-k can fail when units/headers live outside the chunk
 
 ## Raw Concept
 
@@ -59,6 +61,10 @@ Open retrieval stack from LightOn (arXiv 2607.27178): DenseOn (dense) + LateOn (
 - Treating DenseOn as a Google ranking factor (it is not) — use only as **answer-engine retrieval probe**
 - Pulling full embedding datasets into laptop disk
 - Confusing API closed embedders (Voyage, etc.) with this open recipe
+
+### K154 caveat (READ, arXiv 2608.06305)
+
+On long **tabular / layout-heavy** documents, fixed chunk–embed–top-k can separate a figure from its unit or fiscal-year header. DenseOn remains a useful **answer-engine passage probe** for typical service-page prose; do not treat dense top-k as sufficient for table-heavy PDFs. Prefer late-interaction for long prose; for table PDFs prefer lexical / structured navigation (federation steal — no SEO local clone).
 
 ### Related infra (not adopted)
 

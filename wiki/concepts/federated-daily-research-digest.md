@@ -153,14 +153,22 @@ related:
   - sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md
   - sources/arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06.md
   - sweeps/2026-08-06-daily.md
+  - sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md
+  - sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md
+  - sources/arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07.md
+  - sweeps/2026-08-07-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-06
+updated: 2026-08-07
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-07-daily.md — K154 digest (3/3 OOD; READ → CCC+Atto)
+- @sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md — K154 overflow → CCC+Atto (code Watch)
+- @sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md — K154 overflow only
+- @sources/arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07.md — K154 overflow only
 - @sweeps/2026-08-06-daily.md — K153 digest (3/3 OOD; RepairFormer → Atto)
 - @sources/arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06.md — K153 overflow → Atto adopt + CCC
 - @sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md — K153 overflow only

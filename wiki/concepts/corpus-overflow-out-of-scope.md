@@ -59,13 +59,21 @@ related:
   - sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md
   - sources/arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06.md
   - sweeps/2026-08-06-daily.md
+  - sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md
+  - sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md
+  - sources/arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07.md
+  - sweeps/2026-08-07-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 ## Relations
 
+- @sweeps/2026-08-07-daily.md — K154 3/3 OOD (READ → CCC+Atto steal; code Watch)
+- @sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md — K154 READ document ops
+- @sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md — K154 SPT-3G
+- @sources/arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07.md — K154 structured coherence
 - @sweeps/2026-08-06-daily.md — K153 3/3 OOD (RepairFormer → Atto adopt)
 - @sources/arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06.md — K153 RepairFormer
 - @sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md — K153 Glauber axion
@@ -182,6 +190,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-paul-2026-repairformer-structured-input-repair-2608.05060-2026-08-06.md | RepairFormer structured repair (arXiv 2608.05060) | SE tool; Atto adopt + CCC (K153) |
 | @sources/arxiv-breczewski-2026-glauber-axion-graviton-2608.05082-2026-08-06.md | Glauber axion/graviton (arXiv 2608.05082) | hep-ph false positive (K153) |
 | @sources/arxiv-aliaga-2026-dasyr-llm-kinetic-symbolic-regression-2608.05120-2026-08-06.md | DASyR-LLM kinetic SR (arXiv 2608.05120) | Chemeng; thin CCC (K153) |
+| @sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md | READ Beyond Top-K document ops (arXiv 2608.06305) | Long-doc RAG/MCP; CCC+Atto steal; code Watch (K154) |
+| @sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md | SPT-3G D1 lensing templates (arXiv 2608.06343) | astro-ph.CO false positive (K154) |
+| @sources/arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07.md | Structured coherence optics (arXiv 2608.06356) | physics.optics false positive (K154) |
 
 ## Snippets
 

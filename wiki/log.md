@@ -1,11 +1,23 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-06
+updated: 2026-08-07
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-07] ingest | K154 arXiv API false-positive batch (3 OOD; READ → CCC+Atto)
+
+- **Inbox** — 3 PDFs; **0** SEO Adopt; READ thin GEO steal + CCC/Atto briefs (code Watch)
+- **Overflow** — @sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md; @sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md; @sources/arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @entities/tools/denseon-lateon.md, @concepts/adaptive-rag-internal-linking-geo.md, @wiki/index.md, @sweeps/2026-08-07-daily.md
+- **Phase-0** — `scripts/adopt_k154_phase0.sh` (SEO OOD; READ code Watch; 0 MB local adopt)
+- **Phase-1** — passage-probe layout/tabular caveat in `.cursor/rules/cemini-phase1-seo-geo-wires.mdc`
+- **Cross-wiki** — Atto + CCC READ briefs; OSINT thin financial-doc note
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K154)
+- **Egress** — archive pending (cemini-egress-fi SSH timeout at ingest)
 
 ## [2026-08-06] ingest | K153 arXiv API false-positive batch (3 OOD; RepairFormer → Atto)
 

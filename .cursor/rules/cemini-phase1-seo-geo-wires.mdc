@@ -25,6 +25,7 @@ Harness behavior for Phase-0 GO / CONDITIONAL-GO adopts owned by this wiki. Pref
 - Dense/late-interaction models are **answer-engine retrieval probes**, not Google ranking factors.
 - Local entry: `raw-sources/tools/pylate` + `fast-plaid`. HF DenseOn/LateOn weights stay **Watch** (~600MB+; over default adopt cap) until operator pulls outside wiki disk budget.
 - Prefer late-interaction for long service pages; never pull multi-GB embedding datasets into this laptop.
+- Layout/tabular caveat (K154 READ steal): dense top-k can separate figures from unit/fiscal headers — dense/late probes stay for **prose** service pages; do not claim dense RAG solves table-heavy PDFs. No READ local clone (code Watch).
 
 ## Easy Review + hands-on policy
 
