@@ -32,7 +32,7 @@ updated: 2026-08-07
 | **Authors** | Sagar Tamang, Ayush Vyas, Tabarakul Hazarika (IIT Patna / TwoSpoon) |
 | **arXiv** | 2608.06305 |
 | **Filename** | `arxiv-2608.06305-beyond-top-k-replacing-black-box-retrieval-with.pdf` |
-| **Location** | pending egress archive — local `research to be indexed/` at ingest |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/seo/arxiv-2608.06305-beyond-top-k-replacing-black-box-retrieval-with.pdf` |
 | **Retrieved** | 2026-08-07 |
 | **Code** | Paper claims Markdown repro ships with code; **no public GitHub URL located** 2026-08-07 → **Watch** |
 

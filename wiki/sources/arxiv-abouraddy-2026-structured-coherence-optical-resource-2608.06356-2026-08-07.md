@@ -27,7 +27,7 @@ updated: 2026-08-07
 | **Authors** | Ayman F. Abouraddy, Bahaa E. A. Saleh (CREOL, UCF) |
 | **arXiv** | 2608.06356 |
 | **Filename** | `arxiv-2608.06356-structured-coherence-a-modern-perspective-on-opt.pdf` |
-| **Location** | pending egress archive — local `research to be indexed/` at ingest |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/seo/arxiv-2608.06356-structured-coherence-a-modern-perspective-on-opt.pdf` |
 | **Retrieved** | 2026-08-07 |
 | **Code** | None |
 

@@ -27,7 +27,7 @@ updated: 2026-08-07
 | **Authors** | Y. Nakato et al. (SPT-3G Collaboration) |
 | **arXiv** | 2608.06343 |
 | **Filename** | `arxiv-2608.06343-spt-3g-d1-foreground-robust-lensing-templates-fo.pdf` |
-| **Location** | pending egress archive — local `research to be indexed/` at ingest |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/seo/arxiv-2608.06343-spt-3g-d1-foreground-robust-lensing-templates-fo.pdf` |
 | **Retrieved** | 2026-08-07 |
 | **Code** | None |
 
