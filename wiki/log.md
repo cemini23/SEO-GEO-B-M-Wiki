@@ -1,11 +1,35 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-07
+updated: 2026-08-09
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-09] docs | README accuracy + Support projects
+
+- **README** — welcoming intro; Phase-0 timing aligned to ~30 min; Easy Review six-bucket wording; `briefs/` Easy Review write-back note; Related + Support list Outlier Weekly / Substack / youratto.com / guruwatcher.com with thanks
+- **CLAUDE.md** — added `game-dev-wiki` to Related Wikis (matches public federation table)
+- **FUNDING.yml** — custom links for Outlier / Substack / Atto / GuruWatcher
+
+## [2026-08-08] wire | substack-publisher-mcp (Outlier analytics)
+
+- **Phase-0** — GO MIT `dkships/substack-publisher-mcp` @ `237adde`; read-only Publisher API; 17/17 tests
+- **Phase-1** — clone kept; global `substack` MCP **disabled** (`wire_status: deferred`) — Outlier has no Publisher API key UI (enrollment/bestseller-gated per operator)
+- **Entity** — @entities/tools/substack-publisher-mcp.md
+- **Workaround** — RSS + Stats UI paste; no cookie MCP fallback
+- **Re-enable** — when API key appears → export `SUBSTACK_API_KEY` → `disabled: false` → restart Cursor
+
+## [2026-08-08] draft | Atto Outlier Weekly family-story pack (Outlier only)
+
+- **Brief** — `briefs/2026-08-08_outlier-weekly-atto-family-story.md` SHIP-READY (~1.8k after GPT Sol pass); title *The Hard Part Was Never Caring About Italy. It Was the Paperwork.*
+- **Notes** — @concepts/atto-outlier-family-story-notes.md
+- **Updated** — @concepts/x-account-voice-and-format.md, @wiki/index.md
+- **Pass** — GPT-5.6 Sol readability + SEO ([Sol](a9f9a655-33e5-451b-aca2-5b27fb93baf0)): earlier product define, About→buy CTA, slug `italian-citizenship-paperwork-atto-family-story`
+- **CTA** — youratto.com · $299 pay once; X Article deferred
+- **Limits in copy** — Assisted Find beta · recent gens often not digital · Italian handwriting OCR hard
+- **Open** — schedule Tue Aug 11 / Wed Aug 12 ~9–11am ET (GuruWatcher already LIVE)
 
 ## [2026-08-07] ingest | K154 arXiv API false-positive batch (3 OOD; READ → CCC+Atto)
 

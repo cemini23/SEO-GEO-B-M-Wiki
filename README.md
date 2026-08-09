@@ -1,12 +1,12 @@
 # SEO / GEO / B&M Business Wiki
 
-A structured knowledge hub spanning two verticals:
+Welcome — this is a structured knowledge hub spanning two verticals:
 
 1. **Local brick-and-mortar operators** — single- or multi-location businesses who want to rank in local search, be cited correctly by AI engines, and run their owned + earned digital surfaces (website, Google Business Profile, reviews, social).
 
 2. **Content creator-marketing operators** — subscription-platform creators (OnlyFans, Patreon, Buy Me a Coffee) who need to grow an audience, convert free followers to paid subscribers, retain existing subscribers, and drive external traffic from social platforms (Twitter/X, Reddit, TikTok, Instagram) to their subscription page.
 
-The wiki uses a **barbershop** running example for B&M and a **friends OnlyFans creator** for content creator marketing — because those are the seed domains it was built from — but the principles, tools, and playbooks generalize to any local-service business (restaurants, dental clinics, auto shops, salons, gyms, retail) and any image-based subscription content creator.
+The wiki uses a **barbershop** running example for B&M and a **friends OnlyFans creator** for content creator marketing — those are the seed domains it was built from — but the principles, tools, and playbooks generalize to any local-service business (restaurants, dental clinics, auto shops, salons, gyms, retail) and any image-based subscription content creator.
 
 ## What this is (and isn't)
 
@@ -76,7 +76,7 @@ Then open Obsidian → **Open folder as vault** → select the vault folder (def
 
 Staging lives outside the wiki:
 
-- `briefs/` — one-off deliverables (review-response packs, IG captions, GBP-post calendars). Gitignored.
+- `briefs/` — one-off deliverables (review-response packs, IG captions, GBP-post calendars). Local staging is gitignored; approved [Easy Review](https://github.com/cemini23/Easy-Review) write-backs may land as tracked brief files via Octokit.
 - `research to be indexed/` — transient drop zone for new sources. Gitignored.
 
 ## What the operator needs to gather
@@ -144,7 +144,7 @@ All three are pure-Python; no external dependencies. CI runs `wiki_lint.py` on e
 
 ## Phase-0 audit pattern
 
-Before adopting any third-party tool (Claude Code skill, WordPress plugin, SaaS), the wiki uses a **Phase-0 audit** — a ~5-min check on license, maturity, domain fit, and per-tool-class failure modes. Decisions land as GO / CONDITIONAL-GO / NO-GO and are recorded in `wiki/entities/tools/<tool>.md`. The reusable audit prompt is at `prompts/github-repo-eval.md`.
+Before adopting any third-party tool (Claude Code skill, WordPress plugin, SaaS), the wiki uses a **Phase-0 audit** — a short structured pass (~30 min for a full check) on license, maturity, domain fit, and per-tool-class failure modes. Decisions land as GO / CONDITIONAL-GO / NO-GO and are recorded in `wiki/entities/tools/<tool>.md`. The reusable audit prompt is at `prompts/github-repo-eval.md`.
 
 This pattern has shipped clean rejections of credible-looking but wrong-fit tools (e.g. parallel-implementation duplicates) and prevents the wiki from accumulating tool sprawl.
 
@@ -166,7 +166,7 @@ The wiki is a thinking tool — knowledge you read and feed into Claude. **[Easy
 What it does (v0, paste-flow):
 
 1. Operator pastes a Google / Yelp / Facebook review into the form
-2. App categorizes against the wiki's 5-category framework (5★-specific / 5★-generic / 4★ / 3★-mixed / 1-2★-complaint / 1★-likely-fake) — see `wiki/concepts/review-response-templates.md`
+2. App categorizes against the wiki's six-bucket framework (5★-specific / 5★-generic / 4★ / 3★-mixed / 1-2★-complaint / 1★-likely-fake) — see `wiki/concepts/review-response-templates.md`
 3. Gemini 2.0 Flash drafts a reply using the wiki's response templates
 4. Operator edits, regenerates, or approves
 5. Approved reply is committed back to *this wiki repo* as a brief markdown file — the wiki gains a feedback loop of real production replies, the operator gets a tool
@@ -187,17 +187,19 @@ The wiki structure (CLAUDE.md schema + lint scripts) and cross-domain concept pa
 
 ## Related
 
-- Methodology newsletter: [Outlier Weekly Issue 3 — World Cup Bot](https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot) · [home](https://outlierweekly.substack.com)
+- Methodology newsletter: [Outlier Weekly](https://outlierweekly.com) · [Substack](https://outlierweekly.substack.com) · [Issue 3 — World Cup Bot](https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot)
+- Products: [Atto](https://youratto.com) · [GuruWatcher](https://guruwatcher.com)
 - YouTube: [@Cemini23](https://www.youtube.com/@Cemini23)
 - Wiki federation hub: [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC)
 - Agent toolkit: [wikilint](https://github.com/cemini23/wikilint) · [vet](https://github.com/cemini23/vet) · [ara-schema](https://github.com/cemini23/ara-schema)
 - Operator app: [Easy-Review](https://github.com/cemini23/Easy-Review)
-- Sibling wikis: [Cybersecurity](https://github.com/cemini23/Cybersecurity-wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki) · [Image Gen](https://github.com/cemini23/uncensored-image-gen-wiki)
-
+- Sibling wikis: [CCC](https://github.com/cemini23/cemini-claude-code-CCC) · [Gambling](https://github.com/cemini23/Gambling-wiki) · [Game Dev](https://github.com/cemini23/Game-Dev-wiki) · [Cybersecurity](https://github.com/cemini23/Cybersecurity-wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki) · [Image Gen](https://github.com/cemini23/uncensored-image-gen-wiki)
 
 ## Support
 
-Voluntary tips fund open research and tooling. **Donation-only addresses** — not trading or production wallets.
+Thank you for using this wiki — and thank you for any support that helps keep Cemini research and tooling public.
+
+Voluntary tips fund open research across the federation. **Donation-only addresses** — not trading or production wallets.
 
 | Chain family | Address |
 |--------------|---------|
@@ -205,6 +207,14 @@ Voluntary tips fund open research and tooling. **Donation-only addresses** — n
 | **Solana / SVM** | `J4zNn4hK9jTrKBFY8sbAGJHLoZvXvQf4B9pQSbSrocZE` |
 | **Polymarket** (referral) | [polymarket.com/?r=Cemini23](https://polymarket.com/?r=Cemini23) |
 
+Prefer not to tip on-chain? Following, sharing, or trying the projects is just as welcome:
+
+- **Outlier Weekly** — [outlierweekly.com](https://outlierweekly.com) · [Substack](https://outlierweekly.substack.com)
+- **Atto** — [youratto.com](https://youratto.com)
+- **GuruWatcher** — [guruwatcher.com](https://guruwatcher.com)
+- YouTube — [@Cemini23](https://www.youtube.com/@Cemini23)
+
+Canonical donation addresses also live in the federation [SUPPORT.md](https://github.com/cemini23/cemini-claude-code-CCC/blob/main/SUPPORT.md).
 
 ## License
 
