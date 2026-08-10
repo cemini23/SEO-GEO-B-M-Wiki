@@ -7,6 +7,14 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-08-10] brief | cursor-route SEO/GEO marketing pack
+
+- **Brief** — `briefs/2026-08-10_cursor-route-seo-geo-marketing.md` (Outlier spine · X thread · GEO FAQ · visual brief)
+- **Notes** — @concepts/cursor-route-marketing-notes.md
+- **Product** — npm `cursor-route@0.1.1` + GitHub cemini23/cursor-route LIVE
+- **Pass** — GPT-5.6 Sol readability/SEO → SHIP-READY (~1.8k Outlier body)
+- **Index** — briefs + concepts rows
+
 ## [2026-08-10] ingest | K155 arXiv API false-positive batch (3 OOD; PsychoAgent → CCC+Atto)
 
 - **Inbox** — 3 PDFs; **0** SEO Adopt; PsychoAgent thin steal + CCC/Atto briefs (code Watch); GALA → cyber thin

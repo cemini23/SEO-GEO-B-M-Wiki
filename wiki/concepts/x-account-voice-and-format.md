@@ -11,6 +11,7 @@ related:
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - concepts/guruwatcher-outlier-x-article-notes.md
   - concepts/atto-outlier-family-story-notes.md
+  - concepts/cursor-route-marketing-notes.md
   - entities/tools/substack-publisher-mcp.md
   - concepts/world-cup-bot-x-article-runbook-notes.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
@@ -42,7 +43,7 @@ related:
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-08-08
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -54,6 +55,7 @@ updated: 2026-08-08
 - @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — Issue 3 / World Cup Bot launch queue
 - @concepts/guruwatcher-outlier-x-article-notes.md — GuruWatcher Outlier + X Article queue (2026-07-27)
 - @concepts/atto-outlier-family-story-notes.md — Atto Outlier family-story queue (2026-08-08; X deferred)
+- @concepts/cursor-route-marketing-notes.md — cursor-route OSS launch marketing queue (2026-08-10)
 - @entities/tools/substack-publisher-mcp.md — official Publisher API MCP (read-only analytics after LIVE)
 - @entities/platforms/youtube.md — @Cemini23 video lane (Shorts + long-form)
 - @entities/platforms/twitter-x.md — platform algorithm + engagement signals
@@ -104,6 +106,7 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | OW6 | Tournament S1 postmortem | **LIVE** 2026-06-16 |
 | OW / X | GuruWatcher — newsletter levels → Discord — @concepts/guruwatcher-outlier-x-article-notes.md · [LIVE Outlier](https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter) 2026-07-28 | **LIVE** Outlier; X Article status TBD |
 | OW (queued) | Atto — family story → Italian documents kit — @concepts/atto-outlier-family-story-notes.md · paste `briefs/2026-08-08_outlier-weekly-atto-family-story.md` | **SHIP-READY** 2026-08-08 (Outlier only; X deferred; GPT Sol readability/SEO pass) |
+| OW / X (queued) | cursor-route — Cursor+DeepSeek+Grok parallel orchestrator — @concepts/cursor-route-marketing-notes.md · paste `briefs/2026-08-10_cursor-route-seo-geo-marketing.md` | **SHIP-READY** 2026-08-10 (npm 0.1.1 LIVE; GPT Sol SEO pass; hero GIF optional) |
 | OW4 / X Art. #4 (legacy label) | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | superseded by OW5 setup guide |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"

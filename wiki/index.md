@@ -210,6 +210,7 @@ If you're new to this wiki:
 - [CXW turnkey 8-K vindication — X Article + GEO chase](briefs/2026-07-06_cxw-turnkey-8k-vindication-x-article.md) — `[READY 2026-07-06]` Cal City + Otay $1.5B to DHS; paste-ready X Article; GEO sympathy leg — cxw, geo, ice, x-article
 - [GuruWatcher — Outlier + X Article pack](briefs/2026-07-27_guruwatcher-outlier-x-article.md) — Alert-only newsletter levels → Discord; fluid claim ledger; private repo; Outlier + X Article spines — guruwatcher, outlier, agents
 - [Atto — Outlier family story pack](briefs/2026-08-08_outlier-weekly-atto-family-story.md) — NJ → Nonno → dual citizenship family arc → Approve-only kit sell ($299); Outlier only — atto, outlier, genealogy
+- [cursor-route — SEO/GEO marketing pack](briefs/2026-08-10_cursor-route-seo-geo-marketing.md) — Cursor+DeepSeek+Grok parallel orchestrator; Outlier/X/GEO spines; npm live 0.1.1 — agents, oss, deepseek
 
 ### Creator marketing (new vertical)
 
@@ -241,6 +242,7 @@ If you're new to this wiki:
 - [world-cup-bot-x-article-runbook-notes](concepts/world-cup-bot-x-article-runbook-notes.md) — X Article #4 CLI runbook (draft)
 - [world-cup-bot-search-discovery](concepts/world-cup-bot-search-discovery.md) — GitHub Pages + Google/Bing indexing for Polymarket/Kalshi queries
 - [agent-toolkit-x-thread-2026-05-28](concepts/agent-toolkit-x-thread-2026-05-28.md) — cemini23 OSS toolkit launch thread source material
+- [cursor-route-marketing-notes](concepts/cursor-route-marketing-notes.md) — cursor-route Outlier/X/GEO marketing queue (2026-08-10)
 - [corpus-overflow-out-of-scope](concepts/corpus-overflow-out-of-scope.md) — librarian bookkeeping hub: triaged-out-of-scope source stubs kept for inventory honesty
 
 ## Entities
