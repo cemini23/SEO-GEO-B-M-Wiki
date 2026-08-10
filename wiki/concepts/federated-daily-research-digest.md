@@ -157,14 +157,22 @@ related:
   - sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md
   - sources/arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07.md
   - sweeps/2026-08-07-daily.md
+  - sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md
+  - sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md
+  - sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md
+  - sweeps/2026-08-10-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-07
+updated: 2026-08-10
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-10-daily.md — K155 digest (3/3 OOD; PsychoAgent → CCC+Atto; GALA → cyber)
+- @sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md — K155 overflow only
+- @sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md — K155 overflow → cyber thin
+- @sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md — K155 overflow → CCC+Atto (code Watch)
 - @sweeps/2026-08-07-daily.md — K154 digest (3/3 OOD; READ → CCC+Atto)
 - @sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md — K154 overflow → CCC+Atto (code Watch)
 - @sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md — K154 overflow only

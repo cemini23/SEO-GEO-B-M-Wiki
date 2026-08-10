@@ -5,26 +5,30 @@ tags: [social, substack, outlier-weekly, x-twitter, guruwatcher, agents, alert-o
 keywords: [guruwatcher, macro-charts, discord, claim-ledger, outlier, x-article]
 related:
   - concepts/x-account-voice-and-format.md
+  - concepts/atto-outlier-family-story-notes.md
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - entities/platforms/twitter-x.md
 maturity: draft
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-08-08
 ship_draft: briefs/2026-07-27_guruwatcher-outlier-x-article.md
-draft_version: brief-ready
+draft_version: published-2026-07-28
+status: LIVE - Outlier published 2026-07-28; X Article optional
+substack_url: https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter
 ---
 
 ## Relations
 
 - @concepts/x-account-voice-and-format.md — voice + paste discipline
+- @concepts/atto-outlier-family-story-notes.md — next Outlier (Atto); no queue conflict
 - @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — prior Outlier bot launch pattern (OSS; GuruWatcher is private)
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — agent OSS distribution cousin
 - @entities/platforms/twitter-x.md — Article paste surface
 
 ## Raw Concept
 
-Marketing queue for **GuruWatcher**: alert-only newsletter level watches → Discord, fluid most-recent-wins claim ledger, DeepSeek extract + verbatim guards. Full copy pack: `briefs/2026-07-27_guruwatcher-outlier-x-article.md`.
+Marketing queue for **GuruWatcher**: alert-only newsletter level watches → Discord, fluid most-recent-wins claim ledger, DeepSeek extract + verbatim guards. Full paste pack: `briefs/2026-07-27_guruwatcher-outlier-x-article.md`.
 
 ## Narrative
 
@@ -36,12 +40,19 @@ Agent OSS / local systems **plus** markets practitioner. Sell wiring and alert d
 
 | Asset | Status |
 |-------|--------|
-| Marketing brief | `briefs/2026-07-27_guruwatcher-outlier-x-article.md` |
-| Outlier Weekly draft | **READY to write** from brief spine |
-| X Article draft | **READY to write** from brief spine (prefer D+2 after Outlier) |
-| Discord fire screenshot | **NEEDED** — dedicated webhook installed on prod 2026-07-27; capture one clean trigger |
+| Marketing brief + paste bodies | `briefs/2026-07-27_guruwatcher-outlier-x-article.md` — Outlier **LIVE** 2026-07-28 |
+| Outlier Weekly | **LIVE** — [Discord Only Fires When the Newsletter Level Is Real](https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter) |
+| X Article draft | Optional / deferred; paste still in brief if wanted |
+| Discord fire screenshot | **Optional** |
 | Public GitHub CTA | **NO** (private) |
-| Hero image | Not started |
+| Hero image | Prompt in brief; optional |
+
+### Titles locked for paste
+
+| Surface | Title |
+|---------|-------|
+| Outlier | Discord Only Fires When the Newsletter Level Is Real |
+| X Article | The Newsletter Bot That Refuses to Hallucinate Levels |
 
 ### Copy guardrails
 
@@ -49,10 +60,19 @@ Agent OSS / local systems **plus** markets practitioner. Sell wiring and alert d
 - Levels must appear in the current issue; wiki is naming-only (scrubbed).
 - Newest article wins per symbol; untouched symbols persist.
 - Name Macro Charts as the motivating newsletter; do not paste paid body text.
-- Confess the audit scar lightly (ETF proxy / re-arm) — builds trust.
+- Confess the audit scar lightly (ETF proxy / re-arm / shared webhook).
+- Metric: 15m poll · 2-check sustain ≈ 30 min.
+- No em dashes in paste bodies.
 
 ### Open decisions
 
 - [ ] Flip repo public later?
-- [ ] Outlier vs X Article same-day vs stagger (default stagger)
-- [ ] Explicit Macro Charts naming (default yes)
+- [x] Outlier published 2026-07-28
+- [ ] Optional X Article follow-up from brief paste
+- [x] Explicit Macro Charts naming → **yes**
+
+### After LIVE (Outlier done)
+
+1. [x] Flip voice-table row on `@concepts/x-account-voice-and-format.md`
+2. [ ] Optional X Article if wanted
+3. [x] Substack URL recorded above

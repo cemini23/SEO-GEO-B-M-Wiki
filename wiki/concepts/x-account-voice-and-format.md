@@ -10,6 +10,8 @@ related:
   - concepts/x-article-uw-polymarket-bridge-notes.md
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - concepts/guruwatcher-outlier-x-article-notes.md
+  - concepts/atto-outlier-family-story-notes.md
+  - entities/tools/substack-publisher-mcp.md
   - concepts/world-cup-bot-x-article-runbook-notes.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - entities/platforms/youtube.md
@@ -40,7 +42,7 @@ related:
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-07-27
+updated: 2026-08-08
 ---
 
 ## Relations
@@ -51,6 +53,8 @@ updated: 2026-07-27
 - @concepts/x-article-uw-polymarket-bridge-notes.md — Jul 17 UW API → Polymarket policy/politics bridge Article
 - @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — Issue 3 / World Cup Bot launch queue
 - @concepts/guruwatcher-outlier-x-article-notes.md — GuruWatcher Outlier + X Article queue (2026-07-27)
+- @concepts/atto-outlier-family-story-notes.md — Atto Outlier family-story queue (2026-08-08; X deferred)
+- @entities/tools/substack-publisher-mcp.md — official Publisher API MCP (read-only analytics after LIVE)
 - @entities/platforms/youtube.md — @Cemini23 video lane (Shorts + long-form)
 - @entities/platforms/twitter-x.md — platform algorithm + engagement signals
 - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md — K78 includes @cyrilXBT Obsidian contribution-rate article
@@ -98,7 +102,8 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | OW4 | [Poker playground](https://outlierweekly.substack.com/p/what-1-on-the-poker-playground-actually) | **LIVE** 2026-06-08 |
 | OW5 | World Cup Bot setup guide | **LIVE** 2026-06-11 |
 | OW6 | Tournament S1 postmortem | **LIVE** 2026-06-16 |
-| OW / X (queued) | GuruWatcher — newsletter levels → Discord (alert-only, fluid mind) — @concepts/guruwatcher-outlier-x-article-notes.md · paste `briefs/2026-07-27_guruwatcher-outlier-x-article.md` | **Brief ready** 2026-07-27 |
+| OW / X | GuruWatcher — newsletter levels → Discord — @concepts/guruwatcher-outlier-x-article-notes.md · [LIVE Outlier](https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter) 2026-07-28 | **LIVE** Outlier; X Article status TBD |
+| OW (queued) | Atto — family story → Italian documents kit — @concepts/atto-outlier-family-story-notes.md · paste `briefs/2026-08-08_outlier-weekly-atto-family-story.md` | **SHIP-READY** 2026-08-08 (Outlier only; X deferred; GPT Sol readability/SEO pass) |
 | OW4 / X Art. #4 (legacy label) | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | superseded by OW5 setup guide |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"
@@ -238,6 +243,7 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | @0xSurferX | builder | X Article | Obvious fixes still losing | CPU pin + hot-path bloat | Wallet proof | **K112** — **OSINT PM lane**; contrarian hook; verify PnL claims |
 | @zodchiii | educator | X Article | Claude agrees with everything | Honesty CLAUDE.md + @critic + contractor trick | Telegram | **K112** — **CCC lane**; **steal:** 5-min setup + paste-ready rules blocks |
 | @akshay_pachaar | educator | X Article | First-token latency quirk | KV cache Parts 1–4 | Follow | **K112** — **CCC/infra lane**; Part N educator scaffold |
+| Operator Atto OW (queued) | — | Outlier Weekly | Caring easy / paperwork hard | Family arc + early Atto define + Approve metric | About → youratto.com $299 | **SHIP-READY** 2026-08-08; GPT Sol SEO pass; X deferred |
 | Operator CXW Jul 6 | — | X Article | ICE bought two CXW sites | Vindication map + GEO chase | Article link | **LIVE** — deal confirmation; do not republish as news |
 | Operator CXW/GEO/TH Jul 8 | — | X Article | Right on sale, wrong on pop | Scorecard 6+5 + fade stack + TH cousin | Watchlist replies | **LIVE** (operator-confirmed published; wiki flip 2026-07-17) |
 | Operator UW→Poly Jul 17 | — | X Article | UW key ≠ Poly edge | Flow + congress → policy/politics map + 3 gates | Soft Poly referral | **Ready** — `@concepts/x-article-uw-polymarket-bridge-notes.md` · `briefs/2026-07-17_uw-key-polymarket-bridge-x-article.md` |

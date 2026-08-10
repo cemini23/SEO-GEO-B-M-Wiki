@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-09
+updated: 2026-08-10
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-10] ingest | K155 arXiv API false-positive batch (3 OOD; PsychoAgent → CCC+Atto)
+
+- **Inbox** — 3 PDFs; **0** SEO Adopt; PsychoAgent thin steal + CCC/Atto briefs (code Watch); GALA → cyber thin
+- **Overflow** — @sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md; @sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md; @sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-10-daily.md
+- **Phase-0** — `scripts/adopt_k155_phase0.sh` (SEO OOD; 0 MB local adopt)
+- **Phase-1** — no SEO wire (0 ADOPT/GO)
+- **Cross-wiki** — Atto + CCC PsychoAgent briefs; Cybersecurity GALA QEC brief
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K155)
 
 ## [2026-08-09] docs | README accuracy + Support projects
 

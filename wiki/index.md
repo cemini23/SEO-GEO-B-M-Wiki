@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-06
+updated: 2026-08-10
 ---
 
 # Wiki Index
@@ -95,6 +95,9 @@ If you're new to this wiki:
 - [arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07](sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md) — overflow: READ document ops; CCC+Atto (K154)
 - [arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07](sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md) — overflow: SPT-3G lensing (K154)
 - [arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07](sources/arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07.md) — overflow: structured coherence optics (K154)
+- [arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10](sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md) — overflow: movable-antenna discrete position (K155)
+- [arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10](sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md) — overflow: GALA QEC; cyber thin (K155)
+- [arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10](sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md) — overflow: PsychoAgent; CCC+Atto (K155)
 
 ### Platform / practitioner news
 
@@ -206,6 +209,7 @@ If you're new to this wiki:
 - [CXW/GEO Outlier front-to-back thesis handoff](briefs/2026-07-03_cxw-geo-outlier-front-to-back-thesis.md) — Master Outlier article spine: warehouse failure → turnkey pivot → funding → site sequencing → Cal City/Bonta → Florence/J&A trap → recorder negatives → BOP counterpoint — cxw, geo, ice, outlier, trading
 - [CXW turnkey 8-K vindication — X Article + GEO chase](briefs/2026-07-06_cxw-turnkey-8k-vindication-x-article.md) — `[READY 2026-07-06]` Cal City + Otay $1.5B to DHS; paste-ready X Article; GEO sympathy leg — cxw, geo, ice, x-article
 - [GuruWatcher — Outlier + X Article pack](briefs/2026-07-27_guruwatcher-outlier-x-article.md) — Alert-only newsletter levels → Discord; fluid claim ledger; private repo; Outlier + X Article spines — guruwatcher, outlier, agents
+- [Atto — Outlier family story pack](briefs/2026-08-08_outlier-weekly-atto-family-story.md) — NJ → Nonno → dual citizenship family arc → Approve-only kit sell ($299); Outlier only — atto, outlier, genealogy
 
 ### Creator marketing (new vertical)
 
@@ -232,6 +236,7 @@ If you're new to this wiki:
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
 - [x-article-cxw-geo-th-postmortem-notes](concepts/x-article-cxw-geo-th-postmortem-notes.md) — Jul 8 CXW/GEO/TH postmortem Article notes (after Jul 6 vindication)
 - [guruwatcher-outlier-x-article-notes](concepts/guruwatcher-outlier-x-article-notes.md) — GuruWatcher Outlier + X Article queue (alert-only newsletter → Discord)
+- [atto-outlier-family-story-notes](concepts/atto-outlier-family-story-notes.md) — Atto Outlier family-story queue (2026-08-08; X deferred)
 - [outlier-weekly-issue3-world-cup-bot-notes](concepts/outlier-weekly-issue3-world-cup-bot-notes.md) — Issue 3 launch queue (2026-06-03)
 - [world-cup-bot-x-article-runbook-notes](concepts/world-cup-bot-x-article-runbook-notes.md) — X Article #4 CLI runbook (draft)
 - [world-cup-bot-search-discovery](concepts/world-cup-bot-search-discovery.md) — GitHub Pages + Google/Bing indexing for Polymarket/Kalshi queries
@@ -286,6 +291,7 @@ If you're new to this wiki:
 - [oransim](entities/tools/oransim.md) — local-first causal simulator for marketing-campaign ROI (SCM + Hawkes + do-calculus; Apache-2.0, Adopt) — `cross-wiki`
 - [semrush](entities/tools/semrush.md) — keyword research + competitor SEO + position tracking
 - [seomachine](entities/tools/seomachine.md) — Claude Code skill: long-form content + AI-watermark scrubbing + DataForSEO integration (CONDITIONAL-GO 2026-05-07)
+- [substack-publisher-mcp](entities/tools/substack-publisher-mcp.md) — official Substack Publisher API MCP (read-only); GO code, **deferred** (no API key UI on Outlier yet) 2026-08-08
 - [yoast-seo](entities/tools/yoast-seo.md) — WordPress plugin: on-page SEO, schema markup, readability, sitemaps (GO 2026-05-07)
 - [open-seo — SEO automation skill set](entities/tools/open-seo.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [digital-marketing-pro](entities/tools/digital-marketing-pro.md) — Claude plugin ecosystem: 115 commands, 67 MCP servers, QA/claim-verification layer for GEO/AEO workflows

@@ -13,7 +13,9 @@ related:
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-04
+updated: 2026-07-14
+ship_draft: briefs/2026-07-14_outlier-weekly-issue7-wikilint-contribution-rate.md
+status: Ready — Outlier Weekly Issue 7 paste package (2026-07-14)
 ---
 
 ## Relations
@@ -124,9 +126,10 @@ Notion-clean, no emoji, readable on mobile.
 
 ### Open decisions
 
-- [ ] Include one copy-paste wikilint CLI example or keep Article conceptual?
-- [ ] Name SEO wiki paths explicitly or stay domain-neutral ("my wiki")?
-- [ ] Cross-link Article #2 in bio hub tweet after #3 ships?
+- [x] Include one copy-paste wikilint CLI example or keep Article conceptual? → CLI included in OW7
+- [x] Name SEO wiki paths explicitly or stay domain-neutral ("my wiki")? → domain-neutral
+- [ ] Cross-link Article #2 in bio hub tweet after #3 / OW7 ships?
+- [ ] Mark LIVE on voice table + `wiki/log.md` after Substack publish
 
 ## Snippets
 

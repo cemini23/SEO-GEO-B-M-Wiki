@@ -63,13 +63,21 @@ related:
   - sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md
   - sources/arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07.md
   - sweeps/2026-08-07-daily.md
+  - sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md
+  - sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md
+  - sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md
+  - sweeps/2026-08-10-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 ## Relations
 
+- @sweeps/2026-08-10-daily.md — K155 3/3 OOD (PsychoAgent → CCC+Atto; GALA → cyber; MA overflow)
+- @sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md — K155 movable antenna
+- @sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md — K155 GALA QEC
+- @sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md — K155 PsychoAgent
 - @sweeps/2026-08-07-daily.md — K154 3/3 OOD (READ → CCC+Atto steal; code Watch)
 - @sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md — K154 READ document ops
 - @sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md — K154 SPT-3G
@@ -193,6 +201,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md | READ Beyond Top-K document ops (arXiv 2608.06305) | Long-doc RAG/MCP; CCC+Atto steal; code Watch (K154) |
 | @sources/arxiv-nakato-2026-spt-3g-d1-lensing-templates-2608.06343-2026-08-07.md | SPT-3G D1 lensing templates (arXiv 2608.06343) | astro-ph.CO false positive (K154) |
 | @sources/arxiv-abouraddy-2026-structured-coherence-optical-resource-2608.06356-2026-08-07.md | Structured coherence optics (arXiv 2608.06356) | physics.optics false positive (K154) |
+| @sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md | Discrete MA position design (arXiv 2608.07413) | eess.SP wireless false positive (K155) |
+| @sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md | GALA designer QEC on RNAA (arXiv 2608.07431) | quant-ph; thin cyber (K155) |
+| @sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md | PsychoAgent affect/conflict memory (arXiv 2608.07438) | LLM agents; CCC+Atto steal; code Watch (K155) |
 
 ## Snippets
 
