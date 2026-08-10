@@ -294,15 +294,13 @@ Also from Cemini: Atto for genealogy document kits and GuruWatcher for newslette
 
 ---
 
-## X thread (viral launch, 7 tweets)
+## X thread (viral launch, 5 tweets)
 
-1. Cursor wrote the plan. Then I watched the same premium context grind through every implementation step in serial. So I gave it two worker lanes: DeepSeek for mid tasks, Grok CLI for hard ones.
-2. I open-sourced the result: `cursor-route`, an MIT CLI + Cursor skill that runs workers in real tmux sessions.
-3. Cursor stays the planner. Mid means DeepSeek through a Claude Code harness pointed at DeepSeek. Hard means Grok CLI. `/route-orch` handles the split.
-4. Install and check the route: `npm i -g cursor-route` then `cursor-route health`. A red mid lane stops instead of quietly billing the wrong provider.
-5. This is not a Codex clone or AWS CAO. It uses the familiar strategist + worker-pane shape, with Cursor + DeepSeek + Grok.
-6. Version `0.1.1` is live. The repo includes the public CLI, tmux workflow, health gate, and honest limitations.
-7. Try it on two non-overlapping jobs, then tell me where the route breaks: https://github.com/cemini23/cursor-route #Cursor #DeepSeek
+1. Cursor wrote the plan. Then the same premium context chewed through every implementation step in serial. So I open-sourced `cursor-route`: Cursor stays the planner, DeepSeek and Grok CLI take worker jobs in real tmux sessions.
+2. Lanes are explicit. Mid = DeepSeek through a Claude Code harness pointed at DeepSeek. Hard = Grok CLI. `/route-orch` splits the work so implement tokens leave the parent chat.
+3. Install and prove the route: `npm i -g cursor-route` then `cursor-route health`. A red mid lane stops instead of quietly billing the wrong provider.
+4. Familiar strategist + worker-pane shape, not a Codex clone and not AWS CAO. `0.1.1` is live on npm with a public CLI, health gate, and honest limitations in the README.
+5. Run two non-overlapping jobs on a throwaway branch, then tell me where the route breaks: https://github.com/cemini23/cursor-route #Cursor #DeepSeek
 
 ## X Article title options
 

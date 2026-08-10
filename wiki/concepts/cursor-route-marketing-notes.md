@@ -33,7 +33,7 @@ Queue page for marketing **cursor-route** (MIT npm CLI: Cursor brain + DeepSeek 
 | npm `cursor-route@0.1.1` | **LIVE** |
 | GitHub | **LIVE** |
 | Outlier draft | queued |
-| X thread | queued |
+| X thread | queued (5 denser posts; was 7) |
 | Hero GIF | optional / not recorded |
 
 ### Angles that work
