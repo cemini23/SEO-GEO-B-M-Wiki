@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 # Wiki Index
@@ -98,6 +98,11 @@ If you're new to this wiki:
 - [arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10](sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md) — overflow: movable-antenna discrete position (K155)
 - [arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10](sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md) — overflow: GALA QEC; cyber thin (K155)
 - [arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10](sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md) — overflow: PsychoAgent; CCC+Atto (K155)
+- [arxiv-mamalakis-2026-expandable-brain-mri-foundation-model-2608.08319-2026-08-11](sources/arxiv-mamalakis-2026-expandable-brain-mri-foundation-model-2608.08319-2026-08-11.md) — overflow: brain MRI FM; code Watch (K156)
+- [arxiv-sultan-2026-mupix11-signal-integrity-framework-2608.09462-2026-08-11](sources/arxiv-sultan-2026-mupix11-signal-integrity-framework-2608.09462-2026-08-11.md) — overflow: MuPix11 signal integrity (K156)
+- [arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11](sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md) — overflow: replay experiments; CCC thin + gp-replays REFERENCE (K156)
+- [arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11](sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md) — overflow: panel causal; OSINT thin (K156)
+- [arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11](sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md) — overflow: ArchAgent v2; CCC; code Watch (K156)
 
 ### Platform / practitioner news
 

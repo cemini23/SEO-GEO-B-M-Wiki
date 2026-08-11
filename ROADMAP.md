@@ -155,6 +155,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 | 2026-07-30 | K148 ingest: DenseOn/LateOn in-scope + 2 OOD | DenseOn/LateOn→entity+Atto/CCC/SEO hands-on; RND→OSINT+Gambling; axion overflow; pylate/fast-plaid adopt (~7MB); tipdrop/poker/prod SKIP |
 | 2026-07-31 | K149 ingest: 4/4 arXiv API false positives → overflow + CCC/Cyber | IndelFreeAligner+Boo3 overflow-only; ORCA→CCC+Cyber; Seiberg→thin CCC; Atto/tipdrop/poker/prod SKIP |
 | 2026-08-10 | K155 ingest: 3/3 arXiv API false positives → overflow + CCC/Atto/cyber | MA overflow; GALA→cyber; PsychoAgent→CCC+Atto (code Watch); 0 MB adopt; GW/tipdrop/poker/prod SKIP |
+| 2026-08-11 | K156 ingest: 5/5 arXiv API false positives → overflow + CCC/OSINT | brain-MRI+MuPix11 overflow-only; replay→CCC thin + gp-replays REFERENCE; panel causal→OSINT; ArchAgent→CCC (code Watch); 0 MB runtime adopt; GW/tipdrop/poker/prod SKIP |
 
 ---
 

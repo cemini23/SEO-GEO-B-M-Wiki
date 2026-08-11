@@ -161,14 +161,26 @@ related:
   - sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md
   - sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md
   - sweeps/2026-08-10-daily.md
+  - sources/arxiv-mamalakis-2026-expandable-brain-mri-foundation-model-2608.08319-2026-08-11.md
+  - sources/arxiv-sultan-2026-mupix11-signal-integrity-framework-2608.09462-2026-08-11.md
+  - sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md
+  - sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md
+  - sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md
+  - sweeps/2026-08-11-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-10
+updated: 2026-08-11
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-11-daily.md — K156 digest (5/5 OOD; ArchAgent+replay → CCC; panel causal → OSINT)
+- @sources/arxiv-mamalakis-2026-expandable-brain-mri-foundation-model-2608.08319-2026-08-11.md — K156 overflow only (code Watch)
+- @sources/arxiv-sultan-2026-mupix11-signal-integrity-framework-2608.09462-2026-08-11.md — K156 overflow only
+- @sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md — K156 overflow → CCC thin (gp-replays REFERENCE)
+- @sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md — K156 overflow → OSINT thin
+- @sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md — K156 overflow → CCC (code Watch)
 - @sweeps/2026-08-10-daily.md — K155 digest (3/3 OOD; PsychoAgent → CCC+Atto; GALA → cyber)
 - @sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md — K155 overflow only
 - @sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md — K155 overflow → cyber thin

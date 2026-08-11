@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-10
+updated: 2026-08-11
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-11] ingest | K156 arXiv API false-positive batch (5 OOD; ArchAgent+replay → CCC; panel causal → OSINT)
+
+- **Inbox** — 5 PDFs; **0** SEO Adopt; ArchAgent v2 + replay-experiments thin steals → CCC brief; panel causal → OSINT thin; brain-MRI + MuPix11 overflow-only
+- **Overflow** — @sources/arxiv-mamalakis-2026-expandable-brain-mri-foundation-model-2608.08319-2026-08-11.md; @sources/arxiv-sultan-2026-mupix11-signal-integrity-framework-2608.09462-2026-08-11.md; @sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md; @sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md; @sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-11-daily.md
+- **Phase-0** — `scripts/adopt_k156_phase0.sh` (SEO OOD; 0 MB runtime; ≤1.6MB Zenodo gp-replays REFERENCE clone @ `.local/adopts/gp-replays`)
+- **Phase-1** — no SEO wire (0 ADOPT/GO)
+- **Cross-wiki** — CCC ArchAgent+replay brief; OSINT panel-causal brief
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K156)
 
 ## [2026-08-10] brief | cursor-route SEO/GEO marketing pack
 

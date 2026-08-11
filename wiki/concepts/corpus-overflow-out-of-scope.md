@@ -67,13 +67,25 @@ related:
   - sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md
   - sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md
   - sweeps/2026-08-10-daily.md
+  - sources/arxiv-mamalakis-2026-expandable-brain-mri-foundation-model-2608.08319-2026-08-11.md
+  - sources/arxiv-sultan-2026-mupix11-signal-integrity-framework-2608.09462-2026-08-11.md
+  - sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md
+  - sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md
+  - sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md
+  - sweeps/2026-08-11-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 ## Relations
 
+- @sweeps/2026-08-11-daily.md — K156 5/5 OOD (ArchAgent+replay → CCC; panel causal → OSINT)
+- @sources/arxiv-mamalakis-2026-expandable-brain-mri-foundation-model-2608.08319-2026-08-11.md — K156 brain MRI FM (code Watch)
+- @sources/arxiv-sultan-2026-mupix11-signal-integrity-framework-2608.09462-2026-08-11.md — K156 MuPix11 SI
+- @sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md — K156 replay experiments (CCC thin; gp-replays REFERENCE)
+- @sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md — K156 panel causal (OSINT thin)
+- @sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md — K156 ArchAgent v2 (CCC; code Watch)
 - @sweeps/2026-08-10-daily.md — K155 3/3 OOD (PsychoAgent → CCC+Atto; GALA → cyber; MA overflow)
 - @sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md — K155 movable antenna
 - @sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md — K155 GALA QEC
@@ -204,6 +216,11 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md | Discrete MA position design (arXiv 2608.07413) | eess.SP wireless false positive (K155) |
 | @sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md | GALA designer QEC on RNAA (arXiv 2608.07431) | quant-ph; thin cyber (K155) |
 | @sources/arxiv-amanlou-2026-psychoagent-affect-conflict-memory-2608.07438-2026-08-10.md | PsychoAgent affect/conflict memory (arXiv 2608.07438) | LLM agents; CCC+Atto steal; code Watch (K155) |
+| @sources/arxiv-mamalakis-2026-expandable-brain-mri-foundation-model-2608.08319-2026-08-11.md | Continually expandable brain MRI FM (arXiv 2608.08319) | eess.IV medical imaging; code Watch (weights >500MB) (K156) |
+| @sources/arxiv-sultan-2026-mupix11-signal-integrity-framework-2608.09462-2026-08-11.md | MuPix11 signal-integrity framework (arXiv 2608.09462) | physics.ins-det / EE instrumentation false positive (K156) |
+| @sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md | Potentiating events via replay experiments (arXiv 2608.09833) | cs.NE; CCC thin; Zenodo gp-replays MIT REFERENCE clone (K156) |
+| @sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md | Bias-robust panel causal inference (arXiv 2608.09837) | econ; OSINT thin finance brief (K156) |
+| @sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md | ArchAgent v2 data-prefetching (arXiv 2608.09874) | cs.AR agents; CCC steal; code Watch (K156) |
 
 ## Snippets
 

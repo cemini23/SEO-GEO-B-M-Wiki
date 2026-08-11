@@ -47,6 +47,9 @@ venv/
 # --- Third-party tool clones (gitignored) ------------------------------------
 /tools/
 
+# --- Local REFERENCE clones (Phase-0 audit, not runtime-wired) ----------------
+/.local/
+
 # --- Temp scratch ------------------------------------------------------------
 /tmp_*.txt
 /tmp_*.md
