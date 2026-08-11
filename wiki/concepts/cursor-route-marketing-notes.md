@@ -35,6 +35,7 @@ Queue page for marketing **cursor-route** (MIT npm CLI: Cursor brain + DeepSeek 
 | Outlier draft | queued |
 | X thread | queued (5 denser posts; was 7) |
 | Hero GIF | optional / not recorded |
+| GEO FAQ | pasted to README + `llms.txt` (cursor-route repo) |
 
 ### Angles that work
 

@@ -348,7 +348,8 @@ The cursor-route code is open source under MIT. It does not make the worker serv
 - [ ] X thread schedule + optional Article
 - [ ] Record hero GIF when convenient
 - [ ] Soft footer links Atto / GuruWatcher / Cemini
-- [ ] Optional: FAQ on a Cemini landing page using GEO block
+- [x] FAQ on README + `llms.txt` in cemini23/cursor-route (GEO block pasted 2026-08-10)
+- [ ] Optional: same FAQ on a Cemini marketing landing page
 
 ## Sources
 
