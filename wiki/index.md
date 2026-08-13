@@ -103,6 +103,12 @@ If you're new to this wiki:
 - [arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11](sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md) — overflow: replay experiments; CCC thin + gp-replays REFERENCE (K156)
 - [arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11](sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md) — overflow: panel causal; OSINT thin (K156)
 - [arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11](sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md) — overflow: ArchAgent v2; CCC; code Watch (K156)
+- [arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13](sources/arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13.md) — overflow: quantum sensing CS; Cyber thin; CS4QS MIT REFERENCE (K157)
+- [arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13](sources/arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13.md) — overflow: GenAI statistical research; CCC thin (K157)
+- [arxiv-aguillard-2026-muon-edm-improved-limit-2608.11124-2026-08-13](sources/arxiv-aguillard-2026-muon-edm-improved-limit-2608.11124-2026-08-13.md) — overflow: muon EDM direct limit (K157)
+- [arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13](sources/arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13.md) — overflow: hybrid cryptanalysis; Cyber primary; code Watch (K157)
+- [arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13](sources/arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13.md) — overflow: agentic I2V; Image Gen; code Watch (K157)
+- [arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13](sources/arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13.md) — overflow: Morrey problem (K157)
 
 ### Platform / practitioner news
 

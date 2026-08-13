@@ -167,9 +167,16 @@ related:
   - sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md
   - sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md
   - sweeps/2026-08-11-daily.md
+  - sources/arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13.md
+  - sources/arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13.md
+  - sources/arxiv-aguillard-2026-muon-edm-improved-limit-2608.11124-2026-08-13.md
+  - sources/arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13.md
+  - sources/arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13.md
+  - sources/arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13.md
+  - sweeps/2026-08-13-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-11
+updated: 2026-08-13
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -181,6 +188,13 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md — K156 overflow → CCC thin (gp-replays REFERENCE)
 - @sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md — K156 overflow → OSINT thin
 - @sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md — K156 overflow → CCC (code Watch)
+- @sweeps/2026-08-13-daily.md — K157 digest (6/6 OOD; cryptanalysis+CS4QS → Cyber; GenAI stats → CCC; agentic I2V → Image Gen)
+- @sources/arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13.md — K157 overflow → Cyber thin (CS4QS REFERENCE)
+- @sources/arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13.md — K157 overflow → CCC thin
+- @sources/arxiv-aguillard-2026-muon-edm-improved-limit-2608.11124-2026-08-13.md — K157 overflow only
+- @sources/arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13.md — K157 overflow → Cyber primary (code Watch)
+- @sources/arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13.md — K157 overflow → Image Gen (code Watch)
+- @sources/arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13.md — K157 overflow only
 - @sweeps/2026-08-10-daily.md — K155 digest (3/3 OOD; PsychoAgent → CCC+Atto; GALA → cyber)
 - @sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md — K155 overflow only
 - @sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md — K155 overflow → cyber thin

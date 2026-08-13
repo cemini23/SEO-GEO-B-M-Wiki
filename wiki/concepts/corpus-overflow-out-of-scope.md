@@ -73,9 +73,16 @@ related:
   - sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md
   - sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md
   - sweeps/2026-08-11-daily.md
+  - sources/arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13.md
+  - sources/arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13.md
+  - sources/arxiv-aguillard-2026-muon-edm-improved-limit-2608.11124-2026-08-13.md
+  - sources/arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13.md
+  - sources/arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13.md
+  - sources/arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13.md
+  - sweeps/2026-08-13-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-11
+updated: 2026-08-13
 ---
 
 ## Relations
@@ -86,6 +93,13 @@ updated: 2026-08-11
 - @sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md — K156 replay experiments (CCC thin; gp-replays REFERENCE)
 - @sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md — K156 panel causal (OSINT thin)
 - @sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md — K156 ArchAgent v2 (CCC; code Watch)
+- @sweeps/2026-08-13-daily.md — K157 6/6 OOD (cryptanalysis+CS4QS → Cyber; GenAI stats → CCC; agentic I2V → Image Gen)
+- @sources/arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13.md — K157 physics-constrained CS (Cyber thin; CS4QS MIT REFERENCE)
+- @sources/arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13.md — K157 GenAI statistical research (CCC thin)
+- @sources/arxiv-aguillard-2026-muon-edm-improved-limit-2608.11124-2026-08-13.md — K157 muon EDM (overflow only)
+- @sources/arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13.md — K157 capability-adaptive cryptanalysis (Cyber primary; code Watch)
+- @sources/arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13.md — K157 agentic I2V (Image Gen; code Watch)
+- @sources/arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13.md — K157 Morrey problem (overflow only; no-SPDX repo not cloned)
 - @sweeps/2026-08-10-daily.md — K155 3/3 OOD (PsychoAgent → CCC+Atto; GALA → cyber; MA overflow)
 - @sources/arxiv-wang-2026-movable-antenna-discrete-position-2608.07413-2026-08-10.md — K155 movable antenna
 - @sources/arxiv-yang-2026-gala-designer-codes-rnaa-2608.07431-2026-08-10.md — K155 GALA QEC
@@ -221,6 +235,12 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md | Potentiating events via replay experiments (arXiv 2608.09833) | cs.NE; CCC thin; Zenodo gp-replays MIT REFERENCE clone (K156) |
 | @sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md | Bias-robust panel causal inference (arXiv 2608.09837) | econ; OSINT thin finance brief (K156) |
 | @sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md | ArchAgent v2 data-prefetching (arXiv 2608.09874) | cs.AR agents; CCC steal; code Watch (K156) |
+| @sources/arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13.md | Physics-constrained CS quantum sensing (arXiv 2608.11092) | quant-ph; Cyber thin; CS4QS MIT REFERENCE clone (K157) |
+| @sources/arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13.md | GenAI use in statistical research (arXiv 2608.11121) | Statistics lit-review/codegen; CCC thin (K157) |
+| @sources/arxiv-aguillard-2026-muon-edm-improved-limit-2608.11124-2026-08-13.md | Improved muon EDM direct limit (arXiv 2608.11124) | hep-ex false positive (K157) |
+| @sources/arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13.md | Capability-adaptive cryptanalysis (arXiv 2608.12234) | Hybrid classical–quantum cryptanalysis; Cyber primary; code Watch (K157) |
+| @sources/arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13.md | Agentic self-improvement for I2V (arXiv 2608.12290) | cs.CV; Image Gen brief + CCC note; code Watch (K157) |
+| @sources/arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13.md | Morrey's problem R2x4 / R3x3_sym (arXiv 2608.12298) | math.AP false positive; no-SPDX repo not cloned (K157) |
 
 ## Snippets
 

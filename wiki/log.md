@@ -7,6 +7,17 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-08-13] ingest | K157 arXiv API false-positive batch (6 OOD; cryptanalysis+CS4QS → Cyber; GenAI stats → CCC; agentic I2V → Image Gen)
+
+- **Inbox** — 6 PDFs (3 from Aug-12 backlog + 3 new Aug-13); **0** SEO Adopt; cryptanalysis + physics-constrained CS → Cyber brief; GenAI statistical research → CCC brief; agentic I2V → Image Gen brief; muon EDM + Morrey overflow-only
+- **Overflow** — @sources/arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13.md; @sources/arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13.md; @sources/arxiv-aguillard-2026-muon-edm-improved-limit-2608.11124-2026-08-13.md; @sources/arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13.md; @sources/arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13.md; @sources/arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-13-daily.md (+ Aug-12 backlog absorbed note on @sweeps/2026-08-12-daily.md)
+- **Phase-0** — `scripts/adopt_k157_phase0.sh` (SEO OOD; 0 MB runtime; 252KB a-kalev/CS4QS MIT REFERENCE clone @ `.local/adopts/CS4QS`; gbruno16/morrey no-SPDX → not cloned)
+- **Phase-1** — no SEO wire (0 ADOPT/GO)
+- **Cross-wiki** — Cybersecurity cryptanalysis+CS4QS brief; CCC GenAI-stats brief; Image Gen agentic-I2V brief
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K157)
+
 ## [2026-08-11] ingest | K156 arXiv API false-positive batch (5 OOD; ArchAgent+replay → CCC; panel causal → OSINT)
 
 - **Inbox** — 5 PDFs; **0** SEO Adopt; ArchAgent v2 + replay-experiments thin steals → CCC brief; panel causal → OSINT thin; brain-MRI + MuPix11 overflow-only
