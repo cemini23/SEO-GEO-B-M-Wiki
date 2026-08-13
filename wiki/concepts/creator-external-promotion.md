@@ -7,6 +7,8 @@ related:
   - concepts/viral-content-mechanics.md
   - concepts/creator-content-flywheel.md
   - entities/platforms/twitter-x.md
+  - concepts/x-for-you-algorithm-2026.md
+  - sources/xai-x-algorithm-2026-08-13.md
   - entities/platforms/reddit.md
   - entities/platforms/instagram.md
   - entities/platforms/tiktok.md
@@ -32,7 +34,7 @@ related:
   - sources/fanvue-gtm-blueprint-2026.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-08-13
 ---
 
 ## Relations
@@ -43,6 +45,8 @@ updated: 2026-05-08
 - @concepts/viral-content-mechanics.md
 - @concepts/creator-content-flywheel.md
 - @entities/platforms/twitter-x.md
+- @concepts/x-for-you-algorithm-2026.md
+- @sources/xai-x-algorithm-2026-08-13.md
 - @entities/platforms/reddit.md
 - @entities/platforms/instagram.md
 - @entities/platforms/tiktok.md
@@ -94,9 +98,9 @@ Twitter/X is the most creator-friendly platform for promotion:
 | **Bio optimization** | Clear value prop + link to OnlyFans/Linktree | Update monthly |
 | **Polls & interactive** | "which set should I post next?" | 1–2/week |
 
-**Critical rule**: Never put the direct OnlyFans URL in tweets — use "link in bio" text + bio link. Twitter's algorithm deprioritizes tweets with external links.
+**Critical rule**: Prefer "link in bio" over raw URLs in the tweet body. Phoenix has **no negative OpenLink weight** (`+0.2`); copy-link share is the *largest* positive head (20.0). Observed link-post death is `[TENTATIVE]` (lower predicted engagement / client UX), not a published penalty. NSFW-flagged authors are dropped from SimClusters OON. Full playbook: @concepts/x-for-you-algorithm-2026.md.
 
-`[CONFIRMED — sources/twitter-x-creator-guide-2026.md]`: Despite X officially claiming removal of link penalties in October 2025, data shows near-total suppression for non-Premium accounts since March 2026. Suppression achieved through delayed redirects, in-app browsing friction, and engagement-based algorithmic demotion. Premium accounts get 10x more reach than free.
+`[RETRACTED as Phoenix param]` Premium 10× reach. `[TENTATIVE]` March 2026 observational suppression for non-Premium link posts [Source: sources/twitter-x-creator-guide-2026.md].
 
 ### Reddit promotion strategy
 
@@ -159,10 +163,10 @@ Each platform's algorithm rewards different behaviors. Align your promotion stra
 - "Your Algorithm" feature (Dec 2025) means content must consistently satisfy individual users
 
 **X/Twitter algorithm alignment:**
-- "link in bio" tweets outperform direct-link tweets (near-total link suppression for non-Premium since March 2026)
-- Premium accounts get ~10x more reach than free
-- Threads and engagement tweets (replies to big accounts in your niche) build visibility
-- Focus on conversation, not broadcasting
+- Optimize for copy-link / quote / reply / DM, not likes. Phoenix OpenLink weight is **+0.2** (not a penalty). Observed “link posts die” is `[TENTATIVE]` client/P(engagement), not a published tax. `[RETRACTED as Phoenix param]` near-total link suppression + Premium 10× reach.
+- One original per viewer session (author-diversity floor 0.25). Replies/reposts from followed accounts take OON ×0.75.
+- Mutual-follow **originals** get reply weight 20. Follow back people whose For You should keep seeing you.
+- 48h AgeFilter cliff. Full weights: @concepts/x-for-you-algorithm-2026.md. NSFW-flagged authors drop from SimClusters OON — SFW teasers if that path matters.
 
 **YouTube Shorts algorithm alignment:**
 - Satisfaction signals over raw views — watch time and audience retention are primary

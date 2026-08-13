@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-11
+updated: 2026-08-13
 ---
 
 # Wiki Index
@@ -148,7 +148,7 @@ If you're new to this wiki:
 
 ### Creator promotion & marketing
 
-- [tiktok-marketing-2026](sources/tiktok-marketing-2026.md) — TikTok algorithm mechanics, Creativity Program Beta, content strategy, monetization streams, 2026 US deal implications
+- [xai-x-algorithm-2026-08-13](sources/xai-x-algorithm-2026-08-13.md) — xAI For You drop: production Phoenix weights, VF/NSFW rules, Under the Hood (SHA `a389166f`)
 - [instagram-reels-creator-marketing-2026](sources/instagram-reels-creator-marketing-2026.md) — Reels algorithm signals, subscription integration, teaser-to-paywall funnel, income stacking
 - [creator-email-marketing-2026](sources/creator-email-marketing-2026.md) — ESP comparison (sex-work-friendly vs banned), list building strategies, automation flows, 30-day starter plan
 - [youtube-shorts-creator-growth-2026](sources/youtube-shorts-creator-growth-2026.md) — Hybrid strategy (Shorts → subscribers → long-form), conversion data, monetization reality, posting cadence
@@ -230,6 +230,7 @@ If you're new to this wiki:
 - [creator-content-strategy](concepts/creator-content-strategy.md) — what to post where, PPV vs subscription-only mix, posting cadence
 - [creator-retention](concepts/creator-retention.md) — keeping subscribers from churning, DM responsiveness, VIP tiers, win-back campaigns
 - [creator-external-promotion](concepts/creator-external-promotion.md) — driving traffic from Twitter/X, Reddit, TikTok, Instagram to OnlyFans
+- [x-for-you-algorithm-2026](concepts/x-for-you-algorithm-2026.md) — Phoenix production weights + VF/NSFW playbook from Aug 13 2026 open-source drop
 - [ai-assistance-guardrails](concepts/ai-assistance-guardrails.md) — AI assistance guardrails for creators: what NOT to do, what TO do, human-in-the-loop rule, Claude-specific workflow
 - [synthetic-creator-gtm](concepts/synthetic-creator-gtm.md) — four-pillar GTM strategy for launching an AI-generated creator (niche, aesthetic, GEO traffic, conversion/retention, brand deals)
 - [creator-aesthetic-positioning](concepts/creator-aesthetic-positioning.md) — "Imperfect by Design" visual doctrine for synthetic creators; anti-AI-slop trust strategy
@@ -245,6 +246,7 @@ If you're new to this wiki:
 - [federated-daily-research-digest](concepts/federated-daily-research-digest.md) — per-wiki Exa + inbox automation loop (K93 rollout); pairs with `scripts/daily_research_config.yaml`
 - [agent-first-web-atml-framework](concepts/agent-first-web-atml-framework.md) — CCC K119 cross-route: ATML, agents.txt, provenance tiers for GEO citability
 - [x-account-voice-and-format](concepts/x-account-voice-and-format.md) — X Article voice, Cyril style deconstruction, paste protocol, Posts.docx style exemplars
+- [x-for-you-algorithm-2026](concepts/x-for-you-algorithm-2026.md) — Phoenix production weights (also listed under Creator marketing)
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
 - [x-article-cxw-geo-th-postmortem-notes](concepts/x-article-cxw-geo-th-postmortem-notes.md) — Jul 8 CXW/GEO/TH postmortem Article notes (after Jul 6 vindication)
 - [guruwatcher-outlier-x-article-notes](concepts/guruwatcher-outlier-x-article-notes.md) — GuruWatcher Outlier + X Article queue (alert-only newsletter → Discord)

@@ -18,6 +18,8 @@ related:
   - entities/platforms/youtube.md
   - sources/youtube-cemini23-launch-analytics-2026-06-02.md
   - entities/platforms/twitter-x.md
+  - concepts/x-for-you-algorithm-2026.md
+  - sources/xai-x-algorithm-2026-08-13.md
   - "@osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md"
   - "@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md"
   - "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md"
@@ -43,7 +45,7 @@ related:
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 ## Relations
@@ -59,6 +61,7 @@ updated: 2026-08-10
 - @entities/tools/substack-publisher-mcp.md — official Publisher API MCP (read-only analytics after LIVE)
 - @entities/platforms/youtube.md — @Cemini23 video lane (Shorts + long-form)
 - @entities/platforms/twitter-x.md — platform algorithm + engagement signals
+- @concepts/x-for-you-algorithm-2026.md — Aug 2026 Phoenix weights (copy-link / quote / mutual-follow originals)
 - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md — K78 includes @cyrilXBT Obsidian contribution-rate article
 - @osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md — K84 style pass (May 30)
 - @osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md — K88 style pass (May 31)
@@ -188,7 +191,34 @@ Primary deep-read: K78 Post 6 — *How to Build an Obsidian System That Turns Ev
 [Turn — what you do differently, 1–2 sentences.]
 ```
 
-**Opener tweet:** 1–2 lines + link to Article; first reply within 15 min (TL;DR or one workflow).
+**Opener tweet:** 1–2 lines of hook + Article URL. First reply within 15 min is a TL;DR for people who already opened — it is not a For You vehicle (self-posts are filtered; replies do not get the mutual-follow original boost).
+
+### Phoenix distribution protocol (@Cemini23)
+
+Weights and filters: @concepts/x-for-you-algorithm-2026.md (`param.rs` @ `a389166f`, last sync 2026-08-12). This section is the operator posting contract. Account is SFW; skip NSFW/SimClusters-drop tactics.
+
+**Optimize the original for copy-link, quote, reply, and DM share — not likes or profile clicks.** Copy-link weight is 20.0; like is 0.5; profile click is 0. Open-link is +0.2, not a penalty. Do not call Article URLs on the opener a published link tax.
+
+**One original per session.** Author-diversity decays ×0.5 toward a 0.25 floor. Three originals in six seconds (cursor-route Aug 10: 109 / 40 / 46 views) is the anti-pattern. Keep 2–3 Articles/week. Recency is a **48h cliff**, not a 6h half-life.
+
+**What actually moved on this account** (opencli pull 2026-08-13, logged in as Cemini23):
+
+| Post | Shape | Views (at pull) |
+|------|--------|-----------------|
+| Jul 6 CXW Article | URL-only original | 215,801 (39 likes, 11 RTs, 5 replies) |
+| Jul 28 GuruWatcher | Quote of own Article with a hook | 22,820 (URL-only Article opener: 126) |
+| Aug 10 GuruWatcher | Quote of Jul 28 with a hook | 19,300 |
+| Aug 11 Article | URL-only original | 14,706 |
+| Jul 8 CXW/GEO/TH | Hook + Article URL | 1,067 |
+| TL;DR first replies | Self-reply | typically 22–132 |
+
+URL-only Articles can travel when the news *is* the hook (Jul 6). When it is not, a **quote of the Article with copy** beat the bare URL (Jul 28). Do not spray a three-tweet original thread instead of one opener + replies.
+
+**Follow-backs.** Mutual-follow originals get reply weight 5+15=20. Follow back people whose For You should keep seeing Cemini originals. The boost is originals only — not replies or reposts. In-network replies and reposts still take the OON ×0.75 cut.
+
+**Replies to other accounts.** Prefer a quote with one concrete line over reply-spam if the goal is *their* audience seeing you. Replies from followed accounts are scored like OON.
+
+**Under the Hood.** Fetched `https://x.com/i/under_the_hood` via the logged-in Chrome session 2026-08-13. Page: “We're testing this new feature with a small group to collect feedback. When it's more widely available, you'll be able to download your report here.” No JSON. Account age (2020) and July/August original volume clear the stated eligibility bar; the pilot is randomized. Recheck the URL later — do not invent labels.
 
 ### Daily Posts.docx style pass (ongoing)
 
@@ -285,4 +315,7 @@ Update this table on each Posts.docx style pass.
 - Copying Cyril's **Obsidian folder tree** as our Article #3 — we own **git wiki + CI**, not vault PKM
 - Pasting Articles from chat/docx **without paragraph merge** — caused Article #2 mobile layout failure; **K84 @cyrilXBT vault stack post same risk**
 - Chasing Cyril's **daily Article volume** before reply volume exists — format yes, cadence no (2–3/week target)
+- Treating Article URLs on the opener as a Phoenix **link penalty** — OpenLink weight is +0.2; Jul 6 URL-only Article did 215k views
+- Shipping a **three-original thread in one session** (cursor-route Aug 10) — diversity decay; one original + replies instead
+- Expecting the TL;DR **self-reply** to rank in For You — self-posts are filtered; it is for clickers
 - Replying to @0xPhilanthrop **$1M stack** thread with our WC bot — different lane (crypto up/down vs sports LP); quote Gustafssonkotte silent-failure angle instead if engaging PM builders

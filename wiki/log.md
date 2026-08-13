@@ -1,11 +1,26 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-11
+updated: 2026-08-13
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-13] query | Cemini23 Under the Hood + Phoenix posting contract
+
+- **UTH fetch** — logged-in `opencli web read https://x.com/i/under_the_hood` (Cemini23 Chrome session). Waitlist copy only; **no JSON**. SFW account, age 2020, July originals clear the stated bar; pilot is randomized.
+- **Posting contract** — @concepts/x-account-voice-and-format.md § Phoenix distribution protocol (one original/session; copy-link/quote over likes; TL;DR reply is not For You). Observed: Jul 6 URL-only Article 215,801 views vs Aug 10 3-original thread 109/40/46.
+- **Updated** — @concepts/x-for-you-algorithm-2026.md (UTH miss); @concepts/creator-external-promotion.md (retract stale link-tax / 10× Premium bullets); @concepts/cursor-route-marketing-notes.md (no 3-original spray)
+
+## [2026-08-13] ingest | xAI x-algorithm For You expansion (production weights)
+
+- **Source** — @sources/xai-x-algorithm-2026-08-13.md (`xai-org/x-algorithm` @ `a389166f`, Apache-2.0; params synced 2026-08-12)
+- **Concept** — @concepts/x-for-you-algorithm-2026.md (operator playbook)
+- **Updated** — @entities/platforms/twitter-x.md (retract 150× / 10× Premium / 6h half-life); @sources/twitter-x-creator-guide-2026.md; @concepts/creator-external-promotion.md; @concepts/x-account-voice-and-format.md; @wiki/index.md
+- **Headline weights** — copy-link share 20.0; reply 5.0 (mutual-follow original 20.0); report −234; AgeFilter 48h; OON ×0.75; NSFW SimClusters OON drop
+- **Companion** — TechCrunch 2026-08-13 Under the Hood (`https://x.com/i/under_the_hood`)
+- **Phase-0 / Phase-1** — none (read-only algorithm transparency; no tool adopt)
 
 ## [2026-08-13] ingest | K157 arXiv API false-positive batch (6 OOD; cryptanalysis+CS4QS → Cyber; GenAI stats → CCC; agentic I2V → Image Gen)
 

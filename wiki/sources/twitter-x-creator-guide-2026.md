@@ -7,13 +7,17 @@ read_status: read
 maturity: draft
 related:
   - entities/platforms/twitter-x.md
+  - sources/xai-x-algorithm-2026-08-13.md
+  - concepts/x-for-you-algorithm-2026.md
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-08-13
 ---
 
 ## Relations
 
 - @entities/platforms/twitter-x.md
+- @sources/xai-x-algorithm-2026-08-13.md — Aug 13 2026 code drop (supersedes weight folklore below)
+- @concepts/x-for-you-algorithm-2026.md
 
 ## Raw Concept
 
@@ -23,14 +27,13 @@ Researched Twitter/X creator monetization and promotion strategies for 2026. Sea
 
 ### Algorithm Overview (2026)
 
-In January 2026, xAI replaced the legacy ranking system with a **Grok-powered transformer model** that reads every post, watches every video, and predicts engagement with higher precision than the old system [Source: https://opentweet.io/blog/x-algorithm-secrets-2026 (retrieved 2026-05-08)].
+**Superseded for weights / lifecycle:** @sources/xai-x-algorithm-2026-08-13.md. The May 2026 blog synthesis below mixed Phoenix architecture with **2023 Heavy Ranker folklore**. Keep for provenance; do not treat 150× / 10× Premium / 6h half-life as current.
 
-The algorithm uses **145,000 topic clusters** ("SimClusters") that group users by shared interests [Source: https://opentweet.io/blog/x-algorithm-secrets-2026 (retrieved 2026-05-08)].
+In January 2026, xAI replaced the legacy ranking system with a **Grok-powered transformer model** (Phoenix) [Source: https://opentweet.io/blog/x-algorithm-secrets-2026 (retrieved 2026-05-08)]. Aug 13 2026 published production weights.
 
-**Three stages of a tweet:**
-1. **Initial Screening (0-30 min)**: Algorithm selects 1,500 candidate tweets (50% from accounts you follow, 50% algorithmic). Based on engagement velocity, author credibility, content type. Shown to 100-1,000 "test users." If test engagement >5%, recommended to more people [Source: https://blog.wenhaofree.com/en/posts/articles/x-algorithm-2026-core-rules/ (retrieved 2026-05-08)].
-2. **Small Traffic (30 min-6 hours)**: Broader audience reach based on Stage 1 results.
-3. **Large Traffic (6 hours+)**: Exponential growth or sink.
+`[RETRACTED as Phoenix]` **145,000 SimClusters as the ranker** — SimClusters is an OON candidate source in the 2026 tree, not the scorer.
+
+`[RETRACTED as Phoenix]` three-stage 1,500-candidate 50/50 test-user funnel (2023 Home Mixer numbers).
 
 **Engagement Rate Formula:**
 ```
@@ -42,11 +45,11 @@ Engagement Rate = (Likes + Reposts + Replies) / Views × 100%
 - Viral: 15%+
 [Source: https://blog.wenhaofree.com/en/posts/articles/x-algorithm-2026-core-rules/ (retrieved 2026-05-08)]
 
-**Engagement signal weights** (from open-sourced algorithm code):
-- A reply is worth **150x a like** [Source: https://posteverywhere.ai/blog/how-the-x-twitter-algorithm-works (retrieved 2026-05-08)].
-- Free accounts get **10x less reach** than Premium accounts [Source: https://posteverywhere.ai/blog/how-the-x-twitter-algorithm-works (retrieved 2026-05-08)].
+**Engagement signal weights** `[RETRACTED as Phoenix — 2023 MaskNet / blog]`:
+- A reply is worth **150x a like** — actual Aug 2026: reply 5.0 / like 0.5 = **10×**; mutual-follow originals **40×**.
+- Free accounts get **10x less reach** than Premium — **NO_EVIDENCE** in `param.rs`.
 
-**Time decay**: Posts lose half their potential visibility score every **6 hours** [Source: https://sproutsocial.com/insights/twitter-algorithm/ (retrieved 2026-05-08)].
+**Time decay** `[RETRACTED]`: 6-hour half-life. For You **AgeFilter drops >48h**.
 
 **External link penalty**: Despite X officially claiming removal of link penalties in October 2025, data shows **near-total suppression for non-Premium accounts** since March 2026. Suppression now achieved through delayed redirects, in-app browsing friction, and engagement-based algorithmic demotion [Source: https://opentweet.io/blog/x-algorithm-secrets-2026 (retrieved 2026-05-08)].
 
