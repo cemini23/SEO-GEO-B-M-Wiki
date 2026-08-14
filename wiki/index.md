@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-13
+updated: 2026-08-14
 ---
 
 # Wiki Index
@@ -109,6 +109,9 @@ If you're new to this wiki:
 - [arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13](sources/arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13.md) — overflow: hybrid cryptanalysis; Cyber primary; code Watch (K157)
 - [arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13](sources/arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13.md) — overflow: agentic I2V; Image Gen; code Watch (K157)
 - [arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13](sources/arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13.md) — overflow: Morrey problem (K157)
+- [arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14](sources/arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14.md) — overflow: AmalthAI CH CV; Atto primary; AGPL REFERENCE (K158)
+- [arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14](sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md) — overflow: DD-RNO airfoil operator (K158)
+- [arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14](sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md) — overflow: TabSOM tabular-to-image; Image Gen thin (K158)
 
 ### Platform / practitioner news
 

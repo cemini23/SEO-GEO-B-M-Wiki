@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-13
+updated: 2026-08-14
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-14] ingest | K158 arXiv API false-positive batch (3 OOD; AmalthAI → Atto)
+
+- **Inbox** — 3 PDFs; **0** SEO Adopt; AmalthAI Atto primary + CCC thin (AGPL REFERENCE, runtime wont_wire); TabSOM → Image Gen thin; DD-RNO overflow only
+- **Overflow** — @sources/arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14.md; @sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md; @sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-14-daily.md
+- **Phase-0** — `scripts/adopt_k158_phase0.sh` (SEO OOD; 0 MB runtime; ~20MB AGPL AmalthAI REFERENCE @ `.local/adopts/AmalthAI`)
+- **Phase-1** — no SEO wire (0 ADOPT/GO)
+- **Cross-wiki** — Atto AmalthAI brief (K158); CCC AmalthAI+TabSOM; Image Gen TabSOM
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K158)
 
 ## [2026-08-13] query | Cemini23 Under the Hood + Phoenix posting contract
 

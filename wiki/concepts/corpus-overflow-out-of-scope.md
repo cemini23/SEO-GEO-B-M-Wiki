@@ -80,9 +80,13 @@ related:
   - sources/arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13.md
   - sources/arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13.md
   - sweeps/2026-08-13-daily.md
+  - sources/arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14.md
+  - sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md
+  - sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md
+  - sweeps/2026-08-14-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-13
+updated: 2026-08-14
 ---
 
 ## Relations
@@ -93,6 +97,10 @@ updated: 2026-08-13
 - @sources/arxiv-ferguson-2026-potentiating-events-replay-experiments-2608.09833-2026-08-11.md — K156 replay experiments (CCC thin; gp-replays REFERENCE)
 - @sources/arxiv-alexopoulos-2026-bias-robust-panel-causal-2608.09837-2026-08-11.md — K156 panel causal (OSINT thin)
 - @sources/arxiv-gonzalez-2026-archagent-v2-data-prefetch-2608.09874-2026-08-11.md — K156 ArchAgent v2 (CCC; code Watch)
+- @sweeps/2026-08-14-daily.md — K158 3/3 OOD (AmalthAI → Atto primary + CCC thin; TabSOM → Image Gen thin; DD-RNO overflow only)
+- @sources/arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14.md — K158 AmalthAI (Atto primary; AGPL REFERENCE clone; runtime wont_wire)
+- @sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md — K158 DD-RNO (overflow only; no code URL)
+- @sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md — K158 TabSOM (Image Gen thin; code Watch)
 - @sweeps/2026-08-13-daily.md — K157 6/6 OOD (cryptanalysis+CS4QS → Cyber; GenAI stats → CCC; agentic I2V → Image Gen)
 - @sources/arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13.md — K157 physics-constrained CS (Cyber thin; CS4QS MIT REFERENCE)
 - @sources/arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13.md — K157 GenAI statistical research (CCC thin)
@@ -241,6 +249,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-dey-2026-capability-adaptive-cryptanalysis-2608.12234-2026-08-13.md | Capability-adaptive cryptanalysis (arXiv 2608.12234) | Hybrid classical–quantum cryptanalysis; Cyber primary; code Watch (K157) |
 | @sources/arxiv-tyagi-2026-agentic-i2v-self-improvement-2608.12290-2026-08-13.md | Agentic self-improvement for I2V (arXiv 2608.12290) | cs.CV; Image Gen brief + CCC note; code Watch (K157) |
 | @sources/arxiv-agazzi-2026-morrey-problem-r2x4-r3x3sym-2608.12298-2026-08-13.md | Morrey's problem R2x4 / R3x3_sym (arXiv 2608.12298) | math.AP false positive; no-SPDX repo not cloned (K157) |
+| @sources/arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14.md | AmalthAI open-source CV platform (arXiv 2608.13343) | cs.CV cultural-heritage; Atto primary (Grad-CAM + HITL) + CCC thin; AGPL REFERENCE clone (K158) |
+| @sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md | DD-RNO airfoil flow neural operator (arXiv 2608.13490) | physics.flu-dyn false positive; overflow only (K158) |
+| @sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md | TabSOM tabular-to-image SOM (arXiv 2608.13513) | cs.CV/cs.LG; Image Gen thin; code Watch (K158) |
 
 ## Snippets
 
