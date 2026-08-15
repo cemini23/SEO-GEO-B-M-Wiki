@@ -12,9 +12,10 @@ related:
   - concepts/google-business-profile.md
   - concepts/canonical-business-facts-geo.md
   - concepts/federated-daily-research-digest.md
+  - sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md
 maturity: validated
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-08-15
 ---
 
 ## Relations
@@ -27,6 +28,7 @@ updated: 2026-07-18
 - @concepts/google-business-profile.md - hours/NAP must match site for decision reliability
 - @concepts/canonical-business-facts-geo.md - single source of truth for agent-cited facts
 - @concepts/federated-daily-research-digest.md - K142 ingest
+- @sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md — K237 SparkToro: owned site remains the permanent home in a zero-click era
 
 ## Raw Concept
 
@@ -58,6 +60,8 @@ Three axes from Elnaffar & Rashidi (ICEME 2026), mapped to barbershop / local se
 ### Evidence note
 
 Paper POC: **89.3% vs 49.3%** agent task PASS. `[TENTATIVE]` — lab controlled site, not multi-location field. Treat as design checklist, not ranking guarantee.
+
+SparkToro (2026-08-14) argues the same from the traffic side: fewer clicks do not retire the website. It stays the **only permanent home** for content that search and AI tools can cite (@sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md). Brief: `briefs/2026-08-14_k237-sparktoro-zero-click.md`. `[TENTATIVE]`
 
 ## Snippets
 

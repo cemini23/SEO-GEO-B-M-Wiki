@@ -1,11 +1,19 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-14
+updated: 2026-08-15
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-15] brief | K237 SparkToro zero-click → wiki fill-out
+
+- **Brief** — `briefs/2026-08-14_k237-sparktoro-zero-click.md` (local; gitignored) routed from OSINT RSS
+- **Source** — @sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md
+- **Updated** — @concepts/agent-ready-website-local-bm.md, @concepts/citation-verification-aeo.md, @concepts/generative-engine-optimization.md, @concepts/geo-visibility-measurement.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-15-daily.md
+- **Sweep** — Aug-15 arXiv inbox empty (K158 dupes); no Phase-0/1
+- **Thesis** — fewer clicks ≠ retire the owned site; it stays the permanent home AI tools cite `[TENTATIVE]`
 
 ## [2026-08-14] ingest | K158 arXiv API false-positive batch (3 OOD; AmalthAI → Atto)
 

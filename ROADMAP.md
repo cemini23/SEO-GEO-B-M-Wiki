@@ -158,6 +158,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 | 2026-08-11 | K156 ingest: 5/5 arXiv API false positives → overflow + CCC/OSINT | brain-MRI+MuPix11 overflow-only; replay→CCC thin + gp-replays REFERENCE; panel causal→OSINT; ArchAgent→CCC (code Watch); 0 MB runtime adopt; GW/tipdrop/poker/prod SKIP |
 | 2026-08-13 | K157 ingest: 6/6 arXiv API false positives → overflow + Cyber/CCC/Image Gen | muon-EDM+Morrey overflow-only; cryptanalysis+CS4QS→Cyber; GenAI-stats→CCC; agentic-I2V→Image Gen (code Watch); 0 MB runtime adopt (252KB CS4QS REFERENCE); GW/tipdrop/poker/prod SKIP |
 | 2026-08-14 | K158 ingest: 3/3 arXiv API false positives → overflow + Atto/CCC/Image Gen | AmalthAI→Atto (AGPL REFERENCE ~20MB, wont_wire); TabSOM→Image Gen; DD-RNO overflow-only; 0 MB runtime; GW/tipdrop/poker/prod SKIP |
+| 2026-08-15 | K237 SparkToro zero-click brief filed into wiki | Owned site as permanent home for GEO/AEO citation; pairs HousingWire K134; `[TENTATIVE]` RSS/teaser |
 
 ---
 

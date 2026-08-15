@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 
 # Wiki Index
@@ -115,6 +115,8 @@ If you're new to this wiki:
 
 ### Platform / practitioner news
 
+- [newsletter-rss-sparktoro-2026-08-14-zero-click](sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md) — SparkToro: website still the permanent home in zero-click (K237)
+
 - [searchengineland-2026-google-llm-patent-entity-characterization-480625](sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md) — Google LLM patent entity characterization; webpages as evidence (2026-06-27 digest)
 - [techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06](sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md) — Google “Good SEO is good GEO”; llms.txt skip; GSC AI reports (2026-06-27 digest)
 - [housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29](sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md) — zero-click AEO; GBP as AI data feed (2026-06-30 digest)
@@ -225,6 +227,7 @@ If you're new to this wiki:
 - [GuruWatcher — Outlier + X Article pack](briefs/2026-07-27_guruwatcher-outlier-x-article.md) — Alert-only newsletter levels → Discord; fluid claim ledger; private repo; Outlier + X Article spines — guruwatcher, outlier, agents
 - [Atto — Outlier family story pack](briefs/2026-08-08_outlier-weekly-atto-family-story.md) — NJ → Nonno → dual citizenship family arc → Approve-only kit sell ($299); Outlier only — atto, outlier, genealogy
 - [cursor-route — SEO/GEO marketing pack](briefs/2026-08-10_cursor-route-seo-geo-marketing.md) — Cursor+DeepSeek+Grok parallel orchestrator; Outlier/X/GEO spines; npm live 0.1.1 — agents, oss, deepseek
+- [SparkToro zero-click — owned site as permanent home](briefs/2026-08-14_k237-sparktoro-zero-click.md) — website still the citable GEO/AEO hub as clicks fall (K237)
 
 ### Creator marketing (new vertical)
 

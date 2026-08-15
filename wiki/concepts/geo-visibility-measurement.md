@@ -30,6 +30,7 @@ related:
   - concepts/ai-citation-sourcing-geo.md
   - sweeps/2026-06-26-daily.md
   - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
+  - sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md
   - entities/tools/geo-optimizer-skill.md
   - sweeps/2026-06-30-daily.md
   - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
@@ -50,7 +51,7 @@ related:
   - sweeps/2026-08-04-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-08-04
+updated: 2026-08-15
 ---
 
 ## Relations
@@ -90,6 +91,7 @@ updated: 2026-08-04
 - @concepts/ai-citation-sourcing-geo.md — earned-media source audit before share wins
 - @sweeps/2026-06-26-daily.md — K130 ingest
 - @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — zero-click KPI shift; track citation not clicks (K134)
+- @sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md — K237: owned site still the permanent home as clicks fall
 - @sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md — answer-surface form taxonomy (K135)
 - @entities/tools/geo-optimizer-skill.md — third-party audit CLI; directional only
 - @sweeps/2026-06-30-daily.md — K134 ingest
@@ -210,7 +212,7 @@ See @concepts/llm-brand-bias-geo-competition.md.
 
 Hands-on Ranqo-style tier baseline: `briefs/2026-06-19_k123-ranqo-geo-visibility-baseline-hands-on.md`.
 
-**Zero-click KPI:** @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — pair GSC AI impressions with citation prevalence; declining clicks ≠ declining AI visibility. Hands-on: `briefs/2026-06-30_k134-ai-citation-vs-click-audit-hands-on.md` `[NEEDS VERIFICATION 2026-06-30]`.
+**Zero-click KPI:** @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md — pair GSC AI impressions with citation prevalence; declining clicks ≠ declining AI visibility. Hands-on: `briefs/2026-06-30_k134-ai-citation-vs-click-audit-hands-on.md` `[NEEDS VERIFICATION 2026-06-30]`. SparkToro (2026-08-14) same direction: keep the owned site as the citable home (@sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md).
 
 ### Answer-surface forms [STEAL from HubSpot 2026]
 

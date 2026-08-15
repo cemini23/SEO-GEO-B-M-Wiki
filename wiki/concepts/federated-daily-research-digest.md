@@ -178,14 +178,18 @@ related:
   - sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md
   - sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md
   - sweeps/2026-08-14-daily.md
+  - sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md
+  - sweeps/2026-08-15-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-14
+updated: 2026-08-15
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-15-daily.md — empty arXiv inbox (K158 dupes); K237 SparkToro zero-click brief filed
+- @sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md — K237 owned-site / zero-click
 - @sweeps/2026-08-14-daily.md — K158 digest (3/3 OOD; AmalthAI → Atto primary + CCC thin; TabSOM → Image Gen thin; DD-RNO overflow only)
 - @sources/arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14.md — K158 AmalthAI (AGPL REFERENCE clone; runtime wont_wire)
 - @sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md — K158 DD-RNO overflow only

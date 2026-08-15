@@ -84,6 +84,7 @@ related:
   - concepts/canonical-business-facts-geo.md
   - sweeps/2026-06-28-daily.md
   - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
+  - sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md
   - entities/tools/geo-optimizer-skill.md
   - sweeps/2026-06-30-daily.md
   - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
@@ -117,11 +118,12 @@ related:
   - sweeps/2026-07-30-daily.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-07-30
+updated: 2026-08-15
 ---
 
 ## Relations
 
+- @sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md — K237: owned site remains the permanent home as clicks fall
 - @sweeps/2026-07-30-daily.md — K148 DenseOn/LateOn open retrieval
 - @sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md — K148 open dense + late-interaction
 - @entities/tools/denseon-lateon.md — K148 Phase-0 (weights Watch; pylate Adopt)
@@ -320,6 +322,8 @@ Journalism summary: @sources/techwyse-2026-google-good-seo-is-good-geo-kraham-20
 ### Zero-click discovery — citation beats click [TENTATIVE — practitioner journalism]
 
 @sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md (HousingWire, 2026-06-29): **~68%** of Google searches ended without a click (early 2026); **83%** with AI Overviews; **93%** in AI Mode. AEO optimizes for **being cited in answers**, not only SERP clicks. GBP treated as **tier-one data feed** to Gemini/AI Overviews; cross-platform NAP consistency drives citation confidence. Hands-on: `briefs/2026-06-30_k134-ai-citation-vs-click-audit-hands-on.md`. Stats via SparkToro/Similarweb in article `[NEEDS VERIFICATION 2026-06-30]` on barbershop queries.
+
+SparkToro whiteboard (2026-08-14): fewer visits do not retire the website — it remains the **permanent home** for content that search and AI tools cite (@sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md). Brief: `briefs/2026-08-14_k237-sparktoro-zero-click.md`. `[TENTATIVE]`
 
 **FOSS audit CLI:** @entities/tools/geo-optimizer-skill.md — MIT `geo-optimizer-skill` (CONDITIONAL-GO): use schema/citability modules; ignore `llms.txt` per @sources/google-search-central-2026-ai-optimization-guide.md.
 
