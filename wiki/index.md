@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-15
+updated: 2026-08-17
 ---
 
 # Wiki Index
@@ -112,6 +112,8 @@ If you're new to this wiki:
 - [arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14](sources/arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14.md) — overflow: AmalthAI CH CV; Atto primary; AGPL REFERENCE (K158)
 - [arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14](sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md) — overflow: DD-RNO airfoil operator (K158)
 - [arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14](sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md) — overflow: TabSOM tabular-to-image; Image Gen thin (K158)
+- [arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17](sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md) — overflow: SVP/GapSVP NP-hardness; Cyber thin + CCC thin (K159)
+- [arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17](sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md) — overflow: mixed identities group theory (K159)
 
 ### Platform / practitioner news
 

@@ -84,9 +84,12 @@ related:
   - sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md
   - sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md
   - sweeps/2026-08-14-daily.md
+  - sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md
+  - sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md
+  - sweeps/2026-08-17-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-14
+updated: 2026-08-17
 ---
 
 ## Relations
@@ -101,6 +104,9 @@ updated: 2026-08-14
 - @sources/arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14.md — K158 AmalthAI (Atto primary; AGPL REFERENCE clone; runtime wont_wire)
 - @sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md — K158 DD-RNO (overflow only; no code URL)
 - @sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md — K158 TabSOM (Image Gen thin; code Watch)
+- @sweeps/2026-08-17-daily.md — K159 2/2 OOD (SVP hardness → Cyber thin + CCC thin; mixed identities overflow only)
+- @sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md — K159 SVP/GapSVP NP-hardness (Cyber thin PQC watch; CCC thin LLM-proof hygiene)
+- @sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md — K159 mixed identities (overflow only; no code)
 - @sweeps/2026-08-13-daily.md — K157 6/6 OOD (cryptanalysis+CS4QS → Cyber; GenAI stats → CCC; agentic I2V → Image Gen)
 - @sources/arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13.md — K157 physics-constrained CS (Cyber thin; CS4QS MIT REFERENCE)
 - @sources/arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13.md — K157 GenAI statistical research (CCC thin)
@@ -252,6 +258,8 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-chatzisavvas-2026-amalthai-cultural-heritage-cv-2608.13343-2026-08-14.md | AmalthAI open-source CV platform (arXiv 2608.13343) | cs.CV cultural-heritage; Atto primary (Grad-CAM + HITL) + CCC thin; AGPL REFERENCE clone (K158) |
 | @sources/arxiv-mehta-2026-dd-rno-airfoil-flow-2608.13490-2026-08-14.md | DD-RNO airfoil flow neural operator (arXiv 2608.13490) | physics.flu-dyn false positive; overflow only (K158) |
 | @sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md | TabSOM tabular-to-image SOM (arXiv 2608.13513) | cs.CV/cs.LG; Image Gen thin; code Watch (K158) |
+| @sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md | Deterministic GapSVP NP-hardness (arXiv 2608.14529) | cs.CC lattice crypto; Cyber thin (PQC watch) + CCC thin (LLM-proof hygiene) (K159) |
+| @sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md | Mixed identities for simple locally finite groups (arXiv 2608.14537) | math.GR false positive; overflow only (K159) |
 
 ## Snippets
 

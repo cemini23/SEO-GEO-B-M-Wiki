@@ -180,14 +180,20 @@ related:
   - sweeps/2026-08-14-daily.md
   - sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md
   - sweeps/2026-08-15-daily.md
+  - sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md
+  - sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md
+  - sweeps/2026-08-17-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-15
+updated: 2026-08-17
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-17-daily.md — K159 digest (2/2 OOD; SVP hardness → Cyber thin + CCC thin; mixed identities overflow only)
+- @sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md — K159 SVP/GapSVP hardness (Cyber thin PQC; CCC thin LLM-proof hygiene)
+- @sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md — K159 mixed identities overflow only
 - @sweeps/2026-08-15-daily.md — empty arXiv inbox (K158 dupes); K237 SparkToro zero-click brief filed
 - @sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md — K237 owned-site / zero-click
 - @sweeps/2026-08-14-daily.md — K158 digest (3/3 OOD; AmalthAI → Atto primary + CCC thin; TabSOM → Image Gen thin; DD-RNO overflow only)

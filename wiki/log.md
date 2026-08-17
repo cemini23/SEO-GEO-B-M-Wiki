@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-15
+updated: 2026-08-17
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-17] ingest | K159 arXiv API false-positive batch (2 OOD; SVP hardness → Cyber/CCC)
+
+- **Inbox** — 2 PDFs; **0** SEO Adopt; Hair–Sahai deterministic GapSVP_p NP-hardness → Cyber thin (PQC watch) + CCC thin (LLM-proof hygiene); Bradford mixed identities overflow only
+- **Overflow** — @sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md; @sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-17-daily.md
+- **Phase-0** — `scripts/adopt_k159_phase0.sh` (SEO OOD; 0 MB runtime)
+- **Phase-1** — no SEO wire (0 ADOPT/GO)
+- **Cross-wiki** — Cyber GapSVP/PQC brief (K159); CCC LLM-generated-proofs brief (K159)
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K159)
 
 ## [2026-08-15] brief | K237 SparkToro zero-click → wiki fill-out
 
