@@ -7,6 +7,39 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-08-17] ops | X Money fiat row on Support + wiki READMEs
+
+- **Canon** — CCC `SUPPORT.md`: X Money Request [@Cemini23](https://x.com/Cemini23) as the fiat / US rail above EVM, SOL, Polymarket `r=`
+- **Mirrors** — this README + OSINT / Gambling / Cyber / Game Dev / 3D / Image gen READMEs + CCC README + cursor-route `SUPPORT.md` / README
+- **Note** — no static pay URL claimed; scan the Request QR in the X app. Chain addresses remain donation-only.
+
+## [2026-08-17] LIVE | SPCX vs Anthropic X Article
+
+- **Article** — https://x.com/Cemini23/status/2089373803625304476
+- **Opener (pinned)** — https://x.com/Cemini23/status/2089373935347343492 — default copy, no @elonmusk, $SPCX
+- **Notes** — @concepts/x-article-spcx-anthropic-notes.md flipped LIVE
+- **Voice table** — @concepts/x-account-voice-and-format.md Published Article arc + style exemplar
+- **Paste** — `briefs/2026-08-17_spcx-anthropic-x-article-paste.md` status LIVE
+- Operator-confirmed this morning; profile scrape then Article URL confirm. Article 268 views / opener 155 views at ~14:02 ET (logged-out). Desk footer + CFTC landed. One opener reply (@Wizard_Of_Alt).
+
+## [2026-08-17] brief | SPCX vs Anthropic X Article paste (hard route + GPT Sol)
+
+- **Paste** — `briefs/2026-08-17_spcx-anthropic-x-article-paste.md` SHIP-READY after GPT Sol nits (~1,380 words)
+- **Route** — hard: Grok implement from SIP `agent-toolkit/briefs/handoffs/2026-08-17_spcx-anthropic-x-article.md`; verify PASS (`_route_runs/20260817T151948Z_hard.md`)
+- **Sol** — SHIP WITH NITS; cut 13F/Tesla detour; collapsed break/limitation; tighter marks + Q2 + Bot; opener/replies rewritten
+- **Notes** — @concepts/x-article-spcx-anthropic-notes.md status flipped; hero vs text-only still operator
+- **Gemini prompt** — in paste brief + notes page
+- **Published** — see LIVE entry above (operator posted the morning of 2026-08-17).
+
+## [2026-08-17] brief | SPCX vs Anthropic X Article packet (OSINT handoff)
+
+- **Notes** — @concepts/x-article-spcx-anthropic-notes.md (queue, titles, Cyril map, guardrails)
+- **Brief** — `briefs/2026-08-17_spcx-anthropic-x-article.md` (gitignored; extra tape, Grok Bot, 13Fs, CSA, Tesla/PM)
+- **PDF** — `briefs/2026-08-17_spcx-anthropic-x-article.pdf` (2-page friend note)
+- **Lane** — markets practitioner; observational; CFTC 4.41; not paste-ready
+- **Updated** — @concepts/x-account-voice-and-format.md, @concepts/x-article-cxw-geo-th-postmortem-notes.md, @concepts/x-article-uw-polymarket-bridge-notes.md, @wiki/index.md
+- **Source wiki** — OSINT desk pack 2026-08-17
+
 ## [2026-08-17] ingest | K159 arXiv API false-positive batch (2 OOD; SVP hardness → Cyber/CCC)
 
 - **Inbox** — 2 PDFs; **0** SEO Adopt; Hair–Sahai deterministic GapSVP_p NP-hardness → Cyber thin (PQC watch) + CCC thin (LLM-proof hygiene); Bradford mixed identities overflow only
