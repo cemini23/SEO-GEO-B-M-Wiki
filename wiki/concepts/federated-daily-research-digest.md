@@ -183,14 +183,24 @@ related:
   - sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md
   - sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md
   - sweeps/2026-08-17-daily.md
+  - sources/arxiv-prasanna-2026-distributed-inference-wan-bandwidth-2608.14967-2026-08-18.md
+  - sources/arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18.md
+  - sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md
+  - sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md
+  - sweeps/2026-08-18-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-17
+updated: 2026-08-18
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-18-daily.md — K160 digest (4/4 OOD; impression-share → thin GEO steal; compliance → Cyber primary + CCC thin; job-seeker → OSINT thin; WAN → CCC thin)
+- @sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md — K160 Meta impression-share (thin GEO steal)
+- @sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md — K160 compliance-detector rule blindness (Cyber primary + CCC thin)
+- @sources/arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18.md — K160 job-seeker bias RCT (OSINT thin)
+- @sources/arxiv-prasanna-2026-distributed-inference-wan-bandwidth-2608.14967-2026-08-18.md — K160 WAN inference bandwidth (CCC thin)
 - @sweeps/2026-08-17-daily.md — K159 digest (2/2 OOD; SVP hardness → Cyber thin + CCC thin; mixed identities overflow only)
 - @sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md — K159 SVP/GapSVP hardness (Cyber thin PQC; CCC thin LLM-proof hygiene)
 - @sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md — K159 mixed identities overflow only

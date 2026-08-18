@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# K160 Phase-0 - SEO digest (4 OOD; Malmir impression-share → thin GEO steal; Sadhu rule-blindness → Cyber primary + CCC thin; Crépon RCT → OSINT thin; Prasanna WAN → CCC thin)
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+echo "K160 Phase-0 audits (SEO wiki)"
+echo "=============================="
+echo ""
+echo "1) Malmir et al. impression share prediction (2608.16872, Meta RecSys '26) — OUT-OF-SCOPE cs.IR"
+echo "   Steal: thin GEO (citation-share win ≠ downstream utility if citations shift to off-intent"
+echo "   buckets; pairs Wang 2608.02446 engagement≠relevance). NOT Google Ads 'impression share'."
+echo "   No code URL (proprietary A/B data) → no clone"
+echo "2) Sadhu et al. compliance-detector rule blindness (2608.16852, Lexsi Labs) — OUT-OF-SCOPE cs.AI"
+echo "   Steal: Cyber primary (compliance-detector audit; advisory, no PoC) + CCC thin (rule blindness / ICS)."
+echo "   Default Watch / 0 MB. FujitsuResearch/LLM-policy-violation-detection is related-work, NOT this"
+echo "   paper's artifact — do not clone as K160 code"
+echo "3) Crépon–Frot–Gaillac job-seeker bias RCT (2608.16849, France Travail n=52,465) — OUT-OF-SCOPE econ.GN"
+echo "   Steal: OSINT thin (belief-profile targeting + RCT). No code → no clone"
+echo "4) Prasanna C WAN bandwidth for distributed inference (2608.14967, Lightstorm) — OUT-OF-SCOPE cs.DC"
+echo "   Steal: CCC thin (KV transfer vs recompute; agentic compounding). No code URL → no clone"
+echo ""
+echo "GuruWatcher / TipDrop / poker / prod: SKIP"
+echo "Local SEO adopt disk this pass: 0 MB"
+echo "Phase-1 SEO: no new wire (0 ADOPT/GO)"
+echo "Root: $ROOT"

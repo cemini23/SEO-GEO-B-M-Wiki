@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 # Wiki Index
@@ -114,6 +114,10 @@ If you're new to this wiki:
 - [arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14](sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md) — overflow: TabSOM tabular-to-image; Image Gen thin (K158)
 - [arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17](sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md) — overflow: SVP/GapSVP NP-hardness; Cyber thin + CCC thin (K159)
 - [arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17](sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md) — overflow: mixed identities group theory (K159)
+- [arxiv-prasanna-2026-distributed-inference-wan-bandwidth-2608.14967-2026-08-18](sources/arxiv-prasanna-2026-distributed-inference-wan-bandwidth-2608.14967-2026-08-18.md) — overflow: WAN inference bandwidth; CCC thin (K160)
+- [arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18](sources/arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18.md) — overflow: job-seeker bias RCT; OSINT thin (K160)
+- [arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18](sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md) — overflow: compliance-detector rule blindness; Cyber primary + CCC thin (K160)
+- [arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18](sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md) — overflow: Meta impression-share; thin GEO steal (K160)
 
 ### Platform / practitioner news
 

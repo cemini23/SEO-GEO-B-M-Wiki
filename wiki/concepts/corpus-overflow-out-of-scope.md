@@ -87,9 +87,14 @@ related:
   - sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md
   - sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md
   - sweeps/2026-08-17-daily.md
+  - sources/arxiv-prasanna-2026-distributed-inference-wan-bandwidth-2608.14967-2026-08-18.md
+  - sources/arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18.md
+  - sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md
+  - sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md
+  - sweeps/2026-08-18-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 ## Relations
@@ -107,6 +112,11 @@ updated: 2026-08-17
 - @sweeps/2026-08-17-daily.md — K159 2/2 OOD (SVP hardness → Cyber thin + CCC thin; mixed identities overflow only)
 - @sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md — K159 SVP/GapSVP NP-hardness (Cyber thin PQC watch; CCC thin LLM-proof hygiene)
 - @sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md — K159 mixed identities (overflow only; no code)
+- @sweeps/2026-08-18-daily.md — K160 4/4 OOD (impression-share → thin GEO steal; compliance → Cyber primary + CCC thin; job-seeker → OSINT thin; WAN → CCC thin)
+- @sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md — K160 Meta impression-share (thin GEO steal; not Google Ads)
+- @sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md — K160 compliance-detector rule blindness (Cyber primary + CCC thin; Watch / 0 MB)
+- @sources/arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18.md — K160 job-seeker bias RCT (OSINT thin; no code)
+- @sources/arxiv-prasanna-2026-distributed-inference-wan-bandwidth-2608.14967-2026-08-18.md — K160 WAN inference bandwidth (CCC thin; no code URL)
 - @sweeps/2026-08-13-daily.md — K157 6/6 OOD (cryptanalysis+CS4QS → Cyber; GenAI stats → CCC; agentic I2V → Image Gen)
 - @sources/arxiv-kalev-2026-physics-constrained-cs-quantum-sensing-2608.11092-2026-08-13.md — K157 physics-constrained CS (Cyber thin; CS4QS MIT REFERENCE)
 - @sources/arxiv-morosin-2026-genai-statistical-research-2608.11121-2026-08-13.md — K157 GenAI statistical research (CCC thin)
@@ -260,6 +270,10 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-chushig-muzo-2026-tabsom-tabular-to-image-2608.13513-2026-08-14.md | TabSOM tabular-to-image SOM (arXiv 2608.13513) | cs.CV/cs.LG; Image Gen thin; code Watch (K158) |
 | @sources/arxiv-hair-2026-deterministic-gapsvp-hardness-2608.14529-2026-08-17.md | Deterministic GapSVP NP-hardness (arXiv 2608.14529) | cs.CC lattice crypto; Cyber thin (PQC watch) + CCC thin (LLM-proof hygiene) (K159) |
 | @sources/arxiv-bradford-2026-mixed-identities-locally-finite-groups-2608.14537-2026-08-17.md | Mixed identities for simple locally finite groups (arXiv 2608.14537) | math.GR false positive; overflow only (K159) |
+| @sources/arxiv-prasanna-2026-distributed-inference-wan-bandwidth-2608.14967-2026-08-18.md | Distributed AI inference WAN bandwidth (arXiv 2608.14967) | cs.DC false positive; CCC thin (KV transfer vs recompute; agentic compounding) (K160) |
+| @sources/arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18.md | Targeting support using job seekers' biases (arXiv 2608.16849) | econ.GN RCT; OSINT thin (belief-profile targeting + RCT) (K160) |
+| @sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md | What do compliance detectors read? (arXiv 2608.16852) | cs.AI guard/probe audit; Cyber primary + CCC thin; Watch / 0 MB (K160) |
+| @sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md | Impression share prediction offline eval (arXiv 2608.16872) | cs.IR / RecSys; thin GEO steal (citation-share vs utility); not Google Ads (K160) |
 
 ## Snippets
 

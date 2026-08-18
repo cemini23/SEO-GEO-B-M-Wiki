@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-17
+updated: 2026-08-18
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-18] ingest | K160 arXiv API false-positive batch (4 OOD; impression-share → thin GEO steal)
+
+- **Inbox** — 4 PDFs; **0** SEO Adopt; Malmir Meta impression-share → thin GEO steal (citation-share ≠ downstream utility; pairs Wang 2608.02446); Sadhu compliance-detector rule blindness → Cyber primary + CCC thin (Watch / 0 MB); Crépon job-seeker bias RCT → OSINT thin; Prasanna WAN inference → CCC thin
+- **Overflow** — @sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md; @sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md; @sources/arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18.md; @sources/arxiv-prasanna-2026-distributed-inference-wan-bandwidth-2608.14967-2026-08-18.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @concepts/geo-visibility-measurement.md, @wiki/index.md, @sweeps/2026-08-18-daily.md
+- **Phase-0** — `scripts/adopt_k160_phase0.sh` (SEO OOD; 0 MB runtime)
+- **Phase-1** — no SEO wire (0 ADOPT/GO)
+- **Cross-wiki** — Cyber rule-blindness brief (K160); CCC ICS/rule-blindness + WAN brief (K160); OSINT job-seeker RCT brief (K160)
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K160)
 
 ## [2026-08-17] ops | X Money fiat row on Support + wiki READMEs
 

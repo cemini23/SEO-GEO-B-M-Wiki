@@ -49,13 +49,17 @@ related:
   - sweeps/2026-07-30-daily.md
   - sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md
   - sweeps/2026-08-04-daily.md
+  - sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md
+  - sweeps/2026-08-18-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-08-15
+updated: 2026-08-18
 ---
 
 ## Relations
 
+- @sweeps/2026-08-18-daily.md — K160 Meta impression-share (thin steal)
+- @sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md — citation-share win ≠ downstream utility if citations shift to off-intent buckets
 - @sweeps/2026-08-04-daily.md — K151 Pinterest VLM relevance (thin steal)
 - @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md — engagement ≠ semantic relevance guardrail
 - @sweeps/2026-07-30-daily.md — K148 DenseOn/LateOn open retrieval
@@ -119,6 +123,10 @@ All three are **random variables** — report as estimates with uncertainty, not
 ### Engagement vs semantic relevance (guardrail) `[TENTATIVE]`
 
 Industrial search A/B practice (Pinterest RecSys ’26 / arXiv 2608.02446) separates **engagement** (clicks/saves) from **semantic relevance** of top slots: personalization can lift engagement while injecting irrelevant results. When measuring AI Overviews / answer-engine citation, treat citation-share wins that come with off-intent answers as a failed guardrail — scale LLM/VLM-as-judge only after human-label alignment. See @sources/arxiv-wang-2026-vlm-relevance-web-scale-search-2608.02446-2026-08-04.md.
+
+### Citation-share wins vs downstream utility (guardrail) `[TENTATIVE]`
+
+Meta's RecSys '26 impression-share task (@sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md) generalizes the Wang 2608.02446 guardrail from *relevance* to *bucket distribution*: offline metrics (for ranking, predictive accuracy; for GEO, raw citation share/count) can improve while impressions — or citations — redistribute across objective buckets toward off-intent surfaces, degrading downstream utility. Treat a citation-share win as real only if the citations land on on-intent answers, not just anywhere.
 
 ### Why single-run tests mislead `[CONFIRMED in consumer-product study]`
 
