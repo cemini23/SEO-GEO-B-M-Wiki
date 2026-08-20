@@ -92,13 +92,23 @@ related:
   - sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md
   - sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md
   - sweeps/2026-08-18-daily.md
+  - sources/arxiv-madin-2026-gbp-collective-ranking-patrol-swarm-2608.17690-2026-08-20.md
+  - sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md
+  - sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md
+  - sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md
+  - sweeps/2026-08-20-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 ## Relations
 
+- @sweeps/2026-08-20-daily.md — K161 4/4 OOD (GBP swarm → CCC thin; CELS → CCC/OSINT thin + MIT REFERENCE; helium overflow only; PGFS++ magnet-output → CCC thin)
+- @sources/arxiv-madin-2026-gbp-collective-ranking-patrol-swarm-2608.17690-2026-08-20.md — K161 GBP patrol swarm (CCC thin)
+- @sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md — K161 CELS GIS site cost (CCC/OSINT thin; MIT REFERENCE ~2MB)
+- @sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md — K161 LHS 1140 b helium (overflow only)
+- @sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md — K161 PGFS++ magnet-output (CCC thin)
 - @sweeps/2026-08-11-daily.md — K156 5/5 OOD (ArchAgent+replay → CCC; panel causal → OSINT)
 - @sources/arxiv-mamalakis-2026-expandable-brain-mri-foundation-model-2608.08319-2026-08-11.md — K156 brain MRI FM (code Watch)
 - @sources/arxiv-sultan-2026-mupix11-signal-integrity-framework-2608.09462-2026-08-11.md — K156 MuPix11 SI
@@ -274,6 +284,10 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18.md | Targeting support using job seekers' biases (arXiv 2608.16849) | econ.GN RCT; OSINT thin (belief-profile targeting + RCT) (K160) |
 | @sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md | What do compliance detectors read? (arXiv 2608.16852) | cs.AI guard/probe audit; Cyber primary + CCC thin; Watch / 0 MB (K160) |
 | @sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md | Impression share prediction offline eval (arXiv 2608.16872) | cs.IR / RecSys; thin GEO steal (citation-share vs utility); not Google Ads (K160) |
+| @sources/arxiv-madin-2026-gbp-collective-ranking-patrol-swarm-2608.17690-2026-08-20.md | GBP collective ranking in patrol swarm (arXiv 2608.17690) | cs.RO false positive; CCC thin (dual-purpose graph; noise-graceful consensus) (K161) |
+| @sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md | Cosmic Explorer CELS site cost (arXiv 2608.19114) | astro-ph GIS; CCC/OSINT thin; MIT REFERENCE ~2MB wont_wire (K161) |
+| @sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md | LHS 1140 b helium JWST (arXiv 2608.19120) | astro-ph.EP false positive; overflow only (K161) |
+| @sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md | PGFS++ magnet-output molecular RL (arXiv 2608.19121) | cs.LG; CCC thin (magnet-output reward-hack); GPS++ ≠ PGFS++ (K161) |
 
 ## Snippets
 

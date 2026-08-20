@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-18
+updated: 2026-08-20
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-20] ingest | K161 arXiv API false-positive batch (4 OOD; GBP swarm + CELS + helium + PGFS++)
+
+- **Inbox** — 4 PDFs; **0** SEO Adopt; Madin GBP patrol swarm → CCC thin; Datrier CELS → CCC/OSINT thin + MIT REFERENCE ~2 MB (wont_wire); Gressier helium → overflow only; Zhang PGFS++ magnet-output → CCC thin (GPS++ ≠ PGFS++)
+- **Overflow** — @sources/arxiv-madin-2026-gbp-collective-ranking-patrol-swarm-2608.17690-2026-08-20.md; @sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md; @sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md; @sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-20-daily.md
+- **Phase-0** — `scripts/adopt_k161_phase0.sh` (CELS REFERENCE ~2 MB; no SEO runtime)
+- **Phase-1** — no SEO wire (0 ADOPT/GO)
+- **Cross-wiki** — CCC GBP-consensus + magnet-output brief (K161); OSINT CELS GIS site-cost brief (K161)
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K161)
 
 ## [2026-08-18] ingest | K160 arXiv API false-positive batch (4 OOD; impression-share → thin GEO steal)
 

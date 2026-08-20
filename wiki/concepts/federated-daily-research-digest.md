@@ -188,14 +188,24 @@ related:
   - sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md
   - sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md
   - sweeps/2026-08-18-daily.md
+  - sources/arxiv-madin-2026-gbp-collective-ranking-patrol-swarm-2608.17690-2026-08-20.md
+  - sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md
+  - sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md
+  - sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md
+  - sweeps/2026-08-20-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-18
+updated: 2026-08-20
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-20-daily.md — K161 digest (4/4 OOD; GBP swarm → CCC thin; CELS → CCC/OSINT thin; helium overflow only; PGFS++ magnet-output → CCC thin)
+- @sources/arxiv-madin-2026-gbp-collective-ranking-patrol-swarm-2608.17690-2026-08-20.md — K161 GBP patrol swarm (CCC thin)
+- @sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md — K161 CELS (CCC/OSINT thin; MIT REFERENCE)
+- @sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md — K161 helium exoplanet (overflow only)
+- @sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md — K161 PGFS++ magnet-output (CCC thin)
 - @sweeps/2026-08-18-daily.md — K160 digest (4/4 OOD; impression-share → thin GEO steal; compliance → Cyber primary + CCC thin; job-seeker → OSINT thin; WAN → CCC thin)
 - @sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md — K160 Meta impression-share (thin GEO steal)
 - @sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md — K160 compliance-detector rule blindness (Cyber primary + CCC thin)

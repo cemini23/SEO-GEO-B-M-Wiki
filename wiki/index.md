@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 # Wiki Index
@@ -118,6 +118,10 @@ If you're new to this wiki:
 - [arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18](sources/arxiv-crepon-2026-job-seeker-bias-targeting-rct-2608.16849-2026-08-18.md) — overflow: job-seeker bias RCT; OSINT thin (K160)
 - [arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18](sources/arxiv-sadhu-2026-compliance-detectors-rule-blindness-2608.16852-2026-08-18.md) — overflow: compliance-detector rule blindness; Cyber primary + CCC thin (K160)
 - [arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18](sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md) — overflow: Meta impression-share; thin GEO steal (K160)
+- [arxiv-madin-2026-gbp-collective-ranking-patrol-swarm-2608.17690-2026-08-20](sources/arxiv-madin-2026-gbp-collective-ranking-patrol-swarm-2608.17690-2026-08-20.md) — overflow: GBP patrol swarm; CCC thin (K161)
+- [arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20](sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md) — overflow: CELS GIS site cost; CCC/OSINT thin; MIT REFERENCE (K161)
+- [arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20](sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md) — overflow: LHS 1140 b helium JWST (K161)
+- [arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20](sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md) — overflow: PGFS++ magnet-output; CCC thin (K161)
 
 ### Platform / practitioner news
 
@@ -233,6 +237,7 @@ If you're new to this wiki:
 - [GuruWatcher — Outlier + X Article pack](briefs/2026-07-27_guruwatcher-outlier-x-article.md) — Alert-only newsletter levels → Discord; fluid claim ledger; private repo; Outlier + X Article spines — guruwatcher, outlier, agents
 - [Atto — Outlier family story pack](briefs/2026-08-08_outlier-weekly-atto-family-story.md) — NJ → Nonno → dual citizenship family arc → Approve-only kit sell ($299); Outlier only — atto, outlier, genealogy
 - [cursor-route — SEO/GEO marketing pack](briefs/2026-08-10_cursor-route-seo-geo-marketing.md) — Cursor+DeepSeek+Grok parallel orchestrator; Outlier/X/GEO spines; npm live 0.1.1 — agents, oss, deepseek
+- [SPCX vs Anthropic — X Article research pack](briefs/2026-08-17_spcx-anthropic-x-article.md) — `[LIVE 2026-08-17]` relative-value Article; paste `briefs/2026-08-17_spcx-anthropic-x-article-paste.md` — spcx, anthropic, grok-bot, x-article
 - [SparkToro zero-click — owned site as permanent home](briefs/2026-08-14_k237-sparktoro-zero-click.md) — website still the citable GEO/AEO hub as clicks fall (K237)
 
 ### Creator marketing (new vertical)
@@ -261,6 +266,7 @@ If you're new to this wiki:
 - [x-for-you-algorithm-2026](concepts/x-for-you-algorithm-2026.md) — Phoenix production weights (also listed under Creator marketing)
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
 - [x-article-cxw-geo-th-postmortem-notes](concepts/x-article-cxw-geo-th-postmortem-notes.md) — Jul 8 CXW/GEO/TH postmortem Article notes (after Jul 6 vindication)
+- [x-article-spcx-anthropic-notes](concepts/x-article-spcx-anthropic-notes.md) — SPCX cheap versus Anthropic X Article **LIVE** 2026-08-17
 - [guruwatcher-outlier-x-article-notes](concepts/guruwatcher-outlier-x-article-notes.md) — GuruWatcher Outlier + X Article queue (alert-only newsletter → Discord)
 - [atto-outlier-family-story-notes](concepts/atto-outlier-family-story-notes.md) — Atto Outlier family-story queue (2026-08-08; X deferred)
 - [outlier-weekly-issue3-world-cup-bot-notes](concepts/outlier-weekly-issue3-world-cup-bot-notes.md) — Issue 3 launch queue (2026-06-03)

@@ -160,6 +160,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 | 2026-08-14 | K158 ingest: 3/3 arXiv API false positives → overflow + Atto/CCC/Image Gen | AmalthAI→Atto (AGPL REFERENCE ~20MB, wont_wire); TabSOM→Image Gen; DD-RNO overflow-only; 0 MB runtime; GW/tipdrop/poker/prod SKIP |
 | 2026-08-15 | K237 SparkToro zero-click brief filed into wiki | Owned site as permanent home for GEO/AEO citation; pairs HousingWire K134; `[TENTATIVE]` RSS/teaser |
 | 2026-08-17 | K159 ingest: 2/2 arXiv API false positives → overflow + Cyber/CCC | SVP/GapSVP hardness→Cyber thin (PQC watch) + CCC thin (LLM-proof hygiene); mixed identities overflow-only; 0 MB runtime; GW/tipdrop/poker/prod SKIP |
+| 2026-08-20 | K161 ingest: 4/4 arXiv API false positives → overflow + CCC/OSINT thin + CELS REFERENCE | Madin GBP swarm→CCC thin; Datrier CELS→CCC/OSINT thin (MIT ~2MB REFERENCE wont_wire); Gressier helium→overflow only; Zhang PGFS++ magnet-output→CCC thin (GPS++≠PGFS++); 0 SEO Adopt; GW/tipdrop/poker/prod SKIP |
 | 2026-08-18 | K160 ingest: 4/4 arXiv API false positives → overflow + thin GEO steal + Cyber/CCC/OSINT | Malmir impression-share→thin GEO steal (citation-share ≠ utility); Sadhu rule-blindness→Cyber primary + CCC thin (Watch/0MB); Crépon job-seeker RCT→OSINT thin; Prasanna WAN→CCC thin; 0 MB runtime; GW/tipdrop/poker/prod SKIP |
 
 ---
