@@ -7,6 +7,17 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-08-21] ingest | K162 arXiv API false-positive batch (3 OOD; CVaR portfolio + CLEVER cache + Pandora's Router)
+
+- **Inbox** — 3 PDFs; **0** SEO Adopt; Hu/Pesenti/Shi CVaR dynamic portfolio → OSINT thin (terminal CVaR ⇒ asymmetric state-dependent de-risking; GW SKIP); Kulkarni et al. CLEVER cache eviction → CCC thin (LFU default; raw hit ≠ answer-substitutable 1.1–2.2% vs 51–60%; no public GitHub → Watch / 0 MB); Fisch/Eisenstein Pandora's Router → CCC primary steal (VoI before paying for better estimate; ©2026 Google no clone)
+- **Overflow** — @sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md; @sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md; @sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-21-daily.md
+- **Phase-0** — `scripts/adopt_k162_phase0.sh` (echo-only; 0 MB runtime)
+- **Phase-1** — no SEO wire (0 ADOPT/GO)
+- **Cross-wiki** — CCC Pandora-routing + cache-eviction brief (K162); OSINT CVaR dynamic-portfolio brief (K162)
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K162)
+
 ## [2026-08-21] ops | Hyperliquid referral row on Support + wiki READMEs
 
 - **Canon** — CCC `SUPPORT.md`: Hyperliquid [app.hyperliquid.xyz/join/CEMINI23](https://app.hyperliquid.xyz/join/CEMINI23) below Polymarket `r=`

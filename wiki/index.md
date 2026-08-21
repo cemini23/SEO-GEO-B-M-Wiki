@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-20
+updated: 2026-08-21
 ---
 
 # Wiki Index
@@ -122,6 +122,9 @@ If you're new to this wiki:
 - [arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20](sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md) — overflow: CELS GIS site cost; CCC/OSINT thin; MIT REFERENCE (K161)
 - [arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20](sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md) — overflow: LHS 1140 b helium JWST (K161)
 - [arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20](sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md) — overflow: PGFS++ magnet-output; CCC thin (K161)
+- [arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21](sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md) — overflow: CVaR dynamic portfolio; OSINT thin; GW SKIP (K162)
+- [arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21](sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md) — overflow: CLEVER cache eviction; CCC thin (K162)
+- [arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21](sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md) — overflow: Pandora's Router; CCC primary steal; no clone (K162)
 
 ### Platform / practitioner news
 

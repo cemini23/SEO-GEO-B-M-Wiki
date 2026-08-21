@@ -193,14 +193,22 @@ related:
   - sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md
   - sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md
   - sweeps/2026-08-20-daily.md
+  - sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md
+  - sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md
+  - sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md
+  - sweeps/2026-08-21-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-20
+updated: 2026-08-21
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-21-daily.md — K162 digest (3/3 OOD; CVaR portfolio → OSINT thin + GW SKIP; CLEVER cache eviction → CCC thin; Pandora's Router → CCC primary steal)
+- @sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md — K162 CVaR dynamic portfolio (OSINT thin; GW SKIP)
+- @sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md — K162 CLEVER cache eviction (CCC thin; LFU default + quality-adjusted hit rate)
+- @sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md — K162 Pandora's Router (CCC primary steal; no clone)
 - @sweeps/2026-08-20-daily.md — K161 digest (4/4 OOD; GBP swarm → CCC thin; CELS → CCC/OSINT thin; helium overflow only; PGFS++ magnet-output → CCC thin)
 - @sources/arxiv-madin-2026-gbp-collective-ranking-patrol-swarm-2608.17690-2026-08-20.md — K161 GBP patrol swarm (CCC thin)
 - @sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md — K161 CELS (CCC/OSINT thin; MIT REFERENCE)

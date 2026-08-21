@@ -97,13 +97,21 @@ related:
   - sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md
   - sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md
   - sweeps/2026-08-20-daily.md
+  - sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md
+  - sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md
+  - sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md
+  - sweeps/2026-08-21-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-20
+updated: 2026-08-21
 ---
 
 ## Relations
 
+- @sweeps/2026-08-21-daily.md — K162 3/3 OOD (CVaR portfolio → OSINT thin + GW SKIP; CLEVER cache eviction → CCC thin; Pandora's Router → CCC primary steal)
+- @sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md — K162 CVaR dynamic portfolio (OSINT thin; GW SKIP)
+- @sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md — K162 CLEVER cache eviction (CCC thin; LFU default + quality-adjusted hit rate)
+- @sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md — K162 Pandora's Router (CCC primary steal; ©2026 Google no clone)
 - @sweeps/2026-08-20-daily.md — K161 4/4 OOD (GBP swarm → CCC thin; CELS → CCC/OSINT thin + MIT REFERENCE; helium overflow only; PGFS++ magnet-output → CCC thin)
 - @sources/arxiv-madin-2026-gbp-collective-ranking-patrol-swarm-2608.17690-2026-08-20.md — K161 GBP patrol swarm (CCC thin)
 - @sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md — K161 CELS GIS site cost (CCC/OSINT thin; MIT REFERENCE ~2MB)
@@ -288,6 +296,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-datrier-2026-cosmic-explorer-cels-site-cost-2608.19114-2026-08-20.md | Cosmic Explorer CELS site cost (arXiv 2608.19114) | astro-ph GIS; CCC/OSINT thin; MIT REFERENCE ~2MB wont_wire (K161) |
 | @sources/arxiv-gressier-2026-lhs1140b-helium-jwst-2608.19120-2026-08-20.md | LHS 1140 b helium JWST (arXiv 2608.19120) | astro-ph.EP false positive; overflow only (K161) |
 | @sources/arxiv-zhang-2026-pgfs-plus-plus-magnet-output-2608.19121-2026-08-20.md | PGFS++ magnet-output molecular RL (arXiv 2608.19121) | cs.LG; CCC thin (magnet-output reward-hack); GPS++ ≠ PGFS++ (K161) |
+| @sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md | Dynamic portfolio optimization under terminal CVaR (arXiv 2608.20179) | math.OC quant finance; OSINT thin (state-dependent de-risking); GW SKIP (K162) |
+| @sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md | CLEVER semantic-cache eviction study (arXiv 2608.20280) | cs.LG serving; CCC thin (LFU default; quality-adjusted hit rate); no public GitHub (K162) |
+| @sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md | Pandora's AI Model Routing Box (arXiv 2608.20316) | cs.LG routing; CCC primary steal (/route VoI); ©2026 Google no clone (K162) |
 
 ## Snippets
 
