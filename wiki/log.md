@@ -1,11 +1,17 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-20
+updated: 2026-08-21
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-21] ops | Hyperliquid referral row on Support + wiki READMEs
+
+- **Canon** — CCC `SUPPORT.md`: Hyperliquid [app.hyperliquid.xyz/join/CEMINI23](https://app.hyperliquid.xyz/join/CEMINI23) below Polymarket `r=`
+- **Mirrors** — this README + OSINT / Gambling / Cyber / Game Dev / 3D / Image gen READMEs + CCC README + cursor-route `SUPPORT.md` / README + toolkit READMEs (wikilint, vet, phase0, ara-schema, agent-toolkit-demo, world-cup-bot, Easy-Review)
+- **Note** — referral only; donation addresses unchanged.
 
 ## [2026-08-20] ingest | K161 arXiv API false-positive batch (4 OOD; GBP swarm + CELS + helium + PGFS++)
 
