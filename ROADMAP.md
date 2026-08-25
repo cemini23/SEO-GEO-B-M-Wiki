@@ -138,6 +138,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-25 | K163 ingest: 6/6 arXiv API false positives → overflow + thin GEO steal + CCC/Cyber/OSINT | Iannelli event-time confounding→OSINT thin + thin GEO steal (episode-selection guardrail on geo-visibility-measurement; burstcheck no repo); Lu DIAGGUARD trajectory RCA→CCC primary (Acc@1 43.5%→52.5%; ground-then-verify); TurboBias 2.0→overflow only (no NeMo clone); Stein malware FSCIL→Cyber primary (LoRA+SSL+prototype; no code URL); EVE flare/ozone→overflow only; Chimera multi-vector→CCC thin (iidyc/Chimera null SPDX → NO-GO clone); 0 SEO Adopt; 0 MB runtime; GW/tipdrop/poker/prod SKIP |
 | 2026-05-07 | Workspace scaffolded (HEAVY mode) | Operator's primary research hub for two-barbershop SEO/GEO/web/social ops; populated before handoff |
 | 2026-05-07 | `prompts/github-repo-eval.md` shipped | Reusable Phase-0 audit prompt for FOSS local-SEO tool evaluation; unblocks operator dropping browser-tab links |
 | 2026-05-07 | `claude_desktop_config.json.example` shipped | Friend-facing template — drops into `~/Library/Application Support/Claude/claude_desktop_config.json` to wire up filesystem + Brave + Playwright + Context7 MCPs |

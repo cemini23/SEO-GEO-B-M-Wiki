@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-21
+updated: 2026-08-25
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-25] ingest | K163 arXiv API false-positive batch (6 OOD; event-time confounding → thin GEO steal)
+
+- **Inbox** — 6 PDFs (3 held over from 2026-08-24 + 3 fetched tonight); **0** SEO Adopt; Iannelli/Ai event-time confounding → OSINT thin (episode-selection / endogenous time zero; burstcheck no public GitHub) + **thin GEO steal** (post-AI-citation activity ≠ causal effect; compare similar episodes with vs without event); Lu et al. DIAGGUARD trajectory RCA → CCC primary (final-answer Acc@1 hides failed propagation reconstruction; ground-then-verify 43.5%→52.5%; no repo); Bataev et al. TurboBias 2.0 ASR → overflow only (no NeMo clone); Stein et al. malware FSCIL → Cyber primary (LoRA + frozen SSL backbone + prototype head; no code URL); Crouse et al. EVE flare/ozone → overflow only; Chen et al. Chimera multi-vector → CCC thin (late-interaction serving; `iidyc/Chimera` null SPDX → NO-GO clone)
+- **Overflow** — @sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md; @sources/arxiv-lu-2026-trajectory-level-rca-diagguard-2608.21310-2026-08-25.md; @sources/arxiv-bataev-2026-turbobias-2-streaming-asr-2608.21343-2026-08-25.md; @sources/arxiv-stein-2026-malware-fscil-lora-packets-2608.23536-2026-08-25.md; @sources/arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25.md; @sources/arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @concepts/geo-visibility-measurement.md (event-time guardrail), @wiki/index.md, @sweeps/2026-08-25-daily.md, @sweeps/2026-08-24-daily.md (K163 note)
+- **Phase-0** — `scripts/adopt_k163_phase0.sh` (echo-only; 0 MB runtime)
+- **Phase-1** — no SEO wire (concept-page steal only: geo-visibility-measurement event-time paragraph)
+- **Cross-wiki** — CCC DIAGGUARD + Chimera brief (K163); Cyber malware-FSCIL + DIAGGUARD brief (K163); OSINT event-time confounding brief (K163)
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K163); 08-22/08-23 dupes-only — no invented ingest
 
 ## [2026-08-21] ingest | K162 arXiv API false-positive batch (3 OOD; CVaR portfolio + CLEVER cache + Pandora's Router)
 

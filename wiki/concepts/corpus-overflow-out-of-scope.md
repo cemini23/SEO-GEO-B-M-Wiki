@@ -101,13 +101,27 @@ related:
   - sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md
   - sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md
   - sweeps/2026-08-21-daily.md
+  - sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md
+  - sources/arxiv-lu-2026-trajectory-level-rca-diagguard-2608.21310-2026-08-25.md
+  - sources/arxiv-bataev-2026-turbobias-2-streaming-asr-2608.21343-2026-08-25.md
+  - sources/arxiv-stein-2026-malware-fscil-lora-packets-2608.23536-2026-08-25.md
+  - sources/arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25.md
+  - sources/arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25.md
+  - sweeps/2026-08-25-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-21
+updated: 2026-08-25
 ---
 
 ## Relations
 
+- @sweeps/2026-08-25-daily.md — K163 6/6 OOD (event-time confounding → OSINT thin + thin GEO steal; DIAGGUARD → CCC primary; TurboBias overflow only; malware FSCIL → Cyber primary; EVE flare overflow only; Chimera → CCC thin, null SPDX no clone)
+- @sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md — K163 event-time confounding (OSINT thin + thin GEO steal; burstcheck no public repo)
+- @sources/arxiv-lu-2026-trajectory-level-rca-diagguard-2608.21310-2026-08-25.md — K163 DIAGGUARD trajectory RCA (CCC primary; no repo)
+- @sources/arxiv-bataev-2026-turbobias-2-streaming-asr-2608.21343-2026-08-25.md — K163 TurboBias 2.0 ASR (overflow only; no NeMo clone)
+- @sources/arxiv-stein-2026-malware-fscil-lora-packets-2608.23536-2026-08-25.md — K163 malware FSCIL (Cyber primary; no code URL)
+- @sources/arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25.md — K163 EVE flare/ozone (overflow only)
+- @sources/arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25.md — K163 Chimera multi-vector (CCC thin; null SPDX NO-GO clone)
 - @sweeps/2026-08-21-daily.md — K162 3/3 OOD (CVaR portfolio → OSINT thin + GW SKIP; CLEVER cache eviction → CCC thin; Pandora's Router → CCC primary steal)
 - @sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md — K162 CVaR dynamic portfolio (OSINT thin; GW SKIP)
 - @sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md — K162 CLEVER cache eviction (CCC thin; LFU default + quality-adjusted hit rate)
@@ -299,6 +313,12 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md | Dynamic portfolio optimization under terminal CVaR (arXiv 2608.20179) | math.OC quant finance; OSINT thin (state-dependent de-risking); GW SKIP (K162) |
 | @sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md | CLEVER semantic-cache eviction study (arXiv 2608.20280) | cs.LG serving; CCC thin (LFU default; quality-adjusted hit rate); no public GitHub (K162) |
 | @sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md | Pandora's AI Model Routing Box (arXiv 2608.20316) | cs.LG routing; CCC primary steal (/route VoI); ©2026 Google no clone (K162) |
+| @sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md | Event-Time Confounding Under Bursty Human Dynamics (arXiv 2608.21294) | cs causal inference; OSINT thin (event-study bias) + thin GEO steal (episode-selection guardrail); burstcheck no public repo (K163) |
+| @sources/arxiv-lu-2026-trajectory-level-rca-diagguard-2608.21310-2026-08-25.md | Beyond Fault Localization: Trajectory-Level RCA (arXiv 2608.21310) | cs.SE AIOps; CCC primary (trajectory-eval + DIAGGUARD ground-then-verify); no repo (K163) |
+| @sources/arxiv-bataev-2026-turbobias-2-streaming-asr-2608.21343-2026-08-25.md | TurboBias 2.0 streaming context-biasing ASR (arXiv 2608.21343) | eess.AS false positive; overflow only; no NeMo clone (K163) |
+| @sources/arxiv-stein-2026-malware-fscil-lora-packets-2608.23536-2026-08-25.md | Adapter-Based FSCIL for Malicious Packet Recognition (arXiv 2608.23536) | cs.CR; Cyber primary (FSCIL + LoRA); no public code URL (K163) |
+| @sources/arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25.md | Preparing for the Early eVolution Explorer (arXiv 2608.23548) | astro-ph.EP false positive; overflow only; no code (K163) |
+| @sources/arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25.md | Chimera GPU-CPU multi-vector retrieval (arXiv 2608.23553) | cs.IR serving; CCC thin (late-interaction infra); null SPDX → NO-GO clone (K163) |
 
 ## Snippets
 

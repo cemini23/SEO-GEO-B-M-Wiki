@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# K163 Phase-0 - SEO digest (6 OOD; Iannelli event-time → OSINT thin + thin GEO steal; DIAGGUARD → CCC primary;
+# TurboBias overflow only; malware FSCIL → Cyber primary; EVE flare overflow only; Chimera → CCC thin, null SPDX)
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+echo "K163 Phase-0 audits (SEO wiki)"
+echo "=============================="
+echo ""
+echo "1) Iannelli/Ai event-time confounding under bursty human dynamics (2608.21294) — OUT-OF-SCOPE causal inference"
+echo "   Steal: OSINT thin (event-study / episode-selection bias) + thin GEO steal (endogenous time zero ⇒"
+echo "   post-AI-citation activity ≠ causal effect; compare similar episodes with vs without the event)."
+echo "   Tool 'burstcheck' named in paper but no public GitHub → Watch / 0 MB (do NOT invent a repo URL)"
+echo "2) Lu et al. trajectory-level LLM agents for microservice RCA (2608.21310) — OUT-OF-SCOPE cs.SE"
+echo "   Steal: CCC primary (final-answer Acc@1 hides failed propagation reconstruction; DIAGGUARD ground-"
+echo "   then-verify 43.5%→52.5%). No public DIAGGUARD repo (FudanSELab/train-ticket is the benchmark, not"
+echo "   the method) → Watch / 0 MB. Cyber thin."
+echo "3) Bataev et al. TurboBias 2.0 streaming context-biasing ASR (2608.21343) — OUT-OF-SCOPE eess.AS"
+echo "   Overflow only. NVIDIA proprietary → do NOT clone NVIDIA NeMo (Watch / 0 MB)"
+echo "4) Stein et al. adapter-based FSCIL for malicious packet recognition (2608.23536) — OUT-OF-SCOPE cs.CR"
+echo "   Steal: Cyber primary (FSCIL malware packets; LoRA + frozen SSL backbone + prototype head)."
+echo "   No public code URL → Watch / 0 MB (do NOT invent a repo URL)"
+echo "5) Crouse et al. Early eVolution Explorer flare temperature / ozone (2608.23548) — OUT-OF-SCOPE astro-ph.EP"
+echo "   Overflow only. No code."
+echo "6) Chen et al. Chimera GPU-CPU multi-vector retrieval (2608.23553) — OUT-OF-SCOPE cs.IR"
+echo "   Steal: CCC thin (late-interaction / multi-vector serving; pairs DenseOn/LateOn infra, not a ranking"
+echo "   factor). Public repo github.com/iidyc/Chimera (~3.7 MB git) but NO root LICENSE / SPDX in the"
+echo "   2026-08-25 tree → NO-GO clone; Watch / 0 MB (do NOT invent MIT)"
+echo ""
+echo "GuruWatcher / TipDrop / poker / prod: SKIP"
+echo "Local SEO adopt disk this pass: 0 MB (echo-only Phase-0; no clones)"
+echo "Phase-1 SEO: no new wire (0 ADOPT/GO); concept-page steal only (geo-visibility-measurement event-time paragraph)"
+echo "Root: $ROOT"

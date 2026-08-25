@@ -125,6 +125,12 @@ If you're new to this wiki:
 - [arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21](sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md) — overflow: CVaR dynamic portfolio; OSINT thin; GW SKIP (K162)
 - [arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21](sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md) — overflow: CLEVER cache eviction; CCC thin (K162)
 - [arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21](sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md) — overflow: Pandora's Router; CCC primary steal; no clone (K162)
+- [arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25](sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md) — overflow: event-time confounding; OSINT thin + thin GEO steal (K163)
+- [arxiv-lu-2026-trajectory-level-rca-diagguard-2608.21310-2026-08-25](sources/arxiv-lu-2026-trajectory-level-rca-diagguard-2608.21310-2026-08-25.md) — overflow: DIAGGUARD trajectory RCA; CCC primary (K163)
+- [arxiv-bataev-2026-turbobias-2-streaming-asr-2608.21343-2026-08-25](sources/arxiv-bataev-2026-turbobias-2-streaming-asr-2608.21343-2026-08-25.md) — overflow: TurboBias 2.0 ASR (K163)
+- [arxiv-stein-2026-malware-fscil-lora-packets-2608.23536-2026-08-25](sources/arxiv-stein-2026-malware-fscil-lora-packets-2608.23536-2026-08-25.md) — overflow: malware FSCIL; Cyber primary (K163)
+- [arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25](sources/arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25.md) — overflow: EVE flare/ozone (K163)
+- [arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25](sources/arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25.md) — overflow: Chimera multi-vector; CCC thin; null SPDX no clone (K163)
 
 ### Platform / practitioner news
 

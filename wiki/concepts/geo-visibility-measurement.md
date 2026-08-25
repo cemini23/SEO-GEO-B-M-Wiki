@@ -51,13 +51,17 @@ related:
   - sweeps/2026-08-04-daily.md
   - sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md
   - sweeps/2026-08-18-daily.md
+  - sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md
+  - sweeps/2026-08-25-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-08-18
+updated: 2026-08-25
 ---
 
 ## Relations
 
+- @sweeps/2026-08-25-daily.md — K163 event-time confounding (thin GEO steal)
+- @sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md — episode-selection / endogenous time zero guardrail: post-event volume ≠ causal effect
 - @sweeps/2026-08-18-daily.md — K160 Meta impression-share (thin steal)
 - @sources/arxiv-malmir-2026-impression-share-prediction-2608.16872-2026-08-18.md — citation-share win ≠ downstream utility if citations shift to off-intent buckets
 - @sweeps/2026-08-04-daily.md — K151 Pinterest VLM relevance (thin steal)
@@ -119,6 +123,10 @@ Operator playbook for measuring **AI citation visibility** without false precisi
 | **Citation prevalence** | Fraction of responses with ≥1 citation to domain | Breadth across queries vs depth within one response |
 
 All three are **random variables** — report as estimates with uncertainty, not ground truth.
+
+### Event-time / episode-selection guardrail `[STEAL from Iannelli & Ai 2026]` `[TENTATIVE]`
+
+@sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md (Iannelli & Ai, Scrunch AI, arXiv 2608.21294) — behavioral-log event studies that anchor on **user-chosen moments** (opening an AI assistant, clicking a recommendation, visiting a page) and read post-event activity as an effect are confounded by **endogenous time zero**: the event sits inside an ongoing task episode, so the aligned curve traces **episode continuation**, not a response. In same-user cross-surface logs, activity peaks **before** the event; **known-null timestamps** reproduce most of the "effect" at active moments (3.42× vs 4.32× post-event search activity for placebo vs real events among the strict pre-event-activity + washout subset), and user fixed effects + coarse activity matching fail because the confound is **within-user and time-varying**. **GEO read:** a rise in AI citations, prompt volume, or post-prompt traffic after publishing content or getting cited does **not** identify a GEO causal effect. Compare **similar episodes with vs without the event** (same query set, same engine, same time-of-day/week), not pre/post around the event. Mirrors the existing sample-design discipline: fixed-n, repeated sampling, bootstrap CIs — an event-window comparison inherits all the episode-selection caveats. `burstcheck` (named in the paper) has **no public GitHub** → Watch / 0 MB.
 
 ### Engagement vs semantic relevance (guardrail) `[TENTATIVE]`
 

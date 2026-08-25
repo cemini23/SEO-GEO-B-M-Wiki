@@ -197,14 +197,28 @@ related:
   - sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md
   - sources/arxiv-fisch-2026-pandora-ai-model-routing-2608.20316-2026-08-21.md
   - sweeps/2026-08-21-daily.md
+  - sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md
+  - sources/arxiv-lu-2026-trajectory-level-rca-diagguard-2608.21310-2026-08-25.md
+  - sources/arxiv-bataev-2026-turbobias-2-streaming-asr-2608.21343-2026-08-25.md
+  - sources/arxiv-stein-2026-malware-fscil-lora-packets-2608.23536-2026-08-25.md
+  - sources/arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25.md
+  - sources/arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25.md
+  - sweeps/2026-08-25-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-21
+updated: 2026-08-25
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-25-daily.md — K163 digest (6/6 OOD; event-time confounding → OSINT thin + thin GEO steal; DIAGGUARD → CCC primary; TurboBias overflow only; malware FSCIL → Cyber primary; EVE flare overflow only; Chimera → CCC thin, null SPDX no clone)
+- @sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md — K163 event-time confounding (OSINT thin + thin GEO steal; burstcheck no public repo)
+- @sources/arxiv-lu-2026-trajectory-level-rca-diagguard-2608.21310-2026-08-25.md — K163 DIAGGUARD trajectory RCA (CCC primary; no repo)
+- @sources/arxiv-bataev-2026-turbobias-2-streaming-asr-2608.21343-2026-08-25.md — K163 TurboBias 2.0 ASR (overflow only; no NeMo clone)
+- @sources/arxiv-stein-2026-malware-fscil-lora-packets-2608.23536-2026-08-25.md — K163 malware FSCIL (Cyber primary; no code URL)
+- @sources/arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25.md — K163 EVE flare/ozone (overflow only)
+- @sources/arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25.md — K163 Chimera multi-vector (CCC thin; null SPDX NO-GO clone)
 - @sweeps/2026-08-21-daily.md — K162 digest (3/3 OOD; CVaR portfolio → OSINT thin + GW SKIP; CLEVER cache eviction → CCC thin; Pandora's Router → CCC primary steal)
 - @sources/arxiv-hu-2026-dynamic-portfolio-cvar-2608.20179-2026-08-21.md — K162 CVaR dynamic portfolio (OSINT thin; GW SKIP)
 - @sources/arxiv-kulkarni-2026-llm-cache-eviction-clever-2608.20280-2026-08-21.md — K162 CLEVER cache eviction (CCC thin; LFU default + quality-adjusted hit rate)
