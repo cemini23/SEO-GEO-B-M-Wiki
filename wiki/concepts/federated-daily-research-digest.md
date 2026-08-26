@@ -204,14 +204,22 @@ related:
   - sources/arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25.md
   - sources/arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25.md
   - sweeps/2026-08-25-daily.md
+  - sources/arxiv-nadiger-2026-ion-trap-electric-field-noise-2608.24770-2026-08-26.md
+  - sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md
+  - sources/arxiv-correa-2026-vrp-polar-ple-cross-problem-2608.24859-2026-08-26.md
+  - sweeps/2026-08-26-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-25
+updated: 2026-08-26
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-26-daily.md — K164 digest (3/3 OOD; ion-trap noise → overflow only; CRASE bounded DeepSearch → thin GEO steal + CCC primary; VRP POLAR/PLE → overflow only, no clone)
+- @sources/arxiv-nadiger-2026-ion-trap-electric-field-noise-2608.24770-2026-08-26.md — K164 ion-trap electric-field noise (overflow only)
+- @sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md — K164 CRASE bounded scholarly DeepSearch (thin GEO steal + CCC primary; empty repo)
+- @sources/arxiv-correa-2026-vrp-polar-ple-cross-problem-2608.24859-2026-08-26.md — K164 POLAR+PLE cross-problem VRP (overflow only; no clone)
 - @sweeps/2026-08-25-daily.md — K163 digest (6/6 OOD; event-time confounding → OSINT thin + thin GEO steal; DIAGGUARD → CCC primary; TurboBias overflow only; malware FSCIL → Cyber primary; EVE flare overflow only; Chimera → CCC thin, null SPDX no clone)
 - @sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md — K163 event-time confounding (OSINT thin + thin GEO steal; burstcheck no public repo)
 - @sources/arxiv-lu-2026-trajectory-level-rca-diagguard-2608.21310-2026-08-25.md — K163 DIAGGUARD trajectory RCA (CCC primary; no repo)

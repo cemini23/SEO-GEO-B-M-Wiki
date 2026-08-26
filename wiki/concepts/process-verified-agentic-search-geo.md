@@ -5,6 +5,7 @@ tags: [geo-aeo, agentic-search, playbook, entity-hit, k139]
 keywords: [DeepSearch-World, entity hit ratio, progress verification, grounded reflection, failure recovery, scaffold]
 related:
   - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
+  - sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md
   - concepts/evidence-ecosystem-geo.md
   - concepts/generative-engine-optimization.md
   - concepts/adaptive-rag-internal-linking-geo.md
@@ -19,12 +20,13 @@ related:
   - sweeps/2026-07-15-daily.md
 maturity: draft
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-08-26
 ---
 
 ## Relations
 
 - @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md - DeepSearch-World / Evolve primary source
+- @sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md - K164 CRASE bounded citation-graph DeepSearch (thin GEO steal complement)
 - @concepts/evidence-ecosystem-geo.md - EcoGEO trajectory evidence-graph companion (K138)
 - @concepts/generative-engine-optimization.md - parent GEO/AEO hub
 - @concepts/adaptive-rag-internal-linking-geo.md - multi-hop / selective agent paths
@@ -91,6 +93,12 @@ Add to GEO probe logs (alongside EcoGEO entry/support fields):
 | **Name-token consistency** | Exact shop/service string match across top evidence URLs |
 
 Pairs with @concepts/geo-visibility-measurement.md (still noisy — engines hide full trajectories).
+
+### Bounded Graph Exploration (K164 / CRASE)
+
+@sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md complements K139 with a **structurally bounded** alternative to open-ended deep-research loops. **CRASE** seeds one search query, expands along a fixed **1.5-hop citation neighborhood**, prunes edges without entailment support, and ranks with a recency-aware walk — candidate set, keep/drop reasons, and stopping condition are **fixed before inference**. On scholarly benchmarks it reports up to **3× recall@50 at ~⅓ cost** vs proprietary deep-research agents.
+
+**Local GEO analog:** treat your owned + earned citation graph (GBP ↔ site ↔ directories ↔ reviews ↔ social profiles) as the bounded graph an answer engine walks — not an infinite open web search. Hub pages should expose explicit support edges (internal links, schema `sameAs`, consistent NAP) so a bounded traversal can **verify** each hop. Open-ended fluff pages that agents must “discover” via repeated search are the GEO equivalent of CRASE’s critique of opaque deep-research budgets. Pairs K139 entity-hit verification: bounded graph + inspectable progress beats search-until-budget.
 
 ## Snippets
 

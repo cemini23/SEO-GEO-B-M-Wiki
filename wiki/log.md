@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-25
+updated: 2026-08-26
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-26] ingest | K164 arXiv API false-positive batch (3 OOD; CRASE bounded DeepSearch → thin GEO steal)
+
+- **Inbox** — 3 PDFs; **0** SEO Adopt; Nadiger ion-trap electric-field noise → overflow only (quant-ph; no code); Hazra et al. **CRASE** bounded scholarly DeepSearch → **thin GEO steal** (fixed citation-graph candidate set + inspectable stopping; 3× recall@50 at ~⅓ cost vs open deep-research loops; pairs K139) + **CCC primary** (`github.com/RadiantCrystal/CRASE` **empty repo** → Watch / 0 MB); Corrêa et al. POLAR+PLE cross-problem VRP → overflow only (MIT `github.com/AJ-Correa/Routing-POLAR` ~58 MB but logistics OOD → no clone)
+- **Overflow** — @sources/arxiv-nadiger-2026-ion-trap-electric-field-noise-2608.24770-2026-08-26.md; @sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md; @sources/arxiv-correa-2026-vrp-polar-ple-cross-problem-2608.24859-2026-08-26.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @concepts/process-verified-agentic-search-geo.md (CRASE bounded-graph paragraph), @wiki/index.md, @sweeps/2026-08-26-daily.md
+- **Phase-0** — `scripts/adopt_k164_phase0.sh` (echo-only; 0 MB runtime)
+- **Phase-1** — no SEO wire (concept-page steal only: process-verified-agentic-search-geo CRASE paragraph)
+- **Cross-wiki** — CCC CRASE bounded DeepSearch brief (K164)
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K164); route Flash plan-only exit 3 → Cursor parent implemented
 
 ## [2026-08-25] ingest | K163 arXiv API false-positive batch (6 OOD; event-time confounding → thin GEO steal)
 

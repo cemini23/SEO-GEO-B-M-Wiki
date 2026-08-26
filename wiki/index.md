@@ -131,6 +131,9 @@ If you're new to this wiki:
 - [arxiv-stein-2026-malware-fscil-lora-packets-2608.23536-2026-08-25](sources/arxiv-stein-2026-malware-fscil-lora-packets-2608.23536-2026-08-25.md) — overflow: malware FSCIL; Cyber primary (K163)
 - [arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25](sources/arxiv-crouse-2026-eve-flare-ozone-2608.23548-2026-08-25.md) — overflow: EVE flare/ozone (K163)
 - [arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25](sources/arxiv-chen-2026-chimera-multivector-gpu-cpu-2608.23553-2026-08-25.md) — overflow: Chimera multi-vector; CCC thin; null SPDX no clone (K163)
+- [arxiv-nadiger-2026-ion-trap-electric-field-noise-2608.24770-2026-08-26](sources/arxiv-nadiger-2026-ion-trap-electric-field-noise-2608.24770-2026-08-26.md) — overflow: ion-trap electric-field noise (K164)
+- [arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26](sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md) — overflow: CRASE bounded DeepSearch; thin GEO steal + CCC primary (K164)
+- [arxiv-correa-2026-vrp-polar-ple-cross-problem-2608.24859-2026-08-26](sources/arxiv-correa-2026-vrp-polar-ple-cross-problem-2608.24859-2026-08-26.md) — overflow: POLAR+PLE cross-problem VRP (K164)
 
 ### Platform / practitioner news
 
