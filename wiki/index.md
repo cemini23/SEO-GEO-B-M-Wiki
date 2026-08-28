@@ -134,6 +134,12 @@ If you're new to this wiki:
 - [arxiv-nadiger-2026-ion-trap-electric-field-noise-2608.24770-2026-08-26](sources/arxiv-nadiger-2026-ion-trap-electric-field-noise-2608.24770-2026-08-26.md) — overflow: ion-trap electric-field noise (K164)
 - [arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26](sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md) — overflow: CRASE bounded DeepSearch; thin GEO steal + CCC primary (K164)
 - [arxiv-correa-2026-vrp-polar-ple-cross-problem-2608.24859-2026-08-26](sources/arxiv-correa-2026-vrp-polar-ple-cross-problem-2608.24859-2026-08-26.md) — overflow: POLAR+PLE cross-problem VRP (K164)
+- [arxiv-essayag-2026-rtse-quantum-hardware-diagnostics-2608.26010-2026-08-28](sources/arxiv-essayag-2026-rtse-quantum-hardware-diagnostics-2608.26010-2026-08-28.md) — overflow: RTSE snapshot diagnostics; CCC thin (K165)
+- [arxiv-makela-2026-bridgeland-negative-divisors-2608.26080-2026-08-28](sources/arxiv-makela-2026-bridgeland-negative-divisors-2608.26080-2026-08-28.md) — overflow: Bridgeland stability (K165)
+- [arxiv-ma-2026-planetary-prediction-engine-geospatial-2608.26088-2026-08-28](sources/arxiv-ma-2026-planetary-prediction-engine-geospatial-2608.26088-2026-08-28.md) — overflow: Planetary Prediction Engine; CCC thin (K165)
+- [arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28](sources/arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28.md) — overflow: VK-GNN friend rec (K165)
+- [arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28](sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md) — overflow: Robbins problem MDP (K165)
+- [arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28](sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md) — overflow: sepsis severity score; clinical wont_wire (K165)
 
 ### Platform / practitioner news
 

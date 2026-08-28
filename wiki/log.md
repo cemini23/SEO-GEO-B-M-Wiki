@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-26
+updated: 2026-08-28
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-28] ingest | K165 arXiv API false-positive batch (6 OOD; RTSE + PPE → CCC thin)
+
+- **Inbox** — 6 PDFs (3 held over from 2026-08-27 + 3 fetched overnight 2026-08-28); **0** SEO Adopt; Essayag/Zabokritskiy RTSE quantum diagnostics → **CCC thin** (snapshot-resolved execution diagnostics + error recovery; pairs K282; no code); Mäkelä Bridgeland negative divisors → overflow only (math.AG); Ma et al. Planetary Prediction Engine / Google Earth AI → **CCC thin** (autonomous NL→geospatial data+model workflow; Google proprietary → no clone); Utushkin et al. VK-GNN friend rec → overflow only (Apache-2.0 `makut/VK-GNN` but social-rec OOD → no clone); Brice et al. Robbins problem MDP → overflow only (cs.GT); Zhu et al. sepsis severity score → overflow only (clinical **wont_wire**; no code URL)
+- **Overflow** — @sources/arxiv-essayag-2026-rtse-quantum-hardware-diagnostics-2608.26010-2026-08-28.md; @sources/arxiv-makela-2026-bridgeland-negative-divisors-2608.26080-2026-08-28.md; @sources/arxiv-ma-2026-planetary-prediction-engine-geospatial-2608.26088-2026-08-28.md; @sources/arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28.md; @sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md; @sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @wiki/index.md, @sweeps/2026-08-28-daily.md, @sweeps/2026-08-27-daily.md (K165 note)
+- **Phase-0** — `scripts/adopt_k165_phase0.sh` (echo-only; 0 MB runtime)
+- **Phase-1** — no SEO wire (0 concept-page steals this pass)
+- **Cross-wiki** — CCC RTSE + PPE brief (K165)
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K165); PPE geospatial ≠ local-pack GEO
 
 ## [2026-08-26] ingest | K164 arXiv API false-positive batch (3 OOD; CRASE bounded DeepSearch → thin GEO steal)
 

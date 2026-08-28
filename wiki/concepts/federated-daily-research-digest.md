@@ -208,14 +208,28 @@ related:
   - sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md
   - sources/arxiv-correa-2026-vrp-polar-ple-cross-problem-2608.24859-2026-08-26.md
   - sweeps/2026-08-26-daily.md
+  - sources/arxiv-essayag-2026-rtse-quantum-hardware-diagnostics-2608.26010-2026-08-28.md
+  - sources/arxiv-makela-2026-bridgeland-negative-divisors-2608.26080-2026-08-28.md
+  - sources/arxiv-ma-2026-planetary-prediction-engine-geospatial-2608.26088-2026-08-28.md
+  - sources/arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28.md
+  - sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md
+  - sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md
+  - sweeps/2026-08-28-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-26
+updated: 2026-08-28
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-28-daily.md — K165 digest (6/6 OOD; RTSE → CCC thin; Bridgeland → overflow only; PPE → CCC thin; VK-GNN → overflow only; Robbins MDP → overflow only; sepsis clinical → overflow only)
+- @sources/arxiv-essayag-2026-rtse-quantum-hardware-diagnostics-2608.26010-2026-08-28.md — K165 RTSE snapshot diagnostics (CCC thin)
+- @sources/arxiv-makela-2026-bridgeland-negative-divisors-2608.26080-2026-08-28.md — K165 Bridgeland stability (overflow only)
+- @sources/arxiv-ma-2026-planetary-prediction-engine-geospatial-2608.26088-2026-08-28.md — K165 Planetary Prediction Engine (CCC thin; no clone)
+- @sources/arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28.md — K165 VK-GNN friend rec (overflow only)
+- @sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md — K165 Robbins problem MDP (overflow only)
+- @sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md — K165 sepsis severity score (overflow only; clinical)
 - @sweeps/2026-08-26-daily.md — K164 digest (3/3 OOD; ion-trap noise → overflow only; CRASE bounded DeepSearch → thin GEO steal + CCC primary; VRP POLAR/PLE → overflow only, no clone)
 - @sources/arxiv-nadiger-2026-ion-trap-electric-field-noise-2608.24770-2026-08-26.md — K164 ion-trap electric-field noise (overflow only)
 - @sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md — K164 CRASE bounded scholarly DeepSearch (thin GEO steal + CCC primary; empty repo)

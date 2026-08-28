@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# K165 Phase-0 - SEO digest (6 OOD; RTSE → CCC thin; PPE → CCC thin; rest overflow only)
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+echo "K165 Phase-0 audits (SEO wiki)"
+echo "=============================="
+echo ""
+echo "1) Essayag/Zabokritskiy RTSE quantum-hardware diagnostics (2608.26010) — OUT-OF-SCOPE quant-ph"
+echo "   Steal: CCC thin (snapshot-resolved execution diagnostics + error recovery; pairs K282 AgentRewind)."
+echo "   No public code → Watch / 0 MB."
+echo "2) Mäkelä Bridgeland negative effective divisors (2608.26080) — OUT-OF-SCOPE math.AG"
+echo "   Overflow only. No code."
+echo "3) Ma et al. Planetary Prediction Engine / Google Earth AI (2608.26088) — OUT-OF-SCOPE geospatial ML"
+echo "   Steal: CCC thin (autonomous NL→multimodal data discovery + model search; Google proprietary → no clone)."
+echo "   Ebola benchmark repo github.com/INRB-UMIE/Ebola_DRC_ is reference data, not PPE code."
+echo "4) Utushkin et al. VK-GNN friend recommendation (2608.27413) — OUT-OF-SCOPE cs.IR / social rec"
+echo "   Overflow only. Apache-2.0 github.com/makut/VK-GNN exists but social-rec OOD → no clone this pass."
+echo "5) Brice et al. Robbins problem via MDP (2608.27419) — OUT-OF-SCOPE cs.GT"
+echo "   Overflow only. No code."
+echo "6) Zhu et al. continuous sepsis severity score (2608.27421) — OUT-OF-SCOPE clinical ML"
+echo "   Overflow only. Clinical wont_wire. No public code URL."
+echo ""
+echo "GuruWatcher / TipDrop / poker / prod: SKIP"
+echo "Local SEO adopt disk this pass: 0 MB (echo-only Phase-0; no clones)"
+echo "Phase-1 SEO: no new wire (0 ADOPT/GO); no concept-page steal this pass"
+echo "Root: $ROOT"

@@ -112,13 +112,27 @@ related:
   - sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md
   - sources/arxiv-correa-2026-vrp-polar-ple-cross-problem-2608.24859-2026-08-26.md
   - sweeps/2026-08-26-daily.md
+  - sources/arxiv-essayag-2026-rtse-quantum-hardware-diagnostics-2608.26010-2026-08-28.md
+  - sources/arxiv-makela-2026-bridgeland-negative-divisors-2608.26080-2026-08-28.md
+  - sources/arxiv-ma-2026-planetary-prediction-engine-geospatial-2608.26088-2026-08-28.md
+  - sources/arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28.md
+  - sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md
+  - sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md
+  - sweeps/2026-08-28-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-26
+updated: 2026-08-28
 ---
 
 ## Relations
 
+- @sweeps/2026-08-28-daily.md — K165 6/6 OOD (RTSE → CCC thin; Bridgeland → overflow only; PPE → CCC thin; VK-GNN → overflow only; Robbins MDP → overflow only; sepsis clinical → overflow only)
+- @sources/arxiv-essayag-2026-rtse-quantum-hardware-diagnostics-2608.26010-2026-08-28.md — K165 RTSE snapshot diagnostics (CCC thin; pairs K282; no code)
+- @sources/arxiv-makela-2026-bridgeland-negative-divisors-2608.26080-2026-08-28.md — K165 Bridgeland stability (overflow only)
+- @sources/arxiv-ma-2026-planetary-prediction-engine-geospatial-2608.26088-2026-08-28.md — K165 Planetary Prediction Engine (CCC thin; Google proprietary no clone)
+- @sources/arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28.md — K165 VK-GNN friend rec (overflow only; Apache repo OOD no clone)
+- @sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md — K165 Robbins problem MDP (overflow only)
+- @sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md — K165 sepsis severity score (overflow only; clinical wont_wire)
 - @sweeps/2026-08-26-daily.md — K164 3/3 OOD (ion-trap noise → overflow only; CRASE bounded DeepSearch → thin GEO steal + CCC primary; VRP POLAR/PLE → overflow only, no clone)
 - @sources/arxiv-nadiger-2026-ion-trap-electric-field-noise-2608.24770-2026-08-26.md — K164 ion-trap electric-field noise (overflow only; no code)
 - @sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md — K164 CRASE bounded scholarly DeepSearch (thin GEO steal + CCC primary; empty repo → Watch / 0 MB)
@@ -330,6 +344,12 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-nadiger-2026-ion-trap-electric-field-noise-2608.24770-2026-08-26.md | Geometry-controlled ion-trap electric-field noise (arXiv 2608.24770) | quant-ph false positive; overflow only; no code (K164) |
 | @sources/arxiv-hazra-2026-crase-bounded-scholarly-deepsearch-2608.24809-2026-08-26.md | CRASE bounded scholarly DeepSearch (arXiv 2608.24809) | cs.IR agentic search; thin GEO steal + CCC primary; empty GitHub → Watch / 0 MB (K164) |
 | @sources/arxiv-correa-2026-vrp-polar-ple-cross-problem-2608.24859-2026-08-26.md | POLAR+PLE cross-problem VRP (arXiv 2608.24859) | cs.LG/OR logistics; overflow only; MIT repo OOD → no clone (K164) |
+| @sources/arxiv-essayag-2026-rtse-quantum-hardware-diagnostics-2608.26010-2026-08-28.md | RTSE snapshot-resolved quantum diagnostics (arXiv 2608.26010) | quant-ph; CCC thin (pairs K282); no code (K165) |
+| @sources/arxiv-makela-2026-bridgeland-negative-divisors-2608.26080-2026-08-28.md | Bridgeland negative effective divisors (arXiv 2608.26080) | math.AG false positive; overflow only (K165) |
+| @sources/arxiv-ma-2026-planetary-prediction-engine-geospatial-2608.26088-2026-08-28.md | Planetary Prediction Engine / Google Earth AI (arXiv 2608.26088) | geospatial ML; CCC thin; Google proprietary no clone (K165) |
+| @sources/arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28.md | VK-GNN friend recommendation at scale (arXiv 2608.27413) | cs.IR social rec; overflow only; Apache repo OOD no clone (K165) |
+| @sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md | Robbins problem via MDP (arXiv 2608.27419) | cs.GT optimal stopping; overflow only (K165) |
+| @sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md | Continuous sepsis severity score (arXiv 2608.27421) | clinical ML; overflow only; wont_wire (K165) |
 
 ## Snippets
 
