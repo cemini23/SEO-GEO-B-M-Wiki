@@ -259,6 +259,8 @@ If you're new to this wiki:
 - [SparkToro zero-click — owned site as permanent home](briefs/2026-08-14_k237-sparktoro-zero-click.md) — website still the citable GEO/AEO hub as clicks fall (K237)
 - [TTWO / GTA 6 cashout — Outlier front-to-back thesis](briefs/2026-08-30_ttwo-gta6-cashout-outlier.md) — `[DRAFT 2026-08-30]` OSINT→SEO spine: two doors / three machines / Netflix-look scorecard — gta6, ttwo, outlier, markets
 - [TTWO / GTA 6 cashout — Outlier paste](briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md) — `[SCHEDULED LIVE 2026-08-31]` Substack body; HITL on paste — gta6, ttwo, outlier, markets
+- [Metals / tungsten + Pt/Pd — Outlier spine](briefs/2026-08-30_metals-tungsten-ptpd-outlier.md) — `[DRAFT 2026-08-30]` OSINT→SEO spine: tungsten choke, interceptors, Pt/Pd dip-buy — tungsten, apt, platinum, palladium, outlier
+- [Metals / tungsten + Pt/Pd — Outlier paste](briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md) — `[PASTE-READY 2026-08-30]` Substack body; HITL; ship window 2026-09-08 to 2026-09-14 — tungsten, apt, outlier, markets
 
 ### Creator marketing (new vertical)
 
@@ -286,7 +288,7 @@ If you're new to this wiki:
 - [x-for-you-algorithm-2026](concepts/x-for-you-algorithm-2026.md) — Phoenix production weights (also listed under Creator marketing)
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
 - [x-article-cxw-geo-th-postmortem-notes](concepts/x-article-cxw-geo-th-postmortem-notes.md) — Jul 8 CXW/GEO/TH postmortem Article notes (after Jul 6 vindication)
-- [x-article-spcx-anthropic-notes](concepts/x-article-spcx-anthropic-notes.md) — SPCX cheap versus Anthropic X Article **LIVE** 2026-08-17
+- [x-article-spcx-anthropic-notes](concepts/x-article-spcx-anthropic-notes.md) — SPCX cheap versus Anthropic X Article **LIVE** 2026-08-17; owned hub `sites/outlierweekly/public/spcx-anthropic/` (2026-08-30)
 - [guruwatcher-outlier-x-article-notes](concepts/guruwatcher-outlier-x-article-notes.md) — GuruWatcher Outlier + X Article queue (alert-only newsletter → Discord)
 - [atto-outlier-family-story-notes](concepts/atto-outlier-family-story-notes.md) — Atto Outlier family-story queue (2026-08-08; X deferred)
 - [outlier-weekly-issue3-world-cup-bot-notes](concepts/outlier-weekly-issue3-world-cup-bot-notes.md) — Issue 3 launch queue (2026-06-03)
@@ -295,6 +297,7 @@ If you're new to this wiki:
 - [agent-toolkit-x-thread-2026-05-28](concepts/agent-toolkit-x-thread-2026-05-28.md) — cemini23 OSS toolkit launch thread source material
 - [cursor-route-marketing-notes](concepts/cursor-route-marketing-notes.md) — cursor-route Outlier/X/GEO marketing queue (2026-08-10)
 - [ttwo-gta6-outlier-notes](concepts/ttwo-gta6-outlier-notes.md) — `[DRAFT paste-ready 2026-08-30]` GTA 6 cashout Outlier queue; paste in briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md — gta6, ttwo, outlier
+- [metals-tungsten-ptpd-outlier-notes](concepts/metals-tungsten-ptpd-outlier-notes.md) — `[PASTE-READY 2026-08-30]` tungsten + Pt/Pd Outlier queue; paste in briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md — tungsten, apt, platinum, palladium, outlier
 - [corpus-overflow-out-of-scope](concepts/corpus-overflow-out-of-scope.md) — librarian bookkeeping hub: triaged-out-of-scope source stubs kept for inventory honesty
 
 ## Entities

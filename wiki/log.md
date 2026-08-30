@@ -7,6 +7,15 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-08-30] query | metals tungsten + Pt/Pd Outlier paste (GPT Sol + Kimi)
+
+- **Paste** — `briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md` PASTE-READY. HITL. Ship window 2026-09-08 to 2026-09-14.
+- **Spine / thesis** — `briefs/2026-08-30_metals-tungsten-ptpd-outlier.md` + `@osint-wiki/reports/research/pack-metals-tungsten-ptpd-20260830/thesis.md`
+- **Notes** — @concepts/metals-tungsten-ptpd-outlier-notes.md
+- **Passes** — GPT-5.6 Sol (REWORK) + Kimi (SHIP-WITH-NITS). Applied: lede mine/chemical + dated 79%; NHK named in first screen; Pd JM-balance hedge; CFTC after the answer; kill-list #3 heading reversed (plenty of non-China APT kills it); WPIC on 995/848; memo voice cut; sources in public body.
+- **Word count** — 2,780 lede through CFTC footer
+- **Guard** — no live prices; four forms stay separate; X deferred
+
 ## [2026-08-30] handoff | metals tungsten + Pt/Pd Outlier queue
 
 - **Spine** — `briefs/2026-08-30_metals-tungsten-ptpd-outlier.md` (OSINT assembled, Fable WARN patched)
@@ -1496,3 +1505,9 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-sparktoro-2026-0
 - Added owned hubs `/atto/` (Italy letter → youratto.com) and `/guruwatcher/` (Discord-level letter → guruwatcher.com).
 - Nav, sitemap, and `llms.txt` now list Atto + GuruWatcher + CXW/GEO. WC bot stays on GitHub Pages + Substack letters only.
 - Redeployed 2026-08-30: Worker version `63f1c4c5-f9cd-4119-90cd-20a4b0f92a71`. IndexNow HTTP 200 for the six owned URLs.
+
+## [2026-08-30] build | Outlier Weekly SPCX/Anthropic hub
+
+- The August 24 letter *The Short Is Not the Perp. It Is the Listing.* is SPCX vs Anthropic, not the detention thread. Removed it from `/cxw-geo/`.
+- Replaced that hub with `/spcx-anthropic/`. `/cxw-geo/` 301s to the new page. CXW/GEO letters stay on Substack only.
+- Redeployed 2026-08-30: Worker version `1db2db2b-b1f7-47d7-9bad-3789e69bcc1e`. IndexNow HTTP 200.

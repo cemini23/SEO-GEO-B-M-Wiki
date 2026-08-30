@@ -30,8 +30,14 @@ dashboard toggles.
 ## Brave Search
 
 - [x] Re-ran submit-url after 200s (2026-08-30): home + about confirmed
-      Success. Remaining hubs after the 2026-08-30 swap: methodology,
-      atto, guruwatcher, cxw-geo (same form). Brave has no sitemap API.
+      Success.
+- [x] After Atto/GuruWatcher swap (2026-08-30): atto, guruwatcher,
+      methodology, and (then) cxw-geo each returned Success on
+      search.brave.com/submit-url. Form is a re-fetch, not a new-URL
+      intake. Brave has no sitemap API.
+- [x] After SPCX/Anthropic swap (2026-08-30):
+      `https://outlierweekly.com/spcx-anthropic/` returned Success on
+      search.brave.com/submit-url (`/cxw-geo/` 301s there).
 
 ## Backlinks (other repos, parent)
 

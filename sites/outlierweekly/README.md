@@ -15,6 +15,9 @@ rename it, or the routes break.
   (same path/query). Letters stay on Substack.
 - `/prediction-market-lp-bot` and `/agent-harness` (with or without slash) →
   301 → `https://outlierweekly.com/` (retired 2026-08-30).
+- `/cxw-geo` (with or without slash) → 301 →
+  `https://outlierweekly.com/spcx-anthropic/` (the Short letter is SPCX /
+  Anthropic, not the detention thread).
 - Everything else → served from `public/` (Workers static assets). Unknown
   paths 404 via `public/404.html`.
 

@@ -64,13 +64,19 @@ export default {
       return Response.redirect(`${SUBSTACK_BASE}${pathname}${url.search}`, 301);
     }
 
-    // Retired hubs (shipped 2026-08-30, pulled the same day): send to home.
+    // Retired hubs: LP bot / harness → home. CXW/GEO slot became SPCX/Anthropic.
     const retired = stripTrailingSlash(pathname);
     if (
       retired === "/prediction-market-lp-bot" ||
       retired === "/agent-harness"
     ) {
       return Response.redirect(`https://${APEX_HOST}/${url.search}`, 301);
+    }
+    if (retired === "/cxw-geo") {
+      return Response.redirect(
+        `https://${APEX_HOST}/spcx-anthropic/${url.search}`,
+        301
+      );
     }
 
     // Everything else: serve owned static assets. Unknown paths use

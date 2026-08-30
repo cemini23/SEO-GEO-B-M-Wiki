@@ -12,7 +12,7 @@ live on Substack.
 - https://outlierweekly.com/methodology/
 - https://outlierweekly.com/atto/
 - https://outlierweekly.com/guruwatcher/
-- https://outlierweekly.com/cxw-geo/
+- https://outlierweekly.com/spcx-anthropic/
 
 ## Letters
 
@@ -24,3 +24,5 @@ RSS: https://outlierweekly.substack.com/feed
 Not financial advice. Not affiliated with Outlier AI, Outlier.com, or
 Outlier.org. Atto is not a law firm and does not decide eligibility.
 GuruWatcher is alert-only and never places orders.
+SPCX / Anthropic is research commentary, not a recommendation to buy
+or sell SpaceX, Tesla, or Anthropic paper.
