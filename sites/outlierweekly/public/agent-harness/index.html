@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent harness — Outlier Weekly</title>
+  <meta name="description" content="How Outlier Weekly is researched and written: Cursor, DeepSeek, and Grok running in parallel, plus the wiki-linting discipline that keeps the LLM knowledge base from rotting.">
+  <link rel="canonical" href="https://outlierweekly.com/agent-harness/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Outlier Weekly">
+  <meta property="og:title" content="Agent harness — Outlier Weekly">
+  <meta property="og:description" content="Cursor + DeepSeek + Grok in parallel, and the wiki-lint discipline behind the letter.">
+  <meta property="og:url" content="https://outlierweekly.com/agent-harness/">
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="google-site-verification" content="K40mjJ6Ih6QvEsyuPF-PcEN2CWAHxXBLck7MZ97-0O4" />
+  <meta name="msvalidate.01" content="1205BD6E2D6995953FDD6BB83FEC4FAD" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://outlierweekly.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Agent harness", "item": "https://outlierweekly.com/agent-harness/" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <div class="brand"><a href="/">Outlier Weekly</a><span class="tagline">Rare-event markets, one letter a week</span></div>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/methodology/">Methodology</a></li>
+          <li><a href="/prediction-market-lp-bot/">LP bot</a></li>
+          <li><a href="/cxw-geo/">CXW/GEO</a></li>
+          <li><a href="/agent-harness/" aria-current="page">Agent harness</a></li>
+          <li><a href="https://outlierweekly.substack.com/archive">Letters</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Agent harness</h1>
+    <p class="lede">The research and writing stack behind Outlier Weekly: Cursor as the editor, DeepSeek and Grok running in parallel as the model lanes, and wiki linting as the maintenance discipline.</p>
+
+    <h2>What the harness is</h2>
+    <p>Outlier Weekly is researched and written with a small agent stack rather than a single chatbot session. Cursor is the editor where the work happens. DeepSeek and Grok run in parallel as separate model lanes so two independent analyses can be compared before anything goes into a letter. The operator writes the letters, publishes on Substack, and files the working notes in a linted LLM wiki.</p>
+
+    <h2>The letters that document it</h2>
+    <table>
+      <thead>
+        <tr><th>Letter</th><th>Date</th><th>What it covers</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://outlierweekly.substack.com/p/how-i-run-deepseek-and-grok-in-parallel">How I Run DeepSeek and Grok in Parallel From Cursor</a></td>
+          <td>August 2026</td>
+          <td>The concrete setup: two model lanes inside Cursor, when to use which, and how the outputs are combined.</td>
+        </tr>
+        <tr>
+          <td><a href="https://outlierweekly.substack.com/p/your-llm-wiki-will-rot-unless-you">Your LLM Wiki Will Rot Unless You Lint It</a></td>
+          <td>July 2026</td>
+          <td>The linting discipline — why an LLM knowledge base decays, and the checks that keep it usable.</td>
+        </tr>
+        <tr>
+          <td><a href="https://outlierweekly.substack.com/p/the-hard-part-was-never-caring-about">The Hard Part Was Never Caring About Italy. It Was the Paperwork.</a></td>
+          <td>August 2026</td>
+          <td>The Atto thread: a real paperwork pipeline (Italian citizenship paperwork) as the harness's first serious application.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Why it matters to the letter</h2>
+    <ul>
+      <li>Two model lanes disagree more often than one model doubts itself; the letters record both sides.</li>
+      <li>A linted wiki means a claim from an old issue can be checked against the notes instead of trusted from memory.</li>
+      <li>The same harness that researches markets also builds products (Atto, GuruWatcher, the LP bot), so the letters' operator notes are first-person, not secondhand.</li>
+    </ul>
+
+    <h2>The pieces, one by one</h2>
+    <ul>
+      <li><strong>Cursor</strong> — the editor where the work happens: code, research notes, and letter drafts in one place.</li>
+      <li><strong>DeepSeek</strong> — one model lane. Used for a first pass over a market or a problem.</li>
+      <li><strong>Grok</strong> — a second model lane. Runs the same problem independently so two analyses can be compared.</li>
+      <li><strong>The wiki</strong> — an LLM-readable knowledge base. Every useful finding is filed there, not left in chat.</li>
+      <li><strong>The linter</strong> — the maintenance check that finds orphaned pages, broken links, and stale claims before they rot the wiki.</li>
+    </ul>
+
+    <h2>How a letter gets written</h2>
+    <ol>
+      <li>Pick one market and load its data into Cursor.</li>
+      <li>Send the same question to DeepSeek and to Grok in parallel.</li>
+      <li>Compare the two answers; where they disagree, investigate instead of picking a side.</li>
+      <li>Apply the three-formula system from <a href="/methodology/">Methodology</a>.</li>
+      <li>Write the letter, publish on Substack, and file the working notes into the wiki.</li>
+      <li>Run the linter; fix whatever it flags.</li>
+    </ol>
+
+    <h2>Why linting matters</h2>
+    <p>A knowledge base that nothing maintains decays: pages drift, links rot, claims go stale, and a month later the notes contradict the letters. The linting discipline in <a href="https://outlierweekly.substack.com/p/your-llm-wiki-will-rot-unless-you">Your LLM Wiki Will Rot Unless You Lint It</a> is what keeps the memory usable — and it is the same reason this hub site ships with a sitemap, a robots file, and an llms.txt: an owned, maintained index instead of a pile of pages.</p>
+
+    <h2>What this is not</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Not a product.</strong> The harness is the operator's own setup, documented in public. It is not sold and not hosted.</li>
+        <li><strong>Not a promise.</strong> Running models in parallel does not remove error; it surfaces disagreement. The letters publish the disagreements too.</li>
+        <li><strong>Not investment advice.</strong> The harness is a research tool; its outputs feed commentary, not orders.</li>
+      </ul>
+    </div>
+
+    <div class="note">The full archive, including the harness letters, lives at <a href="https://outlierweekly.substack.com/archive">outlierweekly.substack.com/archive</a>. Subscribe at <a href="https://outlierweekly.substack.com/subscribe">outlierweekly.substack.com/subscribe</a>.</div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <ul class="links">
+        <li><a href="https://outlierweekly.substack.com/subscribe">Subscribe on Substack</a></li>
+        <li><a href="https://outlierweekly.substack.com/archive">Archive</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+      </ul>
+      <p class="disclaimer">Content on this site is research and commentary, not financial, investment, or legal advice. Nothing here is a recommendation to buy or sell any security or contract. Outlier Weekly is not affiliated with Outlier AI, Outlier.com, or Outlier.org.</p>
+    </div>
+  </footer>
+</body>
+</html>

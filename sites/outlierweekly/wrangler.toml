@@ -1,0 +1,16 @@
+# Outlier Weekly owned hub — Cloudflare Worker + static assets.
+# Worker name is LOCKED: routes outlierweekly.com/* and www.outlierweekly.com/*
+# already point at `outlierweekly-redirect`. Do not rename.
+name = "outlierweekly-redirect"
+main = "src/index.js"
+compatibility_date = "2026-08-30"
+# Keep dashboard routes authoritative. Do not publish a second
+# indexable copy on *.workers.dev (Opus B3).
+workers_dev = false
+preview_urls = false
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+not_found_handling = "404-page"

@@ -1,11 +1,35 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-28
+updated: 2026-08-30
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-30] schedule | TTWO / GTA 6 cashout Outlier → LIVE 2026-08-31
+
+- **Paste** — `briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md`
+- **Ship** — Monday 2026-08-31 Substack. X deferred. Issue number unset until publish.
+- **After LIVE** — operator sends URL; then flip voice-table row + notes permalink.
+
+## [2026-08-30] query | TTWO / GTA 6 cashout Outlier paste (Cursor + Grok CLI)
+
+- **Paste** — `briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md` (DRAFT paste-ready; HITL before LIVE)
+- **Spine** — `briefs/2026-08-30_ttwo-gta6-cashout-outlier.md`
+- **Notes** — @concepts/ttwo-gta6-outlier-notes.md
+- **Title / slug** — The Netflix look gave GTA 6 a phone. It did not give it a cashout. / `gta-6-cashout-roblox-cs2`
+- **Passes** — Cursor Grok 4.6 premium (SEO/GEO + Cyril) then Grok 4.6 CLI diagnose + verify
+- **Word count** — 2,422 body
+- **Guard** — no CyberLeek lede; no TTWO entry; CFTC 4.41; X Article deferred
+
+## [2026-08-30] route | OSINT TTWO / GTA 6 cashout thesis → Outlier spine
+
+- **From** — @osint-wiki/concepts/gta6-convertible-currency-thesis.md · @osint-wiki/entities/tickers/ttwo.md · @osint-wiki/concepts/grey-market-game-economies.md
+- **Brief** — `briefs/2026-08-30_ttwo-gta6-cashout-outlier.md` (research spine, not paste-ready)
+- **Notes** — @concepts/ttwo-gta6-outlier-notes.md
+- **Lane** — markets practitioner; Google/GEO aim on `GTA 6 cashout` / Roblox / UGC, not IGN head-term
+- **Guard** — no CyberLeek lede; no TTWO entry; CFTC 4.41; HITL before Substack LIVE
 
 ## [2026-08-28] ingest | K165 arXiv API false-positive batch (6 OOD; RTSE + PPE → CCC thin)
 
@@ -1447,3 +1471,14 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-sparktoro-2026-0
 ## [2026-08-03] brief | K220 eve marketing extract from OSINT
 
 - Brief: `briefs/2026-08-03_k220-eve-marketing-extract.md` (OSINT K220 revenue eval)
+
+## [2026-08-30] build | Outlier Weekly owned hub (sites/outlierweekly)
+
+- Replaced the load-bearing 2026-08-08 defect: Worker `outlierweekly-redirect` no longer blanket-301s `outlierweekly.com` to Substack.
+- Built an owned 200 hub under `sites/outlierweekly/`: Cloudflare Worker (name locked `outlierweekly-redirect`) + Workers static assets, `run_worker_first = true`.
+- Router: http→https 301; www → apex 301; `/p/*`, `/subscribe`, `/feed`, `/archive` → Substack 301; everything else serves assets (`not_found_handling = "404-page"`). Security headers set in the Worker (`run_worker_first` skips `_headers`). `workers_dev = false`.
+- Six owned hubs (home, about, methodology, prediction-market-lp-bot, cxw-geo, agent-harness), 400–800 words each, shared chrome + `styles.css`, JSON-LD Organization/WebSite on home, BreadcrumbList on subpages.
+- Crawl files: `robots.txt`, owned-only `sitemap.xml` (no `*.substack.com` hosts), `llms.txt`, `.well-known/ai.txt`, IndexNow key `de772b30118b4e6b8ac9b5dd3b52263d.txt`.
+- Deploy scripts: `scripts/deploy.sh` (wrangler deploy + IndexNow ping, warn-not-fail) + `scripts/indexnow-ping.sh` (POST owned sitemap URLs).
+- Custom-domain CNAME deferred (no $50 Substack fee this quarter); letters remain canonical on `outlierweekly.substack.com`.
+- Deployed 2026-08-30: Worker version `67f8544b-c861-4092-bea3-45f0903f7817`. Live 200s on all six hubs; IndexNow HTTP 202; GSC + Bing sitemaps submitted.

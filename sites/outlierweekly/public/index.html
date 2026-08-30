@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outlier Weekly</title>
+  <meta name="description" content="Outlier Weekly is Cemini23's weekly letter on mispriced rare-event markets on Polymarket and Kalshi, plus operator notes on Atto, GuruWatcher, and the Cursor/DeepSeek/Grok agent harness.">
+  <link rel="canonical" href="https://outlierweekly.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Outlier Weekly">
+  <meta property="og:title" content="Outlier Weekly">
+  <meta property="og:description" content="Cemini23's weekly letter on mispriced rare-event markets on Polymarket and Kalshi, plus operator notes on Atto, GuruWatcher, and the agent harness.">
+  <meta property="og:url" content="https://outlierweekly.com/">
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="google-site-verification" content="K40mjJ6Ih6QvEsyuPF-PcEN2CWAHxXBLck7MZ97-0O4" />
+  <meta name="msvalidate.01" content="1205BD6E2D6995953FDD6BB83FEC4FAD" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "Outlier Weekly",
+        "alternateName": ["outlierweekly", "Cemini23"],
+        "url": "https://outlierweekly.com/",
+        "sameAs": [
+          "https://outlierweekly.substack.com/",
+          "https://youratto.com/",
+          "https://guruwatcher.com/",
+          "https://github.com/cemini23/world-cup-bot",
+          "https://cemini23.github.io/world-cup-bot/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "name": "Outlier Weekly",
+        "alternateName": ["outlierweekly", "Cemini23"],
+        "url": "https://outlierweekly.com/"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <div class="brand"><a href="/">Outlier Weekly</a><span class="tagline">Rare-event markets, one letter a week</span></div>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/" aria-current="page">Home</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/methodology/">Methodology</a></li>
+          <li><a href="/prediction-market-lp-bot/">LP bot</a></li>
+          <li><a href="/cxw-geo/">CXW/GEO</a></li>
+          <li><a href="/agent-harness/">Agent harness</a></li>
+          <li><a href="https://outlierweekly.substack.com/archive">Letters</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Outlier Weekly</h1>
+    <p class="lede">A weekly letter that finds mispriced rare-event opportunities on Polymarket and Kalshi using a synthesized three-formula system — with operator notes on the products behind it.</p>
+
+    <p>Outlier Weekly is written by Cemini23. Every issue takes one rare-event market, applies a three-formula framework, and ends with a single position or a clear pass. The same letter also tracks the operator's own builds: the Atto paperwork pipeline, GuruWatcher alert levels, and the Cursor, DeepSeek, and Grok agent harness used to research and write.</p>
+
+    <h2>How the site and Substack fit together</h2>
+    <p>The letters are the core product. They publish on Substack, and the Substack URLs are canonical — this page and the other hub pages never reprint a letter, they point at it. outlierweekly.com exists to give the letter an owned home on the web: stable URLs, a sitemap, a machine-readable index, and evergreen pages that describe what the letter is and what it is not. If you are a reader, start with the letters. If you are a crawler or an LLM, start with <a href="/llms.txt">llms.txt</a>.</p>
+
+    <h2>Where to start</h2>
+    <ul>
+      <li><a href="/about/">About Outlier Weekly</a> — who writes it and what it is not.</li>
+      <li><a href="/methodology/">Methodology</a> — the three-formula rare-event system in plain language.</li>
+      <li><a href="/prediction-market-lp-bot/">World Cup LP bot</a> — the open-source Polymarket/Kalshi liquidity-provider bot and its 2026 tournament case study.</li>
+      <li><a href="/cxw-geo/">CXW / GEO / Target Hospitality</a> — the detention-services research dossier.</li>
+      <li><a href="/agent-harness/">Agent harness</a> — running DeepSeek and Grok in parallel from Cursor, plus wiki linting.</li>
+    </ul>
+
+    <h2>Recent letters</h2>
+    <p>Letters publish on Substack and are free to read. Recent issues:</p>
+    <ul>
+      <li><a href="https://outlierweekly.substack.com/p/the-short-is-not-the-perp-it-is-the">The Short Is Not the Perp. It Is the Listing.</a></li>
+      <li><a href="https://outlierweekly.substack.com/p/how-i-run-deepseek-and-grok-in-parallel">How I Run DeepSeek and Grok in Parallel From Cursor</a></li>
+      <li><a href="https://outlierweekly.substack.com/p/the-hard-part-was-never-caring-about">The Hard Part Was Never Caring About Italy. It Was the Paperwork.</a></li>
+      <li><a href="https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter">Discord Only Fires When the Newsletter Level Is Real</a></li>
+      <li><a href="https://outlierweekly.substack.com/p/your-llm-wiki-will-rot-unless-you">Your LLM Wiki Will Rot Unless You Lint It</a></li>
+      <li><a href="https://outlierweekly.substack.com/p/corecivic-sold-facilities-the-stock">CoreCivic Sold Facilities — CXW, GEO, TH</a></li>
+      <li><a href="https://outlierweekly.substack.com/p/the-11b-warehouse-failure-behind">The $1.1B Warehouse Failure Behind the CXW/GEO Trade</a></li>
+      <li><a href="https://outlierweekly.substack.com/p/we-won-the-playground-and-busted">We Won the Playground and Busted the Tournament</a></li>
+    </ul>
+    <p>See the full list at <a href="https://outlierweekly.substack.com/archive">the archive</a> or subscribe at <a href="https://outlierweekly.substack.com/subscribe">outlierweekly.substack.com/subscribe</a>.</p>
+
+    <h2>From the start</h2>
+    <p>The letter launched in May 2026. The first three issues define the system and are the best entry point for new readers:</p>
+    <ul>
+      <li><a href="https://outlierweekly.substack.com/p/methodology">Methodology</a> — the standalone walkthrough of the three-formula system.</li>
+      <li><a href="https://outlierweekly.substack.com/p/issue-1-one-market-three-formulas">Issue 1 — One Market, Three Formulas, One Position</a></li>
+      <li><a href="https://outlierweekly.substack.com/p/issue-2-iran-airspace-three-formulas">Issue 2 — Iran Airspace, Three Formulas</a></li>
+    </ul>
+
+    <h2>What a typical issue contains</h2>
+    <ul>
+      <li>One rare-event market with a defined resolution date.</li>
+      <li>The three formulas applied to that market's real numbers and contract prices.</li>
+      <li>Where formula output disagrees with the market price, and why that matters.</li>
+      <li>One position — or a written case for passing.</li>
+      <li>Operator notes: the Atto paperwork pipeline, GuruWatcher alerts, and the Cursor/DeepSeek/Grok harness behind the research.</li>
+    </ul>
+
+    <h2>Brand note</h2>
+    <p class="muted">Outlier Weekly is a small independent newsletter. It is not Outlier AI, not Outlier.com, and not Outlier.org. If a search result for "outlier" points here by accident, this page is the ground truth for what the letter actually is.</p>
+
+    <h2>Products behind the letter</h2>
+    <ul>
+      <li><a href="https://youratto.com/">Atto</a> — the paperwork pipeline the operator builds and writes about.</li>
+      <li><a href="https://guruwatcher.com/">GuruWatcher</a> — alert levels for news and market-moving events.</li>
+      <li><a href="https://github.com/cemini23/world-cup-bot">World Cup LP bot (source)</a> and <a href="https://cemini23.github.io/world-cup-bot/">its site</a> — an open-source liquidity-provider bot for World Cup 2026 prediction markets.</li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="inner">
+      <ul class="links">
+        <li><a href="https://outlierweekly.substack.com/subscribe">Subscribe on Substack</a></li>
+        <li><a href="https://outlierweekly.substack.com/archive">Archive</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+      </ul>
+      <p class="disclaimer">Content on this site is research and commentary, not financial, investment, or legal advice. Nothing here is a recommendation to buy or sell any security or contract. Outlier Weekly is not affiliated with Outlier AI, Outlier.com, or Outlier.org.</p>
+    </div>
+  </footer>
+</body>
+</html>

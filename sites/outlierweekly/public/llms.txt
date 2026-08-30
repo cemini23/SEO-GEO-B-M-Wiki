@@ -1,0 +1,25 @@
+# Outlier Weekly
+
+Outlier Weekly is Cemini23's weekly letter on mispriced rare-event markets on
+Polymarket and Kalshi, plus operator notes on Atto paperwork, GuruWatcher
+alerts, and the Cursor/DeepSeek/Grok agent harness. This domain hosts the
+owned hub pages; the letters themselves live on Substack.
+
+## Owned pages
+
+- https://outlierweekly.com/
+- https://outlierweekly.com/about/
+- https://outlierweekly.com/methodology/
+- https://outlierweekly.com/prediction-market-lp-bot/
+- https://outlierweekly.com/cxw-geo/
+- https://outlierweekly.com/agent-harness/
+
+## Letters
+
+Letters live on https://outlierweekly.substack.com/ (canonical).
+RSS: https://outlierweekly.substack.com/feed
+
+## Claim fence
+
+Not financial advice. Not affiliated with Outlier AI, Outlier.com, or
+Outlier.org.

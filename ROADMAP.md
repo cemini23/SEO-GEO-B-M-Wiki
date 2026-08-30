@@ -121,6 +121,10 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 **Next:** Draft Article #3 when operator asks; append Cyril/Neil rows to exemplar table on each ingest.
 
+### W5 — Outlier Weekly owned hub
+
+**Status:** ACTIVE (2026-08-30). Outlier owned hub in `sites/outlierweekly/` (custom domain deferred).
+
 ---
 
 ## Open decisions
