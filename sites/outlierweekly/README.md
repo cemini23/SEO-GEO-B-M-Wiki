@@ -13,6 +13,8 @@ rename it, or the routes break.
 - `www.outlierweekly.com` → 301 → `outlierweekly.com` (same path/query).
 - `/p/*`, `/subscribe`, `/feed`, `/archive` → 301 → `outlierweekly.substack.com`
   (same path/query). Letters stay on Substack.
+- `/prediction-market-lp-bot` and `/agent-harness` (with or without slash) →
+  301 → `https://outlierweekly.com/` (retired 2026-08-30).
 - Everything else → served from `public/` (Workers static assets). Unknown
   paths 404 via `public/404.html`.
 

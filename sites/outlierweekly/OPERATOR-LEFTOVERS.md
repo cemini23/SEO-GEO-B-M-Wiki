@@ -6,9 +6,11 @@ dashboard toggles.
 
 ## Substack (UI)
 
-- [ ] Rename the publication to **Outlier Weekly** (currently the title shows
-      `outlierweekly | Cemini23 | Substack`). The owned hub already uses the
-      proper brand; the Substack title should match.
+- [x] Rename the publication to **Outlier Weekly** (operator, 2026-08-30).
+      Confirmed on the About OG title (`About - Outlier Weekly`) and the
+      sign-in chrome (`Sign in to Outlier Weekly`). Home `og:title` / RSS
+      channel still say `outlierweekly` — Substack cache or the subdomain
+      slug. Subdomain stays `outlierweekly.substack.com`.
 - [ ] Optional: add a link to `https://outlierweekly.com/` from the Substack
       About page (homepage does not mention the custom domain today).
 
@@ -28,8 +30,8 @@ dashboard toggles.
 ## Brave Search
 
 - [x] Re-ran submit-url after 200s (2026-08-30): home + about confirmed
-      Success. Remaining hubs: methodology, prediction-market-lp-bot,
-      cxw-geo, agent-harness (same form). Brave has no sitemap API.
+      Success. Remaining hubs after the 2026-08-30 swap: methodology,
+      atto, guruwatcher, cxw-geo (same form). Brave has no sitemap API.
 
 ## Backlinks (other repos, parent)
 

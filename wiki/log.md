@@ -7,6 +7,12 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-08-30] handoff | metals tungsten + Pt/Pd Outlier queue
+
+- **Spine** — `briefs/2026-08-30_metals-tungsten-ptpd-outlier.md` (OSINT assembled, Fable WARN patched)
+- **Notes** — @concepts/metals-tungsten-ptpd-outlier-notes.md
+- **Next** — voice/SEO paste pass. No live prices. Ship window ~2 weeks. X deferred.
+
 ## [2026-08-30] schedule | TTWO / GTA 6 cashout Outlier → LIVE 2026-08-31
 
 - **Paste** — `briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md`
@@ -1482,3 +1488,11 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-sparktoro-2026-0
 - Deploy scripts: `scripts/deploy.sh` (wrangler deploy + IndexNow ping, warn-not-fail) + `scripts/indexnow-ping.sh` (POST owned sitemap URLs).
 - Custom-domain CNAME deferred (no $50 Substack fee this quarter); letters remain canonical on `outlierweekly.substack.com`.
 - Deployed 2026-08-30: Worker version `67f8544b-c861-4092-bea3-45f0903f7817`. Live 200s on all six hubs; IndexNow HTTP 202; GSC + Bing sitemaps submitted.
+- Operator renamed the Substack publication to **Outlier Weekly** (About + sign-in confirmed). Home `og:title` and RSS channel still say `outlierweekly` (cache or subdomain slug).
+
+## [2026-08-30] build | Outlier Weekly hub swap (Atto + GuruWatcher)
+
+- Retired `/prediction-market-lp-bot/` and `/agent-harness/` (Worker 301 → home).
+- Added owned hubs `/atto/` (Italy letter → youratto.com) and `/guruwatcher/` (Discord-level letter → guruwatcher.com).
+- Nav, sitemap, and `llms.txt` now list Atto + GuruWatcher + CXW/GEO. WC bot stays on GitHub Pages + Substack letters only.
+- Redeployed 2026-08-30: Worker version `63f1c4c5-f9cd-4119-90cd-20a4b0f92a71`. IndexNow HTTP 200 for the six owned URLs.
