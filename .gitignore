@@ -54,3 +54,6 @@ venv/
 /tmp_*.txt
 /tmp_*.md
 *.tmp
+
+# --- Wrangler local cache (do not commit account/oauth cache) ----------------
+**/.wrangler/
