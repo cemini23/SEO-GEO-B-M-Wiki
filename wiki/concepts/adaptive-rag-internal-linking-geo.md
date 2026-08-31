@@ -37,14 +37,18 @@ related:
   - entities/tools/denseon-lateon.md
   - sweeps/2026-07-30-daily.md
   - sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md
+  - sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md
   - sweeps/2026-08-07-daily.md
+  - sweeps/2026-08-31-daily.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-08-07
+updated: 2026-08-31
 ---
 
 ## Relations
 
+- @sweeps/2026-08-31-daily.md — K166 PULSAR visual RAG (thin GEO steal)
+- @sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md — K166 PULSAR pooled late-interaction (vision-first vs OCR verbalisation)
 - @sweeps/2026-08-07-daily.md — K154 READ document-ops caveat (overflow)
 - @sources/arxiv-tamang-2026-beyond-top-k-read-document-ops-2608.06305-2026-08-07.md — embedding-free MCP reads vs dense top-k on tabular docs
 - @sweeps/2026-07-30-daily.md — K148 DenseOn/LateOn open retrieval
@@ -208,6 +212,14 @@ For a **wiki research session**:
 2. **Single-pass** unless synthesis requires decomposition
 3. **Deep-pass** flagged papers on demand (not every digest PDF)
 4. **Citation verify** only before hands-on platform actions
+
+### Part D — Vision-first late-interaction retrieval (K166 / PULSAR) `[TENTATIVE]`
+
+From @sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md — production enterprise visual document RAG, not local-pack ranking.
+
+**PULSAR** indexes **page images** (ColPali-style multi-vector late interaction) instead of OCR → chunk → embed text. A **pooled two-stage index** runs cheap page summaries first, then exact MaxSim rescoring — 15× lower latency with negligible recall loss; ingestion ~20× cheaper per page than OCR+figure verbalisation at Mubadala scale (~2.4M chart-heavy pages).
+
+**Local GEO analog (narrow):** service pages with price menus, before/after galleries, or hours tables embedded in images/PDFs are **information-reducing** when forced through OCR-only pipelines answer engines may use. Prefer **HTML text + structured data** for facts agents must cite; do not hide NAP/hours/pricing only inside uncaptioned images. Pairs K148 DenseOn/LateOn (passage-level late interaction for long prose) and K255 READ (tabular/chart-heavy → grep/outline before dense top-k).
 
 ## Snippets
 

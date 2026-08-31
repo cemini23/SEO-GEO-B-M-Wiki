@@ -215,14 +215,22 @@ related:
   - sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md
   - sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md
   - sweeps/2026-08-28-daily.md
+  - sources/arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31.md
+  - sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md
+  - sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md
+  - sweeps/2026-08-31-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-28
+updated: 2026-08-31
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 ## Relations
 
+- @sweeps/2026-08-31-daily.md — K166 digest (3/3 OOD; pyEDITH → overflow only; permanents → overflow only; PULSAR → thin GEO steal + CCC primary)
+- @sources/arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31.md — K166 pyEDITH (overflow only)
+- @sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md — K166 permanents (overflow only)
+- @sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md — K166 PULSAR (thin GEO steal + CCC primary)
 - @sweeps/2026-08-28-daily.md — K165 digest (6/6 OOD; RTSE → CCC thin; Bridgeland → overflow only; PPE → CCC thin; VK-GNN → overflow only; Robbins MDP → overflow only; sepsis clinical → overflow only)
 - @sources/arxiv-essayag-2026-rtse-quantum-hardware-diagnostics-2608.26010-2026-08-28.md — K165 RTSE snapshot diagnostics (CCC thin)
 - @sources/arxiv-makela-2026-bridgeland-negative-divisors-2608.26080-2026-08-28.md — K165 Bridgeland stability (overflow only)

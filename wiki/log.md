@@ -1,11 +1,22 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-30
+updated: 2026-08-31
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-08-31] ingest | K166 arXiv API false-positive batch (3 OOD; PULSAR → thin GEO steal + CCC primary)
+
+- **Inbox** — 3 PDFs (overnight 2026-08-31); **0** SEO Adopt; Alei et al. pyEDITH HWO exposure calculator → overflow only (MIT repo but astro OOD → no clone); Kunisky et al. rank-two permanents → overflow only (math.CO; AI-in-proof note = Extract hygiene); Constable et al. **PULSAR** pooled late-interaction visual document RAG → **thin GEO steal** (vision-first page index vs OCR verbalisation; pairs K148/K255) + **CCC primary** (pooled MaxSim serving; no public code → Watch / 0 MB)
+- **Overflow** — @sources/arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31.md; @sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md; @sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md
+- **Updated** — @concepts/corpus-overflow-out-of-scope.md, @concepts/federated-daily-research-digest.md, @concepts/adaptive-rag-internal-linking-geo.md (PULSAR paragraph), @wiki/index.md, @sweeps/2026-08-31-daily.md
+- **Phase-0** — `scripts/adopt_k166_phase0.sh` (echo-only; 0 MB runtime)
+- **Phase-1** — no SEO wire (concept-page steal only: adaptive-rag PULSAR paragraph)
+- **Cross-wiki** — CCC PULSAR brief (K166)
+- **GuruWatcher / TipDrop / poker / prod** — SKIP
+- **Hygiene** — geo-aeo arXiv API lanes still noisy (K141–K166); 2026-08-30 sweep dupes-only (no separate ingest)
 
 ## [2026-08-30] query | metals tungsten + Pt/Pd Outlier paste (GPT Sol + Kimi)
 

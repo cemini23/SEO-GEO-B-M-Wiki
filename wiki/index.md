@@ -140,6 +140,9 @@ If you're new to this wiki:
 - [arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28](sources/arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28.md) — overflow: VK-GNN friend rec (K165)
 - [arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28](sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md) — overflow: Robbins problem MDP (K165)
 - [arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28](sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md) — overflow: sepsis severity score; clinical wont_wire (K165)
+- [arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31](sources/arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31.md) — overflow: pyEDITH HWO calculator (K166)
+- [arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31](sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md) — overflow: rank-two permanents (K166)
+- [arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31](sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md) — overflow: PULSAR visual RAG; thin GEO steal + CCC primary (K166)
 
 ### Platform / practitioner news
 

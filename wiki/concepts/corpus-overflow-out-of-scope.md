@@ -119,13 +119,21 @@ related:
   - sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md
   - sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md
   - sweeps/2026-08-28-daily.md
+  - sources/arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31.md
+  - sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md
+  - sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md
+  - sweeps/2026-08-31-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-28
+updated: 2026-08-31
 ---
 
 ## Relations
 
+- @sweeps/2026-08-31-daily.md — K166 3/3 OOD (pyEDITH → overflow only; permanents → overflow only; PULSAR → thin GEO steal + CCC primary)
+- @sources/arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31.md — K166 pyEDITH HWO calculator (overflow only; MIT repo OOD no clone)
+- @sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md — K166 rank-two permanents (overflow only)
+- @sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md — K166 PULSAR visual RAG (thin GEO steal + CCC primary; no public code)
 - @sweeps/2026-08-28-daily.md — K165 6/6 OOD (RTSE → CCC thin; Bridgeland → overflow only; PPE → CCC thin; VK-GNN → overflow only; Robbins MDP → overflow only; sepsis clinical → overflow only)
 - @sources/arxiv-essayag-2026-rtse-quantum-hardware-diagnostics-2608.26010-2026-08-28.md — K165 RTSE snapshot diagnostics (CCC thin; pairs K282; no code)
 - @sources/arxiv-makela-2026-bridgeland-negative-divisors-2608.26080-2026-08-28.md — K165 Bridgeland stability (overflow only)
@@ -350,6 +358,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-utushkin-2026-vk-gnn-friend-recommendation-2608.27413-2026-08-28.md | VK-GNN friend recommendation at scale (arXiv 2608.27413) | cs.IR social rec; overflow only; Apache repo OOD no clone (K165) |
 | @sources/arxiv-brice-2026-robbins-problem-mdp-2608.27419-2026-08-28.md | Robbins problem via MDP (arXiv 2608.27419) | cs.GT optimal stopping; overflow only (K165) |
 | @sources/arxiv-zhu-2026-sepsis-severity-score-ranking-2608.27421-2026-08-28.md | Continuous sepsis severity score (arXiv 2608.27421) | clinical ML; overflow only; wont_wire (K165) |
+| @sources/arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31.md | pyEDITH HWO exposure time calculator (arXiv 2608.28477) | astro-ph; overflow only; MIT repo OOD no clone (K166) |
+| @sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md | Rank-two permanents + finite free convolutions (arXiv 2608.28520) | math.CO; overflow only (K166) |
+| @sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md | PULSAR pooled late-interaction visual document RAG (arXiv 2608.28572) | cs.IR enterprise RAG; thin GEO steal + CCC primary; no public code (K166) |
 
 ## Snippets
 
