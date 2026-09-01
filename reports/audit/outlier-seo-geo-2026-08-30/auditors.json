@@ -1,0 +1,31 @@
+{
+  "slots": [
+    {
+      "label": "api-qwen-seo",
+      "role": "api-adversarial",
+      "base_url_env": "OPENROUTER_BASE_URL",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "model": "qwen/qwen3.5-plus",
+      "fallback_model": "qwen/qwen3-max",
+      "system": "Super audit — adversarial SEO/GEO readonly reviewer. Follow required output format exactly. Do not invent metrics."
+    },
+    {
+      "label": "api-gemini-geo",
+      "role": "api-deep-reasoning",
+      "base_url_env": "OPENROUTER_BASE_URL",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "model": "google/gemini-2.5-pro",
+      "fallback_model": "google/gemini-2.5-flash",
+      "system": "Super audit — deep reasoning SEO/GEO readonly reviewer. Follow required output format exactly. Do not invent metrics."
+    },
+    {
+      "label": "api-deepseek-local-fallback",
+      "role": "api-local-cross-check",
+      "base_url_env": "DEEPSEEK_BASE_URL",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "model": "deepseek-reasoner",
+      "fallback_model": "deepseek-chat",
+      "system": "Super audit — DeepSeek readonly cross-check. Ollama is not installed on this host; you are the local-DeepSeek substitute. Follow required output format exactly."
+    }
+  ]
+}

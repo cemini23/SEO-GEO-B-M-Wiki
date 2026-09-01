@@ -123,13 +123,21 @@ related:
   - sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md
   - sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md
   - sweeps/2026-08-31-daily.md
+  - sources/arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01.md
+  - sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md
+  - sources/arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01.md
+  - sweeps/2026-09-01-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 ## Relations
 
+- @sweeps/2026-09-01-daily.md — K167 3/3 OOD (ARA neutrinos → overflow only; BLOOM-WILT → Cyber primary + CCC thin; cosmic strings → overflow only)
+- @sources/arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01.md — K167 ARA UHE neutrino diffuse search (overflow only)
+- @sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md — K167 BLOOM-WILT LLM auditing (Cyber primary + CCC thin; no public code)
+- @sources/arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01.md — K167 cosmic string loops backreaction (overflow only)
 - @sweeps/2026-08-31-daily.md — K166 3/3 OOD (pyEDITH → overflow only; permanents → overflow only; PULSAR → thin GEO steal + CCC primary)
 - @sources/arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31.md — K166 pyEDITH HWO calculator (overflow only; MIT repo OOD no clone)
 - @sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md — K166 rank-two permanents (overflow only)
@@ -361,6 +369,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31.md | pyEDITH HWO exposure time calculator (arXiv 2608.28477) | astro-ph; overflow only; MIT repo OOD no clone (K166) |
 | @sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md | Rank-two permanents + finite free convolutions (arXiv 2608.28520) | math.CO; overflow only (K166) |
 | @sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md | PULSAR pooled late-interaction visual document RAG (arXiv 2608.28572) | cs.IR enterprise RAG; thin GEO steal + CCC primary; no public code (K166) |
+| @sources/arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01.md | ARA array-wide UHE neutrino diffuse search (arXiv 2608.30989) | astro-ph.HE false positive; overflow only (K167) |
+| @sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md | BLOOM-WILT logit tilting for LLM auditing (arXiv 2608.31105) | cs.AI safety auditing; Cyber primary + CCC thin; no public code (K167) |
+| @sources/arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01.md | Cosmic string loops under gravitational backreaction (arXiv 2608.31163) | gr-qc false positive; overflow only (K167) |
 
 ## Snippets
 

@@ -1,11 +1,71 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-08-31
+updated: 2026-09-01
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-09-01] ingest | K167 — 3/3 arXiv API false positives → overflow + Cyber/CCC
+
+- **Inbox** — 3 PDFs from `wiki/sweeps/2026-09-01-daily.md` (geo-aeo digest false positives).
+- **Sources** — @sources/arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01.md (overflow astro); @sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md (Cyber primary + CCC thin); @sources/arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01.md (overflow gr-qc).
+- **Federation** — Cyber brief `../Cybersecurity wiki/briefs/2026-09-01_2026-09-01_k167-bloom-wilt-llm-auditing-from-seo.md`; CCC thin `../Cemini claude code CCC/briefs/2026-09-01_k167-bloom-wilt-ccc-thin-from-seo.md`.
+- **Archive** — all 3 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/seo/`; inbox cleared.
+- **Phase-0** — 0 SEO Adopt; 0 MB runtime; GW/TipDrop/poker/prod SKIP.
+- **Lint** — fixed `@seo-wiki/prompts/...` dangling in meta cadence page; dong SafeSearch cross-wiki period parse.
+
+## [2026-09-01] ops | Substack MCP auth loop stopped
+
+- Cursor still started `substack-official` (`mcp-remote` → browser OAuth) even with `disabled: true`. Agents inspecting the namespace / calling `mcp_auth` retriggered it (36 PKCE files this morning).
+- Both `substack` and `substack-official` **removed** from `~/.cursor/mcp.json`. Stash: `~/.cursor/mcp.substack.disabled.json`. Port 3344 idle. Do not restore; do not call `mcp_auth`.
+- User rule added: Never open Substack MCP auth.
+- Entity: @entities/tools/substack-publisher-mcp.md
+
+## [2026-09-01] query | CRML / Tanbreez paste-ready (fact-check + GPTSOL + Kimi)
+
+- **Paste** — `briefs/2026-09-01_crml-tanbreez-outlier.md` PASTE-READY. HITL. Outlier only. X deferred. Queue after tungsten (LIVE 2026-09-07 09:00 ET). Do not invent this letter's ship date.
+- **Passes** — accuracy vs 20-F / 20-F/A / H1 / scheme 6-Ks / 28 Aug IR. GPT-5.6 Sol REWORK (licensee, no sizing). Kimi SHIP-WITH-NITS (Title Case, lede tense, July 2025 pin). Human voice applied.
+- **Guard** — no last Nasdaq print; no $7 put. Defined-risk listed puts; $6 if it keeps falling. CFTC 4.41. Not a solicitation.
+- **Notes** — @concepts/crml-tanbreez-outlier-notes.md
+- **Next** — operator HITL + Substack schedule. Do not invent issue number.
+
+## [2026-09-01] handoff | CRML / Tanbreez Outlier paste (OSINT → SEO)
+
+- **Paste** — `briefs/2026-09-01_crml-tanbreez-outlier.md` DRAFT. HITL. Outlier only. X deferred.
+- **Notes** — @concepts/crml-tanbreez-outlier-notes.md
+- **Title / slug** — The Greenland license is real. The mine is still an option. / `critical-metals-tanbreez-greenland-option`
+- **Guard** — no last Nasdaq print; no $7 put / 2 Oct weekly. Defined-risk listed puts; if the stock keeps falling, $6 (and similar lower strikes) stay viable. CFTC 4.41. Do not size a position.
+- **Cross-wiki** — @osint-wiki/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md is the private desk (banned as paste source).
+- **Next** — operator HITL + ship date. Do not invent issue number.
+
+## [2026-08-31] wire | Substack official MCP — Bestseller ineligible
+
+- Native Cursor URL OAuth never opened a browser (`cursor://` redirect rejected).
+- `mcp-remote@0.1.49` loopback callback **did** open Substack consent.
+- Consent: “You don't have any eligible publications for this integration.” Cancel only. Outlier is not Bestseller. [Source: support.substack.com How to connect Substack to your AI Assistant]
+- `substack-official` **disabled**. Do not retry until Substack enrolls the pub.
+- Remaining MCP path: Publisher API key → `~/.cemini/substack-api-key` → enable local `substack`. No cookie MCP.
+
+## [2026-08-31] wire | Substack MCP (wrapper + official remote)
+
+- **Local stdio** — `~/.local/bin/mcp-substack` reads `~/.cemini/substack-api-key` (Brave/GitHub pattern). `~/.cursor/mcp.json` `substack` still **disabled** (no key on disk). Smoke without key: wrapper exit 1, no secret print.
+- **Official remote** — `substack-official` → `https://mcp.substack.com/api/v1/mcp` (`mcp:read`). Reload Cursor, then complete OAuth if the card appears. May still be Bestseller-gated.
+- **Dashboard** — `https://outlierweekly.substack.com/publish/settings/api` exists (sign-in). Operator generates the key; do not paste it into chat.
+- **Entity** — @entities/tools/substack-publisher-mcp.md. No cookie MCP. No auto-publish.
+- **Preflight** — `cursor-security-preflight --quick` after this mcp.json change.
+
+## [2026-08-31] ingest | Outlier Weekly LIVE — GTA 6 Netflix look
+
+- **LIVE** — https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone (free; 2026-08-31 12:56 UTC; post id 213394712)
+- **Title / subtitle** match paste. Word count ~2.4k. No hero. Issue number still unset.
+- **Slug delta** — shipped `the-netflix-look-gave-gta-6-a-phone` (title-derived). Planned `gta-6-cashout-roblox-cs2` was not set.
+- **Tags shipped** — TTWO, Lucia, Grand Theft Auto, GTA IV, AI, Shark Cards, Rockstar. `GTA IV` is likely a VI mistag.
+- **Updated** — @concepts/ttwo-gta6-outlier-notes.md, @concepts/x-account-voice-and-format.md, `briefs/2026-08-30_ttwo-gta6-cashout-outlier.md`, `briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md`, @wiki/index.md
+- **Cross-wiki** — @osint-wiki/concepts/gta6-convertible-currency-thesis.md + @osint-wiki/entities/tickers/ttwo.md get the LIVE URL
+- **Skipped** — no new source page (operator-owned letter); no owned hub (markets letter stays on Substack, same as CXW); X deferred; GSC URL-inspect still optional (cannot verify `substack.com`)
+- **Publisher API MCP** — still deferred (no key UI). Indexed from public RSS + post JSON.
 
 ## [2026-08-31] ingest | K166 arXiv API false-positive batch (3 OOD; PULSAR → thin GEO steal + CCC primary)
 

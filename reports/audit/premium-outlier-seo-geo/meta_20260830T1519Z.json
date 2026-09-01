@@ -1,0 +1,12 @@
+{
+  "timestamp": "20260830T1519Z",
+  "pack": "/Users/claudiobarone/Projects/SEO:GEO B&M Business/reports/audit/pack-outlier-seo-geo",
+  "auditors_file": "/Users/claudiobarone/Projects/SEO:GEO B&M Business/reports/audit/outlier-seo-geo-2026-08-30/auditors.json",
+  "tier": null,
+  "models": [
+    "api-qwen-seo",
+    "api-gemini-geo",
+    "api-deepseek-local-fallback"
+  ],
+  "errors": []
+}

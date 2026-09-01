@@ -1,0 +1,20 @@
+{
+  "built": "2026-08-30T15:19:09Z",
+  "out": "/Users/claudiobarone/Projects/SEO:GEO B&M Business/reports/audit/pack-outlier-seo-geo",
+  "prompt_source": "/Users/claudiobarone/Projects/SEO:GEO B&M Business/reports/audit/outlier-seo-geo-2026-08-30/PROMPT.md",
+  "prompt_chars": 4056,
+  "artifacts": [
+    "EVIDENCE.md",
+    "gsc-setup-brief.md",
+    "world-cup-bot-search-discovery.md",
+    "e-geo-playbook.md",
+    "agent-ready-website.md"
+  ],
+  "read_order": [
+    "EVIDENCE.md",
+    "gsc-setup-brief.md",
+    "world-cup-bot-search-discovery.md",
+    "e-geo-playbook.md",
+    "agent-ready-website.md"
+  ]
+}

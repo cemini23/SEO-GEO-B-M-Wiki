@@ -7,17 +7,19 @@ related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
+  - concepts/x-article-spcx-anthropic-notes.md
   - "@osint-wiki/concepts/corrections-reit-asset-sale-event-study.md"
   - "@osint-wiki/concepts/government-single-buyer-asset-rerating.md"
 maturity: draft
 created: 2026-07-08
-updated: 2026-07-08
+updated: 2026-08-17
 ---
 
 ## Relations
 
 - @concepts/x-account-voice-and-format.md — voice + paste protocol
 - @concepts/x-article-3-notes.md — separate Article #3 (wikilint); do not conflate
+- @concepts/x-article-spcx-anthropic-notes.md — Aug 17 SPCX vs Anthropic relative-value Article
 - @osint-wiki/concepts/corrections-reit-asset-sale-event-study.md — event-study spine
 - @osint-wiki/concepts/government-single-buyer-asset-rerating.md — TH tier-A frame
 

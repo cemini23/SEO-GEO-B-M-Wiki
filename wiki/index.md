@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-08-30
+updated: 2026-09-01
 ---
 
 # Wiki Index
@@ -143,6 +143,9 @@ If you're new to this wiki:
 - [arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31](sources/arxiv-alei-2026-pyedith-hwo-exposure-time-2608.28477-2026-08-31.md) — overflow: pyEDITH HWO calculator (K166)
 - [arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31](sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md) — overflow: rank-two permanents (K166)
 - [arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31](sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md) — overflow: PULSAR visual RAG; thin GEO steal + CCC primary (K166)
+- [arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01](sources/arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01.md) — overflow: ARA UHE neutrinos (K167)
+- [arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01](sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md) — overflow: BLOOM-WILT LLM auditing; Cyber primary (K167)
+- [arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01](sources/arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01.md) — overflow: cosmic string loops (K167)
 
 ### Platform / practitioner news
 
@@ -260,10 +263,11 @@ If you're new to this wiki:
 - [cursor-route — SEO/GEO marketing pack](briefs/2026-08-10_cursor-route-seo-geo-marketing.md) — Cursor+DeepSeek+Grok parallel orchestrator; Outlier/X/GEO spines; npm live 0.1.1 — agents, oss, deepseek
 - [SPCX vs Anthropic — X Article research pack](briefs/2026-08-17_spcx-anthropic-x-article.md) — `[LIVE 2026-08-17]` relative-value Article; paste `briefs/2026-08-17_spcx-anthropic-x-article-paste.md` — spcx, anthropic, grok-bot, x-article
 - [SparkToro zero-click — owned site as permanent home](briefs/2026-08-14_k237-sparktoro-zero-click.md) — website still the citable GEO/AEO hub as clicks fall (K237)
-- [TTWO / GTA 6 cashout — Outlier front-to-back thesis](briefs/2026-08-30_ttwo-gta6-cashout-outlier.md) — `[DRAFT 2026-08-30]` OSINT→SEO spine: two doors / three machines / Netflix-look scorecard — gta6, ttwo, outlier, markets
-- [TTWO / GTA 6 cashout — Outlier paste](briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md) — `[SCHEDULED LIVE 2026-08-31]` Substack body; HITL on paste — gta6, ttwo, outlier, markets
+- [TTWO / GTA 6 cashout — Outlier front-to-back thesis](briefs/2026-08-30_ttwo-gta6-cashout-outlier.md) — `[LIVE 2026-08-31]` OSINT→SEO spine: two doors / three machines / Netflix-look scorecard — gta6, ttwo, outlier, markets
+- [TTWO / GTA 6 cashout — Outlier paste](briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md) — `[LIVE 2026-08-31](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone)` Substack body — gta6, ttwo, outlier, markets
 - [Metals / tungsten + Pt/Pd — Outlier spine](briefs/2026-08-30_metals-tungsten-ptpd-outlier.md) — `[DRAFT 2026-08-30]` OSINT→SEO spine: tungsten choke, interceptors, Pt/Pd dip-buy — tungsten, apt, platinum, palladium, outlier
 - [Metals / tungsten + Pt/Pd — Outlier paste](briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md) — `[PASTE-READY 2026-08-30]` Substack body; HITL; ship window 2026-09-08 to 2026-09-14 — tungsten, apt, outlier, markets
+- [CRML / Tanbreez — Outlier paste](briefs/2026-09-01_crml-tanbreez-outlier.md) — `[PASTE-READY 2026-09-01]` OSINT→SEO letter: license vs mine, offtakes ≠ cash, EUR scheme issues more shares; no last print; no $7 put; HITL after tungsten — crml, tanbreez, outlier, markets
 
 ### Creator marketing (new vertical)
 
@@ -299,8 +303,9 @@ If you're new to this wiki:
 - [world-cup-bot-search-discovery](concepts/world-cup-bot-search-discovery.md) — GitHub Pages + Google/Bing indexing for Polymarket/Kalshi queries; hub path `/prediction-market-lp-bot/` retired 2026-08-30 (301 → home). WC stays on GitHub Pages + Substack letters. Product hubs are `/atto/` and `/guruwatcher/`.
 - [agent-toolkit-x-thread-2026-05-28](concepts/agent-toolkit-x-thread-2026-05-28.md) — cemini23 OSS toolkit launch thread source material
 - [cursor-route-marketing-notes](concepts/cursor-route-marketing-notes.md) — cursor-route Outlier/X/GEO marketing queue (2026-08-10)
-- [ttwo-gta6-outlier-notes](concepts/ttwo-gta6-outlier-notes.md) — `[DRAFT paste-ready 2026-08-30]` GTA 6 cashout Outlier queue; paste in briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md — gta6, ttwo, outlier
+- [ttwo-gta6-outlier-notes](concepts/ttwo-gta6-outlier-notes.md) — GTA 6 cashout Outlier **LIVE** 2026-08-31 ([letter](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone)) — gta6, ttwo, outlier
 - [metals-tungsten-ptpd-outlier-notes](concepts/metals-tungsten-ptpd-outlier-notes.md) — `[PASTE-READY 2026-08-30]` tungsten + Pt/Pd Outlier queue; paste in briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md — tungsten, apt, platinum, palladium, outlier
+- [crml-tanbreez-outlier-notes](concepts/crml-tanbreez-outlier-notes.md) — `[PASTE-READY 2026-09-01]` CRML / Tanbreez Outlier queue; paste in briefs/2026-09-01_crml-tanbreez-outlier.md — crml, tanbreez, greenland, outlier
 - [corpus-overflow-out-of-scope](concepts/corpus-overflow-out-of-scope.md) — librarian bookkeeping hub: triaged-out-of-scope source stubs kept for inventory honesty
 
 ## Entities
@@ -351,7 +356,7 @@ If you're new to this wiki:
 - [oransim](entities/tools/oransim.md) — local-first causal simulator for marketing-campaign ROI (SCM + Hawkes + do-calculus; Apache-2.0, Adopt) — `cross-wiki`
 - [semrush](entities/tools/semrush.md) — keyword research + competitor SEO + position tracking
 - [seomachine](entities/tools/seomachine.md) — Claude Code skill: long-form content + AI-watermark scrubbing + DataForSEO integration (CONDITIONAL-GO 2026-05-07)
-- [substack-publisher-mcp](entities/tools/substack-publisher-mcp.md) — official Substack Publisher API MCP (read-only); GO code, **deferred** (no API key UI on Outlier yet) 2026-08-08
+- [substack-publisher-mcp](entities/tools/substack-publisher-mcp.md) — official Substack Publisher API MCP (read-only); GO code; stdio **deferred** (no key file); remote MCP **NO-GO** for Outlier (not Bestseller, 2026-08-31)
 - [yoast-seo](entities/tools/yoast-seo.md) — WordPress plugin: on-page SEO, schema markup, readability, sitemaps (GO 2026-05-07)
 - [open-seo — SEO automation skill set](entities/tools/open-seo.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [digital-marketing-pro](entities/tools/digital-marketing-pro.md) — Claude plugin ecosystem: 115 commands, 67 MCP servers, QA/claim-verification layer for GEO/AEO workflows

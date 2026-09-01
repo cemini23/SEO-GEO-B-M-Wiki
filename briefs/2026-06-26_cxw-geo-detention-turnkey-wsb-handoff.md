@@ -8,7 +8,7 @@ cross-wiki-source: @osint-wiki/concepts/geo-ice-turnkey-acquisition-thesis.md
 cross-wiki-research: @osint-wiki/concepts/ice-turnkey-research-backlog-2026-06-30.md
 cross-wiki-cal-city: @osint-wiki/concepts/cxw-california-city-ice-turnkey-research-2026-06-29.md
 lane: retail-trading DD / distribution
-status: ready-for-draft — Jul 2 Bonta PDF + docs-ready prob revision + Trump/flow addendum
+status: vindicated-partial — CXW 8-K Jul 6; GEO chase — see 2026-07-06_cxw-turnkey-8k-vindication-x-article.md
 related_brief: 2026-07-01_cxw-geo-trump-disclosure-flow-article.md
 master_outlier_brief: 2026-07-03_cxw-geo-outlier-front-to-back-thesis.md
 target_sub: r/wallstreetbets
@@ -31,6 +31,8 @@ ICE needs ~100k detention beds (from ~70k today). DHS spent ~$1.1B on 11 warehou
 - **Jun 30 OGE:** Trump filing lists **GEO** ($50k–$100k) and **CXW** ($15k–$50k); first buys **Jan 30, 2025**; NBC led GEO only — [Jul 1 article brief](2026-07-01_cxw-geo-trump-disclosure-flow-article.md). **Jul 1 UW:** GEO **$4.11M** call premium / CXW **$1.79M** — disclosure rerating, not 8-K proof. Still **no facility-sale 8-K through Jul 2**.
 - **Jun 15 Bonta letter (88 pp PDF verified Jul 2):** CoreCivic **July 2025** apps described **ICE detention** → **withdrew** → **August 2025** apps omitted ICE, cited **US Marshals** instead; site zoned **Open Space / Residential Agricultural**; **1998 CUP = 2,304-bed prison only** (not civil ICE detention); city **2,816-bed error** (phantom unbuilt expansion). Bonta urges **deny both appeals Jul 7**. Strengthens **pre-Jul 7 close > post-denial** on reps/warranties — see Body § Bonta.
 - **Docs-ready revision:** Prior **~4–8%** pre-Jul 7 tail wrongly treated **document prep** as binding constraint. Q1–Q2 talks + Zoley **Q2–Q3 window** imply **PSA drafts likely exist**; delay = **DHS warehouse-IG chill**, **Mullin oversight**, **Venturella ethics**, **Schroyer signatory pause** — not greenfield drafting. **Revised pre-Jul 7 (Cal City):** sign **~10–18%**, close **~6–12%**; portfolio 8-K Jul 2–6 **~3–6%**. Still not base case (no 8-K, Cal City tranche 2 / site #7).
+
+**Jul 6 vindication:** CoreCivic **8-K** — Cal City + Otay sold to DHS for **$1.5B gross** (~$1.1B net), closed **Jul 2**. Validates WaPo two-CA-site list + Benchmark two-sale scenario. **GEO still no sale 8-K** → sympathy chase. X Article: `briefs/2026-07-06_cxw-turnkey-8k-vindication-x-article.md`.
 
 **Primary public falsifier:** Aug 5–10 Q2 earnings. **Next local catalyst:** Jul 7 Cal City — BL **3:30 p.m.** Grayson / PC **6:00 p.m.** de novo.
 

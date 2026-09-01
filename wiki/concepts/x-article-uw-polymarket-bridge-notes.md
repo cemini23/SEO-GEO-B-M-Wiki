@@ -7,12 +7,13 @@ related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
   - concepts/x-article-cxw-geo-th-postmortem-notes.md
+  - concepts/x-article-spcx-anthropic-notes.md
   - "@gambling-wiki/concepts/world-cup-pm-retail-hygiene.md"
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
   - "@osint-wiki/entities/tools/unusualwhales-mcp.md"
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-08-17
 ship_draft: briefs/2026-07-17_uw-key-polymarket-bridge-x-article.md
 status: Ready — A+B paste package (2026-07-17)
 ---
@@ -22,6 +23,7 @@ status: Ready — A+B paste package (2026-07-17)
 - @concepts/x-account-voice-and-format.md — voice + paste protocol
 - @concepts/x-article-3-notes.md — separate wiki-CI Article (already published)
 - @concepts/x-article-cxw-geo-th-postmortem-notes.md — CXW tape companion; this piece is the UW→Poly research bridge, not a sell-the-news scorecard
+- @concepts/x-article-spcx-anthropic-notes.md — Aug 17 SPCX vs Anthropic relative-value Article (PM overlay cousin)
 - @gambling-wiki/concepts/world-cup-pm-retail-hygiene.md — fee/spread/rules gates (adapted beyond WC)
 - @osint-wiki/entities/tools/unusualwhales-mcp.md — Adopt MCP bridge; TipDrop-first, not prod CeminiSuite
 

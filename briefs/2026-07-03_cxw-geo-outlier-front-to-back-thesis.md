@@ -3,9 +3,9 @@ title: Outlier article master handoff - CXW/GEO ICE turnkey thesis front to back
 type: brief
 tags: [outlier-weekly, x-article, cxw, geo, ice, detention, turnkey, event-study]
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-06
 target: Outlier Weekly long-form + X Article derivative
-status: master-handoff
+status: vindication-addendum — CXW 8-K Jul 6; see `2026-07-06_cxw-turnkey-8k-vindication-x-article.md` for X chase draft
 cross-wiki-source: @osint-wiki/concepts/ice-turnkey-research-backlog-2026-06-30.md
 cross-wiki-cal-city: @osint-wiki/concepts/cxw-california-city-ice-turnkey-research-2026-06-29.md
 cross-wiki-geo: @osint-wiki/concepts/geo-ice-turnkey-acquisition-thesis.md
@@ -581,7 +581,30 @@ Possible close:
 
 ---
 
-## OUTLIER ARTICLE DRAFT - PASTE READY
+## VINDICATION ADDENDUM — Jul 6, 2026 (CXW 8-K)
+
+**Status change:** The "no facility-sale 8-K" bear pillar **no longer applies to CoreCivic's California tranche.**
+
+| Field | Value |
+|-------|-------|
+| **Filing** | Form 8-K, event date **Jul 2, 2026**, filed/announced **Jul 6, 2026** |
+| **Assets** | California City ($732.6M, 2,560 beds) + Otay Mesa ($739.2M, 1,994 beds) |
+| **Buyer** | U.S. / DHS |
+| **Gross** | **$1.5B** |
+| **Net proceeds** | **~$1.1B** after ~$0.4B taxes/expenses |
+| **Operations** | CXW expects to **retain ICE management contracts** (modifiable; terminable) |
+| **More sales** | Swindle: ongoing ICE talks on additional facilities, **no assurance** |
+| **X Article handoff** | `briefs/2026-07-06_cxw-turnkey-8k-vindication-x-article.md` |
+
+**What vindicates:** WaPo two-CXW-CA-site list; Benchmark 80% two-sale scenario; pre-Jul 7 close-before-hearing urgency read; turnkey program reality.
+
+**What remains open:** **GEO** facility-sale 8-K; ~8 remaining sites in program; management-contract terms post-sale; buyback size after leverage tests.
+
+**Rewrite instructions for published Outlier draft:** Change §§ "no 8-K through Jul 3" and "recorder monitor blank" to historical framing. New close: first tranche closed; chase leg = GEO read-through. Do not republish old "victory lap denied" close without edit.
+
+**Primary URL:** https://ir.corecivic.com/news-releases/news-release-details/corecivic-sells-two-detention-facilities
+
+---
 
 ### Recommended Title
 

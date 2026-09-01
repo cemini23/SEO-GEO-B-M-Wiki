@@ -43,7 +43,7 @@ cross-wiki-routed: cybersecurity-wiki
 
 **Why it appears here:** answer engines (ChatGPT Search, Perplexity, Google AI Overviews) share the same retrieval→synthesis pipeline GEO operators optimize for. Low-quality or manipulable sources in the retrieval set can distort citations — adjacent to spam/fake-review attack surfaces documented in @concepts/reviews-reputation-management.md.
 
-**Primary routing:** security evaluation methodology → @cybersecurity-wiki/sources/dong-2025-safesearch-red-teaming.md.
+**Primary routing:** security evaluation methodology → `@cybersecurity-wiki/sources/dong-2025-safesearch-red-teaming.md` (primary home).
 
 ## Snippets
 

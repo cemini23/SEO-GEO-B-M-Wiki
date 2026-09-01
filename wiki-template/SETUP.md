@@ -82,6 +82,8 @@ Open `CLAUDE.md` and find the `## Related Wikis` section. Add one row per siblin
 
 If no sibling wikis exist, just keep the self-row.
 
+**Add ASD-STE100 writing style (required):** The template ships `## Writing style (ASD-STE100)` at the end of `CLAUDE.md`. Do not delete it. If you forked an older template without it, paste from `@osint-wiki/scripts/snippets/claude-md-ste100-section.md` or any federation root `CLAUDE.md`. Canon: `@osint-wiki/concepts/asd-ste100-writing-style.md`.
+
 ## 5. Set up `.env` and Claude Desktop config
 
 ```bash
