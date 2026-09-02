@@ -11,8 +11,9 @@ created: 2026-09-01
 updated: 2026-09-01
 ship_draft: briefs/2026-09-01_crml-tanbreez-outlier.md
 ship_paste: briefs/2026-09-01_crml-tanbreez-outlier.md
-draft_version: paste-ready
-status: PASTE-READY. HITL. No last stock print. No $7 put. X deferred. Queue after tungsten LIVE 2026-09-07. Do not invent this letter's ship date.
+draft_version: scheduled
+status: SCHEDULED Substack LIVE 2026-09-14 (Mon) 09:00 ET. Operator pasted 2026-09-01. No last stock print. No $7 put. X deferred. After tungsten (2026-09-07).
+ship_date: 2026-09-14 09:00 ET
 cross-wiki-source: "@osint-wiki/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md"
 ---
 
@@ -38,9 +39,9 @@ This letter **names the ticker**. It sells the mismatch (license vs mine vs prom
 
 | Asset | Status |
 |-------|--------|
-| Research spine / paste | `briefs/2026-09-01_crml-tanbreez-outlier.md` — PASTE-READY 2026-09-01. HITL before LIVE. GPT-5.6 Sol + Kimi + human voice. |
+| Research spine / paste | `briefs/2026-09-01_crml-tanbreez-outlier.md` — operator pasted 2026-09-01. GPT-5.6 Sol + Kimi + human voice. |
 | Private OSINT desk | `@osint-wiki/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md` — friends only. Has last print and $7 sleeve. **Banned as paste source.** |
-| Outlier Weekly | Paste-ready. No ship date until operator picks. After tungsten (scheduled 2026-09-07 09:00 ET). |
+| Outlier Weekly | **SCHEDULED LIVE 2026-09-14 (Mon) 09:00 ET.** Operator pasted 2026-09-01. Permalink TBD after publish. |
 | X Article | Deferred unless operator asks |
 | Issue number | Unset. Do not invent. |
 | Hero | None unless operator asks. No live charts. No last-print screenshots. |
@@ -92,8 +93,8 @@ Do not chase "CRML fraud" or "CRML reverse split" as the head term. The letter r
 
 ### Open decisions
 
-- [ ] Lock title (default 1)
-- [ ] HITL + Substack date (after tungsten 2026-09-07; do not invent)
+- [x] Lock title (default 1)
+- [x] HITL + Substack date — **2026-09-14 (Mon) 09:00 ET** (operator 2026-09-01)
 - [ ] Free vs paywall (default free, same as GTA / tungsten)
 - [ ] X Article later? Default no
 - [ ] Hero still — none

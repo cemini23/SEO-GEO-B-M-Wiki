@@ -7,14 +7,16 @@ related:
   - concepts/x-account-voice-and-format.md
   - concepts/generative-engine-optimization.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
+  - concepts/cemini23-x-score-2026-09-01.md
 maturity: draft
 created: 2026-08-10
-updated: 2026-08-13
+updated: 2026-09-01
 ---
 
 ## Relations
 
 - @concepts/x-account-voice-and-format.md — voice + Article paste
+- @concepts/cemini23-x-score-2026-09-01.md — 1 Sep score re-measured the Aug 10 six-second flood
 - @concepts/generative-engine-optimization.md — GEO citation methods
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — prior OSS launch thread pattern
 - Paste brief (Outlier): `briefs/2026-08-10_cursor-route-seo-geo-marketing.md`

@@ -8,16 +8,18 @@ related:
   - concepts/x-article-3-notes.md
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - concepts/x-article-spcx-anthropic-notes.md
+  - concepts/cemini23-x-score-2026-09-01.md
   - "@osint-wiki/concepts/corrections-reit-asset-sale-event-study.md"
   - "@osint-wiki/concepts/government-single-buyer-asset-rerating.md"
 maturity: draft
 created: 2026-07-08
-updated: 2026-08-17
+updated: 2026-09-01
 ---
 
 ## Relations
 
 - @concepts/x-account-voice-and-format.md — voice + paste protocol
+- @concepts/cemini23-x-score-2026-09-01.md — 1 Sep score: this two-liner is the keep hook
 - @concepts/x-article-3-notes.md — separate Article #3 (wikilint); do not conflate
 - @concepts/x-article-spcx-anthropic-notes.md — Aug 17 SPCX vs Anthropic relative-value Article
 - @osint-wiki/concepts/corrections-reit-asset-sale-event-study.md — event-study spine

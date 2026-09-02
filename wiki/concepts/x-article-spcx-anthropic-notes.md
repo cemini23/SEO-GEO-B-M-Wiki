@@ -7,6 +7,7 @@ related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-cxw-geo-th-postmortem-notes.md
   - concepts/x-article-uw-polymarket-bridge-notes.md
+  - concepts/cemini23-x-score-2026-09-01.md
 maturity: draft
 created: 2026-08-17
 updated: 2026-08-23
@@ -22,6 +23,7 @@ live_opener: https://x.com/Cemini23/status/2089373935347343492
 - @concepts/x-account-voice-and-format.md — voice, Cyril skeleton, paste protocol (no em dashes, paragraph merge)
 - @concepts/x-article-cxw-geo-th-postmortem-notes.md — prior markets-practitioner Article lane
 - @concepts/x-article-uw-polymarket-bridge-notes.md — PM odds as overlay, not as a pick
+- @concepts/cemini23-x-score-2026-09-01.md — Aug 17 body MIXED (title twice, multi-CTA); 485 views
 - Tesla overlay stays related-party only. Do not stuff Tesla cap into SPCX. See OSINT `entities/tickers/tsla.md` if needed.
 - 2026-08-23 follow-up: **Outlier Weekly only** (not a second X Article). Pair rec: long listed SPCX, short Anthropic **when listed**. Tesla overlay in-scope. August = public S-1 window, not a confirmed IPO. Prior X stays https://x.com/Cemini23/status/2089373803625304476
 

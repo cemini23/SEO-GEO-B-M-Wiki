@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Wiki Index
@@ -146,6 +146,9 @@ If you're new to this wiki:
 - [arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01](sources/arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01.md) — overflow: ARA UHE neutrinos (K167)
 - [arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01](sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md) — overflow: BLOOM-WILT LLM auditing; Cyber primary (K167)
 - [arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01](sources/arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01.md) — overflow: cosmic string loops (K167)
+- [arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02](sources/arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02.md) — overflow: semiconductor chance-risk matrix; OSINT thin (K168)
+- [arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02](sources/arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02.md) — overflow: SFT-RL annotation budget; CCC primary (K168)
+- [arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02](sources/arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02.md) — overflow: UI-VISA vascular segmentation (K168)
 
 ### Platform / practitioner news
 
@@ -267,7 +270,7 @@ If you're new to this wiki:
 - [TTWO / GTA 6 cashout — Outlier paste](briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md) — `[LIVE 2026-08-31](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone)` Substack body — gta6, ttwo, outlier, markets
 - [Metals / tungsten + Pt/Pd — Outlier spine](briefs/2026-08-30_metals-tungsten-ptpd-outlier.md) — `[DRAFT 2026-08-30]` OSINT→SEO spine: tungsten choke, interceptors, Pt/Pd dip-buy — tungsten, apt, platinum, palladium, outlier
 - [Metals / tungsten + Pt/Pd — Outlier paste](briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md) — `[PASTE-READY 2026-08-30]` Substack body; HITL; ship window 2026-09-08 to 2026-09-14 — tungsten, apt, outlier, markets
-- [CRML / Tanbreez — Outlier paste](briefs/2026-09-01_crml-tanbreez-outlier.md) — `[PASTE-READY 2026-09-01]` OSINT→SEO letter: license vs mine, offtakes ≠ cash, EUR scheme issues more shares; no last print; no $7 put; HITL after tungsten — crml, tanbreez, outlier, markets
+- [CRML / Tanbreez — Outlier paste](briefs/2026-09-01_crml-tanbreez-outlier.md) — `[SCHEDULED 2026-09-14 Mon 09:00 ET]` operator pasted 2026-09-01 — crml, tanbreez, outlier, markets
 
 ### Creator marketing (new vertical)
 
@@ -292,6 +295,7 @@ If you're new to this wiki:
 - [federated-daily-research-digest](concepts/federated-daily-research-digest.md) — per-wiki Exa + inbox automation loop (K93 rollout); pairs with `scripts/daily_research_config.yaml`
 - [agent-first-web-atml-framework](concepts/agent-first-web-atml-framework.md) — CCC K119 cross-route: ATML, agents.txt, provenance tiers for GEO citability
 - [x-account-voice-and-format](concepts/x-account-voice-and-format.md) — X Article voice, Cyril style deconstruction, paste protocol, Posts.docx style exemplars
+- [cemini23-x-score-2026-09-01](concepts/cemini23-x-score-2026-09-01.md) — Grok Bot two-week @Cemini23 plugin score (FILED 2026-09-01); brief `briefs/2026-09-01_cemini23-two-week-x-score.md`
 - [x-for-you-algorithm-2026](concepts/x-for-you-algorithm-2026.md) — Phoenix production weights (also listed under Creator marketing)
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
 - [x-article-cxw-geo-th-postmortem-notes](concepts/x-article-cxw-geo-th-postmortem-notes.md) — Jul 8 CXW/GEO/TH postmortem Article notes (after Jul 6 vindication)
@@ -305,7 +309,7 @@ If you're new to this wiki:
 - [cursor-route-marketing-notes](concepts/cursor-route-marketing-notes.md) — cursor-route Outlier/X/GEO marketing queue (2026-08-10)
 - [ttwo-gta6-outlier-notes](concepts/ttwo-gta6-outlier-notes.md) — GTA 6 cashout Outlier **LIVE** 2026-08-31 ([letter](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone)) — gta6, ttwo, outlier
 - [metals-tungsten-ptpd-outlier-notes](concepts/metals-tungsten-ptpd-outlier-notes.md) — `[PASTE-READY 2026-08-30]` tungsten + Pt/Pd Outlier queue; paste in briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md — tungsten, apt, platinum, palladium, outlier
-- [crml-tanbreez-outlier-notes](concepts/crml-tanbreez-outlier-notes.md) — `[PASTE-READY 2026-09-01]` CRML / Tanbreez Outlier queue; paste in briefs/2026-09-01_crml-tanbreez-outlier.md — crml, tanbreez, greenland, outlier
+- [crml-tanbreez-outlier-notes](concepts/crml-tanbreez-outlier-notes.md) — `[SCHEDULED 2026-09-14 Mon 09:00 ET]` CRML / Tanbreez Outlier; operator pasted 2026-09-01 — crml, tanbreez, greenland, outlier
 - [corpus-overflow-out-of-scope](concepts/corpus-overflow-out-of-scope.md) — librarian bookkeeping hub: triaged-out-of-scope source stubs kept for inventory honesty
 
 ## Entities

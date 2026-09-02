@@ -10,8 +10,9 @@ related:
   - concepts/creator-external-promotion.md
   - sources/twitter-x-creator-guide-2026.md
   - concepts/x-account-voice-and-format.md
+  - concepts/cemini23-x-score-2026-09-01.md
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -21,6 +22,7 @@ updated: 2026-08-13
 - @concepts/creator-external-promotion.md
 - @sources/twitter-x-creator-guide-2026.md
 - @concepts/x-account-voice-and-format.md
+- @concepts/cemini23-x-score-2026-09-01.md — 1 Sep 2026 @Cemini23 plugin score (flood + URL-only habit)
 
 ## Raw Concept
 

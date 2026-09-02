@@ -16,6 +16,7 @@ related:
   - concepts/metals-tungsten-ptpd-outlier-notes.md
   - concepts/crml-tanbreez-outlier-notes.md
   - concepts/cursor-route-marketing-notes.md
+  - concepts/cemini23-x-score-2026-09-01.md
   - entities/tools/substack-publisher-mcp.md
   - concepts/world-cup-bot-x-article-runbook-notes.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
@@ -63,13 +64,14 @@ updated: 2026-09-01
 - @concepts/atto-outlier-family-story-notes.md — Atto Outlier family-story queue (2026-08-08; X deferred)
 - @concepts/ttwo-gta6-outlier-notes.md — TTWO / GTA 6 cashout Outlier **LIVE** 2026-08-31 ([letter](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone))
 - @concepts/metals-tungsten-ptpd-outlier-notes.md — tungsten + Pt/Pd Outlier queue (scheduled LIVE 2026-09-07 09:00 ET)
-- @concepts/crml-tanbreez-outlier-notes.md — CRML / Tanbreez Outlier queue (DRAFT 2026-09-01; no last print; no $7 put)
+- @concepts/crml-tanbreez-outlier-notes.md — CRML / Tanbreez Outlier **SCHEDULED 2026-09-14** (operator pasted 2026-09-01)
 - @concepts/cursor-route-marketing-notes.md — cursor-route OSS launch marketing queue (2026-08-10)
 - @concepts/x-article-spcx-anthropic-notes.md — SPCX vs Anthropic relative-value X Article queue (2026-08-17)
 - @entities/tools/substack-publisher-mcp.md — official Publisher API MCP (read-only analytics after LIVE)
 - @entities/platforms/youtube.md — @Cemini23 video lane (Shorts + long-form)
 - @entities/platforms/twitter-x.md — platform algorithm + engagement signals
 - @concepts/x-for-you-algorithm-2026.md — Aug 2026 Phoenix weights (copy-link / quote / mutual-follow originals)
+- @concepts/cemini23-x-score-2026-09-01.md — Grok Bot two-week score 2026-09-01 (plugin public_metrics)
 - @osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md — K78 includes @cyrilXBT Obsidian contribution-rate article
 - @osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md — K84 style pass (May 30)
 - @osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md — K88 style pass (May 31)
@@ -115,14 +117,14 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | OW4 | [Poker playground](https://outlierweekly.substack.com/p/what-1-on-the-poker-playground-actually) | **LIVE** 2026-06-08 |
 | OW5 | World Cup Bot setup guide | **LIVE** 2026-06-11 |
 | OW6 | Tournament S1 postmortem | **LIVE** 2026-06-16 |
-| OW / X | GuruWatcher — newsletter levels → Discord — @concepts/guruwatcher-outlier-x-article-notes.md · [LIVE Outlier](https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter) 2026-07-28 | **LIVE** Outlier; X Article status TBD |
+| OW / X | GuruWatcher — newsletter levels → Discord — @concepts/guruwatcher-outlier-x-article-notes.md · [LIVE Outlier](https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter) 2026-07-28 · [LIVE X Article](https://x.com/Cemini23/status/2082079482026893793) | **LIVE** Outlier + X Article (131 views at 1 Sep score; body PASS) |
 | OW (queued) | Atto — family story → Italian documents kit — @concepts/atto-outlier-family-story-notes.md · paste `briefs/2026-08-08_outlier-weekly-atto-family-story.md` | **SHIP-READY** 2026-08-08 (Outlier only; X deferred; GPT Sol readability/SEO pass) |
 | OW / X (queued) | cursor-route — Cursor+DeepSeek+Grok parallel orchestrator — @concepts/cursor-route-marketing-notes.md · paste `briefs/2026-08-10_cursor-route-seo-geo-marketing.md` | **SHIP-READY** 2026-08-10 (npm 0.1.1 LIVE; GPT Sol SEO pass; hero GIF optional) |
 | X | SPCX cheap versus Anthropic — @concepts/x-article-spcx-anthropic-notes.md · [LIVE Article](https://x.com/Cemini23/status/2089373803625304476) · [opener](https://x.com/Cemini23/status/2089373935347343492) | **LIVE** 2026-08-17 (pinned opener; no Elon tag; $SPCX) |
 | OW (queued) | SPCX / Anthropic pair — same notes · paste `briefs/2026-08-23_spcx-anthropic-pair-outlier.md` | **DRAFT** 2026-08-23 Outlier only (not a second X Article) |
 | OW | [GTA 6 cashout / Netflix look](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone) — @concepts/ttwo-gta6-outlier-notes.md | **LIVE** 2026-08-31 (Outlier only; X deferred; slug is title-derived, not `gta-6-cashout-roblox-cs2`) |
 | OW (queued) | Metals / tungsten + Pt/Pd — @concepts/metals-tungsten-ptpd-outlier-notes.md · paste `briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md` | **SCHEDULED LIVE 2026-09-07 09:00 ET** (Outlier only; X deferred; GPT Sol + Kimi voice/GEO pass) |
-| OW (queued) | CRML / Tanbreez — @concepts/crml-tanbreez-outlier-notes.md · paste `briefs/2026-09-01_crml-tanbreez-outlier.md` | **PASTE-READY** 2026-09-01 (Outlier only; X deferred; no last print; no $7 put; $6 if it keeps falling; HITL schedule after tungsten 7 Sep) |
+| OW (queued) | CRML / Tanbreez — @concepts/crml-tanbreez-outlier-notes.md · paste `briefs/2026-09-01_crml-tanbreez-outlier.md` | **SCHEDULED LIVE 2026-09-14 (Mon) 09:00 ET** (Outlier only; X deferred; operator pasted 2026-09-01; no last print; no $7 put) |
 | OW4 / X Art. #4 (legacy label) | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | superseded by OW5 setup guide |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"
@@ -218,7 +220,7 @@ Weights and filters: @concepts/x-for-you-algorithm-2026.md (`param.rs` @ `a38916
 
 | Post | Shape | Views (at pull) |
 |------|--------|-----------------|
-| Jul 6 CXW Article | URL-only original | 215,801 (39 likes, 11 RTs, 5 replies) |
+| Jul 6 CXW Article | URL-only original | 215,801 at 13 Aug opencli; **215,851** at 1 Sep X-plugin score |
 | Jul 28 GuruWatcher | Quote of own Article with a hook | 22,820 (URL-only Article opener: 126) |
 | Aug 10 GuruWatcher | Quote of Jul 28 with a hook | 19,300 |
 | Aug 11 Article | URL-only original | 14,706 |
@@ -330,5 +332,8 @@ Update this table on each Posts.docx style pass.
 - Chasing Cyril's **daily Article volume** before reply volume exists — format yes, cadence no (2–3/week target)
 - Treating Article URLs on the opener as a Phoenix **link penalty** — OpenLink weight is +0.2; Jul 6 URL-only Article did 215k views
 - Shipping a **three-original thread in one session** (cursor-route Aug 10) — diversity decay; one original + replies instead
+- **14-day drought then a PSA of someone else’s video** as the only in-window original (46 views, 2026-08-23) — @concepts/cemini23-x-score-2026-09-01.md
+- Same-hour **self-quote + TL;DR** after a URL-only Article — leaks the article body onto the timeline and fails the one-original habit
+- Em dash in a **TL;DR reply** (Jul 6 CXW) — originals were clean; replies still count as our voice
 - Expecting the TL;DR **self-reply** to rank in For You — self-posts are filtered; it is for clickers
 - Replying to @0xPhilanthrop **$1M stack** thread with our WC bot — different lane (crypto up/down vs sports LP); quote Gustafssonkotte silent-failure angle instead if engaging PM builders

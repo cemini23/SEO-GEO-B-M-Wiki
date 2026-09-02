@@ -12,6 +12,7 @@ related:
   - sources/xai-x-algorithm-2026-08-13.md
   - concepts/x-for-you-algorithm-2026.md
   - concepts/x-account-voice-and-format.md
+  - concepts/cemini23-x-score-2026-09-01.md
   - entities/platforms/youtube.md
   - entities/platforms/fanvue.md
   - entities/platforms/fansly.md
@@ -19,7 +20,7 @@ related:
 
 maturity: draft
 created: 2026-05-08
-updated: 2026-08-13
+updated: 2026-09-01
 
 ---
 
@@ -35,6 +36,7 @@ updated: 2026-08-13
 - @sources/xai-x-algorithm-2026-08-13.md — Aug 13 2026 production weights + VF rules
 - @concepts/x-for-you-algorithm-2026.md — operator playbook from that drop
 - @concepts/x-account-voice-and-format.md — operator X Article voice + Posts.docx style pass (seo-wiki)
+- @concepts/cemini23-x-score-2026-09-01.md — 1 Sep 2026 two-week @Cemini23 plugin score
 - @entities/platforms/youtube.md — operator video distribution (@Cemini23)
 - @concepts/ai-assistance-guardrails.md
 

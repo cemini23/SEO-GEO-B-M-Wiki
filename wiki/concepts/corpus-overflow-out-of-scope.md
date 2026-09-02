@@ -127,13 +127,21 @@ related:
   - sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md
   - sources/arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01.md
   - sweeps/2026-09-01-daily.md
+  - sources/arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02.md
+  - sources/arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02.md
+  - sources/arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02.md
+  - sweeps/2026-09-02-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 ## Relations
 
+- @sweeps/2026-09-02-daily.md — K168 3/3 OOD (semiconductor filings → OSINT thin; SFT-RL budget → CCC primary; UI-VISA → overflow only)
+- @sources/arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02.md — K168 semiconductor chance-risk matrix (OSINT thin)
+- @sources/arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02.md — K168 SFT-RL annotation budget (CCC primary; EMNLP 2026)
+- @sources/arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02.md — K168 UI-VISA vascular segmentation (overflow only)
 - @sweeps/2026-09-01-daily.md — K167 3/3 OOD (ARA neutrinos → overflow only; BLOOM-WILT → Cyber primary + CCC thin; cosmic strings → overflow only)
 - @sources/arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01.md — K167 ARA UHE neutrino diffuse search (overflow only)
 - @sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md — K167 BLOOM-WILT LLM auditing (Cyber primary + CCC thin; no public code)
@@ -372,6 +380,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01.md | ARA array-wide UHE neutrino diffuse search (arXiv 2608.30989) | astro-ph.HE false positive; overflow only (K167) |
 | @sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md | BLOOM-WILT logit tilting for LLM auditing (arXiv 2608.31105) | cs.AI safety auditing; Cyber primary + CCC thin; no public code (K167) |
 | @sources/arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01.md | Cosmic string loops under gravitational backreaction (arXiv 2608.31163) | gr-qc false positive; overflow only (K167) |
+| @sources/arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02.md | Semiconductor chance-and-risk matrix from LLM filings (arXiv 2609.01563) | supply-chain analytics; OSINT thin (K168) |
+| @sources/arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02.md | Near-optimal SFT-RL annotation budget allocation (arXiv 2609.01573) | post-training budget; CCC primary; EMNLP 2026 (K168) |
+| @sources/arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02.md | UI-VISA vascular DSA segmentation (arXiv 2609.01598) | cs.CV medical imaging; overflow only (K168) |
 
 ## Snippets
 

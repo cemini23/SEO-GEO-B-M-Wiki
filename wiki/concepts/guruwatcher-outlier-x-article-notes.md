@@ -9,9 +9,10 @@ related:
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - entities/platforms/twitter-x.md
+  - concepts/cemini23-x-score-2026-09-01.md
 maturity: draft
 created: 2026-07-27
-updated: 2026-08-08
+updated: 2026-09-01
 ship_draft: briefs/2026-07-27_guruwatcher-outlier-x-article.md
 draft_version: published-2026-07-28
 status: LIVE - Outlier published 2026-07-28; X Article optional
@@ -25,6 +26,7 @@ substack_url: https://outlierweekly.substack.com/p/discord-only-fires-when-the-n
 - @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — prior Outlier bot launch pattern (OSS; GuruWatcher is private)
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — agent OSS distribution cousin
 - @entities/platforms/twitter-x.md — Article paste surface
+- @concepts/cemini23-x-score-2026-09-01.md — Jul 28 X Article confirmed LIVE; body PASS, 131 views
 
 ## Raw Concept
 
@@ -42,7 +44,7 @@ Agent OSS / local systems **plus** markets practitioner. Sell wiring and alert d
 |-------|--------|
 | Marketing brief + paste bodies | `briefs/2026-07-27_guruwatcher-outlier-x-article.md` — Outlier **LIVE** 2026-07-28 |
 | Outlier Weekly | **LIVE** — [Discord Only Fires When the Newsletter Level Is Real](https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter) |
-| X Article draft | Optional / deferred; paste still in brief if wanted |
+| X Article | **LIVE** 2026-07-28 — https://x.com/Cemini23/status/2082079482026893793 (confirmed 2026-09-01 live open; 131 views; body PASS) |
 | Discord fire screenshot | **Optional** |
 | Public GitHub CTA | **NO** (private) |
 | Hero image | Prompt in brief; optional |

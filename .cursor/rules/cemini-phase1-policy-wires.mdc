@@ -702,3 +702,38 @@ Security-agent SLR bounded-authority gap (K325, Cybersec-primary steal) + Recogn
 - One process = one failure domain; a single-process plugin host is a SPOF for every co-resident session. Isolate plugins as **peer processes** on a bus (router holds only the routing table); one fault ends at one node.
 - Keep durable state in an **append-only transcript** owned by no process; recovery (**cold switching**) rebuilds the session from the transcript. Resume with **no repeated effect** at the four tool-call-cycle boundaries (during execution / after return before persistence / after persistence before announcement / after announcement) — 80/80 sessions clean; work redone = work the transcript had not recorded.
 - CCC: isolate high-blast tool surfaces; do not re-execute a retained prefix (pairs K282 AgentRewind, K239 execution fidelity). No public SPDX → policy only, no clone; runtime `wont_wire` — do not replace Cursor/`/route`.
+
+## CCC wave K328–K332 (shared policy file)
+
+Output attestation + delegation ancestry (K328, policy) + Domain-grounded tool orchestration (K329, pattern) + CastClaw HITL forecasting (K330, OOD steal) + AutoSciRub evaluation-first rubric induction (K331, eval-first) + Aspire vague-goal self-evolution (K332, policy). **One clone:** `zjunlp/AutoSciRub` MIT (~2.5MB) → REFERENCE `.local/adopts/AutoSciRub` — runtime `wont_wire`. **CCC-only rule** `ccc-k328-k332-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** Cybersec may later take 2608.30387 (attestation) or 2608.30083 (ZK agent proofs — cap-skipped this wave); CCC K285 Mandato / K278 InterSAGE / K310 AP2 remain distinct from K328 output attestation. **No PoCs / no attack templates anywhere.**
+
+## Credentials ≠ later output bytes — two-layer attestation (CCC K328)
+
+- Post-incident evidence questions, not behavior claims: which deployer released these exact bytes, and was each cross-deployer edge authorized? A credential records a principal + permission at issuance; it does **not** bind later output bytes (G1) or prove both deployers authorized a dynamically created edge (G2).
+- **Two independently verifiable layers:** (1) a trusted **deployer runtime** (never the LLM agent) signs a hash of each released output — records released bytes; **does not prevent prompt injection**; (2) **ancestry evidence** binds each delegation record to a parent, and cross-deployer edges require **parent co-signature**.
+- After **child-key compromise**, a signed linked list / Merkle-chain accept a forged parent binding (child-only signature); only a **co-signed DAG rejects it** (parent must authorize the edge; negligible forgery under SUF-CMA). Cost small: Signed-DAG +5.5% end-to-end vs no-evidence in a live MCP/A2A/LLM workflow; 1,000/1,000 AWS paths verified.
+- Treat attestation as **post-incident audit/attribution**, never behavioral safety (pairs K285 Mandato integrity-not-intent, K310 pre-auth intent, K278 InterSAGE edge trust). **Cybersec steal (no PoCs).** `policy_wired`.
+
+## Intent / execution / explanation split over MCP + scoped ontology facts (CCC K329)
+
+- Script generation fails on **API hallucination, missing pipeline stages, wrong-strategy errors** (code that executes but answers the wrong question — domain-knowledge failures, not code-quality). Assign NL to the LLM, execution to **typed deterministic tools** that return structured data, explanation back to the LLM.
+- A small domain ontology (~25–30 entries) constrains planning to valid analysis chains. **It does not change tool selection (null result — schemas suffice); it corrects result interpretation 0.41→0.91** — and **only when the relevant fact is retrieved scoped, not bulk** (dump 0.56 / mined 0.74 / scoped 0.91).
+- Marginal cost of a new domain = ontology + tool wrappers; architecture/protocol unchanged. ParaView/TTK runtime **OOD** `wont_wire`; pattern `policy_wired`. Pairs K259 / K272 / K316.
+
+## Forecasting is a harness task (CCC K330, OOD)
+
+- Leave numerics to specialist forecasters; the harness connects models, tools, user input, and a **versioned execution record**. **Ask for missing essentials — no silent defaults.**
+- A **revision replaces the active forecast only after validation + hard constraints**; HITL cannot bypass those gates. Record every revision and the stopping decision; stop when supported, low expected value, budget out, or expert needed.
+- GuruWatcher: **alert-only pointer** to CastClaw — no new TSF runtime, no invented GW rule file. `wont_wire`.
+
+## Evaluation-first rubric is the control surface (CCC K331)
+
+- Open-ended research hides success criteria. **Induce a task-specific executable rubric before execution** and use it to guide, verify criterion-by-criterion, and revise — gains transfer across harnesses with a frozen backbone (+2.08/+2.95 pts ResearchClawBench; +16.8 AstaBench; rubric-guided ≈2.7× rubric-free self-refinement).
+- **Keep the external eval contract; do not let the agent rewrite pass criteria — do not rewrite `## Verify`** (pairs K162 / K281 / K289 / K298 / K324 validation ratchet).
+- `zjunlp/AutoSciRub` **MIT** (gh SPDX 2026-09-01) → GO REFERENCE `.local/adopts/AutoSciRub` (6MB). Entity runtime `wont_wire`; concept `policy_wired`.
+
+## Vague-goal self-evolution ≠ explicit-task optimization (CCC K332)
+
+- Goal interpretation is the **missing search axis**. With only a vague goal + hidden eval, agents close the train/edit loops but retain little: 30 → 28 evaluated → 21 eligible → **1 retained above-base improvement**; a positive within-lineage slope can be recovery from training-induced regression.
+- **Local training success ≠ transferable capability** (proxy self-eval fails hidden eval: 8/8 on a self-built checklist, 19.32 vs 28.64 reference); **continued search can erase earlier gains** (20.10→2.78→18.17) — checkpoint selection + rollback required; **strongest evolved harness < engineered reference** (27.22 vs 28.64 Qwen-Agent). Judge progress against the **base model**, not the previous checkpoint.
+- **Treat harness self-edit as high-blast HITL (misevolution)** — **never auto-evolve `.cursor/skills`** (pairs K237 / K292 / K313 / K324). No public SPDX → no clone; runtime `wont_wire`.

@@ -105,3 +105,9 @@ Around Grand Theft Auto VI, in-game value becomes real cash. It arrives as a Rob
 1. [x] Flip voice-table row on `@concepts/x-account-voice-and-format.md`
 2. [x] Record Substack URL on this page
 3. [ ] Optional Search Console URL inspect on the Substack permalink (you cannot verify `substack.com` as a domain property; inspect the URL)
+
+## Outlier Weekly — Netflix look (2026-08-31)
+
+- **Source:** @osint-wiki/sources/substack-rss-outlier-weekly-2026-08-31-the-netflix-look-gave-gta-6-a-phone-it-did-not-g.md
+- **Beat:** Netflix extended look confirms **no real-money purchases in SP** (Rob Nelson / Kinda Funny). Thesis pivot: second cash machine = creator/scarce-item rail, not launch-day cashout button.
+- **SEO lane:** Article queue — cashout vs creator economy; do not claim Polymarket/Kalshi levels without HITL.

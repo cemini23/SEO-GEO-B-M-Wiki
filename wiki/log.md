@@ -1,11 +1,40 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-09-01
+updated: 2026-09-02
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-09-02] ingest | K168 — 3/3 arXiv API false positives → overflow + CCC/OSINT
+
+- **Inbox** — 3 PDFs from `wiki/sweeps/2026-09-02-daily.md` (geo-aeo digest false positives).
+- **Sources** — @sources/arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02.md (OSINT thin); @sources/arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02.md (CCC primary); @sources/arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02.md (overflow cs.CV).
+- **Federation** — CCC brief `../Cemini claude code CCC/briefs/2026-09-02_k168-sft-rl-budget-ccc-from-seo.md`; OSINT thin `../../OSINT WORKSPACE/briefs/2026-09-02_k168-semiconductor-chance-risk-from-seo.md`.
+- **Archive** — all 3 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/seo/`; inbox cleared.
+- **Phase-0** — `scripts/adopt_k168_phase0.sh`; 0 SEO Adopt; 0 MB runtime; GW/TipDrop/poker/prod SKIP.
+- **Phase-1** — no new SEO wire (overflow + federation briefs only).
+
+## [2026-09-01] ops | @Cemini23 X score — Article bodies added
+
+- Bot packet scored openers only. Parent opened live Articles: Jul 6 CXW PASS (215.9k); Jul 18 UW PASS (274); Jul 28 GuruWatcher PASS (131, closest Cyril); Aug 11 cursor-route MIXED (14.8k, FAQ headings, mashed npm URL); Aug 17 SPCX MIXED (485, title twice, multi-CTA).
+- Jul 8 best hook is Outlier, not an X Article.
+- Brief + @concepts/cemini23-x-score-2026-09-01.md updated. X Eval skill now requires opening Article bodies.
+
+## [2026-09-01] ops | @Cemini23 two-week X score filed
+
+- Grok Bot X plugin packet from Downloads `2026-09-01.md` (sha256 `2c1995a7…2b5f1678`).
+- Brief: `briefs/2026-09-01_cemini23-two-week-x-score.md` (eval checklist; drafts not posted).
+- Storage: @concepts/cemini23-x-score-2026-09-01.md
+- Voice / Phoenix / twitter-x / cursor-route / CXW notes backlinked.
+- In-window: 1 original (PSA, 46 views). Habit FAIL on flood + URL-only. Keep hook = Jul 8 CoreCivic two-liner.
+
+## [2026-09-01] ops | CRML / Tanbreez Outlier scheduled
+
+- Operator pasted + scheduled **Monday 2026-09-14 09:00 ET** (after tungsten 2026-09-07).
+- Notes: @concepts/crml-tanbreez-outlier-notes.md · paste `briefs/2026-09-01_crml-tanbreez-outlier.md`
+- After LIVE: record Substack permalink; optional GSC URL inspect; OSINT desk log line.
 
 ## [2026-09-01] ingest | K167 — 3/3 arXiv API false positives → overflow + Cyber/CCC
 
