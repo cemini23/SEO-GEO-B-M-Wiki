@@ -32,8 +32,19 @@ Harness behavior for Phase-0 GO / CONDITIONAL-GO adopts owned by this wiki. Pref
 - Draft review replies in-wiki / Easy Review; **operator posts**. Never automate review gating or selective solicitation.
 - Never bulk-identical GBP posts; coordinate NAP edits with citations; schema must match reality.
 
+## K254 — GBP "Edited" review indicator (2026-09-02)
+
+**Brief:** `briefs/2026-09-02_k254-seo-gbp-edited-review.md`
+**Concept:** `@seo-wiki/concepts/google-review-edited-indicator.md`
+**Source:** `@osint-wiki/sources/newsletter-rss-sterling-sky-2026-08-30-what-does-it-mean-when-a-google-review-shows-edi.md`
+
+- When Google shows **Edited** on a review, the reviewer changed text after posting — **not** fraud by default.
+- Monitor sentiment shifts; document owner responses in Easy Review — **operator posts** (never automate review gating).
+- Do not bulk-flag edited reviews as spam without case-by-case read.
+- `wire_status: policy_wired` on concept page.
+
 ## Phase-1 meta (this surface)
 
-- After ingest ADOPT/GO: set `wire_status` + propose `/phase1` before claiming done.
+- After ingest ADOPT/GO: set `wire_status` + wire `/phase1` (operator default: implement, do not wait for second GO).
 - Skip Image-gen / 3D local wire backlogs. No secrets in rules. Ask before MCP/`settings.json` installs.
 - Inventory pattern: entity `wire_status` on `wiki/entities/tools/*` (SEO has no `.local/adopts/`).
