@@ -1620,3 +1620,12 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-sparktoro-2026-0
 - The August 24 letter *The Short Is Not the Perp. It Is the Listing.* is SPCX vs Anthropic, not the detention thread. Removed it from `/cxw-geo/`.
 - Replaced that hub with `/spcx-anthropic/`. `/cxw-geo/` 301s to the new page. CXW/GEO letters stay on Substack only.
 - Redeployed 2026-08-30: Worker version `1db2db2b-b1f7-47d7-9bad-3789e69bcc1e`. IndexNow HTTP 200.
+
+## [2026-09-03] digest | Outlier Weekly — first GSC digest follow-up (0 clicks / 0 impressions)
+
+- **Digest** — read `/tmp/gsc-digest-2026-09-02/gsc-digest/2026-09-02.md` (OW section + action 3). Raw OW CSVs are header-only.
+- **Facts** — `sc-domain:outlierweekly.com`, first pull (no prior digest). 7d 2026-08-25–31: **0 clicks / 0 impressions**, CTR 0%, avg position 0. 28d 2026-08-04–31: **0 clicks / 0 impressions**, CTR 0%, avg position 0. No query or page rows in either window. Chart only showed 2026-08-08–31 (earlier days had no data). Substack URL-prefix property still Not verified (not used this run).
+- **Filed** — dated 2026-09-03 section in `sites/outlierweekly/OPERATOR-LEFTOVERS.md` (digest facts + operator GSC Coverage leftover); ROADMAP.md W5 status line.
+- **Live probe (2026-09-03)** — all six owned hubs (/, /about/, /methodology/, /atto/, /guruwatcher/, /spcx-anthropic/) + `/sitemap.xml`, `/robots.txt`, `/llms.txt` return 200. No `X-Robots-Tag`, no meta-robots noindex on hubs; canonicals correct; sitemap matches live hubs. Redirects verified: www → apex 301, `/p/*` → Substack 301, retired `/prediction-market-lp-bot` → home 301, `/cxw-geo` → `/spcx-anthropic/` 301, unknown path 404. Apex is a 200 hub (2026-08-08 Substack-301 defect stays fixed).
+- **Code** — no indexability defect found; no worker/asset change required. Home `<title>` and `og:title` tightened to "Outlier Weekly — rare-event markets letter" (About already disambiguates "not Outlier AI"). Deployed with this commit.
+- **Operator leftover** — open GSC Pages/Coverage for `outlierweekly.com` and confirm which URLs Google has indexed (digest action 3).

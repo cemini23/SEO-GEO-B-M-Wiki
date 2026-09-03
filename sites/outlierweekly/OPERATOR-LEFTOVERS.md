@@ -4,6 +4,33 @@ Hands-on items for the human operator. None of these are agent actions; the
 agent does not touch Substack settings, GSC, Bing, Brave, or Cloudflare
 dashboard toggles.
 
+## GSC digest follow-up — first pull (2026-09-03)
+
+Filed from the 2026-09-02 GSC digest (read-only Performance export, account
+`cjbarone23@gmail.com`). Property `sc-domain:outlierweekly.com`. The digest bot
+made no sitemap, robots, verification, or indexing-request changes. Facts below
+are exact from the digest; no extra GSC numbers are inferred.
+
+- Windows: last 7 days **2026-08-25 – 2026-08-31**; last 28 days
+  **2026-08-04 – 2026-08-31**. Prior digest: none (first pull).
+- 7 days: **0 clicks / 0 impressions**, CTR 0%, avg position 0. Queries: none.
+  Pages: none.
+- 28 days: **0 clicks / 0 impressions**, CTR 0%, avg position 0. Queries: none.
+  Pages: none.
+- Chart on this property only showed 2026-08-08 – 2026-08-31 because earlier
+  days had no data.
+- Raw OW CSVs are header-only.
+- URL-prefix `https://outlierweekly.substack.com/` is listed in the account but
+  **Not verified**; not used this run. Verify it only if you want that property
+  too.
+- Empty is expected, not a ranking failure: hub + sitemap were submitted
+  2026-08-30; the digest window ends 2026-08-31; first digest; no prior movers.
+
+Operator leftover (digest action 3 — Coverage check):
+
+- [ ] Open GSC **Pages / Coverage** for `outlierweekly.com` and confirm which
+      URLs Google has indexed. Only you can see this from the dashboard.
+
 ## Substack (UI)
 
 - [x] Rename the publication to **Outlier Weekly** (operator, 2026-08-30).

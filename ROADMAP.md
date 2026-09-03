@@ -124,6 +124,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 ### W5 — Outlier Weekly owned hub
 
 **Status:** ACTIVE (2026-08-30). Outlier owned hub in `sites/outlierweekly/` (custom domain deferred).
+**2026-09-03:** First GSC digest (windows 7d 2026-08-25–31, 28d 2026-08-04–31): `sc-domain:outlierweekly.com` **0 clicks / 0 impressions** in both windows — expected (hub + sitemap live 2026-08-30, first digest, window ends 08-31). Operator GSC Coverage check is the only follow-up.
 
 ---
 
