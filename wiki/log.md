@@ -1,11 +1,20 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-09-02
+updated: 2026-09-03
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-09-03] ingest | K169 — 3/3 arXiv API false positives → overflow + CCC
+
+- **Inbox** — 3 PDFs from `wiki/sweeps/2026-09-03-daily.md` (geo-aeo digest false positives).
+- **Sources** — @sources/arxiv-lz-2026-dark-matter-recoil-2609.02823-2026-09-03.md (overflow hep-ex); @sources/arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03.md (overflow cs.RO); @sources/arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03.md (CCC primary).
+- **Federation** — CCC brief `../Cemini claude code CCC/briefs/2026-09-03_k169-dwm-web-agents-ccc-from-seo.md`.
+- **Archive** — all 3 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/seo/`; inbox cleared.
+- **Phase-0** — `scripts/adopt_k169_phase0.sh`; 0 SEO Adopt; 0 MB runtime; GW/TipDrop/poker/prod SKIP.
+- **Phase-1** — no new SEO wire (overflow + federation brief only).
 
 ## [2026-09-02] ingest | K168 — 3/3 arXiv API false positives → overflow + CCC/OSINT
 

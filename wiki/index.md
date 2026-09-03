@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 # Wiki Index
@@ -149,6 +149,9 @@ If you're new to this wiki:
 - [arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02](sources/arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02.md) — overflow: semiconductor chance-risk matrix; OSINT thin (K168)
 - [arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02](sources/arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02.md) — overflow: SFT-RL annotation budget; CCC primary (K168)
 - [arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02](sources/arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02.md) — overflow: UI-VISA vascular segmentation (K168)
+- [arxiv-lz-2026-dark-matter-recoil-2609.02823-2026-09-03](sources/arxiv-lz-2026-dark-matter-recoil-2609.02823-2026-09-03.md) — overflow: LZ dark matter recoil search (K169)
+- [arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03](sources/arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03.md) — overflow: LiDAR deployment eval (K169)
+- [arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03](sources/arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03.md) — overflow: DWM web agents; CCC primary (K169)
 
 ### Platform / practitioner news
 

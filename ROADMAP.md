@@ -142,6 +142,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-03 | K169 ingest: 3/3 arXiv API false positives → overflow + CCC | LZ dark matter + LiDAR deployment eval overflow-only; DWM web agents → CCC primary (predicted-state matching; pairs K283/K321); 0 SEO Adopt; 0 MB runtime; inbox archived to egress |
 | 2026-09-02 | K168 ingest: 3/3 arXiv API false positives → overflow + CCC/OSINT | Semiconductor filings → OSINT thin; SFT-RL budget → CCC primary (EMNLP 2026; pairs K281/K298); UI-VISA medical imaging overflow-only; 0 SEO Adopt; 0 MB runtime; inbox archived to egress |
 | 2026-09-01 | K167 ingest: 3/3 arXiv API false positives → overflow + Cyber/CCC | ARA UHE neutrinos + cosmic strings overflow-only; BLOOM-WILT → Cyber primary brief + CCC thin steal (logit-tilting elicitation; pairs K260); 0 SEO Adopt; 0 MB runtime; inbox archived to egress |
 | 2026-09-01 | Substack MCP auth loop stopped | Removed substack servers from ~/.cursor/mcp.json — disabled still spawned mcp-remote OAuth |

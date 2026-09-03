@@ -131,13 +131,21 @@ related:
   - sources/arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02.md
   - sources/arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02.md
   - sweeps/2026-09-02-daily.md
+  - sources/arxiv-lz-2026-dark-matter-recoil-2609.02823-2026-09-03.md
+  - sources/arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03.md
+  - sources/arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03.md
+  - sweeps/2026-09-03-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 ## Relations
 
+- @sweeps/2026-09-03-daily.md — K169 3/3 OOD (LZ dark matter → overflow; LiDAR deployment eval → overflow; DWM web agents → CCC primary)
+- @sources/arxiv-lz-2026-dark-matter-recoil-2609.02823-2026-09-03.md — K169 LZ dark matter recoil search (overflow only)
+- @sources/arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03.md — K169 LiDAR semantic segmentation deployment eval (overflow only)
+- @sources/arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03.md — K169 discriminative world models for web agents (CCC primary)
 - @sweeps/2026-09-02-daily.md — K168 3/3 OOD (semiconductor filings → OSINT thin; SFT-RL budget → CCC primary; UI-VISA → overflow only)
 - @sources/arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02.md — K168 semiconductor chance-risk matrix (OSINT thin)
 - @sources/arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02.md — K168 SFT-RL annotation budget (CCC primary; EMNLP 2026)
@@ -383,6 +391,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02.md | Semiconductor chance-and-risk matrix from LLM filings (arXiv 2609.01563) | supply-chain analytics; OSINT thin (K168) |
 | @sources/arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02.md | Near-optimal SFT-RL annotation budget allocation (arXiv 2609.01573) | post-training budget; CCC primary; EMNLP 2026 (K168) |
 | @sources/arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02.md | UI-VISA vascular DSA segmentation (arXiv 2609.01598) | cs.CV medical imaging; overflow only (K168) |
+| @sources/arxiv-lz-2026-dark-matter-recoil-2609.02823-2026-09-03.md | LZ dark matter extended recoil search (arXiv 2609.02823) | hep-ex false positive; overflow only (K169) |
+| @sources/arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03.md | LiDAR semantic segmentation deployment eval (arXiv 2609.02830) | cs.RO autonomous driving; overflow only (K169) |
+| @sources/arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03.md | Discriminative world models for web agents (arXiv 2609.02885) | web-agent world models; CCC primary (K169) |
 
 ## Snippets
 
