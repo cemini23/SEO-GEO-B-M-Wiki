@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-09-03
+updated: 2026-09-11
 ---
 
 # Wiki Index
@@ -152,6 +152,15 @@ If you're new to this wiki:
 - [arxiv-lz-2026-dark-matter-recoil-2609.02823-2026-09-03](sources/arxiv-lz-2026-dark-matter-recoil-2609.02823-2026-09-03.md) — overflow: LZ dark matter recoil search (K169)
 - [arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03](sources/arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03.md) — overflow: LiDAR deployment eval (K169)
 - [arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03](sources/arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03.md) — overflow: DWM web agents; CCC primary (K169)
+- [arxiv-fayolle-2026-side-channel-benchmarking-2609.03893-2026-09-11](sources/arxiv-fayolle-2026-side-channel-benchmarking-2609.03893-2026-09-11.md) — overflow: side-channel benchmarking; Cyber primary (K170)
+- [arxiv-dughmi-2026-batched-pandoras-box-2609.04059-2026-09-11](sources/arxiv-dughmi-2026-batched-pandoras-box-2609.04059-2026-09-11.md) — overflow: batched Pandora's Box; CCC primary (K170)
+- [arxiv-paine-2026-frb-magnetars-elliptical-2609.04118-2026-09-11](sources/arxiv-paine-2026-frb-magnetars-elliptical-2609.04118-2026-09-11.md) — overflow: FRB magnetar search (K170)
+- [arxiv-albughdadi-2026-meox-earth-observation-2609.05351-2026-09-11](sources/arxiv-albughdadi-2026-meox-earth-observation-2609.05351-2026-09-11.md) — overflow: MEOX Earth observation (K170)
+- [arxiv-pawar-2026-llm-explanations-behavioural-2609.05385-2026-09-11](sources/arxiv-pawar-2026-llm-explanations-behavioural-2609.05385-2026-09-11.md) — overflow: LLM explanation audits; CCC primary (K170)
+- [arxiv-nguyen-2026-regionfed-retail-query-2609.05403-2026-09-11](sources/arxiv-nguyen-2026-regionfed-retail-query-2609.05403-2026-09-11.md) — overflow: RegionFed retail FL; thin GEO steal (K170)
+- [arxiv-avramov-2026-atlas-verifiable-semantic-search-2609.11841-2026-09-11](sources/arxiv-avramov-2026-atlas-verifiable-semantic-search-2609.11841-2026-09-11.md) — overflow: Atlas verifiable search; thin GEO steal (K170)
+- [arxiv-edwards-2026-crispr-amortized-hit-discovery-2609.11877-2026-09-11](sources/arxiv-edwards-2026-crispr-amortized-hit-discovery-2609.11877-2026-09-11.md) — overflow: CRISPR hit discovery; Atto thin (K170)
+- [arxiv-sengupta-2026-multi-axion-ladder-2609.11907-2026-09-11](sources/arxiv-sengupta-2026-multi-axion-ladder-2609.11907-2026-09-11.md) — overflow: multi-axion cosmology (K170)
 
 ### Platform / practitioner news
 
@@ -271,8 +280,8 @@ If you're new to this wiki:
 - [SparkToro zero-click — owned site as permanent home](briefs/2026-08-14_k237-sparktoro-zero-click.md) — website still the citable GEO/AEO hub as clicks fall (K237)
 - [TTWO / GTA 6 cashout — Outlier front-to-back thesis](briefs/2026-08-30_ttwo-gta6-cashout-outlier.md) — `[LIVE 2026-08-31]` OSINT→SEO spine: two doors / three machines / Netflix-look scorecard — gta6, ttwo, outlier, markets
 - [TTWO / GTA 6 cashout — Outlier paste](briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md) — `[LIVE 2026-08-31](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone)` Substack body — gta6, ttwo, outlier, markets
-- [Metals / tungsten + Pt/Pd — Outlier spine](briefs/2026-08-30_metals-tungsten-ptpd-outlier.md) — `[DRAFT 2026-08-30]` OSINT→SEO spine: tungsten choke, interceptors, Pt/Pd dip-buy — tungsten, apt, platinum, palladium, outlier
-- [Metals / tungsten + Pt/Pd — Outlier paste](briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md) — `[PASTE-READY 2026-08-30]` Substack body; HITL; ship window 2026-09-08 to 2026-09-14 — tungsten, apt, outlier, markets
+- [Metals / tungsten + Pt/Pd — Outlier spine](briefs/2026-08-30_metals-tungsten-ptpd-outlier.md) — `[LIVE 2026-09-07]` OSINT→SEO spine: tungsten choke, interceptors, Pt/Pd dip-buy — tungsten, apt, platinum, palladium, outlier
+- [Metals / tungsten + Pt/Pd — Outlier paste](briefs/2026-09-03_metals-tungsten-ptpd-outlier-paste.md) — `[LIVE 2026-09-07](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten)` Substack body that shipped — tungsten, apt, outlier, markets
 - [CRML / Tanbreez — Outlier paste](briefs/2026-09-01_crml-tanbreez-outlier.md) — `[SCHEDULED 2026-09-14 Mon 09:00 ET]` operator pasted 2026-09-01 — crml, tanbreez, outlier, markets
 
 ### Creator marketing (new vertical)
@@ -311,7 +320,7 @@ If you're new to this wiki:
 - [agent-toolkit-x-thread-2026-05-28](concepts/agent-toolkit-x-thread-2026-05-28.md) — cemini23 OSS toolkit launch thread source material
 - [cursor-route-marketing-notes](concepts/cursor-route-marketing-notes.md) — cursor-route Outlier/X/GEO marketing queue (2026-08-10)
 - [ttwo-gta6-outlier-notes](concepts/ttwo-gta6-outlier-notes.md) — GTA 6 cashout Outlier **LIVE** 2026-08-31 ([letter](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone)) — gta6, ttwo, outlier
-- [metals-tungsten-ptpd-outlier-notes](concepts/metals-tungsten-ptpd-outlier-notes.md) — `[PASTE-READY 2026-08-30]` tungsten + Pt/Pd Outlier queue; paste in briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md — tungsten, apt, platinum, palladium, outlier
+- [metals-tungsten-ptpd-outlier-notes](concepts/metals-tungsten-ptpd-outlier-notes.md) — tungsten + Pt/Pd Outlier **LIVE** 2026-09-07 ([letter](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten)) — tungsten, apt, platinum, palladium, outlier
 - [crml-tanbreez-outlier-notes](concepts/crml-tanbreez-outlier-notes.md) — `[SCHEDULED 2026-09-14 Mon 09:00 ET]` CRML / Tanbreez Outlier; operator pasted 2026-09-01 — crml, tanbreez, greenland, outlier
 - [corpus-overflow-out-of-scope](concepts/corpus-overflow-out-of-scope.md) — librarian bookkeeping hub: triaged-out-of-scope source stubs kept for inventory honesty
 

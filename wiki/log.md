@@ -1,11 +1,31 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-09-03
+updated: 2026-09-11
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-09-11] ingest | K170 — 9/9 arXiv API false positives → overflow + thin GEO steals + CCC/Cyber/Atto
+
+- **Inbox** — 9 PDFs from `wiki/sweeps/2026-09-11-daily.md` (geo-aeo digest false positives; backlog since 2026-09-04).
+- **Sources** — @sources/arxiv-fayolle-2026-side-channel-benchmarking-2609.03893-2026-09-11.md (Cyber primary); @sources/arxiv-dughmi-2026-batched-pandoras-box-2609.04059-2026-09-11.md (CCC primary); @sources/arxiv-paine-2026-frb-magnetars-elliptical-2609.04118-2026-09-11.md (overflow astro); @sources/arxiv-albughdadi-2026-meox-earth-observation-2609.05351-2026-09-11.md (overflow cs.CV); @sources/arxiv-pawar-2026-llm-explanations-behavioural-2609.05385-2026-09-11.md (CCC primary); @sources/arxiv-nguyen-2026-regionfed-retail-query-2609.05403-2026-09-11.md (thin GEO steal → @concepts/near-me-search.md); @sources/arxiv-avramov-2026-atlas-verifiable-semantic-search-2609.11841-2026-09-11.md (thin GEO steal → @concepts/citation-verification-aeo.md); @sources/arxiv-edwards-2026-crispr-amortized-hit-discovery-2609.11877-2026-09-11.md (Atto thin); @sources/arxiv-sengupta-2026-multi-axion-ladder-2609.11907-2026-09-11.md (overflow cosmology).
+- **Federation** — Cyber `../Cybersecurity wiki/briefs/2026-09-11_k170-side-channel-benchmarking-cyber-from-seo.md`; CCC `../Cemini claude code CCC/briefs/2026-09-11_k170-batched-pandoras-box-ccc-from-seo.md` + `2026-09-11_k170-llm-explanations-ccc-from-seo.md`; Atto `../atto/briefs/2026-09-11_k170-crispr-hit-discovery-atto-from-seo.md`.
+- **Briefs triage** — K254 GBP edited indicator already on @concepts/google-review-edited-indicator.md (`policy_wired`); backlinked from @concepts/reviews-reputation-management.md. K256 tungsten LIVE filed in prior ops entry. K257 Latent Space AEO steal still needs source page ingest (deferred).
+- **Archive** — all 9 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/seo/`; inbox cleared.
+- **Phase-0** — `scripts/adopt_k170_phase0.sh`; 0 SEO Adopt; 0 MB runtime; GW/TipDrop/poker/prod SKIP.
+- **Phase-1** — no new SEO wire (overflow + federation briefs only).
+
+## [2026-09-11] ops | Outlier Weekly LIVE — tungsten metals furnace
+
+- **LIVE** — https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten (free; 2026-09-07; fold body from `briefs/2026-09-03_metals-tungsten-ptpd-outlier-paste.md`)
+- **Title / subtitle** match. Fold marks present: The Short List, Tether 27 t, PAC-3 fragment recast, "Almonty is the liquid miner mention."
+- **Slug delta** — shipped `the-war-is-a-metals-furnace-tungsten` (title-derived). Planned `tungsten-war-metal-china-apt` was not set.
+- **Issue number** still unset. Do not invent. X deferred.
+- **Updated** — @concepts/metals-tungsten-ptpd-outlier-notes.md, @concepts/x-account-voice-and-format.md, @wiki/index.md, `briefs/2026-09-03_metals-tungsten-ptpd-outlier-paste.md`
+- **Cross-wiki** — @osint-wiki/sources/substack-rss-outlier-weekly-2026-09-07-tungsten-furnace-2026-09-07.md already ingested 7 Sep; added SEO notes backlink. @osint-wiki/concepts/western-tungsten-supply-thesis.md gets the LIVE URL.
+- **Skipped** — no owned hub (markets letter stays on Substack); GSC URL-inspect still optional (cannot verify `substack.com`)
 
 ## [2026-09-03] ingest | K169 — 3/3 arXiv API false positives → overflow + CCC
 

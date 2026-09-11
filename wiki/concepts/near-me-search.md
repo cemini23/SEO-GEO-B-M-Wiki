@@ -13,12 +13,13 @@ related:
   - concepts/google-ads-local.md
   - entities/markets/local-market-template.md
   - concepts/federated-daily-research-digest.md
-
+  - sources/arxiv-nguyen-2026-regionfed-retail-query-2609.05403-2026-09-11.md
+  - sweeps/2026-09-11-daily.md
   - concepts/on-page-seo-local.md
   - concepts/reviews-reputation-management.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-21
+updated: 2026-09-11
 
 ---
 
@@ -37,7 +38,8 @@ updated: 2026-06-21
 - @entities/markets/local-market-template.md
 - @game-dev-wiki/sources/arxiv-na-2026-binary-tracking-spatial-qa-2606.16902-2026-06-21.md — route-context spatial QA research analog (K125)
 - @concepts/federated-daily-research-digest.md — K125 cross-wiki route
-
+- @sources/arxiv-nguyen-2026-regionfed-retail-query-2609.05403-2026-09-11.md — K170 thin steal: regional query heterogeneity
+- @sweeps/2026-09-11-daily.md — K170 overnight fetch
 
 ## Raw Concept
 
@@ -98,6 +100,10 @@ For the website side, "near me" intent is captured by **service-area / location-
 - **Listing not in the geographic area Google thinks it is** (incorrect address pin in GBP) — listing won't surface for users physically nearby
 - **Wrong primary category** — `Hair Salon` instead of `Barber Shop` means the "barbershop near me" query doesn't trigger the listing
 - **No grid-based rank tracking** — operator thinks "we're #1 for barbershop near me" because they tested from inside the shop; misses that 5 blocks east the listing is #6
+
+### Regional query heterogeneity (K170 thin steal) `[TENTATIVE]`
+
+@sources/arxiv-nguyen-2026-regionfed-retail-query-2609.05403-2026-09-11.md (RegionFed, retail federated learning) is not a local-pack ranking paper. It does formalize that **query vocabulary and intent differ by region** even under one brand. For multi-location operators: GSC Queries filtered by city, GBP Insights per location, and location-page copy should not assume one global "near me" winner phrase set. A homepage block that wins citation in one metro may miss in another.
 
 ### Route-context queries (emerging AI surface) `[TENTATIVE]`
 

@@ -5,6 +5,7 @@ tags: [gbp, reviews, seo]
 keywords: [edited-review, sterling-sky, trust]
 related:
   - "@osint-wiki/sources/newsletter-rss-sterling-sky-2026-08-30-what-does-it-mean-when-a-google-review-shows-edi.md"
+  - concepts/reviews-reputation-management.md
 maturity: draft
 created: 2026-09-02
 updated: 2026-09-02
@@ -15,6 +16,7 @@ wire_target: .cursor/rules/cemini-phase1-seo-geo-wires.mdc
 ## Relations
 
 - @osint-wiki/sources/newsletter-rss-sterling-sky-2026-08-30-what-does-it-mean-when-a-google-review-shows-edi.md — Sterling Sky RSS (K254 ingest)
+- @concepts/reviews-reputation-management.md — parent reviews hub
 
 ## Raw Concept
 

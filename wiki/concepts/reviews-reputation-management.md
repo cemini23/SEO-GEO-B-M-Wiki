@@ -32,6 +32,7 @@ related:
   - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
   - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
   - sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
+  - concepts/google-review-edited-indicator.md
 
 maturity: draft
 created: 2026-05-07

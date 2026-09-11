@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# K170 Phase-0 - SEO digest (9 OOD arXiv API false positives; 2 thin GEO steals; CCC/Cyber/Atto federation)
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+echo "K170 Phase-0 audits (SEO wiki)"
+echo "=============================="
+echo ""
+echo "1) Fayolle et al. side-channel benchmarking survey (2609.03893) — OUT-OF-SCOPE cs.CR"
+echo "   Cyber primary: benchmarking proxy hygiene for microarchitectural attacks."
+echo "2) Dughmi et al. Batched Pandora's Box (2609.04059) — OUT-OF-SCOPE cs.DS"
+echo "   CCC primary: batched VoI / parallel probe scheduling; pairs K162 Pandora's Router."
+echo "3) Paine et al. FRB magnetar search (2609.04118) — overflow astro-ph.HE"
+echo "4) Albughdadi et al. MEOX Earth observation MoE (2609.05351) — overflow cs.CV"
+echo "5) Pawar et al. LLM explanations behavioural evidence (2609.05385) — OUT-OF-SCOPE cs.AI"
+echo "   CCC primary: necessary vs sufficient explanation audits for agent components."
+echo "6) Nguyen et al. RegionFed retail query FL (2609.05403) — overflow + thin GEO steal"
+echo "   Regional query heterogeneity for near-me / city-modified local intent."
+echo "7) Avramov et al. Atlas verifiable semantic search (2609.11841) — overflow + thin GEO steal"
+echo "   Verifiable retrieval integrity for AEO citation audits."
+echo "8) Edwards et al. CRISPR amortized hit discovery (2609.11877) — overflow q-bio"
+echo "   Atto thin brief only."
+echo "9) Sengupta et al. multi-axion cosmology (2609.11907) — overflow astro-ph.CO"
+echo ""
+echo "GuruWatcher / TipDrop / poker / prod: SKIP"
+echo "Local SEO adopt disk this pass: 0 MB (echo-only Phase-0; no clones)"
+echo "Phase-1 SEO: no new wire (overflow + federation briefs only)"
+echo "Root: $ROOT"
