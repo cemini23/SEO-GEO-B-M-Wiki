@@ -8,12 +8,14 @@ related:
   - concepts/metals-tungsten-ptpd-outlier-notes.md
 maturity: draft
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-16
 ship_draft: briefs/2026-09-01_crml-tanbreez-outlier.md
 ship_paste: briefs/2026-09-01_crml-tanbreez-outlier.md
-draft_version: scheduled
-status: SCHEDULED Substack LIVE 2026-09-14 (Mon) 09:00 ET. Operator pasted 2026-09-01. No last stock print. No $7 put. X deferred. After tungsten (2026-09-07).
-ship_date: 2026-09-14 09:00 ET
+draft_version: published-2026-09-14
+status: LIVE - Outlier published 2026-09-14; X Article deferred
+ship_date: 2026-09-14
+substack_url: https://outlierweekly.substack.com/p/the-greenland-license-is-real-the
+substack_slug: the-greenland-license-is-real-the
 cross-wiki-source: "@osint-wiki/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md"
 ---
 
@@ -41,10 +43,10 @@ This letter **names the ticker**. It sells the mismatch (license vs mine vs prom
 |-------|--------|
 | Research spine / paste | `briefs/2026-09-01_crml-tanbreez-outlier.md` — operator pasted 2026-09-01. GPT-5.6 Sol + Kimi + human voice. |
 | Private OSINT desk | `@osint-wiki/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md` — friends only. Has last print and $7 sleeve. **Banned as paste source.** |
-| Outlier Weekly | **SCHEDULED LIVE 2026-09-14 (Mon) 09:00 ET.** Operator pasted 2026-09-01. Permalink TBD after publish. |
+| Outlier Weekly | **LIVE** — [The Greenland license is real. The mine is still an option.](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the) (2026-09-14, free). Shipped paste: `briefs/2026-09-01_crml-tanbreez-outlier.md` |
 | X Article | Deferred unless operator asks |
 | Issue number | Unset. Do not invent. |
-| Hero | None unless operator asks. No live charts. No last-print screenshots. |
+| Hero | Gemini editorial 16:9 if used. Prompt in `briefs/2026-09-03_crml-tanbreez-outlier.md`. No live charts. No last-print screenshots. No ticker. |
 
 ### Working titles (operator picks at draft)
 
@@ -102,7 +104,7 @@ Do not chase "CRML fraud" or "CRML reverse split" as the head term. The letter r
 
 ### After LIVE
 
-1. Flip voice-table row on `@concepts/x-account-voice-and-format.md`
-2. Record Substack URL on this page
-3. Tell OSINT to add the permalink on the 2026-09-01 CRML log line
-4. Optional Search Console URL inspect on the Substack permalink
+- [x] Flip voice-table row on `@concepts/x-account-voice-and-format.md` (2026-09-16)
+- [x] Record Substack URL on this page (2026-09-16)
+- [x] OSINT log line — permalink on 2026-09-01 CRML query entry (2026-09-16)
+- [ ] Optional Search Console URL inspect on the Substack permalink

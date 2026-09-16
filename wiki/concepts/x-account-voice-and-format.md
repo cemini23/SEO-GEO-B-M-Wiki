@@ -51,7 +51,7 @@ related:
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-09-12
+updated: 2026-09-16
 ---
 
 ## Relations
@@ -65,7 +65,7 @@ updated: 2026-09-12
 - @concepts/atto-outlier-family-story-notes.md — Atto Outlier family-story queue (2026-08-08; X deferred)
 - @concepts/ttwo-gta6-outlier-notes.md — TTWO / GTA 6 cashout Outlier **LIVE** 2026-08-31 ([letter](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone))
 - @concepts/metals-tungsten-ptpd-outlier-notes.md — tungsten + Pt/Pd Outlier **LIVE** 2026-09-07 ([letter](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten))
-- @concepts/crml-tanbreez-outlier-notes.md — CRML / Tanbreez Outlier **SCHEDULED 2026-09-14** (operator pasted 2026-09-01)
+- @concepts/crml-tanbreez-outlier-notes.md — CRML / Tanbreez Outlier **LIVE** 2026-09-14 ([letter](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the))
 - @concepts/ceminiparlays-ceminidfs-x-article-notes.md — CeminiDFS + CeminiParlays X Article **LIVE** 2026-09-12 (https://x.com/Cemini23/status/2098862947749515565)
 - @concepts/cursor-route-marketing-notes.md — cursor-route OSS launch marketing queue (2026-08-10)
 - @concepts/x-article-spcx-anthropic-notes.md — SPCX vs Anthropic relative-value X Article queue (2026-08-17)
@@ -126,7 +126,7 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | OW (queued) | SPCX / Anthropic pair — same notes · paste `briefs/2026-08-23_spcx-anthropic-pair-outlier.md` | **DRAFT** 2026-08-23 Outlier only (not a second X Article) |
 | OW | [GTA 6 cashout / Netflix look](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone) — @concepts/ttwo-gta6-outlier-notes.md | **LIVE** 2026-08-31 (Outlier only; X deferred; slug is title-derived, not `gta-6-cashout-roblox-cs2`) |
 | OW | [Tungsten / metals furnace](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten) — @concepts/metals-tungsten-ptpd-outlier-notes.md | **LIVE** 2026-09-07 (Outlier only; X deferred; slug is title-derived, not `tungsten-war-metal-china-apt`) |
-| OW (queued) | CRML / Tanbreez — @concepts/crml-tanbreez-outlier-notes.md · paste `briefs/2026-09-01_crml-tanbreez-outlier.md` | **SCHEDULED LIVE 2026-09-14 (Mon) 09:00 ET** (Outlier only; X deferred; operator pasted 2026-09-01; no last print; no $7 put) |
+| OW | [CRML / Tanbreez — Greenland license](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the) — @concepts/crml-tanbreez-outlier-notes.md | **LIVE** 2026-09-14 (Outlier only; X deferred; slug is title-derived, not `critical-metals-tanbreez-greenland-option`) |
 | X | CeminiDFS + CeminiParlays + Grok slate packet — @concepts/ceminiparlays-ceminidfs-x-article-notes.md · paste `briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md` | **LIVE** 2026-09-12 — https://x.com/Cemini23/status/2098862947749515565 |
 | OW4 / X Art. #4 (legacy label) | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | superseded by OW5 setup guide |
 

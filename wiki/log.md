@@ -7,6 +7,16 @@ last_easy_review_ingest: 2026-05-08
 
 # Operations Log
 
+## [2026-09-16] ops | Outlier Weekly LIVE — CRML / Tanbreez Greenland
+
+- **LIVE** — https://outlierweekly.substack.com/p/the-greenland-license-is-real-the (free; operator-confirmed 2026-09-16; scheduled ship 2026-09-14)
+- **Title** — The Greenland license is real. The mine is still an option. (matches working title 1)
+- **Slug delta** — shipped `the-greenland-license-is-real-the` (title-derived, truncated). Planned `critical-metals-tanbreez-greenland-option` was not set.
+- **Issue number** still unset. Do not invent. X deferred.
+- **Updated** — @concepts/crml-tanbreez-outlier-notes.md, @concepts/x-account-voice-and-format.md, @wiki/index.md
+- **Cross-wiki** — @osint-wiki/wiki/log.md 2026-09-16 LIVE entry + 2026-09-01 CRML query line updated with permalink
+- **Skipped** — no owned hub (markets letter stays on Substack); GSC URL-inspect optional
+
 ## [2026-09-16] ingest | K171 — 3/3 arXiv API false positives → overflow + thin GEO steal + CCC
 
 - **Inbox** — 3 PDFs from `wiki/sweeps/2026-09-16-daily.md` (geo-aeo digest false positives).

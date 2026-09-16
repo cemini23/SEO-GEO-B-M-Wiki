@@ -285,7 +285,7 @@ If you're new to this wiki:
 - [TTWO / GTA 6 cashout — Outlier paste](briefs/2026-08-30_ttwo-gta6-cashout-outlier-paste.md) — `[LIVE 2026-08-31](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone)` Substack body — gta6, ttwo, outlier, markets
 - [Metals / tungsten + Pt/Pd — Outlier spine](briefs/2026-08-30_metals-tungsten-ptpd-outlier.md) — `[LIVE 2026-09-07]` OSINT→SEO spine: tungsten choke, interceptors, Pt/Pd dip-buy — tungsten, apt, platinum, palladium, outlier
 - [Metals / tungsten + Pt/Pd — Outlier paste](briefs/2026-09-03_metals-tungsten-ptpd-outlier-paste.md) — `[LIVE 2026-09-07](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten)` Substack body that shipped — tungsten, apt, outlier, markets
-- [CRML / Tanbreez — Outlier paste](briefs/2026-09-01_crml-tanbreez-outlier.md) — `[SCHEDULED 2026-09-14 Mon 09:00 ET]` operator pasted 2026-09-01 — crml, tanbreez, outlier, markets
+- [CRML / Tanbreez — Outlier paste](briefs/2026-09-01_crml-tanbreez-outlier.md) — `[LIVE 2026-09-14](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the)` — crml, tanbreez, outlier, markets
 - [CeminiDFS + CeminiParlays — X Article pack](briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md) — `[LIVE 2026-09-12](https://x.com/Cemini23/status/2098862947749515565)` free NFL weekend stack + Grok packet — dfs, pickem, grok-bot, x-article
 
 ### Creator marketing (new vertical)
@@ -325,7 +325,7 @@ If you're new to this wiki:
 - [cursor-route-marketing-notes](concepts/cursor-route-marketing-notes.md) — cursor-route Outlier/X/GEO marketing queue (2026-08-10)
 - [ttwo-gta6-outlier-notes](concepts/ttwo-gta6-outlier-notes.md) — GTA 6 cashout Outlier **LIVE** 2026-08-31 ([letter](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone)) — gta6, ttwo, outlier
 - [metals-tungsten-ptpd-outlier-notes](concepts/metals-tungsten-ptpd-outlier-notes.md) — tungsten + Pt/Pd Outlier **LIVE** 2026-09-07 ([letter](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten)) — tungsten, apt, platinum, palladium, outlier
-- [crml-tanbreez-outlier-notes](concepts/crml-tanbreez-outlier-notes.md) — `[SCHEDULED 2026-09-14 Mon 09:00 ET]` CRML / Tanbreez Outlier; operator pasted 2026-09-01 — crml, tanbreez, greenland, outlier
+- [crml-tanbreez-outlier-notes](concepts/crml-tanbreez-outlier-notes.md) — `[LIVE 2026-09-14](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the)` CRML / Tanbreez Outlier — crml, tanbreez, greenland, outlier
 - [ceminiparlays-ceminidfs-x-article-notes](concepts/ceminiparlays-ceminidfs-x-article-notes.md) — CeminiDFS + CeminiParlays X Article **LIVE** 2026-09-12 ([tweet](https://x.com/Cemini23/status/2098862947749515565)) — dfs, pickem, grok-bot
 - [corpus-overflow-out-of-scope](concepts/corpus-overflow-out-of-scope.md) — librarian bookkeeping hub: triaged-out-of-scope source stubs kept for inventory honesty
 
