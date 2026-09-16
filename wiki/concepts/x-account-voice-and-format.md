@@ -15,6 +15,7 @@ related:
   - concepts/ttwo-gta6-outlier-notes.md
   - concepts/metals-tungsten-ptpd-outlier-notes.md
   - concepts/crml-tanbreez-outlier-notes.md
+  - concepts/ceminiparlays-ceminidfs-x-article-notes.md
   - concepts/cursor-route-marketing-notes.md
   - concepts/cemini23-x-score-2026-09-01.md
   - entities/tools/substack-publisher-mcp.md
@@ -50,7 +51,7 @@ related:
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-09-01
+updated: 2026-09-12
 ---
 
 ## Relations
@@ -63,8 +64,9 @@ updated: 2026-09-01
 - @concepts/guruwatcher-outlier-x-article-notes.md — GuruWatcher Outlier + X Article queue (2026-07-27)
 - @concepts/atto-outlier-family-story-notes.md — Atto Outlier family-story queue (2026-08-08; X deferred)
 - @concepts/ttwo-gta6-outlier-notes.md — TTWO / GTA 6 cashout Outlier **LIVE** 2026-08-31 ([letter](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone))
-- @concepts/metals-tungsten-ptpd-outlier-notes.md — tungsten + Pt/Pd Outlier queue (scheduled LIVE 2026-09-07 09:00 ET)
+- @concepts/metals-tungsten-ptpd-outlier-notes.md — tungsten + Pt/Pd Outlier **LIVE** 2026-09-07 ([letter](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten))
 - @concepts/crml-tanbreez-outlier-notes.md — CRML / Tanbreez Outlier **SCHEDULED 2026-09-14** (operator pasted 2026-09-01)
+- @concepts/ceminiparlays-ceminidfs-x-article-notes.md — CeminiDFS + CeminiParlays X Article **LIVE** 2026-09-12 (https://x.com/Cemini23/status/2098862947749515565)
 - @concepts/cursor-route-marketing-notes.md — cursor-route OSS launch marketing queue (2026-08-10)
 - @concepts/x-article-spcx-anthropic-notes.md — SPCX vs Anthropic relative-value X Article queue (2026-08-17)
 - @entities/tools/substack-publisher-mcp.md — official Publisher API MCP (read-only analytics after LIVE)
@@ -123,8 +125,9 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | X | SPCX cheap versus Anthropic — @concepts/x-article-spcx-anthropic-notes.md · [LIVE Article](https://x.com/Cemini23/status/2089373803625304476) · [opener](https://x.com/Cemini23/status/2089373935347343492) | **LIVE** 2026-08-17 (pinned opener; no Elon tag; $SPCX) |
 | OW (queued) | SPCX / Anthropic pair — same notes · paste `briefs/2026-08-23_spcx-anthropic-pair-outlier.md` | **DRAFT** 2026-08-23 Outlier only (not a second X Article) |
 | OW | [GTA 6 cashout / Netflix look](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone) — @concepts/ttwo-gta6-outlier-notes.md | **LIVE** 2026-08-31 (Outlier only; X deferred; slug is title-derived, not `gta-6-cashout-roblox-cs2`) |
-| OW (queued) | Metals / tungsten + Pt/Pd — @concepts/metals-tungsten-ptpd-outlier-notes.md · paste `briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md` | **SCHEDULED LIVE 2026-09-07 09:00 ET** (Outlier only; X deferred; GPT Sol + Kimi voice/GEO pass) |
+| OW | [Tungsten / metals furnace](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten) — @concepts/metals-tungsten-ptpd-outlier-notes.md | **LIVE** 2026-09-07 (Outlier only; X deferred; slug is title-derived, not `tungsten-war-metal-china-apt`) |
 | OW (queued) | CRML / Tanbreez — @concepts/crml-tanbreez-outlier-notes.md · paste `briefs/2026-09-01_crml-tanbreez-outlier.md` | **SCHEDULED LIVE 2026-09-14 (Mon) 09:00 ET** (Outlier only; X deferred; operator pasted 2026-09-01; no last print; no $7 put) |
+| X | CeminiDFS + CeminiParlays + Grok slate packet — @concepts/ceminiparlays-ceminidfs-x-article-notes.md · paste `briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md` | **LIVE** 2026-09-12 — https://x.com/Cemini23/status/2098862947749515565 |
 | OW4 / X Art. #4 (legacy label) | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | superseded by OW5 setup guide |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"
@@ -295,6 +298,7 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | Operator CXW Jul 6 | — | X Article | ICE bought two CXW sites | Vindication map + GEO chase | Article link | **LIVE** — deal confirmation; do not republish as news |
 | Operator CXW/GEO/TH Jul 8 | — | X Article | Right on sale, wrong on pop | Scorecard 6+5 + fade stack + TH cousin | Watchlist replies | **LIVE** (operator-confirmed published; wiki flip 2026-07-17) |
 | Operator SPCX vs Anthropic Aug 17 | — | X Article | Same $1.8T, different companies | Marks hierarchy + stack + Grok Bot extra beat | Desk footer + $SPCX | **LIVE** — https://x.com/Cemini23/status/2089373803625304476 · opener pinned |
+| Operator CeminiDFS / Parlays Sep 12 | — | X Article | Paid tool stack / untyped Underdog board | 3-piece weekend stack + 7-step Sunday run | Clone both MIT repos | **LIVE** — https://x.com/Cemini23/status/2098862947749515565 |
 
 **K112 steal flags:** Gustafsson = dual-telemetry hook; zodchiii = contractor framing; akshay = Part N explainer; Lutchyn/Arvin/Surfer/AlterEgo routed to sibling wikis — exemplars only here.
 

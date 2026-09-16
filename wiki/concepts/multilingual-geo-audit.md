@@ -21,9 +21,11 @@ related:
   - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
   - concepts/ai-citation-sourcing-geo.md
   - concepts/geo-visibility-vector-protocol.md
+  - sources/arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16.md
+  - sweeps/2026-09-16-daily.md
 maturity: validated
 created: 2026-06-24
-updated: 2026-07-16
+updated: 2026-09-16
 ---
 
 ## Relations
@@ -44,6 +46,8 @@ updated: 2026-07-16
 - @sweeps/2026-06-24-daily.md — overnight fetch
 - @sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md — citation sourcing companion (K130)
 - @concepts/ai-citation-sourcing-geo.md — earned-media citation audit layer
+- @sources/arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16.md — K171 thin steal: native vs translated eval
+- @sweeps/2026-09-16-daily.md — K171 overnight fetch
 
 ## Raw Concept
 
@@ -85,6 +89,10 @@ Pair with **verified mention** checks (@concepts/per-entity-bias-mapping-geo.md)
 
 - Bilingual **GBP posts**, service descriptions, and website `hreflang` may help home-language retrieval — not tested in Žatuchin; aligns with canonical presence discipline.
 - Review responses in customer's language (@concepts/review-response-templates.md) — human trust layer; indirect GEO effect `[NEEDS VERIFICATION 2026-06-24]`.
+
+### Native vs translated benchmarks (K171 thin steal) `[TENTATIVE]`
+
+@sources/arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16.md (BabyLM French): native **QFrBLiMP** scores (85.97%) diverge sharply from cross-lingual GLUE with translated tasks + LoRA (62.80% weighted leaderboard; world-knowledge tasks fail to transfer). For GEO operators: home-language **buyer-intent probes** should be written natively, not only English prompts machine-translated — tokenizer and minimal-pair design change measured visibility. Pairs K128 language-blind-spot.
 
 ### Hands-on brief
 

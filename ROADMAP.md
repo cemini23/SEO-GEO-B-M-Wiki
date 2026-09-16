@@ -143,6 +143,8 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-16 | K171 ingest: 3/3 arXiv API false positives → overflow + thin GEO steal + CCC | Native-language BabyLM eval → multilingual-geo-audit steal + CCC brief; combinatorics + scotogenic physics overflow-only; 0 SEO Adopt; 0 MB runtime; inbox archived to egress |
+| 2026-09-12 | CeminiDFS + CeminiParlays X Article LIVE | Public MIT stack + Grok packet; voice exemplar + notes page filed |
 | 2026-09-11 | K170 ingest: 9/9 arXiv API false positives → overflow + thin GEO steals + CCC/Cyber/Atto | Side-channel bench → Cyber; Batched Pandora's Box + LLM explanation audits → CCC; RegionFed + Atlas → thin GEO steals on near-me + citation-verification; CRISPR → Atto thin; 5 pure overflow; 0 SEO Adopt; 0 MB runtime; inbox archived to egress |
 | 2026-09-03 | K169 ingest: 3/3 arXiv API false positives → overflow + CCC | LZ dark matter + LiDAR deployment eval overflow-only; DWM web agents → CCC primary (predicted-state matching; pairs K283/K321); 0 SEO Adopt; 0 MB runtime; inbox archived to egress |
 | 2026-09-02 | K168 ingest: 3/3 arXiv API false positives → overflow + CCC/OSINT | Semiconductor filings → OSINT thin; SFT-RL budget → CCC primary (EMNLP 2026; pairs K281/K298); UI-VISA medical imaging overflow-only; 0 SEO Adopt; 0 MB runtime; inbox archived to egress |

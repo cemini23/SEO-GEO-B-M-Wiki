@@ -1,11 +1,36 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-09-11
+updated: 2026-09-16
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-09-16] ingest | K171 — 3/3 arXiv API false positives → overflow + thin GEO steal + CCC
+
+- **Inbox** — 3 PDFs from `wiki/sweeps/2026-09-16-daily.md` (geo-aeo digest false positives).
+- **Sources** — @sources/arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16.md (thin GEO steal → @concepts/multilingual-geo-audit.md; CCC primary); @sources/arxiv-silva-2026-twisted-bracelets-transpositions-2609.17493-2026-09-16.md (overflow math.CO); @sources/arxiv-mondal-2026-vanilla-scotogenic-muon-collider-2609.17530-2026-09-16.md (overflow hep-ph).
+- **Federation** — CCC brief `../Cemini claude code CCC/briefs/2026-09-16_k171-native-language-eval-ccc-from-seo.md`.
+- **Briefs triage** — K257 Latent Space AEO still deferred (no source drop). CRML scheduled 2026-09-14 — operator should record Substack permalink if LIVE (not verified this session).
+- **Archive** — all 3 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/seo/`; inbox cleared.
+- **Phase-0** — `scripts/adopt_k171_phase0.sh`; 0 SEO Adopt; 0 MB runtime; GW/TipDrop/poker/prod SKIP.
+- **Phase-1** — no new SEO wire (overflow + federation brief only).
+
+## [2026-09-12] ops | CeminiDFS + CeminiParlays X Article LIVE
+
+- **LIVE** — https://x.com/Cemini23/status/2098862947749515565 (opener + Article, operator-confirmed)
+- **Flipped** — @concepts/ceminiparlays-ceminidfs-x-article-notes.md, @concepts/x-account-voice-and-format.md (arc + exemplar), @wiki/index.md, `briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md`
+- **Open** — optional TL;DR first reply if not posted; do not add a second original
+
+## [2026-09-12] query | CeminiDFS + CeminiParlays X Article (Week 1 Sunday)
+
+- **Brief** — `briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md` (SHIP-READY). Paste body + opener + TL;DR.
+- **Notes** — @concepts/ceminiparlays-ceminidfs-x-article-notes.md
+- **Voice** — parent Cyril pass, then Muse Spark 7/10 and GPT Sol 7/10 (both SHIP-WITH-EDITS). Merged: kept Grok-hook title, 3 question headings, flattened FAQ rest, killed negation triplets, no live picks, no em dashes.
+- **Products** — public MIT `github.com/cemini23/CeminiDFS` + `github.com/cemini23/CeminiParlays` (v0.1.0, shipped today). Grok Bot = injury/IR/weather packet only.
+- **Updated** — @concepts/x-account-voice-and-format.md (queue row + exemplar), @wiki/index.md
+- **Skipped** — Outlier Weekly companion; no X publish from this session
 
 ## [2026-09-11] ingest | K170 — 9/9 arXiv API false positives → overflow + thin GEO steals + CCC/Cyber/Atto
 

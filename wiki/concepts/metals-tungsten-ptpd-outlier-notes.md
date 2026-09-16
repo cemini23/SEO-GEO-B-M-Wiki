@@ -8,14 +8,17 @@ related:
   - concepts/ttwo-gta6-outlier-notes.md
   - concepts/crml-tanbreez-outlier-notes.md
   - "@osint-wiki/concepts/western-tungsten-supply-thesis.md"
+  - "@osint-wiki/sources/substack-rss-outlier-weekly-2026-09-07-tungsten-furnace-2026-09-07.md"
 maturity: draft
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-11
 ship_draft: briefs/2026-08-30_metals-tungsten-ptpd-outlier.md
-draft_version: scheduled
-status: SCHEDULED Substack LIVE 2026-09-07 09:00 ET. Operator pasted. No live prices.
-ship_date: 2026-09-07 09:00 ET
-ship_paste: briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md
+draft_version: published-2026-09-07
+status: LIVE - Outlier published 2026-09-07; X Article deferred
+ship_date: 2026-09-07
+ship_paste: briefs/2026-09-03_metals-tungsten-ptpd-outlier-paste.md
+substack_url: https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten
+substack_slug: the-war-is-a-metals-furnace-tungsten
 cross-wiki-source: "@osint-wiki/reports/research/pack-metals-tungsten-ptpd-20260830/thesis.md"
 ---
 
@@ -25,10 +28,11 @@ cross-wiki-source: "@osint-wiki/reports/research/pack-metals-tungsten-ptpd-20260
 - @concepts/ttwo-gta6-outlier-notes.md — same Outlier queue shape
 - @concepts/crml-tanbreez-outlier-notes.md — next markets letter in the same queue
 - @osint-wiki/concepts/western-tungsten-supply-thesis.md — prior ALM desk (mention only)
+- @osint-wiki/sources/substack-rss-outlier-weekly-2026-09-07-tungsten-furnace-2026-09-07.md — OSINT RSS ingest of this LIVE letter
 
 ## Raw Concept
 
-OSINT → SEO handoff for a longer Outlier Weekly letter. Tungsten is the lead (war-around-the-war, China APT choke, interceptors as consumables). Platinum and palladium are the secondaries (uses, scarcity, dip-buy). Gold 2024–2025 is the analog, not the hero. ALM and ELMT are mentions, not the article. No live spots or equity prints (two-week lag). Fable 5 WARN, P1s patched 30 Aug. Paste: `briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md` (GPT-5.6 Sol + Kimi voice/SEO pass 2026-08-30).
+OSINT → SEO handoff for a longer Outlier Weekly letter. Tungsten is the lead (war-around-the-war, China APT choke, interceptors as consumables). Platinum and palladium are the secondaries (uses, scarcity, dip-buy). Gold 2024–2025 is the analog, not the hero. ALM and ELMT are mentions, not the article. No live spots or equity prints. Fable 5 WARN, P1s patched 30 Aug. Fold 3 Sep. **LIVE** 2026-09-07: https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten. Paste that shipped: `briefs/2026-09-03_metals-tungsten-ptpd-outlier-paste.md`. This page is the queue + guardrails. Do not paste from here.
 
 ## Narrative
 
@@ -41,10 +45,10 @@ Markets practitioner. Same register as CXW/GEO, SPCX, GTA 6 cashout. Sell the **
 | Asset | Status |
 |-------|--------|
 | Research spine | `briefs/2026-08-30_metals-tungsten-ptpd-outlier.md` — OSINT assembled 2026-08-30 |
-| Outlier Weekly paste | `briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md` — **SCHEDULED LIVE 2026-09-07 09:00 ET**. Operator pasted 30 Aug. |
-| X Article | Deferred unless operator asks |
-| Issue number | Unset. Do not invent. Record after publish. |
-| Ship date | **Monday 2026-09-07, 09:00 ET** |
+| Outlier Weekly | **LIVE** — [The war is a metals furnace. Tungsten is the one that does not grow back fast.](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten) (2026-09-07, free). Shipped paste: `briefs/2026-09-03_metals-tungsten-ptpd-outlier-paste.md` |
+| X Article | **Deferred** unless operator asks |
+| Issue number | Still unset. Substack has no numbered section. Do not invent. |
+| Ship date | **Monday 2026-09-07** |
 
 ### Working titles (operator picks at draft)
 
@@ -75,6 +79,12 @@ Two wars are burning the same Western industrial stack. The metal under that tap
 - Kill-list #3 is plentiful non-China APT, not missed tonnes. A failed Almonty quarter does not kill the metal.
 - No em dashes in paste bodies. Paragraphs 2–5 sentences.
 - CFTC 4.41. Not a solicitation.
+
+### After LIVE
+
+1. [x] Flip voice-table row on `@concepts/x-account-voice-and-format.md`
+2. [x] Record Substack URL on this page
+3. [ ] Optional Search Console URL inspect on the Substack permalink (you cannot verify `substack.com` as a domain property; inspect the URL)
 
 ### Fable
 
