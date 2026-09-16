@@ -26,7 +26,7 @@ paper_queries:
 - cluster: geo-aeo-paper
   query: research paper generative engine optimization answer engine citation local search
   category: research paper
-  arxiv_query: (all:GEO OR all:AEO OR all:"generative engine") AND (all:SEO OR all:search OR all:ranking)
+  arxiv_query: '(all:"generative engine optimization" OR all:"answer engine optimization" OR all:"AI Overviews" OR all:"generative engine") AND (all:SEO OR all:search OR all:ranking OR all:citation)'
 - cluster: local-seo-paper
   query: research paper local search ranking Google Business Profile reviews
   category: research paper
