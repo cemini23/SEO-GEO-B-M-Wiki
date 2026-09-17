@@ -16,6 +16,7 @@ related:
   - concepts/metals-tungsten-ptpd-outlier-notes.md
   - concepts/crml-tanbreez-outlier-notes.md
   - concepts/ceminiparlays-ceminidfs-x-article-notes.md
+  - concepts/ceminiparlays-outlier-notes.md
   - concepts/cursor-route-marketing-notes.md
   - concepts/cemini23-x-score-2026-09-01.md
   - entities/tools/substack-publisher-mcp.md
@@ -51,7 +52,7 @@ related:
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-09-16
+updated: 2026-09-17
 ---
 
 ## Relations
@@ -67,6 +68,7 @@ updated: 2026-09-16
 - @concepts/metals-tungsten-ptpd-outlier-notes.md — tungsten + Pt/Pd Outlier **LIVE** 2026-09-07 ([letter](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten))
 - @concepts/crml-tanbreez-outlier-notes.md — CRML / Tanbreez Outlier **LIVE** 2026-09-14 ([letter](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the))
 - @concepts/ceminiparlays-ceminidfs-x-article-notes.md — CeminiDFS + CeminiParlays X Article **LIVE** 2026-09-12 (https://x.com/Cemini23/status/2098862947749515565)
+- @concepts/ceminiparlays-outlier-notes.md — CeminiParlays Outlier expansion (sportsbook parlays; DRAFT 2026-09-17)
 - @concepts/cursor-route-marketing-notes.md — cursor-route OSS launch marketing queue (2026-08-10)
 - @concepts/x-article-spcx-anthropic-notes.md — SPCX vs Anthropic relative-value X Article queue (2026-08-17)
 - @entities/tools/substack-publisher-mcp.md — official Publisher API MCP (read-only analytics after LIVE)
@@ -128,6 +130,7 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | OW | [Tungsten / metals furnace](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten) — @concepts/metals-tungsten-ptpd-outlier-notes.md | **LIVE** 2026-09-07 (Outlier only; X deferred; slug is title-derived, not `tungsten-war-metal-china-apt`) |
 | OW | [CRML / Tanbreez — Greenland license](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the) — @concepts/crml-tanbreez-outlier-notes.md | **LIVE** 2026-09-14 (Outlier only; X deferred; slug is title-derived, not `critical-metals-tanbreez-greenland-option`) |
 | X | CeminiDFS + CeminiParlays + Grok slate packet — @concepts/ceminiparlays-ceminidfs-x-article-notes.md · paste `briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md` | **LIVE** 2026-09-12 — https://x.com/Cemini23/status/2098862947749515565 |
+| OW (queued) | CeminiParlays stack (sportsbook parlays) — @concepts/ceminiparlays-outlier-notes.md · paste `briefs/2026-09-17_ceminiparlays-outlier.md` | **PASTE-READY** 2026-09-17 (Outlier only; X already LIVE; Hard Rock first; GPT Sol) |
 | OW4 / X Art. #4 (legacy label) | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | superseded by OW5 setup guide |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"

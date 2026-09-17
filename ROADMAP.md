@@ -143,6 +143,8 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-17 | K172 ingest: 3/3 IN-SCOPE GEO measurement papers | Martinez prompt-corpora framework; Bajemon deterministic score validation (Aggarwal anchors expired); ConsumerQ UI/API audit; geo-visibility-measurement upgraded; 0 runtime clone |
+| 2026-09-17 | CeminiParlays Outlier brief PASTE-READY | Sportsbook parlays letter; X Article already LIVE 12 Sep |
 | 2026-09-16 | K171 ingest: 3/3 arXiv API false positives → overflow + thin GEO steal + CCC | Native-language BabyLM eval → multilingual-geo-audit steal + CCC brief; combinatorics + scotogenic physics overflow-only; 0 SEO Adopt; 0 MB runtime; inbox archived to egress |
 | 2026-09-12 | CeminiDFS + CeminiParlays X Article LIVE | Public MIT stack + Grok packet; voice exemplar + notes page filed |
 | 2026-09-11 | K170 ingest: 9/9 arXiv API false positives → overflow + thin GEO steals + CCC/Cyber/Atto | Side-channel bench → Cyber; Batched Pandora's Box + LLM explanation audits → CCC; RegionFed + Atlas → thin GEO steals on near-me + citation-verification; CRISPR → Atto thin; 5 pure overflow; 0 SEO Adopt; 0 MB runtime; inbox archived to egress |

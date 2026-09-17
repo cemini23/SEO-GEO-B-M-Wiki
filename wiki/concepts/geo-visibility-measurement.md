@@ -53,9 +53,13 @@ related:
   - sweeps/2026-08-18-daily.md
   - sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md
   - sweeps/2026-08-25-daily.md
+  - sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md
+  - sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md
+  - sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md
+  - sweeps/2026-09-17-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-08-25
+updated: 2026-09-17
 ---
 
 ## Relations
@@ -107,6 +111,10 @@ updated: 2026-08-25
 - @concepts/evidence-ecosystem-geo.md — evidence path audit
 - @concepts/process-verified-agentic-search-geo.md — entity-hit / first-miss recovery proxies (K139)
 - @sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
+- @sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md — K172 answer-market / prompt-corpus framework (Olivier Martinez follow-on)
+- @sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md — K172 deterministic proxy validation; query-agnostic scores ≠ citation predictors
+- @sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md — K172 UI vs API + repeated-query audit discipline
+- @sweeps/2026-09-17-daily.md — K172 overnight fetch
 
 ## Raw Concept
 
@@ -161,9 +169,33 @@ Target: 95% CI width ≤ **0.05** on citation share (Sielinski's practical bench
 
 For **citation prevalence**, target CI width **0.15** (higher because prevalence values sit nearer 0.5).
 
+### Prompt corpus = answer market (K172) `[CONFIRMED framework]`
+
+@sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md (Olivier Martinez; follow-on to K140 @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md): GEO visibility scores aggregate appearances, citations, or mentions, but the **prompt corpus + weights** define an evaluative **answer market** that may not match real user demand. Prompt wording shifts retrieval, competitors, and answers; LLM scoring instructions can change scores on unchanged answers.
+
+**Operator rules:**
+- Publish or archive the **exact prompt set + weighting** used for any visibility report.
+- When weights are unknown, report **ranges of admissible scores** (partial identification), not a single headline number.
+- Separate **documentary leave-one-out** comparisons from claims about full-engine intervention with live competitors.
+
+### Deterministic content scores ≠ citation oracle (K172) `[CONFIRMED on released benchmark]`
+
+@sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md: validates cheap deterministic GEO content scores with adversarial gates (negative control, dose response, bounded amplification, duplication penalty, length neutrality). **Aggarwal 2023 causal anchors fail on ten modern engine families** — those levers move citation on none; recalibration strips lever-responsive score components.
+
+**Operator rules:**
+- Treat @entities/tools/geo-optimizer-skill.md and similar **query-agnostic content scores as quality filters**, not citation predictors (within-query Spearman **0.11** in their benchmark).
+- Adversarial amplification of score levers capped at **~6 points** on 500-source edits — still layer human review for spam/out-of-distribution attacks.
+- Re-measure external anchors on **current** engines; do not assume 2023 GEO-BENCH lifts transfer.
+
+### UI vs API + repeated probes (K172) `[CONFIRMED in product-audit study; TENTATIVE local]`
+
+@sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md (ConsumerQ, 2,528 commercial queries): ChatGPT UI vs Gemini UI share **5.4%** of cited domains on average; **76.7%** of pairwise comparisons share **no** domain. APIs diverge from their chatbot UIs (~12–15% overlap). Recommendations **change across repeated requests**; ChatGPT expresses first-person product preference far more often than Gemini or AI Overviews.
+
+**Local GEO read:** audit **consumer-facing chatbot UI** (not API-only), run **repeated samples** per query, and log **source-domain overlap** across engines before claiming a citation win.
+
 ### Operator measurement loop
 
-1. **Define query set** — 20–50 realistic customer queries (service + geo + brand); avoid only LLM-generated queries if possible (Sielinski used ChatGPT-generated sets — ecological caveat).
+1. **Define query set** — 20–50 realistic customer queries (service + geo + brand); avoid only LLM-generated queries if possible (Sielinski used ChatGPT-generated sets — ecological caveat). Document prompts + weights per Martinez K172 answer-market rule.
 2. **Repeat** — same queries on **≥3 separate days** (or ≥90–100 runs per platform if budget allows).
 3. **Record** — cited domains/URLs per response; compute share and prevalence per sample.
 4. **Bootstrap** — response-level resampling (1,000 replicates) for 95% CI on share/prevalence; free tools: Python `scipy`/`numpy` or R; or spreadsheet approximation with repeated subsamples.

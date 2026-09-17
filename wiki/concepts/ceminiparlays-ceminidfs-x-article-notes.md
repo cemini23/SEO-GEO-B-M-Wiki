@@ -5,9 +5,10 @@ tags: [social, x-twitter, articles, dfs, pickem, nfl, grok-bot]
 keywords: [ceminidfs, ceminiparlays, grok-bot, fanduel, underdog, prizepicks, nfl-week-1]
 related:
   - concepts/x-account-voice-and-format.md
+  - concepts/ceminiparlays-outlier-notes.md
 maturity: draft
 created: 2026-09-12
-updated: 2026-09-12
+updated: 2026-09-17
 ship_draft: briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md
 draft_version: live-2026-09-12
 status: LIVE - X Article + opener 2026-09-12
@@ -17,6 +18,7 @@ x_url: https://x.com/Cemini23/status/2098862947749515565
 ## Relations
 
 - @concepts/x-account-voice-and-format.md — voice + paste discipline
+- @concepts/ceminiparlays-outlier-notes.md — Outlier expansion (sportsbook parlays; DRAFT)
 - Paste brief: `briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md`
 
 ## Raw Concept

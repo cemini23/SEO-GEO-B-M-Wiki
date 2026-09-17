@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-09-16
+updated: 2026-09-17
 ---
 
 # Wiki Index
@@ -164,6 +164,9 @@ If you're new to this wiki:
 - [arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16](sources/arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16.md) — overflow: native-language eval; thin GEO steal + CCC primary (K171)
 - [arxiv-silva-2026-twisted-bracelets-transpositions-2609.17493-2026-09-16](sources/arxiv-silva-2026-twisted-bracelets-transpositions-2609.17493-2026-09-16.md) — overflow: combinatorics SBT (K171)
 - [arxiv-mondal-2026-vanilla-scotogenic-muon-collider-2609.17530-2026-09-16](sources/arxiv-mondal-2026-vanilla-scotogenic-muon-collider-2609.17530-2026-09-16.md) — overflow: scotogenic / muon collider (K171)
+- [arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17](sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md) — IN-SCOPE: prompt corpora / answer market (K172; Olivier Martinez follow-on)
+- [arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17](sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md) — IN-SCOPE: deterministic GEO score validation (K172)
+- [arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17](sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md) — IN-SCOPE: ConsumerQ UI/API audit (K172)
 
 ### Platform / practitioner news
 
@@ -286,6 +289,7 @@ If you're new to this wiki:
 - [Metals / tungsten + Pt/Pd — Outlier spine](briefs/2026-08-30_metals-tungsten-ptpd-outlier.md) — `[LIVE 2026-09-07]` OSINT→SEO spine: tungsten choke, interceptors, Pt/Pd dip-buy — tungsten, apt, platinum, palladium, outlier
 - [Metals / tungsten + Pt/Pd — Outlier paste](briefs/2026-09-03_metals-tungsten-ptpd-outlier-paste.md) — `[LIVE 2026-09-07](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten)` Substack body that shipped — tungsten, apt, outlier, markets
 - [CRML / Tanbreez — Outlier paste](briefs/2026-09-01_crml-tanbreez-outlier.md) — `[LIVE 2026-09-14](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the)` — crml, tanbreez, outlier, markets
+- [CeminiParlays stack — Outlier paste](briefs/2026-09-17_ceminiparlays-outlier.md) — `[PASTE-READY 2026-09-17]` Hard Rock displayed American + Week 1 grade; X already LIVE — parlays, dfs, outlier
 - [CeminiDFS + CeminiParlays — X Article pack](briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md) — `[LIVE 2026-09-12](https://x.com/Cemini23/status/2098862947749515565)` free NFL weekend stack + Grok packet — dfs, pickem, grok-bot, x-article
 
 ### Creator marketing (new vertical)
@@ -327,6 +331,7 @@ If you're new to this wiki:
 - [metals-tungsten-ptpd-outlier-notes](concepts/metals-tungsten-ptpd-outlier-notes.md) — tungsten + Pt/Pd Outlier **LIVE** 2026-09-07 ([letter](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten)) — tungsten, apt, platinum, palladium, outlier
 - [crml-tanbreez-outlier-notes](concepts/crml-tanbreez-outlier-notes.md) — `[LIVE 2026-09-14](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the)` CRML / Tanbreez Outlier — crml, tanbreez, greenland, outlier
 - [ceminiparlays-ceminidfs-x-article-notes](concepts/ceminiparlays-ceminidfs-x-article-notes.md) — CeminiDFS + CeminiParlays X Article **LIVE** 2026-09-12 ([tweet](https://x.com/Cemini23/status/2098862947749515565)) — dfs, pickem, grok-bot
+- [ceminiparlays-outlier-notes](concepts/ceminiparlays-outlier-notes.md) — CeminiParlays Outlier **PASTE-READY** 2026-09-17 (sportsbook parlays; Week 1 +$26.07 session)
 - [corpus-overflow-out-of-scope](concepts/corpus-overflow-out-of-scope.md) — librarian bookkeeping hub: triaged-out-of-scope source stubs kept for inventory honesty
 
 ## Entities

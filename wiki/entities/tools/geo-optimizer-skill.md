@@ -17,9 +17,10 @@ related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-30-daily.md
   - entities/tools/denseon-lateon.md
+  - sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-07-31
+updated: 2026-09-17
 wire_status: runtime_wired
 wire_target: .cursor/skills/adopted-geo-tools/SKILL.md + .cursor/mcp.json (geo-optimizer / geo-mcp; mcp SDK pinned 1.x)
 ---
@@ -27,6 +28,7 @@ wire_target: .cursor/skills/adopted-geo-tools/SKILL.md + .cursor/mcp.json (geo-o
 ## Relations
 
 - @entities/tools/denseon-lateon.md — K148 open dense/late retrieval probe (complementary)
+- @sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md — K172: query-agnostic content scores are quality filters, not citation predictors (Spearman 0.11); Aggarwal anchors expired on modern engines
 - @concepts/generative-engine-optimization.md — GEO/AEO tool stack
 - @entities/tools/geo-seo-claude.md — adopted Claude Code GEO skill (GO 2026-05-07); complementary audit CLI
 - @entities/tools/seo-geo-claude-skills.md — Steal-from pattern reference
@@ -52,7 +54,7 @@ Phase-0 from K134 ingest — [Auriti-Labs/geo-optimizer-skill](https://github.co
 | **License** | MIT |
 | **Local clone** | `raw-sources/tools/geo-optimizer-skill` (~62 MB shallow) — **adopted 2026-07-18** |
 | **Category** | GEO/AEO audit CLI — robots.txt, schema, citability scoring, optional live citation probes |
-| **Phase-0 verdict** | **CONDITIONAL-GO** — local CLI audit only; do not treat `geo citations` as ground truth without bootstrap CIs (@concepts/geo-visibility-measurement.md) |
+| **Phase-0 verdict** | **CONDITIONAL-GO** — local CLI audit only; do not treat `geo citations` as ground truth without bootstrap CIs (@concepts/geo-visibility-measurement.md). K172 Bajemon: query-agnostic content score ≈ quality filter (Spearman 0.11 vs citations), not citation oracle |
 | **Steal** | 8-category AI-readiness audit; schema/citability modules; MCP hook for Cursor |
 | **Reject module** | **`llms.txt` generation/checks for Google Search** — @sources/google-search-central-2026-ai-optimization-guide.md: not used by Google Search generative features `[CONFIRMED]` |
 | **Compare** | @entities/tools/geo-seo-claude.md (Claude skill, installed); @entities/tools/ranqo.md (SaaS mention tracking REFERENCE) |

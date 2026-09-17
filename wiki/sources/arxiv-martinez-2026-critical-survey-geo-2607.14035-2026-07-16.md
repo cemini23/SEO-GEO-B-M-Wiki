@@ -19,15 +19,17 @@ related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-16-daily.md
   - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
+  - sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md
 maturity: validated
 read_status: read
 created: 2026-07-16
-updated: 2026-07-18
+updated: 2026-09-17
 ---
 
 ## Relations
 
 - @sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md — K142 e-commerce GEO benchmark (conditional rank lift)
+- @sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md — K172 follow-on: prompt corpora / answer-market measurement framework
 - @concepts/geo-visibility-vector-protocol.md - operator playbook from this survey
 - @concepts/geo-visibility-measurement.md - pairs with Sielinski repeated-sampling discipline
 - @concepts/generative-engine-optimization.md - GEO/AEO hub

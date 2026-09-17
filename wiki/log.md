@@ -1,11 +1,29 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-09-16
+updated: 2026-09-17
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-09-17] ingest | K172 — 3/3 IN-SCOPE GEO measurement papers (not false positives)
+
+- **Inbox** — 3 PDFs from `wiki/sweeps/2026-09-17-daily.md` (first real geo-aeo digest hits in weeks).
+- **Sources** — @sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md (Olivier Martinez follow-on K140; answer-market framework); @sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md (deterministic score validation; Aggarwal anchors expired); @sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md (ConsumerQ UI/API/repeat audit).
+- **Concept upgrades** — @concepts/geo-visibility-measurement.md (3 new K172 sections); @concepts/llm-brand-bias-geo-competition.md; @entities/tools/geo-optimizer-skill.md; K140 Martinez backlink.
+- **Federation** — Cyber thin `../Cybersecurity wiki/briefs/2026-09-17_k172-consumerq-ai-audit-cyber-from-seo.md`.
+- **Archive** — all 3 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/seo/`; inbox cleared.
+- **Phase-0** — `scripts/adopt_k172_phase0.sh`; ADOPT pattern (Martinez + ConsumerQ); CONDITIONAL-GO REFERENCE (Bajemon artifacts); 0 MB runtime clone.
+- **Phase-1** — policy content wired into geo-visibility-measurement + geo-optimizer entity (prompt corpus disclosure; content score ≠ citation predictor). No new MCP/runtime.
+
+## [2026-09-17] brief | CeminiParlays Outlier (sportsbook parlays)
+
+- **Paste** — `briefs/2026-09-17_ceminiparlays-outlier.md` (DRAFT). Hard Rock displayed American is the product. Pick'em addon. Week 1 grade +$26.07 / $40, 2/5.
+- **Notes** — @concepts/ceminiparlays-outlier-notes.md
+- **X already LIVE** — https://x.com/Cemini23/status/2098862947749515565 (do not republish as a second original)
+- **Updated** — @concepts/x-account-voice-and-format.md, @wiki/index.md, @concepts/ceminiparlays-ceminidfs-x-article-notes.md
+- **Pending** — HITL Substack date; no issue number
 
 ## [2026-09-16] ops | Outlier Weekly LIVE — CRML / Tanbreez Greenland
 

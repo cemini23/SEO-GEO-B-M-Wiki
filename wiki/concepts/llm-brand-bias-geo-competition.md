@@ -18,9 +18,11 @@ related:
   - concepts/per-entity-bias-mapping-geo.md
   - concepts/geo-visibility-vector-protocol.md
   - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
+  - sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md
+  - sweeps/2026-09-17-daily.md
 maturity: validated
 created: 2026-06-18
-updated: 2026-07-16
+updated: 2026-09-17
 ---
 
 ## Relations
@@ -39,6 +41,8 @@ updated: 2026-07-16
 - @sweeps/2026-06-18-daily.md — digest
 - @sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md — Brand Hallucination Paradox: familiar brands get more fabricated citations
 - @concepts/per-entity-bias-mapping-geo.md — verified mention calibration
+- @sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md — K172: engine-specific recommendation style (ChatGPT 79% first-person preference vs Gemini 7% / AIO 2%)
+- @sweeps/2026-09-17-daily.md — K172 ingest
 
 ## Raw Concept
 
@@ -104,6 +108,10 @@ Analog to @sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-
 - **IAI smoke test:** present 3–5 local competitors with **matched** star/review/price in prompt; log whether assistant picks market leader by name alone. Repeat ≥3 days × 3 engines (@concepts/geo-visibility-measurement.md).
 - **Threshold test:** same setup but give your shop +0.1★ or +10 reviews; measure flip rate.
 - Hands-on template: `briefs/2026-06-18_k122-incumbent-brand-bias-geo-audit-hands-on.md`.
+
+### Engine-specific recommendation voice (K172) `[TENTATIVE local]`
+
+@sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md: ChatGPT expresses **first-person product preference** in 79% of product-recommending responses vs 7% Gemini and 2% AI Overviews; recommendations shift on repeats. Local "best barbershop" audits should compare **engines separately** and avoid treating one chatbot's assertive tone as universal citation behavior.
 
 ## Snippets
 
