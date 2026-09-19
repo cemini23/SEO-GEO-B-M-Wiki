@@ -6,6 +6,7 @@ keywords: [x-articles, prose, authentic voice, cyrilXBT, formatting, docx ingest
 related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
+  - concepts/x-article-jev-harness-notes.md
   - concepts/x-article-cxw-geo-th-postmortem-notes.md
   - concepts/x-article-uw-polymarket-bridge-notes.md
   - concepts/outlier-weekly-issue3-world-cup-bot-notes.md
@@ -52,13 +53,14 @@ related:
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-09-17
+updated: 2026-09-19
 ---
 
 ## Relations
 
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — toolkit launch thread (Article-adjacent distribution)
 - @concepts/x-article-3-notes.md — Article #3 queue; style pass updates both pages
+- @concepts/x-article-jev-harness-notes.md — K266 Jev harness X Article queue + exemplar rows (2026-09-19)
 - @concepts/x-article-cxw-geo-th-postmortem-notes.md — Jul 8 CXW/GEO/TH postmortem Article (after Jul 6 vindication)
 - @concepts/x-article-uw-polymarket-bridge-notes.md — Jul 17 UW API → Polymarket policy/politics bridge Article
 - @concepts/outlier-weekly-issue3-world-cup-bot-notes.md — Issue 3 / World Cup Bot launch queue
@@ -302,6 +304,14 @@ Prompt file: `prompts/posts-docx-style-pass.md`
 | Operator CXW/GEO/TH Jul 8 | — | X Article | Right on sale, wrong on pop | Scorecard 6+5 + fade stack + TH cousin | Watchlist replies | **LIVE** (operator-confirmed published; wiki flip 2026-07-17) |
 | Operator SPCX vs Anthropic Aug 17 | — | X Article | Same $1.8T, different companies | Marks hierarchy + stack + Grok Bot extra beat | Desk footer + $SPCX | **LIVE** — https://x.com/Cemini23/status/2089373803625304476 · opener pinned |
 | Operator CeminiDFS / Parlays Sep 12 | — | X Article | Paid tool stack / untyped Underdog board | 3-piece weekend stack + 7-step Sunday run | Clone both MIT repos | **LIVE** — https://x.com/Cemini23/status/2098862947749515565 |
+| @sydneyrunkle | large | X Article | Agent loop cost pain | Choice/Score/Noul table + LangChain TypeSafeClassifier + AutoMode gate | Follow | **K266** — **CCC/OSINT lane**; **best Jev long-form** (1.22M impr, 9.4k bm); steal loop-cost opener + one-primitive table; avoid "game-changer" |
+| @0xMovez | builder | X Article | Expensive yes/no decisions | Jevons paradox + 10-step build + $0.042/MTok | Bookmark | **K266** — **CCC lane**; steal "creates text → LLM, picks/scores → Jev"; 200x/400x = vendor claim; **broken paragraphs** — merge before paste |
+| @parcadei | builder | Short post | Skill-load token waste | JEV TIP 001 classify skill names → inject | Follow | **K266** — **CCC lane**; steal `TIP 00N` one-tip format for Cemini23; cleanest exemplar in wave |
+| @borjafat | builder | X Article | No time for content or backlinks | GSC → topic groups → pillars → money pages → positions 11–20 → footer | Follow (Distribb CTA = avoid) | **K266** — **SEO/GEO lane**; steal 8-step playbook + stated sample limit; **avoid Distribb CTA**; 11-article sample, no ranking test |
+| @shreyanshpatni_ | educator | X Article | Model-only thinking | Agent = Model + Harness + 3 modules + 5 stages | Follow | **K266** — **CCC lane**; weak metrics (5.7k impr) — steal structure only |
+| @BuildwithPublic | product | X Article | Trading API can't carry a strategy | Regime gate + delta band + OCO/OTO + backtest defects | public.com/api | **K266** — **skip for voice** (broker advertorial); one steal: "a parameter search finds your harness's bugs faster than it finds an edge" |
+
+**K266 steal flags:** @sydneyrunkle = loop-cost opener + primitives table; @0xMovez = plain decision split rule; @parcadei = `TIP 00N`; @borjafat = stated sample-limit honesty. Queue and snippets: @concepts/x-article-jev-harness-notes.md.
 
 **K112 steal flags:** Gustafsson = dual-telemetry hook; zodchiii = contractor framing; akshay = Part N explainer; Lutchyn/Arvin/Surfer/AlterEgo routed to sibling wikis — exemplars only here.
 

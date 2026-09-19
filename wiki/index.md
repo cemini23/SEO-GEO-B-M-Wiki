@@ -318,6 +318,7 @@ If you're new to this wiki:
 - [cemini23-x-score-2026-09-01](concepts/cemini23-x-score-2026-09-01.md) — Grok Bot two-week @Cemini23 plugin score (FILED 2026-09-01); brief `briefs/2026-09-01_cemini23-two-week-x-score.md`
 - [x-for-you-algorithm-2026](concepts/x-for-you-algorithm-2026.md) — Phoenix production weights (also listed under Creator marketing)
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
+- [x-article-jev-harness-notes](concepts/x-article-jev-harness-notes.md) — K266 Jev harness X Article queue + 5 ranked voice exemplars (2026-09-19)
 - [x-article-cxw-geo-th-postmortem-notes](concepts/x-article-cxw-geo-th-postmortem-notes.md) — Jul 8 CXW/GEO/TH postmortem Article notes (after Jul 6 vindication)
 - [x-article-spcx-anthropic-notes](concepts/x-article-spcx-anthropic-notes.md) — SPCX cheap versus Anthropic X Article **LIVE** 2026-08-17; owned hub `sites/outlierweekly/public/spcx-anthropic/` (2026-08-30)
 - [guruwatcher-outlier-x-article-notes](concepts/guruwatcher-outlier-x-article-notes.md) — GuruWatcher Outlier + X Article queue (alert-only newsletter → Discord)

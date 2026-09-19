@@ -1,11 +1,27 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-09-17
+updated: 2026-09-19
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-09-19] style-pass | K266 Jev X — 5 long-forms
+
+- **Authors** — @sydneyrunkle, @0xMovez, @parcadei, @borjafat, @shreyanshpatni_. Source extracts in the OSINT wiki.
+- **Updated** — `concepts/x-account-voice-and-format.md` (6 exemplar rows, K266 steal flags, `updated` bumped); new `concepts/x-article-jev-harness-notes.md` (5 ranked exemplars + 4-entry Article queue).
+- **Steal** — loop-cost opener + primitives table; decision split rule; `TIP 00N` one-tip format; stated sample-limit honesty.
+- **Avoid** — vendor multipliers as fact; Distribb and Public API CTAs; promoting the weak-metric harness post as a model.
+- **Log line** — `style-pass | K266 Jev X | 5 long-forms | authors: sydneyrunkle, 0xMovez, parcadei, borjafat, shreyanshpatni_`
+
+## [2026-09-17] ops | Outlier Weekly GSC Pages / Coverage pull
+
+- **Property** — `sc-domain:outlierweekly.com` (GSC Page indexing, last updated 2026-09-13).
+- **Indexed (6)** — all sitemap URLs: `/`, `/about/`, `/methodology/`, `/atto/`, `/guruwatcher/`, `/spcx-anthropic/`. Matches `site:outlierweekly.com` (2026-09-17).
+- **Not indexed (6)** — all **Page with redirect**: HTTP/www variants, retired hubs (`/agent-harness/`, `/prediction-market-lp-bot/`), `/cxw-geo/` → `/spcx-anthropic/`. Expected; no fix needed.
+- **Performance (28d)** — 17 impressions / 0 clicks; avg position 5.3; top query `spcx anthropic` (1 impression). Up from 0/0 on first digest (2026-09-03).
+- **Updated** — @sites/outlierweekly/OPERATOR-LEFTOVERS.md (digest action 3 checked off).
 
 ## [2026-09-17] ingest | K172 — 3/3 IN-SCOPE GEO measurement papers (not false positives)
 
