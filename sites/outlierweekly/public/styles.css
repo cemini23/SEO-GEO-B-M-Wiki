@@ -1,15 +1,13 @@
-/* Outlier Weekly — owned hub shared styles. Dark, readable, no stock-photo hero. */
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,700;1,400&display=swap");
 
 :root {
-  --bg: #0e1116;
-  --bg-soft: #151a22;
-  --text: #dbe2ec;
-  --text-dim: #9aa7b8;
-  --accent: #7aa2ff;
-  --accent-strong: #b0c4ff;
-  --border: #2a3340;
-  --code-bg: #1a212b;
-  --max-width: 820px;
+  --bg: #ffffff;
+  --bg-soft: #f0f0f0;
+  --text: #363737;
+  --text-dim: #757575;
+  --accent: #ff6719;
+  --border: #e6e6e6;
+  --max-width: 680px;
 }
 
 * {
@@ -26,28 +24,31 @@ body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif;
-  font-size: 17px;
-  line-height: 1.65;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
-a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--accent-strong);
+a:link,
+a:visited {
+  color: var(--text);
   text-decoration: underline;
 }
 
-.site-header,
-.site-footer {
-  border-bottom: 1px solid var(--border);
-  background: var(--bg-soft);
+a:hover {
+  color: var(--accent);
+}
+
+h1,
+h2,
+h3,
+.brand a,
+.lede {
+  font-family: Spectral, serif;
 }
 
 .site-header {
-  border-bottom-color: var(--border);
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
 }
 
 .site-header .inner,
@@ -68,15 +69,17 @@ main {
   padding-bottom: 14px;
 }
 
-.brand a {
+.brand a:link,
+.brand a:visited {
   font-weight: 700;
-  font-size: 19px;
+  font-size: 22px;
   color: var(--text);
   letter-spacing: 0.2px;
+  text-decoration: none;
 }
 
 .brand a:hover {
-  color: var(--accent-strong);
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -97,9 +100,11 @@ main {
   padding: 0;
 }
 
-.site-nav a {
+.site-nav a:link,
+.site-nav a:visited {
   color: var(--text-dim);
-  font-size: 15px;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .site-nav a:hover {
@@ -108,8 +113,34 @@ main {
 }
 
 .site-nav a[aria-current="page"] {
-  color: var(--accent-strong);
+  color: var(--text);
   font-weight: 600;
+  text-decoration: none;
+}
+
+a.subscribe:link,
+a.subscribe:visited,
+a.subscribe:hover,
+a.subscribe:active {
+  display: inline-block;
+  background: var(--accent);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+a.subscribe:hover {
+  background: #ff5600;
+  color: #ffffff;
+}
+
+.site-header a.subscribe {
+  margin-left: auto;
+  flex: 0 0 auto;
 }
 
 main {
@@ -118,20 +149,23 @@ main {
 }
 
 h1 {
-  font-size: 32px;
-  line-height: 1.25;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.15;
   margin: 0 0 8px;
   letter-spacing: -0.3px;
 }
 
 h2 {
-  font-size: 22px;
-  margin: 34px 0 10px;
+  font-size: 26px;
+  line-height: 1.25;
+  margin: 36px 0 10px;
   letter-spacing: -0.2px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 1.3;
   margin: 24px 0 8px;
 }
 
@@ -140,9 +174,10 @@ p {
 }
 
 .lede {
-  font-size: 19px;
+  font-size: 21px;
+  line-height: 1.45;
   color: var(--text);
-  margin: 14px 0 8px;
+  margin: 0 0 18px;
 }
 
 .muted {
@@ -157,6 +192,31 @@ ol {
 
 li {
   margin: 6px 0;
+}
+
+ul.letters {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.letters li {
+  margin: 0;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+ul.letters li > a:first-child:link,
+ul.letters li > a:first-child:visited {
+  font-family: Spectral, serif;
+  font-size: 20px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+ul.letters li > a:first-child:hover {
+  color: var(--accent);
+  text-decoration: none;
 }
 
 table {
@@ -175,8 +235,9 @@ td {
 }
 
 th {
-  color: var(--accent-strong);
+  color: var(--text-dim);
   font-weight: 600;
+  background: transparent;
 }
 
 .card {
@@ -188,23 +249,26 @@ th {
 }
 
 .note {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
   border-left: 3px solid var(--accent);
   padding: 10px 14px;
-  background: var(--code-bg);
   margin: 16px 0;
   font-size: 15px;
-  color: var(--text-dim);
+  color: var(--text);
 }
 
 code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.9em;
-  background: var(--code-bg);
+  background: var(--bg-soft);
+  color: var(--text);
   padding: 2px 5px;
   border-radius: 4px;
 }
 
 .site-footer {
+  background: var(--bg);
   border-top: 1px solid var(--border);
   border-bottom: none;
   font-size: 14px;
@@ -221,7 +285,8 @@ code {
 .site-footer .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px 18px;
+  align-items: center;
+  gap: 8px 18px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -235,14 +300,17 @@ code {
 }
 
 @media (max-width: 640px) {
-  body {
-    font-size: 16px;
-  }
   h1 {
-    font-size: 26px;
+    font-size: 32px;
   }
+
   .site-header .inner {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .site-header a.subscribe {
+    display: inline-block;
+    margin-left: 0;
   }
 }
