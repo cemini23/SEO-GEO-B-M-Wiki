@@ -28,8 +28,47 @@ are exact from the digest; no extra GSC numbers are inferred.
 
 Operator leftover (digest action 3 — Coverage check):
 
-- [ ] Open GSC **Pages / Coverage** for `outlierweekly.com` and confirm which
-      URLs Google has indexed. Only you can see this from the dashboard.
+- [x] GSC **Pages / Page indexing** for `sc-domain:outlierweekly.com` (agent pull
+      via logged-in browser, 2026-09-17). Report last updated **2026-09-13**.
+
+### Indexed (6) — matches sitemap exactly
+
+| URL | Last crawled |
+|-----|--------------|
+| `https://outlierweekly.com/` | Sep 8, 2026 |
+| `https://outlierweekly.com/about/` | Aug 30, 2026 |
+| `https://outlierweekly.com/methodology/` | Sep 8, 2026 |
+| `https://outlierweekly.com/atto/` | Aug 30, 2026 |
+| `https://outlierweekly.com/guruwatcher/` | Aug 30, 2026 |
+| `https://outlierweekly.com/spcx-anthropic/` | Sep 5, 2026 |
+
+`site:outlierweekly.com` on Google (2026-09-17) returns the same six URLs.
+
+### Not indexed (6) — all expected redirects / retired hubs
+
+| URL | Reason | Redirect target (probed) |
+|-----|--------|--------------------------|
+| `http://outlierweekly.com/` | Page with redirect | → `https://outlierweekly.com/` |
+| `http://www.outlierweekly.com/` | Page with redirect | (canonical HTTPS apex) |
+| `https://www.outlierweekly.com/` | Page with redirect | → `https://outlierweekly.com/` |
+| `https://outlierweekly.com/agent-harness/` | Page with redirect | → `https://outlierweekly.com/` |
+| `https://outlierweekly.com/prediction-market-lp-bot/` | Page with redirect | (retired hub) |
+| `https://outlierweekly.com/cxw-geo/` | Page with redirect | → `https://outlierweekly.com/spcx-anthropic/` |
+
+GSC labels these **Page with redirect** (validation failed 2026-09-05). This is
+normal — Google indexes the destination URLs above, not the redirect sources.
+
+### Performance delta vs first digest (2026-09-03)
+
+28-day window ending ~2026-09-14 (GSC Performance, 2026-09-17):
+
+- **17 impressions / 0 clicks** (was 0/0 on first digest)
+- Avg position **5.3**
+- Top query: `spcx anthropic` (1 impression)
+- Indexing chart shows 6 indexed pages from ~Aug 30 onward
+
+No action required on coverage unless a new hub page ships — then add to
+`sitemap.xml` and request indexing via URL Inspection.
 
 ## Substack (UI)
 

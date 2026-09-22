@@ -13,11 +13,24 @@ live on Substack.
 - https://outlierweekly.com/atto/
 - https://outlierweekly.com/guruwatcher/
 - https://outlierweekly.com/spcx-anthropic/
+- https://outlierweekly.com/parlay/
+- https://outlierweekly.com/tanbreez/
+- https://outlierweekly.com/tungsten/
 
 ## Letters
 
 Letters live on https://outlierweekly.substack.com/ (canonical).
 RSS: https://outlierweekly.substack.com/feed
+
+Newest, in order:
+
+- https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit
+- https://outlierweekly.substack.com/p/the-greenland-license-is-real-the
+- https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten
+- https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone
+- https://outlierweekly.substack.com/p/the-short-is-not-the-perp-it-is-the
+- https://outlierweekly.substack.com/p/the-hard-part-was-never-caring-about
+- https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter
 
 ## Claim fence
 
@@ -26,3 +39,5 @@ Outlier.org. Atto is not a law firm and does not decide eligibility.
 GuruWatcher is alert-only and never places orders.
 SPCX / Anthropic is research commentary, not a recommendation to buy
 or sell SpaceX, Tesla, or Anthropic paper.
+The parlay letter is one graded Sunday, not an edge and not a wager.
+Tanbreez and tungsten letters are not ticker recommendations.

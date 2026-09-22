@@ -13,8 +13,12 @@ created: 2026-09-17
 updated: 2026-09-17
 ship_draft: briefs/2026-09-17_ceminiparlays-outlier.md
 ship_paste: briefs/2026-09-17_ceminiparlays-outlier.md
-draft_version: draft-2026-09-17
-status: PASTE-READY - Outlier paste after GPT Sol; X Article already LIVE 2026-09-12
+draft_version: published-2026-09-21
+status: LIVE - Outlier published 2026-09-21; X Article already LIVE 2026-09-12
+ship_date: 2026-09-21
+substack_url: https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit
+substack_slug: the-parlay-is-the-price-on-the-submit
+hub_url: https://outlierweekly.com/parlay/
 ---
 
 ## Relations
@@ -38,9 +42,9 @@ Markets practitioner plus operator stack. Same register as tungsten and CRML. Ob
 
 | Asset | Status |
 |-------|--------|
-| Outlier paste | `briefs/2026-09-17_ceminiparlays-outlier.md` — **PASTE-READY** 2026-09-17 |
+| Outlier paste | **LIVE** — [The Parlay Is the Price on the Submit Screen.](https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit) (2026-09-21). Hub: https://outlierweekly.com/parlay/ |
 | X Article | **LIVE** 2026-09-12 — https://x.com/Cemini23/status/2098862947749515565 (do not republish) |
-| GPT Sol | pending |
+| GPT Sol | 8/10 SHIP-WITH-EDITS, merged 2026-09-17 |
 | Issue number | Unset. Do not invent. |
 | Hero | Optional. Prompt in the brief. No book logos. |
 
@@ -75,6 +79,7 @@ The sportsbook ticket is the displayed American. CeminiParlays, CeminiDFS, the g
 
 ### After LIVE
 
-1. [ ] Flip voice-table row
-2. [ ] Record Substack URL on this page
-3. [ ] Do not invent issue number
+1. [x] Flip voice-table row
+2. [x] Record Substack URL on this page — https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit
+3. [x] Do not invent issue number
+4. [x] Owned hub https://outlierweekly.com/parlay/ (with /tanbreez/ and /tungsten/)

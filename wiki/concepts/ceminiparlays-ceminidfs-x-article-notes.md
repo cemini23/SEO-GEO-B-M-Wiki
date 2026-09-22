@@ -18,7 +18,7 @@ x_url: https://x.com/Cemini23/status/2098862947749515565
 ## Relations
 
 - @concepts/x-account-voice-and-format.md — voice + paste discipline
-- @concepts/ceminiparlays-outlier-notes.md — Outlier expansion (sportsbook parlays; DRAFT)
+- @concepts/ceminiparlays-outlier-notes.md — Outlier expansion **LIVE** 2026-09-21
 - Paste brief: `briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md`
 
 ## Raw Concept
