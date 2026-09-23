@@ -23,9 +23,11 @@ related:
   - concepts/geo-visibility-vector-protocol.md
   - sources/arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16.md
   - sweeps/2026-09-16-daily.md
+  - sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md
+  - sweeps/2026-09-23-daily.md
 maturity: validated
 created: 2026-06-24
-updated: 2026-09-16
+updated: 2026-09-23
 ---
 
 ## Relations
@@ -48,6 +50,8 @@ updated: 2026-09-16
 - @concepts/ai-citation-sourcing-geo.md — earned-media citation audit layer
 - @sources/arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16.md — K171 thin steal: native vs translated eval
 - @sweeps/2026-09-16-daily.md — K171 overnight fetch
+- @sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md — K273 Baidu/Google overview source exposure by language
+- @sweeps/2026-09-23-daily.md — K273 overnight fetch
 
 ## Raw Concept
 
@@ -82,6 +86,10 @@ Most GEO tools and operator habits default to **English queries**. Žatuchin 202
    - **Recommended?** (in top pick / shortlist)
    - **Sentiment tone** (rough: positive / neutral / critical)
 5. Compare **English vs home-language** recommendation rate — not just mention rate (@sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md).
+
+### AI overview source exposure (K273)
+
+@sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md: matched English/Chinese query intents can yield **similar answer embeddings** while **visible cited host domains** differ sharply across Google vs Baidu and across language settings. For bilingual operators, track **link visibility in the overview**, not only brand mention in the answer paragraph.
 
 Pair with **verified mention** checks (@concepts/per-entity-bias-mapping-geo.md) — language shift can increase mentions without improving citation fidelity.
 

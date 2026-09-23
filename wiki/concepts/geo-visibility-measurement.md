@@ -57,9 +57,12 @@ related:
   - sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md
   - sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md
   - sweeps/2026-09-17-daily.md
+  - sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md
+  - sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md
+  - sweeps/2026-09-23-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-09-17
+updated: 2026-09-23
 ---
 
 ## Relations
@@ -115,6 +118,9 @@ updated: 2026-09-17
 - @sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md — K172 deterministic proxy validation; query-agnostic scores ≠ citation predictors
 - @sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md — K172 UI vs API + repeated-query audit discipline
 - @sweeps/2026-09-17-daily.md — K172 overnight fetch
+- @sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md — K273 exposure vs selection; cross-engine Jaccard ~0
+- @sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md — K273 overview source exposure vs answer similarity
+- @sweeps/2026-09-23-daily.md — K273 overnight fetch
 
 ## Raw Concept
 
@@ -192,6 +198,23 @@ For **citation prevalence**, target CI width **0.15** (higher because prevalence
 @sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md (ConsumerQ, 2,528 commercial queries): ChatGPT UI vs Gemini UI share **5.4%** of cited domains on average; **76.7%** of pairwise comparisons share **no** domain. APIs diverge from their chatbot UIs (~12–15% overlap). Recommendations **change across repeated requests**; ChatGPT expresses first-person product preference far more often than Gemini or AI Overviews.
 
 **Local GEO read:** audit **consumer-facing chatbot UI** (not API-only), run **repeated samples** per query, and log **source-domain overlap** across engines before claiming a citation win.
+
+### Exposure vs selection + cross-engine divergence (K273) `[CONFIRMED observational audit]`
+
+@sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md (companion to K172 Bajemon 2609.07559): separates **retrieval exposure** from **citation conditional on exposure**. Fifteen commercial prompts × four engines (ChatGPT, Copilot, Google, Perplexity) on 6 June 2026: mean pairwise cited-URL Jaccard **0.0079**; **84.9%** of engine pairs shared **no** URL; **96.4%** of URLs cited by only one engine; same-engine next-day URL-set turnover **67%**.
+
+**Operator rules:**
+- Report **page fit**, **observed exposure**, **conditional selection**, and **final visibility** separately — do not collapse into one headline score.
+- A win on Google AI does **not** imply Perplexity/ChatGPT overlap; plan **per-engine** sample budgets (@concepts/generative-engine-optimization.md).
+- Pair with K172: engine-free scores estimate quality/fit; **live visibility** still needs engine-specific probes.
+
+### Source exposure ≠ answer similarity (K273) `[CONFIRMED cross-platform audit; TENTATIVE US local]`
+
+@sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md: Baidu vs Google AI overviews on English MS MARCO queries + Chinese translations. Overview trigger rates and **visible host-domain exposure** differ by platform–language; aggregate domain inventories have **low cross-setting overlap** while matched-query answer embeddings stay moderately similar (median cosine **0.701–0.813**).
+
+**Operator rules:**
+- Log **which domains receive visible links** in the overview UI, not only whether the brand is named in answer text.
+- Bilingual / diaspora markets: audit **each language × platform** (@concepts/multilingual-geo-audit.md); English Google results do not proxy Chinese or Baidu exposure.
 
 ### Operator measurement loop
 

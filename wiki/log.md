@@ -1,11 +1,19 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-09-19
+updated: 2026-09-23
 last_easy_review_ingest: 2026-05-08
 ---
 
 # Operations Log
+
+## [2026-09-23] ingest | K273 — 2/2 IN-SCOPE GEO measurement papers
+
+- **Inbox** — 2 PDFs from @sweeps/2026-09-23-daily.md (geo-aeo digest).
+- **Sources** — @sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md (exposure vs selection; cross-engine Jaccard ~0; companion to Bajemon 2609.07559); @sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md (Baidu/Google AI overview source exposure; answer similarity ≠ link visibility).
+- **Concept upgrades** — @concepts/geo-visibility-measurement.md (K273 sections); @concepts/multilingual-geo-audit.md (overview source exposure); @sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md backlink.
+- **Phase-0** — `scripts/adopt_k273_phase0.sh`; ADOPT pattern both; 0 MB runtime.
+- **Phase-1** — policy wired on geo-visibility-measurement + geo-optimizer entity (cross-engine probes; decompose estimands). No new MCP.
 
 ## [2026-09-19] style-pass | K266 Jev X — 5 long-forms
 

@@ -10,10 +10,11 @@ related:
   - concepts/generative-engine-optimization.md
   - entities/tools/geo-optimizer-skill.md
   - sources/aggarwal-2024-geo-paper.md
+  - sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md
 maturity: validated
 read_status: skimmed
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-09-23
 ---
 
 ## Relations
@@ -24,6 +25,7 @@ updated: 2026-09-17
 - @concepts/generative-engine-optimization.md
 - @entities/tools/geo-optimizer-skill.md
 - @sources/aggarwal-2024-geo-paper.md
+- @sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md — K273 companion: live-engine exposure vs selection
 
 ## Raw Concept
 
