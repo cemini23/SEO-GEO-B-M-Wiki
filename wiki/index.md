@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 type: index
-updated: 2026-09-17
+updated: 2026-09-24
 ---
 
 # Wiki Index
@@ -167,6 +167,7 @@ If you're new to this wiki:
 - [arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17](sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md) — IN-SCOPE: prompt corpora / answer market (K172; Olivier Martinez follow-on)
 - [arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17](sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md) — IN-SCOPE: deterministic GEO score validation (K172)
 - [arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17](sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md) — IN-SCOPE: ConsumerQ UI/API audit (K172)
+- [arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24](sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md) — agentic surrogate shopper + pricing heuristics (cross-wiki @cybersecurity-wiki OOD)
 - [arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23](sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md) — IN-SCOPE: exposure vs selection; cross-engine divergence (K273)
 - [arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23](sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md) — IN-SCOPE: Baidu/Google AI overview source exposure (K273)
 

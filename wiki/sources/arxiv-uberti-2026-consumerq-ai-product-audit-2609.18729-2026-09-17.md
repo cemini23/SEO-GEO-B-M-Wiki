@@ -10,10 +10,11 @@ related:
   - concepts/llm-brand-bias-geo-competition.md
   - concepts/competitive-geo-citation-factors.md
   - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
+  - sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md
 maturity: validated
 read_status: skimmed
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-09-24
 cross-wiki-routed: cybersecurity-wiki
 ---
 
@@ -25,6 +26,7 @@ cross-wiki-routed: cybersecurity-wiki
 - @concepts/llm-brand-bias-geo-competition.md
 - @concepts/competitive-geo-citation-factors.md
 - @sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
+- @sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md — agentic **surrogate shopper** + pricing heuristics (cross-wiki from cyber ingest)
 - Cyber brief (repo root): `../Cybersecurity wiki/briefs/2026-09-17_k172-consumerq-ai-audit-cyber-from-seo.md` (thin)
 
 

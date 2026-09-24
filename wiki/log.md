@@ -1,3 +1,10 @@
+## [2026-09-24] cross-wiki | arXiv 2609.28372 surrogate shopper (from cyber ingest)
+
+- **Source:** @sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md (record-only; PDF on cybersec egress).
+- **Cross-wiki:** @cybersecurity-wiki/sources/arxiv-2609-28372-agentic-ai-surrogate-consumer-ood.md
+- **Brief:** `briefs/2026-09-24_k28372-agentic-surrogate-shopper-steal.md` (gitignored)
+- **friend brief:** n/a
+
 ---
 title: Operations Log
 type: log
