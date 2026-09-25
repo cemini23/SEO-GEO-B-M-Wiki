@@ -4,6 +4,7 @@ type: concept
 tags: [geo-aeo, measurement, statistics, playbook]
 keywords: [citation share, citation prevalence, bootstrap CI, AI visibility measurement, repeated sampling, SearchGPT, Perplexity, Gemini]
 related:
+  - sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md
   - concepts/generative-engine-optimization.md
   - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
   - sources/aggarwal-2024-geo-paper.md
@@ -62,7 +63,7 @@ related:
   - sweeps/2026-09-23-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-09-23
+updated: 2026-09-25
 ---
 
 ## Relations

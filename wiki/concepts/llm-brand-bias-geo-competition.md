@@ -4,6 +4,7 @@ type: concept
 tags: [geo-aeo, brand-bias, algorithm-audit, playbook]
 keywords: [incumbent advantage, conditional monopoly, BSV, bias surplus value, GEO prisoner's dilemma, brand recognition, local business]
 related:
+  - sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md
   - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
   - concepts/llm-reputation-signals-geo.md
   - concepts/competitive-geo-citation-factors.md
@@ -22,7 +23,7 @@ related:
   - sweeps/2026-09-17-daily.md
 maturity: validated
 created: 2026-06-18
-updated: 2026-09-17
+updated: 2026-09-25
 ---
 
 ## Relations
@@ -43,6 +44,7 @@ updated: 2026-09-17
 - @concepts/per-entity-bias-mapping-geo.md — verified mention calibration
 - @sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md — K172: engine-specific recommendation style (ChatGPT 79% first-person preference vs Gemini 7% / AIO 2%)
 - @sweeps/2026-09-17-daily.md — K172 ingest
+- @sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md — K28372: surrogate shopper Tool-Lab; price heuristics under costly attribute search
 
 ## Raw Concept
 

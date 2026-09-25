@@ -1,3 +1,10 @@
+## [2026-09-25] deep-read | arXiv 2609.28372 surrogate shopper (Grok-aligned SEO follow-up)
+
+- **Source:** @sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md → validated, deep-read (abstract-backed).
+- **Concepts:** @concepts/llm-brand-bias-geo-competition.md, @concepts/geo-visibility-measurement.md — related backlinks.
+- **Cross-wiki:** @cybersecurity-wiki/sources/arxiv-2609-28372-agentic-ai-surrogate-consumer-ood.md unchanged (OOD stub).
+- **friend brief:** n/a
+
 ## [2026-09-24] cross-wiki | arXiv 2609.28372 surrogate shopper (from cyber ingest)
 
 - **Source:** @sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md (record-only; PDF on cybersec egress).
