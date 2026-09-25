@@ -1,9 +1,10 @@
 # Outlier Weekly
 
-Outlier Weekly is Cemini23's weekly letter on mispriced rare-event markets on
-Polymarket and Kalshi, plus operator notes on Atto paperwork and GuruWatcher
-Discord alerts. This domain hosts the owned hub pages; the letters themselves
-live on Substack.
+Outlier Weekly is Cemini23's weekly letter on investing and AI. One subject
+per issue. The desk also writes operator notes on Atto paperwork and
+GuruWatcher Discord alerts. Early issues priced rare-event markets on
+Polymarket and Kalshi. This domain hosts the owned hub pages; the letters
+themselves live on Substack.
 
 ## Owned pages
 
