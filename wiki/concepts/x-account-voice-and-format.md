@@ -16,6 +16,7 @@ related:
   - concepts/ttwo-gta6-outlier-notes.md
   - concepts/metals-tungsten-ptpd-outlier-notes.md
   - concepts/crml-tanbreez-outlier-notes.md
+  - concepts/voyg-outlier-notes.md
   - concepts/ceminiparlays-ceminidfs-x-article-notes.md
   - concepts/ceminiparlays-outlier-notes.md
   - concepts/cursor-route-marketing-notes.md
@@ -53,7 +54,7 @@ related:
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
 maturity: draft
 created: 2026-05-28
-updated: 2026-09-19
+updated: 2026-09-28
 ---
 
 ## Relations
@@ -133,6 +134,7 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | OW | [CRML / Tanbreez — Greenland license](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the) — @concepts/crml-tanbreez-outlier-notes.md | **LIVE** 2026-09-14 (Outlier only; X deferred; slug is title-derived, not `critical-metals-tanbreez-greenland-option`) |
 | X | CeminiDFS + CeminiParlays + Grok slate packet — @concepts/ceminiparlays-ceminidfs-x-article-notes.md · paste `briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md` | **LIVE** 2026-09-12 — https://x.com/Cemini23/status/2098862947749515565 |
 | OW | CeminiParlays stack (sportsbook parlays) — @concepts/ceminiparlays-outlier-notes.md · paste `briefs/2026-09-17_ceminiparlays-outlier.md` | **LIVE** 2026-09-21 — https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit · hub `/parlay/` |
+| OW | Voyager / Starlab — the profit does not cover the paper — @concepts/voyg-outlier-notes.md · paste `briefs/2026-09-25_voyg-outlier.md` · [LIVE letter](https://outlierweekly.substack.com/p/the-profit-does-not-cover-the-paper) · hub `/voyager/` | **LIVE** 2026-09-28. Settlement 28 Sep and the $52.5 million option stay open in the letter. |
 | OW4 / X Art. #4 (legacy label) | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | superseded by OW5 setup guide |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"
