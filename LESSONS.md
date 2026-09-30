@@ -6,6 +6,31 @@ Newest entries on top.
 
 ---
 
+## [2026-09-30] Grok CLI delegation + egress archive from a Claude Code session
+
+### What happened
+
+Two things looked broken during the K283 ingest. Neither was.
+
+1. **Grok CLI "hung with no output."** The real cause was my own flag, not grok. I ran `grok --cwd /tmp/claude-502 ...`. Pointing `--cwd` at a directory outside the project makes grok stall after its first line of reasoning. The sandbox was a separate, second problem: a **sandboxed** Bash call cannot reach `grok.com:443` or grok's session directory, so it fails before it starts.
+2. **Egress archive "failed."** `archive_raw_to_egress.sh` needs SSH to `204.168.139.190:22`. The session sandbox denies outbound network, so it aborted. The host was reachable the whole time.
+3. **A second archive trap:** the script takes **one file per run**. Passing four paths archives only the first. Loop it.
+4. **The wiki lint exit code is the CI gate, not the finding count.** `wiki_lint.py` exits 0 while reporting 438 asymmetric edges and 38 dangling links. Only check 8 (cross-wiki `@wiki-alias` links) was a real regression — the route script auto-adds `@ccc-wiki/briefs/...`, which the linter resolves under `wiki/`, so it dangles. Replace it with a backticked relative path.
+
+### Playbook going forward
+
+1. **Run `grok` from the unsandboxed terminal**, never from a sandboxed Bash call. The working invocation:
+   `grok --cwd "$(pwd)" --always-approve --prompt-file <path> --output-format plain --disable-web-search`
+2. **Keep `--cwd` inside the project.** Use `--cwd "$(pwd)"`. Never point it at `/tmp` or outside the repo.
+3. **Delegate via a prompt file, not inline text.** Long prompts survive quoting; the output redirects cleanly to a file. Save grok's result under `briefs/handoffs/` when it does real work.
+4. **Archive one file per invocation.** Loop over the inbox rather than passing many paths.
+5. **Read the lint output, not just the exit code.** Exit 0 means CI passes, not that the wiki is clean. Compare the named findings against the previous run to find real regressions.
+6. **A cross-wiki brief is not an `@` link.** The route script adds one anyway; lint flags it as dangling. Use a backticked path for briefs that live outside `wiki/`.
+
+Helper: `scripts/grok_delegate.sh`.
+
+---
+
 ## [2026-06-02] YouTube @Cemini23 — first analytics export (launch week)
 
 **Source:** Studio export `Content 2026-05-05_2026-06-02 Cemini23.zip` → `briefs/youtube-cemini23/analytics-2026-06-02/` (gitignored). Wiki: `@entities/platforms/youtube.md`, `@sources/youtube-cemini23-launch-analytics-2026-06-02.md`.
