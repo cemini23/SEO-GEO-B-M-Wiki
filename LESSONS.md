@@ -27,6 +27,16 @@ Two things looked broken during the K283 ingest. Neither was.
 5. **Read the lint output, not just the exit code.** Exit 0 means CI passes, not that the wiki is clean. Compare the named findings against the previous run to find real regressions.
 6. **A cross-wiki brief is not an `@` link.** The route script adds one anyway; lint flags it as dangling. Use a backticked path for briefs that live outside `wiki/`.
 
+### The cheap-model routing ladder (both verified 2026-09-30)
+
+Run either lane from the **unsandboxed terminal**. Both take a prompt file and neither is reachable from a sandboxed Bash call.
+
+1. **Grok first** — `scripts/grok_delegate.sh <prompt-file> [output-file]`. Wraps the known-good flags.
+2. **DeepSeek flash second** — `claude-ds -PromptFile <prompt-file> -Model deepseek-v4-flash`. This is the Cemini `/route` shim; it boots dsh through pwsh, so it takes ~1 minute to start. Set `CLAUDE_DS_ASK=1` to opt out of always-approve.
+3. **`opencode` is not configured** on this machine (no provider in `~/.config/opencode/opencode.jsonc`). Treat it as unavailable until a provider is added.
+
+Both lanes narrate a preamble line before the real answer. For structured jobs, ask for JSON and pass grok's `--json-schema`; do not parse plain text positionally.
+
 Helper: `scripts/grok_delegate.sh`.
 
 ---
