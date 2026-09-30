@@ -143,6 +143,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-30 | K283 ingest: 1/4 IN-SCOPE (AX is the new AEO) + 3/4 OOD overflow | **AX (agent experience) enters the wiki as a validated concept.** 37,927 agent journeys / 1,056 businesses / four harnesses — agent-ready sites recommended 1.9× more, +41% accuracy on site-built answers, 4.4× fewer could-not-access hedges; AEO proxies inert at the drill-down; harness variance is sevenfold. agent-ready-website page rewritten, GEO hub + geo-visibility-measurement upgraded; CCC brief routed (PrecogUI); 0 SEO Adopt; 0 MB runtime |
 | 2026-09-17 | K172 ingest: 3/3 IN-SCOPE GEO measurement papers | Martinez prompt-corpora framework; Bajemon deterministic score validation (Aggarwal anchors expired); ConsumerQ UI/API audit; geo-visibility-measurement upgraded; 0 runtime clone |
 | 2026-09-17 | CeminiParlays Outlier brief PASTE-READY | Sportsbook parlays letter; X Article already LIVE 12 Sep |
 | 2026-09-16 | K171 ingest: 3/3 arXiv API false positives → overflow + thin GEO steal + CCC | Native-language BabyLM eval → multilingual-geo-audit steal + CCC brief; combinatorics + scotogenic physics overflow-only; 0 SEO Adopt; 0 MB runtime; inbox archived to egress |

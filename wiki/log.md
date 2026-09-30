@@ -1,3 +1,15 @@
+## [2026-09-30] ingest | K283 — 1/4 IN-SCOPE (AX is the new AEO) + 3/4 OOD overflow
+
+- **Inbox** — 4 PDFs from @sweeps/2026-09-30-daily.md (geo-aeo + local-seo digest).
+- **In-scope source** — @sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md (ora research; 37,927 agent journeys, 1,056 businesses, four harnesses, matched on fame / prior knowledge / two AEO proxies). `maturity: validated`, `read_status: deep-read`.
+- **Concept upgrades** — @concepts/agent-ready-website-local-bm.md (rewritten: AX field evidence table anchors the page; K142 POC demoted to design checklist); @concepts/generative-engine-optimization.md (new "AX is the new AEO — the drill-down step" section; AEO decomposition); @concepts/geo-visibility-measurement.md (new harness-variance hazard + first-party evidence share / grounded-answer rate measures).
+- **OOD sources (overflow)** — @sources/arxiv-cai-2026-jrdb-avr-active-visual-reasoning-2609.35032-2026-09-30.md (embodied active visual reasoning; thin steal = answer-vs-evidence split); @sources/arxiv-melo-2026-wlcg-host-tuning-wan-2609.35859-2026-09-30.md (HEP host tuning; bottleneck-dependent benefit); @sources/arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30.md (GUI agents; CCC brief routed). All three added to @concepts/corpus-overflow-out-of-scope.md.
+- **Federation** — CCC `../Cemini claude code CCC/briefs/2026-09-30_k283-precogui-proactive-simulation-from-seo.md` (pre-cognitive simulation + experience pool; no code).
+- **Briefs** — `briefs/2026-09-30_k283-shop-ax-readability-audit-hands-on.md` (gitignored) — per-shop AX audit, blocked on real shop URLs.
+- **Phase-0** — no new adoptable tool. The AX paper's release is analysis code + derived-data sample, not a deployable ranker; the ora accessibility ranker is proprietary (treat as directional, same rule as Local Falcon SAIV). JRDB-AVR repo license not stated; WLCG/PrecogUI have no applicable code. **0 SEO Adopt; 0 MB runtime.**
+- **Phase-1** — `policy_wired` on @concepts/agent-ready-website-local-bm.md + @concepts/generative-engine-optimization.md + @concepts/geo-visibility-measurement.md. No new MCP, no `settings.json` change.
+- **Delegation note** — grok CLI (`grok --prompt-file`) was attempted for the OOD triage and hung with no output after the sandbox blocked its session directory; OOD stubs were written in-session instead. opencode has no provider configured.
+
 ## [2026-09-25] deep-read | arXiv 2609.28372 surrogate shopper (Grok-aligned SEO follow-up)
 
 - **Source:** @sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md → validated, deep-read (abstract-backed).
@@ -15,7 +27,7 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-09-23
+updated: 2026-09-30
 last_easy_review_ingest: 2026-05-08
 ---
 

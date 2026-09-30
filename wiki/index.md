@@ -170,6 +170,10 @@ If you're new to this wiki:
 - [arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24](sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md) — agentic surrogate shopper + pricing heuristics (cross-wiki @cybersecurity-wiki OOD)
 - [arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23](sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md) — IN-SCOPE: exposure vs selection; cross-engine divergence (K273)
 - [arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23](sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md) — IN-SCOPE: Baidu/Google AI overview source exposure (K273)
+- [arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30](sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md) — IN-SCOPE: AX is the new AEO; 37,927 journeys; AEO proxies inert at drill-down (K283)
+- [arxiv-cai-2026-jrdb-avr-active-visual-reasoning-2609.35032-2026-09-30](sources/arxiv-cai-2026-jrdb-avr-active-visual-reasoning-2609.35032-2026-09-30.md) — OOD: embodied active visual reasoning benchmark; overflow only (K283)
+- [arxiv-melo-2026-wlcg-host-tuning-wan-2609.35859-2026-09-30](sources/arxiv-melo-2026-wlcg-host-tuning-wan-2609.35859-2026-09-30.md) — OOD: WLCG host tuning for WAN transfers; overflow only (K283)
+- [arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30](sources/arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30.md) — OOD: PrecogUI proactive GUI agents; CCC brief routed (K283)
 
 ### Platform / practitioner news
 
@@ -244,7 +248,7 @@ If you're new to this wiki:
 - [process-verified-agentic-search-geo](concepts/process-verified-agentic-search-geo.md) — DeepSearch entity-hit / failure-recovery process lens for local GEO
 - [geo-visibility-vector-protocol](concepts/geo-visibility-vector-protocol.md) — Martinez visibility vector + reproducible GEO probe protocol
 - [e-geo-universal-rewrite-playbook](concepts/e-geo-universal-rewrite-playbook.md) — E-GEO converged rewrite pattern for service pages (K142)
-- [agent-ready-website-local-bm](concepts/agent-ready-website-local-bm.md) — interpretability / executability / decision reliability for local sites (K142)
+- [agent-ready-website-local-bm](concepts/agent-ready-website-local-bm.md) — agent-ready local sites: AX field evidence (K283) + interpretability / executability / decision reliability (K142)
 - [canonical-business-facts-geo](concepts/canonical-business-facts-geo.md) — GBP + schema canonical fact KB sync (KARLA 2026 K132)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)

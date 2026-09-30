@@ -135,9 +135,13 @@ related:
   - sources/arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03.md
   - sources/arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03.md
   - sweeps/2026-09-03-daily.md
+  - sources/arxiv-cai-2026-jrdb-avr-active-visual-reasoning-2609.35032-2026-09-30.md
+  - sources/arxiv-melo-2026-wlcg-host-tuning-wan-2609.35859-2026-09-30.md
+  - sources/arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30.md
+  - sweeps/2026-09-30-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-09-03
+updated: 2026-09-30
 ---
 
 ## Relations
@@ -394,6 +398,9 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-lz-2026-dark-matter-recoil-2609.02823-2026-09-03.md | LZ dark matter extended recoil search (arXiv 2609.02823) | hep-ex false positive; overflow only (K169) |
 | @sources/arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03.md | LiDAR semantic segmentation deployment eval (arXiv 2609.02830) | cs.RO autonomous driving; overflow only (K169) |
 | @sources/arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03.md | Discriminative world models for web agents (arXiv 2609.02885) | web-agent world models; CCC primary (K169) |
+| @sources/arxiv-cai-2026-jrdb-avr-active-visual-reasoning-2609.35032-2026-09-30.md | JRDB-AVR active visual reasoning benchmark (arXiv 2609.35032) | cs.CV/RO embodied agents; overflow only; thin steal = answer-vs-evidence split; repo `ControlNet/JRDB-AVR` license not stated (K283) |
+| @sources/arxiv-melo-2026-wlcg-host-tuning-wan-2609.35859-2026-09-30.md | WLCG host tuning for WAN transfers (arXiv 2609.35859) | physics.ins-det networking; overflow only; no paper code (K283) |
+| @sources/arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30.md | PrecogUI proactive GUI agents (arXiv 2609.36923) | GUI agent architecture; CCC brief routed (pre-cognitive simulation); no code published (K283) |
 
 ## Snippets
 

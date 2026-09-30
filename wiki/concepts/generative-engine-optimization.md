@@ -116,13 +116,17 @@ related:
   - sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md
   - entities/tools/denseon-lateon.md
   - sweeps/2026-07-30-daily.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sweeps/2026-09-30-daily.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-08-15
+updated: 2026-09-30
 ---
 
 ## Relations
 
+- @sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md — K283: AX is the new AEO; 37,927 journeys; AEO proxies inert at the drill-down
+- @sweeps/2026-09-30-daily.md — K283 overnight inbox drop
 - @sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md — K237: owned site remains the permanent home as clicks fall
 - @sweeps/2026-07-30-daily.md — K148 DenseOn/LateOn open retrieval
 - @sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md — K148 open dense + late-interaction
@@ -280,6 +284,29 @@ Safe local analog: coordinate **real** evidence - GBP, owned service/location pa
 ### Critical survey — visibility vector [CONFIRMED as literature synthesis; TENTATIVE local ROI]
 
 @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md (Martinez 2026, arXiv 2607.14035): reviews **45** GEO studies (2023–2026). GEO is a multistage stochastic pipeline; report a **visibility vector** (discoverability, context, citation, prominence, absorption, fidelity, behavior) instead of a single rank. Aggarwal “up to ~40%” is a **conditional-on-context** pawc gain — not organic discoverability or traffic. Topical relevance + context position are the most reproducible levers; generic heuristics transfer poorly; competition erodes gains; commercial audits show low overlap and fidelity gaps. Playbook: @concepts/geo-visibility-vector-protocol.md; hands-on `briefs/2026-07-16_k140-geo-visibility-vector-probe-protocol-hands-on.md`.
+
+### AX is the new AEO — the drill-down step [CONFIRMED — controlled field experiment]
+
+@sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md (Finder, Elovic & Shalev / ora research, arXiv 2609.34951): **37,927 agent journeys, 1,056 live businesses, four independent harnesses**, matched on fame, prior model knowledge, and two AEO proxies. This is the first controlled experiment on agent readiness in the field that the authors know of.
+
+**The decomposition.** AEO splits into **SEO for the surfacing step** plus **AX (agent experience) for the drill-down step and everything after it**. Retrieval gets a business into the candidate set; what the agent can *fetch and read* decides what the answer is made of. Aggarwal-style GEO is explicitly framed as conditional on the source already being retrieved.
+
+**The premise-shifting number.** The share of the answer built from model training knowledge fell **52% (gpt-4.1) → 14% (gpt-5.6) → 7–10%** in the four agent harnesses, whether or not the site is readable. Optimizing what a model *knows* now optimizes a shrinking slice. A blocked agent does not fall back on memory — in ~99% of dead-end journeys it answered anyway, from the open web.
+
+**What readability buys** (agent-ready vs not; permutation *p* < 0.0001 throughout):
+
+- **Grounding** — first-party evidence share **0.776 vs 0.549** (1.41×); 78% of the answer from the business's own pages vs 58%, with web search doubling 12% → 25%.
+- **Recommendation** — both blind judges call it a clear recommendation **20% vs 11% (1.9×)**; answers are 2.45× more likely to be judged *too weak to recommend*, and hedge 4.4× more on could-not-access, 3.0× on secondhand vouching, 1.8× on vagueness, 1.4× on punting the user.
+- **Accuracy** — within the same business, harness, and question, site-built answers get **+41%** of asked facts right (48.3% vs 34.3%). Largest on **pricing (+64%)**; absent on setup (+2%, n.s.).
+- **Cost** — +64% per grounded answer averaged across stacks, up to +93%; 23% more turns, 2.1× the block rate, 15% longer.
+
+**The failure is omission, not fabrication.** Stated-wrong barely moves (4% → 6%); **never mentioned climbs 29% → 45%**. Poor readiness makes a fact unretrievable, not false. This pairs directly with @concepts/citation-verification-aeo.md, which covers the *fabrication* half of the accuracy problem.
+
+**AEO proxies are inert at the drill-down.** With accessibility, fame, vertical, and fame band held fixed, neither citation breadth nor discovery predicts grounding, recommendation, or cost; accessibility predicts all three (partial *r* = +0.62 / +0.41 / −0.27). The one hint (discovery → recommendation, *r* = 0.10) fits the thesis: being findable helps a business get **named**, not **read**. This does not retire the surfacing playbook — it prices it.
+
+**Harness spread is a measurement hazard.** Clear-recommendation rates vary **sevenfold** across stacks (claude-code 5% → eve 36%), and search reliance ranges from 0.1 (claude-code) to 6.9 (openclaw) searches per run. The *direction* replicates in all four; the *levels* belong to the harness. Any single-harness AI-visibility benchmark is reporting its harness as much as its subject — a concrete argument for the multi-engine sampling rules in @concepts/geo-visibility-measurement.md.
+
+**Operator translation:** @concepts/agent-ready-website-local-bm.md. Hands-on: `briefs/2026-09-30_k283-shop-ax-readability-audit-hands-on.md`. Cohort is SaaS/commerce English-first with business-fact intents — **no local-service or near-me queries** `[NEEDS VERIFICATION 2026-09-30]`.
 
 ### E-GEO universal rewrite + agent-ready sites [TENTATIVE — e-commerce / lab POC]
 

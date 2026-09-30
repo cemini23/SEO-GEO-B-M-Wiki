@@ -61,9 +61,12 @@ related:
   - sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md
   - sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md
   - sweeps/2026-09-23-daily.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - concepts/agent-ready-website-local-bm.md
+  - sweeps/2026-09-30-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-09-25
+updated: 2026-09-30
 ---
 
 ## Relations
@@ -216,6 +219,23 @@ For **citation prevalence**, target CI width **0.15** (higher because prevalence
 **Operator rules:**
 - Log **which domains receive visible links** in the overview UI, not only whether the brand is named in answer text.
 - Bilingual / diaspora markets: audit **each language × platform** (@concepts/multilingual-geo-audit.md); English Google results do not proxy Chinese or Baidu exposure.
+
+### Harness variance as a measurement hazard (K283) `[CONFIRMED — controlled field experiment]`
+
+@sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md ran the **same 1,056 businesses** through four independent agent harnesses. Clear-recommendation rates varied **sevenfold** — claude-code 5%, claude-agent-sdk 14%, openclaw 25%, eve 36% — and search reliance ranged from **0.1** (claude-code) to **6.9** (openclaw) searches per run. The *direction* of every effect replicated in all four; the *levels* belonged to the harness.
+
+**Operator rule:** a single-harness AI-visibility benchmark reports its harness as much as its subject. This is the same conclusion as the K273 exposure-vs-selection work arriving from a different design — and it is stronger evidence, because the harness is the only thing that changed. Never compare two businesses measured on different harnesses, and never compare your own score to a vendor's without confirming the stack.
+
+### First-party evidence share and grounded-answer rate (K283) `[CONFIRMED — controlled field experiment]`
+
+Two outcome measures worth adding to the operator loop, both from the same study:
+
+- **First-party evidence share** — the fraction of retrieved content (fetched pages + search snippets) that came from the business's own site. **0.776** agent-ready vs **0.549** not (1.41×).
+- **Grounded-answer rate** — the share of journeys that read the site and used no outside source. **0.778** vs **0.555** (1.40×).
+
+Both are computable from an agent trace without a grading panel, which makes them cheaper to track than recommendation rate. The study also supplies a **dose–response** check: mean web searches per journey rise monotonically from **1.8 to 4.5** as the accessibility score falls (Spearman ρ = −0.52, n = 1,056), so *searches-per-journey* is a usable proxy for a readability defect without needing the vendor's score at all.
+
+**Guardrail:** the study's accessibility ranker is the authors' own instrument, and the cohort is SaaS/commerce English-first with business-fact intents. No local-service or near-me queries `[NEEDS VERIFICATION 2026-09-30]`.
 
 ### Operator measurement loop
 
