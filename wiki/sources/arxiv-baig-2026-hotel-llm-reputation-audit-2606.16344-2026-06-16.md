@@ -13,10 +13,13 @@ related:
   - sources/vishwakarma-2026-competitive-geo-sigir.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-16-daily.md
+  - concepts/llm-brand-bias-geo-competition.md
+  - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
+  - sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md
 maturity: validated
 read_status: read
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-10-01
 ---
 
 ## Relations

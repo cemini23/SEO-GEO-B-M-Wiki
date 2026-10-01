@@ -10,10 +10,11 @@ related:
   - concepts/geo-visibility-measurement.md
   - concepts/geo-visibility-vector-protocol.md
   - concepts/generative-engine-optimization.md
+  - sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md
 maturity: validated
 read_status: read
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-10-01
 ---
 
 ## Relations

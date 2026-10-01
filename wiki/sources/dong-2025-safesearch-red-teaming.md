@@ -10,10 +10,11 @@ related:
   - sources/score-2026-self-evolving-deep-research.md
   - "@cybersecurity-wiki/sources/dong-2025-safesearch-red-teaming.md"
   - sources/arxiv-hu-2025-adversarial-attacks-llm-search-2501.00745-2026-06-10.md
+  - sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-01
-updated: 2026-06-10
+updated: 2026-10-01
 cross-wiki-routed: cybersecurity-wiki
 ---
 

@@ -10,9 +10,10 @@ related:
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - entities/platforms/twitter-x.md
   - concepts/cemini23-x-score-2026-09-01.md
+  - entities/tools/substack-publisher-mcp.md
 maturity: draft
 created: 2026-07-27
-updated: 2026-09-01
+updated: 2026-10-01
 ship_draft: briefs/2026-07-27_guruwatcher-outlier-x-article.md
 draft_version: published-2026-07-28
 status: LIVE - Outlier published 2026-07-28; X Article optional

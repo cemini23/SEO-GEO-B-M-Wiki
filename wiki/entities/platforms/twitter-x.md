@@ -17,10 +17,12 @@ related:
   - entities/platforms/fanvue.md
   - entities/platforms/fansly.md
   - concepts/ai-assistance-guardrails.md
+  - concepts/guruwatcher-outlier-x-article-notes.md
+  - entities/tools/substack-publisher-mcp.md
 
 maturity: draft
 created: 2026-05-08
-updated: 2026-09-01
+updated: 2026-10-01
 
 ---
 

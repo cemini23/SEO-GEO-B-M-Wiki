@@ -1,3 +1,14 @@
+## [2026-10-01] ops | K257 + K276 source pages filed; wiki lint debt cleared to zero
+
+- **K257 (was deferred since 2026-09-09)** — @sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md filed. Frontier AEO Tracker: 7 models × 161 categories; **self-preference is the clearest signal** (each vendor picks its own tool); ~17% of categories have a universal winner; **markdown content-negotiation confirmed** — failing it removes a page from consideration entirely; AEO score weights first choice > alternatives > mentions, with negative weights for anti-recommendations. Provenance is weaker than a normal ingest: the OSINT source page it came from never materialised, so the page is filed from the wave summary plus public tracker coverage and says so.
+- **K276 (inbound brief, operator approved the full read)** — both flagged test reports filed with the method paraphrased, not copied: @sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md (niche landing page beat homepage for a non-ranking practitioner listing; Diversity Update caveat — do not point a listing at the page already ranking organically) and @sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md (30-day posting blocks; 2.75× sustained review elevation preceded enforcement; 57.5% of reviews removed selectively; in-store + QR + burst pattern is the stated assumption).
+- **Concepts updated** — @concepts/reviews-reputation-management.md (posting-block warning added to the acquisition section, right after the QR bullet); @concepts/google-business-profile.md (linked-URL field test); @concepts/agent-ready-website-local-bm.md (markdown content-negotiation as a read-layer check); @concepts/geo-visibility-measurement.md (model self-preference as a measurement hazard).
+- **Lint debt cleared. All four structural checks now read zero.** check 2 `469 → 0` asymmetric edges: (a) `wiki_lint.py` exempts the 56 pages that declare no `related:` key — generated sweeps, one-way by design — and prints the exemption count so it stays visible; (b) new `scripts/wiki_backlink_fix.py` computes the real gaps (the linter truncates its listing at 5 per target) and appended **251 reciprocal backlinks across 74 pages**. check 3 `38 → 0` dangling, check 4 `68 → 0` unresolvable mentions, check 8 `0 dangling / 285 ok` (was under-reporting at 101 ok). Orphans 65 → 56.
+- **Root cause of most of it: a wrong path in CLAUDE.md.** The Related Wikis table listed `osint-wiki` as `../../OSINT WORKSPACE/wiki/`; the real path is `../OSINT WORKSPACE/wiki/`. The alias failed to load, so every `@osint-wiki/...` link was reported dangling. Fixed in both places CLAUDE.md mentions it. Two hardening changes: `wiki_lint.py` now resolves alias paths against CLAUDE.md's own directory (as its own text instructs) and **warns** when an alias fails to resolve instead of dropping it silently. Also fixed: check 8 swallowed trailing sentence punctuation into the path (`...md.`), and `@osint-wiki/briefs|reports|agents` paths — those trees sit at the OSINT repo root, not under its `wiki/` — were rewritten as backticked relative paths. See LESSONS.md [2026-10-01].
+- **Tooling** — `scripts/grok_delegate.sh` gained `--inline` and `--chunk` modes (default 20000 chars) after grok stalled on a 115 KB single-shot job. Both verified working. See LESSONS.md [2026-10-01].
+- **Archive** — both K284 PDFs are on `cemini-egress-fi:/opt/cemini-bulk/research/seo/`; inbox empty.
+- **Routing** — none. Both K257 and K276 are in-domain; the K257 brief's own gate says "no new runtime", and the K276 gate says "0 product Integrate GO". Nothing to send to a federated wiki.
+
 ## [2026-10-01] ingest | K284 — 2/2 IN-SCOPE (conversational capture + WaPo field experiment)
 
 - **Inbox** — 2 PDFs. Both in-scope. No OOD this round.
@@ -210,7 +221,7 @@ last_easy_review_ingest: 2026-05-08
 - **Notes** — @concepts/crml-tanbreez-outlier-notes.md
 - **Title / slug** — The Greenland license is real. The mine is still an option. / `critical-metals-tanbreez-greenland-option`
 - **Guard** — no last Nasdaq print; no $7 put / 2 Oct weekly. Defined-risk listed puts; if the stock keeps falling, $6 (and similar lower strikes) stay viable. CFTC 4.41. Do not size a position.
-- **Cross-wiki** — @osint-wiki/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md is the private desk (banned as paste source).
+- **Cross-wiki** — `../OSINT WORKSPACE/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md` is the private desk (banned as paste source).
 - **Next** — operator HITL + ship date. Do not invent issue number.
 
 ## [2026-08-31] wire | Substack official MCP — Bestseller ineligible
@@ -254,7 +265,7 @@ last_easy_review_ingest: 2026-05-08
 ## [2026-08-30] query | metals tungsten + Pt/Pd Outlier paste (GPT Sol + Kimi)
 
 - **Paste** — `briefs/2026-08-30_metals-tungsten-ptpd-outlier-paste.md` PASTE-READY. HITL. Ship window 2026-09-08 to 2026-09-14.
-- **Spine / thesis** — `briefs/2026-08-30_metals-tungsten-ptpd-outlier.md` + `@osint-wiki/reports/research/pack-metals-tungsten-ptpd-20260830/thesis.md`
+- **Spine / thesis** — `briefs/2026-08-30_metals-tungsten-ptpd-outlier.md` + ``../OSINT WORKSPACE/reports/research/pack-metals-tungsten-ptpd-20260830/thesis.md``
 - **Notes** — @concepts/metals-tungsten-ptpd-outlier-notes.md
 - **Passes** — GPT-5.6 Sol (REWORK) + Kimi (SHIP-WITH-NITS). Applied: lede mine/chemical + dated 79%; NHK named in first screen; Pd JM-balance hedge; CFTC after the answer; kill-list #3 heading reversed (plenty of non-China APT kills it); WPIC on 995/848; memo voice cut; sources in public body.
 - **Word count** — 2,780 lede through CFTC footer
@@ -958,7 +969,7 @@ Append-only chronological log of wiki operations: scaffolding, ingests, lints, d
 
 - **Brief** — `briefs/2026-06-16_devfun-tournament-s1-article-handoff.md` (full data pack: hero stats, top-5 field, loss attribution, Article beats)
 - **Stub** — @concepts/devfun-tournament-s1-article-notes.md (queue + hook)
-- **Source** — @osint-wiki/agents/devfun-poker-arena/briefs/2026-06-12_why-cemini-last-s1.md + S1 export on `cemini-prod`
+- **Source** — `../OSINT WORKSPACE/agents/devfun-poker-arena/briefs/2026-06-12_why-cemini-last-s1.md` + S1 export on `cemini-prod`
 - **Lane** — X Article: prediction markets + agent OSS; Playground #1 → Tournament bust narrative
 
 ## [2026-06-10] ingest | AI visibility uncertainty + LLM search manipulation game theory (2 arXiv)

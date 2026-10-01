@@ -11,10 +11,11 @@ related:
   - concepts/competitive-geo-citation-factors.md
   - sources/arxiv-baig-2026-hotel-llm-reputation-audit-2606.16344-2026-06-16.md
   - sources/arxiv-2609-28372-agentic-surrogate-shopper-2026-09-24.md
+  - sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md
 maturity: validated
 read_status: skimmed
 created: 2026-09-17
-updated: 2026-09-24
+updated: 2026-10-01
 cross-wiki-routed: cybersecurity-wiki
 ---
 

@@ -31,6 +31,9 @@ related:
   - sources/tiktok-algorithm-mechanics-2026.md
   - concepts/viral-content-mechanics.md
   - concepts/creator-content-flywheel.md
+  - concepts/creator-aesthetic-positioning.md
+  - concepts/synthetic-creator-gtm.md
+  - entities/tools/oransim.md
 
   - concepts/creator-aesthetic-positioning.md
   - concepts/synthetic-creator-gtm.md
@@ -39,7 +42,7 @@ related:
   - "@image-gen-wiki/concepts/marketing-your-persona.md"
 maturity: draft
 created: 2026-05-08
-updated: 2026-06-18
+updated: 2026-10-01
 ---
 
 ## Relations

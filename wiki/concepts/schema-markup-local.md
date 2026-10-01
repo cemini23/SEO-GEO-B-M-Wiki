@@ -21,10 +21,11 @@ related:
   - sources/google-search-central-2026-ai-optimization-guide.md
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
   - concepts/agent-ready-website-local-bm.md
+  - entities/tools/geo-optimizer-skill.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-07-18
+updated: 2026-10-01
 
 ---
 

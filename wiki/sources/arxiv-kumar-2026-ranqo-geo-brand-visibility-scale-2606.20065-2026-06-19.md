@@ -19,10 +19,13 @@ related:
   - sources/arxiv-varga-2026-per-entity-bias-mapping-ai-visibility-2606.21595-2026-06-23.md
   - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
   - entities/tools/local-falcon.md
+  - concepts/ai-citation-sourcing-geo.md
+  - concepts/multilingual-geo-audit.md
+  - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
 maturity: validated
 read_status: read
 created: 2026-06-19
-updated: 2026-06-24
+updated: 2026-10-01
 ---
 
 ## Relations

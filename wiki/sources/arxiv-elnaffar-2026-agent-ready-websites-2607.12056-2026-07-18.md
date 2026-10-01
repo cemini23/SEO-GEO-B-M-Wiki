@@ -10,10 +10,11 @@ related:
   - concepts/generative-engine-optimization.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-18-daily.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
 maturity: validated
 read_status: read
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-10-01
 ---
 
 ## Relations

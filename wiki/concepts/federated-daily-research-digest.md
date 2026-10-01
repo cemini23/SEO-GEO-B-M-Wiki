@@ -219,9 +219,45 @@ related:
   - sources/arxiv-kunisky-2026-rank-two-permanents-2608.28520-2026-08-31.md
   - sources/arxiv-constable-2026-pulsar-late-interaction-visual-rag-2608.28572-2026-08-31.md
   - sweeps/2026-08-31-daily.md
+  - concepts/conversational-capture-geo.md
+  - sources/arxiv-abou-haidar-2026-lidar-semantic-segmentation-2609.02830-2026-09-03.md
+  - sources/arxiv-albughdadi-2026-meox-earth-observation-2609.05351-2026-09-11.md
+  - sources/arxiv-avramov-2026-atlas-verifiable-semantic-search-2609.11841-2026-09-11.md
+  - sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md
+  - sources/arxiv-cai-2026-jrdb-avr-active-visual-reasoning-2609.35032-2026-09-30.md
+  - sources/arxiv-dughmi-2026-batched-pandoras-box-2609.04059-2026-09-11.md
+  - sources/arxiv-edwards-2026-crispr-amortized-hit-discovery-2609.11877-2026-09-11.md
+  - sources/arxiv-fayolle-2026-side-channel-benchmarking-2609.03893-2026-09-11.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-gerblich-2026-cosmic-string-loops-backreaction-2608.31163-2026-09-01.md
+  - sources/arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30.md
+  - sources/arxiv-kaur-2026-ui-visa-vascular-segmentation-2609.01598-2026-09-02.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
+  - sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md
+  - sources/arxiv-li-2026-discriminative-world-models-web-agents-2609.02885-2026-09-03.md
+  - sources/arxiv-lz-2026-dark-matter-recoil-2609.02823-2026-09-03.md
+  - sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md
+  - sources/arxiv-melo-2026-wlcg-host-tuning-wan-2609.35859-2026-09-30.md
+  - sources/arxiv-mondal-2026-vanilla-scotogenic-muon-collider-2609.17530-2026-09-16.md
+  - sources/arxiv-nguyen-2026-regionfed-retail-query-2609.05403-2026-09-11.md
+  - sources/arxiv-paine-2026-frb-magnetars-elliptical-2609.04118-2026-09-11.md
+  - sources/arxiv-pawar-2026-llm-explanations-behavioural-2609.05385-2026-09-11.md
+  - sources/arxiv-salcedo-gomez-2026-ara-uhe-neutrino-diffuse-2608.30989-2026-09-01.md
+  - sources/arxiv-salkic-2026-semiconductor-chance-risk-matrix-2609.01563-2026-09-02.md
+  - sources/arxiv-sengupta-2026-multi-axion-ladder-2609.11907-2026-09-11.md
+  - sources/arxiv-silva-2026-twisted-bracelets-transpositions-2609.17493-2026-09-16.md
+  - sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md
+  - sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md
+  - sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md
+  - sources/arxiv-wang-2026-sft-rl-annotation-budget-2609.01573-2026-09-02.md
+  - sources/arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
+  - sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md
+  - sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md
+  - sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-08-31
+updated: 2026-10-01
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -405,7 +441,7 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 - @sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md — K128 Language Blind Spot multilingual GEO
 - @concepts/multilingual-geo-audit.md — operator playbook
 - @sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md — review sentiment polarity bias
-- @osint-wiki/briefs/2026-06-24_k128-resequel-llm-query-rewrite-handoff.md — K128 ReSequel cross-wiki brief
+- `../OSINT WORKSPACE/briefs/2026-06-24_k128-resequel-llm-query-rewrite-handoff.md` — K128 ReSequel cross-wiki brief
 - @sources/arxiv-chen-2026-token-factory-recommendation-2606.19635-2026-06-24.md — Token Factory archive (out of scope)
 - @sweeps/2026-06-24-daily.md — overnight fetch + K128 ingest
 - @sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md — K129 ABSA peer-review aspect evolution (methodology steal)

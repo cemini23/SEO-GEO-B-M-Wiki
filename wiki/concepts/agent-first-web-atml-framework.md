@@ -4,8 +4,8 @@ type: concept
 tags: [concept, agent-first-web, geo, aeo, atml, cross-wiki]
 keywords: [2606.19116, atml, agents.txt, epistemic-recursion, supervision-tiers]
 related:
-  - ccc-wiki/concepts/agent-first-web-framework.md
-  - ccc-wiki/sources/arxiv-agent-first-web-redesign-2606.19116.md
+  - @ccc-wiki/
+  - @ccc-wiki/
   - entities/tools/geo-seo-claude.md
   - concepts/federated-daily-research-digest.md
   - concepts/agent-ready-website-local-bm.md

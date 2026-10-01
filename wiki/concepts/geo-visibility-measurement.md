@@ -68,6 +68,9 @@ related:
   - concepts/agent-ready-website-local-bm.md
   - sweeps/2026-09-30-daily.md
   - sweeps/2026-10-01-daily.md
+  - entities/tools/rankfor-ai.md
+  - sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md
+  - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
 maturity: validated
 created: 2026-06-10
 updated: 2026-10-01
@@ -233,6 +236,8 @@ For **citation prevalence**, target CI width **0.15** (higher because prevalence
 @sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md ran the **same 1,056 businesses** through four independent agent harnesses. Clear-recommendation rates varied **sevenfold** — claude-code 5%, claude-agent-sdk 14%, openclaw 25%, eve 36% — and search reliance ranged from **0.1** (claude-code) to **6.9** (openclaw) searches per run. The *direction* of every effect replicated in all four; the *levels* belonged to the harness.
 
 **Operator rule:** a single-harness AI-visibility benchmark reports its harness as much as its subject. This is the same conclusion as the K273 exposure-vs-selection work arriving from a different design — and it is stronger evidence, because the harness is the only thing that changed. Never compare two businesses measured on different harnesses, and never compare your own score to a vendor's without confirming the stack.
+
+**Self-preference compounds the hazard (K257).** @sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md ran seven frontier models across 161 categories and found self-preference to be **the clearest signal in the whole tracker**: Opus and Fable pick Claude Code; Sol and Astra pick Codex; Muse picks Muse Code; SWE-1.7 picks Devin. Only Grok, which ships no coding agent of its own, picks an unaffiliated tool. **An "AI visibility" number therefore partly reports which model you asked** — a vendor-run audit that tests only the vendor's own models will flatter the vendor. Ask which models a score covers before comparing it to anything.
 
 ### First-party evidence share and grounded-answer rate (K283) `[CONFIRMED — controlled field experiment]`
 

@@ -98,6 +98,30 @@ related:
   - concepts/process-verified-agentic-search-geo.md
   - sweeps/2026-07-04-daily.md
   - sweeps/2026-07-15-daily.md
+  - concepts/agent-ready-website-local-bm.md
+  - concepts/citation-building.md
+  - concepts/conversational-capture-geo.md
+  - concepts/cursor-route-marketing-notes.md
+  - concepts/e-geo-universal-rewrite-playbook.md
+  - concepts/geo-visibility-vector-protocol.md
+  - concepts/google-business-profile.md
+  - entities/tools/denseon-lateon.md
+  - entities/tools/e-geo.md
+  - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
+  - sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md
+  - sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
+  - sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md
+  - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
+  - sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md
+  - sources/arxiv-skapars-2026-bloom-wilt-llm-auditing-2608.31105-2026-09-01.md
+  - sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md
+  - sources/arxiv-tannenbaum-2026-scoring-with-engine-2609.22655-2026-09-23.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
+  - sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md
+  - sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md
+  - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
 
   - concepts/citation-building.md
   - concepts/google-business-profile.md

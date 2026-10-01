@@ -6,6 +6,34 @@ Newest entries on top.
 
 ---
 
+## [2026-10-01] Grok prompt size, and paying down the lint debt
+
+### What happened
+
+1. **Grok stalls on input size, not on tool count.** A ~20 KB prompt returns in under a minute. A **40 KB** prompt does complete, but goes quiet for **2–3 minutes** first. An earlier full-paper job (115 KB, read via a tool call) never finished. The fix is chunking, not retrying.
+2. **Grok's stdout is buffered until the process exits.** While a job runs, the redirect file stays near-empty. Partial work looks exactly like no work. Do not read the output file mid-run and conclude failure — check the terminal tab instead.
+3. **PDF-extracted text has no blank lines.** A splitter that waits for a blank line to break produces **one giant chunk** and reintroduces the stall. Split on line boundaries instead.
+4. **The lint count was misleading in two different ways.** check 2 reported 469 "asymmetric edges", but **295 of them (63%)** pointed at pages that declare **no `related:` key at all** — generated sweeps. Those are not asymmetries; there is nothing on the target's side to reciprocate. The real debt was 174 edges.
+5. **The lint output truncates per-target listings at five sources.** A repair script that parses lint output therefore fixes only five per target. Compute the gaps from the wiki itself.
+
+### Playbook going forward
+
+1. **Chunk long inputs.** `scripts/grok_delegate.sh <prompt> <out> --chunk <file> [--chunk-chars N]`. Default is 20000 chars. Use `--inline <file>` for medium files — it puts the text in the prompt so grok needs no read tool call, and it is the fastest mode measured.
+2. **Never judge a running grok job by its output file.** It is buffered. Watch the tab, or wait for the process to exit.
+3. **Split on lines, not blank lines.**
+4. **Exempt one-way indexes from bidirectional checks.** A page with no `related:` key cannot be asymmetric. `wiki_lint.py` now skips those and prints how many it exempted, so the exemption stays visible.
+5. **Repair backlinks from the wiki, not from lint output.** `python3 scripts/wiki_backlink_fix.py [--dry-run]`. It computes gaps itself, appends the missing entries, and bumps `updated:`.
+6. **When a count looks implausible, break it down by cause before acting on it.** 469 → 191 → 0 was three different problems wearing one number.
+7. **A broken alias hides as a false positive, not as an error.** CLAUDE.md's Related Wikis table listed `osint-wiki` as `../../OSINT WORKSPACE/wiki/`. The real path is `../OSINT WORKSPACE/wiki/`. The loader silently dropped the alias, so every `@osint-wiki/...` link was reported as **dangling** — 38 of them — and check 8 under-reported its own coverage (101 links instead of 285). **Fix the alias and the "dangling links" mostly evaporate.** Two hardening changes went in: resolve alias paths against CLAUDE.md's own directory (as its own text says), and print a warning when an alias fails to resolve instead of dropping it.
+8. **A lint rule that swallows trailing punctuation invents breakage.** Check 8's path regex matched any non-space run, so `...digest.md.` — the sentence period — became part of the path and the link "did not resolve". Strip `.,;:` from a captured path before testing it.
+9. **`@osint-wiki/briefs/...`, `/reports/...`, `/agents/...` are not wiki links.** Those trees live at the OSINT repo root, not under its `wiki/`. Reference them as backticked relative paths; only `wiki/` content takes the `@alias/` form. And never put a backticked external path inside a `related:` list — that field is for wiki pages.
+
+### After the cleanup
+
+All four structural checks read zero: bidirectional gaps 0 (was 469), dangling `related:` links 0 (was 38), unresolvable `@path` mentions 0 (was 68), cross-wiki dangling 0 (was hidden). Orphans 56. The CI gate was exit 0 the whole time — **passing CI never meant the wiki was clean.**
+
+---
+
 ## [2026-09-30] Grok CLI delegation + egress archive from a Claude Code session
 
 ### What happened

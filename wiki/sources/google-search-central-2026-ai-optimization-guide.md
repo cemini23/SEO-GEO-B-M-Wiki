@@ -15,10 +15,12 @@ related:
   - concepts/citation-building.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-02-daily.md
+  - concepts/evidence-ecosystem-geo.md
+  - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
 maturity: core
 read_status: deep-read
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-10-01
 ---
 
 ## Relations

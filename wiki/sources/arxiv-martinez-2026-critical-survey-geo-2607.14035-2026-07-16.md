@@ -20,10 +20,13 @@ related:
   - sweeps/2026-07-16-daily.md
   - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
   - sources/arxiv-martinez-2026-geo-visibility-prompt-corpora-2609.06811-2026-09-17.md
+  - concepts/conversational-capture-geo.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
 maturity: validated
 read_status: read
 created: 2026-07-16
-updated: 2026-09-17
+updated: 2026-10-01
 ---
 
 ## Relations

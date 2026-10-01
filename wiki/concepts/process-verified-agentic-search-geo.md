@@ -18,9 +18,13 @@ related:
   - sources/score-2026-self-evolving-deep-research.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-15-daily.md
+  - concepts/agent-ready-website-local-bm.md
+  - concepts/conversational-capture-geo.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
 maturity: draft
 created: 2026-07-15
-updated: 2026-08-26
+updated: 2026-10-01
 ---
 
 ## Relations

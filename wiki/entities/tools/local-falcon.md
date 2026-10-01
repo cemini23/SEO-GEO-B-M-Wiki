@@ -7,6 +7,11 @@ related:
   - concepts/first-90-days-playbook.md
   - concepts/competitor-analysis-local.md
   - entities/tools/google-search-console.md
+  - concepts/generative-engine-optimization.md
+  - concepts/geo-visibility-measurement.md
+  - entities/tools/ranqo.md
+  - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
+  - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
 
   - concepts/generative-engine-optimization.md
   - concepts/geo-visibility-measurement.md
@@ -15,7 +20,7 @@ related:
   - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-31
+updated: 2026-10-01
 wire_status: wont_wire
 wire_target: Operator SaaS dashboard — no Cursor harness
 ---

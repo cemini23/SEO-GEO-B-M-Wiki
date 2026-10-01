@@ -9,6 +9,15 @@ related:
   - entities/tools/google-analytics-4.md
   - entities/tools/goaccess.md
   - entities/tools/local-falcon.md
+  - concepts/generative-engine-optimization.md
+  - concepts/geo-visibility-measurement.md
+  - entities/platforms/bing-places.md
+  - entities/tools/geo-optimizer-skill.md
+  - sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md
+  - sources/arxiv-sielinski-2026-ai-visibility-uncertainty-2603.08924-2026-06-10.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
+  - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
+  - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
 
   - concepts/generative-engine-optimization.md
   - entities/platforms/bing-places.md
@@ -18,7 +27,7 @@ related:
   - sources/google-search-central-2026-ai-optimization-guide.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-31
+updated: 2026-10-01
 wire_status: wont_wire
 wire_target: Operator Google account — no Cursor harness
 ---

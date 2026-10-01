@@ -21,9 +21,10 @@ related:
   - concepts/multilingual-geo-audit.md
   - sources/arxiv-rajiv-2026-sentiment-polarity-bias-reviews-2606.22745-2026-06-24.md
   - sweeps/2026-06-24-daily.md
+  - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
 maturity: validated
 created: 2026-06-16
-updated: 2026-06-24
+updated: 2026-10-01
 ---
 
 ## Relations

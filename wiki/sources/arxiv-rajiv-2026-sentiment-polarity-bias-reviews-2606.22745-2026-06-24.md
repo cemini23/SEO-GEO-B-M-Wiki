@@ -11,10 +11,11 @@ related:
   - concepts/generative-engine-optimization.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-24-daily.md
+  - sources/arxiv-han-2026-aspect-sentiment-peer-review-evolution-2606.24188-2026-06-25.md
 maturity: validated
 read_status: read
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-10-01
 ---
 
 ## Relations

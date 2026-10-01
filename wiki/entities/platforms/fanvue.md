@@ -13,6 +13,9 @@ related:
   - entities/companies/friend-1.md
   - sources/fanvue-gtm-blueprint-2026.md
   - sources/ai-detection-enforcement-2026.md
+  - concepts/creator-aesthetic-positioning.md
+  - concepts/synthetic-creator-gtm.md
+  - entities/platforms/twitter-x.md
 
   - concepts/creator-aesthetic-positioning.md
   - concepts/synthetic-creator-gtm.md
@@ -21,7 +24,7 @@ related:
   - "@image-gen-wiki/concepts/persona-monetization-models.md"
 maturity: draft
 created: 2026-05-08
-updated: 2026-06-18
+updated: 2026-10-01
 ---
 
 ## Relations

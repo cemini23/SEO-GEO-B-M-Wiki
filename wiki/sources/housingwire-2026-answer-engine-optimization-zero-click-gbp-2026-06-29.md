@@ -13,10 +13,14 @@ related:
   - concepts/citation-building.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-30-daily.md
+  - entities/tools/geo-optimizer-skill.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
+  - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
+  - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
 maturity: validated
 read_status: read
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-10-01
 ---
 
 ## Relations

@@ -10,8 +10,8 @@ related:
   - concepts/federated-daily-research-digest.md
   - concepts/generative-engine-optimization.md
   - sweeps/2026-06-17-daily.md
-  - osint-wiki/sources/arxiv-wikikv-hierarchical-kv-2606.14275-2026-06-17.md
-  - osint-wiki/concepts/wiki-tooling-evaluation.md
+  - @osint-wiki/
+  - @osint-wiki/
 maturity: validated
 read_status: read
 created: 2026-06-17

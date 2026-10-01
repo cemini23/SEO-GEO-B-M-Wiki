@@ -36,9 +36,10 @@ related:
   - concepts/geo-visibility-vector-protocol.md
   - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
   - concepts/e-geo-universal-rewrite-playbook.md
+  - sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-07-18
+updated: 2026-10-01
 ---
 
 ## Relations

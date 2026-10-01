@@ -33,10 +33,12 @@ related:
   - sources/google-search-central-2026-ai-optimization-guide.md
   - sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
   - concepts/agent-ready-website-local-bm.md
+  - sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md
+  - sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-18
+updated: 2026-10-01
 
 ---
 
@@ -112,6 +114,17 @@ Google Business Profile (GBP, formerly Google My Business / GMB) is the single h
 
 - **Collected Info section** — Search Engine Roundtable reports a new GBP "Collected Info" surface aggregating third-party-derived business facts. Operator action: audit listing for auto-populated fields that contradict verified NAP/hours/services; dispute inaccuracies via GBP support. [Source: https://www.seroundtable.com/google-business-profiles-collected-info-41535.html (retrieved 2026-06-22)]
 - **GBP ↔ GA4 + Gemini management** — BrightLocal reports GBP can connect to GA4 and be managed via Gemini in-dashboard. Operator action: if available on your account, link GA4 to close the loop between GBP Performance and site conversions. [Source: https://www.brightlocal.com/blog/google-business-profile-connect-ga4-gemini/ (retrieved 2026-06-22)]
+
+**Which landing page to link — the linked-URL field test (K276)** `[TENTATIVE]`
+
+@sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md (Sterling Sky, 2026-09-29): a practitioner listing that was not ranking was re-pointed from the homepage to a **niche service page**, and the rank increased; a second listing pointed at a different niche page behaved the same way. The article's stated mechanism is that the niche term in the **landing-page content and URL** raised relevance for that listing.
+
+**Guidance, in two parts:**
+
+- **Default to the homepage.** It carries the most authority, backlinks, and relevance. The niche-page tactic applies to operators with **multiple listings** who want to avoid cannibalization — the two-shop operator in this wiki is exactly that case.
+- **Mind the Diversity Update.** The article's 2025 update advises against pointing a listing at the page **already ranking organically** for that term, because it can hurt the organic ranking. Choose a relevant page that is *not* already ranking.
+
+**Confidence:** `[TENTATIVE]` — a two-listing practitioner case with no raw positions and no control. Test on one shop before applying to both. `[NEEDS VERIFICATION 2026-10-01]`
 
 **Two-shop operators** (relevant to this wiki's primary user):
 

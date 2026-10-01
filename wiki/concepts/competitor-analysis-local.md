@@ -9,6 +9,11 @@ related:
   - concepts/first-90-days-playbook.md
   - concepts/session-1-facilitator-notes.md
   - entities/markets/local-market-template.md
+  - concepts/citation-building.md
+  - entities/tools/notfair-toprank.md
+  - entities/tools/openalternative.md
+  - entities/tools/oransim.md
+  - entities/tools/website-downloader.md
 
   - concepts/citation-building.md
   - entities/tools/website-downloader.md
@@ -17,7 +22,7 @@ related:
   - entities/tools/notfair-toprank.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-27
+updated: 2026-10-01
 ---
 
 ## Relations

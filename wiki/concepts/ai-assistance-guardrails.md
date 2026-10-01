@@ -16,9 +16,10 @@ related:
   - sources/ai-detection-enforcement-2026.md
   - sources/onlyfans-tos-violations-case-studies.md
   - entities/tools/ai-text-humanizer-app.md
+  - sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-06-06
+updated: 2026-10-01
 ---
 
 ## Relations

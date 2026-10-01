@@ -13,10 +13,11 @@ related:
   - concepts/obsidian-integration.md
   - sweeps/2026-06-05-daily.md
   - concepts/federated-daily-research-digest.md
+  - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
 maturity: draft
 read_status: read
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-10-01
 ---
 
 ## Relations

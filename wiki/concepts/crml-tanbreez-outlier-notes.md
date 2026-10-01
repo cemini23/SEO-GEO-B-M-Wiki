@@ -6,9 +6,10 @@ keywords: [CRML, Critical Metals, Tanbreez, Greenland, European Lithium, eudialy
 related:
   - concepts/x-account-voice-and-format.md
   - concepts/metals-tungsten-ptpd-outlier-notes.md
+  - concepts/ceminiparlays-outlier-notes.md
 maturity: draft
 created: 2026-09-01
-updated: 2026-09-16
+updated: 2026-10-01
 ship_draft: briefs/2026-09-01_crml-tanbreez-outlier.md
 ship_paste: briefs/2026-09-01_crml-tanbreez-outlier.md
 draft_version: published-2026-09-14
@@ -16,14 +17,14 @@ status: LIVE - Outlier published 2026-09-14; X Article deferred
 ship_date: 2026-09-14
 substack_url: https://outlierweekly.substack.com/p/the-greenland-license-is-real-the
 substack_slug: the-greenland-license-is-real-the
-cross-wiki-source: "@osint-wiki/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md"
+cross-wiki-source: "`../OSINT WORKSPACE/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md`"
 ---
 
 ## Relations
 
 - @concepts/x-account-voice-and-format.md — voice + paste discipline (no em dashes; 2–5 sentence paragraphs)
 - @concepts/metals-tungsten-ptpd-outlier-notes.md — same Outlier markets-letter queue
-- @osint-wiki/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md — private desk note (has last print and $7 sleeve; do not paste from it)
+- `../OSINT WORKSPACE/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md` — private desk note (has last print and $7 sleeve; do not paste from it)
 
 ## Raw Concept
 
@@ -42,7 +43,7 @@ This letter **names the ticker**. It sells the mismatch (license vs mine vs prom
 | Asset | Status |
 |-------|--------|
 | Research spine / paste | `briefs/2026-09-01_crml-tanbreez-outlier.md` — operator pasted 2026-09-01. GPT-5.6 Sol + Kimi + human voice. |
-| Private OSINT desk | `@osint-wiki/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md` — friends only. Has last print and $7 sleeve. **Banned as paste source.** |
+| Private OSINT desk | ``../OSINT WORKSPACE/reports/research/pack-crml-short-thesis-20260901/CRML_short_thesis_2026-09-01.md`` — friends only. Has last print and $7 sleeve. **Banned as paste source.** |
 | Outlier Weekly | **LIVE** — [The Greenland license is real. The mine is still an option.](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the) (2026-09-14, free). Shipped paste: `briefs/2026-09-01_crml-tanbreez-outlier.md` |
 | X Article | Deferred unless operator asks |
 | Issue number | Unset. Do not invent. |

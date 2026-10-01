@@ -7,9 +7,12 @@ related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
   - entities/platforms/youtube.md
+  - concepts/cursor-route-marketing-notes.md
+  - concepts/guruwatcher-outlier-x-article-notes.md
+  - concepts/x-article-jev-harness-notes.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-10-01
 ---
 
 ## Relations

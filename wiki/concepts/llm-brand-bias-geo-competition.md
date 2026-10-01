@@ -21,9 +21,10 @@ related:
   - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
   - sources/arxiv-uberti-2026-consumerq-ai-product-audit-2609.18729-2026-09-17.md
   - sweeps/2026-09-17-daily.md
+  - sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md
 maturity: validated
 created: 2026-06-18
-updated: 2026-09-25
+updated: 2026-10-01
 ---
 
 ## Relations

@@ -23,9 +23,13 @@ related:
   - sources/arxiv-sourty-2026-denseon-lateon-open-retrieval-2607.27178-2026-07-30.md
   - entities/tools/denseon-lateon.md
   - sweeps/2026-07-30-daily.md
+  - concepts/conversational-capture-geo.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
 maturity: draft
 created: 2026-07-04
-updated: 2026-07-30
+updated: 2026-10-01
 ---
 
 ## Relations

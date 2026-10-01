@@ -9,11 +9,12 @@ related:
   - concepts/adaptive-rag-internal-linking-geo.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-17-daily.md
-  - osint-wiki/entities/tools/wikikv.md
-  - osint-wiki/concepts/wiki-tooling-evaluation.md
+  - @osint-wiki/
+  - @osint-wiki/
+  - concepts/generative-engine-optimization.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-07-31
+updated: 2026-10-01
 phase_0_verdict: REFERENCE
 license_verified: n/a
 repo: n/a

@@ -32,10 +32,13 @@ related:
   - sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md
   - concepts/e-geo-universal-rewrite-playbook.md
   - entities/tools/wondelai-skills.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
+  - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
+  - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-18
+updated: 2026-10-01
 ---
 
 ## Relations

@@ -18,10 +18,18 @@ related:
   - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
   - concepts/geo-visibility-vector-protocol.md
   - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
+  - concepts/conversational-capture-geo.md
+  - entities/tools/geo-optimizer-skill.md
+  - sources/arxiv-bajemon-2026-scoring-without-engine-2609.07559-2026-09-17.md
+  - sources/arxiv-chu-2026-incumbent-brand-bias-llm-geo-2606.17443-2026-06-18.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-kumar-2026-ranqo-geo-brand-visibility-scale-2606.20065-2026-06-19.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-07-18
+updated: 2026-10-01
 ---
 
 ## Relations

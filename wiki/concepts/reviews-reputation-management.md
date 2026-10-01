@@ -33,10 +33,12 @@ related:
   - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
   - sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
   - concepts/google-review-edited-indicator.md
+  - sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md
+  - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
 
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-04
+updated: 2026-10-01
 
 ---
 
@@ -81,8 +83,18 @@ Customer reviews are simultaneously a **ranking signal** for local pack placemen
 
 - **Ask in person at checkout** — the highest-converting channel; in-person ask after a successful service (haircut goes well, customer happy) yields review rates that automated email/text flows cannot match `[TENTATIVE]`. Industry-specific conversion rates are not publicly benchmarked for barbershops; the operator's own data (asks made vs reviews received) will be the only reliable signal once Easy Review starts logging.
 - **Text/email follow-up** — automated post-service ask, typically 1-2 hours after the appointment. Tools like Square, Booksy, Vagaro, Birdeye automate this. Must include a direct GBP review link (see GBP "share review form" link in the GBP dashboard). Google first-party guidance [@sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md]: use **Google link or QR** from GBP; value balanced reviews; reply to show feedback matters `[CONFIRMED]`.
-- **QR code at the front desk** — sticker linking directly to GBP review form; passive but works for in-store conversion.
+- **QR code at the front desk** — sticker linking directly to GBP review form; passive but works for in-store conversion. **See the posting-block risk below before scaling this.**
 - **Review link card** — physical handout post-service with a QR + URL.
+
+**⚠️ Review posting blocks — a legitimate drive can still trip enforcement (K276)** `[TENTATIVE]`
+
+@sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md (Sterling Sky, 2026-09-28): a **temporary GBP restriction that stops new reviews**, commonly **30 days**, usually paired with messaging about *"suspicious high-rated reviews."* Tracked over ~60 days across a small set of legitimate businesses. In one case a baseline of **72 reviews/month** rose to 179 / 235 / 181 over three months — roughly **2.75× sustained elevation** before Google acted. Of **595** reviews generated, **342 (57.5%)** were removed, and removals were **selective**, not a full wipe.
+
+The trigger appears to be **how** reviews arrive, not volume alone: reviews left **inside the business**, **QR codes** at counters/tables/checkout, and **bursts** of 10+ in a day. Each alone may be fine; the **repeated combination** appears to raise risk, and enforcement follows **sustained** elevation rather than an isolated spike.
+
+**Operator rule for a barbershop:** an in-store QR drive is still the right acquisition channel, but **avoid the burst pattern**. Pace asks so reviews do not cluster 10+ in one day, and do not run an in-store push simultaneously with a text/email campaign targeting the same customers. Submit an appeal through Google's support form if a block lands — in every tracked case the block ran the full 30 days regardless, but logging it flags legitimate businesses caught wrongly.
+
+**Confidence:** `[TENTATIVE]` — the author states the in-store/QR reading is **their own assumption** from five affected businesses, not a Google statement. The **30-day block length** and **selective removals** are the most portable observations. `[NEEDS VERIFICATION 2026-10-01]`.
 
 **Hard policy boundaries** (these are non-negotiable; violating them risks GBP suspension and Yelp filter penalties, both of which are catastrophic):
 

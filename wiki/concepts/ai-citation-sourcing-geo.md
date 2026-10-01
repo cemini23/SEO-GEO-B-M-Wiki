@@ -24,9 +24,16 @@ related:
   - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
   - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
   - concepts/geo-visibility-vector-protocol.md
+  - concepts/canonical-business-facts-geo.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
+  - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
+  - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
+  - sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md
+  - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
 maturity: validated
 created: 2026-06-26
-updated: 2026-07-16
+updated: 2026-10-01
 ---
 
 ## Relations

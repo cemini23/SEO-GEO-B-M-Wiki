@@ -9,10 +9,11 @@ related:
   - concepts/generative-engine-optimization.md
   - concepts/geo-visibility-measurement.md
   - concepts/federated-daily-research-digest.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
 maturity: draft
 read_status: skimmed
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-10-01
 cross-wiki-source: "@osint-wiki/sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md"
 ---
 

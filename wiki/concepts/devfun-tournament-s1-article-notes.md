@@ -7,8 +7,6 @@ related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
   - concepts/devfun-tournament-s1-article-notes.md
-  - "@osint-wiki/agents/devfun-poker-arena/briefs/2026-06-12_why-cemini-last-s1.md"
-  - "@osint-wiki/agents/devfun-poker-arena/briefs/2026-06-08_s1a-season-end-snapshot.md"
 maturity: draft
 created: 2026-06-16
 updated: 2026-06-16

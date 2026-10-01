@@ -147,7 +147,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 
 | Alias | Path | Description |
 |-------|------|-------------|
-| `osint-wiki` | `../../OSINT WORKSPACE/wiki/` | Financial research, quant finance, prediction markets, CeminiSuite, RL for trading |
+| `osint-wiki` | `../OSINT WORKSPACE/wiki/` | Financial research, quant finance, prediction markets, CeminiSuite, RL for trading |
 | `gambling-wiki` | `../Gambling wiki/wiki/` | Sports betting, casino, poker, DFS, best ball |
 | `game-dev-wiki` | `../Game Dev wiki/wiki/` | Hobby game dev — castle/RTS research, Godot evals, agent harness |
 | `image-gen-wiki` | `../Image gen/wiki/` | Uncensored image generation, model cataloging, ComfyUI, LoRA, persona/character ops |
@@ -164,7 +164,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 
 ### Using federation wikis for unified search
 
-`cemini-librarian` kb-server **decommissioned 2026-06**. Query wikis via local Read/grep in each repo; cross-wiki routing uses `../../OSINT WORKSPACE/scripts/cross_wiki_route.py`. See `@osint-wiki/meta/librarian-decommission-2026-06-14.md`.
+`cemini-librarian` kb-server **decommissioned 2026-06**. Query wikis via local Read/grep in each repo; cross-wiki routing uses `../OSINT WORKSPACE/scripts/cross_wiki_route.py`. See `@osint-wiki/meta/librarian-decommission-2026-06-14.md`.
 
 ## Operations
 

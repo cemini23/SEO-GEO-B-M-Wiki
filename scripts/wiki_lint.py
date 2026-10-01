@@ -3,7 +3,10 @@
 
 Reports:
   1. Orphans              — pages with zero inbound `related:` references
-  2. Bidirectional gaps   — A lists B as related but B doesn't list A
+  2. Bidirectional gaps   — A lists B as related but B doesn't list A.
+                            Targets that declare no `related:` key at all are
+                            exempt: one-way indexes (generated sweeps, logs)
+                            have nothing on their side to reciprocate.
   3. Dangling links       — `related:` paths that don't resolve to a real file
   4. Missing pages        — `@path` mentions in body where the file doesn't exist
   5. Cited unread stubs   — source pages with read_status=unread-stub but ≥1 inbound related: edge
@@ -33,27 +36,42 @@ WIKI = Path(os.environ.get("WIKI_DIR", Path(__file__).resolve().parent.parent / 
 
 # -- cross-wiki alias mapping ----------------------------------------
 
+ALIAS_FAILURES = []  # [(alias, raw_path), ...] — aliases that did not resolve
+
+
 def load_wiki_aliases():
-    """Parse CLAUDE.md 'Related Wikis' section for alias→path mapping."""
+    """Parse CLAUDE.md 'Related Wikis' section for alias→path mapping.
+
+    Paths in that table are documented as relative to the CLAUDE.md file's own
+    directory, so resolve them there — not against the process CWD, which is
+    how a `../../` entry silently breaks whenever the linter is run from
+    anywhere but one specific place.
+    """
     claude_md = WIKI.parent / "CLAUDE.md"
     aliases = {}  # alias -> abs_path
     if not claude_md.exists():
         return aliases
     text = claude_md.read_text(errors="replace")
     # Match the Related Wikis table: | `alias` | /path/to/wiki/ | ... |
+    # Alias names all end in `-wiki`, which keeps CLAUDE.md's other tables
+    # (MCP tools, folders) from being mistaken for aliases.
     table_re = re.compile(
-        r"^\|\s*`([a-z0-9_-]+)`\s*\|\s*`?([^`\n\|]+)`?\s*\|",
+        r"^\|\s*`([a-z0-9_-]+-wiki)`\s*\|\s*`?([^`\n\|]+)`?\s*\|",
         re.MULTILINE
     )
     for m in table_re.finditer(text):
         alias = m.group(1).strip()
         path_str = m.group(2).strip().rstrip("/")
+        if path_str in ("Path", "-------"):   # header row
+            continue
         # Path from CLAUDE.md already includes wiki/ — don't append again
-        wiki_path = Path(path_str)
+        wiki_path = (claude_md.parent / path_str)
         if wiki_path.is_dir():
             aliases[alias] = wiki_path
         elif (wiki_path / "wiki").is_dir():
             aliases[alias] = wiki_path / "wiki"
+        else:
+            ALIAS_FAILURES.append((alias, path_str))
     return aliases
 
 
@@ -133,10 +151,17 @@ for p in WIKI.rglob("*.md"):
     fm = parse_frontmatter(text)
     if fm is None:
         # log later
-        pages[rel] = {"_no_frontmatter": True, "related": [], "_body": text}
+        pages[rel] = {"_no_frontmatter": True, "_no_relations": True,
+                      "related": [], "_body": text}
         all_paths.add(rel)
         continue
     fm["_body"] = text
+    # A page that declares no `related:` key at all cannot have an asymmetric
+    # edge — there is nothing on its side to reciprocate. Generated digests
+    # (wiki/sweeps/*) and similar one-way indexes land here by design.
+    _m_fm = FRONTMATTER_RE.match(text)
+    if not (_m_fm and re.search(r"^related:", _m_fm.group(1), re.M)):
+        fm["_no_relations"] = True
     pages[rel] = fm
     all_paths.add(rel)
 
@@ -171,9 +196,15 @@ for src, fm in pages.items():
 orphans = sorted(p for p in all_paths if p not in inbound)
 
 # bidirectional gaps: src→tgt without tgt→src
+# Targets that declare no relations at all are skipped: they are one-way
+# indexes (generated sweeps, logs), so nothing is asymmetric about them.
 gaps = []
+one_way_targets = set()
 for src, tgts in outbound.items():
     for tgt in tgts:
+        if pages.get(tgt, {}).get("_no_relations"):
+            one_way_targets.add(tgt)
+            continue
         if src not in outbound.get(tgt, set()):
             gaps.append((src, tgt))
 gaps.sort()
@@ -224,7 +255,10 @@ if WIKI_ALIASES:
             # Only treat as cross-wiki link if alias is in WIKI_ALIASES
             if alias not in WIKI_ALIASES:
                 continue  # skip local wiki links like @concepts/..., @entities/...
-            rel_path = m.group(2).lstrip("/")
+            # The path group matches any non-space run, so it swallows the
+            # sentence punctuation that follows a link. Strip a trailing
+            # period/comma/semicolon — no real path ends in one.
+            rel_path = m.group(2).lstrip("/").rstrip(".,;:")
             target = WIKI_ALIASES[alias] / rel_path
             if not target.exists():
                 cross_wiki_dangling.append((src, alias, rel_path, target))
@@ -289,6 +323,12 @@ def header(s):
     print("=" * 78)
 
 print(f"Wiki lint scan — {len(all_paths)} pages indexed (excluding index.md / log.md / dashboard.md)")
+if ALIAS_FAILURES:
+    print(f"\n⚠ {len(ALIAS_FAILURES)} wiki alias(es) in CLAUDE.md did not resolve — "
+          f"cross-wiki links through them will be reported as dangling:")
+    for alias, raw in ALIAS_FAILURES:
+        print(f"    @{alias} -> `{raw}`  (resolved against {WIKI.parent})")
+    print()
 print(f"Outbound edges: {sum(len(v) for v in outbound.values())}; "
       f"Inbound edge coverage: {len(inbound)} pages")
 
@@ -300,6 +340,9 @@ for p in orphans:
     print(f"  [{t}/{m}] {p}")
 
 header(f"2. Bidirectional gaps — {len(gaps)} asymmetric edges")
+if one_way_targets:
+    print(f"  ({len(one_way_targets)} target page(s) declare no `related:` key — "
+          f"one-way indexes, exempt by design)")
 # group by target so the "target page is missing N backlinks" view is readable
 gaps_by_target = defaultdict(list)
 for src, tgt in gaps:

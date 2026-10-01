@@ -6,11 +6,12 @@ related:
   - concepts/citation-building.md
   - concepts/schema-markup-local.md
   - entities/platforms/apple-business-connect.md
+  - entities/tools/google-analytics-4.md
 
   - entities/tools/google-analytics-4.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-17
+updated: 2026-10-01
 ---
 
 ## Relations

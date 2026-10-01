@@ -7,12 +7,14 @@ related:
   - entities/tools/goaccess.md
   - concepts/on-page-seo-local.md
   - entities/platforms/yelp.md
+  - entities/companies/shop-1.md
+  - entities/companies/shop-2.md
 
   - entities/companies/shop-1.md
   - entities/companies/shop-2.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-31
+updated: 2026-10-01
 wire_status: wont_wire
 wire_target: Operator Google account — no Cursor harness
 ---

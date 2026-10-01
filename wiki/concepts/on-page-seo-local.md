@@ -20,10 +20,11 @@ related:
   - sources/arxiv-webknograph-internal-linking-2606.06106-2026-06-05.md
   - concepts/adaptive-rag-internal-linking-geo.md
   - sources/arxiv-caption-injection-2511.04080-2026-06-08.md
+  - sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md
 
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-08
+updated: 2026-10-01
 
 ---
 

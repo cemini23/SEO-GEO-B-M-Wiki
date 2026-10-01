@@ -27,9 +27,15 @@ related:
   - sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md
   - sources/arxiv-avramov-2026-atlas-verifiable-semantic-search-2609.11841-2026-09-11.md
   - sweeps/2026-09-11-daily.md
+  - concepts/ai-citation-sourcing-geo.md
+  - concepts/conversational-capture-geo.md
+  - entities/tools/deeprubric-code.md
+  - sources/arxiv-cai-2026-jrdb-avr-active-visual-reasoning-2609.35032-2026-09-30.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-09-11
+updated: 2026-10-01
 ---
 
 ## Relations
@@ -54,7 +60,6 @@ updated: 2026-09-11
 - @concepts/per-entity-bias-mapping-geo.md — verified mention playbook
 - @sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md — KB provenance vs parametric hallucination (K132)
 - @concepts/canonical-business-facts-geo.md — sync checklist before verification runs
-- @sources/arxiv-metaresearcher-deep-research-2606.19893-2026-06-20.md — adversarial misinformation (K124 OSINT)
 - @sources/arxiv-avramov-2026-atlas-verifiable-semantic-search-2609.11841-2026-09-11.md — K170 thin steal: verifiable semantic search integrity
 - @sweeps/2026-09-11-daily.md — K170 overnight fetch
 

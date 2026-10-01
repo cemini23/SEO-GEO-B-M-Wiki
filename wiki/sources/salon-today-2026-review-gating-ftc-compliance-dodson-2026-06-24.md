@@ -14,10 +14,12 @@ related:
   - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-01-daily.md
+  - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
+  - sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
 maturity: validated
 read_status: read
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-10-01
 ---
 
 ## Relations

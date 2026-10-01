@@ -11,9 +11,13 @@ related:
   - concepts/world-cup-bot-x-article-runbook-notes.md
   - sources/trading-posts-compilation-18-2026-06-04.md
   - "@ccc-wiki/concepts/obsidian-agent-maintenance-workflow.md"
+  - concepts/devfun-tournament-s1-article-notes.md
+  - concepts/x-article-cxw-geo-th-postmortem-notes.md
+  - concepts/x-article-jev-harness-notes.md
+  - concepts/x-article-uw-polymarket-bridge-notes.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-07-14
+updated: 2026-10-01
 ship_draft: briefs/2026-07-14_outlier-weekly-issue7-wikilint-contribution-rate.md
 status: Ready — Outlier Weekly Issue 7 paste package (2026-07-14)
 ---

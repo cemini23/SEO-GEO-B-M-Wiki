@@ -8,9 +8,10 @@ related:
   - "@osint-wiki/concepts/gta6-convertible-currency-thesis.md"
   - "@osint-wiki/entities/tickers/ttwo.md"
   - "@osint-wiki/concepts/grey-market-game-economies.md"
+  - concepts/metals-tungsten-ptpd-outlier-notes.md
 maturity: draft
 created: 2026-08-30
-updated: 2026-08-31
+updated: 2026-10-01
 ship_draft: briefs/2026-08-30_ttwo-gta6-cashout-outlier.md
 draft_version: published-2026-08-31
 status: LIVE - Outlier published 2026-08-31; X Article deferred

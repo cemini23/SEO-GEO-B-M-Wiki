@@ -28,9 +28,10 @@ related:
   - sources/arxiv-geng-2026-deepsearch-world-self-distillation-2607.07820-2026-07-15.md
   - concepts/e-geo-universal-rewrite-playbook.md
   - sources/arxiv-bagga-2026-e-geo-ecommerce-testbed-2511.20867-2026-07-18.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-18
+updated: 2026-10-01
 ---
 
 ## Relations

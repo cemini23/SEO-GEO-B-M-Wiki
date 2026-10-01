@@ -9,11 +9,12 @@ related:
   - entities/tools/google-analytics-4.md
   - entities/tools/marketingskills.md
   - entities/tools/yoast-seo.md
+  - concepts/local-pack-rankings.md
 
   - concepts/local-pack-rankings.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-10-01
 ---
 
 ## Relations

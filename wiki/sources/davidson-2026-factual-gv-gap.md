@@ -14,10 +14,12 @@ related:
   - sources/score-2026-self-evolving-deep-research.md
   - sources/arxiv-med-v1-evidence-attribution-2603.05308-2026-06-06.md
   - concepts/citation-verification-aeo.md
+  - concepts/canonical-business-facts-geo.md
+  - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
 maturity: validated
 read_status: read
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-10-01
 ---
 
 ## Relations

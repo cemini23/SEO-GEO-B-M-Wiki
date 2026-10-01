@@ -12,13 +12,13 @@ ship_draft: briefs/2026-09-25_voyg-outlier.md
 ship_paste: briefs/2026-09-25_voyg-outlier.md
 draft_version: paste-2026-09-25
 status: LIVE 2026-09-28. https://outlierweekly.substack.com/p/the-profit-does-not-cover-the-paper Hub https://outlierweekly.com/voyager/
-cross-wiki-source: "@osint-wiki/reports/research/pack-voyg-short-20260925/VOYG_short_2026-09-25.md"
+cross-wiki-source: "`../OSINT WORKSPACE/reports/research/pack-voyg-short-20260925/VOYG_short_2026-09-25.md`"
 ---
 
 ## Relations
 
 - @concepts/x-account-voice-and-format.md — voice and paste discipline
-- @osint-wiki/reports/research/pack-voyg-short-20260925/VOYG_short_2026-09-25.md — desk copy. Same letter. Edit the brief.
+- `../OSINT WORKSPACE/reports/research/pack-voyg-short-20260925/VOYG_short_2026-09-25.md` — desk copy. Same letter. Edit the brief.
 
 ## Raw Concept
 
@@ -31,7 +31,7 @@ Markets letter. CFTC Rule 4.41. Not a solicitation. The ticker is named.
 | Asset | Status |
 |-------|--------|
 | Paste | `briefs/2026-09-25_voyg-outlier.md` — LIVE. |
-| Desk | `@osint-wiki/reports/research/pack-voyg-short-20260925/VOYG_short_2026-09-25.md` |
+| Desk | ``../OSINT WORKSPACE/reports/research/pack-voyg-short-20260925/VOYG_short_2026-09-25.md`` |
 | Outlier Weekly | LIVE 28 September 2026. [Letter](https://outlierweekly.substack.com/p/the-profit-does-not-cover-the-paper). Hub [outlierweekly.com/voyager/](https://outlierweekly.com/voyager/). |
 | X Article | Not queued. |
 

@@ -29,9 +29,11 @@ related:
   - concepts/creator-marketing-foundations.md
   - entities/platforms/apple-business-connect.md
   - entities/platforms/bing-places.md
+  - sources/google-business-profile-help-2026-tips-get-more-reviews-3474122.md
+  - sources/salon-today-2026-review-gating-ftc-compliance-dodson-2026-06-24.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-10-01
 ---
 
 ## Relations

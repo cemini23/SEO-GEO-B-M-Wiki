@@ -14,10 +14,12 @@ related:
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-27-daily.md
+  - concepts/canonical-business-facts-geo.md
+  - sources/arxiv-crespin-2026-karla-knowledge-base-augmented-retrieval-2606.26807-2026-06-28.md
 maturity: validated
 read_status: read
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-10-01
 ---
 
 ## Relations

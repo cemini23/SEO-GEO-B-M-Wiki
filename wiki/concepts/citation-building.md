@@ -23,11 +23,20 @@ related:
   - concepts/per-entity-bias-mapping-geo.md
   - sources/arxiv-zatuchin-2026-llm-brand-reputation-sourcing-2606.25787-2026-06-26.md
   - concepts/ai-citation-sourcing-geo.md
+  - concepts/canonical-business-facts-geo.md
+  - concepts/evidence-ecosystem-geo.md
+  - concepts/process-verified-agentic-search-geo.md
+  - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
+  - sources/google-search-central-2026-ai-optimization-guide.md
+  - sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md
+  - sources/hubspot-2026-ai-search-optimization-aeo-primer-2026-06-29.md
+  - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
+  - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
 
   - concepts/process-verified-agentic-search-geo.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-07-15
+updated: 2026-10-01
 
 ---
 

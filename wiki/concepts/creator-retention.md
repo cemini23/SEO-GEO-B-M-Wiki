@@ -17,12 +17,14 @@ related:
   - sources/onlyfans-retention-systems-2026.md
   - sources/viral-content-strategy-2026.md
   - sources/fanvue-gtm-blueprint-2026.md
+  - concepts/creator-content-flywheel.md
+  - concepts/viral-content-mechanics.md
 
   - concepts/creator-content-flywheel.md
   - concepts/viral-content-mechanics.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-10-01
 ---
 
 ## Relations

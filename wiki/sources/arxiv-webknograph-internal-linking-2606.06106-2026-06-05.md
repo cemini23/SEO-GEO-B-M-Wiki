@@ -13,10 +13,12 @@ related:
   - entities/tools/yoast-seo.md
   - sweeps/2026-06-05-daily.md
   - concepts/federated-daily-research-digest.md
+  - concepts/evidence-ecosystem-geo.md
+  - sources/arxiv-ye-2026-ecogeo-trajectory-aware-evidence-ecosystems-2605.12887-2026-07-04.md
 maturity: draft
 read_status: read
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-10-01
 ---
 
 ## Relations

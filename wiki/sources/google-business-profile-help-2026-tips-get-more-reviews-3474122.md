@@ -12,10 +12,12 @@ related:
   - concepts/first-90-days-playbook.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-07-02-daily.md
+  - concepts/generative-engine-optimization.md
+  - sources/seroundtable-2026-gbp-review-loss-restrictions-2026-07-03.md
 maturity: core
 read_status: read
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-10-01
 ---
 
 ## Relations

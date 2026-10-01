@@ -9,9 +9,10 @@ related:
   - concepts/crml-tanbreez-outlier-notes.md
   - "@osint-wiki/concepts/western-tungsten-supply-thesis.md"
   - "@osint-wiki/sources/substack-rss-outlier-weekly-2026-09-07-tungsten-furnace-2026-09-07.md"
+  - concepts/ceminiparlays-outlier-notes.md
 maturity: draft
 created: 2026-08-30
-updated: 2026-09-11
+updated: 2026-10-01
 ship_draft: briefs/2026-08-30_metals-tungsten-ptpd-outlier.md
 draft_version: published-2026-09-07
 status: LIVE - Outlier published 2026-09-07; X Article deferred
@@ -19,7 +20,7 @@ ship_date: 2026-09-07
 ship_paste: briefs/2026-09-03_metals-tungsten-ptpd-outlier-paste.md
 substack_url: https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten
 substack_slug: the-war-is-a-metals-furnace-tungsten
-cross-wiki-source: "@osint-wiki/reports/research/pack-metals-tungsten-ptpd-20260830/thesis.md"
+cross-wiki-source: "`../OSINT WORKSPACE/reports/research/pack-metals-tungsten-ptpd-20260830/thesis.md`"
 ---
 
 ## Relations
@@ -88,4 +89,4 @@ Two wars are burning the same Western industrial stack. The metal under that tap
 
 ### Fable
 
-WARN, 30 Aug. P1s patched in the spine (AP locators, CSIS 65%, tungsten-rail honesty). Review: `@osint-wiki/reports/research/pack-metals-tungsten-ptpd-20260830/fable_review.md`.
+WARN, 30 Aug. P1s patched in the spine (AP locators, CSIS 65%, tungsten-rail honesty). Review: ``../OSINT WORKSPACE/reports/research/pack-metals-tungsten-ptpd-20260830/fable_review.md``.

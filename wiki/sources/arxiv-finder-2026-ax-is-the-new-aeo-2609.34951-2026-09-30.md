@@ -17,10 +17,13 @@ related:
   - sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md
   - sources/arxiv-elnaffar-2026-agent-ready-websites-2607.12056-2026-07-18.md
   - sweeps/2026-09-30-daily.md
+  - concepts/conversational-capture-geo.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
 maturity: validated
 read_status: deep-read
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-01
 ---
 
 ## Relations

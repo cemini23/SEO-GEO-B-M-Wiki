@@ -12,9 +12,10 @@ related:
   - concepts/generative-engine-optimization.md
   - concepts/google-business-profile.md
   - "@osint-wiki/sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md"
+  - entities/tools/geo-optimizer-skill.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-07-31
+updated: 2026-10-01
 wire_status: wont_wire
 wire_target: Steal-from only — parallel niche rejected
 ---

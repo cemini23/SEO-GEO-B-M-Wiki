@@ -179,6 +179,9 @@ If you're new to this wiki:
 
 ### Platform / practitioner news
 
+- [newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08](sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md) — Frontier AEO Tracker: self-preference, markdown content-negotiation, anti-recommendations (K257)
+- [newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test](sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md) — GBP linked-URL field test; Diversity Update caveat (K276)
+- [newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks](sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md) — review posting blocks: in-store/QR/burst pattern; 30-day block; 57.5% removed (K276)
 - [newsletter-rss-sparktoro-2026-08-14-zero-click](sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md) — SparkToro: website still the permanent home in zero-click (K237)
 
 - [searchengineland-2026-google-llm-patent-entity-characterization-480625](sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md) — Google LLM patent entity characterization; webpages as evidence (2026-06-27 digest)

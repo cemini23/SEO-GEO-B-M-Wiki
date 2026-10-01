@@ -9,7 +9,6 @@ related:
   - concepts/agent-toolkit-x-thread-2026-05-28.md
   - "@osint-wiki/concepts/k266-ccc-jev-x-wave.md"
   - "@osint-wiki/concepts/k266-seo-x-voice-wave.md"
-  - "@osint-wiki/briefs/2026-09-19_k266-seo-voice.md"
 maturity: draft
 created: 2026-09-19
 updated: 2026-09-19
@@ -22,7 +21,7 @@ updated: 2026-09-19
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — toolkit / agent-tooling lane
 - @osint-wiki/concepts/k266-ccc-jev-x-wave.md — OSINT topic routing for the same wave
 - @osint-wiki/concepts/k266-seo-x-voice-wave.md — OSINT voice hub
-- @osint-wiki/briefs/2026-09-19_k266-seo-voice.md — full style-pass brief with paste-ready rows
+- `../OSINT WORKSPACE/briefs/2026-09-19_k266-seo-voice.md` — full style-pass brief with paste-ready rows
 
 ## Raw Concept
 

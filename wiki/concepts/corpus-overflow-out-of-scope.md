@@ -139,9 +139,25 @@ related:
   - sources/arxiv-melo-2026-wlcg-host-tuning-wan-2609.35859-2026-09-30.md
   - sources/arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30.md
   - sweeps/2026-09-30-daily.md
+  - sources/arxiv-albughdadi-2026-meox-earth-observation-2609.05351-2026-09-11.md
+  - sources/arxiv-avramov-2026-atlas-verifiable-semantic-search-2609.11841-2026-09-11.md
+  - sources/arxiv-dughmi-2026-batched-pandoras-box-2609.04059-2026-09-11.md
+  - sources/arxiv-edwards-2026-crispr-amortized-hit-discovery-2609.11877-2026-09-11.md
+  - sources/arxiv-fayolle-2026-side-channel-benchmarking-2609.03893-2026-09-11.md
+  - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
+  - sources/arxiv-mondal-2026-vanilla-scotogenic-muon-collider-2609.17530-2026-09-16.md
+  - sources/arxiv-nguyen-2026-regionfed-retail-query-2609.05403-2026-09-11.md
+  - sources/arxiv-paine-2026-frb-magnetars-elliptical-2609.04118-2026-09-11.md
+  - sources/arxiv-pawar-2026-llm-explanations-behavioural-2609.05385-2026-09-11.md
+  - sources/arxiv-sengupta-2026-multi-axion-ladder-2609.11907-2026-09-11.md
+  - sources/arxiv-silva-2026-twisted-bracelets-transpositions-2609.17493-2026-09-16.md
+  - sources/arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
+  - sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-09-30
+updated: 2026-10-01
 ---
 
 ## Relations

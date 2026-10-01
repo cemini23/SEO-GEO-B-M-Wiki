@@ -9,6 +9,14 @@ related:
   - entities/tools/claude-seo-agrici.md
   - concepts/first-90-days-playbook.md
   - entities/companies/shop-2.md
+  - concepts/citation-building.md
+  - concepts/on-page-seo-local.md
+  - concepts/review-response-templates.md
+  - concepts/reviews-reputation-management.md
+  - concepts/schema-markup-local.md
+  - concepts/website-essentials-local-business.md
+  - entities/platforms/google-business-profile.md
+  - sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md
 
   - concepts/citation-building.md
   - concepts/on-page-seo-local.md
@@ -19,7 +27,7 @@ related:
   - concepts/website-essentials-local-business.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-10-01
 ---
 
 ## Relations

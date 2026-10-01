@@ -23,11 +23,12 @@ related:
   - sources/onlyfans-tos-violations-case-studies.md
   - concepts/ai-assistance-guardrails.md
   - sources/ai-detection-enforcement-2026.md
+  - sources/fanvue-gtm-blueprint-2026.md
 
   - sources/fanvue-gtm-blueprint-2026.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-17
+updated: 2026-10-01
 
 ---
 

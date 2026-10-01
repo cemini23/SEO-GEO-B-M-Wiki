@@ -11,9 +11,10 @@ related:
   - concepts/cemini23-x-score-2026-09-01.md
   - "@osint-wiki/concepts/corrections-reit-asset-sale-event-study.md"
   - "@osint-wiki/concepts/government-single-buyer-asset-rerating.md"
+  - concepts/x-article-uw-polymarket-bridge-notes.md
 maturity: draft
 created: 2026-07-08
-updated: 2026-09-01
+updated: 2026-10-01
 ---
 
 ## Relations

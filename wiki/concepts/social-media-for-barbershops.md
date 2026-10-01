@@ -10,13 +10,16 @@ related:
   - concepts/first-90-days-playbook.md
   - concepts/meta-ads-local.md
   - concepts/customer-retention-barbershop.md
+  - concepts/generative-engine-optimization.md
+  - concepts/google-business-profile.md
+  - concepts/reviews-reputation-management.md
 
   - concepts/generative-engine-optimization.md
   - concepts/google-business-profile.md
   - concepts/reviews-reputation-management.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-17
+updated: 2026-10-01
 
 ---
 

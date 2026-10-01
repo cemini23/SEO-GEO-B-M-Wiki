@@ -6,9 +6,10 @@ keywords: [edited-review, sterling-sky, trust]
 related:
   - "@osint-wiki/sources/newsletter-rss-sterling-sky-2026-08-30-what-does-it-mean-when-a-google-review-shows-edi.md"
   - concepts/reviews-reputation-management.md
+  - sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md
 maturity: draft
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-10-01
 wire_status: policy_wired
 wire_target: .cursor/rules/cemini-phase1-seo-geo-wires.mdc
 ---

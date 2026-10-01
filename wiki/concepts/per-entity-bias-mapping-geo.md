@@ -18,9 +18,10 @@ related:
   - sweeps/2026-06-23-daily.md
   - sources/arxiv-zatuchin-2026-language-blind-spot-multilingual-geo-2606.23165-2026-06-24.md
   - concepts/multilingual-geo-audit.md
+  - concepts/ai-citation-sourcing-geo.md
 maturity: validated
 created: 2026-06-23
-updated: 2026-06-24
+updated: 2026-10-01
 ---
 
 ## Relations

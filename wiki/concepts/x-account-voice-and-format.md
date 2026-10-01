@@ -52,9 +52,10 @@ related:
   - "@gambling-wiki/entities/sports/world-cup-2026-betting.md"
   - "@gambling-wiki/concepts/world-cup-pm-retail-hygiene.md"
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
+  - entities/tools/wondelai-skills.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-09-28
+updated: 2026-10-01
 ---
 
 ## Relations

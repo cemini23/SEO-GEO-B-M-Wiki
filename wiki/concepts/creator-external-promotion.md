@@ -29,12 +29,14 @@ related:
   - sources/tiktok-algorithm-mechanics-2026.md
   - sources/youtube-shorts-creator-growth-2026.md
   - sources/viral-content-strategy-2026.md
+  - concepts/synthetic-creator-gtm.md
+  - sources/fanvue-gtm-blueprint-2026.md
 
   - concepts/synthetic-creator-gtm.md
   - sources/fanvue-gtm-blueprint-2026.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-08-13
+updated: 2026-10-01
 ---
 
 ## Relations

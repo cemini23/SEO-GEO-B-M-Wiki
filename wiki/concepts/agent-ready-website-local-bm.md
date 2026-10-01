@@ -16,9 +16,11 @@ related:
   - concepts/process-verified-agentic-search-geo.md
   - concepts/federated-daily-research-digest.md
   - sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md
+  - concepts/conversational-capture-geo.md
+  - sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md
 maturity: validated
 created: 2026-07-18
-updated: 2026-09-30
+updated: 2026-10-01
 ---
 
 ## Relations
@@ -96,6 +98,7 @@ The open agent-readiness specification (agentready.org v1.0) separates three lay
 
 - **Does content survive a fetch with JavaScript off?** Most agents do not execute JS by default. Client-rendered prices, hours, and service lists are invisible.
 - **Is there a machine-readable entry point?** `llms.txt`, per-URL Markdown fallbacks, HTTP `Link` headers, an agent-discovery file. Note Google explicitly does **not** use `llms.txt` for Search — keep it as a cheap non-Google hedge, not a priority.
+- **Does the site serve clean Markdown on content negotiation?** `[CONFIRMED — tracker evidence]` The Latent Space Frontier AEO Tracker (@sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md) reports that serving a clean markdown version when an agent asks for it is a real factor, and that **failing to do so actively discourages models from reading the content at all** — the page drops out of consideration rather than losing a few points. This corroborates the earlier Ora and Vercel findings. For the operator: check whether the CMS can emit an agent-readable text version at the same URL, and treat a JavaScript-only page as a hard failure.
 - **Is the core commercial content reachable?** Pricing pages and service documentation, at stable URLs, in HTML.
 - **Do bot controls admit user-triggered agents?** A 403 wall is the single most expensive failure — it drives the 4.4× could-not-access hedge rate.
 - **Do structured data and entity links agree with the visible page?**
