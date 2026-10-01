@@ -1,3 +1,15 @@
+## [2026-10-01] ingest | K284 — 2/2 IN-SCOPE (conversational capture + WaPo field experiment)
+
+- **Inbox** — 2 PDFs. Both in-scope. No OOD this round.
+- **Sources** — @sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md (Yu et al., HAI '26; trajectory-level GEO evaluation; feedback term ≡ 0 under single-turn; misranking τ = 0.4); @sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md (Lee et al.; 38-day RCT, 37,561 WaPo readers; cited-source clicks +14 pp, conventional-result clicks −21 pp; 98% of shared-information gain delivered by the answer).
+- **New concept** — @concepts/conversational-capture-geo.md (operator playbook: capture, decay, corrective challenge, opening-turn primacy).
+- **Concept upgrades** — @concepts/geo-visibility-measurement.md (trajectory-beats-single-turn section + misranking diagnostic; consumption as an outcome); @concepts/generative-engine-optimization.md (conversational-capture section; zero-click causally measured).
+- **Briefs** — `briefs/2026-10-01_k284-conversational-capture-probe-hands-on.md` (gitignored) — 4-turn trajectory probe, blocked on real shop identity.
+- **Phase-0** — **no tool to audit in either paper.** Both are theory/experiment with no released code or dataset. **0 SEO Adopt; 0 MB runtime.**
+- **Phase-1** — `policy_wired` on @concepts/conversational-capture-geo.md + @concepts/geo-visibility-measurement.md + @concepts/generative-engine-optimization.md. No new MCP, no `settings.json` change.
+- **Federation** — inbound: CCC landed the K283 PrecogUI steal at `@ccc-wiki/concepts/simulate-before-commit-experience-pool.md` and backlinked the SEO source page. No new outbound route this round.
+- **Delegation note** — grok was used for the 31-page Lee et al. extraction. It returned correct BIBLIO + DESIGN detail (38-day window, 1 Oct – 7 Nov 2024, cookie assignment) but **stalled mid-DESIGN** and its stdout stayed buffered until exit. Its partial output was still useful; the rest was read in-session. See LESSONS.md.
+
 ## [2026-09-30] ingest | K283 — 1/4 IN-SCOPE (AX is the new AEO) + 3/4 OOD overflow
 
 - **Inbox** — 4 PDFs from @sweeps/2026-09-30-daily.md (geo-aeo + local-seo digest).
@@ -27,7 +39,7 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-09-30
+updated: 2026-10-01
 last_easy_review_ingest: 2026-05-08
 ---
 

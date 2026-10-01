@@ -117,14 +117,22 @@ related:
   - entities/tools/denseon-lateon.md
   - sweeps/2026-07-30-daily.md
   - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
+  - concepts/conversational-capture-geo.md
   - sweeps/2026-09-30-daily.md
+  - sweeps/2026-10-01-daily.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-09-30
+updated: 2026-10-01
 ---
 
 ## Relations
 
+- @concepts/conversational-capture-geo.md — K284: capture compounds across a conversation; trajectory, not turn
+- @sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md — K284: trajectory gain, feedback term, misranking
+- @sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md — K284: randomized field experiment; cited-source clicks +14 pp
+- @sweeps/2026-10-01-daily.md — K284 overnight inbox drop
 - @sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md — K283: AX is the new AEO; 37,927 journeys; AEO proxies inert at the drill-down
 - @sweeps/2026-09-30-daily.md — K283 overnight inbox drop
 - @sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md — K237: owned site remains the permanent home as clicks fall
@@ -284,6 +292,33 @@ Safe local analog: coordinate **real** evidence - GBP, owned service/location pa
 ### Critical survey — visibility vector [CONFIRMED as literature synthesis; TENTATIVE local ROI]
 
 @sources/arxiv-martinez-2026-critical-survey-geo-2607.14035-2026-07-16.md (Martinez 2026, arXiv 2607.14035): reviews **45** GEO studies (2023–2026). GEO is a multistage stochastic pipeline; report a **visibility vector** (discoverability, context, citation, prominence, absorption, fidelity, behavior) instead of a single rank. Aggarwal “up to ~40%” is a **conditional-on-context** pawc gain — not organic discoverability or traffic. Topical relevance + context position are the most reproducible levers; generic heuristics transfer poorly; competition erodes gains; commercial audits show low overlap and fidelity gaps. Playbook: @concepts/geo-visibility-vector-protocol.md; hands-on `briefs/2026-07-16_k140-geo-visibility-vector-probe-protocol-hands-on.md`.
+
+### Conversational capture — GEO compounds across turns [CONFIRMED at theory level; TENTATIVE as measurement]
+
+@sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md (Yu et al., HAI '26, arXiv 2609.40069): the **single answer is the wrong unit of analysis**. Human-agent information seeking is a closed loop — the answer changes the user's beliefs, which changes the next question. A source cited early keeps being cited: **conversational capture**, and the persistence can be **decoupled from current relevance**.
+
+**Two channels, separately measurable.** **M1 (machine-side):** the engine conditions on dialogue history, so an earlier source resurfaces *even with the query held fixed* — measurable with no user model at all. **M2 (human-side):** a GEO-shaped answer steers the user's *next question* toward the captured source. The feedback term splits exactly: L_feedback = L_M1 + L_M2.
+
+**Early turns decide the outcome.** Under a Pólya-urn model the citation share converges to a *random* limit set by initial composition — **non-ergodic**, so the long-run result depends on early turns rather than on a deterministic notion of relevance. The paper's verdict: GEO has its **greatest leverage in the earliest turns**.
+
+**Single-turn evaluation has a decision-relevant failure mode.** In the worked model the feedback term (1.48) **exceeds** the direct term (1.20); ρ = 2.23, rising toward a ceiling of 1/(2L₁) ≈ 4.17. Ranking methods by single-turn gain disagreed with the trajectory ranking (Kendall's τ = 0.4), and the single-turn winner was wrong in **48%** of random method sets — **91%** when salience and capture trade off. Single-turn evaluation can pick the wrong method outright.
+
+**Corrective follow-ups reverse it.** The sign of the feedback term is an empirical assumption, not a tautology. Confirmatory reinforcement predicts L_feedback ≥ 0; **corrective** follow-ups ("is this independently confirmed?") make the human channel negative. A shop with a checkable third-party footprint survives the challenge; one captured on a thin first answer does not. Playbook: @concepts/conversational-capture-geo.md; measurement change: @concepts/geo-visibility-measurement.md. Hands-on: `briefs/2026-10-01_k284-conversational-capture-probe-hands-on.md`.
+
+**Guardrail:** all figures are model-derived. Direction `[CONFIRMED]` at theory level; magnitudes `[NEEDS VERIFICATION 2026-10-01]`. No local or near-me queries.
+
+### Zero-click, causally measured [CONFIRMED — randomized field experiment]
+
+@sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md (Lee et al., arXiv 2609.38946): a **38-day randomized field experiment with 37,561 Washington Post readers**, run before the public launch of "Ask The Post AI". Treatment readers got AI answers with article citations **above** the conventional results. This is the controlled counterpart of the practitioner zero-click material below (@sources/housingwire-2026-answer-engine-optimization-zero-click-gbp-2026-06-29.md, @sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md).
+
+- **Cited-source clicks rise 14 pp**; conventional-result clicks fall **21 pp**; browsing falls 5 pp. Being in the answer's citation set is the growth channel.
+- **98.0%** of the increase in shared-information consumption comes from the **AI answer itself**, not from opened articles. The answer now delivers information that used to require a click.
+- Total consumption per reader rises **82%** (29% more searches, 41% more per search); consumption per minute rises 62%.
+- Counter to the filter-bubble hypothesis, collective attention **diversified**: aggregate effective topics 44.4 → 46.4, and the top-10 popular share fell ~4 pp.
+
+**Operator reading:** the answer carries the facts. A business whose hours, prices, and services exist only behind a click reaches fewer people than one whose facts are stated plainly enough to be quoted in the answer — which is the same conclusion K283 reached from the readability side, now with a causal design behind it.
+
+**Caveats:** working paper, one newsroom archive, a specific answer-above-results UI, and **no local or near-me queries** `[NEEDS VERIFICATION 2026-10-01]`.
 
 ### AX is the new AEO — the drill-down step [CONFIRMED — controlled field experiment]
 

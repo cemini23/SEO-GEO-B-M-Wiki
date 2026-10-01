@@ -62,15 +62,23 @@ related:
   - sources/arxiv-li-2026-baidu-google-ai-exposure-2609.24407-2026-09-23.md
   - sweeps/2026-09-23-daily.md
   - sources/arxiv-finder-2026-ax-is-the-new-aeo-2609.34951-2026-09-30.md
+  - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
+  - sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md
+  - concepts/conversational-capture-geo.md
   - concepts/agent-ready-website-local-bm.md
   - sweeps/2026-09-30-daily.md
+  - sweeps/2026-10-01-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-09-30
+updated: 2026-10-01
 ---
 
 ## Relations
 
+- @concepts/conversational-capture-geo.md — K284 operator playbook for trajectory measurement
+- @sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md — K284 trajectory gain, feedback term, misranking diagnostic
+- @sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md — K284 randomized field experiment; consumption as an outcome
+- @sweeps/2026-10-01-daily.md — K284 overnight fetch
 - @sweeps/2026-08-25-daily.md — K163 event-time confounding (thin GEO steal)
 - @sources/arxiv-iannelli-2026-event-time-confounding-burstcheck-2608.21294-2026-08-25.md — episode-selection / endogenous time zero guardrail: post-event volume ≠ causal effect
 - @sweeps/2026-08-18-daily.md — K160 Meta impression-share (thin steal)
@@ -236,6 +244,32 @@ Two outcome measures worth adding to the operator loop, both from the same study
 Both are computable from an agent trace without a grading panel, which makes them cheaper to track than recommendation rate. The study also supplies a **dose–response** check: mean web searches per journey rise monotonically from **1.8 to 4.5** as the accessibility score falls (Spearman ρ = −0.52, n = 1,056), so *searches-per-journey* is a usable proxy for a readability defect without needing the vendor's score at all.
 
 **Guardrail:** the study's accessibility ranker is the authors' own instrument, and the cohort is SaaS/commerce English-first with business-fact intents. No local-service or near-me queries `[NEEDS VERIFICATION 2026-09-30]`.
+
+### Trajectory beats single-turn — the misranking diagnostic (K284) `[CONFIRMED at theory level; TENTATIVE as measurement]`
+
+@sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md (Yu et al., HAI '26, arXiv 2609.40069) argues the **single answer is the wrong unit of analysis**. Human-agent information seeking is a closed loop: the answer changes the user's beliefs, which changes the next question. A source cited early keeps being cited — **conversational capture** — and the persistence can be decoupled from current relevance.
+
+**The measurement consequence is blunt.** Decompose the trajectory gain L_T into a **direct term** (what single-turn evaluation correctly extrapolates) and a **feedback term** (what it omits entirely):
+
+- The feedback term is **identically zero under single-turn evaluation**. Every one of the sampling rules above — repeated queries, bootstrap CIs, multi-engine panels — samples *independent turns*. None of them can see it.
+- In the paper's worked model the **feedback term (1.48) exceeds the direct term (1.20)**; the compounding ratio ρ = 2.23, rising toward a ceiling of 1/(2L₁).
+- **Method selection breaks.** Ranking GEO methods by single-turn gain disagreed with the trajectory ranking (Kendall's τ = 0.4). Across 5×10⁴ random method sets the single-turn winner was wrong in **48%** of draws — **91%** when salience and capture trade off. Single-turn evaluation can pick the wrong method.
+
+**Operator rule:** keep the existing repeated-sampling discipline for *non-determinism*, and add a separate **trajectory probe** for capture. A trajectory probe runs one 3–5 turn buyer conversation end to end without resetting the thread, and records carryover, decay after the topic moves on, and whether a corrective challenge dislodges the citation. Procedure: `briefs/2026-10-01_k284-conversational-capture-probe-hands-on.md`; playbook: @concepts/conversational-capture-geo.md.
+
+**Guardrail:** every number is derived from the model, not a deployed engine — the authors say so repeatedly. The direction is `[CONFIRMED]` at the theory level; the magnitudes are `[NEEDS VERIFICATION 2026-10-01]`. No local or near-me queries in the paper.
+
+### Consumption as an outcome, not just citation share (K284) `[CONFIRMED — randomized field experiment]`
+
+@sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md (Lee et al., arXiv 2609.38946): **38-day randomized field experiment, 37,561 Washington Post readers**, AI answers with article citations shown above conventional results. This is the controlled version of the practitioner zero-click claims already in the wiki.
+
+- **Cited-source clicks rise 14 pp** while **conventional-result clicks fall 21 pp** and browsing falls 5 pp.
+- **98.0%** of the increase in shared-information consumption comes from the **AI answer**, not from opened articles. The answer delivers information that used to require a click.
+- Total consumption per reader rises **82%** (29% more searches, 41% more per search); consumption per minute rises 62%.
+
+**Operator rule:** citation share is an intermediate metric. The outcomes that move are **clicks to cited sources** and **information delivered inside the answer**. Track both. A page that is cited but whose facts never reach the answer text is a citation-share win with no consumption behind it — the guardrail already stated above ("citation-share wins vs downstream utility"), now with a field-experiment counterpart.
+
+**Caveats:** working paper, one newsroom archive, a specific answer-above-results UI, and no local or near-me queries. `[NEEDS VERIFICATION 2026-10-01]`
 
 ### Operator measurement loop
 

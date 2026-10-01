@@ -174,6 +174,8 @@ If you're new to this wiki:
 - [arxiv-cai-2026-jrdb-avr-active-visual-reasoning-2609.35032-2026-09-30](sources/arxiv-cai-2026-jrdb-avr-active-visual-reasoning-2609.35032-2026-09-30.md) — OOD: embodied active visual reasoning benchmark; overflow only (K283)
 - [arxiv-melo-2026-wlcg-host-tuning-wan-2609.35859-2026-09-30](sources/arxiv-melo-2026-wlcg-host-tuning-wan-2609.35859-2026-09-30.md) — OOD: WLCG host tuning for WAN transfers; overflow only (K283)
 - [arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30](sources/arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30.md) — OOD: PrecogUI proactive GUI agents; CCC brief routed (K283)
+- [arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01](sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md) — IN-SCOPE: conversational capture; trajectory vs single-turn GEO evaluation (K284)
+- [arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01](sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md) — IN-SCOPE: WaPo randomized field experiment; cited-source clicks +14 pp (K284)
 
 ### Platform / practitioner news
 
@@ -249,6 +251,7 @@ If you're new to this wiki:
 - [geo-visibility-vector-protocol](concepts/geo-visibility-vector-protocol.md) — Martinez visibility vector + reproducible GEO probe protocol
 - [e-geo-universal-rewrite-playbook](concepts/e-geo-universal-rewrite-playbook.md) — E-GEO converged rewrite pattern for service pages (K142)
 - [agent-ready-website-local-bm](concepts/agent-ready-website-local-bm.md) — agent-ready local sites: AX field evidence (K283) + interpretability / executability / decision reliability (K142)
+- [conversational-capture-geo](concepts/conversational-capture-geo.md) — capture compounds across a conversation; trajectory probe for local shops (K284)
 - [canonical-business-facts-geo](concepts/canonical-business-facts-geo.md) — GBP + schema canonical fact KB sync (KARLA 2026 K132)
 - [llm-reputation-signals-geo](concepts/llm-reputation-signals-geo.md) — selection-stage reputation AMCEs; rating/price/volume vs management response (Baig 2026)
 - [llm-brand-bias-geo-competition](concepts/llm-brand-bias-geo-competition.md) — Conditional Monopoly, BSV, multi-brand GEO prisoner's dilemma (Chu 2026)

@@ -7,10 +7,11 @@ related:
   - concepts/corpus-overflow-out-of-scope.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-30-daily.md
+  - "@ccc-wiki/concepts/simulate-before-commit-experience-pool.md"
 maturity: draft
 read_status: skimmed
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-01
 ---
 
 ## Relations
@@ -18,6 +19,7 @@ updated: 2026-09-30
 - @concepts/corpus-overflow-out-of-scope.md — GUI agent architecture; not local SEO/GEO
 - @concepts/federated-daily-research-digest.md — K283 digest fetch
 - @sweeps/2026-09-30-daily.md — overnight inbox drop
+- @ccc-wiki/concepts/simulate-before-commit-experience-pool.md — CCC took the structural steal (K283 landed 2026-10-01)
 - Cross-wiki brief: `../Cemini claude code CCC/briefs/2026-09-30_k283-precogui-proactive-simulation-from-seo.md`
 
 ## Raw Concept
