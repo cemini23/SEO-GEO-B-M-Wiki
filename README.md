@@ -189,7 +189,7 @@ The wiki structure (CLAUDE.md schema + lint scripts) and cross-domain concept pa
 
 - Methodology newsletter: [Outlier Weekly](https://outlierweekly.com) · [Substack](https://outlierweekly.substack.com) · [Issue 3 — World Cup Bot](https://outlierweekly.substack.com/p/i-open-sourced-the-world-cup-lp-bot)
 - Products: [Atto](https://youratto.com) · [GuruWatcher](https://guruwatcher.com)
-- YouTube: [@Cemini23](https://www.youtube.com/@Cemini23)
+- X: [@Cemini23](https://x.com/Cemini23)
 - Wiki federation hub: [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC)
 - Agent toolkit: [wikilint](https://github.com/cemini23/wikilint) · [vet](https://github.com/cemini23/vet) · [ara-schema](https://github.com/cemini23/ara-schema)
 - Operator app: [Easy-Review](https://github.com/cemini23/Easy-Review)
@@ -214,7 +214,6 @@ Prefer not to tip on-chain? Following, sharing, or trying the projects is just a
 - **Outlier Weekly** — [outlierweekly.com](https://outlierweekly.com) · [Substack](https://outlierweekly.substack.com)
 - **Atto** — [youratto.com](https://youratto.com)
 - **GuruWatcher** — [guruwatcher.com](https://guruwatcher.com)
-- YouTube — [@Cemini23](https://www.youtube.com/@Cemini23)
 
 Canonical donation addresses also live in the federation [SUPPORT.md](https://github.com/cemini23/cemini-claude-code-CCC/blob/main/SUPPORT.md).
 
