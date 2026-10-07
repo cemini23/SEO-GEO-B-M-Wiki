@@ -6,6 +6,7 @@ keywords: [x-articles, prose, authentic voice, cyrilXBT, formatting, docx ingest
 related:
   - concepts/x-account-voice-and-format.md
   - concepts/x-article-3-notes.md
+  - concepts/basgiath-minecraft-mod-x-article-notes.md
   - concepts/x-article-jev-harness-notes.md
   - concepts/x-article-cxw-geo-th-postmortem-notes.md
   - concepts/x-article-uw-polymarket-bridge-notes.md
@@ -62,6 +63,7 @@ updated: 2026-10-01
 
 - @concepts/agent-toolkit-x-thread-2026-05-28.md — toolkit launch thread (Article-adjacent distribution)
 - @concepts/x-article-3-notes.md — Article #3 queue; style pass updates both pages
+- @concepts/basgiath-minecraft-mod-x-article-notes.md — Empyrean fan Minecraft mod Article queue (2026-10-03; notes only, draft pending)
 - @concepts/x-article-jev-harness-notes.md — K266 Jev harness X Article queue + exemplar rows (2026-09-19)
 - @concepts/x-article-cxw-geo-th-postmortem-notes.md — Jul 8 CXW/GEO/TH postmortem Article (after Jul 6 vindication)
 - @concepts/x-article-uw-polymarket-bridge-notes.md — Jul 17 UW API → Polymarket policy/politics bridge Article
