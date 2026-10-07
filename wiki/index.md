@@ -176,12 +176,15 @@ If you're new to this wiki:
 - [arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30](sources/arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30.md) — OOD: PrecogUI proactive GUI agents; CCC brief routed (K283)
 - [arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01](sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md) — IN-SCOPE: conversational capture; trajectory vs single-turn GEO evaluation (K284)
 - [arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01](sources/arxiv-lee-2026-filter-bubble-generative-search-2609.38946-2026-10-01.md) — IN-SCOPE: WaPo randomized field experiment; cited-source clicks +14 pp (K284)
+- [arxiv-shinde-2026-pdp-priority-scheduling-2610.04587-2026-10-07](sources/arxiv-shinde-2026-pdp-priority-scheduling-2610.04587-2026-10-07.md) — OOD: PDP switch priority scheduling; query false positive (K285)
+- [arxiv-cheng-2026-hierarchy-gbp-factor-graph-2610.06978-2026-10-07](sources/arxiv-cheng-2026-hierarchy-gbp-factor-graph-2610.06978-2026-10-07.md) — OOD: Hierarchy-GBP; **GBP acronym collision** (K285)
 
 ### Platform / practitioner news
 
 - [newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08](sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md) — Frontier AEO Tracker: self-preference, markdown content-negotiation, anti-recommendations (K257)
 - [newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test](sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md) — GBP linked-URL field test; Diversity Update caveat (K276)
 - [newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks](sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md) — review posting blocks: in-store/QR/burst pattern; 30-day block; 57.5% removed (K276)
+- [newsletter-rss-sterling-sky-2026-09-29-gbp-optimization-checklist](sources/newsletter-rss-sterling-sky-2026-09-29-gbp-optimization-checklist.md) — GBP optimization checklist; title+URL only; category claim already covered (K277)
 - [newsletter-rss-sparktoro-2026-08-14-zero-click](sources/newsletter-rss-sparktoro-2026-08-14-zero-click.md) — SparkToro: website still the permanent home in zero-click (K237)
 
 - [searchengineland-2026-google-llm-patent-entity-characterization-480625](sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md) — Google LLM patent entity characterization; webpages as evidence (2026-06-27 digest)
@@ -331,6 +334,7 @@ If you're new to this wiki:
 - [cemini23-x-score-2026-09-01](concepts/cemini23-x-score-2026-09-01.md) — Grok Bot two-week @Cemini23 plugin score (FILED 2026-09-01); brief `briefs/2026-09-01_cemini23-two-week-x-score.md`
 - [x-for-you-algorithm-2026](concepts/x-for-you-algorithm-2026.md) — Phoenix production weights (also listed under Creator marketing)
 - [x-article-3-notes](concepts/x-article-3-notes.md) — Article #3 draft beats: git wiki CI, contribution rate, wikilint
+- [basgiath-minecraft-mod-x-article-notes](concepts/basgiath-minecraft-mod-x-article-notes.md) — Empyrean fan Minecraft Bedrock mod X Article notes: book canon, project facts, angles, IP guardrails (2026-10-03; draft pending)
 - [x-article-jev-harness-notes](concepts/x-article-jev-harness-notes.md) — K266 Jev harness X Article queue + 5 ranked voice exemplars (2026-09-19)
 - [x-article-cxw-geo-th-postmortem-notes](concepts/x-article-cxw-geo-th-postmortem-notes.md) — Jul 8 CXW/GEO/TH postmortem Article notes (after Jul 6 vindication)
 - [x-article-spcx-anthropic-notes](concepts/x-article-spcx-anthropic-notes.md) — SPCX cheap versus Anthropic X Article **LIVE** 2026-08-17; owned hub `sites/outlierweekly/public/spcx-anthropic/` (2026-08-30)

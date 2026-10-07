@@ -35,6 +35,7 @@ related:
   - concepts/agent-ready-website-local-bm.md
   - sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md
   - sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md
+  - sources/newsletter-rss-sterling-sky-2026-09-29-gbp-optimization-checklist.md
 
 maturity: draft
 created: 2026-05-07

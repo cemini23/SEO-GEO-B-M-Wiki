@@ -255,6 +255,9 @@ related:
   - sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md
   - sources/newsletter-rss-sterling-sky-2026-09-28-review-posting-blocks.md
   - sources/newsletter-rss-sterling-sky-2026-09-29-gbp-linked-url-local-pack-test.md
+  - sources/arxiv-cheng-2026-hierarchy-gbp-factor-graph-2610.06978-2026-10-07.md
+  - sources/arxiv-shinde-2026-pdp-priority-scheduling-2610.04587-2026-10-07.md
+  - sources/newsletter-rss-sterling-sky-2026-09-29-gbp-optimization-checklist.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-10-01

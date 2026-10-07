@@ -71,9 +71,10 @@ related:
   - entities/tools/rankfor-ai.md
   - sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md
   - sources/techwyse-2026-google-good-seo-is-good-geo-kraham-2026-06.md
+  - sweeps/2026-10-07-daily.md
 maturity: validated
 created: 2026-06-10
-updated: 2026-10-01
+updated: 2026-10-07
 ---
 
 ## Relations
@@ -175,6 +176,16 @@ Generative engines are **non-deterministic** at generation time. Sielinski's emp
 - Citation variability persists when cited page content is **stable** (checksum validation) — noise is engine behavior, not your page edits.
 
 Local-service queries untested `[NEEDS VERIFICATION 2026-06-10]` — apply the same discipline until validated.
+
+### Reading a ranking study — two cautions from the K278/K279 waves
+
+Both notes come from the daily digest and are **method warnings, not ranking findings**. They apply whenever the wiki cites an SEO/GEO study, and when the operator reads one.
+
+**1. A significance level chosen after the fact is not evidence (K278).** The K278 wave flagged a study that was **significant only at the 10% level**, whose **structural break was dated from the same data** used to test it, and which reached 5% only **after three controls were added**. Any one of those is a reasonable thing to do in isolation; together they describe a result tuned into existence. **Operator rule:** when a post claims a local-ranking effect, ask whether the threshold, the date, or the controls were fixed *before* the data was seen. If the answer is unclear, treat the claim as `[TENTATIVE]` no matter how confident the post is. This is the same discipline already applied to single-source claims in CLAUDE.md.
+
+**2. A bigger context window is not more usable context (K279).** A roundup reported a **62.8% long-context accuracy drop** when one vendor's context window scaled from **4K to 128K tokens**. **Operator rule:** do not assume that pasting a whole site, a year of reviews, or a long landing page into one prompt gives a reliable read. Chunk the input and verify the extracted facts against the source, per @concepts/citation-verification-aeo.md. This governs the wiki's own working method too — long sources are read in sections, not swallowed whole.
+
+Both are `[TENTATIVE]` on their specific numbers — the wiki holds the second-hand digest summary, not the underlying study. `[NEEDS VERIFICATION 2026-10-07]`. The cautions hold regardless of the exact figures.
 
 ### Minimum sample sizes (empirical, consumer topics) `[TENTATIVE]`
 

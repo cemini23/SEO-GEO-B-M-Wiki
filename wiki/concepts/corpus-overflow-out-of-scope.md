@@ -155,9 +155,12 @@ related:
   - sources/arxiv-wasserman-2026-native-language-evaluation-2609.17435-2026-09-16.md
   - sources/arxiv-yu-2026-conversational-capture-geo-2609.40069-2026-10-01.md
   - sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md
+  - sources/arxiv-shinde-2026-pdp-priority-scheduling-2610.04587-2026-10-07.md
+  - sources/arxiv-cheng-2026-hierarchy-gbp-factor-graph-2610.06978-2026-10-07.md
+  - sweeps/2026-10-07-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-10-01
+updated: 2026-10-07
 ---
 
 ## Relations
@@ -309,6 +312,22 @@ A source lands here if it was dropped into the ingest queue, a stub was created 
 
 Deleting the stub loses the record that the file was already triaged-and-rejected, risking duplicate effort on the next sweep. Keeping it under this hub is the "we looked, we passed" marker.
 
+### Acronym collisions — the recurring false-positive generator (K285)
+
+Most overflow arrives for a dull reason: an arXiv query matches on words, not meaning. The **highest-yield fix is to find the ambiguous term** rather than to keep triaging the papers it drags in.
+
+The worked example is **GBP**. In this wiki, GBP means **Google Business Profile**. In the wider corpus it also means:
+
+| Meaning | Field | Sample collision |
+|---|---|---|
+| **Gaussian Belief Propagation** | robotics, SLAM, factor graphs | @sources/arxiv-cheng-2026-hierarchy-gbp-factor-graph-2610.06978-2026-10-07.md |
+| British Pound (sterling) | finance | (pulled by OSINT's lanes, not this one) |
+| Gain-bandwidth product | electronics | — |
+
+The daily digest's `local-seo-paper` query contained a bare `all:GBP` clause. That clause matched the robotics paper. **Fix applied 2026-10-07:** `scripts/daily_research_config.yaml` now requires `"Google Business Profile"` / `"Google Business"` / `"Google Maps"` spelled out, and the bare acronym is gone. The other lanes were checked at the same time.
+
+**Rule for new queries:** never search on a short acronym alone. Spell out the full term, or pair the acronym with a disambiguating word. Terms to watch in this domain: **GEO** (generative engine optimization vs geographic vs geostationary), **AEO** (answer engine optimization vs the ancient Greek "eagle" journal abbreviation), **AX** (agent experience vs many others), **SERP**, **NAP** (name-address-phone vs network access point). Each has already produced or could produce a misfiled paper.
+
 ### Current contents (updated 2026-07-29)
 
 | Stub | Topic | Why out-of-scope |
@@ -417,6 +436,8 @@ Deleting the stub loses the record that the file was already triaged-and-rejecte
 | @sources/arxiv-cai-2026-jrdb-avr-active-visual-reasoning-2609.35032-2026-09-30.md | JRDB-AVR active visual reasoning benchmark (arXiv 2609.35032) | cs.CV/RO embodied agents; overflow only; thin steal = answer-vs-evidence split; repo `ControlNet/JRDB-AVR` license not stated (K283) |
 | @sources/arxiv-melo-2026-wlcg-host-tuning-wan-2609.35859-2026-09-30.md | WLCG host tuning for WAN transfers (arXiv 2609.35859) | physics.ins-det networking; overflow only; no paper code (K283) |
 | @sources/arxiv-kang-2026-precogui-proactive-gui-agents-2609.36923-2026-09-30.md | PrecogUI proactive GUI agents (arXiv 2609.36923) | GUI agent architecture; CCC brief routed (pre-cognitive simulation); no code published (K283) |
+| @sources/arxiv-shinde-2026-pdp-priority-scheduling-2610.04587-2026-10-07.md | PDP switch priority scheduling (arXiv 2610.04587) | networking hardware; overflow only; no steal; digest query false positive (K285) |
+| @sources/arxiv-cheng-2026-hierarchy-gbp-factor-graph-2610.06978-2026-10-07.md | Hierarchy-GBP factor graph inference (arXiv 2610.06978) | robotics/SLAM; **GBP acronym collision** — Gaussian Belief Propagation vs Google Business Profile; overflow only (K285) |
 
 ## Snippets
 

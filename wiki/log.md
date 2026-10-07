@@ -1,3 +1,22 @@
+## [2026-10-07] ingest | K285 — 0/2 IN-SCOPE (both OOD) + digest query fix; K277/K278/K279 briefs triaged
+
+- **Inbox** — 2 PDFs. Both out of scope. **No SEO/GEO content this round.**
+- **OOD sources** — @sources/arxiv-shinde-2026-pdp-priority-scheduling-2610.04587-2026-10-07.md (PDP switch priority scheduling; networking hardware; no steal) and @sources/arxiv-cheng-2026-hierarchy-gbp-factor-graph-2610.06978-2026-10-07.md (Hierarchy-GBP factor graphs; robotics/SLAM). Added to @concepts/corpus-overflow-out-of-scope.md.
+- **Root cause found and fixed: an acronym collision.** `2610.06978` is **Gaussian Belief Propagation**, not Google Business Profile. The digest's `local-seo-paper` arXiv query carried a bare `all:GBP` clause, which matches the acronym in robotics, finance, and electronics equally well. `scripts/daily_research_config.yaml` now requires `"Google Business Profile"` / `"Google Business"` / `"Google Maps"` spelled out; the bare acronym is removed. A query-hygiene rule was added to @concepts/corpus-overflow-out-of-scope.md, with the other at-risk acronyms in this domain listed (GEO, AEO, AX, NAP).
+- **Incoming briefs triaged (K277, K278, K279)** — all three are FILE-only waves from OSINT; every referenced page resolves.
+  - **K277** → @sources/newsletter-rss-sterling-sky-2026-09-29-gbp-optimization-checklist.md. Title+URL only; the single captured claim (wrong GBP category hurts visibility) is already covered more fully on @concepts/google-business-profile.md. Record-only, no new tactic. Full checklist left unread behind an operator gate.
+  - **K278 + K279** → both carried a **method warning, not a ranking finding**. Added together as "Reading a ranking study — two cautions" on @concepts/geo-visibility-measurement.md: (1) a significance level chosen after the fact is not evidence (10% threshold, break dated from the same data, 5% only after three controls); (2) a bigger context window is not more usable context (62.8% long-context accuracy drop, 4K→128K). Both `[TENTATIVE]` — the wiki holds the digest summary, not the studies.
+- **Phase-0** — no adoptable tool in either paper. No code linked for either. **0 SEO Adopt; 0 MB runtime.**
+- **Phase-1** — no wire. Both sources are overflow; the config change is a script edit, not a harness wire.
+- **Routing** — none. Nothing in this wave belongs to a federated wiki; the two papers are physics/robotics and the briefs are SEO-lane.
+
+## [2026-10-03] notes | Basgiath (Empyrean fan Minecraft mod) X Article queue
+
+- **New page** — @concepts/basgiath-minecraft-mod-x-article-notes.md. Familiarity pass for next week's article on **Basgiath**, the operator's free fan Minecraft **Bedrock** map/add-on for the *Empyrean* fandom (repo `/Users/claudiobarone/Projects/dragon-rider-map`). Draft is **not** written; the operator will say when enough is built.
+- **Filed** — book canon (Fourth Wing / Iron Flame / Onyx Storm / the *Threshing Day* anthology 2026-09-29; book 4 ≥2027), Basgiath + Riders Quadrant mechanics (Parapet, Gauntlet, Threshing, the Quad, quadrant colours, ranks), signets and dragons, project facts (v0/v1 scope, MCPEDL distribution, Blockbench rig), the Dragonkind timing wave (launched 2026-10-01), working titles, a Cyril structure map, and the IP guardrails.
+- **Timing note** — book 4 slipped to 2027+, so the durable anchors are the Dragonkind May 2027 countdown and Conscription Day (July 15). The Empyrean Minecraft niche is still open (no Bedrock map/add-on found).
+- **Links** — reciprocal backlink added to @concepts/x-account-voice-and-format.md. Surface assumed to be X Article (W4), not Outlier Weekly; confirm at draft time.
+
 ## [2026-10-01] ops | K257 + K276 source pages filed; wiki lint debt cleared to zero
 
 - **K257 (was deferred since 2026-09-09)** — @sources/newsletter-rss-latent-space-2026-09-07-aeo-tracker-2026-09-08.md filed. Frontier AEO Tracker: 7 models × 161 categories; **self-preference is the clearest signal** (each vendor picks its own tool); ~17% of categories have a universal winner; **markdown content-negotiation confirmed** — failing it removes a page from consideration entirely; AEO score weights first choice > alternatives > mentions, with negative weights for anti-recommendations. Provenance is weaker than a normal ingest: the OSINT source page it came from never materialised, so the page is filed from the wave summary plus public tracker coverage and says so.
@@ -50,7 +69,7 @@
 ---
 title: Operations Log
 type: log
-updated: 2026-10-01
+updated: 2026-10-07
 last_easy_review_ingest: 2026-05-08
 ---
 

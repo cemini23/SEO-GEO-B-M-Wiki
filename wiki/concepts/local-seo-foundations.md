@@ -29,9 +29,10 @@ related:
   - sources/github-repo-audit-2026-05-07.md
   - concepts/first-90-days-playbook.md
   - sources/searchengineland-2026-google-llm-patent-entity-characterization-480625.md
+  - sources/newsletter-rss-sterling-sky-2026-09-29-gbp-optimization-checklist.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-10-01
 ---
 
 ## Relations

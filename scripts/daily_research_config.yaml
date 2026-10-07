@@ -30,7 +30,13 @@ paper_queries:
 - cluster: local-seo-paper
   query: research paper local search ranking Google Business Profile reviews
   category: research paper
-  arxiv_query: (all:"local SEO" OR all:"Google Business" OR all:GBP) AND (all:local OR all:maps OR all:ranking)
+  # "GBP" alone is NOT safe as a search term: it also means Gaussian Belief
+  # Propagation, British Pound, and gain-bandwidth product. The bare `all:GBP`
+  # clause returned a robotics factor-graph paper in the 2026-10-07 run.
+  # Require it to appear with a business/maps term instead, and keep the
+  # unambiguous spellings first.
+  arxiv_query: '(all:"local SEO" OR all:"Google Business Profile" OR all:"Google Business" OR all:"Google Maps") AND (all:local OR all:maps OR all:ranking OR all:review)'
+
 queries:
 - cluster: gbp-news
   query: '"Google Business Profile" OR "Google Maps" local business listing update OR suspension OR review
