@@ -1794,3 +1794,20 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-sparktoro-2026-0
 - **Live probe (2026-09-03)** — all six owned hubs (/, /about/, /methodology/, /atto/, /guruwatcher/, /spcx-anthropic/) + `/sitemap.xml`, `/robots.txt`, `/llms.txt` return 200. No `X-Robots-Tag`, no meta-robots noindex on hubs; canonicals correct; sitemap matches live hubs. Redirects verified: www → apex 301, `/p/*` → Substack 301, retired `/prediction-market-lp-bot` → home 301, `/cxw-geo` → `/spcx-anthropic/` 301, unknown path 404. Apex is a 200 hub (2026-08-08 Substack-301 defect stays fixed).
 - **Code** — no indexability defect found; no worker/asset change required. Home `<title>` and `og:title` tightened to "Outlier Weekly — rare-event markets letter" (About already disambiguates "not Outlier AI"). Deployed with this commit.
 - **Operator leftover** — open GSC Pages/Coverage for `outlierweekly.com` and confirm which URLs Google has indexed (digest action 3).
+
+## [2026-10-08] letter | Rearmament / Rubio — Outlier Weekly letter ship-ready
+
+- **Handoff** — OSINT desk pack `pack-rearmament-war-profit-20261008` (`thesis.md` + `thesis.pdf`) routed to `briefs/2026-10-08_rearmament-war-profit-outlier.md`. Desk ran three QA rounds (9 models via OpenRouter, `qa/`, `qa2/`, `qa3/`) against the desk note. All three rounds reviewed the note, not the letter.
+- **Letter** — `briefs/2026-10-08_rearmament-war-profit-outlier.md` set **SHIP-READY**, ~1,300 words. Outlier Weekly only; X Article deferred.
+- **Fixes folded in** — Patriot loss restated as about 65 to 67 percent (body said a flat 65); THAAD restated as a 38 to 48 percent loss (body wrongly called it "worse in proportion"); the unsourced 42-month and 53-month lead times dropped; the unsourced $21B munitions split inside the $87.6B supplemental dropped; Europe hedged to "press reports describe a European intelligence assessment"; "record backlogs" softened to "record or near-record"; Red Cat's Army win carries the 5,880-system objective caveat; "supplier lists by the hundreds" dropped; the non-allied sourcing claim lost its 2027 deadline. Tickers added to all eight names; Mercury, Kratos, and AeroVironment specifics pulled from the handoff.
+- **Updated** — `concepts/rearmament-war-profit-outlier-notes.md` (status, ship_paste, `cross-wiki-source`, fix log, sibling-metals relation); `concepts/x-account-voice-and-format.md` (related + article-arc row); `concepts/metals-tungsten-ptpd-outlier-notes.md` + `concepts/voyg-outlier-notes.md` (reciprocal links); `wiki/index.md`.
+- **Lint** — checks 2/3/4/8 zero. Orphans 62 (all daily sweeps, structural). No new debt.
+- **Not posted.** Operator pastes from the brief. Hero image is a Gemini editorial prompt in the brief; no live charts or ticker screenshots.
+
+## [2026-10-08] publish | Rearmament letter LIVE + owned hub `/rearmament/`
+
+- **LIVE** — <https://outlierweekly.substack.com/p/war-is-coming-here-is-how-to-profit>. Free. Outlier Weekly only; X Article deferred. The slug is title-derived, not the brief's `rearmament-war-profit-defense-drones`.
+- **Hub** — `sites/outlierweekly/public/rearmament/index.html`. `src/index.js` needed no change: it serves any non-Substack path from Workers assets.
+- **Site** — `sitemap.xml` (+`/rearmament/`, lastmod 2026-10-08); `llms.txt` (owned page, newest letter, claim fence); `index.html` (meta description, JSON-LD ItemList with the new item at position 1, start list, letters list); `about/index.html` (newest letters, investing list).
+- **Wiki** — `concepts/rearmament-war-profit-outlier-notes.md` → LIVE with `substack_url`, `substack_slug`, `hub`; `index.md`; voice page arc row; reciprocal status lines on metals-tungsten and voyg.
+- **Deploy** — operator step. `scripts/deploy.sh` is written for the parent to run after review.

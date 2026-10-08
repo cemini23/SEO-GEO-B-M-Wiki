@@ -54,6 +54,7 @@ related:
   - "@gambling-wiki/concepts/world-cup-pm-retail-hygiene.md"
   - "@gambling-wiki/concepts/prediction-markets-crossover.md"
   - entities/tools/wondelai-skills.md
+  - concepts/rearmament-war-profit-outlier-notes.md
 maturity: draft
 created: 2026-05-28
 updated: 2026-10-01
@@ -98,6 +99,7 @@ updated: 2026-10-01
 - @gambling-wiki/entities/sports/world-cup-2026-betting.md — WC retail hub for PM/OSS posts
 - @gambling-wiki/concepts/world-cup-pm-retail-hygiene.md — K108 checklist to cite in prediction-market lane
 - @gambling-wiki/concepts/prediction-markets-crossover.md — PM/Kalshi retail explainer companion
+- @concepts/rearmament-war-profit-outlier-notes.md — Rubio / rearmament Outlier letter (**LIVE** 2026-10-08; Outlier only, X deferred)
 
 ## Raw Concept
 
@@ -138,6 +140,7 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | X | CeminiDFS + CeminiParlays + Grok slate packet — @concepts/ceminiparlays-ceminidfs-x-article-notes.md · paste `briefs/2026-09-12_ceminiparlays-ceminidfs-x-article.md` | **LIVE** 2026-09-12 — https://x.com/Cemini23/status/2098862947749515565 |
 | OW | CeminiParlays stack (sportsbook parlays) — @concepts/ceminiparlays-outlier-notes.md · paste `briefs/2026-09-17_ceminiparlays-outlier.md` | **LIVE** 2026-09-21 — https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit · hub `/parlay/` |
 | OW | Voyager / Starlab — the profit does not cover the paper — @concepts/voyg-outlier-notes.md · paste `briefs/2026-09-25_voyg-outlier.md` · [LIVE letter](https://outlierweekly.substack.com/p/the-profit-does-not-cover-the-paper) · hub `/voyager/` | **LIVE** 2026-09-28. Settlement 28 Sep and the $52.5 million option stay open in the letter. |
+| OW | [War Is Coming. Here Is How to Profit.](https://outlierweekly.substack.com/p/war-is-coming-here-is-how-to-profit) — @concepts/rearmament-war-profit-outlier-notes.md · paste `briefs/2026-10-08_rearmament-war-profit-outlier.md` | **LIVE** 2026-10-08 (Outlier only; X deferred; slug is title-derived; hub `/rearmament/`) |
 | OW4 / X Art. #4 (legacy label) | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | superseded by OW5 setup guide |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"

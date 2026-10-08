@@ -5,6 +5,7 @@ tags: [social, substack, outlier-weekly, voyg, space]
 keywords: [VOYG, Voyager Technologies, Starlab, SpaceX, Planet, convertible]
 related:
   - concepts/x-account-voice-and-format.md
+  - concepts/rearmament-war-profit-outlier-notes.md
 maturity: draft
 created: 2026-09-25
 updated: 2026-09-28
@@ -19,6 +20,7 @@ cross-wiki-source: "`../OSINT WORKSPACE/reports/research/pack-voyg-short-2026092
 
 - @concepts/x-account-voice-and-format.md — voice and paste discipline
 - `../OSINT WORKSPACE/reports/research/pack-voyg-short-20260925/VOYG_short_2026-09-25.md` — desk copy. Same letter. Edit the brief.
+- @concepts/rearmament-war-profit-outlier-notes.md — next markets letter in the same queue (**LIVE** 2026-10-08)
 
 ## Raw Concept
 

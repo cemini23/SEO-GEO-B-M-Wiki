@@ -18,6 +18,7 @@ themselves live on Substack.
 - https://outlierweekly.com/tanbreez/
 - https://outlierweekly.com/tungsten/
 - https://outlierweekly.com/voyager/
+- https://outlierweekly.com/rearmament/
 
 ## Letters
 
@@ -26,6 +27,7 @@ RSS: https://outlierweekly.substack.com/feed
 
 Newest, in order:
 
+- https://outlierweekly.substack.com/p/war-is-coming-here-is-how-to-profit
 - https://outlierweekly.substack.com/p/the-profit-does-not-cover-the-paper
 - https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit
 - https://outlierweekly.substack.com/p/the-greenland-license-is-real-the
@@ -44,4 +46,7 @@ SPCX / Anthropic is research commentary, not a recommendation to buy
 or sell SpaceX, Tesla, or Anthropic paper.
 The parlay letter is one graded Sunday, not an edge and not a wager.
 Tanbreez and tungsten letters are not ticker recommendations.
+The rearmament letter names eight companies as the place the growth sits.
+It is not a recommendation to buy or sell any of them, and the FY2027
+figures are a budget request, not an appropriation.
 The Voyager letter is not a recommendation to buy or sell Voyager Technologies stock or its convertible notes.

@@ -10,6 +10,7 @@ related:
   - "@osint-wiki/concepts/western-tungsten-supply-thesis.md"
   - "@osint-wiki/sources/substack-rss-outlier-weekly-2026-09-07-tungsten-furnace-2026-09-07.md"
   - concepts/ceminiparlays-outlier-notes.md
+  - concepts/rearmament-war-profit-outlier-notes.md
 maturity: draft
 created: 2026-08-30
 updated: 2026-10-01
@@ -30,6 +31,7 @@ cross-wiki-source: "`../OSINT WORKSPACE/reports/research/pack-metals-tungsten-pt
 - @concepts/crml-tanbreez-outlier-notes.md — next markets letter in the same queue (**LIVE** 2026-09-14)
 - @osint-wiki/concepts/western-tungsten-supply-thesis.md — prior ALM desk (mention only)
 - @osint-wiki/sources/substack-rss-outlier-weekly-2026-09-07-tungsten-furnace-2026-09-07.md — OSINT RSS ingest of this LIVE letter
+- @concepts/rearmament-war-profit-outlier-notes.md — rearmament / munitions + drones letter, same defense-demand lane (**LIVE** 2026-10-08)
 
 ## Raw Concept
 
