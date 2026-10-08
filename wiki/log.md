@@ -1811,3 +1811,12 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-sparktoro-2026-0
 - **Site** — `sitemap.xml` (+`/rearmament/`, lastmod 2026-10-08); `llms.txt` (owned page, newest letter, claim fence); `index.html` (meta description, JSON-LD ItemList with the new item at position 1, start list, letters list); `about/index.html` (newest letters, investing list).
 - **Wiki** — `concepts/rearmament-war-profit-outlier-notes.md` → LIVE with `substack_url`, `substack_slug`, `hub`; `index.md`; voice page arc row; reciprocal status lines on metals-tungsten and voyg.
 - **Deploy** — operator step. `scripts/deploy.sh` is written for the parent to run after review.
+
+## [2026-10-08] deploy | Outlier Weekly hub — rearmament letter
+
+- Worker `outlierweekly-redirect` deployed from `sites/outlierweekly/`. Version `03789fad-75ba-4c35-87a1-bbd261ba0c0a`.
+- 5 changed assets uploaded: `/rearmament/index.html`, `/index.html`, `/about/index.html`, `/sitemap.xml`, `/llms.txt`. 13 unchanged.
+- Live checks: `/rearmament/` 200 with the correct `<h1>` and canonical; `/sitemap.xml` 200; `/llms.txt` 200.
+- IndexNow ping HTTP 200 for all 11 owned URLs.
+- Wiki pushed: `93d7fb6..6858762` on `main`.
+- Ran from the Terminal panel, not the sandbox: this session's sandbox denies `github.com:443` and `registry.npmjs.org:443`.
