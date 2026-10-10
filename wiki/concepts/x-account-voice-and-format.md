@@ -142,6 +142,7 @@ Operator runs a personal X account across **local wiki / agent tooling / predict
 | OW | Voyager / Starlab — the profit does not cover the paper — @concepts/voyg-outlier-notes.md · paste `briefs/2026-09-25_voyg-outlier.md` · [LIVE letter](https://outlierweekly.substack.com/p/the-profit-does-not-cover-the-paper) · hub `/voyager/` | **LIVE** 2026-09-28. Settlement 28 Sep and the $52.5 million option stay open in the letter. |
 | OW | [War Is Coming. Here Is How to Profit.](https://outlierweekly.substack.com/p/war-is-coming-here-is-how-to-profit) — @concepts/rearmament-war-profit-outlier-notes.md · paste `briefs/2026-10-08_rearmament-war-profit-outlier.md` | **LIVE** 2026-10-08 (Outlier only; X deferred; slug is title-derived; hub `/rearmament/`) |
 | OW4 / X Art. #4 (legacy label) | World Cup Bot CLI runbook — @concepts/world-cup-bot-x-article-runbook-notes.md | superseded by OW5 setup guide |
+| X | Basgiath — Empyrean fan Minecraft mod (Bedrock + Java) — @concepts/basgiath-minecraft-mod-x-article-notes.md · paste `briefs/2026-10-10_basgiath-x-article.md` | **DRAFT** 2026-10-10 (grok → DeepSeek → grok voice → free-model fact-check; not published; share link = GitHub repo) |
 
 ### Cyril (@cyrilXBT) — what reads "AI-assisted but human"
 

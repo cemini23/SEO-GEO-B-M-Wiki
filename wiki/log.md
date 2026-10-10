@@ -10,6 +10,14 @@
 - **Phase-1** — no wire. Both sources are overflow; the config change is a script edit, not a harness wire.
 - **Routing** — none. Nothing in this wave belongs to a federated wiki; the two papers are physics/robotics and the briefs are SEO-lane.
 
+## [2026-10-10] draft | Basgiath X Article (grok → DeepSeek → grok voice → free-model fact-check)
+
+- **Paste-ready** — `briefs/2026-10-10_basgiath-x-article.md` (gitignored). The X Article on **Basgiath**, the operator's free fan Minecraft map and add-on for the Empyrean fandom. The piece links the **GitHub repo** (`github.com/cemini23/basgiath`), because the Modrinth upload did not work.
+- **Repo grew since the notes pass.** A **NeoForge Java port** now joins the Bedrock map. The angle changed to match: **the world is code, so it ports.** One source tree raises the same college on Bedrock and on Java, so the Java work is a code port, not a world conversion.
+- **Pipeline, as the operator specified.** grok first copy (stalled once in a self-imposed word-count loop; a clean re-run used `--max-turns 2` and a prompt that forbids word-counting and narration) → DeepSeek double-check via `claude-ds` (two fixes: the "Fourth Wing books" wording, and a Modrinth present/absent contradiction) → grok voice pass (`--max-turns 6`) → free-model fact-check. OpenRouter `nvidia/nemotron-3-super-120b-a12b:free` read 80 claims / 80 supported / 0 contradicted; `poolside/laguna-s-2.1:free` read 91 / 0 unsupported / 0 contradicted; opencode `opencode/big-pickle` read 83 / 1 unsupported / 0 contradicted. The one flagged claim was the "Fourth Wing series" naming, reworded to "the world of Rebecca Yarros's Fourth Wing".
+- **Rejected lanes** — `thinkingmachines/inkling:free` (403, harness-only), `google/gemma-4-31b-it:free` (429), `opencode/exo-free` (deprecated).
+- **Notes page** — @concepts/basgiath-minecraft-mod-x-article-notes.md status → DRAFT COMPLETE. Outlier Weekly companion still open (unique piece, no reprint).
+
 ## [2026-10-03] notes | Basgiath (Empyrean fan Minecraft mod) X Article queue
 
 - **New page** — @concepts/basgiath-minecraft-mod-x-article-notes.md. Familiarity pass for next week's article on **Basgiath**, the operator's free fan Minecraft **Bedrock** map/add-on for the *Empyrean* fandom (repo `/Users/claudiobarone/Projects/dragon-rider-map`). Draft is **not** written; the operator will say when enough is built.

@@ -8,7 +8,7 @@ related:
 maturity: draft
 created: 2026-10-03
 updated: 2026-10-03
-status: NOTES — familiarity pass done. Draft NOT written. Surfaces: X Article (confirmed) + Outlier Weekly (candidate, unique piece). Operator will say when enough is built.
+status: DRAFT COMPLETE 2026-10-10 (X Article, paste-ready at `briefs/2026-10-10_basgiath-x-article.md`). Title: I Built the Basgiath War College in Minecraft. Share link in the piece = the GitHub repo (Modrinth upload failed). Outlier Weekly companion still open (unique piece, no reprint).
 project_repo: /Users/claudiobarone/Projects/dragon-rider-map
 ---
 
@@ -151,6 +151,65 @@ Article note: the article itself may name *Fourth Wing* (a commentary surface). 
 ### Staleness check (re-verify before drafting)
 
 Book 4 date, the Dragonkind state, and the TikTok totals are all moving. Re-check them at draft time. The durable timing anchors are the Dragonkind **May 2027** countdown and Conscription Day on **July 15**.
+
+## Draft — 2026-10-10 (X Article)
+
+Paste-ready: `briefs/2026-10-10_basgiath-x-article.md`. The piece links the **GitHub repo** (`https://github.com/cemini23/basgiath`), because the Modrinth upload did not work. The repo now carries both editions: the Bedrock map (primary) and the NeoForge Java port.
+
+Pipeline, as the operator specified:
+
+1. **First copy — grok** (`scripts/grok_delegate.sh --inline` the tech brief). It stalled once in a self-imposed word-count loop. A clean re-run used `--max-turns 2` and a prompt that forbids word-counting and narration.
+2. **Double-check — DeepSeek** (`claude-ds -PromptFile ... -Model deepseek-v4-flash`). It found two issues, both fixed: the "Fourth Wing books" wording, and a contradiction between "publishes to Modrinth" and "the Modrinth upload did not work".
+3. **Voice pass — grok** (`--max-turns 6`). Merged the opening, split the Java block. The draft was already free of em dashes.
+4. **Fact-check — free models.**
+   - OpenRouter `nvidia/nemotron-3-super-120b-a12b:free` — 80 claims, 80 supported, 0 contradicted.
+   - OpenRouter `poolside/laguna-s-2.1:free` — 91 claims, 0 unsupported, 0 contradicted.
+   - opencode `opencode/big-pickle` — 83 claims, 82 supported, 1 unsupported, 0 contradicted.
+   - Rejected: `thinkingmachines/inkling:free` (403, harness-only), `google/gemma-4-31b-it:free` (429, rate-limited), `opencode/exo-free` (deprecated).
+5. **Final fix** — the single flagged claim. "the Fourth Wing series by Rebecca Yarros" became "the world of Rebecca Yarros's Fourth Wing", which is accurate (the series is *The Empyrean*; *Fourth Wing* is book one).
+
+All working files are in `briefs/` (gitignored): the tech brief, the prompt files, the drafts, the DeepSeek check, and the three free-model reports.
+
+Still open: the Outlier Weekly companion is not written. Title is settled (place name only, no *Fourth Wing* in the title).
+
+### Title and hero image
+
+**Title:** I Built the Basgiath War College in Minecraft (picked 2026-10-10). Uses the place name only; the body still names *Fourth Wing* once, in the fandom sentence.
+
+**Screenshots (primary).** Six in-game shots are filed at `briefs/2026-10-10_basgiath-images/` (PNG, 2000x920). Place them in this order:
+
+| # | File | Where | Caption |
+|---|------|-------|---------|
+| 1 | `01-parapet-approach.png` | top (hero) | The path at the start. Basgiath rises ahead, in the storm. |
+| 2 | `02-parapet-stairs.png` | after the Parapet paragraph | The climb. Glowing stone, in the rain, straight up to the span. |
+| 3 | `03-the-quad.png` | after the Formation paragraph | The courtyard past the span. Wool standards mark the sections. |
+| 4 | `04-roll-call-square.png` | after image 3 | The squad square. The label reads the wing, the section, and the squad. |
+| 5 | `05-threshing-dell.png` | after the Threshing paragraph | The dell at Threshing. The dragons stand in the open. You do not pick one. |
+| 6 | `06-dragon-flight.png` | after the "custom dimension, `vale`" paragraph | The ride. After the bond, one command puts a dragon on the pad. |
+
+The article with the images placed inline is `briefs/2026-10-10_basgiath-x-article-with-images.md`. The clean paste body stays at `briefs/2026-10-10_basgiath-x-article.md`.
+
+**Generated hero (fallback).** If you want a title card instead of a screenshot, use a voxel scene, not official art.
+
+```text
+Voxel-art hero image, 16:9, wide. A one-block-wide stone bridge spans a deep, dark chasm at night in a storm. Heavy rain streaks, a distant lightning flash, low fog in the gorge. Two blocky stone towers anchor the bridge ends; the far tower carries one warm torch. The deck is a single row of blocks with a two-block gap at the middle. Blocky low-resolution texture aesthetic, like a sandbox building game, flat unlit shading, strong silhouettes, cool blue and grey palette with one warm torch accent. Generous empty storm sky along the top for a title. No people, no characters, no text, no letters, no logos, no watermark, no book art. Not branded as any game.
+```
+
+**Hero image (variant B) — two editions.** For the "one world, two editions" beat.
+
+```text
+Voxel-art hero image, 16:9, split down the middle. The same blocky stone bridge over a storm chasm, shown twice side by side, identical geometry, two lighting treatments to suggest two editions of one world. Cool blue night on the left, colder grey on the right. Blocky low-resolution aesthetic, flat shading, strong silhouettes, empty storm sky along the top for a title. No people, no text, no letters, no logos, no watermark, no book art.
+```
+
+**Hero image (variant C) — a dragon in the distance.** Optional. Keep it a generic blocky creature, never a named character.
+
+```text
+Voxel-art hero image, 16:9. A small blocky low-resolution dragon silhouette circles high above a one-block stone bridge over a storm-lit chasm, tiny against the sky. Blocky aesthetic, flat shading, cool palette, one warm torch accent, generous empty sky along the top for a title. No people, no faces, no text, no letters, no logos, no watermark, no book art, no character likeness.
+```
+
+**Negative prompt (all variants):** people, faces, hands, text, letters, captions, logos, watermarks, book covers, official art, photorealism, lens flare, HUD or UI overlays, brand names.
+
+**IP note.** The image must not copy official art or look like a licensed product. A block-built evocation is safe; a traced cover or Dragonkind art is not. Same rule as `docs/IP-RULES.md` in the repo.
 
 ## Snippets
 
