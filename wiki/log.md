@@ -1,3 +1,12 @@
+## [2026-10-10] voice pass | SWMR Outlier letter — grok pass + finishing touches
+
+- **Brief** — `briefs/2026-10-10_swmr-revenue-outlier.md` (gitignored). Outlier Weekly letter: how Swarmer (NASDAQ: SWMR) makes its revenue, then Ukraine-proven autonomy → the Baltics. Outlier only; X deferred.
+- **Voice pass (stage 3 of the pipeline)** — grok via `scripts/grok_delegate.sh --inline --max-turns 6` (ran in the Terminal panel; the sandbox denies grok.com). A hand pass then merged grok's output with the voice guide. Cuts: three non-compliance "Not X. It is Y." constructions; "The company" ×4 → 0; "It is" openers ×5 → 1. Em dashes were already zero. The CFTC 4.41 footer kept verbatim.
+- **Finishing touches** — added the Erik Prince line (non-executive chairman since December 2025), so the body matches the "Erik Prince" tag. SEO/meta verified: title, subtitle, slug `swarmer-swmr-drone-revenue-outlier`, tags, email subject, word count about 1,485.
+- **Lint** — check 8 dangling fixed: the notes page pointed `@osint-wiki/reports/...` at a desk pack that sits outside the OSINT wiki root. Now a backticked relative path + `cross-wiki-source` frontmatter (the voyg/metals pattern). Checks 2/3/4/8 read 0.
+- **Updated** — @concepts/swmr-revenue-outlier-notes.md (Relations, `cross-wiki-source`, voice log), @concepts/x-account-voice-and-format.md (related + queue row), @wiki/index.md.
+- **Still open** — not posted. The Outlier hub page is not built yet (comes at publish).
+
 ## [2026-10-07] ingest | K285 — 0/2 IN-SCOPE (both OOD) + digest query fix; K277/K278/K279 briefs triaged
 
 - **Inbox** — 2 PDFs. Both out of scope. **No SEO/GEO content this round.**

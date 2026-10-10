@@ -351,6 +351,7 @@ If you're new to this wiki:
 - [ceminiparlays-ceminidfs-x-article-notes](concepts/ceminiparlays-ceminidfs-x-article-notes.md) — CeminiDFS + CeminiParlays X Article **LIVE** 2026-09-12 ([tweet](https://x.com/Cemini23/status/2098862947749515565)) — dfs, pickem, grok-bot
 - [ceminiparlays-outlier-notes](concepts/ceminiparlays-outlier-notes.md) — CeminiParlays Outlier **LIVE** 2026-09-21 ([Substack](https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit); hub `/parlay/`)
 - [rearmament-war-profit-outlier-notes](concepts/rearmament-war-profit-outlier-notes.md) — Rubio Athens speech → rearmament Outlier letter, eight sub-tier names **LIVE** 2026-10-08 ([letter](https://outlierweekly.substack.com/p/war-is-coming-here-is-how-to-profit); hub `/rearmament/`) — defense, munitions, drones, rearmament, outlier
+- [swmr-revenue-outlier-notes](concepts/swmr-revenue-outlier-notes.md) — Swarmer / SWMR drone-swarm software, how it makes its revenue, Ukraine autonomy → Baltics **DRAFT** 2026-10-10 (Outlier only; voice pass done) — defense, drones, ukraine, swmr, outlier
 - [corpus-overflow-out-of-scope](concepts/corpus-overflow-out-of-scope.md) — librarian bookkeeping hub: triaged-out-of-scope source stubs kept for inventory honesty
 
 ## Entities
