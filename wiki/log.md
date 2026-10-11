@@ -5,7 +5,8 @@
 - **Finishing touches** — added the Erik Prince line (non-executive chairman since December 2025), so the body matches the "Erik Prince" tag. SEO/meta verified: title, subtitle, slug `swarmer-swmr-drone-revenue-outlier`, tags, email subject, word count about 1,485.
 - **Lint** — check 8 dangling fixed: the notes page pointed `@osint-wiki/reports/...` at a desk pack that sits outside the OSINT wiki root. Now a backticked relative path + `cross-wiki-source` frontmatter (the voyg/metals pattern). Checks 2/3/4/8 read 0.
 - **Updated** — @concepts/swmr-revenue-outlier-notes.md (Relations, `cross-wiki-source`, voice log), @concepts/x-account-voice-and-format.md (related + queue row), @wiki/index.md.
-- **Still open** — not posted. The Outlier hub page is not built yet (comes at publish).
+- **Scheduled** — Substack, **Monday 12 October 2026, 09:00**. Outlier only. Not live yet.
+- **Still open** — the Outlier hub page is not built yet (comes at publish).
 
 ## [2026-10-07] ingest | K285 — 0/2 IN-SCOPE (both OOD) + digest query fix; K277/K278/K279 briefs triaged
 

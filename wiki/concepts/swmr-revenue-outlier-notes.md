@@ -9,6 +9,8 @@ maturity: draft
 created: 2026-10-10
 updated: 2026-10-10
 cross-wiki-source: "`../OSINT WORKSPACE/reports/research/pack-swmr-long-thesis-20261009/OUTLIER_how-swmr-makes-revenue.md`"
+ship_paste: briefs/2026-10-10_swmr-revenue-outlier.md
+status: SCHEDULED 2026-10-12 09:00 (Substack). Outlier only. Not live yet.
 ---
 
 ## Relations
@@ -17,6 +19,8 @@ cross-wiki-source: "`../OSINT WORKSPACE/reports/research/pack-swmr-long-thesis-2
 - Brief: `briefs/2026-10-10_swmr-revenue-outlier.md`
 - Voice: `@concepts/x-account-voice-and-format.md`
 - Prior letter: War Is Coming. Here Is How to Profit. (2026-10-08)
+
+**Status (10 Oct 2026):** scheduled on Substack for **Monday 12 October 2026, 09:00**. Not live yet. Outlier only; X Article deferred. No hub page yet.
 
 ## Raw Concept
 
