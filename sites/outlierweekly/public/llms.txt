@@ -19,6 +19,7 @@ themselves live on Substack.
 - https://outlierweekly.com/tungsten/
 - https://outlierweekly.com/voyager/
 - https://outlierweekly.com/rearmament/
+- https://outlierweekly.com/swarmer/
 
 ## Letters
 
@@ -27,6 +28,7 @@ RSS: https://outlierweekly.substack.com/feed
 
 Newest, in order:
 
+- https://outlierweekly.substack.com/p/how-a-205-million-drone-stock-makes
 - https://outlierweekly.substack.com/p/war-is-coming-here-is-how-to-profit
 - https://outlierweekly.substack.com/p/the-profit-does-not-cover-the-paper
 - https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit
@@ -49,4 +51,7 @@ Tanbreez and tungsten letters are not ticker recommendations.
 The rearmament letter names eight companies as the place the growth sits.
 It is not a recommendation to buy or sell any of them, and the FY2027
 figures are a budget request, not an appropriation.
+The Swarmer letter explains one company's revenue mechanics. It is not
+a recommendation to buy or sell Swarmer (NASDAQ: SWMR) or Ratel Robotics,
+and the Ratel deal has not closed.
 The Voyager letter is not a recommendation to buy or sell Voyager Technologies stock or its convertible notes.

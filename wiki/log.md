@@ -1,3 +1,11 @@
+## [2026-10-13] publish | SWMR Outlier letter live + owned hub /swarmer/
+
+- **Letter LIVE** — [How a $205 Million Drone Stock Makes Its Revenue](https://outlierweekly.substack.com/p/how-a-205-million-drone-stock-makes) (12 Oct 2026). Outlier only; X deferred. Slug is title-derived (`how-a-205-million-drone-stock-makes`), not the brief's `swarmer-swmr-drone-revenue-outlier`.
+- **New hub** — `sites/outlierweekly/public/swarmer/index.html`. Reads the revenue mechanics and links the letter; no reprint, no live price.
+- **Wiring** — `/swarmer/` added to `sitemap.xml` (lastmod 2026-10-12), `llms.txt` (owned pages, letters list, claim fence), home (JSON-LD `ItemList` position 1, meta description, "Where to start", "Recent letters"), and about ("newest letters" now Swarmer / rearmament / Voyager). The router (`src/index.js`) needed no change; static assets serve the new path.
+- **Deployed** — Worker `outlierweekly-redirect` version `dbca829d-931d-4ace-a5fc-631caf414225`. IndexNow pinged all 12 owned URLs (HTTP 200). Live checks: `/swarmer/`, `/`, `/about/`, `/sitemap.xml`, `/llms.txt` all 200; H1 and canonical correct.
+- **Wiki** — @concepts/swmr-revenue-outlier-notes.md → LIVE with `substack_url`, `substack_slug`, `hub`; @concepts/x-account-voice-and-format.md queue row; @wiki/index.md.
+
 ## [2026-10-10] voice pass | SWMR Outlier letter — grok pass + finishing touches
 
 - **Brief** — `briefs/2026-10-10_swmr-revenue-outlier.md` (gitignored). Outlier Weekly letter: how Swarmer (NASDAQ: SWMR) makes its revenue, then Ukraine-proven autonomy → the Baltics. Outlier only; X deferred.
