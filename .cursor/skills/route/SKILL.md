@@ -10,7 +10,7 @@ description: >-
   not TipDrop-specific.
 license: MIT
 metadata.author: cemini23
-metadata.version: "2.4.3"
+metadata.version: "2.5.0"
 federation: true
 ---
 
@@ -107,7 +107,7 @@ Run logs: `agent-toolkit/briefs/handoffs/_route_runs/`. Parent summaries must in
 
 **Official DeepSeek Harness** (`@deepseek-ai/dsh`, pin via `install-dsh.ps1`) is the `/route` worker behind the `claude-ds` PATH name (operator GO 2026-08-14). `-Model` writes a per-job `dsh --patch` overlay (`deepseek-flash` = V4.1 Flash). Legacy `deepseek-v4-flash` / `deepseek-v4-flash-vision-exp` / `deepseek-v4-pro` aliases map here. V4 Pro is **off rotation** (V4.1 Flash is stronger). Always-approve is `DSH_PERMISSION_MODE=danger-full-access`. PromptFile is a file path inside the headless task (not `cat` into argv). Isolated Claude Code at `~/.deepseek-claude` remains **fallback only**. Do **not** put `dsh` on PATH or replace `claude-ds` with OpenCode. Wiki: `entities/tools/deepseek-harness.md`. Prod Node 20 stays; dsh uses a Node 24 sidecar.
 
-**OpenCode sidecar (v2.4.1):** `opencode run --auto --dir <WorkDir> --model <id>` with prompt from a file (no `$` interpolation). Empty / alias `free` = **live Zen free pick** (`GET https://opencode.ai/zen/v1/models`, ~15 min cache) — Ox Alpha wins **while it is still listed free**, then other coding free models, then generic `-free`, then may-train free (Big Pickle / Hy3). Do **not** lock one id. Pin with `ROUTE_OPENCODE_MODEL`. Offline fallback only: `opencode/x-preview-f-free`. Inspect: `pwsh -File scripts/select-opencode-zen-free-model.ps1`. Missing binary / auth fail = skip to next fallback. Install: `pwsh -File scripts/install-opencode.ps1` (npm only, never curl|bash) then human `opencode auth login`. `ROUTE_SKIP_OPENCODE=1` disables the sidecar.
+**OpenCode sidecar (v2.4.1):** `opencode run --auto --dir <WorkDir> --model <id>` with prompt from a file (no `$` interpolation). Empty / alias `free` = **live Zen free pick** (`GET https://opencode.ai/zen/v1/models`, ~15 min cache) — strongest listed-free coding model (ultra/pro/max over flash/lite; coding families over may-train / contributor-free). Do **not** lock one id. Pin with `ROUTE_OPENCODE_MODEL`. Offline fallback only: `opencode/x-preview-f-free`. Inspect: `pwsh -File scripts/select-opencode-zen-free-model.ps1`. Missing binary / auth fail = skip to next fallback. Install: `pwsh -File scripts/install-opencode.ps1` (npm only, never curl|bash) then human `opencode auth login`. `ROUTE_SKIP_OPENCODE=1` disables the sidecar.
 
 Public cursor-route 0.1.10 added `--worker opencode` with Zen free models. Private `/route` steals that adapter as a sidecar; mid plan stays Grok; PATH `claude-ds` is unchanged.
 
@@ -147,6 +147,19 @@ When watchdog fires, parent Cursor **may** implement from the SIP handoff; still
 | **money** | Scoring, Stripe, Greeks, P&L, LIVE / ship | **Same as hard** + stricter money guardrails. Do not auto-LIVE. |
 | **ambiguous** | Unclear | Ask: easy / mid / hard / money? |
 
+### Pre-run decision rule (apply BEFORE announcing a lane)
+
+Use only what is knowable **before** the run starts: `WorkDir`, target file types, target file count.
+
+1. **money** — ONLY when `WorkDir` is a software repo AND the target touches live billing (Stripe / LicenseSeat), crypto or vault keys (`Ed25519` / `truth.ged`), `watches.json`, live Discord webhooks, or package publishing. **Markdown-only edits are never money.**
+2. **easy** — all target paths are `.md` / `.txt`, count ≤ 2, and `## Verify` is a file-existence or static-lint check.
+3. **mid (default)** — `WorkDir` is any wiki or hub repo, regardless of how many `.md` / `.mdc` files are touched; OR `WorkDir` is a software repo and the task changes **≤ 2** executable source files without touching a shared schema, state machine, or build config.
+4. **hard** — ONLY when the task changes **≥ 3** executable source files, **or** alters a shared data schema / state machine / concurrency lock, **or** edits a build or packaging manifest (`pyproject.toml`, `Dockerfile`, `tauri.conf.json`).
+
+**Why this rule exists.** A 295-run sample showed **48% of runs landing on `hard`** (141 of 295). The usual cause is the multi-file escalation heuristic firing on wiki ingests, which touch 3–15 markdown files by ingest rule — markdown volume is not implementation difficulty. In that same sample most `hard` runs executed inside markdown repos, and many `hard` runs exited non-zero having already fallen back from Grok to Flash: the premium lane bought nothing. Route wiki work and ≤2-file edits to **mid**.
+
+**Cost asymmetry.** Mis-routing **downward** costs ~1 minute: the free legs have no tool access, so `## Verify` catches the non-edit and the run retries on `mid`. Mis-routing **upward** spends non-renewable premium quota plus ~5 minutes of human handoff authoring. When the rule and your instinct disagree, prefer the cheaper lane.
+
 **Fallbacks:** never hard-stop on first provider credit/usage failure - walk the chain. Grok **auth** still prints `grok login`; with usable Plan prefer Flash then OpenCode before Cursor Grok.
 
 Force prefixes: `easy:`, `mid:` / `deepseek:` / `opencode:`, `hard:`, `money:` (first line of multi-line prompts). Bare mentions of "DeepSeek" in NEVER lists do **not** force mid - use `use deepseek` or `deepseek:` prefix. `opencode:` is mid with OpenCode-first execute (same cheap chain).
@@ -163,7 +176,7 @@ Force prefixes: `easy:`, `mid:` / `deepseek:` / `opencode:`, `hard:`, `money:` (
 2. Hard **and money**: Cursor premium writes plan; Grok CLI implements. Grok usage out: **Flash**, then **OpenCode**. Parent Cursor only as Cursor Grok fallback.
 3. Money: same execute path as hard; require LIVE OK for live flips.
 4. On provider credit/auth failure: try next fallback leg **and notify** (console banner + Desktop `ROUTE-FALLBACK-NOTICE.txt` with top-up link).
-5. No secrets in handoff files. No LIVE Discord unless user says LIVE OK. **Do not send secrets to free OpenRouter or OpenCode Zen models** (they may log/train). Live pick prefers Ox Alpha while it is free (zero-retention) over may-train models like `opencode/big-pickle`; pin with `ROUTE_OPENCODE_MODEL` if you need a frozen id.
+5. No secrets in handoff files. No LIVE Discord unless user says LIVE OK. **Do not send secrets to free OpenRouter or OpenCode Zen models** (they may log/train). Live pick ranks the strongest listed-free coding model and demotes may-train ids like `opencode/big-pickle`; pin with `ROUTE_OPENCODE_MODEL` if you need a frozen id.
 6. **Always pass always-approve** on Grok + OpenCode `--auto` + claude-ds unless the operator explicitly requested ask mode (`-NoApprove` / `ROUTE_OPENCODE_ASK=1` / `CLAUDE_DS_ASK=1`).
 7. K172 carve-out: only the reviewed handoff path (`handoff-to-grok.ps1` / `route-task`) with scoped `--cwd`, secret deny rules, and optional `--sandbox workspace`. No free-form `grok` against home trees.
 8. Mid Grok **usage** failure → **Flash family plans** then cheap execute (or fill Plan then `-SkipGrokPlan`). Mid Grok **auth** → `grok login`. Hard Grok failure + Plan → Flash then OpenCode; else **Cursor Grok implement**.
@@ -187,6 +200,18 @@ $env:ROUTE_SKIP_OPENCODE = "1"  # this run: skip Zen sidecar
 .\scripts\select-openrouter-free-model.ps1  # print best live OpenRouter free model id
 .\scripts\select-opencode-zen-free-model.ps1  # print best live Zen free model id
 ```
+
+
+## Step-gate + federation skill ship (K312/K373)
+
+- **PreToolUse HOLD** blocks Cursor Write/Edit/Bash that mention `.cursor/skills` mutation.
+- **Route implement** for new federation skills: Grok/isolated agent **or**:
+  ```bash
+  python3 scripts/federation_skill_install.py write --name X --body-file /tmp/body.md
+  python3 scripts/federation_skill_install.py sync
+  ```
+- **Never** parent Cursor Write to `.cursor/skills` after `/route` returns a draft.
+- **Mid/hard skill/harness leftovers:** route to Grok CLI implement with **commit + sync** in handoff `## Verify`.
 
 ## Related
 
