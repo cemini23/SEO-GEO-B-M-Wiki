@@ -26,8 +26,11 @@ violations=()
 
 while IFS= read -r f; do
     [[ -z "$f" ]] && continue
-    # .env at any path depth, with or without a suffix (.env, .env.local, etc.)
-    if [[ "$(basename "$f")" =~ ^\.env(\..*)?$ ]]; then
+    # .env at any path depth, with or without a suffix (.env, .env.local, etc.).
+    # Templates are exempt: .env.example documents where the real key goes and carries
+    # no value. Exempted 2026-10-14.
+    base="$(basename "$f")"
+    if [[ "$base" =~ ^\.env(\..*)?$ && ! "$base" =~ ^\.env\.(example|sample|template)$ ]]; then
         violations+=("FILENAME — $f (matches .env*)")
     fi
     # .DS_Store at any path depth
