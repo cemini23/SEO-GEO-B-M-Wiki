@@ -17,10 +17,59 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://outlierweekly.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Methodology", "item": "https://outlierweekly.com/methodology/" }
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://outlierweekly.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Methodology", "item": "https://outlierweekly.com/methodology/" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How often does Outlier Weekly publish?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "One letter a week. Every issue publishes on Substack, and the archive lists them in order, newest first. Each letter is dated, and each hub page on this site names the issue it describes and links to the canonical copy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does it cost anything to read?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The letters are free to read on Substack, and the hub pages on this site are free too. A free subscribe sends new issues to your inbox, and the archive stays open to anyone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who writes it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Outlier Weekly is written by Cemini23. The letters publish on Substack. The hub pages on this site describe what each letter found and where to read it. They do not reprint the letter, and they do not carry a live price."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this investment advice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The letters and these pages are research and commentary. They are not a solicitation to buy, sell, or bet, and nothing here is a recommendation. The decision to act on any number stays with the reader."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is an issue different from a newsletter roundup?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An issue takes one subject and names it in the title. It shows the numbers that decide the write-up, says where the public story and those numbers disagree, and ends with one conclusion: a position, a pass, or a product fact. A roundup covers many items in one send."
+            }
+          }
+        ]
+      }
     ]
   }
   </script>
@@ -75,6 +124,24 @@
         <li><strong>Not a guarantee.</strong> A number that disagrees with the crowd can be wrong. The letters record both outcomes.</li>
         <li><strong>Not investment advice.</strong> The letters are research and commentary, not a solicitation to buy, sell, or bet.</li>
       </ul>
+    </div>
+
+    <h2>Common questions</h2>
+    <div class="card">
+      <h3>How often does Outlier Weekly publish?</h3>
+      <p>One letter a week. Every issue publishes on Substack, and the archive lists them in order, newest first. Each letter is dated, and each hub page on this site names the issue it describes and links to the canonical copy.</p>
+
+      <h3>Does it cost anything to read?</h3>
+      <p>No. The letters are free to read on Substack, and the hub pages on this site are free too. A free subscribe sends new issues to your inbox, and the archive stays open to anyone.</p>
+
+      <h3>Who writes it?</h3>
+      <p>Outlier Weekly is written by Cemini23. The letters publish on Substack. The hub pages on this site describe what each letter found and where to read it. They do not reprint the letter, and they do not carry a live price.</p>
+
+      <h3>Is this investment advice?</h3>
+      <p>No. The letters and these pages are research and commentary. They are not a solicitation to buy, sell, or bet, and nothing here is a recommendation. The decision to act on any number stays with the reader.</p>
+
+      <h3>How is an issue different from a newsletter roundup?</h3>
+      <p>An issue takes one subject and names it in the title. It shows the numbers that decide the write-up, says where the public story and those numbers disagree, and ends with one conclusion: a position, a pass, or a product fact. A roundup covers many items in one send.</p>
     </div>
 
     <div class="note">The reader-facing Methodology page on Substack is <a href="https://outlierweekly.substack.com/p/methodology">outlierweekly.substack.com/p/methodology</a>. Letters stay in the <a href="https://outlierweekly.substack.com/archive">archive</a>.</div>
