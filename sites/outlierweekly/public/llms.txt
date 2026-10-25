@@ -8,36 +8,36 @@ themselves live on Substack.
 
 ## Owned pages
 
-- https://outlierweekly.com/
-- https://outlierweekly.com/about/
-- https://outlierweekly.com/methodology/
-- https://outlierweekly.com/atto/
-- https://outlierweekly.com/guruwatcher/
-- https://outlierweekly.com/spcx-anthropic/
-- https://outlierweekly.com/parlay/
-- https://outlierweekly.com/tanbreez/
-- https://outlierweekly.com/tungsten/
-- https://outlierweekly.com/voyager/
-- https://outlierweekly.com/rearmament/
-- https://outlierweekly.com/swarmer/
+- [Home](https://outlierweekly.com/)
+- [About](https://outlierweekly.com/about/)
+- [Methodology](https://outlierweekly.com/methodology/)
+- [Atto](https://outlierweekly.com/atto/)
+- [GuruWatcher](https://outlierweekly.com/guruwatcher/)
+- [SPCX / Anthropic](https://outlierweekly.com/spcx-anthropic/)
+- [Parlay](https://outlierweekly.com/parlay/)
+- [Tanbreez](https://outlierweekly.com/tanbreez/)
+- [Tungsten](https://outlierweekly.com/tungsten/)
+- [Voyager](https://outlierweekly.com/voyager/)
+- [Rearmament](https://outlierweekly.com/rearmament/)
+- [Swarmer](https://outlierweekly.com/swarmer/)
 
 ## Letters
 
-Letters live on https://outlierweekly.substack.com/ (canonical).
-RSS: https://outlierweekly.substack.com/feed
+Letters live on [outlierweekly.substack.com](https://outlierweekly.substack.com/) (canonical).
+[RSS feed](https://outlierweekly.substack.com/feed).
 
 Newest, in order:
 
-- https://outlierweekly.substack.com/p/how-a-205-million-drone-stock-makes
-- https://outlierweekly.substack.com/p/war-is-coming-here-is-how-to-profit
-- https://outlierweekly.substack.com/p/the-profit-does-not-cover-the-paper
-- https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit
-- https://outlierweekly.substack.com/p/the-greenland-license-is-real-the
-- https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten
-- https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone
-- https://outlierweekly.substack.com/p/the-short-is-not-the-perp-it-is-the
-- https://outlierweekly.substack.com/p/the-hard-part-was-never-caring-about
-- https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter
+- [How a $205 Million Drone Stock Makes Its Revenue](https://outlierweekly.substack.com/p/how-a-205-million-drone-stock-makes) — 12 October 2026. Hub: [Swarmer](https://outlierweekly.com/swarmer/).
+- [War Is Coming. Here Is How to Profit.](https://outlierweekly.substack.com/p/war-is-coming-here-is-how-to-profit) — 8 October 2026. Hub: [Rearmament](https://outlierweekly.com/rearmament/).
+- [The Profit Does Not Cover the Paper](https://outlierweekly.substack.com/p/the-profit-does-not-cover-the-paper) — 28 September 2026. Hub: [Voyager](https://outlierweekly.com/voyager/).
+- [The Parlay Is the Price on the Submit Screen.](https://outlierweekly.substack.com/p/the-parlay-is-the-price-on-the-submit) — 21 September 2026. Hub: [Parlay](https://outlierweekly.com/parlay/).
+- [The Greenland license is real. The mine is still an option.](https://outlierweekly.substack.com/p/the-greenland-license-is-real-the) — 14 September 2026. Hub: [Tanbreez](https://outlierweekly.com/tanbreez/).
+- [The war is a metals furnace. Tungsten is the one that does not grow back fast.](https://outlierweekly.substack.com/p/the-war-is-a-metals-furnace-tungsten) — 7 September 2026. Hub: [Tungsten](https://outlierweekly.com/tungsten/).
+- [The Netflix look gave GTA 6 a phone. It did not give it a cashout.](https://outlierweekly.substack.com/p/the-netflix-look-gave-gta-6-a-phone) — 31 August 2026.
+- [The Short Is Not the Perp. It Is the Listing.](https://outlierweekly.substack.com/p/the-short-is-not-the-perp-it-is-the) — 24 August 2026. Hub: [SPCX / Anthropic](https://outlierweekly.com/spcx-anthropic/).
+- [The Hard Part Was Never Caring About Italy. It Was the Paperwork.](https://outlierweekly.substack.com/p/the-hard-part-was-never-caring-about) — 11 August 2026. Hub: [Atto](https://outlierweekly.com/atto/).
+- [Discord Only Fires When the Newsletter Level Is Real](https://outlierweekly.substack.com/p/discord-only-fires-when-the-newsletter) — 28 July 2026. Hub: [GuruWatcher](https://outlierweekly.com/guruwatcher/).
 
 ## Claim fence
 
