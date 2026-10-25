@@ -314,3 +314,6 @@ code {
     margin-left: 0;
   }
 }
+
+.skip{position:absolute;left:-9999px;top:0;background:#fff;color:#111;padding:.5rem .75rem;z-index:100}
+.skip:focus{left:.5rem;top:.5rem}
