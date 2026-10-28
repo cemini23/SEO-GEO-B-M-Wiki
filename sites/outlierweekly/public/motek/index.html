@@ -515,16 +515,12 @@ function loadState() {
     if (Array.isArray(s.missed)) missedQuestions = s.missed;
     if (s.answered && typeof s.answered === "object") answeredState = s.answered;
 
-    // Older saves stored an option index. Convert it to option text, the
-    // format this build uses.
-    const byPrompt = new Map(ALL_QUESTIONS.map(q => [q.q, q]));
+    // Older saves stored an option index, which cannot be mapped onto a
+    // reshuffled option list. Drop those entries; the missed bank stays.
     Object.keys(answeredState).forEach(prompt => {
-      const value = answeredState[prompt];
-      if (typeof value !== "number") return;
-      const q = byPrompt.get(prompt);
-      if (q && q.opts[value] !== undefined) answeredState[prompt] = q.opts[value];
-      else delete answeredState[prompt];
+      if (typeof answeredState[prompt] === "number") delete answeredState[prompt];
     });
+    const byPrompt = new Map(ALL_QUESTIONS.map(q => [q.q, q]));
     if (typeof s.streak === "number") streak = s.streak;
     if (typeof s.currentIndex === "number") currentIndex = s.currentIndex;
     if (Array.isArray(s.deck) && s.deck.length === EXAM_SIZE) {
