@@ -482,11 +482,13 @@ let missedQuestions = [];
 let answeredState = {};
 let fcIndex = 0;
 
+// Answers are stored as the chosen option text, not its index: options are
+// reshuffled on every page load, so an index would point at a new option later.
 function deckScore() {
   const answered = activeDeck.filter(q => answeredState[q.q] !== undefined);
   return {
     answered: answered.length,
-    score: answered.filter(q => answeredState[q.q] === q.ans).length
+    score: answered.filter(q => answeredState[q.q] === q.opts[q.ans]).length
   };
 }
 
@@ -512,10 +514,20 @@ function loadState() {
     const s = JSON.parse(raw);
     if (Array.isArray(s.missed)) missedQuestions = s.missed;
     if (s.answered && typeof s.answered === "object") answeredState = s.answered;
+
+    // Older saves stored an option index. Convert it to option text, the
+    // format this build uses.
+    const byPrompt = new Map(ALL_QUESTIONS.map(q => [q.q, q]));
+    Object.keys(answeredState).forEach(prompt => {
+      const value = answeredState[prompt];
+      if (typeof value !== "number") return;
+      const q = byPrompt.get(prompt);
+      if (q && q.opts[value] !== undefined) answeredState[prompt] = q.opts[value];
+      else delete answeredState[prompt];
+    });
     if (typeof s.streak === "number") streak = s.streak;
     if (typeof s.currentIndex === "number") currentIndex = s.currentIndex;
     if (Array.isArray(s.deck) && s.deck.length === EXAM_SIZE) {
-      const byPrompt = new Map(ALL_QUESTIONS.map(q => [q.q, q]));
       const rebuilt = s.deck.map(prompt => byPrompt.get(prompt)).filter(Boolean);
       if (rebuilt.length === EXAM_SIZE) EXAM_DECK = rebuilt;
     }
@@ -653,7 +665,8 @@ function renderQuestion() {
   document.getElementById("q-prompt").textContent = qObj.q;
 
   const letters = ["A", "B", "C", "D"];
-  const prevAnswer = answeredState[qObj.q];
+  const prevText = answeredState[qObj.q];
+  const prevAnswer = prevText === undefined ? undefined : qObj.opts.indexOf(prevText);
   optsEl.innerHTML = "";
 
   qObj.opts.forEach((opt, i) => {
@@ -693,7 +706,7 @@ function selectAnswer(choice) {
   if (answeredState[qObj.q] !== undefined) return;
   if (choice < 0 || choice >= qObj.opts.length) return;
 
-  answeredState[qObj.q] = choice;
+  answeredState[qObj.q] = qObj.opts[choice];
   if (choice === qObj.ans) {
     streak++;
     missedQuestions = missedQuestions.filter(m => m.q !== qObj.q);
