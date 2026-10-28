@@ -12,6 +12,7 @@ themselves live on Substack.
 - [About](https://outlierweekly.com/about/)
 - [Methodology](https://outlierweekly.com/methodology/)
 - [Atto](https://outlierweekly.com/atto/)
+- [Historical Atlas](https://outlierweekly.com/atlas/)
 - [GuruWatcher](https://outlierweekly.com/guruwatcher/)
 - [SPCX / Anthropic](https://outlierweekly.com/spcx-anthropic/)
 - [Parlay](https://outlierweekly.com/parlay/)
@@ -28,6 +29,7 @@ Letters live on [outlierweekly.substack.com](https://outlierweekly.substack.com/
 
 Newest, in order:
 
+- [The Town Changed Its Name. The Map Should Not Guess.](https://outlierweekly.substack.com/p/the-town-changed-its-name-the-map) — 26 October 2026. Hub: [Historical Atlas](https://outlierweekly.com/atlas/).
 - [How a $205 Million Drone Stock Makes Its Revenue](https://outlierweekly.substack.com/p/how-a-205-million-drone-stock-makes) — 12 October 2026. Hub: [Swarmer](https://outlierweekly.com/swarmer/).
 - [War Is Coming. Here Is How to Profit.](https://outlierweekly.substack.com/p/war-is-coming-here-is-how-to-profit) — 8 October 2026. Hub: [Rearmament](https://outlierweekly.com/rearmament/).
 - [The Profit Does Not Cover the Paper](https://outlierweekly.substack.com/p/the-profit-does-not-cover-the-paper) — 28 September 2026. Hub: [Voyager](https://outlierweekly.com/voyager/).
@@ -55,3 +57,4 @@ The Swarmer letter explains one company's revenue mechanics. It is not
 a recommendation to buy or sell Swarmer (NASDAQ: SWMR) or Ratel Robotics,
 and the Ratel deal has not closed.
 The Voyager letter is not a recommendation to buy or sell Voyager Technologies stock or its convertible notes.
+The atlas letter describes a free historical lookup. Archive names are research leads, not legal or citizenship advice, and the surname tool is a linguistic estimate, not a census.
