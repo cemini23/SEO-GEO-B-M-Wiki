@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow, noarchive">
 <meta name="googlebot" content="noindex, nofollow, noarchive">
 <title>Motek Server Exam — Hard Mode</title>
@@ -93,7 +93,7 @@
       <div class="badge" id="q-cat">Category</div>
       <div class="q-text" id="q-prompt">Loading...</div>
       <div class="options" id="q-options"></div>
-      <div class="explain" id="q-explain"></div>
+      <div class="explain" id="q-explain" aria-live="polite"></div>
       <div class="controls">
         <span style="color:var(--muted);font-size:0.8rem;">Tap option or press <b>1-4 / A-D</b> • <b>Space / Enter</b> next</span>
         <div style="display:flex;gap:8px;">
@@ -539,9 +539,10 @@ function mutateAllergy(allergy, variant) {
   const out = parts.slice();
   const idx = variant % out.length;
   const replacement = candidates[(variant * 3) % candidates.length];
-  // Match the letter case of the item being replaced so the odd one out
-  // does not stand out.
-  out[idx] = out[idx] === out[idx].toLowerCase() ? replacement.toLowerCase() : replacement;
+  // Follow the casing of the item being replaced, so the odd one out does
+  // not stand out on the printed line.
+  const lowerStart = out[idx].charAt(0) === out[idx].charAt(0).toLowerCase();
+  out[idx] = lowerStart ? replacement.toLowerCase() : replacement;
   const text = out.join(", ");
   return norm(text) === norm(allergy) ? null : text;
 }
@@ -585,10 +586,13 @@ function buildQuestionBank() {
     const ingLower = item.ing.toLowerCase();
     // A decoy must not appear anywhere in this dish, even as part of a longer
     // phrase ("Tahini" inside "Lemon tahini" would make an EXCEPT question wrong).
+    const sectionIngredients = [...new Set(peers.flatMap(d => splitList(d.ing)))];
     const decoyPool = [
-      ...new Set(peers.flatMap(d => splitList(d.ing))),
+      ...sectionIngredients,
       ...new Set(MENU_DB.flatMap(d => d.name === item.name ? [] : splitList(d.ing)))
     ].filter(d => d.length < 45 && !ingLower.includes(norm(d)));
+    // EXCEPT decoys stay inside the dish's own menu section.
+    const sectionDecoys = decoyPool.filter(d => sectionIngredients.includes(d));
     const servedPool = [
       ...new Set(peers.flatMap(d => splitList(d.served))),
       ...allServed
@@ -615,7 +619,8 @@ function buildQuestionBank() {
     // 2. EXCEPT: three real ingredients plus one decoy from a sibling dish.
     if (parts.length >= 4) {
       const real = parts.filter(p => p.length < 45).slice(0, 3);
-      const decoys = decoyPool.filter(d => d.length < 40 && !parts.some(p => norm(p) === norm(d)));
+      const pool = sectionDecoys.length ? sectionDecoys : decoyPool;
+      const decoys = pool.filter(d => d.length < 40 && !parts.some(p => norm(p) === norm(d)));
       if (real.length === 3 && decoys.length) {
         const avg = real.reduce((n, p) => n + p.length, 0) / real.length;
         const decoy = decoys.slice().sort((a, b) => Math.abs(a.length - avg) - Math.abs(b.length - avg))[0];
