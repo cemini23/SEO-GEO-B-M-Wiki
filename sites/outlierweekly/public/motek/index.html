@@ -492,12 +492,17 @@ function deckScore() {
 
 function saveState() {
   try {
-    localStorage.setItem(STORE_KEY, JSON.stringify({
+    const payload = {
       missed: missedQuestions,
       answered: answeredState,
       streak,
       currentIndex
-    }));
+    };
+    // Keep the full exam order so a mid-exam refresh resumes the same deck.
+    if (currentMode === "quiz" && document.getElementById("cat-filter").value === "ALL") {
+      payload.deck = activeDeck.map(q => q.q);
+    }
+    localStorage.setItem(STORE_KEY, JSON.stringify(payload));
   } catch (e) {}
 }
 
@@ -510,6 +515,11 @@ function loadState() {
     if (s.answered && typeof s.answered === "object") answeredState = s.answered;
     if (typeof s.streak === "number") streak = s.streak;
     if (typeof s.currentIndex === "number") currentIndex = s.currentIndex;
+    if (Array.isArray(s.deck) && s.deck.length === EXAM_SIZE) {
+      const byPrompt = new Map(ALL_QUESTIONS.map(q => [q.q, q]));
+      const rebuilt = s.deck.map(prompt => byPrompt.get(prompt)).filter(Boolean);
+      if (rebuilt.length === EXAM_SIZE) EXAM_DECK = rebuilt;
+    }
   } catch (e) {}
   document.getElementById("missed-count").textContent = missedQuestions.length;
 }

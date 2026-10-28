@@ -89,11 +89,14 @@ export default {
       );
     }
 
-    // Unlisted app: serve the page at /motek with no trailing-slash redirect,
-    // and stamp noindex on the response as well as in the document head.
+    // Unlisted app: serve /motek directly, without a trailing-slash hop, and
+    // stamp noindex on the response as well as in the document head.
+    // The asset path needs the trailing slash: assets 307s "/dir/index.html".
     if (isUnlistedPath(pathname)) {
       const assetUrl = new URL(request.url);
-      assetUrl.pathname = "/motek/index.html";
+      if (!assetUrl.pathname.endsWith("/")) {
+        assetUrl.pathname = `${stripTrailingSlash(assetUrl.pathname)}/`;
+      }
       const unlisted = await env.ASSETS.fetch(new Request(assetUrl, request));
       const out = withSecurityHeaders(unlisted);
       out.headers.set("X-Robots-Tag", NOINDEX_HEADER);
