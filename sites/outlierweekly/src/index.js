@@ -31,6 +31,16 @@ function isSubstackPath(pathname) {
   );
 }
 
+// Unlisted surfaces: not in sitemap.xml, not linked from any hub, and noindex
+// on both the document meta and the response header.
+const UNLISTED_PREFIXES = ["/motek"];
+const NOINDEX_HEADER = "noindex, nofollow, noarchive";
+
+function isUnlistedPath(pathname) {
+  const p = stripTrailingSlash(pathname).toLowerCase();
+  return UNLISTED_PREFIXES.some((prefix) => p === prefix || p.startsWith(`${prefix}/`));
+}
+
 function withSecurityHeaders(response) {
   const out = new Response(response.body, response);
   for (const [key, value] of Object.entries(SECURITY_HEADERS)) {
@@ -77,6 +87,17 @@ export default {
         `https://${APEX_HOST}/spcx-anthropic/${url.search}`,
         301
       );
+    }
+
+    // Unlisted app: serve the page at /motek with no trailing-slash redirect,
+    // and stamp noindex on the response as well as in the document head.
+    if (isUnlistedPath(pathname)) {
+      const assetUrl = new URL(request.url);
+      assetUrl.pathname = "/motek/index.html";
+      const unlisted = await env.ASSETS.fetch(new Request(assetUrl, request));
+      const out = withSecurityHeaders(unlisted);
+      out.headers.set("X-Robots-Tag", NOINDEX_HEADER);
+      return out;
     }
 
     // Everything else: serve owned static assets. Unknown paths use

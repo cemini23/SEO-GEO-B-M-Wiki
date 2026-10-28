@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+<title>Motek Menu Exam Simulator</title>
+<style>
+  :root {
+    --bg: #0f172a; --card: #1e293b; --border: #334155;
+    --text: #f8fafc; --muted: #94a3b8; --accent: #eab308;
+    --green: #22c55e; --red: #ef4444; --blue: #38bdf8;
+  }
+  * { box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; background: var(--bg); color: var(--text); padding: 14px; }
+  .container { max-width: 920px; margin: 0 auto; padding-bottom: 40px; }
+  header { display: flex; flex-direction: column; gap: 12px; border-bottom: 1px solid var(--border); padding-bottom: 14px; margin-bottom: 16px; }
+  .top-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+  h1 { margin: 0; font-size: 1.3rem; color: var(--accent); }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; }
+  button, select { background: var(--card); color: var(--text); border: 1px solid var(--border); padding: 9px 13px; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 0.88rem; transition: 0.15s; white-space: nowrap; }
+  button:hover { border-color: var(--accent); }
+  button.active { background: var(--accent); color: #000; border-color: var(--accent); }
+  .stats-bar { display: flex; gap: 12px; background: var(--card); padding: 10px 14px; border-radius: 10px; margin-bottom: 14px; border: 1px solid var(--border); flex-wrap: wrap; align-items: center; justify-content: space-between; }
+  .stat { font-size: 0.85rem; color: var(--muted); }
+  .stat strong { color: var(--text); font-size: 1rem; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; margin-bottom: 16px; }
+  .badge { display: inline-block; padding: 4px 10px; border-radius: 99px; font-size: 0.75rem; font-weight: 700; background: #334155; color: var(--accent); margin-bottom: 10px; }
+  .q-text { font-size: 1.12rem; font-weight: 600; line-height: 1.45; margin-bottom: 16px; }
+  .options { display: grid; gap: 10px; }
+  .opt-btn { width: 100%; text-align: left; padding: 14px; font-size: 0.96rem; border-radius: 10px; background: #0f172a; border: 1px solid var(--border); display: flex; gap: 12px; align-items: flex-start; line-height: 1.4; white-space: normal; }
+  .opt-btn:hover:not(:disabled) { border-color: var(--blue); background: #162238; }
+  .opt-btn.correct { background: rgba(34, 197, 94, 0.18); border-color: var(--green); color: #bbf7d0; }
+  .opt-btn.wrong { background: rgba(239, 68, 68, 0.18); border-color: var(--red); color: #fecaca; }
+  .key-hint { background: var(--border); color: var(--text); border-radius: 5px; padding: 2px 7px; font-size: 0.78rem; font-weight: 700; flex-shrink: 0; }
+  .explain { margin-top: 14px; padding: 13px; border-radius: 8px; background: #0f172a; border-left: 4px solid var(--accent); font-size: 0.92rem; line-height: 1.5; display: none; }
+  .controls { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; gap: 10px; flex-wrap: wrap; }
+  .search-input { width: 100%; padding: 12px 14px; border-radius: 8px; border: 1px solid var(--border); background: #0f172a; color: var(--text); font-size: 0.98rem; margin-bottom: 14px; }
+  .db-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  .db-item { background: #0f172a; border: 1px solid var(--border); border-radius: 10px; padding: 14px; font-size: 0.88rem; line-height: 1.45; }
+  .db-item h3 { margin: 0 0 6px 0; color: var(--accent); font-size: 1rem; }
+  .db-meta { margin-top: 6px; color: var(--muted); }
+  .db-meta b { color: var(--text); }
+  .allergy-pill { color: #fca5a5; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.88rem; }
+  th, td { border: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; }
+  th { background: #0f172a; color: var(--accent); }
+  .tiny-note { color: var(--muted); font-size: 0.78rem; margin-top: 26px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="top-row">
+      <h1>🍽️ Motek Menu Test Simulator</h1>
+      <div style="display:flex;gap:6px;align-items:center;">
+        <select id="cat-filter" onchange="applyCategoryFilter()">
+          <option value="ALL" id="cat-all">All Categories</option>
+          <option value="Brunch">Brunch &amp; Omelets</option>
+          <option value="Hummus">Hummus &amp; Cold Mezze/Dips</option>
+          <option value="Flatbreads">Laffa &amp; Flatbreads</option>
+          <option value="Hot Mezze">Hot Mezze &amp; Skewers</option>
+          <option value="Raw">Raw Bar &amp; Salads</option>
+          <option value="Sandwiches">Sandwiches &amp; Burgers</option>
+          <option value="Mains">Steaks, Kebabs, Plates &amp; Fish</option>
+          <option value="Bowls">Bowls, Bases &amp; Sides</option>
+          <option value="Sauces">Breads, Sauces &amp; Pickles</option>
+          <option value="Desserts">Desserts &amp; Drinks</option>
+        </select>
+        <button onclick="resetStorage()" title="Clear saved progress">↺ Reset</button>
+      </div>
+    </div>
+    <div class="tabs">
+      <button id="tab-quiz" class="active" onclick="setMode('quiz')">150-Q Exam</button>
+      <button id="tab-traps" onclick="setMode('traps')">High-Yield Traps (35)</button>
+      <button id="tab-missed" onclick="setMode('missed')">Missed (<span id="missed-count">0</span>)</button>
+      <button id="tab-flash" onclick="setMode('flash')">Flashcards</button>
+      <button id="tab-cheat" onclick="setMode('cheat')">Cheat Sheet</button>
+      <button id="tab-db" onclick="setMode('db')">Search Menu DB</button>
+    </div>
+  </header>
+
+  <div id="quiz-view">
+    <div class="stats-bar">
+      <div class="stat">Q: <strong id="q-progress">1 / 150</strong></div>
+      <div class="stat">Score: <strong id="q-score">0 / 0 (100%)</strong></div>
+      <div class="stat">Streak: <strong id="q-streak">0 🔥</strong></div>
+      <button onclick="shuffleCurrentDeck()">🔀 Shuffle</button>
+    </div>
+
+    <div class="card">
+      <div class="badge" id="q-cat">Category</div>
+      <div class="q-text" id="q-prompt">Loading...</div>
+      <div class="options" id="q-options"></div>
+      <div class="explain" id="q-explain"></div>
+      <div class="controls">
+        <span style="color:var(--muted);font-size:0.8rem;">Tap option or press <b>1-4 / A-D</b> • <b>Space / Enter</b> next</span>
+        <div style="display:flex;gap:8px;">
+          <button onclick="prevQ()">← Prev</button>
+          <button id="next-btn" class="active" onclick="nextQ()">Next →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="flash-view" style="display:none;">
+    <div class="card" style="text-align:center; cursor:pointer;" onclick="flipCard()">
+      <div class="badge" id="fc-cat">Category</div>
+      <h2 id="fc-title" style="font-size:1.65rem; margin:14px 0;">Dish Name</h2>
+      <div id="fc-back" style="display:none; text-align:left; background:#0f172a; padding:16px; border-radius:10px; margin-top:14px; line-height:1.6;"></div>
+      <p style="color:var(--muted); margin-top:18px; font-size:0.88rem;">Tap card or press <b>Space</b> to flip (<span id="fc-idx">1/108</span>)</p>
+      <div style="display:flex;justify-content:center;gap:12px;margin-top:12px;" onclick="event.stopPropagation()">
+        <button onclick="stepFC(-1)">← Prev Card</button>
+        <button class="active" onclick="stepFC(1)">Next Card →</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="cheat-view" style="display:none;">
+    <div class="card">
+      <h2 style="margin-top:0;color:var(--accent);">⚡ High-Yield Exam Patterns &amp; Allergen Traps</h2>
+      <table>
+        <thead>
+          <tr><th>Trap / Allergen</th><th>Dishes Affected</th><th>Why It's There</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><b>Mango Allergy</b></td><td>Falafel Tahini, Roasted Eggplant Hummus, Roasted Eggplant &amp; Egg Bowl, Chicken/Lamb Shawarma Pita, Lamb Shawarma Plate, All 3 Kebabs, Housemade Pickles, Salmon Ceviche</td><td><b>Amba</b> &amp; <b>Amba Aioli</b> are pickled mango condiments. Housemade Pickles also lists mango on its allergy line.</td></tr>
+          <tr><td><b>Avocado Allergy</b></td><td>All Aiolis (Truffle, Harissa, Shifka, Amba, Garlic, Garlic Cilantro), S'chug, Harissa, Mint Honey Vinaigrette, Peppercorn Sauce, Majadra Rice</td><td>Made with <b>avocado oil</b> (or house mayonnaise made with avocado oil).</td></tr>
+          <tr><td><b>Cinnamon Allergy</b></td><td>Majadra Rice &amp; Lentils (and all Bowls with rice), Turkish Flatbread, Muhammara, Prime Beef Hummus, Beet &amp; Arugula Salad, Shawarmas, Beef Kufta Kebab, Arayes Burger, Baby Lamb Chops, Baked Lemon Branzino</td><td>Present in Majadra Rice, Baharat spice (walnuts/kufta), and Shawarma spices. Subbing <b>Cauliflower Couscous</b> removes the cinnamon allergen from bowls.</td></tr>
+          <tr><td><b>Unremovable Gluten</b></td><td><b>Beef Kufta Kebab</b> &amp; <b>Muhammara</b></td><td>Beef Kufta has <b>soaked pita</b> inside the beef mix ("cannot be removed"). Muhammara contains <b>panko</b>.</td></tr>
+          <tr><td><b>Chicken Broth in "V" Side</b></td><td><b>Greek Lemon Potatoes</b> (p.43)</td><td>Has a V badge on the sheet, but the ingredients explicitly list <b>Chicken broth</b>.</td></tr>
+          <tr><td><b>Sesame in Steak Sauce</b></td><td>8oz Hanger Steak, Hanger Steak Bowl, Peppercorn Sauce</td><td><b>Peppercorn Sauce</b> contains <b>Lemon Tahini</b> (with shallots, kitchen brandy, white wine vinegar, black pepper, avocado oil, sugar).</td></tr>
+          <tr><td><b>Soy Allergen</b></td><td>Laffa, Naked Pita, All Flatbreads, All Kebabs/Shawarma Plates, Broccolini, Harissa Spare Ribs, Flatiron Half Chicken, Crunchy Cabbage Salad</td><td>Laffa and Naked Pita carry Soy; Broccolini &amp; Crunchy Cabbage Salad have Crispy Shallots (soy); Spare Ribs &amp; Half Chicken use soy sauce.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="db-view" style="display:none;">
+    <input type="text" id="db-search" class="search-input" placeholder="Search dish, ingredient (e.g. 's'chug', 'panko', 'amba', 'anise'), or allergen..." oninput="renderDB()">
+    <div class="db-grid" id="db-list"></div>
+  </div>
+
+  <p class="tiny-note">Unlisted study aid. Not linked from the site. Progress saves on this device.</p>
+</div>
+
+<script>
+const C = s => (s || "").replace(/\s*\[cite:[^\]]+\]/g, "");
+
+const MENU_DB = [
+  // PAGE 4: BRUNCH
+  { name: "Shakshuka", group: "Brunch", cat: "Brunch (p.4)", tags: "V", ing: "Fresh tomatoes, Fire roasted red pepper, 2 cage-free eggs, Kosher salt, Paprika, Garlic, Extra Virgin Olive Oil, Lemon tahini, Long hot pepper, Micro cilantro", served: "Freshly baked challah", allergy: "Egg, sesame, garlic, pepper" },
+  { name: "Hummus Shakshuka", group: "Brunch", cat: "Brunch (p.4)", tags: "V", ing: "Hummus, Fresh tomatoes, Fire roasted red pepper, 2 cage free eggs, Paprika, Garlic, Extra Virgin Olive Oil, Lemon tahini, Long hot pepper, Micro cilantro", served: "Freshly baked challah", allergy: "Egg, sesame, garlic, pepper" },
+  { name: "Avocado Toast", group: "Brunch", cat: "Brunch (p.4)", tags: "V", ing: "Sourdough bread, Hass avocado, Grated tomato, S'chug, Parmesan cheese, Boiled eggs, Radicchio lettuce", served: "None listed", allergy: "Gluten, dairy, eggs, garlic" },
+  { name: "Motek Breakfast", group: "Brunch", cat: "Brunch (p.4)", tags: "V", ing: "3 cage-free eggs any style, Jerusalem baguette, Sliced hass avocado, Chive cream cheese, Feta cheese, Tomato jam, Lemon Tahini, Middle Eastern chopped salad (plus labneh in description)", served: "Full breakfast spread", allergy: "Dairy, eggs, sesame, onion, pepper" },
+  // PAGE 5: BRUNCH
+  { name: "Jerusalem Grilled Cheese", group: "Brunch", cat: "Brunch (p.5)", tags: "V", ing: "Jerusalem baguette, Roasted cherry tomatoes, Green olives, Gruyère cheese, Chive cream cheese, Butter (plus tomato jam in description)", served: "Shifka aioli, tomato jam, pickle", allergy: "Gluten, dairy, eggs (aioli), avocado (aioli), sesame" },
+  { name: "Malawach Yemenite Pancakes", group: "Brunch", cat: "Brunch (p.5)", tags: "V", ing: "Flakey pancake, Cage-free boiled eggs, Grated tomato", served: "Lemon tahini, grated tomato", allergy: "Gluten, dairy, eggs, sesame, pepper, garlic" },
+  { name: "Smoked Salmon on Baguette", group: "Brunch", cat: "Brunch (p.5)", tags: "None", ing: "Jerusalem baguette, Smoked salmon, Chive cream cheese, Capers, Red onion, Sliced cucumber, Fresh dill", served: "None listed", allergy: "Fish, gluten, dairy, sesame, onion" },
+  { name: "French Toast", group: "Brunch", cat: "Brunch (p.5)", tags: "V", ing: "Japanese milk bread, Silan (date syrup), Mascarpone cream, Blackberry, Blueberries, Raspberries, Strawberries", served: "None listed", allergy: "Gluten, eggs, dairy" },
+  // PAGE 6: OMELETS & TOAST
+  { name: "Cheese Omelet", group: "Brunch", cat: "Brunch (p.6)", tags: "V", ing: "Sourdough bread, Eggs, Butter, Heavy cream, Cheddar cheese, Feta cheese, Parsley (Add-ons: Smoked salmon, goat cheese, swiss, gruyère, pastrami)", served: "Tahini, babaganoush, labneh, mixed pickles, house salad", allergy: "Gluten, dairy, eggs, garlic, sesame, pepper" },
+  { name: "Galil Omelet", group: "Brunch", cat: "Brunch (p.6)", tags: "V", ing: "Sourdough bread, Eggs, Mediterranean herbs mix, Heavy cream, Cello spinach, Cumin, Unsalted butter, Kosher salt (Description also notes cheddar cheese)", served: "Tahini, babaganoush, labneh, mixed pickles, house salad", allergy: "Gluten, dairy, eggs, garlic, sesame, pepper" },
+  { name: "White Omelet", group: "Brunch", cat: "Brunch (p.6)", tags: "V", ing: "Egg whites, Smoked salmon, Goat cheese (Add-ons: Smoked salmon, goat cheese, swiss, gruyère, pastrami)", served: "Tahini, babaganoush, labneh, mixed pickles, house salad", allergy: "Gluten, dairy, eggs, sesame, pepper" },
+  { name: "Truffle Mushroom Toast", group: "Brunch", cat: "Brunch (p.6)", tags: "V", ing: "Japanese milk bread, Sautéed mushrooms mix, Parmesan cheese, Truffle aioli, Sunny-side-up egg", served: "None listed", allergy: "Gluten, dairy, eggs, avocado (aioli), pepper" },
+  // PAGE 8: HUMMUS
+  { name: "Classic Hummus", group: "Hummus", cat: "Hummus (p.8)", tags: "VG", ing: "Tahini, Chickpeas, Lemon juice, Garlic, S'chug, Pinenuts, Parsley, Extra virgin olive oil", served: "Laffa", allergy: "Sesame, nuts, garlic, pepper" },
+  { name: "Mushroom Hummus", group: "Hummus", cat: "Hummus (p.8)", tags: "VG", ing: "Classic hummus, Caramelized onions, Mushrooms, Hawayej spice, S'chug, Pinenuts, Parsley, Extra virgin olive oil", served: "Laffa", allergy: "Sesame, nuts, garlic, pepper, onion" },
+  { name: "Roasted Eggplant Hummus", group: "Hummus", cat: "Hummus (p.8)", tags: "V", ing: "Classic hummus, Roasted eggplant, Roasted cherry tomatoes, Pickled onion, Fried poached egg, Amba aioli, S'chug, Pinenuts, Parsley, Extra virgin olive oil", served: "Laffa", allergy: "Eggs, sesame, nuts, mango, garlic, pepper" },
+  { name: "Prime Beef Hummus", group: "Hummus", cat: "Hummus (p.8)", tags: "None", ing: "Classic hummus, Prime beef, Cello spinach, Onion, Pomegranate molasses, Dried cranberries, Harissa, S'chug, Pinenuts, Parsley, Extra virgin olive oil", served: "Laffa", allergy: "Sesame, nuts, garlic, pepper, onion, cinnamon" },
+  // PAGE 10: COLD MEZZE & DIPS
+  { name: "Tzatziki", group: "Hummus", cat: "Mezze/Dips (p.10)", tags: "V", ing: "Labneh, Cucumber, Garlic, Lemon juice, Mint, Fresh dill, Extra virgin olive oil", served: "Laffa", allergy: "Dairy, garlic, pepper" },
+  { name: "Labneh Za'atar", group: "Hummus", cat: "Mezze/Dips (p.10)", tags: "V", ing: "Labneh, Za'atar, Crème fraîche, Extra virgin olive oil", served: "Laffa", allergy: "Dairy, sesame" },
+  { name: "Marmalade", group: "Hummus", cat: "Mezze/Dips (p.10)", tags: "V", ing: "Labneh, Sweet red pepper jam, Pistachio, Sliced almonds, Fresh mint, Extra virgin olive oil", served: "Laffa", allergy: "Dairy, nuts, pepper" },
+  { name: "Housemade Pickles", group: "Hummus", cat: "Mezze/Dips (p.10)", tags: "GF, VG", ing: "Pickled cauliflower, Pickled carrots, Pickled red onion, Housemade pickles, Red fresno peppers", served: "None listed", allergy: "Onion, garlic, mango, pepper" },
+  { name: "Lebanese Crudités", group: "Hummus", cat: "Mezze/Dips (p.10)", tags: "GF, VG", ing: "Carrots, Cucumber, Watermelon radish, Baby gem lettuce, Radicchio lettuce, Long hot pepper, Black olives, Green & red bell pepper, Scallions", served: "None listed", allergy: "Pepper, onion" },
+  // PAGE 12 & 13: LAFFA & FLATBREADS
+  { name: "Laffa", group: "Flatbreads", cat: "Flatbreads (p.12)", tags: "V", ing: "Pinsa Romana flour, Sea salt, Extra virgin olive oil, Nigella seeds", served: "Served always hot with all dips", allergy: "Gluten, soy" },
+  { name: "Pastrami Flatbread", group: "Flatbreads", cat: "Flatbreads (p.12)", tags: "None", ing: "House smoked pastrami, Caramelized onions, Arugula, Garlic confit, Mustard-mayo mix, Housemade Pickle, Grated tomato, Fresno red pepper", served: "None listed", allergy: "Gluten, eggs, soy, onion, garlic, pepper, mustard" },
+  { name: "Artichoke Flatbread", group: "Flatbreads", cat: "Flatbreads (p.12)", tags: "V", ing: "Roman artichoke, Goat cheese, Caramelized onion, Parmesan, Baby kale, Grated tomato (on oven-baked laffa)", served: "None listed", allergy: "Gluten, dairy, soy, onion, garlic" },
+  { name: "Turkish Flatbread", group: "Flatbreads", cat: "Flatbreads (p.13)", tags: "None", ing: "Prime beef, Cherry tomatoes, Red onion, Pine nuts, Shakshuka sauce, Grated tomato, Parsley, Cilantro, Pomegranate seeds, Pomegranate vinaigrette, Lemon Tahini, Mint (on warm laffa)", served: "Grated tomato, lemon tahini", allergy: "Gluten, nuts, sesame (sauce), soy, garlic, cinnamon" },
+  { name: "Lebanon Flatbread", group: "Flatbreads", cat: "Flatbreads (p.13)", tags: "V", ing: "Labneh, Feta cheese, Long hot pepper, Za'atar, Grated tomato, Mint (on oven-baked laffa)", served: "Grated tomato", allergy: "Gluten, dairy, sesame, soy, pepper, garlic" },
+  { name: "French Flatbread", group: "Flatbreads", cat: "Flatbreads (p.13)", tags: "V", ing: "Gruyère cheese, Caramelized onion, Potatoes (fingerling), Crème fraîche, Parmesan, Garlic confit, Truffle paste (on oven-baked laffa)", served: "Grated tomato", allergy: "Gluten, dairy, garlic, soy" },
+  { name: "Italy Flatbread", group: "Flatbreads", cat: "Flatbreads (p.13)", tags: "V", ing: "Italian tomato sauce, Fresh mozzarella, Gruyère cheese, Parmesan, Basil (on oven-baked laffa)", served: "None listed", allergy: "Gluten, dairy, soy, sesame" },
+  // PAGE 15: DIPS & MEZZE
+  { name: "Babaganoush", group: "Hummus", cat: "Mezze/Dips (p.15)", tags: "VG", ing: "Grilled eggplant, Lemon Tahini, Lemon juice, Garlic, Extra virgin olive oil, Pomegranate seeds, Parsley, Za'atar", served: "Laffa", allergy: "Sesame, garlic" },
+  { name: "Muhammara", group: "Hummus", cat: "Mezze/Dips (p.15)", tags: "VG", ing: "Roasted red pepper, Pepper paste, Pomegranate molasses, Tahini, Baharat walnuts, Panko, Cumin, Paprika, Coriander, Extra virgin olive oil", served: "Laffa", allergy: "Gluten, nuts, sesame, pepper, cinnamon" },
+  { name: "Cauliflower Tabbouleh", group: "Hummus", cat: "Mezze/Dips (p.15)", tags: "GF, VG", ing: "Cauliflower, Parsley, Mint, Scallion, Cilantro, Pomegranate Seeds, Pomegranate vinaigrette, Baby gem lettuce", served: "None listed", allergy: "Onion, pepper, cilantro" },
+  { name: "Roasted Eggplant (Mezze)", group: "Hummus", cat: "Mezze/Dips (p.15)", tags: "GF, VG", ing: "Roasted eggplant, Lemon Tahini, Pine nuts, Sumac, Mint", served: "None listed", allergy: "Eggs, sesame, nuts" },
+  { name: "Spicy Greek Feta", group: "Hummus", cat: "Mezze/Dips (p.15)", tags: "V", ing: "Roasted red peppers, Manouri cheese, Labneh, Coriander, Spicy paprika, Feta cheese, Extra virgin olive oil", served: "Laffa", allergy: "Dairy, peppers" },
+  { name: "Beet Taramasalata", group: "Hummus", cat: "Mezze/Dips (p.15)", tags: "None", ing: "Labneh, Olive, Pistachio (blended with creamy beet taramasalata)", served: "Laffa", allergy: "Fish, gluten, dairy, nuts" },
+  // PAGE 17 & 18: HOT MEZZE
+  { name: "Falafel Tahini", group: "Hot Mezze", cat: "Hot Mezze (p.17)", tags: "GF, VG", ing: "Chickpeas, Zucchini, Parsley, Dill, Scallion, Garlic, Sesame, Kale, Coriander, Cumin, Long hot pepper, Lemon tahini, Amba, Pickled onion, Crispy eggplant, Cilantro", served: "Lemon tahini, amba, pickled onion, crispy eggplant", allergy: "Sesame, onion, mango, paprika, garlic, pepper, cilantro" },
+  { name: "Zucchini Latkes", group: "Hot Mezze", cat: "Hot Mezze (p.17)", tags: "V", ing: "Potatoes, Zucchini, Yellow onion, Parsley, Scallion, Flour, Sugar, Sweet Labneh (Pepper, Labneh, Pomegranate), Apple sauce, Mint", served: "Sweet labneh and applesauce", allergy: "Gluten, dairy, onion, pepper" },
+  { name: "Crispy Cauliflower", group: "Hot Mezze", cat: "Hot Mezze (p.17)", tags: "GF, V", ing: "Steamed cauliflower, Rice flour, Corn starch, Paprika spice, Harissa honey glaze, Mint, Pickled onion", served: "Pickled red onion and mint", allergy: "Paprika, garlic, pepper" },
+  { name: "Crispy Artichoke", group: "Hot Mezze", cat: "Hot Mezze (p.17)", tags: "GF, V", ing: "Artichoke confit, Parsley, Lemon, Garlic cilantro aioli", served: "Garlic cilantro aioli and lemon", allergy: "Eggs, garlic, cilantro, avocado" },
+  { name: "Middle Eastern Dumplings", group: "Hot Mezze", cat: "Hot Mezze (p.18)", tags: "V", ing: "Grilled eggplant, Labneh, Mint, Garlic, Butter, Chimichurri, Pinenuts, Sumac", served: "Yogurt labneh, chimichurri, pine nuts, sumac", allergy: "Gluten, dairy, nuts, garlic, cilantro" },
+  { name: "Crispy Eggplant", group: "Hot Mezze", cat: "Hot Mezze (p.18)", tags: "GF, V", ing: "Eggplant spears, Rice flour, Corn Starch, Paprika, Tzatziki, Mint Honey Vinaigrette", served: "Cool tzatziki finished with mint honey vinaigrette", allergy: "Dairy, garlic, mustard, pepper" },
+  { name: "Moroccan Cigars", group: "Hot Mezze", cat: "Hot Mezze (p.18)", tags: "None", ing: "Phyllo dough, Spiced beef, Harissa paste, Sumac powder, Caramelized onion, Pine nuts, Lemon Tahini, S'chug, Grated tomato", served: "Lemon tahini, s'chug, grated tomato", allergy: "Gluten, nuts, sesame, onion, pepper, garlic" },
+  { name: "Matboucha", group: "Hot Mezze", cat: "Hot Mezze (p.18)", tags: "VG", ing: "Tomatoes, Roasted red peppers, Garlic, Paprika, Harissa, Long hot peppers, Extra virgin olive oil", served: "Jerusalem crostini", allergy: "Garlic, bell pepper, sesame (crostini), gluten (crostini)" },
+  // PAGE 20: SKEWERS
+  { name: "Salmon Skewer", group: "Hot Mezze", cat: "Skewers (p.20)", tags: "GF", ing: "Salmon fillet, Scallion, Extra virgin olive oil, Sumac, Garlic, Labneh, Masabacha, Pickled onion (plus anise seed & basil in description)", served: "Pickled onion", allergy: "Fish, dairy, garlic, onion, pepper" },
+  { name: "Halloumi Date Skewer", group: "Hot Mezze", cat: "Skewers (p.20)", tags: "GF, V", ing: "Pitted Dates, Halloumi cheese, Pomegranate molasses, Nigella seeds, Pickled onion", served: "Pickled onion", allergy: "Dairy, pepper" },
+  { name: "Pastrami Skewer", group: "Hot Mezze", cat: "Skewers (p.20)", tags: "GF", ing: "House smoked pastrami, Mustard-mayo mix, Scallion, Chives, Pickled cabbage, Housemade pickle", served: "Mustard-mayo sauce, pickled cabbage, housemade pickle", allergy: "Eggs, mustard, garlic, avocado, pepper" },
+  // PAGE 22: RAW BAR
+  { name: "Tuna Tartare", group: "Raw", cat: "Raw Fish (p.22)", tags: "GF", ing: "Tuna, Cucumber, Lemon tahini, Crispy shallots, Crispy sunchokes, Red onion, Cilantro, Extra virgin olive oil, Mint, Black pepper", served: "None listed", allergy: "Fish, sesame, onion, cilantro, pepper" },
+  { name: "Salmon Ceviche", group: "Raw", cat: "Raw Fish (p.22)", tags: "GF", ing: "Diced salmon, Yuzu cilantro leche de tigre, Mango, Pomegranate, Red Onion, Chives, Parsley, Cilantro, Dill, Mint, Crispy leeks, Extra virgin olive oil", served: "None listed", allergy: "Fish, cilantro, mango, onion, pepper" },
+  { name: "Tuna Carpaccio", group: "Raw", cat: "Raw Fish (p.22)", tags: "GF", ing: "Thinly sliced tuna, Grated tomato, Garlic confit, Jalapeno, Crispy capers, Lemon, Cilantro, Extra virgin olive oil", served: "None listed", allergy: "Fish, garlic, cilantro, pepper" },
+  // PAGE 24 & 25: SALADS
+  { name: "Crunchy Cabbage Salad", group: "Raw", cat: "Salads (p.24)", tags: "GF, V", ing: "Green & red cabbage, Mint honey vinaigrette, Sliced almonds, Crispy shallots, Ja'ala seeds, Mint", served: "None listed", allergy: "Nuts, sesame, onion, paprika, garlic, soy, mustard" },
+  { name: "Summer Salad", group: "Raw", cat: "Salads (p.24)", tags: "GF, V", ing: "Watermelon, Pistachio, Feta cheese, Mint, Extra virgin olive oil", served: "None listed", allergy: "Dairy, nuts" },
+  { name: "Fennel Pomegranate Salad", group: "Raw", cat: "Salads (p.24)", tags: "GF, V", ing: "Fennel, Orange, Pomegranate, Feta cheese, Sumac candied pecans, Lemon dressing", served: "None listed", allergy: "Dairy, nuts, pepper" },
+  { name: "Za'atar Greek Salad", group: "Raw", cat: "Salads (p.24)", tags: "GF, V", ing: "Tomatoes, Cucumber, Feta cheese, Baby Gem lettuce, Red onion, Kalamata olives, Green bell pepper, Shifka pepper, Capers, Parsley, Mint, Dill, Tomato vinaigrette (za'atar dressing)", served: "None listed", allergy: "Dairy, sesame, onion, pepper" },
+  { name: "Middle Eastern Chopped Salad", group: "Raw", cat: "Salads (p.25)", tags: "GF, VG", ing: "Cucumber, Cherry tomato, Red bell pepper, Red cabbage, Parsley, Scallion, Cilantro, Mint, Red onion, Lemon dressing", served: "Jerusalem crostini, lemon tahini", allergy: "Onion, pepper, cilantro, sesame (crostino), gluten (crostino), sesame (lemon tahini)" },
+  { name: "Beet & Arugula Salad", group: "Raw", cat: "Salads (p.25)", tags: "GF, V", ing: "Roasted red & golden beets, Arugula, Goat cheese, Pomegranate seeds, Pomegranate vinaigrette, Baharat walnuts", served: "None listed", allergy: "Dairy, nuts, cinnamon" },
+  { name: "Warm Caesar Salad", group: "Raw", cat: "Salads (p.25)", tags: "GF", ing: "Green & red cabbage, Watermelon radish, Pitted dates, Caesar dressing (Mayonnaise, Extra virgin olive oil, Lemon juice, Garlic, Anchovies, Black pepper), Parmesan cheese, Chives", served: "None listed", allergy: "Fish, dairy, eggs, garlic, pepper" },
+  { name: "House Side Salad", group: "Raw", cat: "Salads (p.25)", tags: "GF, VG", ing: "Baby gem lettuce, Radicchio, Frisée, Honey mint (vinaigrette) (description also notes endives)", served: "None listed", allergy: "onion, avocado, pepper, mustard (dressing)" },
+  // PAGE 27 & 28: SANDWICHES & LOLLIPOPS
+  { name: "Crispy Chicken Schnitzel Sandwich", group: "Sandwiches", cat: "Sandwiches (p.27)", tags: "None", ing: "Challah bread, Chicken breast, Schnitzel breadcrumb mix (Panko, Sesame seeds, Corn flakes), Coleslaw, Roasted tomato, Sumac onion, Pickles", served: "Harissa aioli, shifka pepper, pickle", allergy: "Gluten, eggs, sesame, garlic, onion, pepper, avocado (aioli)" },
+  { name: "Spicy Schnitzel & Eggplant Sandwich", group: "Sandwiches", cat: "Sandwiches (p.27)", tags: "None", ing: "Challah bread, Chicken breast, Schnitzel breadcrumb mix (Panko, Sesame seeds, Corn flakes), Roasted eggplant, Roasted tomato, Long hot pepper, Lemon tahini", served: "Spicy matboucha sauce, lemon tahini, pickle", allergy: "Gluten, sesame, onion, eggs, pepper, garlic" },
+  { name: "Falafel Sandwich", group: "Sandwiches", cat: "Sandwiches (p.27)", tags: "VG", ing: "Oven-baked pita bread, Falafel patty (Chickpeas, Kale, Parsley, Scallion, Cilantro, Sesame, Coriander, Cumin, Long hot pepper), Hummus, Crispy eggplant, Middle Eastern chopped salad, Pickled cabbage, Lemon tahini, Shifka pepper", served: "Shifka pepper, pickle, lemon tahini", allergy: "Gluten, sesame, onion, cilantro, pepper, chickpeas, garlic" },
+  { name: "Ribeye on Baguette", group: "Sandwiches", cat: "Sandwiches (p.28)", tags: "None", ing: "Jerusalem baguette, Thinly sliced ribeye steak (Josper oven baked), Roasted tomato, Roasted cabbage, Sumac onion, Pickles", served: "Garlic cilantro aioli, shifka pepper, pickle", allergy: "Gluten, sesame, egg, onion, garlic, cilantro, avocado (aioli)" },
+  { name: "Lollipops", group: "Hot Mezze", cat: "Hot Mezze/Mains (p.28)", tags: "None", ing: "Chicken lollipops, Rice flour, Dates, Harissa honey, Masabacha, Mayonnaise, Pickle juice, Micro cilantro", served: "Shifka aioli, pickled carrots, lime", allergy: "Eggs, avocado, garlic, pepper" },
+  { name: "Chicken Shawarma Pita", group: "Sandwiches", cat: "Sandwiches (p.28)", tags: "None", ing: "Oven-baked pita bread, Chicken thighs, Shawarma spices, Amba aioli, Pickled red onion", served: "Amba sauce, lemon tahini, pickle, shifka pepper", allergy: "Gluten, mango, eggs, paprika, onion, avocado, garlic, sesame (lemon tahini)" },
+  { name: "Lamb Shawarma Pita", group: "Sandwiches", cat: "Sandwiches (p.28)", tags: "None", ing: "Oven-baked pita bread, Shaved roasted lamb, Shawarma spices, Hummus, Caramelized onions, Roasted tomato, Arugula, Lemon tahini, Sumac onions, Amba sauce", served: "Amba sauce, lemon tahini, pickle, shifka pepper", allergy: "Gluten, onion, sesame, cinnamon, pepper, mango, garlic" },
+  // PAGE 30 & 31: STEAKS, BURGERS, RIBS
+  { name: "8oz Hanger Steak", group: "Mains", cat: "Steaks/Mains (p.30)", tags: "GF", ing: "Hanger steak, Charred onions, Micro cilantro, Peppercorn salt", served: "Handcut fries with chopped cilantro, parsley and pepper; Peppercorn sauce", allergy: "Pepper, onion, garlic, sesame (sauce)" },
+  { name: "Baby Lamb Chops", group: "Mains", cat: "Steaks/Mains (p.30)", tags: "GF", ing: "Lamb chops, Roasted cherry tomatoes, Long hot pepper, Scallion", served: "Majadra rice, pickled red onion, chimichurri", allergy: "Garlic, onion, pepper, cilantro, cinnamon, avocado" },
+  { name: "25oz Dry-Aged Ribeye", group: "Mains", cat: "Steaks/Mains (p.30)", tags: "GF", ing: "Bone-in ribeye steak, Roasted cherry tomatoes, Fresh rosemary", served: "Roasted garlic, chimichurri", allergy: "Garlic, pepper" },
+  { name: "Braised Lamb Shank", group: "Mains", cat: "Steaks/Mains (p.30)", tags: "GF", ing: "Lamb shank, Mashed lemon potatoes, Sumac onion, Dill Mint, Basil, Parsley (and pickled red onion)", served: "Mashed lemon potatoes, pickled red onion, fresh dill mint", allergy: "Onion, garlic, pepper" },
+  { name: "Wagyu Burger", group: "Sandwiches", cat: "Burgers/Mains (p.31)", tags: "None", ing: "Wagyu patty, Charred white onion", served: "Long hot pepper, pomegranate aioli and handcut fries (or mixed green salad)", allergy: "Gluten, eggs, sesame, onion, garlic, avocado, pepper" },
+  { name: "Arayes Burger", group: "Sandwiches", cat: "Burgers/Mains (p.31)", tags: "None", ing: "Oven-baked pita bread, Spiced beef (SOBE Wine & Food Festival Best Burger 2022 & 2023)", served: "Choice of fries or house salad, tahini, harissa aioli, grated tomato", allergy: "Gluten, eggs, sesame, onion, garlic, cilantro, pepper, cinnamon, avocado" },
+  { name: "Harissa Spare Ribs", group: "Mains", cat: "Burgers/Mains (p.31)", tags: "GF", ing: "Braised lamb ribs, Harissa honey glaze, Silan (date syrup), Soy sauce, Pickled red onion, Scallion, Sesame", served: "Pickled red onion, scallions, sesame seeds", allergy: "Sesame, soy, onion" },
+  { name: "Tomahawk", group: "Mains", cat: "Burgers/Mains (p.31)", tags: "GF", ing: "30-day aged tomahawk steak, Cherry tomatoes, Garlic, Fresh rosemary, Chimichurri", served: "Garlic, rosemary, roasted cherry tomatoes, chimichurri", allergy: "Garlic, pepper" },
+  // PAGE 32, 33, 34, 35: KEBABS, PLATES, FISH, CHICKEN
+  { name: "Chicken Kebab", group: "Mains", cat: "Kebabs (p.32)", tags: "None", ing: "Chicken thighs, West Shawarma spices, Hawayej spice blend, sweet paprika, Kosher salt, White onion water, Extra virgin olive oil, Micro cilantro, Lavash bread (with honey saffron glaze)", served: "Grilled vegetable skewer, amba sauce, lemon tahini, grated tomato", allergy: "Paprika, onion, pepper, mango, garlic, sesame, gluten, soy" },
+  { name: "Beef Kufta Kebab", group: "Mains", cat: "Kebabs (p.32)", tags: "None", ing: "Spiced beef (Onion, Red bell pepper, Baharat, Cilantro, Parsley, Garlic, Coriander, Cumin, Pita soaked), Extra virgin olive oil, Micro cilantro, Lavash bread", served: "Grilled vegetable skewer, amba sauce and lemon tahini, grated tomato", allergy: "Sesame, onion, cinnamon, pepper, mango, garlic, gluten (cannot be removed), soy" },
+  { name: "Turkish Lamb Kebab", group: "Mains", cat: "Kebabs (p.32)", tags: "None", ing: "Ground lamb, Onion, Red bell pepper, Parsley, Paprika, Garlic, Coriander, Cumin, Extra virgin olive oil, Lavash bread, Micro cilantro", served: "Grilled vegetable skewer, amba sauce and lemon tahini, grated tomato", allergy: "Onion, pepper, mango, sesame, garlic, soy, gluten" },
+  { name: "Chicken Shawarma Plate", group: "Mains", cat: "Plates (p.33)", tags: "None", ing: "Chicken thighs, West shawarma spices, Roasted tomato, Amba aioli, Sumac onions, Shifka pepper, Pickled red onion", served: "Half laffa bread, Market salad (mint, parsley, dill, basil, sumac onion), Lemon tahini with s'chug", allergy: "Gluten, sesame, nuts, onion, garlic, cinnamon, soy, avocado" },
+  { name: "Lamb Shawarma Plate", group: "Mains", cat: "Plates (p.33)", tags: "None", ing: "Shaved roasted lamb, East shawarma spices, Roasted tomato, Lemon tahini, Amba sauce, Pickled red onion, Long hot pepper, Sumac onion", served: "Half laffa bread, Long hot pepper, Lemon tahini, Amba sauce", allergy: "Gluten, sesame, onion, cinnamon, mango, garlic, pepper, soy" },
+  { name: "Crispy Chicken Schnitzel Plate", group: "Mains", cat: "Plates (p.33)", tags: "None", ing: "Chicken breast, Schnitzel breadcrumb mix (Panko, Sesame seeds, Corn flakes), House salad (Radicchio, Baby Gem lettuce, Frisée), Mint honey vinaigrette, Micro cilantro", served: "Fresh house salad and lemon, harissa aioli, masabacha sauce", allergy: "Gluten, eggs, sesame, garlic (harissa aioli), mustard (honey mint), pepper, onion, avocado" },
+  { name: "Harissa Honey Salmon", group: "Mains", cat: "Fish Mains (p.34)", tags: "GF", ing: "Salmon fillet, Harissa honey glaze, Parsley, Pickled red onion, Fresno red pepper, Lime", served: "Pickled red onion", allergy: "Fish, pepper, garlic, onion" },
+  { name: "Whole Branzino", group: "Mains", cat: "Fish Mains (p.34)", tags: "GF", ing: "Branzino, Garlic confit, Lemon juice, Extra virgin olive oil, Rosemary, Crispy capers", served: "Masabacha sauce, grilled lemon", allergy: "Fish, garlic, pepper" },
+  { name: "Moroccan Fish", group: "Mains", cat: "Fish Mains (p.34)", tags: "None", ing: "Chilean sea bass, Chickpeas, Spicy tomato sauce, Cherry tomatoes, Paprika, Red bell pepper, Preserved lemon, Kalamata olives, Tahini, Micro cilantro, Long hot pepper", served: "Freshly baked challah bread", allergy: "Fish, pepper, garlic, sesame, eggs (challah), chickpeas, cilantro" },
+  { name: "Baked Lemon Branzino", group: "Mains", cat: "Fish/Chicken (p.35)", tags: "GF", ing: "Branzino, Hawayej, Greek lemon potatoes, Unsalted butter, Fresh fennel, Preserved lemons, Cherry tomatoes, Garlic, Roman artichokes, Capers", served: "Majadra Rice & lentils", allergy: "Fish, dairy, garlic, avocado, cinnamon (majadra rice), onion" },
+  { name: "Flatiron Half Chicken", group: "Mains", cat: "Fish/Chicken (p.35)", tags: "GF", ing: "Marinated chicken (Soy sauce, Garlic, Panca pepper, Vinegar red wine, Cumin, Oregano), Pickled red onions, Sumac onions, Dill mint mix, Basil, Parsley", served: "Shifka aioli, fresh lemon", allergy: "Soy, garlic, cumin, pepper, onion, avocado (shifka aioli)" },
+  // PAGE 38/39/40/41/43/46: EGG SIDES, BOWL BASES, BOWLS, SIDES, PROTEINS
+  { name: "Hard Boiled Egg (Side)", group: "Brunch", cat: "Egg Sides (p.38)", tags: "GF, V", ing: "Cage-free egg", served: "Side dish", allergy: "Eggs" },
+  { name: "Side Eggs (Any Style)", group: "Brunch", cat: "Egg Sides (p.38)", tags: "GF, V", ing: "Eggs any style: Scrambled (Dairy, butter), Over easy, Medium, Hard, Sunny side up", served: "Side dish", allergy: "Eggs, dairy, butter" },
+  { name: "Majadra Rice & Lentils", group: "Bowls", cat: "Sides/Bases (p.39/43)", tags: "GF, VG", ing: "Basmati rice (Cinnamon, Hawayej spice blend, Turmeric, Cumin, Extra virgin olive oil), Green lentils, Caramelized onion, Cilantro", served: "Bowl base or side", allergy: "Onion, cilantro, cumin, avocado, cinnamon" },
+  { name: "Cauliflower Couscous", group: "Bowls", cat: "Sides/Bases (p.39)", tags: "GF, V", ing: "Grated cauliflower, Hawayej, Carrots, Parsley, Mint, Onion, Cilantro, Extra virgin olive oil", served: "Grain-free bowl base", allergy: "Onion, cilantro" },
+  { name: "Faroe Island Salmon Bowl", group: "Bowls", cat: "Bowls (p.40)", tags: "GF", ing: "Salmon fillet, Choice of base (Majadra Rice or Couscous), Pickled red onions, Hummus, Extra virgin olive oil, Lemon, Middle Eastern chopped salad, Sumac onions, Pinenuts", served: "Over Majadra rice or couscous", allergy: "Fish, sesame, nuts, garlic, onion, pepper, cinnamon (rice)" },
+  { name: "Falafel Bowl", group: "Bowls", cat: "Bowls (p.40)", tags: "V", ing: "Falafel, Crispy eggplant, Choice of base (Majadra Rice or Couscous), Pickled red onions, Hummus, Extra virgin olive oil, Middle Eastern chopped salad, Sumac onions, Pinenuts", served: "Over Majadra rice or couscous", allergy: "Sesame, nuts, pepper, onion, garlic, cilantro, cinnamon (rice)" },
+  { name: "Grilled Chicken Bowl", group: "Bowls", cat: "Bowls (p.40)", tags: "GF", ing: "Chicken breast, Masabacha, Paprika, Choice of base (Majadra Rice or Couscous), Pickled red onions, Hummus, Extra virgin olive oil, Lemon, Middle Eastern chopped salad, Sumac onions, Pinenuts", served: "Over Majadra rice or couscous", allergy: "Sesame, nuts, onion, pepper, garlic, cinnamon (rice)" },
+  { name: "Chicken Shawarma Bowl", group: "Bowls", cat: "Bowls (p.40)", tags: "GF", ing: "Chicken shawarma, Choice of base (Majadra Rice or Couscous), Pickled red onions, Hummus, Extra virgin olive oil, Middle Eastern chopped salad, Sumac onions, Pinenuts", served: "Over Majadra rice or couscous", allergy: "Garlic, nuts, sesame, onion, pepper, cinnamon (rice)" },
+  { name: "Crispy Chicken Schnitzel Bowl", group: "Bowls", cat: "Bowls (p.41)", tags: "None", ing: "Chicken breast, Schnitzel breadcrumb mix, Choice of base (Majadra Rice or Couscous), Pickled red onions, Hummus, Extra virgin olive oil, Lemon, Middle Eastern chopped salad, Sumac onions, Pinenuts", served: "Over Majadra rice or couscous", allergy: "Gluten, nuts, sesame, garlic, onion, pepper, cinnamon (rice)" },
+  { name: "Lamb Shawarma Bowl", group: "Bowls", cat: "Bowls (p.41)", tags: "GF", ing: "Shaved roasted lamb, Shawarma spices, Choice of base (Majadra Rice or Couscous), Pickled red onions, Hummus, Extra virgin olive oil, Middle Eastern chopped salad, Sumac onions, Pinenuts", served: "Over Majadra rice or couscous", allergy: "Sesame, nuts, garlic, onion, pepper, cinnamon (rice)" },
+  { name: "Roasted Eggplant & Egg Bowl", group: "Bowls", cat: "Bowls (p.41)", tags: "GF, V", ing: "Crispy eggplants, Amba aioli, Boiled egg, Pickled cucumber, Choice of base (Majadra Rice or Couscous), Pickled red onions, Hummus, Extra virgin olive oil, Middle Eastern chopped salad, Sumac onions, Pinenuts", served: "Over Majadra rice or couscous", allergy: "Eggs, sesame, nuts, avocado, garlic, mango" },
+  { name: "Hanger Steak Bowl", group: "Bowls", cat: "Bowls (p.41)", tags: "GF", ing: "Hanger steak, Caramelized onion, Peppercorn sauce, Choice of base (Majadra Rice or Couscous), Pickled red onions, Hummus, Extra virgin olive oil, Middle Eastern chopped salad, Sumac onions, Pinenuts", served: "Over Majadra rice or couscous", allergy: "Sesame, nuts, garlic, onion, pepper, cinnamon" },
+  { name: "Greek Lemon Potatoes", group: "Bowls", cat: "Sides (p.43)", tags: "GF, V (contains chicken broth!)", ing: "Idaho potatoes, Garlic, Lemon juice, Chicken broth, Preserved lemon, Hawayej spice blend, Fresh rosemary", served: "Side dish", allergy: "Garlic, onion, pepper" },
+  { name: "Broccolini", group: "Bowls", cat: "Sides (p.43)", tags: "VG", ing: "Roasted broccolini, Lemon juice, Crispy shallots, Maldon salt", served: "Side dish", allergy: "Onion, garlic, soy" },
+  { name: "Street Corn", group: "Bowls", cat: "Sides (p.43)", tags: "GF, V", ing: "Fresh corn off the cob, Corn Cream (Whole milk, Unsalted butter, Parmesan cheese, Kosher salt), Dry Labneh, Aleppo, Extra virgin olive oil, Micro cilantro", served: "Side dish", allergy: "Dairy, pepper" },
+  { name: "Handcut Fries", group: "Bowls", cat: "Sides (p.43)", tags: "GF, V", ing: "Potatoes, Salt", served: "Harissa aioli", allergy: "Eggs, avocado (harissa aioli)" },
+  { name: "Handcut Za'atar Fries", group: "Bowls", cat: "Sides (p.43)", tags: "GF, V", ing: "Potatoes, Za'atar spice blend", served: "Harissa aioli, garlic cilantro aioli", allergy: "Eggs, avocado (harissa aioli), sesame, garlic" },
+  // PAGE 46: PROTEIN & SIDE ADD-ONS
+  { name: "Grilled Salmon (Protein Add-On)", group: "Mains", cat: "Add-Ons (p.46)", tags: "GF", ing: "Salmon fillet, Extra virgin olive oil, Garlic, Fresh rosemary", served: "Protein add-on", allergy: "Fish, garlic, onion" },
+  { name: "Grilled Chicken (Protein Add-On)", group: "Mains", cat: "Add-Ons (p.46)", tags: "GF", ing: "Grilled chicken breast, Onion, Paprika, Masabacha sauce, Pickled red onion", served: "Protein add-on", allergy: "Paprika, onion, garlic" },
+  { name: "Crispy Chicken Schnitzel (Add-On)", group: "Mains", cat: "Add-Ons (p.46)", tags: "None", ing: "Chicken breast, Schnitzel breadcrumb mix, Panko, Sesame seeds, Corn flakes, Micro cilantro", served: "Protein add-on", allergy: "Gluten, eggs, sesame" },
+  { name: "Chicken Shawarma (Add-On)", group: "Mains", cat: "Add-Ons (p.46)", tags: "GF", ing: "Chicken thighs, Shawarma spices, Roasted tomato, Sumac onions, Shifka pepper, Pickled red onion, Mint", served: "Protein add-on", allergy: "Onion, garlic, pepper" },
+  { name: "Smoked Salmon (Side/Add-On)", group: "Mains", cat: "Add-Ons (p.46)", tags: "GF", ing: "Fresh smoked salmon, Crispy capers, Dill", served: "Side add-on", allergy: "Fish" },
+  { name: "Feta Cheese (Side/Add-On)", group: "Mains", cat: "Add-Ons (p.46)", tags: "GF, V", ing: "Creamy feta cheese", served: "Side add-on", allergy: "Dairy" },
+  // PAGE 49, 51, 52, 53, 54, 68: BREADS, SAUCES, PICKLES
+  { name: "Jerusalem Crostini", group: "Sauces", cat: "Breads (p.49)", tags: "V", ing: "Za'atar Oil Mix", served: "Served with Matboucha & Middle Eastern Chopped Salad", allergy: "Gluten, sesame" },
+  { name: "Challah Bread", group: "Sauces", cat: "Breads (p.49)", tags: "V", ing: "Freshly baked challah", served: "Served with Shakshukas & Moroccan Fish", allergy: "Gluten, eggs, sesame" },
+  { name: "Naked Pita", group: "Sauces", cat: "Breads (p.49)", tags: "V", ing: "Oven-baked pita", served: "Side bread", allergy: "Gluten, soy" },
+  { name: "Jerusalem Baguette", group: "Sauces", cat: "Breads (p.49)", tags: "V", ing: "Sesame Jerusalem baguette", served: "Side bread", allergy: "Gluten, sesame" },
+  { name: "S'chug ('S-Hoog')", group: "Sauces", cat: "Sauces (p.51)", tags: "GF, VG", ing: "Jalapeno pepper, Serrano pepper, Avocado oil, Fresh cilantro, Garlic, Kosher salt, Crush red pepper, Cumin, Hawayej spice blend", served: "Condiment", allergy: "Pepper, garlic, cilantro, cumin" },
+  { name: "Lemon Tahini", group: "Sauces", cat: "Sauces (p.51)", tags: "GF, VG", ing: "Tahini paste, Lemon juice, Kosher salt, Ground black pepper", served: "Condiment", allergy: "Sesame, add pepper" },
+  { name: "Harissa", group: "Sauces", cat: "Sauces (p.51)", tags: "GF, VG", ing: "Roasted red pepper, Avocado oil, Paprika, Garlic, Cumin, Caraway, Cayenne Pepper, Kosher salt", served: "Condiment", allergy: "Garlic, cumin, peppers, avocado" },
+  { name: "Harissa Aioli", group: "Sauces", cat: "Sauces (p.51)", tags: "GF, V", ing: "Harissa paste, Mayonnaise, Honey, Lemon juice, Kosher salt", served: "Condiment", allergy: "Eggs, avocado, garlic, cumin, peppers" },
+  { name: "Harissa Honey", group: "Sauces", cat: "Sauces (p.51)", tags: "GF, VG", ing: "Harissa paste, Honey", served: "Condiment/Glaze", allergy: "Garlic, cumin, peppers" },
+  { name: "Shifka Aioli", group: "Sauces", cat: "Sauces (p.51)", tags: "GF, V", ing: "Shifka pepper, Mayonnaise, Garlic confit, Shifka juice, Granulated sugar, Sumac", served: "Condiment", allergy: "Eggs, garlic, avocado, pepper" },
+  { name: "Amba", group: "Sauces", cat: "Sauces (p.52)", tags: "GF, VG", ing: "Savory pickled mango with warm spices", served: "Condiment", allergy: "Mango" },
+  { name: "Amba Aioli", group: "Sauces", cat: "Sauces (p.52)", tags: "GF, V", ing: "Amba powder, Mayonnaise, Orange juice, Honey, Turmeric", served: "Condiment", allergy: "Eggs, mango, avocado" },
+  { name: "Garlic Cilantro Aioli", group: "Sauces", cat: "Sauces (p.52)", tags: "GF, V", ing: "Garlic Confit, Mayonnaise, Chives, Lemon zest, Fresh Cilantro", served: "Condiment", allergy: "Eggs, garlic, cilantro, avocado" },
+  { name: "Garlic Aioli", group: "Sauces", cat: "Sauces (p.52)", tags: "GF, V", ing: "Garlic Confit, Mayonnaise, Chives, Lemon zest", served: "Condiment", allergy: "Eggs, garlic, avocado" },
+  { name: "Grated Tomato", group: "Sauces", cat: "Sauces (p.52)", tags: "GF, VG", ing: "Fresh tomato, S'chug, Extra virgin olive oil, Kosher salt", served: "Condiment", allergy: "Pepper, garlic, cilantro, cumin (s'chug)" },
+  { name: "Chimichurri", group: "Sauces", cat: "Sauces (p.52)", tags: "GF, VG", ing: "Fresh Parsley, Extra virgin olive oil, Garlic, Red wine vinegar, Kosher salt, Oregano, Preserved lemon, Crushed red pepper", served: "Condiment", allergy: "Garlic" },
+  { name: "Mint Honey Vinaigrette", group: "Sauces", cat: "Sauces (p.53)", tags: "GF, V", ing: "Avocado oil, Honey, Lime juice, Shallots, Kosher salt, Cumin, Ground mustard, Ground red pepper, Ground black pepper, Mint", served: "Dressing", allergy: "Cumin, mustard, pepper, avocado" },
+  { name: "Peppercorn Sauce", group: "Sauces", cat: "Sauces (p.53)", tags: "GF, V", ing: "Shallots, Kitchen brandy, White wine vinegar, Lemon tahini, Black pepper, Avocado oil, Granulated sugar", served: "Steak sauce", allergy: "Sesame, onion, avocado" },
+  { name: "Pomegranate Vinaigrette", group: "Sauces", cat: "Sauces (p.53)", tags: "GF, V", ing: "Pomegranate molasses, Honey, Extra virgin olive oil, Lime juice, Kosher salt, Black pepper", served: "Dressing", allergy: "Pepper" },
+  { name: "Truffle Aioli", group: "Sauces", cat: "Sauces (p.53)", tags: "GF, V", ing: "Truffle paste, Mayonnaise", served: "Condiment", allergy: "Eggs, avocado" },
+  { name: "Tomato Jam", group: "Sauces", cat: "Sauces (p.53)", tags: "GF, VG", ing: "Grape tomato, Granulated sugar, Lemon juice, Black pepper, Anise seed, Coriander", served: "Condiment", allergy: "Pepper" },
+  { name: "Pepper Jam", group: "Sauces", cat: "Sauces (p.53)", tags: "GF, VG", ing: "Red bell pepper, Apple cider vinegar, Granulated sugar", served: "Condiment", allergy: "Pepper" },
+  { name: "Shakshuka Sauce", group: "Sauces", cat: "Sauces (p.54)", tags: "GF, VG", ing: "Whole peeled tomatoes, Fresh tomatoes, Fire roasted red pepper, Long hot pepper, Garlic, Paprika, Extra virgin olive oil, Black pepper", served: "Sauce base", allergy: "Pepper, garlic" },
+  { name: "Masabacha", group: "Sauces", cat: "Sauces (p.54)", tags: "GF, VG", ing: "Long hot pepper, Extra virgin olive oil, Garlic, Cilantro, Kosher salt, Lemon juice", served: "Herbaceous green sauce", allergy: "Pepper, garlic" },
+  { name: "Middle Eastern Salad Vinaigrette", group: "Sauces", cat: "Sauces (p.54)", tags: "GF, VG", ing: "Extra virgin olive oil, Lemon juice", served: "Dressing", allergy: "N/A" },
+  { name: "Individual Pickles Page (p.68)", group: "Sauces", cat: "Pickles (p.68)", tags: "GF, VG", ing: "7 Individual GF/VG sides: Pickled Cauliflower, Pickled Onions, Pickled Carrots, Fresno Peppers, Preserved Lemons, Pickles, Pickled Cabagge", served: "Sides", allergy: "None listed on p.68" },
+  // PAGE 56, 57, 59, 61: DESSERTS & DRINKS
+  { name: "Halva Silan Sundae", group: "Desserts", cat: "Desserts (p.56)", tags: "GF, V", ing: "Halva, Black Tahini (gelato), Silan, Candied pecans", served: "Dessert", allergy: "Dairy, sesame, nuts" },
+  { name: "Knafeh ('Ka-Nafay')", group: "Desserts", cat: "Desserts (p.56)", tags: "V", ing: "Kataifi dough, Powdered sugar, Clarified butter, Mozzarella Curd, Heavy cream, Whole Milk, Semolina Flour, Amba, Pistachio", served: "Amba sorbet", allergy: "Gluten, dairy, nuts" },
+  { name: "Coconut Panna Cotta", group: "Desserts", cat: "Desserts (p.56)", tags: "GF, VG", ing: "Malabi, Coconut milk, Granulated sugar, Corn starch, Rose water, Orange blossom water, Raspberry coulis, Pistachio crust", served: "Dessert", allergy: "Nuts" },
+  { name: "Pistachio Cheesecake", group: "Desserts", cat: "Desserts (p.56)", tags: "GF, V", ing: "Cream cheese, Heavy cream, Sugar, Eggs, Pistachio paste, Yogurt labneh, Corn starch, Vanilla, Strawberry purée, Raspberry confit, Fresh raspberry, Pistachio flour (Made fresh at sister concept Sesame Bakery)", served: "Dessert", allergy: "Dairy, eggs, nuts" },
+  { name: "Gelato (3 Scoops)", group: "Desserts", cat: "Desserts (p.57)", tags: "GF, V", ing: "Florida locations: Madagascar vanilla, Nutella, Mango sorbet. New York locations: Madagascar vanilla, Dark chocolate, Mango sorbet, Motek amba, Black tahini", served: "3 scoops", allergy: "Dairy (Vanilla, Nutella, Dark Chocolate, Motek Amba), Nuts (Nutella, Mango), Sesame (Black tahini)" },
+  { name: "Turkish Baklava", group: "Desserts", cat: "Desserts (p.57)", tags: "V", ing: "Phyllo dough, Chopped pistachio, Unsalted butter, Granulated sugar, Honey, Lemon juice, Rose syrup", served: "Dessert", allergy: "Gluten, dairy, nuts" },
+  { name: "Babka", group: "Desserts", cat: "Desserts (p.57)", tags: "V", ing: "Flour, Sugar, Eggs, Fresh Yeast, Unsalted butter, Granulated sugar, Honey, Turkish mocha syrup, Nutella ice cream", served: "Nutella ice cream and Turkish mocha syrup", allergy: "Gluten, eggs, dairy, nuts" },
+  { name: "Rimonana", group: "Desserts", cat: "Drinks (p.59)", tags: "GF, VG", ing: "Homemade pomegranate mint lemonade", served: "Cold drink", allergy: "N/A" },
+  { name: "Hibiscus Iced Tea", group: "Desserts", cat: "Drinks (p.59)", tags: "GF, VG", ing: "Hibiscus, Cinnamon, Spearmint, Star anise, Lemongrass", served: "Cold drink", allergy: "N/A" },
+  { name: "Orange Juice", group: "Desserts", cat: "Drinks (p.59)", tags: "GF, VG", ing: "Naturally sweet orange juice", served: "Cold drink", allergy: "N/A" },
+  { name: "Berry Basil Smoothie", group: "Desserts", cat: "Drinks (p.59)", tags: "GF, V", ing: "Mixed berries, Thai basil, Citrus yogurt", served: "Smoothie", allergy: "Dairy" },
+  { name: "Banana Tahini Silan Smoothie", group: "Desserts", cat: "Drinks (p.59)", tags: "GF, V", ing: "Banana, Tahini, Silan, Whole milk, Vanilla, Halva, Cacao nibs", served: "Smoothie", allergy: "Dairy, sesame" },
+  { name: "Kale Y Piña", group: "Desserts", cat: "Drinks (p.59)", tags: "GF, V", ing: "Kale, Pineapple, Passion Fruit, Honey, Coconut Milk", served: "Smoothie", allergy: "Nuts" },
+  { name: "Coffee & Hot Tea Menu (p.61)", group: "Desserts", cat: "Hot Drinks (p.61)", tags: "GF, V/VG", ing: "Vanilla Rose Latte (GF/V), Matcha Tea Latte (GF/V), Turkish Coffee (GF/VG - unfiltered finely ground), Turkish Mocha Latte (GF/V), Turkish Hot Chocolate (GF/V - Turkish mocha chocolate fudge sauce), Nana Mint Tea (GF/VG - fresh Nana mint leaves)", served: "Hot or iced with choice of milk", allergy: "Milk choice dependent" }
+];
+
+const TRAP_QUESTIONS = [
+  { group: "Mains", cat: "Allergen Trap", q: "A guest has a Celiac/Gluten allergy and wants the Beef Kufta Kebab without lavash bread. Can they have it?", opts: ["Yes, removing the lavash makes it gluten-free", "No — soaked pita is mixed into the spiced beef and 'cannot be removed'", "No — the amba sauce contains wheat flour", "Yes, if they also remove the grilled vegetable skewer"], ans: 1, exp: "Beef Kufta Kebab contains 'Pita soaked' inside the beef mixture; the allergy line explicitly states 'gluten (cannot be removed)'." },
+  { group: "Bowls", cat: "Hidden Ingredient Trap", q: "A strict vegetarian orders the Greek Lemon Potatoes (which has a 'V' icon on page 43). Why must you warn them?", opts: ["They are fried in beef tallow", "The ingredient list explicitly includes Chicken Broth", "They contain anchovy paste", "They are topped with crispy pastrami"], ans: 1, exp: "Greek Lemon Potatoes list: Idaho potatoes, Garlic, Lemon juice, Chicken broth, Preserved lemon, Hawayej spice blend, Fresh rosemary." },
+  { group: "Sauces", cat: "Allergen Trap", q: "Which condiment causes a MANGO allergy across dishes like Falafel Tahini, Kebabs, Shawarmas, and Roasted Eggplant Hummus?", opts: ["S'chug", "Masabacha", "Amba / Amba Aioli", "Harissa Honey"], ans: 2, exp: "Amba is a traditional Middle Eastern condiment made of savory pickled mango with warm spices." },
+  { group: "Hummus", cat: "Allergen Trap", q: "Why does Housemade Pickles (Page 10) carry a MANGO allergy warning?", opts: ["Pickled mango slices are in the bowl", "Mango is listed on the allergy line: 'Onion, garlic, mango, pepper'", "It is served with Amba aioli", "It is topped with mango sorbet"], ans: 1, exp: "Housemade Pickles (Pickled cauliflower, carrots, red onion, housemade pickles, red fresno peppers) explicitly lists 'Onion, garlic, mango, pepper' under Allergy." },
+  { group: "Mains", cat: "Allergen Trap", q: "Why do Peppercorn Sauce and the 8oz Hanger Steak carry a SESAME allergy?", opts: ["The steak is crusted in sesame seeds", "Peppercorn sauce is made with Lemon Tahini", "The fries are tossed in za'atar", "It is cooked in toasted sesame oil"], ans: 1, exp: "Peppercorn Sauce contains: Shallots, Kitchen brandy, White wine vinegar, Lemon tahini, Black pepper, Avocado oil, Granulated sugar." },
+  { group: "Sauces", cat: "Allergen Trap", q: "Why do all house aiolis (Truffle, Harissa, Shifka, Amba, Garlic) and Harissa paste carry an AVOCADO allergy?", opts: ["They are blended with fresh Hass avocado", "Avocado oil is used in the mayonnaise / base", "Shared prep area with Avocado Toast", "Garnished with avocado slices"], ans: 1, exp: "Motek's mayo/aiolis, S'chug, Harissa, Peppercorn sauce, and Mint Honey Vinaigrette use avocado oil, triggering the avocado allergen." },
+  { group: "Bowls", cat: "Allergen Trap", q: "If a guest has a CINNAMON allergy and orders any Bowl (like Salmon or Grilled Chicken Bowl), what modification makes it safe?", opts: ["Order Cauliflower Couscous instead of Majadra Rice", "Remove the hummus", "Remove the Middle Eastern chopped salad", "Substitute lemon tahini"], ans: 0, exp: "Majadra Rice contains cinnamon (along with hawayej, turmeric, cumin). On the bowls pages, the allergy states 'cinnamon (rice)', whereas Cauliflower Couscous only has 'Onion, cilantro'." },
+  { group: "Hummus", cat: "Allergen Trap", q: "Which dip on Page 15 is NOT Gluten-Free because it contains Panko breadcrumbs?", opts: ["Babaganoush", "Muhammara", "Spicy Greek Feta", "Roasted Eggplant"], ans: 1, exp: "Muhammara is thickened with Panko (plus roasted red pepper, pepper paste, pomegranate molasses, tahini, baharat walnuts, cumin, paprika, coriander, EVOO)." },
+  { group: "Bowls", cat: "Allergen Trap", q: "Why does Broccolini (Page 43) have a SOY allergy (and Onion/Garlic)?", opts: ["It is glazed in soy sauce", "Because of the Crispy Shallots", "It contains edamame", "It is cooked in soybean butter"], ans: 1, exp: "Broccolini ingredients are Roasted broccolini, Lemon juice, Crispy shallots, Maldon salt — the crispy shallots carry Onion, garlic, soy." },
+  { group: "Flatbreads", cat: "Bread & Flour", q: "What are the 4 exact ingredients in Motek's signature Laffa bread (and what are its 2 allergens)?", opts: ["Pinsa Romana flour, sea salt, extra virgin olive oil, nigella seeds (Allergy: Gluten, soy)", "Wheat flour, yeast, butter, sesame seeds (Allergy: Gluten, dairy, sesame)", "Semolina flour, water, olive oil, za'atar (Allergy: Gluten, sesame)", "All-purpose flour, eggs, honey, nigella seeds (Allergy: Gluten, eggs)"], ans: 0, exp: "Laffa is made with Pinsa Romana flour, sea salt, extra virgin olive oil, and nigella seeds. Its allergens are Gluten and Soy (same as Naked Pita)." },
+  { group: "Brunch", cat: "Bread & Flour", q: "Which two dishes on the menu use Japanese Milk Bread?", opts: ["Avocado Toast and Cheese Omelet", "Truffle Mushroom Toast and French Toast", "Jerusalem Grilled Cheese and Ribeye on Baguette", "Babka and Knafeh"], ans: 1, exp: "Truffle Mushroom Toast (p.6) and French Toast (p.5) both use Japanese milk bread." },
+  { group: "Sandwiches", cat: "Ingredients", q: "What are the 3 components of the Schnitzel Breadcrumb Mix?", opts: ["Panko, flour, and za'atar", "Panko, sesame seeds, and corn flakes", "Matzo meal, panko, and paprika", "Rice flour, corn starch, and sesame seeds"], ans: 1, exp: "Every schnitzel dish uses a coating of Panko, Sesame seeds, and Corn flakes." },
+  { group: "Hot Mezze", cat: "Gluten-Free Fryers", q: "How are Crispy Cauliflower and Crispy Eggplant coated so that they remain Gluten-Free (GF)?", opts: ["Panko and corn flakes", "Rice flour and corn starch (with paprika)", "Chickpea flour and matzo meal", "Pinsa Romana flour"], ans: 1, exp: "Both Crispy Cauliflower and Crispy Eggplant use Rice flour, Corn starch, and Paprika for a gluten-free tempura-style coating." },
+  { group: "Mains", cat: "Dish Comparison", q: "How do the Chicken Shawarma Plate and Lamb Shawarma Plate differ in spice blends and 'Served With' sides?", opts: ["Chicken uses West shawarma spices & comes with half laffa, market salad, and lemon tahini with s'chug; Lamb uses East shawarma spices & comes with half laffa, long hot pepper, lemon tahini, and amba sauce", "Chicken uses East spices; Lamb uses West spices", "Both come with market salad and s'chug", "Chicken comes with rice; Lamb comes with fries"], ans: 0, exp: "Chicken Shawarma Plate = West shawarma spices + Market salad + Lemon tahini w/ s'chug + Half laffa. Lamb Shawarma Plate = East shawarma spices + Long hot pepper + Lemon tahini + Amba sauce + Half laffa." },
+  { group: "Mains", cat: "Dish Comparison", q: "What is the difference between Whole Branzino (p.34) and Baked Lemon Branzino (p.35)?", opts: ["Whole Branzino is grilled over open fire & served with masabacha sauce and grilled lemon; Baked Lemon Branzino is a filet baked with Greek lemon potatoes, fennel, artichokes, capers & butter, served with Majadra Rice & lentils", "Whole Branzino comes with Majadra rice; Baked Lemon Branzino comes with challah", "Both are whole fish served with chimichurri", "Baked Lemon Branzino is dairy-free"], ans: 0, exp: "Whole Branzino is dairy-free (Fish, garlic, pepper) and served with masabacha & grilled lemon. Baked Lemon Branzino contains unsalted butter (Dairy) and is served with Majadra Rice & lentils." },
+  { group: "Mains", cat: "Ingredients", q: "What fish is used in Moroccan Fish (Page 34), and what is it served with?", opts: ["Branzino; served with laffa", "Chilean sea bass; served with freshly baked challah bread", "Faroe Island salmon; served with Majadra rice", "Halibut; served with pita"], ans: 1, exp: "Moroccan Fish is a traditional Jewish Friday night dish made with Chilean sea bass simmered in spicy tomato sauce with chickpeas, peppers, tahini, and kalamata olives, served with freshly baked challah." },
+  { group: "Bowls", cat: "Sides & Sauces", q: "What dipping sauces come with Handcut Fries vs. Handcut Za'atar Fries (Page 43)?", opts: ["Handcut Fries = Harissa aioli; Handcut Za'atar Fries = Harissa aioli AND Garlic cilantro aioli", "Handcut Fries = Ketchup; Za'atar Fries = Lemon tahini", "Both come with Shifka aioli only", "Handcut Fries = Garlic aioli; Za'atar Fries = Amba aioli"], ans: 0, exp: "Handcut Fries come with Harissa aioli; Handcut Za'atar Fries come with both Harissa aioli and Garlic cilantro aioli." },
+  { group: "Desserts", cat: "Desserts", q: "What is the Knafeh ('Ka-Nafay') served with, and what surprising ingredient is listed inside the Knafeh itself?", opts: ["Served with Amba sorbet (and Amba is listed in the ingredients along with kataifi dough, mozzarella curd, semolina flour, pistachio)", "Served with Nutella ice cream and rose syrup", "Served with Black tahini gelato and silan", "Served with Mango sorbet and halva"], ans: 0, exp: "Knafeh lists Amba in its ingredients and is served with Amba sorbet." },
+  { group: "Desserts", cat: "Desserts", q: "In the Gelato section (Page 57), which 3 flavors are available at Florida locations?", opts: ["Madagascar vanilla, Nutella, and Mango sorbet", "Dark chocolate, Motek amba, and Black tahini", "Pistachio, Nutella, and Rose water", "Vanilla, Dark chocolate, and Black tahini"], ans: 0, exp: "Florida locations carry 3 flavors: Madagascar vanilla, Nutella, and Mango sorbet (NY locations also add Dark chocolate, Motek amba, and Black tahini)." },
+  { group: "Desserts", cat: "Desserts", q: "Which dessert is made fresh at Motek's sister concept 'Sesame Bakery' and is Gluten-Free (made with pistachio flour & corn starch)?", opts: ["Turkish Baklava", "Babka", "Pistachio Cheesecake", "Knafeh"], ans: 2, exp: "Pistachio Cheesecake (GF, V) is made with yogurt labneh, cream cheese, pistachio paste, and pistachio flour at sister concept Sesame Bakery." },
+  { group: "Raw", cat: "Salads", q: "Which salad contains Anchovies (Fish allergen) and Pitted Dates, and uses Green & Red Cabbage as its base instead of romaine?", opts: ["Crunchy Cabbage Salad", "Warm Caesar Salad", "House Side Salad", "Za'atar Greek Salad"], ans: 1, exp: "Warm Caesar Salad uses green & red cabbage, watermelon radish, pitted dates, parmesan, chives, and Caesar dressing with anchovies." },
+  { group: "Hummus", cat: "Mezze", q: "What are the 3 cheeses/dairy items blended in the Spicy Greek Feta dip (Page 15)?", opts: ["Manouri cheese, Labneh, and Feta cheese", "Goat cheese, Feta, and Parmesan", "Ricotta, Feta, and Crème fraîche", "Halloumi, Feta, and Labneh"], ans: 0, exp: "Spicy Greek Feta blends roasted red peppers with Manouri cheese, Labneh, and Feta cheese (plus coriander, spicy paprika, EVOO)." },
+  { group: "Hummus", cat: "Mezze", q: "Why does Roasted Eggplant (the GF, VG cold mezze on Page 15) list 'Eggs' on its allergy line?", opts: ["It is topped with a fried poached egg", "Even though the ingredients are only Roasted eggplant, Lemon Tahini, Pine nuts, Sumac, and Mint, the sheet prints 'Allergy: Eggs, sesame, nuts'", "It contains mayonnaise", "It is battered in egg wash"], ans: 1, exp: "On Page 15, Roasted Eggplant (GF, VG) only has roasted eggplant, lemon tahini, pine nuts, sumac, and mint, but its printed allergy line says 'Eggs, sesame, nuts' (whereas Roasted Eggplant Hummus on p.8 has a fried poached egg)." },
+  { group: "Brunch", cat: "Omelets", q: "What 5 items are served with ALL THREE omelets (Cheese Omelet, Galil Omelet, and White Omelet) on Page 6?", opts: ["Tahini, babaganoush, labneh, mixed pickles, house salad", "Hummus, shifka aioli, tomato jam, olives, challah", "Majadra rice, chimichurri, pickles, pita, labneh", "French fries, harissa aioli, coleslaw, pickle, baguette"], ans: 0, exp: "All three omelets are served with: Tahini, babaganoush, labneh, mixed pickles, and house salad." },
+  { group: "Brunch", cat: "Omelets", q: "What are the 5 available Add-Ons listed under the Cheese Omelet and White Omelet?", opts: ["Smoked salmon, goat cheese, swiss, gruyère, pastrami", "Avocado, bacon, cheddar, feta, mushrooms", "Chicken shawarma, lamb, halloumi, olives, jalapeno", "Grilled salmon, labneh, za'atar, spinach, onions"], ans: 0, exp: "ADD-ONS AVAILABLE: Smoked salmon, goat cheese, swiss, gruyère, pastrami." },
+  { group: "Raw", cat: "Raw Bar", q: "What gives the Tuna Tartare (Page 22) its signature crunch?", opts: ["Crispy shallots and crispy sunchokes", "Crispy leeks and pine nuts", "Crispy capers and pita chips", "Toasted almonds and ja'ala seeds"], ans: 0, exp: "Tuna Tartare is finished with crispy shallots and crispy sunchokes (whereas Salmon Ceviche has crispy leeks, and Tuna Carpaccio has crispy capers)." },
+  { group: "Flatbreads", cat: "Flatbreads", q: "Which 3 Flatbreads on Page 13 are served with Grated Tomato on the side, and which one is NOT?", opts: ["Turkish (with lemon tahini), Lebanon, and French come with Grated Tomato; Italy does NOT", "All 4 come with Grated Tomato", "Only Turkish comes with Grated Tomato", "Italy and French come with Grated Tomato; Turkish and Lebanon do not"], ans: 0, exp: "Turkish (grated tomato + lemon tahini), Lebanon (grated tomato), and French (grated tomato) all list it under 'Served With'; Italy has no side listed." },
+  { group: "Sandwiches", cat: "Burgers", q: "What aioli comes with the Wagyu Burger vs. the Arayes Burger (Page 31)?", opts: ["Wagyu Burger = Pomegranate aioli (plus long hot pepper & fries); Arayes Burger = Tahini, Harissa aioli, and grated tomato", "Wagyu Burger = Truffle aioli; Arayes Burger = Shifka aioli", "Both come with Garlic cilantro aioli", "Wagyu Burger = Harissa aioli; Arayes Burger = Amba aioli"], ans: 0, exp: "Wagyu Burger is served with long hot pepper, pomegranate aioli, and handcut fries. Arayes Burger is served with choice of fries or house salad, tahini, harissa aioli, and grated tomato." },
+  { group: "Sandwiches", cat: "Sandwiches", q: "What sauce is the Spicy Schnitzel & Eggplant Sandwich (Page 27) served with that differs from the classic Crispy Chicken Schnitzel Sandwich?", opts: ["Spicy matboucha sauce, lemon tahini, and pickle (vs. Harissa aioli, shifka pepper, and pickle on the classic)", "Amba sauce and s'chug", "Garlic cilantro aioli and coleslaw", "Shifka aioli and tomato jam"], ans: 0, exp: "Classic Schnitzel Sandwich = Harissa aioli, shifka pepper, pickle (and has coleslaw inside). Spicy Schnitzel & Eggplant = Spicy matboucha sauce, lemon tahini, pickle (and has roasted eggplant & long hot pepper inside)." },
+  { group: "Sauces", cat: "Sauces", q: "What is the difference between Garlic Cilantro Aioli and Garlic Aioli (Page 52)?", opts: ["Both contain Garlic Confit, Mayonnaise, Chives, and Lemon zest; Garlic Cilantro Aioli simply adds Fresh Cilantro", "Garlic Aioli uses raw garlic and olive oil only", "Garlic Cilantro Aioli adds jalapeno and lime", "Garlic Aioli is vegan; Garlic Cilantro Aioli has eggs"], ans: 0, exp: "They share the exact same 4 base ingredients (Garlic Confit, Mayonnaise, Chives, Lemon zest), with Fresh Cilantro added to the Garlic Cilantro Aioli." },
+  { group: "Sauces", cat: "Sauces", q: "Which spice in Tomato Jam (Page 53) gives it a warm, licorice-like aromatic note alongside coriander?", opts: ["Anise seed", "Cinnamon", "Cardamom", "Caraway"], ans: 0, exp: "Tomato Jam ingredients: Grape tomato, Granulated sugar, Lemon juice, Black pepper, Anise seed, Coriander (anise seed is also in the Salmon Skewer description!)." },
+  { group: "Sauces", cat: "Sauces", q: "What are the 2 ingredients in Middle Eastern Salad Vinaigrette (Page 54)?", opts: ["Extra virgin olive oil and Lemon juice (Allergy: N/A)", "Avocado oil and red wine vinegar", "Olive oil, garlic, and sumac", "Lemon juice, honey, and Dijon mustard"], ans: 0, exp: "Middle Eastern Salad Vinaigrette is simply Extra virgin olive oil and Lemon juice with N/A allergies." },
+  { group: "Desserts", cat: "Drinks", q: "What are the 5 ingredients brewed in the Hibiscus Iced Tea (Page 59)?", opts: ["Hibiscus, Cinnamon, Spearmint, Star anise, Lemongrass", "Hibiscus, Rose water, Nana mint, Lemon, Honey", "Hibiscus, Pomegranate, Ginger, Clove, Orange peel", "Hibiscus, Black tea, Cardamom, Mint, Sugar"], ans: 0, exp: "Hibiscus Iced Tea is brewed with Hibiscus, Cinnamon, Spearmint, Star anise, and Lemongrass." },
+  { group: "Desserts", cat: "Drinks", q: "Why does the Kale Y Piña Smoothie (Page 59) list 'Nuts' under Allergy?", opts: ["It contains Coconut Milk (along with Kale, Pineapple, Passion Fruit, and Honey)", "It is blended with almond butter", "It is topped with crushed pistachios", "It contains cashew milk"], ans: 0, exp: "Coconut milk in Kale Y Piña (and Coconut Panna Cotta) is classified under 'Allergy: Nuts' on Motek's menu sheets." },
+  { group: "Bowls", cat: "Sides", q: "What cheese and dairy products are inside the Street Corn (Page 43)?", opts: ["Whole milk, Unsalted butter, Parmesan cheese (in the Corn Cream), plus Dry Labneh", "Cotija cheese and sour cream", "Feta cheese, heavy cream, and goat cheese", "Manouri cheese and crème fraîche"], ans: 0, exp: "Street Corn is made with Fresh corn off the cob, Corn Cream (Whole milk, Unsalted butter, Parmesan cheese, Kosher salt), Dry Labneh, Aleppo, EVOO, and Micro cilantro." }
+];
+
+const STORE_KEY = "motek_exam_state_v1";
+const EXAM_SIZE = 150;
+const DEAD_SERVED = new Set([
+  "None listed", "Side dish", "Condiment", "Dessert", "Cold drink", "Smoothie",
+  "Dressing", "Side bread", "Protein add-on", "Side add-on",
+  "Bowl base or side", "Grain-free bowl base", "Sauce base", "Herbaceous green sauce",
+  "Steak sauce", "Condiment/Glaze", "3 scoops", "Side bread", "Sides",
+  "Full breakfast spread", "N/A"
+]);
+const DEAD_ALLERGY = new Set([
+  "N/A", "None listed", "None listed on p.68", "Milk choice dependent"
+]);
+
+const shuffle = arr => arr.map(v => [Math.random(), v]).sort((a, b) => a[0] - b[0]).map(p => p[1]);
+
+function pickDistractors(correct, pool, count) {
+  const seen = new Set([correct]);
+  const out = [];
+  for (const candidate of shuffle(pool)) {
+    if (out.length >= count) break;
+    if (seen.has(candidate)) continue;
+    seen.add(candidate);
+    out.push(candidate);
+  }
+  return out;
+}
+
+function buildQuestionsPool() {
+  const questions = TRAP_QUESTIONS.slice();
+
+  const allAllergies = [...new Set(
+    MENU_DB.map(d => C(d.allergy)).filter(a => a && !DEAD_ALLERGY.has(a))
+  )];
+  const allServed = [...new Set(
+    MENU_DB.map(d => C(d.served)).filter(s => s && !DEAD_SERVED.has(s))
+  )];
+  const allIngs = [...new Set(MENU_DB.map(d => C(d.ing)).filter(Boolean))];
+
+  MENU_DB.forEach(item => {
+    const name = C(item.name);
+    const cat = C(item.cat);
+    const ing = C(item.ing);
+    const served = C(item.served);
+    const allergy = C(item.allergy);
+    const tags = C(item.tags);
+
+    if (ing) {
+      const opts = shuffle([ing, ...pickDistractors(ing, allIngs, 3)]);
+      questions.push({
+        group: item.group,
+        item: name,
+        cat: cat + " • Ingredients",
+        q: "Which of the following is the exact ingredient build for " + name + "?",
+        opts,
+        ans: opts.indexOf(ing),
+        exp: name + " (" + tags + ") ingredients: " + ing + ". Allergies: " + allergy + "."
+      });
+    }
+
+    if (allergy && !DEAD_ALLERGY.has(allergy)) {
+      const opts = shuffle([allergy, ...pickDistractors(allergy, allAllergies, 3)]);
+      questions.push({
+        group: item.group,
+        item: name,
+        cat: cat + " • Allergens",
+        q: "What are the stated allergens for " + name + "?",
+        opts,
+        ans: opts.indexOf(allergy),
+        exp: name + " allergens: " + allergy + ". (Ingredients: " + ing + ")"
+      });
+    }
+
+    if (served && !DEAD_SERVED.has(served)) {
+      const opts = shuffle([served, ...pickDistractors(served, allServed, 3)]);
+      questions.push({
+        group: item.group,
+        item: name,
+        cat: cat + " • Served With",
+        q: "What is " + name + " served with?",
+        opts,
+        ans: opts.indexOf(served),
+        exp: name + " is served with: " + served + "."
+      });
+    }
+  });
+
+  return questions;
+}
+
+const ALL_QUESTIONS = buildQuestionsPool();
+
+// 150-question exam: all 35 traps, then round-robin one generated question per
+// dish so every menu item is tested before any dish repeats.
+function buildExamDeck() {
+  const generated = ALL_QUESTIONS.filter(q => q.item);
+  const byItem = new Map();
+  generated.forEach(q => {
+    if (!byItem.has(q.item)) byItem.set(q.item, []);
+    byItem.get(q.item).push(q);
+  });
+  const ordered = shuffle([...byItem.keys()]);
+  const deck = TRAP_QUESTIONS.slice();
+  const taken = new Set();
+
+  let round = 0;
+  while (deck.length < EXAM_SIZE && round < 4) {
+    for (const key of ordered) {
+      if (deck.length >= EXAM_SIZE) break;
+      const bucket = byItem.get(key);
+      const next = bucket.find(q => !taken.has(q.q));
+      if (!next) continue;
+      taken.add(next.q);
+      deck.push(next);
+    }
+    round++;
+  }
+  return shuffle(deck);
+}
+
+let EXAM_DECK = buildExamDeck();
+
+let currentMode = "quiz";
+let activeDeck = [];
+let activeFlashcards = MENU_DB.slice();
+let currentIndex = 0;
+let streak = 0;
+let missedQuestions = [];
+let answeredState = {};
+let fcIndex = 0;
+
+function deckScore() {
+  const answered = activeDeck.filter(q => answeredState[q.q] !== undefined);
+  return {
+    answered: answered.length,
+    score: answered.filter(q => answeredState[q.q] === q.ans).length
+  };
+}
+
+function saveState() {
+  try {
+    localStorage.setItem(STORE_KEY, JSON.stringify({
+      missed: missedQuestions,
+      answered: answeredState,
+      streak,
+      currentIndex
+    }));
+  } catch (e) {}
+}
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (!raw) return;
+    const s = JSON.parse(raw);
+    if (Array.isArray(s.missed)) missedQuestions = s.missed;
+    if (s.answered && typeof s.answered === "object") answeredState = s.answered;
+    if (typeof s.streak === "number") streak = s.streak;
+    if (typeof s.currentIndex === "number") currentIndex = s.currentIndex;
+  } catch (e) {}
+  document.getElementById("missed-count").textContent = missedQuestions.length;
+}
+
+function resetStorage() {
+  if (!confirm("Reset all saved progress, score, and the missed-question bank?")) return;
+  try { localStorage.removeItem(STORE_KEY); } catch (e) {}
+  missedQuestions = [];
+  answeredState = {};
+  streak = 0;
+  document.getElementById("missed-count").textContent = "0";
+  resetQuizState();
+}
+
+function buildBaseDeck() {
+  const cat = document.getElementById("cat-filter").value;
+  if (currentMode === "traps") {
+    return cat === "ALL" ? TRAP_QUESTIONS.slice() : TRAP_QUESTIONS.filter(q => q.group === cat);
+  }
+  // Exam tab: the fixed 150-question deck. With a category drill, use the full
+  // generated pool for that section so the drill is not capped by the exam sample.
+  if (cat === "ALL") return EXAM_DECK.slice();
+  const drilled = ALL_QUESTIONS.filter(q => q.group === cat);
+  return shuffle([...TRAP_QUESTIONS.filter(q => q.group === cat), ...drilled]);
+}
+
+function resetQuizState() {
+  activeDeck = buildBaseDeck();
+  currentIndex = 0;
+  streak = 0;
+  renderQuestion();
+  saveState();
+}
+
+function applyCategoryFilter() {
+  const cat = document.getElementById("cat-filter").value;
+  activeFlashcards = cat === "ALL" ? MENU_DB.slice() : MENU_DB.filter(d => d.group === cat);
+  fcIndex = 0;
+
+  if (currentMode === "flash") { renderFlashcard(); return; }
+  if (currentMode === "db") { renderDB(); return; }
+
+  if (currentMode === "missed") {
+    activeDeck = cat === "ALL" ? missedQuestions.slice() : missedQuestions.filter(q => q.group === cat);
+    currentIndex = 0;
+    renderQuestion();
+    return;
+  }
+
+  const base = buildBaseDeck();
+  if (base.length) {
+    const firstUnanswered = base.findIndex(q => answeredState[q.q] === undefined);
+    activeDeck = base;
+    currentIndex = firstUnanswered === -1 ? 0 : firstUnanswered;
+  }
+  renderQuestion();
+  saveState();
+}
+
+function setMode(mode) {
+  currentMode = mode;
+  document.querySelectorAll(".tabs button").forEach(b => b.classList.remove("active"));
+  const tab = document.getElementById("tab-" + mode);
+  if (tab) tab.classList.add("active");
+
+  document.getElementById("quiz-view").style.display = ["quiz", "traps", "missed"].includes(mode) ? "block" : "none";
+  document.getElementById("flash-view").style.display = mode === "flash" ? "block" : "none";
+  document.getElementById("cheat-view").style.display = mode === "cheat" ? "block" : "none";
+  document.getElementById("db-view").style.display = mode === "db" ? "block" : "none";
+
+  if (mode === "quiz" || mode === "traps") {
+    activeDeck = buildBaseDeck();
+    if (!activeDeck.length) return;
+    currentIndex = Math.min(currentIndex, activeDeck.length - 1);
+    renderQuestion();
+  } else if (mode === "missed") {
+    if (!missedQuestions.length) {
+      alert("No missed questions queued yet. Answer some questions first.");
+      setMode("quiz");
+      return;
+    }
+    const cat = document.getElementById("cat-filter").value;
+    activeDeck = cat === "ALL" ? missedQuestions.slice() : missedQuestions.filter(q => q.group === cat);
+    // Retry session: clear prior answers on these questions so they can be
+    // answered again, and start the session counters clean.
+    activeDeck.forEach(q => { delete answeredState[q.q]; });
+    currentIndex = 0;
+    streak = 0;
+    renderQuestion();
+    saveState();
+  } else if (mode === "flash") {
+    const cat = document.getElementById("cat-filter").value;
+    activeFlashcards = cat === "ALL" ? MENU_DB.slice() : MENU_DB.filter(d => d.group === cat);
+    fcIndex = 0;
+    renderFlashcard();
+  } else if (mode === "db") {
+    renderDB();
+  }
+}
+
+function shuffleCurrentDeck() {
+  activeDeck = shuffle(activeDeck);
+  currentIndex = 0;
+  renderQuestion();
+}
+
+function renderQuestion() {
+  const optsEl = document.getElementById("q-options");
+  const expEl = document.getElementById("q-explain");
+
+  if (!activeDeck.length) {
+    document.getElementById("q-progress").textContent = "0 / 0";
+    document.getElementById("q-cat").textContent = "No questions";
+    document.getElementById("q-prompt").textContent =
+      currentMode === "missed"
+        ? "Nothing missed in this category yet."
+        : "No questions in this category.";
+    optsEl.innerHTML = "";
+    expEl.style.display = "none";
+    return;
+  }
+
+  const qObj = activeDeck[currentIndex];
+  const tally = deckScore();
+  document.getElementById("q-progress").textContent = (currentIndex + 1) + " / " + activeDeck.length;
+  const pct = tally.answered > 0 ? Math.round((tally.score / tally.answered) * 100) : 100;
+  document.getElementById("q-score").textContent = tally.score + " / " + tally.answered + " (" + pct + "%)";
+  document.getElementById("q-streak").textContent = streak + " 🔥";
+  document.getElementById("q-cat").textContent = qObj.cat;
+  document.getElementById("q-prompt").textContent = qObj.q;
+
+  const letters = ["A", "B", "C", "D"];
+  const prevAnswer = answeredState[qObj.q];
+  optsEl.innerHTML = "";
+
+  qObj.opts.forEach((opt, i) => {
+    const btn = document.createElement("button");
+    btn.className = "opt-btn";
+    if (prevAnswer !== undefined) {
+      btn.disabled = true;
+      if (i === qObj.ans) btn.classList.add("correct");
+      else if (i === prevAnswer) btn.classList.add("wrong");
+    }
+    const hint = document.createElement("span");
+    hint.className = "key-hint";
+    hint.textContent = letters[i];
+    const label = document.createElement("span");
+    label.textContent = opt;
+    btn.appendChild(hint);
+    btn.appendChild(label);
+    btn.onclick = () => selectAnswer(i);
+    optsEl.appendChild(btn);
+  });
+
+  if (prevAnswer !== undefined) {
+    expEl.style.display = "block";
+    expEl.innerHTML = "";
+    const head = document.createElement("strong");
+    head.textContent = prevAnswer === qObj.ans ? "✅ Correct! " : "❌ Missed: ";
+    expEl.appendChild(head);
+    expEl.appendChild(document.createTextNode(qObj.exp));
+  } else {
+    expEl.style.display = "none";
+  }
+}
+
+function selectAnswer(choice) {
+  if (!activeDeck.length) return;
+  const qObj = activeDeck[currentIndex];
+  if (answeredState[qObj.q] !== undefined) return;
+  if (choice < 0 || choice >= qObj.opts.length) return;
+
+  answeredState[qObj.q] = choice;
+  if (choice === qObj.ans) {
+    streak++;
+    missedQuestions = missedQuestions.filter(m => m.q !== qObj.q);
+  } else {
+    streak = 0;
+    if (!missedQuestions.some(m => m.q === qObj.q)) missedQuestions.push(qObj);
+  }
+  document.getElementById("missed-count").textContent = missedQuestions.length;
+  renderQuestion();
+  saveState();
+}
+
+function nextQ() {
+  if (currentIndex < activeDeck.length - 1) { currentIndex++; renderQuestion(); saveState(); }
+}
+function prevQ() {
+  if (currentIndex > 0) { currentIndex--; renderQuestion(); saveState(); }
+}
+
+function renderFlashcard() {
+  const item = activeFlashcards[fcIndex];
+  if (!item) return;
+  document.getElementById("fc-cat").textContent = item.cat + " • " + item.tags;
+  document.getElementById("fc-title").textContent = item.name;
+  document.getElementById("fc-idx").textContent = (fcIndex + 1) + " / " + activeFlashcards.length;
+  const back = document.getElementById("fc-back");
+  back.style.display = "none";
+  back.innerHTML = "";
+  const rows = [
+    ["Ingredients: ", item.ing, ""],
+    ["Served With: ", item.served, ""],
+    ["Allergens: ", item.allergy, "#fca5a5"]
+  ];
+  rows.forEach(([label, value, color], i) => {
+    const div = document.createElement("div");
+    if (i > 0) div.style.marginTop = "8px";
+    if (color) div.style.color = color;
+    const b = document.createElement("strong");
+    b.textContent = label;
+    div.appendChild(b);
+    div.appendChild(document.createTextNode(value));
+    back.appendChild(div);
+  });
+}
+
+function flipCard() {
+  const back = document.getElementById("fc-back");
+  back.style.display = back.style.display === "none" ? "block" : "none";
+}
+
+function stepFC(dir) {
+  if (!activeFlashcards.length) return;
+  fcIndex = (fcIndex + dir + activeFlashcards.length) % activeFlashcards.length;
+  renderFlashcard();
+}
+
+function renderDB() {
+  const q = (document.getElementById("db-search").value || "").toLowerCase();
+  const cat = document.getElementById("cat-filter").value;
+  const list = document.getElementById("db-list");
+  list.innerHTML = "";
+  MENU_DB.filter(item =>
+    (cat === "ALL" || item.group === cat) &&
+    (item.name.toLowerCase().includes(q) ||
+     item.ing.toLowerCase().includes(q) ||
+     item.allergy.toLowerCase().includes(q) ||
+     item.served.toLowerCase().includes(q) ||
+     item.cat.toLowerCase().includes(q))
+  ).forEach(item => {
+    const div = document.createElement("div");
+    div.className = "db-item";
+    const h3 = document.createElement("h3");
+    h3.textContent = item.name + " ";
+    const tagSpan = document.createElement("span");
+    tagSpan.style.fontSize = "0.75rem";
+    tagSpan.style.color = "var(--muted)";
+    tagSpan.textContent = "(" + item.tags + ")";
+    h3.appendChild(tagSpan);
+    div.appendChild(h3);
+
+    const catDiv = document.createElement("div");
+    catDiv.style.fontSize = "0.75rem";
+    catDiv.style.color = "var(--blue)";
+    catDiv.style.marginBottom = "6px";
+    catDiv.textContent = item.cat;
+    div.appendChild(catDiv);
+
+    [["Ingredients: ", item.ing, ""],
+     ["Served With: ", item.served, ""],
+     ["Allergies: ", item.allergy, "allergy-pill"]].forEach(([label, value, cls]) => {
+      const meta = document.createElement("div");
+      meta.className = "db-meta " + cls;
+      const b = document.createElement("b");
+      b.textContent = label;
+      meta.appendChild(b);
+      meta.appendChild(document.createTextNode(value));
+      div.appendChild(meta);
+    });
+
+    list.appendChild(div);
+  });
+}
+
+window.addEventListener("keydown", e => {
+  const tag = document.activeElement ? document.activeElement.tagName : "";
+  if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA") return;
+
+  if (["quiz", "traps", "missed"].includes(currentMode)) {
+    const k = e.key.toLowerCase();
+    if (k === "1" || k === "a") selectAnswer(0);
+    else if (k === "2" || k === "b") selectAnswer(1);
+    else if (k === "3" || k === "c") selectAnswer(2);
+    else if (k === "4" || k === "d") selectAnswer(3);
+    else if (k === " " || k === "enter" || k === "arrowright") { e.preventDefault(); nextQ(); }
+    else if (k === "arrowleft") { e.preventDefault(); prevQ(); }
+  } else if (currentMode === "flash") {
+    if (e.key === " ") { e.preventDefault(); flipCard(); }
+    else if (e.key === "ArrowRight") stepFC(1);
+    else if (e.key === "ArrowLeft") stepFC(-1);
+  }
+});
+
+document.getElementById("cat-all").textContent = "All Categories (" + MENU_DB.length + " Items)";
+document.getElementById("tab-flash").textContent = "Flashcards (" + MENU_DB.length + ")";
+
+loadState();
+activeDeck = EXAM_DECK.slice();
+if (currentIndex >= activeDeck.length) currentIndex = 0;
+renderQuestion();
+</script>
+</body>
+</html>
