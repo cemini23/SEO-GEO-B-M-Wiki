@@ -492,16 +492,15 @@ function deckScore() {
 
 function saveState() {
   try {
+    // Always keep the full exam order so a refresh resumes the same deck,
+    // whichever tab the reader was on when they left.
     const payload = {
       missed: missedQuestions,
       answered: answeredState,
       streak,
-      currentIndex
+      currentIndex,
+      deck: EXAM_DECK.map(q => q.q)
     };
-    // Keep the full exam order so a mid-exam refresh resumes the same deck.
-    if (currentMode === "quiz" && document.getElementById("cat-filter").value === "ALL") {
-      payload.deck = activeDeck.map(q => q.q);
-    }
     localStorage.setItem(STORE_KEY, JSON.stringify(payload));
   } catch (e) {}
 }
@@ -593,8 +592,10 @@ function setMode(mode) {
   if (mode === "quiz" || mode === "traps") {
     activeDeck = buildBaseDeck();
     if (!activeDeck.length) return;
-    currentIndex = Math.min(currentIndex, activeDeck.length - 1);
+    // Each mode starts at its first question; only a page load restores a position.
+    currentIndex = 0;
     renderQuestion();
+    saveState();
   } else if (mode === "missed") {
     if (!missedQuestions.length) {
       alert("No missed questions queued yet. Answer some questions first.");
