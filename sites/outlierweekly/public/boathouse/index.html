@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+<title>Boathouse Menu Exam</title>
+<style>
+:root {
+  --bg: #0e1412;
+  --ink: #f4efe4;
+  --muted: #a8b5ab;
+  --brass: #d7a441;
+  --brass-ink: #f0d48a;
+  --panel: #17211c;
+  --panel-2: #1e2b24;
+  --line: rgba(215, 164, 65, 0.35);
+  --good: #1f7a4d;
+  --good-line: #7dcea0;
+  --bad: #8d3034;
+  --bad-line: #f0a0a0;
+  --sea: #8ec9be;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(900px 420px at 0% -10%, rgba(215, 164, 65, 0.14), transparent 55%),
+    var(--bg);
+  color: var(--ink);
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  padding: 20px 16px calc(28px + env(safe-area-inset-bottom));
+}
+body, button, input, select { -webkit-tap-highlight-color: transparent; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
+.wrap { max-width: 44rem; margin: 0 auto; }
+.eyebrow {
+  margin: 0 0 4px;
+  color: var(--brass);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+h1, h2, h3 { font-family: Palatino, "Palatino Linotype", Georgia, serif; font-weight: 600; }
+h1 { margin: 0 0 14px; font-size: 2rem; line-height: 1.1; }
+h2 { margin: 0; font-size: 1.55rem; line-height: 1.25; }
+h3 { margin: 0 0 8px; font-size: 1.35rem; line-height: 1.2; }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.tabs button {
+  min-height: 48px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: var(--panel-2);
+  color: var(--ink);
+}
+.tabs button[aria-selected="true"] {
+  border-color: var(--brass);
+  color: var(--brass-ink);
+  background: #24352b;
+}
+.tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+.tools label { color: var(--muted); }
+.tools select, #reset-btn, .navrow button, .toggle, #qsearch {
+  min-height: 48px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+.tools select { flex: 1 1 12rem; padding: 0 12px; }
+#reset-btn, .navrow button, .toggle { padding: 10px 16px; background: var(--panel-2); }
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: rgba(14, 20, 18, 0.94);
+  padding: 8px 0;
+}
+.stats span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 8px;
+  text-align: center;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.q-card, .card, .sheet, .search, .empty-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 16px;
+}
+.q-card { border-left: 6px solid var(--brass); }
+.kicker { margin: 0 0 8px; color: var(--sea); font-size: 0.92rem; }
+.opts { display: grid; gap: 10px; margin-top: 16px; }
+.opt {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  width: 100%;
+  text-align: left;
+  min-height: 56px;
+  padding: 12px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: #121a16;
+}
+.opt .key {
+  flex: 0 0 auto;
+  min-width: 2rem;
+  color: var(--brass-ink);
+  font-weight: 700;
+}
+.opt.correct { background: var(--good); border-color: var(--good-line); }
+.opt.wrong { background: var(--bad); border-color: var(--bad-line); }
+.opt.dim { opacity: 0.55; }
+.explain {
+  min-height: 1.4em;
+  margin-top: 14px;
+  color: var(--ink);
+}
+.navrow { display: flex; gap: 8px; margin-top: 8px; }
+.navrow button { flex: 1; }
+.hint, .footer, .meta, .disclaimer { color: var(--muted); }
+.hint { margin: 12px 4px 0; font-size: 0.95rem; }
+.footer { text-align: center; margin-top: 28px; }
+.card { min-height: 16rem; }
+.card-face { cursor: pointer; }
+.flags { margin: 12px 0; padding-left: 1.1rem; }
+.flags li { margin: 4px 0; }
+.badge-row, .toggles { display: flex; flex-wrap: wrap; gap: 8px; }
+.badge, .warn {
+  display: inline-block;
+  margin: 4px 8px 0 0;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #24352b;
+  color: var(--brass-ink);
+  font-size: 0.92rem;
+}
+.warn { background: transparent; color: var(--sea); padding: 0; border-radius: 0; }
+.note { color: var(--ink); }
+#qsearch { width: 100%; padding: 0 12px; margin: 8px 0 12px; font-size: 1rem; }
+.toggle[aria-pressed="true"] { border-color: var(--brass); color: var(--brass-ink); }
+.results { display: grid; gap: 12px; margin-top: 14px; }
+.dish-card h3 { margin-bottom: 2px; }
+.sec { margin: 0; color: var(--sea); }
+.sheet h2 { margin: 18px 0 8px; font-size: 1.4rem; }
+.key-list { display: grid; gap: 8px; margin: 8px 0 0; padding: 0; list-style: none; }
+.key-list li { background: #121a16; border-radius: 10px; padding: 10px 12px; }
+.table-wrap { overflow-x: auto; margin-top: 8px; }
+table { width: 100%; border-collapse: collapse; font-size: 0.98rem; }
+th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid rgba(168, 181, 171, 0.25); }
+th { color: var(--brass-ink); font-weight: 650; }
+.empty { margin: 8px 0; }
+@media (max-width: 640px) {
+  h1 { font-size: 1.7rem; }
+  .stats { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="eyebrow">Kitchen service</p>
+  <h1>Boathouse Menu Exam</h1>
+  <nav id="tabs" class="tabs" aria-label="Study modes">
+    <button type="button" data-mode="exam" aria-selected="true">Exam</button>
+    <button type="button" data-mode="traps" aria-selected="false">Traps</button>
+    <button type="button" data-mode="missed" aria-selected="false">Missed (0)</button>
+    <button type="button" data-mode="cards" aria-selected="false">Flashcards</button>
+    <button type="button" data-mode="cheat" aria-selected="false">Cheat Sheet</button>
+    <button type="button" data-mode="search" aria-selected="false">Search</button>
+  </nav>
+  <div class="tools">
+    <label for="section-filter">Section</label>
+    <select id="section-filter" aria-label="Section">
+      <option value="all">All sections</option>
+      <option value="Soups &amp; Salads">Soups &amp; Salads</option>
+      <option value="Hand Helds">Hand Helds</option>
+      <option value="Starters">Starters</option>
+      <option value="Flatbreads">Flatbreads</option>
+      <option value="Sea Side Entrees">Sea Side Entrees</option>
+      <option value="Land Lovers">Land Lovers</option>
+      <option value="Bowls">Bowls</option>
+      <option value="Sweet Treats">Sweet Treats</option>
+    </select>
+    <button type="button" id="reset-btn">Reset</button>
+  </div>
+</header>
+<div class="stats" id="stats" aria-label="Score">
+  <span>Q 0 / 0</span>
+  <span>Score 0 / 0 (0%)</span>
+  <span>Streak 0</span>
+</div>
+<main id="app"></main>
+<p class="footer">Unlisted study aid. Not linked from the site.</p>
+</div>
+<script src="boathouse-data.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  // Chosen answers are stored as option text. The 120-question deck is built once.
+  var STORAGE_KEY = "boathouse_exam_v1";
+  var FLAG_LABELS = ["Contains dairy", "Contains gluten", "Vegetarian", "Vegan"];
+  var state = {
+    mode: "exam",
+    section: "all",
+    missed: [],
+    answered: {},
+    streak: 0,
+    index: 0,
+    deck: [],
+    trapIndex: 0,
+    missIndex: 0,
+    cardIndex: 0,
+    cardFlip: false,
+    search: "",
+    filters: { df: false, gf: false, veg: false, vegan: false }
+  };
+
+  function allItems() {
+    return (window.BOATHOUSE_ITEMS || []).slice();
+  }
+
+  function byName(items, name) {
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].name === name) return items[i];
+    }
+    return null;
+  }
+
+  function esc(value) {
+    return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function normToken(value) {
+    return String(value).toLowerCase().replace(/\s+/g, " ").trim();
+  }
+
+  function appearsIn(hay, needle) {
+    var h = normToken(hay);
+    var n = normToken(needle);
+    if (!n) return false;
+    return h.indexOf(n) !== -1;
+  }
+
+  function ingredientParts(ing) {
+    var text = String(ing).replace(/\bcheesy,\s*crispy\b/i, "cheesy crispy");
+    var chunks = text.split(/\s*,\s*/).map(function (part) { return part.trim(); }).filter(Boolean);
+    if (!chunks.length) return [];
+    var last = chunks[chunks.length - 1];
+    var tail = last.split(/\s+and\s+/i);
+    if (tail.length > 1) {
+      chunks.pop();
+      tail.forEach(function (part) {
+        var clean = part.trim();
+        if (clean) chunks.push(clean);
+      });
+    }
+    return chunks.map(function (part) { return part.replace(/\s+/g, " ").trim(); }).filter(Boolean);
+  }
+
+  function foreignParts(item, items) {
+    var ownParts = ingredientParts(item.ing);
+    var found = [];
+    var seen = {};
+    items.forEach(function (other) {
+      if (other.name === item.name || other.section !== item.section) return;
+      ingredientParts(other.ing).forEach(function (part) {
+        var key = normToken(part);
+        if (!key || seen[key]) return;
+        if (appearsIn(item.ing, part)) return;
+        var clash = ownParts.some(function (own) {
+          return appearsIn(own, part) || appearsIn(part, own);
+        });
+        if (clash) return;
+        seen[key] = true;
+        found.push(part);
+      });
+    });
+    return found;
+  }
+
+  function sectionMates(item, items) {
+    return items.filter(function (other) {
+      return other.section === item.section && other.name !== item.name;
+    });
+  }
+
+  function hashString(text) {
+    var h = 2166136261;
+    var s = String(text);
+    for (var i = 0; i < s.length; i++) {
+      h ^= s.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    h ^= h >>> 16;
+    h = Math.imul(h, 2246822507);
+    h ^= h >>> 13;
+    h = Math.imul(h, 3266489909);
+    h ^= h >>> 16;
+    return h >>> 0;
+  }
+
+  function mulberry32(seed) {
+    var a = seed >>> 0;
+    return function () {
+      a = (a + 0x6D2B79F5) >>> 0;
+      var t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function shuffleOpts(q) {
+    var rng = mulberry32(hashString(q.cat + "|" + q.item + "|" + q.q + "|" + q.opts.join("~")));
+    var idx = [0, 1, 2, 3];
+    for (var i = 3; i > 0; i--) {
+      var j = Math.floor(rng() * (i + 1));
+      var swap = idx[i];
+      idx[i] = idx[j];
+      idx[j] = swap;
+    }
+    return {
+      section: q.section,
+      item: q.item,
+      cat: q.cat,
+      q: q.q,
+      opts: idx.map(function (n) { return q.opts[n]; }),
+      ans: idx.indexOf(q.ans),
+      exp: q.exp
+    };
+  }
+
+  function validQuestion(q) {
+    if (!q || typeof q.q !== "string" || !q.q.trim()) return false;
+    if (!Array.isArray(q.opts) || q.opts.length !== 4) return false;
+    if (typeof q.ans !== "number" || q.ans < 0 || q.ans > 3 || q.ans !== Math.floor(q.ans)) return false;
+    var seen = {};
+    for (var i = 0; i < 4; i++) {
+      if (typeof q.opts[i] !== "string" || !q.opts[i].trim()) return false;
+      if (seen[q.opts[i]]) return false;
+      seen[q.opts[i]] = true;
+    }
+    return true;
+  }
+
+  function qKey(q) {
+    return [q.cat, q.item, q.q, q.opts.slice().sort().join(" || ")].join(" @@ ");
+  }
+
+  function base(item, cat, q, opts, ans, exp) {
+    return { section: item.section, item: item.name, cat: cat, q: q, opts: opts, ans: ans, exp: exp };
+  }
+
+  function makeBuild(item, items, variant) {
+    var parts = ingredientParts(item.ing);
+    if (!parts.length) return null;
+    var foreign = foreignParts(item, items);
+    if (foreign.length < 3) return null;
+    var correct = parts.join(", ");
+    var opts = [correct];
+    var used = {};
+    used[normToken(correct)] = true;
+    var guard = 0;
+    var k = 0;
+    while (opts.length < 4 && guard < foreign.length * Math.max(parts.length, 1) + 8) {
+      var part = foreign[(variant + k) % foreign.length];
+      var slot = (variant + opts.length + k) % parts.length;
+      k += 1;
+      guard += 1;
+      var copy = parts.slice();
+      copy[slot] = part;
+      if (copy.length !== parts.length) continue;
+      var text = copy.join(", ");
+      var token = normToken(text);
+      if (used[token]) continue;
+      used[token] = true;
+      opts.push(text);
+    }
+    if (opts.length !== 4) return null;
+    return base(item, "build", "Spot the exact build for " + item.name, opts, 0, item.name + " is plated as: " + item.ing + ".");
+  }
+
+  function makeExcept(item, items, variant) {
+    var parts = ingredientParts(item.ing);
+    if (parts.length < 3) return null;
+    var foreign = foreignParts(item, items);
+    if (!foreign.length) return null;
+    var decoy = foreign[variant % foreign.length];
+    var reals = [];
+    var seen = {};
+    seen[normToken(decoy)] = true;
+    for (var k = 0; k < parts.length && reals.length < 3; k++) {
+      var part = parts[(variant + k) % parts.length];
+      var token = normToken(part);
+      if (!token || seen[token]) continue;
+      if (appearsIn(part, decoy) || appearsIn(decoy, part)) continue;
+      seen[token] = true;
+      reals.push(part);
+    }
+    if (reals.length < 3) return null;
+    var opts = [reals[0], reals[1], reals[2], decoy];
+    return base(
+      item,
+      "except",
+      "All of these are in " + item.name + " EXCEPT",
+      opts,
+      3,
+      decoy + " does not appear in " + item.name + ". The build is: " + item.ing + "."
+    );
+  }
+
+  function makeFlag(item) {
+    var vals = [!!item.dairy, !!item.gluten, !!item.veg, !!item.vegan];
+    var falseCount = vals.filter(function (value) { return !value; }).length;
+    var askingTrue = falseCount >= 3;
+    var want = askingTrue ? true : false;
+    var matches = [];
+    vals.forEach(function (value, index) {
+      if (value === want) matches.push(index);
+    });
+    if (matches.length !== 1) return null;
+    var q = askingTrue
+      ? "Which dietary flag is TRUE for " + item.name + "?"
+      : "Which dietary flag is FALSE for " + item.name + "?";
+    var exp = item.name + " — dairy: " + (item.dairy ? "yes" : "no")
+      + ", gluten: " + (item.gluten ? "yes" : "no")
+      + ", vegetarian: " + (item.veg ? "yes" : "no")
+      + ", vegan: " + (item.vegan ? "yes" : "no")
+      + ". " + item.note;
+    return base(item, "flag", q, FLAG_LABELS.slice(), matches[0], exp);
+  }
+
+  function paraphrase(note) {
+    var text = String(note).replace(/\s+/g, " ").trim().split(/;\s*/)[0];
+    return text
+      .replace(/\bcarries\b/g, "includes")
+      .replace(/\bcarry\b/g, "include")
+      .replace(/\bcontains\b/gi, "has")
+      .replace(/\bis dairy\b/g, "counts as dairy")
+      .replace(/\bare dairy\b/g, "count as dairy")
+      .replace(/\bis wheat\b/g, "counts as wheat")
+      .replace(/\bare wheat\b/g, "count as wheat")
+      .replace(/\bnot gluten-free\b/g, "not free of gluten")
+      .replace(/\bgluten-free\b/g, "free of gluten");
+  }
+
+  function makeNote(item, items, variant) {
+    var correct = paraphrase(item.note);
+    if (!correct) return null;
+    var pool = sectionMates(item, items);
+    if (pool.length < 3) return null;
+    var opts = [correct];
+    var seen = {};
+    seen[correct.toLowerCase()] = true;
+    for (var k = 0; k < pool.length && opts.length < 4; k++) {
+      var other = pool[(variant + k) % pool.length];
+      var text = paraphrase(other.note);
+      var token = text.toLowerCase();
+      if (!text || seen[token]) continue;
+      seen[token] = true;
+      opts.push(text);
+    }
+    if (opts.length !== 4) return null;
+    return base(item, "note", "Why does " + item.name + " carry this dietary flag?", opts, 0, item.name + ": " + item.note);
+  }
+
+  function nameWords(name) {
+    return String(name).toLowerCase().split(/[^a-z0-9]+/).filter(function (word) {
+      return word.length > 2;
+    });
+  }
+
+  function maskBuild(item) {
+    var words = nameWords(item.name);
+    var parts = ingredientParts(item.ing);
+    if (!parts.length) return null;
+    var masked = parts.map(function (part) {
+      var out = part;
+      words.forEach(function (word) {
+        out = out.replace(new RegExp("\\b" + word + "\\b", "gi"), "[___]");
+      });
+      return out;
+    });
+    var unmasked = masked.filter(function (part) {
+      return part.replace(/\[___\]/g, "").replace(/[^a-z0-9]+/gi, "").length > 0;
+    });
+    if (unmasked.length < 2) return null;
+    return masked.join(", ");
+  }
+
+  function makeMask(item, items, variant) {
+    var masked = maskBuild(item);
+    if (!masked) return null;
+    var pool = sectionMates(item, items);
+    if (pool.length < 3) return null;
+    var names = [];
+    var seen = {};
+    seen[item.name] = true;
+    for (var k = 0; k < pool.length && names.length < 3; k++) {
+      var name = pool[(variant + k) % pool.length].name;
+      if (seen[name]) continue;
+      seen[name] = true;
+      names.push(name);
+    }
+    if (names.length !== 3) return null;
+    return base(
+      item,
+      "mask",
+      "Which item matches this build? " + masked,
+      [item.name].concat(names),
+      0,
+      item.name + " matches that build. Ingredients: " + item.ing + "."
+    );
+  }
+
+  function makeQuestion(item, items, cat, variant) {
+    if (cat === "build") return makeBuild(item, items, variant);
+    if (cat === "except") return makeExcept(item, items, variant);
+    if (cat === "flag") return makeFlag(item);
+    if (cat === "note") return makeNote(item, items, variant);
+    if (cat === "mask") return makeMask(item, items, variant);
+    return null;
+  }
+
+  var TRAP_SEED = [
+    ["Garden Veggie Wrap", "Which statement about the Garden Veggie Wrap is true?", ["Vegan, but the tortilla has gluten", "Vegan and also fully gluten-free", "Vegetarian only, and not vegan", "Contains dairy from the hummus"], "The Garden Veggie Wrap is vegan, but the spinach tortilla is wheat, so it is not gluten-free."],
+    ["Sautéed Shrimp", "Where does the dairy in Sautéed Shrimp come from?", ["Butter in the sauté pan", "Cream in a coconut broth", "Cheese melted over the shrimp", "Yogurt in the garlic dip"], "Sautéed Shrimp contains dairy because the shrimp is cooked in butter. The baguette adds gluten."],
+    ["Steamed Mussels Moqueca", "Which dietary fact fits Steamed Mussels Moqueca?", ["No dairy; gluten is the baguette", "Cream broth and a gluten-free plate", "Dairy butter and no gluten at all", "Vegan broth with gluten-free bread"], "Steamed Mussels Moqueca has no dairy. The coconut broth is not cream. The toasted baguette is the gluten."],
+    ["Crab & Corn Chowder", "Which flags are both true for Crab & Corn Chowder?", ["Contains both dairy and gluten", "Dairy-free, but it contains gluten", "Gluten-free, but it contains dairy", "Both dairy-free and gluten-free"], "Crab & Corn Chowder contains both dairy and gluten. The broth is creamy and flour-thickened."],
+    ["Caesar Salad", "Why is the Caesar Salad not vegetarian?", ["Anchovy is in the house dressing", "The croutons alone block vegetarian", "Bacon is mixed into the romaine", "The greens are dressed with meat stock"], "Caesar Salad is not vegetarian because the house dressing carries anchovy. It also has egg, parmesan, and wheat croutons."],
+    ["The Catamaran Chicken Sandwich", "Which is true of the Catamaran Chicken Sandwich?", ["Egg in the bun and slaw; no dairy", "Cheese on the chicken; fully egg-free", "Butter on the challah; no egg used", "Vegan except for the chicken breast"], "The Catamaran Chicken Sandwich has egg and no dairy. The challah contains egg, and the slaw is mayonnaise."],
+    ["Fried Tackle Box Fish Tacos", "Which is true of the Fried Tackle Box Fish Tacos?", ["Egg in the aioli, and no dairy", "Cheese crema, and the aioli is dairy", "Butter in the batter; egg-free slaw", "Vegan batter with dairy-free crema"], "Fried Tackle Box Fish Tacos have egg and no dairy. The aioli is mayonnaise-based. The batter and tortillas contain gluten."],
+    ["Toasted Tuna Poke Platter", "Why is the Toasted Tuna Poke Platter not gluten-free?", ["Soy ponzu and wheat crisp wontons", "Only the avocado crema has gluten", "The tuna itself is the gluten source", "Rice crackers are the gluten source"], "Toasted Tuna Poke Platter has soy and gluten. Ponzu carries soy, and the crisp wontons are wheat."],
+    ["Chef's Vibrant Beet Salad", "What puts gluten in the Chef's Vibrant Beet Salad?", ["Couscous in the salad is wheat", "The pecans are tossed in wheat flour", "Clementine segments are breaded", "Balsamic is thickened with rye flour"], "Chef's Vibrant Beet Salad contains couscous, and couscous is wheat. Goat cheese is the dairy."],
+    ["Umami Vegetable Stir-Fried Rice", "Why is Umami Vegetable Stir-Fried Rice not called vegan?", ["Umami sauce may not be fish-free", "Butter is folded into the white rice", "Cheese is finished over the vegetables", "Cream binds the house umami sauce"], "Umami Vegetable Stir-Fried Rice is not certified vegan. Confirm the sauce is fish-free. The sauce also carries wheat."],
+    ["Calabrian Chili Honey Glazed Pork Chop", "Which flags fit the Calabrian Chili Honey Glazed Pork Chop?", ["Dairy-free and gluten-free; not vegan", "Dairy in the glaze; gluten in the beans", "Gluten-free, but finished with butter", "Vegan, dairy-free, and gluten-free"], "Calabrian Chili Honey Glazed Pork Chop is dairy-free and gluten-free. Pork and honey keep it from being vegan."],
+    ["Bistro Grilled NY Strip", "Where is the dairy on the Bistro Grilled NY Strip?", ["Butter and cream in the peppercorn sauce", "Blue cheese crumbles on the strip steak", "Cream dressing tossed with the gem salad", "Parmesan is tossed through the frites"], "Bistro Grilled NY Strip has dairy in the peppercorn sauce, finished with butter and cream. The plate has no gluten."],
+    ["Greek Mezze Dip Platter", "Which pair is true for the Greek Mezze Dip Platter?", ["Feta and tzatziki; pita carries gluten", "Hummus is dairy; pita is gluten-free", "Olives carry both the dairy and gluten", "Vegan dips with a gluten-free pita"], "Greek Mezze Dip Platter has dairy and gluten. Feta and tzatziki are dairy, and the pita is wheat."],
+    ["Guacamole", "Which statement about Guacamole is true?", ["Vegan, and the corn chips are gluten-free", "Crema adds dairy; the chips have gluten", "Cheese makes it vegetarian only", "Vegan, but the tortilla chips are wheat"], "Guacamole is vegan and gluten-free. The corn tortilla chips have no gluten."],
+    ["Smoked Fish Dip", "Which is true of the Smoked Fish Dip?", ["Cream cheese and sour cream; chips are GF", "Crackers add gluten; the dip is dairy-free", "Butter only, and the chips are wheat", "No dairy, and wheat crackers are served"], "Smoked Fish Dip has dairy and no gluten. Cream cheese and sour cream are dairy. The potato chips have no gluten."],
+    ["Caribbean Jerk Half Chicken", "Which is true of the Caribbean Jerk Half Chicken?", ["Gluten in the corn cakes; no dairy", "Butter on the chicken; cakes are GF", "Cheese in the relish; cakes are GF", "Dairy-free and fully gluten-free plate"], "Caribbean Jerk Half Chicken has gluten and no dairy. The corn festival cakes are fried dough."],
+    ["Crispy Seared Branzino", "Which is true of the Crispy Seared Branzino?", ["Dairy in the risotto; no wheat used", "Breadcrumb crust and a dairy-free plate", "Gluten in the risotto; no dairy used", "Vegan risotto under a wheat crust"], "Crispy Seared Branzino has dairy and no gluten. The risotto is finished with butter and cheese."],
+    ["Blackened Redfish + Grits", "Which is true of Blackened Redfish + Grits?", ["Grits cooked with dairy; no gluten", "Flour-thickened grits and no dairy", "Butter-free fish with wheat grits", "Dairy-free, and the grits are wheat"], "Blackened Redfish + Grits has dairy and no gluten. The grits are cooked with dairy. Corn grits have no gluten."]
+  ];
+
+  function makeTraps(items) {
+    return TRAP_SEED.map(function (row) {
+      var src = byName(items, row[0]);
+      return shuffleOpts({
+        section: src ? src.section : "",
+        item: row[0],
+        cat: "trap",
+        q: row[1],
+        opts: row[2].slice(),
+        ans: 0,
+        exp: row[3]
+      });
+    });
+  }
+
+  function pushGenerated(deck, seen, items, item, cat, variant) {
+    var made = makeQuestion(item, items, cat, variant);
+    if (!made) return;
+    var q = shuffleOpts(made);
+    if (!validQuestion(q)) return;
+    var key = qKey(q);
+    if (seen[key]) return;
+    seen[key] = true;
+    deck.push(q);
+  }
+
+  function buildDeck() {
+    var items = allItems();
+    var deck = makeTraps(items);
+    var seen = {};
+    deck.forEach(function (q) { seen[qKey(q)] = true; });
+    var cats = ["build", "except", "flag", "note", "mask"];
+    var round = 0;
+    while (deck.length < 120 && round < 40) {
+      for (var d = 0; d < items.length && deck.length < 120; d++) {
+        pushGenerated(deck, seen, items, items[d], cats[(round + d) % cats.length], round);
+      }
+      round += 1;
+    }
+    var extra = 0;
+    while (deck.length < 120 && extra < 4000) {
+      var item = items[extra % items.length];
+      var cat = extra % 2 === 0 ? "build" : "except";
+      pushGenerated(deck, seen, items, item, cat, 100 + extra);
+      extra += 1;
+    }
+    return deck.slice(0, 120);
+  }
+
+  function deckOK(deck) {
+    if (!Array.isArray(deck) || deck.length !== 120) return false;
+    for (var i = 0; i < deck.length; i++) {
+      if (!validQuestion(deck[i])) return false;
+    }
+    return true;
+  }
+
+  function loadSaved() {
+    try {
+      var raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) return null;
+      var data = JSON.parse(raw);
+      if (!data || !deckOK(data.deck)) return null;
+      if (!data.answered || typeof data.answered !== "object" || Array.isArray(data.answered)) return null;
+      if (!Array.isArray(data.missed)) return null;
+      if (typeof data.streak !== "number" || typeof data.index !== "number") return null;
+      return data;
+    } catch (err) {
+      return null;
+    }
+  }
+
+  function save() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        missed: state.missed,
+        answered: state.answered,
+        streak: state.streak,
+        index: state.index,
+        deck: state.deck
+      }));
+    } catch (err) {}
+  }
+
+  function inSection(section) {
+    return state.section === "all" || section === state.section;
+  }
+
+  function modePool() {
+    return state.deck.filter(function (q) {
+      if (state.mode === "traps" && q.cat !== "trap") return false;
+      if (state.mode === "missed" && state.missed.indexOf(qKey(q)) === -1) return false;
+      return inSection(q.section);
+    });
+  }
+
+  function snapExam() {
+    if (!state.deck.length) return;
+    var pool = state.deck.filter(function (q) { return inSection(q.section); });
+    if (!pool.length) return;
+    if (pool.indexOf(state.deck[state.index]) !== -1) return;
+    for (var step = 0; step < state.deck.length; step++) {
+      var i = (state.index + step) % state.deck.length;
+      if (pool.indexOf(state.deck[i]) !== -1) {
+        state.index = i;
+        save();
+        return;
+      }
+    }
+  }
+
+  function currentQuestion() {
+    var pool = modePool();
+    if (!pool.length) return null;
+    if (state.mode === "exam") {
+      var q = state.deck[state.index];
+      return q && pool.indexOf(q) !== -1 ? q : null;
+    }
+    var cursor = state.mode === "traps" ? state.trapIndex : state.missIndex;
+    if (cursor < 0) cursor = 0;
+    if (cursor >= pool.length) cursor = pool.length - 1;
+    if (state.mode === "traps") state.trapIndex = cursor;
+    if (state.mode === "missed") state.missIndex = cursor;
+    return pool[cursor];
+  }
+
+  function position() {
+    var pool = modePool();
+    var q = currentQuestion();
+    return { x: q ? pool.indexOf(q) + 1 : 0, y: pool.length };
+  }
+
+  function findQuestion(key) {
+    for (var i = 0; i < state.deck.length; i++) {
+      if (qKey(state.deck[i]) === key) return state.deck[i];
+    }
+    return null;
+  }
+
+  function scoreNow() {
+    var keys = Object.keys(state.answered);
+    var a = 0;
+    keys.forEach(function (key) {
+      var q = findQuestion(key);
+      if (q && state.answered[key] === q.opts[q.ans]) a += 1;
+    });
+    var b = keys.length;
+    return { a: a, b: b, p: b ? Math.round((100 * a) / b) : 0 };
+  }
+
+  function cardPool() {
+    return allItems().filter(function (item) { return inSection(item.section); });
+  }
+
+  function searchPool() {
+    var query = state.search.trim().toLowerCase();
+    return allItems().filter(function (item) {
+      if (!inSection(item.section)) return false;
+      if (state.filters.df && item.dairy) return false;
+      if (state.filters.gf && item.gluten) return false;
+      if (state.filters.veg && !item.veg) return false;
+      if (state.filters.vegan && !item.vegan) return false;
+      if (!query) return true;
+      return [item.name, item.ing, item.note, item.section].join("\n").toLowerCase().indexOf(query) !== -1;
+    });
+  }
+
+  function catLabel(cat) {
+    if (cat === "trap") return "Trap";
+    if (cat === "build") return "Build match";
+    if (cat === "except") return "Except";
+    if (cat === "flag") return "Flag check";
+    if (cat === "note") return "Note check";
+    if (cat === "mask") return "Masked lookup";
+    return cat;
+  }
+
+  function yesNo(value) {
+    return value ? "Yes" : "No";
+  }
+
+  function updateChrome() {
+    document.querySelectorAll("#tabs [data-mode]").forEach(function (btn) {
+      btn.setAttribute("aria-selected", btn.getAttribute("data-mode") === state.mode ? "true" : "false");
+    });
+    var missedBtn = document.querySelector('[data-mode="missed"]');
+    if (missedBtn) missedBtn.textContent = "Missed (" + state.missed.length + ")";
+    var score = scoreNow();
+    var x = 0;
+    var y = 0;
+    if (state.mode === "cards") {
+      var cards = cardPool();
+      y = cards.length;
+      x = y ? Math.min(state.cardIndex, y - 1) + 1 : 0;
+    } else if (state.mode === "search") {
+      x = searchPool().length;
+      y = x;
+    } else if (state.mode === "cheat") {
+      x = state.deck.length ? state.index + 1 : 0;
+      y = state.deck.length;
+    } else {
+      var pos = position();
+      x = pos.x;
+      y = pos.y;
+    }
+    document.getElementById("stats").innerHTML =
+      "<span>Q " + x + " / " + y + "</span>" +
+      "<span>Score " + score.a + " / " + score.b + " (" + score.p + "%)</span>" +
+      "<span>Streak " + state.streak + "</span>";
+  }
+
+  function examHTML() {
+    var q = currentQuestion();
+    if (!q) {
+      var empty = state.mode === "missed" ? "Missed bank is clear." : "No questions in this section.";
+      return "<section class='empty-card'><p class='empty'>" + empty + "</p></section>";
+    }
+    var pool = modePool();
+    var at = pool.indexOf(q);
+    var chosen = state.answered[qKey(q)];
+    var locked = typeof chosen === "string";
+    var correctText = q.opts[q.ans];
+    var keys = ["1", "2", "3", "4"];
+    var opts = q.opts.map(function (opt, i) {
+      var cls = "opt";
+      if (locked && opt === correctText) cls += " correct";
+      if (locked && opt === chosen && opt !== correctText) cls += " wrong";
+      if (locked && opt !== correctText && opt !== chosen) cls += " dim";
+      return "<button type='button' class='" + cls + "' data-act='pick' data-i='" + i + "'" +
+        (locked ? " aria-disabled='true'" : "") + "><span class='key'>" + keys[i] + "</span><span>" +
+        esc(opt) + "</span></button>";
+    }).join("");
+    var live = "";
+    if (locked) live = (chosen === correctText ? "Correct. " : "Not quite. ") + q.exp;
+    var prevOn = at > 0;
+    var nextOn = at >= 0 && at < pool.length - 1;
+    return "<article class='q-card'><p class='kicker'>" + esc(q.section) + " · " + esc(catLabel(q.cat)) +
+      "</p><h2>" + esc(q.q) + "</h2><div class='opts' role='group' aria-label='Answer choices'>" + opts +
+      "</div><div class='explain' aria-live='polite'>" + esc(live) + "</div><div class='navrow'>" +
+      "<button type='button' data-act='move' data-dir='-1'" + (prevOn ? "" : " disabled") + ">Previous</button>" +
+      "<button type='button' data-act='move' data-dir='1'" + (nextOn ? "" : " disabled") + ">Next</button></div></article>" +
+      "<p class='hint'>Press 1–4 or A–D to answer. Press Space, Enter, or Right arrow for the next question. Press Left arrow for the previous question.</p>";
+  }
+
+  function cardsHTML() {
+    var cards = cardPool();
+    if (!cards.length) return "<section class='empty-card'><p class='empty'>No dishes in this section.</p></section>";
+    if (state.cardIndex >= cards.length) state.cardIndex = cards.length - 1;
+    if (state.cardIndex < 0) state.cardIndex = 0;
+    var item = cards[state.cardIndex];
+    var face = state.cardFlip
+      ? "<p class='kicker'>Back</p><h2>" + esc(item.name) + "</h2><p>" + esc(item.ing) +
+        "</p><ul class='flags'><li>Contains dairy: " + yesNo(item.dairy) + "</li><li>Contains gluten: " +
+        yesNo(item.gluten) + "</li><li>Vegetarian: " + yesNo(item.veg) + "</li><li>Vegan: " +
+        yesNo(item.vegan) + "</li></ul><p class='note'>" + esc(item.note) + "</p>"
+      : "<p class='kicker'>Front · " + esc(item.section) + "</p><h2>" + esc(item.name) + "</h2><p class='meta'>Tap to show the build.</p>";
+    return "<article class='card'><div class='card-face' data-act='flip' tabindex='0'>" + face +
+      "</div><div class='navrow'><button type='button' data-act='card' data-dir='-1'" +
+      (state.cardIndex > 0 ? "" : " disabled") + ">Previous</button><button type='button' data-act='card' data-dir='1'" +
+      (state.cardIndex < cards.length - 1 ? "" : " disabled") + ">Next</button></div></article>" +
+      "<p class='hint'>Tap the card or press Space to flip it. Press Left or Right arrow to move.</p>";
+  }
+
+  function rowHTML(cells) {
+    return "<tr>" + cells.map(function (cell) { return "<td>" + esc(cell) + "</td>"; }).join("") + "</tr>";
+  }
+
+  function tableHTML(headers, rows) {
+    var head = "<tr>" + headers.map(function (cell) { return "<th scope='col'>" + esc(cell) + "</th>"; }).join("") + "</tr>";
+    var body = rows.filter(function (row) { return inSection(row[0]); }).map(function (row) {
+      return rowHTML(row.slice(1));
+    }).join("");
+    if (!body) body = "<tr><td colspan='" + headers.length + "'>No rows in this section.</td></tr>";
+    return "<div class='table-wrap'><table><thead>" + head + "</thead><tbody>" + body + "</tbody></table></div>";
+  }
+
+  function cheatHTML() {
+    var dairy = [
+      ["Starters", "Looks dairy-free but is not", "Sautéed Shrimp", "Garlic and wine sauté", "Butter is dairy. The baguette is gluten."],
+      ["Soups & Salads", "Looks dairy-free but is not", "Crab & Corn Chowder", "Seafood soup", "Creamy broth is dairy. Flour adds gluten."],
+      ["Sea Side Entrees", "Looks dairy-free but is not", "Crispy Seared Branzino", "Fish and beet risotto", "Risotto is finished with butter and cheese."],
+      ["Sea Side Entrees", "Looks dairy-free but is not", "Blackened Redfish + Grits", "Fish and corn grits", "Grits are cooked with dairy. Corn has no gluten."],
+      ["Land Lovers", "Looks dairy-free but is not", "Bistro Grilled NY Strip", "Steak, frites, salad", "Peppercorn sauce has butter and cream."],
+      ["Starters", "Looks dairy-free but is not", "Smoked Fish Dip", "Smoked fish and chips", "Cream cheese and sour cream are dairy."],
+      ["Soups & Salads", "Looks dairy-free but is not", "Caesar Salad", "Greens and croutons", "Parmesan is dairy. Anchovy and egg are also present."],
+      ["Soups & Salads", "Looks dairy-free but is not", "Chef's Vibrant Beet Salad", "Beets and greens", "Goat cheese is dairy. Couscous is wheat."],
+      ["Starters", "Looks dairy-free but is not", "Grilled Swordfish Escabeche", "Pickled vegetables and yuca", "Citrus butter and crema are dairy."],
+      ["Starters", "Looks dairy-heavy but is not", "Steamed Mussels Moqueca", "Thick seafood broth", "The broth is coconut, not cream. Baguette is the gluten."],
+      ["Hand Helds", "Looks dairy-heavy but is not", "The Catamaran Chicken Sandwich", "Creamy slaw", "Mayonnaise and egg, not dairy. Challah is wheat."],
+      ["Hand Helds", "Looks dairy-heavy but is not", "Fried Tackle Box Fish Tacos", "Creamy aioli", "Aioli is egg, not dairy."],
+      ["Starters", "Looks dairy-heavy but is not", "Toasted Tuna Poke Platter", "Crema and aioli", "Both sauces are egg, not dairy. Wontons and soy add gluten."],
+      ["Land Lovers", "Looks dairy-heavy but is not", "Caribbean Jerk Half Chicken", "Glazed half chicken", "No dairy. Corn cakes are fried dough."],
+      ["Hand Helds", "Looks dairy-heavy but is not", "Garden Veggie Wrap", "Creamy hummus", "Plant-based. The tortilla still has gluten."],
+      ["Land Lovers", "Looks dairy-heavy but is not", "Calabrian Chili Honey Glazed Pork Chop", "Glazed chop", "No dairy and no gluten. Pork and honey remain."],
+      ["Starters", "Looks dairy-heavy but is not", "Guacamole", "Creamy avocado", "Vegan and gluten-free."],
+      ["Sea Side Entrees", "Looks dairy-heavy but is not", "Honey Sriracha Salmon", "Glazed salmon", "No dairy. The glaze normally carries wheat."],
+      ["Starters", "Looks dairy-heavy but is not", "Bang Bang Brussels Sprouts", "Creamy bang bang sauce", "Egg and honey, not dairy. Gochujang often has wheat."]
+    ];
+    var gluten = [
+      ["Hand Helds", "Looks gluten-free but is not", "Garden Veggie Wrap", "Vegetables and hummus", "Spinach tortilla is wheat. The fill is vegan."],
+      ["Starters", "Looks gluten-free but is not", "Steamed Mussels Moqueca", "Mussels and broth", "Toasted baguette is the gluten."],
+      ["Soups & Salads", "Looks gluten-free but is not", "Chef's Vibrant Beet Salad", "Beets, greens, cheese", "Couscous is wheat."],
+      ["Starters", "Looks gluten-free but is not", "Toasted Tuna Poke Platter", "Tuna and avocado", "Ponzu has soy. Wontons are wheat."],
+      ["Bowls", "Looks gluten-free but is not", "Umami Vegetable Stir-Fried Rice", "Rice and vegetables", "House umami sauce carries wheat. Not certified vegan."],
+      ["Land Lovers", "Looks gluten-free but is not", "Caribbean Jerk Half Chicken", "Chicken and corn cakes", "The cakes are fried dough."],
+      ["Soups & Salads", "Looks gluten-free but is not", "Caesar Salad", "Romaine and dressing", "Garlic croutons are wheat."],
+      ["Soups & Salads", "Looks gluten-free but is not", "Crab & Corn Chowder", "Seafood chowder", "Flour thickens the broth."],
+      ["Sea Side Entrees", "Looks gluten-free but is not", "Honey Sriracha Salmon", "Rice and vegetables", "Sriracha glaze normally carries soy, which is wheat."],
+      ["Starters", "Looks gluten-free but is not", "Sautéed Shrimp", "Shrimp, garlic, wine", "Toasted baguette is wheat. Butter is dairy."],
+      ["Hand Helds", "Looks gluten-free but is not", "Boathouse Crab Cakes", "Crab cakes", "Breadcrumb binder is wheat. Remoulade is egg."],
+      ["Starters", "Looks gluten-free but is not", "Fried Coconut Shrimp", "Coconut crust", "Fryer batter is wheat."],
+      ["Starters", "Looks gluten-heavy but is not", "Smoked Fish Dip", "Dip with chips", "Potato chips have no gluten. The dip has dairy."],
+      ["Sea Side Entrees", "Looks gluten-heavy but is not", "Crispy Seared Branzino", "Crispy fish", "No wheat. Dairy is in the risotto."],
+      ["Sea Side Entrees", "Looks gluten-heavy but is not", "Blackened Redfish + Grits", "Grits", "Corn grits have no gluten. They do have dairy."],
+      ["Land Lovers", "Looks gluten-heavy but is not", "Calabrian Chili Honey Glazed Pork Chop", "Plated chop", "No wheat and no dairy."],
+      ["Starters", "Looks gluten-heavy but is not", "Guacamole", "Chips on the side", "Corn tortilla chips are gluten-free."],
+      ["Land Lovers", "Looks gluten-heavy but is not", "Bistro Grilled NY Strip", "Steak and frites", "No gluten. Dairy is in the peppercorn sauce."],
+      ["Starters", "Looks gluten-heavy but is not", "Loaded Potato Dippers", "Crisp potatoes", "Potatoes have no gluten. Cheddar sauce is dairy."],
+      ["Starters", "Looks gluten-heavy but is not", "Grilled Swordfish Escabeche", "Fries on the plate", "Yuca fries have no gluten. Butter and crema are dairy."],
+      ["Soups & Salads", "Looks gluten-heavy but is not", "Gazpacho of the Day", "Chilled soup", "Flagged gluten-free. Confirm no bread thickener."]
+    ];
+    var vegan = [
+      ["Hand Helds", "Garden Veggie Wrap", "Yes", "Yes", "Vegan, but the tortilla has gluten."],
+      ["Starters", "Guacamole", "Yes", "Yes", "Vegan and gluten-free."],
+      ["Soups & Salads", "Gazpacho of the Day", "Yes", "Yes", "Produce-only. Confirm the garnish and thickener."],
+      ["Soups & Salads", "Greek Salad", "Yes", "No", "Feta is dairy."],
+      ["Soups & Salads", "Autumn Burrata Salad", "Yes", "No", "Burrata is dairy. No grain in the build."],
+      ["Bowls", "Umami Vegetable Stir-Fried Rice", "Yes", "No", "Not certified vegan. Confirm the sauce is fish-free."],
+      ["Starters", "Bang Bang Brussels Sprouts", "Yes", "No", "Honey and egg. Gochujang often has wheat."],
+      ["Starters", "Greek Mezze Dip Platter", "Yes", "No", "Dairy in the dips and gluten in the pita."],
+      ["Soups & Salads", "Caesar Salad", "No", "No", "Anchovy and egg. Not vegetarian."],
+      ["Hand Helds", "The Catamaran Chicken Sandwich", "No", "No", "Egg in the bun and slaw. No dairy."],
+      ["Hand Helds", "Fried Tackle Box Fish Tacos", "No", "No", "Egg in the aioli. No dairy."],
+      ["Land Lovers", "Calabrian Chili Honey Glazed Pork Chop", "No", "No", "Dairy-free and gluten-free. Pork and honey remain."],
+      ["Flatbreads", "Tomato + Basil Flatbread", "Yes", "No", "Mozzarella is dairy. Flatbread is wheat."],
+      ["Starters", "Smoky Street Corn Dip with Queso Fresco", "Yes", "No", "Queso fresco is dairy. Aioli is egg. Chips are corn."]
+    ];
+    return "<section class='sheet'><h2>Dietary key</h2><ul class='key-list'>" +
+      "<li><strong>DF</strong> means dairy-free. The dairy flag is false.</li>" +
+      "<li><strong>GF</strong> means gluten-free. The gluten flag is false.</li>" +
+      "<li><strong>V</strong> means vegetarian. The veg flag is true. Egg, dairy, and honey can still be present.</li>" +
+      "<li><strong>VG</strong> means vegan. The vegan flag is true. Vegan means no dairy and no egg.</li>" +
+      "<li><strong>Contains dairy</strong> and <strong>Contains gluten</strong> mean that flag is true.</li></ul>" +
+      "<p class='disclaimer'>Flags are inferred from the ingredient builds and must be confirmed with the chef before a guest relies on them.</p>" +
+      "<h2>Dairy traps</h2>" + tableHTML(["Trap", "Dish", "It can look like", "What is true"], dairy) +
+      "<h2>Gluten traps</h2>" + tableHTML(["Trap", "Dish", "It can look like", "What is true"], gluten) +
+      "<h2>Vegan and vegetarian</h2>" + tableHTML(["Dish", "Vegetarian", "Vegan", "What to remember"], vegan) +
+      "</section>";
+  }
+
+  function badgeHTML(item) {
+    var html = "";
+    if (!item.dairy) html += "<span class='badge'>DF</span>";
+    if (!item.gluten) html += "<span class='badge'>GF</span>";
+    if (item.veg) html += "<span class='badge'>V</span>";
+    if (item.vegan) html += "<span class='badge'>VG</span>";
+    return html;
+  }
+
+  function warnHTML(item) {
+    var html = "";
+    if (item.dairy) html += "<p class='warn'>Contains dairy</p>";
+    if (item.gluten) html += "<p class='warn'>Contains gluten</p>";
+    return html;
+  }
+
+  function resultsHTML() {
+    var items = searchPool();
+    if (!items.length) return "<p class='empty'>No dishes match.</p>";
+    return "<div class='results'>" + items.map(function (item) {
+      return "<article class='dish-card q-card'><h3>" + esc(item.name) + "</h3><p class='sec'>" +
+        esc(item.section) + "</p><p class='badge-row'>" + badgeHTML(item) + "</p>" + warnHTML(item) +
+        "<p>" + esc(item.ing) + "</p><p class='note'>" + esc(item.note) + "</p></article>";
+    }).join("") + "</div>";
+  }
+
+  function searchHTML() {
+    function toggle(key, label) {
+      var on = state.filters[key] ? "true" : "false";
+      return "<button type='button' class='toggle' data-act='toggle' data-key='" + key + "' aria-pressed='" + on + "'>" + label + "</button>";
+    }
+    return "<section class='search'><label class='search-label' for='qsearch'>Search dishes</label>" +
+      "<input id='qsearch' type='search' enterkeyhint='search' autocomplete='off' placeholder='Name, ingredient, note, or section' value='" +
+      esc(state.search) + "'><div class='toggles' role='group' aria-label='Dietary filters'>" +
+      toggle("df", "Dairy-free") + toggle("gf", "Gluten-free") + toggle("veg", "Vegetarian") + toggle("vegan", "Vegan") +
+      "</div><div id='results'>" + resultsHTML() + "</div></section>";
+  }
+
+  function render() {
+    updateChrome();
+    var app = document.getElementById("app");
+    if (state.mode === "cards") app.innerHTML = cardsHTML();
+    else if (state.mode === "cheat") app.innerHTML = cheatHTML();
+    else if (state.mode === "search") app.innerHTML = searchHTML();
+    else app.innerHTML = examHTML();
+  }
+
+  function choose(index) {
+    var q = currentQuestion();
+    if (!q || index < 0 || index > 3) return;
+    var text = q.opts[index];
+    var key = qKey(q);
+    if (Object.prototype.hasOwnProperty.call(state.answered, key)) return;
+    state.answered[key] = text;
+    if (text === q.opts[q.ans]) {
+      state.streak += 1;
+      var at = state.missed.indexOf(key);
+      if (at !== -1) state.missed.splice(at, 1);
+      if (state.mode === "missed" && state.missIndex >= modePool().length) {
+        state.missIndex = Math.max(0, modePool().length - 1);
+      }
+    } else {
+      state.streak = 0;
+      if (state.missed.indexOf(key) === -1) state.missed.push(key);
+    }
+    save();
+    render();
+  }
+
+  function move(dir) {
+    if (state.mode === "cards") {
+      moveCard(dir);
+      return;
+    }
+    if (state.mode !== "exam" && state.mode !== "traps" && state.mode !== "missed") return;
+    var pool = modePool();
+    if (!pool.length) return;
+    if (state.mode === "exam") {
+      var start = state.index;
+      for (var step = 1; step <= state.deck.length; step++) {
+        var i = start + dir * step;
+        if (i < 0 || i >= state.deck.length) return;
+        if (pool.indexOf(state.deck[i]) !== -1) {
+          state.index = i;
+          save();
+          render();
+          return;
+        }
+      }
+      return;
+    }
+    var cursorName = state.mode === "traps" ? "trapIndex" : "missIndex";
+    var next = state[cursorName] + dir;
+    if (next < 0 || next >= pool.length) return;
+    state[cursorName] = next;
+    render();
+  }
+
+  function moveCard(dir) {
+    var cards = cardPool();
+    var next = state.cardIndex + dir;
+    if (next < 0 || next >= cards.length) return;
+    state.cardIndex = next;
+    state.cardFlip = false;
+    render();
+  }
+
+  function setMode(mode) {
+    if (mode === "missed" && state.mode !== "missed") {
+      state.missed.forEach(function (key) { delete state.answered[key]; });
+      state.missIndex = 0;
+      save();
+    }
+    state.mode = mode;
+    if (mode === "cards") state.cardFlip = false;
+    render();
+  }
+
+  function resetAll() {
+    if (!window.confirm("Clear the saved exam, score, and missed bank?")) return;
+    try { localStorage.removeItem(STORAGE_KEY); } catch (err) {}
+    state.deck = buildDeck();
+    state.missed = [];
+    state.answered = {};
+    state.streak = 0;
+    state.index = 0;
+    state.trapIndex = 0;
+    state.missIndex = 0;
+    state.cardIndex = 0;
+    state.cardFlip = false;
+    state.mode = "exam";
+    state.section = "all";
+    state.search = "";
+    state.filters = { df: false, gf: false, veg: false, vegan: false };
+    var select = document.getElementById("section-filter");
+    if (select) select.value = "all";
+    save();
+    render();
+  }
+
+  function onKey(event) {
+    var tag = event.target && event.target.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+    if (event.metaKey || event.ctrlKey || event.altKey) return;
+    if (state.mode === "cards") {
+      if (event.code === "Space") {
+        event.preventDefault();
+        state.cardFlip = !state.cardFlip;
+        render();
+      } else if (event.key === "ArrowRight") {
+        event.preventDefault();
+        moveCard(1);
+      } else if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        moveCard(-1);
+      }
+      return;
+    }
+    if (state.mode !== "exam" && state.mode !== "traps" && state.mode !== "missed") return;
+    var map = { "1": 0, "2": 1, "3": 2, "4": 3, a: 0, b: 1, c: 2, d: 3, A: 0, B: 1, C: 2, D: 3 };
+    if (Object.prototype.hasOwnProperty.call(map, event.key)) {
+      event.preventDefault();
+      choose(map[event.key]);
+      return;
+    }
+    if (event.code === "Space" || event.key === "Enter" || event.key === "ArrowRight") {
+      event.preventDefault();
+      move(1);
+    } else if (event.key === "ArrowLeft") {
+      event.preventDefault();
+      move(-1);
+    }
+  }
+
+  function boot() {
+    if (!window.BOATHOUSE_ITEMS || !window.BOATHOUSE_ITEMS.length) {
+      document.getElementById("app").innerHTML = "<p class='empty'>Menu data did not load.</p>";
+      return;
+    }
+    var saved = loadSaved();
+    if (saved) {
+      state.deck = saved.deck;
+      state.missed = saved.missed;
+      state.answered = saved.answered;
+      state.streak = saved.streak;
+      state.index = saved.index;
+      if (state.index < 0 || state.index >= state.deck.length) state.index = 0;
+    } else {
+      state.deck = buildDeck();
+      save();
+    }
+    document.getElementById("tabs").addEventListener("click", function (event) {
+      var btn = event.target.closest("[data-mode]");
+      if (!btn) return;
+      setMode(btn.getAttribute("data-mode"));
+    });
+    document.getElementById("section-filter").addEventListener("change", function (event) {
+      state.section = event.target.value;
+      state.trapIndex = 0;
+      state.missIndex = 0;
+      state.cardIndex = 0;
+      state.cardFlip = false;
+      snapExam();
+      render();
+    });
+    document.getElementById("reset-btn").addEventListener("click", resetAll);
+    document.getElementById("app").addEventListener("click", function (event) {
+      var btn = event.target.closest("[data-act]");
+      if (!btn) return;
+      var act = btn.getAttribute("data-act");
+      if (act === "pick") choose(Number(btn.getAttribute("data-i")));
+      else if (act === "move") move(Number(btn.getAttribute("data-dir")));
+      else if (act === "card") moveCard(Number(btn.getAttribute("data-dir")));
+      else if (act === "flip") {
+        state.cardFlip = !state.cardFlip;
+        render();
+      } else if (act === "toggle") {
+        var key = btn.getAttribute("data-key");
+        state.filters[key] = !state.filters[key];
+        btn.setAttribute("aria-pressed", state.filters[key] ? "true" : "false");
+        var box = document.getElementById("results");
+        if (box) box.innerHTML = resultsHTML();
+        updateChrome();
+      }
+    });
+    document.getElementById("app").addEventListener("input", function (event) {
+      if (event.target.id !== "qsearch") return;
+      state.search = event.target.value;
+      var box = document.getElementById("results");
+      if (box) box.innerHTML = resultsHTML();
+      updateChrome();
+    });
+    document.addEventListener("keydown", onKey);
+    render();
+  }
+
+  if (typeof document === "undefined") {
+    globalThis.__boathouseBuildDeck = buildDeck;
+  } else {
+    boot();
+  }
+})();
+</script>
+</body>
+</html>

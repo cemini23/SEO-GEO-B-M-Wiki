@@ -33,7 +33,7 @@ function isSubstackPath(pathname) {
 
 // Unlisted surfaces: not in sitemap.xml, not linked from any hub, and noindex
 // on both the document meta and the response header.
-const UNLISTED_PREFIXES = ["/motek"];
+const UNLISTED_PREFIXES = ["/motek", "/boathouse"];
 const NOINDEX_HEADER = "noindex, nofollow, noarchive";
 
 function isUnlistedPath(pathname) {
