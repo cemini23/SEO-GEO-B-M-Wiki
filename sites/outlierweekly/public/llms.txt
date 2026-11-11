@@ -22,6 +22,7 @@ themselves live on Substack.
 - [Rearmament](https://outlierweekly.com/rearmament/)
 - [Swarmer](https://outlierweekly.com/swarmer/)
 - [Anthropic IPO](https://outlierweekly.com/anthropic-ipo/)
+- [Collectibles](https://outlierweekly.com/collectibles/)
 
 ## Letters
 
@@ -61,3 +62,4 @@ and the Ratel deal has not closed.
 The Voyager letter is not a recommendation to buy or sell Voyager Technologies stock or its convertible notes.
 The atlas letter describes a free historical lookup. Archive names are research leads, not legal or citizenship advice, and the surname tool is a linguistic estimate, not a census.
 The Anthropic IPO letter reads an S-1. It is not a recommendation to buy or sell Anthropic, ANT, or any other security. The valuation figures are reported targets, not a deal price, and the filing may be amended before listing.
+The collectibles letter prices one personal card collection. It is not a recommendation to buy, sell, grade, or submit any card. A guide price is not a sold comp.
