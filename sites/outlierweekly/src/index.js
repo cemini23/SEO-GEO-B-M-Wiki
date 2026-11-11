@@ -93,11 +93,16 @@ export default {
     // stamp noindex on the response as well as in the document head.
     // The asset path needs the trailing slash: assets 307s "/dir/index.html".
     if (isUnlistedPath(pathname)) {
+      // Only the bare page path is rewritten to its directory. Sub-assets such
+      // as /boathouse/boathouse-data.js must reach the assets binding as-is,
+      // otherwise they resolve to /boathouse/<file>/ and 404.
+      const root = stripTrailingSlash(pathname);
+      const isPage = UNLISTED_PREFIXES.includes(root.toLowerCase());
       const assetUrl = new URL(request.url);
-      if (!assetUrl.pathname.endsWith("/")) {
-        assetUrl.pathname = `${stripTrailingSlash(assetUrl.pathname)}/`;
-      }
-      const unlisted = await env.ASSETS.fetch(new Request(assetUrl, request));
+      if (isPage) assetUrl.pathname = `${root}/`;
+      const unlisted = await env.ASSETS.fetch(
+        isPage ? new Request(assetUrl, request) : request
+      );
       const out = withSecurityHeaders(unlisted);
       out.headers.set("X-Robots-Tag", NOINDEX_HEADER);
       return out;
