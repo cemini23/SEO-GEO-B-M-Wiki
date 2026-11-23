@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
+<title>Service Study</title>
+<style>
+  :root {
+    --bg: #0f172a; --card: #1e293b; --border: #334155;
+    --text: #f8fafc; --muted: #94a3b8; --accent: #eab308;
+    --green: #22c55e; --red: #ef4444; --blue: #38bdf8;
+    --chip: #334155; --chip-text: #eab308;
+    --contains: rgba(239, 68, 68, 0.18); --contains-text: #fecaca;
+  }
+  * { box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; -webkit-tap-highlight-color: transparent; }
+  html, body { overflow-x: hidden; }
+  body { margin: 0; background: var(--bg); color: var(--text); padding: 14px; }
+  .container { max-width: 920px; margin: 0 auto; padding-bottom: 40px; }
+  header { display: flex; flex-direction: column; gap: 12px; border-bottom: 1px solid var(--border); padding-bottom: 14px; margin-bottom: 16px; }
+  .top-row { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 10px; }
+  .eyebrow { margin: 0 0 4px; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem; font-weight: 700; color: var(--muted); }
+  h1 { margin: 0; font-size: 1.3rem; color: var(--accent); line-height: 1.25; }
+  h2 { color: var(--accent); font-size: 1.05rem; margin: 0 0 10px; }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .tabs::-webkit-scrollbar { display: none; }
+  button, select, input { font-size: 0.88rem; }
+  button, select {
+    background: var(--card); color: var(--text); border: 1px solid var(--border);
+    padding: 10px 13px; border-radius: 8px; cursor: pointer; font-weight: 600;
+    min-height: 44px; transition: 0.15s; white-space: nowrap;
+  }
+  button:hover { border-color: var(--accent); }
+  button.active { background: var(--accent); color: #000; border-color: var(--accent); }
+  button:disabled { opacity: 0.6; cursor: default; }
+  .tabs button { flex: 0 0 auto; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .filters select { max-width: 100%; }
+  .stats-bar { display: flex; gap: 12px; background: var(--card); padding: 10px 14px; border-radius: 10px; margin-bottom: 14px; border: 1px solid var(--border); flex-wrap: wrap; align-items: center; justify-content: space-between; }
+  .stat { font-size: 0.85rem; color: var(--muted); }
+  .stat strong { color: var(--text); font-size: 1rem; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; margin-bottom: 16px; }
+  .badge, .kicker { display: inline-block; padding: 4px 10px; border-radius: 99px; font-size: 0.75rem; font-weight: 700; background: var(--chip); color: var(--chip-text); margin-bottom: 10px; }
+  .kicker { margin-bottom: 14px; letter-spacing: 0.03em; text-transform: uppercase; }
+  .q-text { font-size: 1.12rem; font-weight: 600; line-height: 1.45; margin-bottom: 16px; overflow-wrap: anywhere; }
+  .options { display: grid; gap: 10px; }
+  .opt-btn { width: 100%; text-align: left; padding: 14px; font-size: 0.96rem; border-radius: 10px; background: #0f172a; border: 1px solid var(--border); display: flex; gap: 12px; align-items: flex-start; line-height: 1.4; white-space: normal; min-height: 44px; }
+  .opt-btn span:last-child { overflow-wrap: anywhere; }
+  .opt-btn:hover:not(:disabled) { border-color: var(--blue); background: #162238; }
+  .opt-btn.correct { background: rgba(34, 197, 94, 0.18); border-color: var(--green); color: #bbf7d0; }
+  .opt-btn.wrong { background: rgba(239, 68, 68, 0.18); border-color: var(--red); color: var(--contains-text); }
+  .key-hint { background: var(--border); color: var(--text); border-radius: 5px; padding: 2px 7px; font-size: 0.78rem; font-weight: 700; flex-shrink: 0; }
+  .explain { margin-top: 14px; padding: 13px; border-radius: 8px; background: #0f172a; border-left: 4px solid var(--accent); font-size: 0.92rem; line-height: 1.5; display: none; overflow-wrap: anywhere; }
+  .explain.show { display: block; }
+  .explain h3 { margin: 0 0 8px; color: var(--accent); font-size: 1rem; }
+  .explain .row { margin: 6px 0; }
+  .explain .row b { color: var(--text); }
+  .controls { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; gap: 10px; flex-wrap: wrap; }
+  .muted { color: var(--muted); }
+  .small { font-size: 0.8rem; }
+  .search-input { width: 100%; padding: 12px 14px; border-radius: 8px; border: 1px solid var(--border); background: #0f172a; color: var(--text); font-size: 0.98rem; margin-bottom: 12px; min-height: 44px; }
+  .pill-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .pill { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 14px; border-radius: 99px; background: var(--card); border: 1px solid var(--border); color: var(--text); font-size: 0.8rem; font-weight: 700; cursor: pointer; }
+  .pill.on { background: var(--accent); border-color: var(--accent); color: #000; }
+  .chip { display: inline-block; padding: 3px 9px; border-radius: 99px; font-size: 0.7rem; font-weight: 700; background: var(--chip); color: var(--chip-text); margin: 2px 4px 2px 0; }
+  .chip.contains { background: var(--contains); color: var(--contains-text); }
+  .db-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  .db-item { background: #0f172a; border: 1px solid var(--border); border-radius: 10px; padding: 14px; font-size: 0.88rem; line-height: 1.45; overflow-wrap: anywhere; }
+  .db-item h3 { margin: 0 0 6px 0; color: var(--accent); font-size: 1rem; }
+  .db-meta { margin-top: 6px; color: var(--muted); }
+  .db-meta b { color: var(--text); }
+  .db-full { display: none; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); }
+  .db-item.open .db-full { display: block; }
+  .db-toggle { width: 100%; margin-top: 10px; padding: 8px 12px; min-height: 44px; font-size: 0.8rem; }
+  .table-scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.85rem; }
+  th, td { border: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+  th { background: #0f172a; color: var(--accent); white-space: nowrap; }
+  .step-card h2 { margin-bottom: 4px; }
+  .step-card .step-title { color: var(--text); font-weight: 700; margin: 0 0 12px; }
+  ol.step-list { margin: 0; padding-left: 22px; line-height: 1.7; }
+  ol.step-list li { margin-bottom: 6px; overflow-wrap: anywhere; }
+  .recite { background: #0f172a; border: 1px dashed var(--border); border-radius: 10px; padding: 18px; text-align: center; cursor: pointer; min-height: 88px; display: flex; align-items: center; justify-content: center; color: var(--muted); }
+  .recite.revealed { display: block; text-align: left; cursor: default; color: var(--text); border-style: solid; }
+  .tiny-note { color: var(--muted); font-size: 0.78rem; margin-top: 26px; text-align: center; }
+  .error-panel { text-align: center; padding: 40px 18px; }
+  .error-panel a { color: var(--accent); }
+  .empty { color: var(--muted); padding: 18px; text-align: center; }
+  .missed-item { border: 1px solid var(--border); border-radius: 10px; padding: 12px; background: #0f172a; margin-bottom: 10px; overflow-wrap: anywhere; }
+  .missed-item .prompt { font-weight: 600; margin-bottom: 6px; }
+  .flash-card { text-align: center; cursor: pointer; }
+  .flash-front { font-size: 1.4rem; font-weight: 700; margin: 14px 0; overflow-wrap: anywhere; }
+  .flash-back { display: none; text-align: left; background: #0f172a; padding: 16px; border-radius: 10px; margin-top: 14px; line-height: 1.6; overflow-wrap: anywhere; }
+  .flash-back.show { display: block; }
+  .grade-row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 12px; }
+  .grade-row button { flex: 1 1 140px; }
+  .ok { color: var(--green); }
+  .bad { color: var(--red); }
+  @media (max-width: 480px) {
+    body { padding: 12px; }
+    h1 { font-size: 1.15rem; }
+    .card { padding: 14px; }
+    .db-grid { grid-template-columns: 1fr; }
+    .grade-row button { flex: 1 1 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="top-row">
+      <div>
+        <p class="eyebrow" id="hdr-sub">&nbsp;</p>
+        <h1 id="hdr-name">Loading…</h1>
+      </div>
+      <button id="lock-btn" type="button" title="Lock this session">Lock</button>
+    </div>
+    <div class="tabs" role="tablist" id="tabs">
+      <button type="button" role="tab" data-mode="db" aria-selected="true">Database</button>
+      <button type="button" role="tab" data-mode="quiz" aria-selected="false">Quiz</button>
+      <button type="button" role="tab" data-mode="flash" aria-selected="false">Flashcards</button>
+      <button type="button" role="tab" data-mode="missed" aria-selected="false">Missed (<span id="missed-count">0</span>)</button>
+      <button type="button" role="tab" data-mode="ref" aria-selected="false">Reference</button>
+      <button type="button" role="tab" data-mode="steps" aria-selected="false">Steps</button>
+    </div>
+  </header>
+
+  <div id="loading" class="card empty">Loading the study set…</div>
+
+  <div id="expired" class="card error-panel" hidden>
+    <h2>Session expired</h2>
+    <p class="muted">The study set is locked again.</p>
+    <p><a href="/mfg">Sign in again</a></p>
+  </div>
+
+  <main id="app" hidden>
+    <div class="filters">
+      <select id="section-filter" aria-label="Menu section"></select>
+      <select id="focus-filter" aria-label="Question focus">
+        <option value="ALL">All topics</option>
+        <option value="one">One-Liners</option>
+        <option value="drop">Drop Lines</option>
+        <option value="allergy">Allergies</option>
+        <option value="steps">Steps of Service</option>
+      </select>
+    </div>
+
+    <section id="db-view">
+      <input type="text" id="db-search" class="search-input" placeholder="Search dish, ingredient, or note…" autocomplete="off">
+      <div class="pill-row" id="db-pills"></div>
+      <div class="db-grid" id="db-list"></div>
+      <p class="muted small" id="db-count"></p>
+    </section>
+
+    <section id="quiz-view" hidden>
+      <div class="stats-bar">
+        <div class="stat">Question: <strong id="q-progress">1 / 1</strong></div>
+        <div class="stat">Score: <strong id="q-score">0 / 0 (—)</strong></div>
+        <div class="stat">Streak: <strong id="q-streak">0 🔥</strong></div>
+      </div>
+      <div class="card">
+        <div class="kicker" id="q-kicker">Question</div>
+        <div class="q-text" id="q-prompt">Loading…</div>
+        <div class="options" id="q-options"></div>
+        <div class="explain" id="q-explain" aria-live="polite"></div>
+        <div class="controls">
+          <span class="muted small">Tap an option or press <b>1-4 / A-D</b>. <b>Space / Enter / →</b> next, <b>←</b> previous.</span>
+          <div style="display:flex;gap:8px;">
+            <button type="button" id="prev-btn">← Prev</button>
+            <button type="button" id="next-btn" class="active">Next →</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="flash-view" hidden>
+      <div class="card flash-card" id="flash-card">
+        <div class="badge" id="fc-section">Section</div>
+        <div class="kicker" id="fc-kicker">Flashcard</div>
+        <div class="flash-front" id="fc-front">—</div>
+        <div class="flash-back" id="fc-back"></div>
+        <p class="muted small" style="margin-top:14px;">Tap the card or press <b>Space</b> to flip. <span id="fc-pos">1 / 1</span> · Mastered: <b id="fc-mastered">0</b></p>
+      </div>
+      <div class="grade-row">
+        <button type="button" id="fc-nailed">Nailed it</button>
+        <button type="button" id="fc-again">Review again</button>
+      </div>
+      <div class="grade-row">
+        <button type="button" id="fc-prev">← Prev card</button>
+        <button type="button" id="fc-next">Next card →</button>
+      </div>
+    </section>
+
+    <section id="missed-view" hidden>
+      <div class="card">
+        <h2>Questions you missed</h2>
+        <p class="muted small">Opening this tab clears your saved answers for these questions so you can answer them again.</p>
+        <div id="missed-list"></div>
+      </div>
+    </section>
+
+    <section id="ref-view" hidden>
+      <div class="pill-row" id="ref-pills"></div>
+      <div class="card">
+        <h2>Full menu reference</h2>
+        <div class="table-scroll">
+          <table id="ref-table">
+            <thead>
+              <tr><th>Section</th><th>Dish</th><th>One-liner</th><th>Drop line</th><th>Contains</th><th>Safe for</th></tr>
+            </thead>
+            <tbody id="ref-body"></tbody>
+          </table>
+        </div>
+        <p class="muted small" id="ref-count"></p>
+      </div>
+    </section>
+
+    <section id="steps-view" hidden>
+      <div id="steps-cards"></div>
+      <div class="card">
+        <h2>Recite drill</h2>
+        <p class="muted small">Hide the list. Say both approaches out loud. Tap the panel to reveal, then grade yourself.</p>
+        <div class="recite" id="recite-panel" role="button" tabindex="0">Tap to reveal the service steps</div>
+        <div class="grade-row" id="recite-grades" hidden>
+          <button type="button" id="recite-nailed">Nailed it</button>
+          <button type="button" id="recite-again">Review again</button>
+        </div>
+        <p class="muted small" id="recite-status"></p>
+      </div>
+    </section>
+  </main>
+
+  <p class="tiny-note">Private study aid. Not indexed. Progress saves on this device.</p>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var STORAGE_KEY = "mfg_exam_v1";
+  var FOCUS_KINDS = {
+    one: ["one", "dishone"],
+    drop: ["drop", "dropl"],
+    allergy: ["contains", "notcontains", "scenario"],
+    steps: ["seq", "approach", "next"]
+  };
+
+  var DATA = null;
+  var BANK = [];
+  var BY_ID = {};
+  var state = { missed: [], answered: {}, deck: [], index: 0, streak: 0, mastered: [] };
+  var view = "db";
+  var filters = { section: "ALL", focus: "ALL" };
+  var safe = { gf: false, df: false, nf: false, shellfish: false };
+  var flashIndex = 0;
+  var flashFlipped = false;
+  var reciteState = "hidden";
+
+  var esc = function (value) {
+    return String(value == null ? "" : value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  };
+  var trim = function (value) {
+    return typeof value === "string" ? value.trim() : "";
+  };
+  function shuffle(list) {
+    var out = list.slice();
+    for (var i = out.length - 1; i > 0; i -= 1) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = out[i];
+      out[i] = out[j];
+      out[j] = t;
+    }
+    return out;
+  }
+  function $(id) { return document.getElementById(id); }
+
+  // ---------------------------------------------------------------- storage
+  function loadState() {
+    try {
+      var raw = window.localStorage.getItem(STORAGE_KEY);
+      if (!raw) return;
+      var parsed = JSON.parse(raw);
+      if (!parsed || typeof parsed !== "object") return;
+      if (Array.isArray(parsed.missed)) {
+        state.missed = parsed.missed.filter(function (x) { return typeof x === "string"; });
+      }
+      if (parsed.answered && typeof parsed.answered === "object") {
+        var clean = {};
+        Object.keys(parsed.answered).forEach(function (k) {
+          if (typeof parsed.answered[k] === "string") clean[k] = parsed.answered[k];
+        });
+        state.answered = clean;
+      }
+      if (Array.isArray(parsed.deck)) {
+        state.deck = parsed.deck.filter(function (x) { return typeof x === "string"; });
+      }
+      if (typeof parsed.index === "number" && isFinite(parsed.index)) {
+        state.index = Math.max(0, Math.floor(parsed.index));
+      }
+      if (typeof parsed.streak === "number" && isFinite(parsed.streak)) {
+        state.streak = Math.max(0, Math.floor(parsed.streak));
+      }
+      if (Array.isArray(parsed.mastered)) {
+        state.mastered = parsed.mastered.filter(function (x) { return typeof x === "string"; });
+      }
+    } catch (err) { /* a corrupt cache must never block the app */ }
+  }
+  function saveState() {
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        missed: state.missed,
+        answered: state.answered,
+        deck: state.deck,
+        index: state.index,
+        streak: state.streak,
+        mastered: state.mastered
+      }));
+    } catch (err) { /* private mode may refuse writes */ }
+  }
+
+  // ------------------------------------------------------------- allergens
+  function has(dish, allergen) {
+    return dish.allergens.indexOf(allergen) !== -1;
+  }
+  function safeFlags(dish) {
+    var flags = [];
+    if (!has(dish, "Gluten")) flags.push("GF");
+    if (!has(dish, "Dairy")) flags.push("DF");
+    if (!has(dish, "Tree Nuts")) flags.push("NF");
+    if (!has(dish, "Crustacean/Shellfish") && !has(dish, "Mollusk")) flags.push("Shellfish-Free");
+    return flags;
+  }
+  function chips(list) {
+    if (!list.length) return '<span class="chip">None listed</span>';
+    return list.map(function (a) { return '<span class="chip contains">' + esc(a) + "</span>"; }).join(" ");
+  }
+  function flagPills(dish) {
+    var flags = safeFlags(dish);
+    if (!flags.length) return '<span class="chip">No safe flags</span>';
+    return flags.map(function (f) { return '<span class="chip">' + esc(f) + "</span>"; }).join(" ");
+  }
+
+  // ------------------------------------------------------------- questions
+  function pickDecoys(pool, correct, count) {
+    var seen = {};
+    seen[correct] = true;
+    var out = [];
+    shuffle(pool).forEach(function (raw) {
+      if (out.length >= count) return;
+      var text = trim(raw);
+      if (!text || seen[text]) return;
+      seen[text] = true;
+      out.push(text);
+    });
+    return out;
+  }
+  function addQuestion(bank, spec) {
+    if (!spec.prompt || !spec.correct) return;
+    var decoys = pickDecoys(spec.pool || [], spec.correct, 3);
+    if (decoys.length !== 3) return;
+    var options = shuffle([spec.correct].concat(decoys));
+    var index = options.indexOf(spec.correct);
+    if (index < 0) return;
+    bank.push({
+      id: spec.id,
+      kind: spec.kind,
+      kicker: spec.kicker,
+      section: spec.section || null,
+      dishName: spec.dishName || null,
+      prompt: spec.prompt,
+      options: options,
+      correctIndex: index,
+      correctText: spec.correct,
+      explainKind: spec.explainKind || "dish",
+      stepsApproach: spec.stepsApproach || null
+    });
+  }
+
+  function buildBank(data) {
+    var bank = [];
+    var bySection = {};
+    data.sections.forEach(function (s) { bySection[s] = []; });
+    data.dishes.forEach(function (d) {
+      if (!bySection[d.section]) bySection[d.section] = [];
+      bySection[d.section].push(d);
+    });
+
+    data.dishes.forEach(function (dish) {
+      var section = bySection[dish.section] || [];
+      var siblings = section.filter(function (x) { return x.name !== dish.name; });
+      var siblingNames = siblings.map(function (x) { return x.name; });
+      var siblingOne = siblings.map(function (x) { return trim(x.oneLiner); });
+      var siblingDrop = siblings.map(function (x) { return trim(x.dropLine); });
+      var one = trim(dish.oneLiner);
+      var drop = trim(dish.dropLine);
+
+      if (one) {
+        addQuestion(bank, {
+          id: "one:" + dish.name, kind: "one", kicker: "One-liner → dish", section: dish.section,
+          dishName: dish.name, prompt: one, correct: dish.name, pool: siblingNames
+        });
+        addQuestion(bank, {
+          id: "dishone:" + dish.name, kind: "dishone", kicker: "Dish → one-liner", section: dish.section,
+          dishName: dish.name, prompt: "Which one-liner does the packet print for " + dish.name + "?",
+          correct: one, pool: siblingOne
+        });
+      }
+      if (drop) {
+        addQuestion(bank, {
+          id: "drop:" + dish.name, kind: "drop", kicker: "Drop line → dish", section: dish.section,
+          dishName: dish.name, prompt: drop, correct: dish.name, pool: siblingNames
+        });
+        addQuestion(bank, {
+          id: "dropl:" + dish.name, kind: "dropl", kicker: "Dish → drop line", section: dish.section,
+          dishName: dish.name, prompt: "What is the drop line for " + dish.name + "?",
+          correct: drop, pool: siblingDrop
+        });
+      }
+
+      // Allergen checks: one "contains" and one "does not contain" per dish.
+      // Dishes flagged allergenTentative are skipped: their printed allergen
+      // line is unconfirmed, so a graded question would be unfair.
+      var notInDish = data.allergens.filter(function (a) { return !has(dish, a); });
+      if (dish.allergens.length && !dish.allergenTentative) {
+        var yes = shuffle(dish.allergens)[0];
+        addQuestion(bank, {
+          id: "contains:" + dish.name + ":" + yes, kind: "contains", kicker: "Allergen check", section: dish.section,
+          dishName: dish.name, prompt: "Which of these does " + dish.name + " contain?",
+          correct: yes, pool: notInDish
+        });
+      }
+      if (dish.allergens.length >= 3 && notInDish.length && !dish.allergenTentative) {
+        var no = shuffle(notInDish)[0];
+        addQuestion(bank, {
+          id: "notcontains:" + dish.name + ":" + no, kind: "notcontains", kicker: "Allergen check", section: dish.section,
+          dishName: dish.name, prompt: "Which of these does " + dish.name + " NOT contain?",
+          correct: no, pool: dish.allergens
+        });
+      }
+
+      // Modification check: only where the packet states a modification.
+      var mod = trim(dish.mods);
+      if (mod) {
+        var otherMods = data.dishes
+          .filter(function (x) { return x.name !== dish.name; })
+          .map(function (x) { return trim(x.mods); });
+        addQuestion(bank, {
+          id: "mod:" + dish.name, kind: "mod", kicker: "Modification check", section: dish.section,
+          dishName: dish.name, prompt: "What modification does the packet allow for " + dish.name + "?",
+          correct: mod, pool: otherMods
+        });
+      }
+    });
+
+    // Scenario: severe nut and shellfish allergy, which dish is safe as-is.
+    var risky = ["Tree Nuts", "Crustacean/Shellfish", "Mollusk"];
+    var unsafe = data.dishes.filter(function (d) {
+      return risky.some(function (a) { return has(d, a); });
+    });
+    var safeDishes = data.dishes.filter(function (d) {
+      return !risky.some(function (a) { return has(d, a); });
+    });
+    for (var s = 0; s < 6; s += 1) {
+      if (!safeDishes.length || unsafe.length < 3) break;
+      var answer = shuffle(safeDishes)[s % safeDishes.length];
+      addQuestion(bank, {
+        id: "scenario:" + answer.name, kind: "scenario", kicker: "Scenario check", section: answer.section,
+        dishName: answer.name,
+        prompt: "A guest has a severe tree-nut and shellfish allergy. Which of these is safe as-is, with no modification?",
+        correct: answer.name, pool: unsafe.map(function (d) { return d.name; })
+      });
+    }
+
+    // Steps of service.
+    var allSteps = [];
+    data.steps.forEach(function (approach) {
+      approach.steps.forEach(function (step) { allSteps.push(step); });
+    });
+    var approachNames = data.steps.map(function (a) { return a.approach; });
+
+    data.steps.forEach(function (approach) {
+      var steps = approach.steps;
+      steps.forEach(function (step, i) {
+        addQuestion(bank, {
+          id: "seq:" + approach.approach + ":" + i, kind: "seq", kicker: "Steps of service", section: null,
+          prompt: "What is step " + (i + 1) + " of the " + approach.approach + " (" + approach.title + ")?",
+          correct: step, pool: allSteps.filter(function (x) { return x !== step; }),
+          explainKind: "steps", stepsApproach: approach.approach
+        });
+        addQuestion(bank, {
+          id: "approach:" + approach.approach + ":" + i, kind: "approach", kicker: "Steps of service", section: null,
+          prompt: "Which approach includes the step \"" + step + "\"?",
+          correct: approach.approach,
+          pool: approachNames.concat(["Neither approach", "Both approaches"]),
+          explainKind: "steps", stepsApproach: approach.approach
+        });
+        if (i + 1 < steps.length) {
+          addQuestion(bank, {
+            id: "next:" + approach.approach + ":" + i, kind: "next", kicker: "Steps of service", section: null,
+            prompt: "What comes immediately after \"" + step + "\"?",
+            correct: steps[i + 1], pool: allSteps.filter(function (x) { return x !== steps[i + 1]; }),
+            explainKind: "steps", stepsApproach: approach.approach
+          });
+        }
+      });
+    });
+
+    return bank;
+  }
+
+  function focusAllows(kind) {
+    if (filters.focus === "ALL") return true;
+    return (FOCUS_KINDS[filters.focus] || []).indexOf(kind) !== -1;
+  }
+  function sectionAllows(section) {
+    if (filters.section === "ALL") return true;
+    return section === filters.section;
+  }
+  function quizPool() {
+    return BANK.filter(function (q) {
+      return sectionAllows(q.section) && focusAllows(q.kind);
+    });
+  }
+  function rebuildQuizDeck() {
+    var pool = quizPool();
+    var poolIds = {};
+    pool.forEach(function (q) { poolIds[q.id] = true; });
+    var kept = state.deck.filter(function (id) { return poolIds[id]; });
+    var keptIds = {};
+    kept.forEach(function (id) { keptIds[id] = true; });
+    var added = shuffle(pool.map(function (q) { return q.id; })).filter(function (id) { return !keptIds[id]; });
+    state.deck = kept.concat(added);
+    if (state.index >= state.deck.length) state.index = 0;
+    if (state.index < 0) state.index = 0;
+    saveState();
+  }
+  function currentQuestion() {
+    if (!state.deck.length) return null;
+    return BY_ID[state.deck[state.index]] || null;
+  }
+
+  // --------------------------------------------------------------- renders
+  function dishRecord(dish) {
+    return '' +
+      '<div class="row"><b>One-liner:</b> ' + (trim(dish.oneLiner) ? esc(dish.oneLiner) : '<span class="muted">none printed</span>') + "</div>" +
+      '<div class="row"><b>Drop line:</b> ' + (trim(dish.dropLine) ? esc(dish.dropLine) : '<span class="muted">none printed</span>') + "</div>" +
+      '<div class="row"><b>Allergens:</b> ' + chips(dish.allergens) + "</div>" +
+      (trim(dish.mods) ? '<div class="row"><b>Mods:</b> ' + esc(dish.mods) + "</div>" : "") +
+      (trim(dish.portionNote) ? '<div class="row"><b>Portion:</b> ' + esc(dish.portionNote) + "</div>" : "") +
+      (trim(dish.notes) ? '<div class="row"><b>Notes:</b> ' + esc(dish.notes) + "</div>" : "");
+  }
+  function stepsRecord(approachName) {
+    var approach = DATA.steps.filter(function (a) { return a.approach === approachName; })[0];
+    if (!approach) return "";
+    return '<div class="row"><b>' + esc(approach.approach) + " — " + esc(approach.title) + "</b></div>" +
+      "<ol class=\"step-list\">" + approach.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol>";
+  }
+
+  function dishMatchesSearch(dish, needle) {
+    if (!needle) return true;
+    var hay = [dish.name, dish.oneLiner, dish.dropLine, dish.ingredients, dish.allergenDetail, dish.notes, dish.mods]
+      .join(" ").toLowerCase();
+    return hay.indexOf(needle) !== -1;
+  }
+  function dishMatchesSafe(dish) {
+    if (safe.gf && has(dish, "Gluten")) return false;
+    if (safe.df && has(dish, "Dairy")) return false;
+    if (safe.nf && has(dish, "Tree Nuts")) return false;
+    if (safe.shellfish && (has(dish, "Crustacean/Shellfish") || has(dish, "Mollusk"))) return false;
+    return true;
+  }
+
+  function renderDb() {
+    var needle = $("db-search").value.trim().toLowerCase();
+    var shown = DATA.dishes.filter(function (d) {
+      return dishMatchesSearch(d, needle) && dishMatchesSafe(d) && sectionAllows(d.section);
+    });
+    $("db-list").innerHTML = shown.map(function (d, i) {
+      return '' +
+        '<div class="db-item" id="db-' + i + '">' +
+        "<h3>" + esc(d.name) + "</h3>" +
+        '<div class="db-meta"><b>Section:</b> ' + esc(d.section) + "</div>" +
+        (trim(d.oneLiner) ? '<div class="db-meta">' + esc(d.oneLiner) + "</div>" : "") +
+        (trim(d.dropLine) ? '<div class="db-meta"><b>Drop:</b> ' + esc(d.dropLine) + "</div>" : "") +
+        '<div class="db-meta">' + chips(d.allergens) + "</div>" +
+        (trim(d.mods) ? '<div class="db-meta"><b>Mods:</b> ' + esc(d.mods) + "</div>" : "") +
+        (trim(d.portionNote) ? '<div class="db-meta"><b>Portion:</b> ' + esc(d.portionNote) + "</div>" : "") +
+        (trim(d.notes) ? '<div class="db-meta"><b>Notes:</b> ' + esc(d.notes) + "</div>" : "") +
+        '<div class="db-full">' +
+        '<div class="row"><b>Ingredients:</b> ' + esc(d.ingredients) + "</div>" +
+        '<div class="row"><b>Allergen detail:</b> ' + esc(d.allergenDetail) + "</div>" +
+        '<div class="row"><b>Service:</b> ' + esc(d.service) + "</div>" +
+        '<div class="row"><b>Safe flags:</b> ' + flagPills(d) + "</div>" +
+        (d.sourceNote ? '<div class="row"><b>Source note:</b> ' + esc(d.sourceNote) + "</div>" : "") +
+        "</div>" +
+        '<button type="button" class="db-toggle" data-target="db-' + i + '" aria-expanded="false">Full record</button>' +
+        "</div>";
+    }).join("");
+    $("db-count").textContent = shown.length + " of " + DATA.dishes.length + " dishes";
+  }
+
+  function renderRef() {
+    var shown = DATA.dishes.filter(function (d) {
+      return sectionAllows(d.section) && dishMatchesSafe(d);
+    });
+    $("ref-body").innerHTML = shown.map(function (d) {
+      return "<tr>" +
+        "<td>" + esc(d.section) + "</td>" +
+        "<td><b>" + esc(d.name) + "</b></td>" +
+        "<td>" + (trim(d.oneLiner) ? esc(d.oneLiner) : '<span class="muted">—</span>') + "</td>" +
+        "<td>" + (trim(d.dropLine) ? esc(d.dropLine) : '<span class="muted">—</span>') + "</td>" +
+        "<td>" + chips(d.allergens) + "</td>" +
+        "<td>" + flagPills(d) + "</td>" +
+        "</tr>";
+    }).join("");
+    $("ref-count").textContent = shown.length + " of " + DATA.dishes.length + " dishes";
+  }
+
+  function renderPills(targetId) {
+    var defs = [
+      { key: "gf", label: "GF" },
+      { key: "df", label: "DF" },
+      { key: "nf", label: "NF" },
+      { key: "shellfish", label: "Shellfish-Free" }
+    ];
+    $(targetId).innerHTML = defs.map(function (d) {
+      return '<button type="button" class="pill' + (safe[d.key] ? " on" : "") +
+        '" data-safe="' + d.key + '" aria-pressed="' + (safe[d.key] ? "true" : "false") + '">' +
+        esc(d.label) + "</button>";
+    }).join("");
+  }
+
+  function renderQuiz() {
+    var q = currentQuestion();
+    $("q-progress").textContent = state.deck.length ? (state.index + 1) + " / " + state.deck.length : "0 / 0";
+    var answeredIds = Object.keys(state.answered);
+    var correctCount = 0;
+    answeredIds.forEach(function (id) {
+      var item = BY_ID[id];
+      if (item && state.answered[id] === item.correctText) correctCount += 1;
+    });
+    var total = answeredIds.length;
+    var pct = total ? Math.round((correctCount / total) * 100) + "%" : "—";
+    $("q-score").textContent = correctCount + " / " + total + " (" + pct + ")";
+    $("q-streak").textContent = state.streak + " 🔥";
+    $("missed-count").textContent = state.missed.length;
+
+    var opts = $("q-options");
+    var explain = $("q-explain");
+    if (!q) {
+      $("q-kicker").textContent = "Quiz";
+      $("q-prompt").textContent = "No questions match these filters.";
+      opts.innerHTML = "";
+      explain.className = "explain";
+      explain.innerHTML = "";
+      return;
+    }
+    $("q-kicker").textContent = q.kicker + (q.section ? " · " + q.section : "");
+    $("q-prompt").textContent = q.prompt;
+    var chosen = state.answered[q.id] || null;
+    opts.innerHTML = q.options.map(function (text, i) {
+      var cls = "opt-btn";
+      if (chosen) {
+        if (i === q.correctIndex) cls += " correct";
+        else if (text === chosen) cls += " wrong";
+      }
+      return '<button type="button" class="' + cls + '" data-opt="' + i + '"' +
+        (chosen ? " disabled" : "") + ">" +
+        '<span class="key-hint">' + (i + 1) + "</span><span>" + esc(text) + "</span></button>";
+    }).join("");
+    if (chosen) {
+      var right = chosen === q.correctText;
+      explain.className = "explain show";
+      var body = q.explainKind === "steps" ? stepsRecord(q.stepsApproach) : (q.dishName ? dishRecord(DATA.dishes.filter(function (d) { return d.name === q.dishName; })[0] || {}) : "");
+      explain.innerHTML = '<div class="row"><b class="' + (right ? "ok" : "bad") + '">' +
+        (right ? "Correct." : "Not quite. The answer is: " + esc(q.correctText)) + "</b></div>" + body;
+    } else {
+      explain.className = "explain";
+      explain.innerHTML = "";
+    }
+  }
+
+  function flashCards() {
+    var dishes = DATA.dishes.filter(function (d) { return sectionAllows(d.section); });
+    var cards = [];
+    if (filters.focus === "steps") {
+      DATA.steps.forEach(function (approach) {
+        cards.push({
+          id: "fc:steps:" + approach.approach,
+          section: "Steps of Service",
+          kicker: approach.approach,
+          front: approach.approach + " — " + approach.title,
+          back: "<ol class=\"step-list\">" + approach.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol>"
+        });
+      });
+      return cards;
+    }
+    dishes.forEach(function (d) {
+      var mode = filters.focus;
+      if (mode === "ALL" || mode === "one" || mode === "drop" || mode === "allergy") {
+        if (mode === "drop" && !trim(d.dropLine)) return;
+        if ((mode === "ALL" || mode === "one") && !trim(d.oneLiner) && !trim(d.dropLine)) return;
+        if (mode === "allergy" && !d.allergens.length) return;
+        var backParts = [];
+        if (trim(d.oneLiner)) backParts.push("<div><b>One-liner:</b> " + esc(d.oneLiner) + "</div>");
+        if (trim(d.dropLine)) backParts.push("<div><b>Drop line:</b> " + esc(d.dropLine) + "</div>");
+        backParts.push("<div><b>Allergens:</b> " + chips(d.allergens) + "</div>");
+        if (trim(d.mods)) backParts.push("<div><b>Mods:</b> " + esc(d.mods) + "</div>");
+        if (trim(d.portionNote)) backParts.push("<div><b>Portion:</b> " + esc(d.portionNote) + "</div>");
+        if (trim(d.notes)) backParts.push("<div><b>Notes:</b> " + esc(d.notes) + "</div>");
+        cards.push({
+          id: "fc:" + mode + ":" + d.name,
+          section: d.section,
+          kicker: mode === "allergy" ? "Allergens" : (mode === "drop" ? "Drop line" : "One-liner"),
+          front: d.name,
+          back: backParts.join("")
+        });
+      }
+    });
+    return cards;
+  }
+  function flashQueue() {
+    return flashCards().filter(function (c) { return state.mastered.indexOf(c.id) === -1; });
+  }
+  function renderFlash() {
+    var queue = flashQueue();
+    if (!queue.length) {
+      $("fc-section").textContent = "Done";
+      $("fc-kicker").textContent = "Flashcards";
+      $("fc-front").textContent = "Every card in this filter is mastered.";
+      $("fc-back").className = "flash-back";
+      $("fc-back").innerHTML = "";
+      $("fc-pos").textContent = "0 / 0";
+      $("fc-mastered").textContent = String(state.mastered.length);
+      return;
+    }
+    if (flashIndex >= queue.length) flashIndex = 0;
+    var card = queue[flashIndex];
+    $("fc-section").textContent = card.section;
+    $("fc-kicker").textContent = card.kicker;
+    $("fc-front").textContent = card.front;
+    $("fc-back").innerHTML = card.back;
+    $("fc-back").className = "flash-back" + (flashFlipped ? " show" : "");
+    $("fc-pos").textContent = (flashIndex + 1) + " / " + queue.length;
+    $("fc-mastered").textContent = String(state.mastered.length);
+  }
+  function flipCard() {
+    flashFlipped = !flashFlipped;
+    renderFlash();
+  }
+  function gradeFlash(nailed) {
+    var queue = flashQueue();
+    if (!queue.length) return;
+    if (flashIndex >= queue.length) flashIndex = 0;
+    var card = queue[flashIndex];
+    if (nailed) {
+      if (state.mastered.indexOf(card.id) === -1) state.mastered.push(card.id);
+      saveState();
+      flashFlipped = false;
+      var after = flashQueue();
+      if (flashIndex >= after.length) flashIndex = 0;
+    } else {
+      flashIndex = (flashIndex + 1) % queue.length;
+      flashFlipped = false;
+    }
+    renderFlash();
+  }
+
+  function renderMissed() {
+    var list = $("missed-list");
+    if (!state.missed.length) {
+      list.innerHTML = '<p class="empty">Nothing missed yet. Wrong answers land here.</p>';
+      return;
+    }
+    list.innerHTML = state.missed.map(function (id) {
+      var q = BY_ID[id];
+      if (!q) return "";
+      return '<div class="missed-item">' +
+        '<div class="small muted">' + esc(q.kicker) + (q.section ? " · " + esc(q.section) : "") + "</div>" +
+        '<div class="prompt">' + esc(q.prompt) + "</div>" +
+        '<div class="small"><b>Answer:</b> ' + esc(q.correctText) + "</div>" +
+        "</div>";
+    }).join("");
+  }
+
+  function renderSteps() {
+    $("steps-cards").innerHTML = DATA.steps.map(function (approach, i) {
+      return '<div class="card step-card">' +
+        '<div class="kicker">Approach ' + (i + 1) + "</div>" +
+        "<h2>" + esc(approach.approach) + "</h2>" +
+        '<p class="step-title">' + esc(approach.title) + "</p>" +
+        '<ol class="step-list">' + approach.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol>" +
+        "</div>";
+    }).join("");
+    renderRecite();
+  }
+  function renderRecite() {
+    var panel = $("recite-panel");
+    var grades = $("recite-grades");
+    var status = $("recite-status");
+    if (reciteState === "hidden") {
+      panel.className = "recite";
+      panel.innerHTML = "Tap to reveal the service steps";
+      grades.hidden = true;
+      status.textContent = "";
+    } else {
+      panel.className = "recite revealed";
+      panel.innerHTML = DATA.steps.map(function (approach) {
+        return '<div class="row"><b>' + esc(approach.approach) + " — " + esc(approach.title) + "</b></div>" +
+          '<ol class="step-list">' + approach.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol>";
+      }).join("");
+      grades.hidden = false;
+      status.textContent = reciteState === "nailed" ? "Graded: nailed it." : (reciteState === "again" ? "Graded: review again." : "");
+    }
+  }
+
+  function setView(next) {
+    view = next;
+    ["db", "quiz", "flash", "missed", "ref", "steps"].forEach(function (name) {
+      $(name + "-view").hidden = name !== next;
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("#tabs button"), function (btn) {
+      var on = btn.getAttribute("data-mode") === next;
+      btn.className = on ? "active" : "";
+      btn.setAttribute("aria-selected", on ? "true" : "false");
+    });
+    if (next === "db") renderDb();
+    if (next === "quiz") renderQuiz();
+    if (next === "flash") { flashFlipped = false; renderFlash(); }
+    if (next === "missed") {
+      // Entering the tab clears saved answers so the missed set can be retried.
+      state.missed.forEach(function (id) { delete state.answered[id]; });
+      saveState();
+      renderMissed();
+    }
+    if (next === "ref") renderRef();
+    if (next === "steps") renderSteps();
+  }
+
+  // ---------------------------------------------------------------- actions
+  function answer(index) {
+    var q = currentQuestion();
+    if (!q) return;
+    if (state.answered[q.id]) return;
+    if (index < 0 || index >= q.options.length) return;
+    var chosen = q.options[index];
+    state.answered[q.id] = chosen;
+    if (chosen === q.correctText) {
+      state.streak += 1;
+      state.missed = state.missed.filter(function (id) { return id !== q.id; });
+    } else {
+      state.streak = 0;
+      if (state.missed.indexOf(q.id) === -1) state.missed.push(q.id);
+    }
+    saveState();
+    renderQuiz();
+  }
+  function step(delta) {
+    if (!state.deck.length) return;
+    state.index = (state.index + delta + state.deck.length) % state.deck.length;
+    saveState();
+    renderQuiz();
+  }
+  function applyFilters() {
+    rebuildQuizDeck();
+    flashIndex = 0;
+    flashFlipped = false;
+    if (view === "db") renderDb();
+    if (view === "quiz") renderQuiz();
+    if (view === "flash") renderFlash();
+    if (view === "ref") renderRef();
+  }
+
+  function initFilters() {
+    var sectionSelect = $("section-filter");
+    var options = ['<option value="ALL">All sections</option>'].concat(
+      DATA.sections.map(function (s) { return '<option value="' + esc(s) + '">' + esc(s) + "</option>"; })
+    );
+    sectionSelect.innerHTML = options.join("");
+    sectionSelect.addEventListener("change", function () {
+      filters.section = sectionSelect.value;
+      applyFilters();
+    });
+    $("focus-filter").addEventListener("change", function (e) {
+      filters.focus = e.target.value;
+      applyFilters();
+    });
+  }
+
+  function bind() {
+    Array.prototype.forEach.call(document.querySelectorAll("#tabs button"), function (btn) {
+      btn.addEventListener("click", function () { setView(btn.getAttribute("data-mode")); });
+    });
+
+    $("db-search").addEventListener("input", renderDb);
+    ["db-pills", "ref-pills"].forEach(function (id) {
+      $(id).addEventListener("click", function (e) {
+        var pill = e.target.closest(".pill");
+        if (!pill) return;
+        var key = pill.getAttribute("data-safe");
+        safe[key] = !safe[key];
+        renderPills("db-pills");
+        renderPills("ref-pills");
+        renderDb();
+        renderRef();
+      });
+    });
+    $("db-list").addEventListener("click", function (e) {
+      var toggle = e.target.closest(".db-toggle");
+      if (!toggle) return;
+      var item = document.getElementById(toggle.getAttribute("data-target"));
+      if (!item) return;
+      var open = item.className.indexOf("open") === -1;
+      item.className = open ? "db-item open" : "db-item";
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      toggle.textContent = open ? "Hide record" : "Full record";
+    });
+
+    $("q-options").addEventListener("click", function (e) {
+      var btn = e.target.closest("[data-opt]");
+      if (!btn) return;
+      answer(Number(btn.getAttribute("data-opt")));
+    });
+    $("prev-btn").addEventListener("click", function () { step(-1); });
+    $("next-btn").addEventListener("click", function () { step(1); });
+
+    $("flash-card").addEventListener("click", flipCard);
+    $("fc-nailed").addEventListener("click", function () { gradeFlash(true); });
+    $("fc-again").addEventListener("click", function () { gradeFlash(false); });
+    $("fc-prev").addEventListener("click", function () {
+      var queue = flashQueue();
+      if (!queue.length) return;
+      flashIndex = (flashIndex - 1 + queue.length) % queue.length;
+      flashFlipped = false;
+      renderFlash();
+    });
+    $("fc-next").addEventListener("click", function () {
+      var queue = flashQueue();
+      if (!queue.length) return;
+      flashIndex = (flashIndex + 1) % queue.length;
+      flashFlipped = false;
+      renderFlash();
+    });
+
+    $("recite-panel").addEventListener("click", function () {
+      if (reciteState === "hidden") {
+        reciteState = "revealed";
+        renderRecite();
+      }
+    });
+    $("recite-panel").addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        if (reciteState === "hidden") { reciteState = "revealed"; renderRecite(); }
+      }
+    });
+    $("recite-nailed").addEventListener("click", function () { reciteState = "nailed"; renderRecite(); });
+    $("recite-again").addEventListener("click", function () { reciteState = "again"; renderRecite(); });
+
+    $("lock-btn").addEventListener("click", function () {
+      fetch("/mfg/logout", { method: "POST", credentials: "same-origin", redirect: "manual" })
+        .catch(function () { return null; })
+        .then(function () { window.location.href = "/mfg"; });
+    });
+
+    document.addEventListener("keydown", function (e) {
+      var t = e.target;
+      if (t && (t.tagName === "INPUT" || t.tagName === "SELECT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
+      if (view === "quiz") {
+        var active = document.activeElement;
+        var onButton = active && active.tagName === "BUTTON";
+        if (/^[1-4]$/.test(e.key)) { e.preventDefault(); answer(Number(e.key) - 1); return; }
+        if (/^[a-dA-D]$/.test(e.key)) { e.preventDefault(); answer(e.key.toLowerCase().charCodeAt(0) - 97); return; }
+        if (e.key === "ArrowRight" || e.key === " " || e.key === "Enter") {
+          if (onButton && (e.key === " " || e.key === "Enter")) return;
+          e.preventDefault();
+          step(1);
+          return;
+        }
+        if (e.key === "ArrowLeft") { e.preventDefault(); step(-1); return; }
+      } else if (view === "flash") {
+        if (e.key === " " || e.key === "Enter") {
+          var el = document.activeElement;
+          if (el && el.tagName === "BUTTON") return;
+          e.preventDefault();
+          flipCard();
+        }
+      }
+    });
+  }
+
+  // ------------------------------------------------------------------- boot
+  function boot(data) {
+    DATA = data;
+    document.title = data.config.displayName + " — " + data.config.subtitle;
+    $("hdr-sub").textContent = data.config.subtitle;
+    $("hdr-name").textContent = data.config.displayName;
+
+    BANK = buildBank(data);
+    BY_ID = {};
+    BANK.forEach(function (q) { BY_ID[q.id] = q; });
+
+    loadState();
+    state.missed = state.missed.filter(function (id) { return !!BY_ID[id]; });
+    state.mastered = state.mastered.filter(function (id) { return id.indexOf("fc:") === 0; });
+    rebuildQuizDeck();
+    state.index = state.deck.length ? Math.min(state.index, state.deck.length - 1) : 0;
+
+    initFilters();
+    renderPills("db-pills");
+    renderPills("ref-pills");
+    bind();
+    $("loading").hidden = true;
+    $("app").hidden = false;
+    setView("db");
+  }
+
+  function showExpired() {
+    $("loading").hidden = true;
+    $("expired").hidden = false;
+  }
+
+  fetch("/mfg/data.json", {
+    credentials: "same-origin",
+    headers: { "Accept": "application/json" },
+    cache: "no-store"
+  }).then(function (res) {
+    if (res.status === 401 || res.status === 403) { showExpired(); return null; }
+    if (!res.ok) { showExpired(); return null; }
+    return res.json();
+  }).then(function (data) {
+    if (!data) return;
+    if (!data.dishes || !data.sections || !data.config) { showExpired(); return; }
+    boot(data);
+  }).catch(function () {
+    showExpired();
+  });
+})();
+</script>
+</body>
+</html>

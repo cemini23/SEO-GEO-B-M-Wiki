@@ -57,3 +57,12 @@ venv/
 
 # --- Wrangler local cache (do not commit account/oauth cache) ----------------
 **/.wrangler/
+
+# --- Confidential MFG (Caruso) menu data -------------------------------------
+# The worker imports this module at deploy time. It is never committed: the
+# repository is public and the menu is unreleased. Deploy from a machine that
+# holds the file; `wrangler deploy` bundles it into the Worker.
+sites/outlierweekly/src/mfg-data.js
+sites/outlierweekly/src/mfg-data.local.js
+# Local captures of the training packet and the QR deck export
+caruso-source/
