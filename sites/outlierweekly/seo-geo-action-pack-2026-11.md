@@ -50,6 +50,8 @@ Three owned pages carry a description over the 155 character budget, so the sear
 
 After each edit, confirm the rendered `<title>` is at most 60 characters and the meta description at most 155. The three fixes above measure 41, 36, and 35 characters for titles and 137, 130, and 127 for descriptions. The current `/anthropic-ipo/` title is 58 characters including the brand suffix; the proposal drops the suffix and keeps the keyword.
 
+Status: applied on 2026-11-23. The Worker was deployed, and each live page returns HTTP 200 with the new title and description. The `og:title` tags match the new titles. The JSON-LD `dateModified` field is 2026-11-23 on the two article pages, and `sitemap.xml` carries the same date on the three URLs.
+
 ## Internal Linking Matrix
 
 Every row is a contextual link inside an older post, placed in body prose. Do not stack links in one paragraph, and do not repeat the same anchor twice across the set. The target pages are owned hub pages, so each link moves a reader from a Substack surface to a page this site controls [Source: https://outlierweekly.com/sitemap.xml (retrieved 2026-11-23)].
