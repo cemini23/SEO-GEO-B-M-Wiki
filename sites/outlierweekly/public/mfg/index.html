@@ -24,7 +24,7 @@
   .eyebrow { margin: 0 0 4px; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem; font-weight: 700; color: var(--muted); }
   h1 { margin: 0; font-size: 1.3rem; color: var(--accent); line-height: 1.25; }
   h2 { color: var(--accent); font-size: 1.05rem; margin: 0 0 10px; }
-  .tabs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .tabs { display: flex; min-width: 0; max-width: 100%; gap: 6px; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
   .tabs::-webkit-scrollbar { display: none; }
   button, select, input { font-size: 0.88rem; }
   button, select {
@@ -60,7 +60,7 @@
   .controls { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; gap: 10px; flex-wrap: wrap; }
   .muted { color: var(--muted); }
   .small { font-size: 0.8rem; }
-  .search-input { width: 100%; padding: 12px 14px; border-radius: 8px; border: 1px solid var(--border); background: #0f172a; color: var(--text); font-size: 0.98rem; margin-bottom: 12px; min-height: 44px; }
+  .search-input { width: 100%; padding: 12px 14px; border-radius: 8px; border: 1px solid var(--border); background: #0f172a; color: var(--text); font-size: 1rem; margin-bottom: 12px; min-height: 44px; }
   .pill-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
   .pill { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 14px; border-radius: 99px; background: var(--card); border: 1px solid var(--border); color: var(--text); font-size: 0.8rem; font-weight: 700; cursor: pointer; }
   .pill.on { background: var(--accent); border-color: var(--accent); color: #000; }
@@ -246,9 +246,9 @@
 
   var STORAGE_KEY = "mfg_exam_v1";
   var FOCUS_KINDS = {
-    one: ["one", "dishone"],
-    drop: ["drop", "dropl"],
-    allergy: ["contains", "notcontains", "scenario"],
+    one: ["one", "detail"],
+    drop: ["drop", "dropdetail"],
+    allergy: ["contains", "notcontains", "scenario", "mod"],
     steps: ["member", "notmember", "sort"]
   };
 
@@ -335,6 +335,8 @@
     return dish.allergens.indexOf(allergen) !== -1;
   }
   function safeFlags(dish) {
+    // An unconfirmed allergen line is not a safety claim.
+    if (dish.allergenTentative) return ["Confirm"];
     var flags = [];
     if (!has(dish, "Gluten")) flags.push("GF");
     if (!has(dish, "Dairy")) flags.push("DF");
@@ -538,7 +540,8 @@
           });
         }
         // Same principle: ask which component to announce, not which sentence to recite.
-        var dropDetail = keySegment(drop);
+        // Skip the same ambiguous lines that the recognition question skips.
+        var dropDetail = dropGeneric || dropIsName ? null : keySegment(drop);
         if (dropDetail) {
           var dropPool = [];
           siblings.forEach(function (other) {
@@ -597,17 +600,21 @@
     var unsafe = data.dishes.filter(function (d) {
       return risky.some(function (a) { return has(d, a); });
     });
+    // A dish whose allergen line is unconfirmed is never offered as "safe as-is".
     var safeDishes = data.dishes.filter(function (d) {
+      if (d.allergenTentative) return false;
       return !risky.some(function (a) { return has(d, a); });
     });
-    for (var s = 0; s < 6; s += 1) {
-      if (!safeDishes.length || unsafe.length < 3) break;
-      var answer = shuffle(safeDishes)[s % safeDishes.length];
+    var unsafeNames = unsafe.map(function (d) { return d.name; });
+    var scenarioPicks = shuffle(safeDishes).slice(0, 6);
+    for (var s = 0; s < scenarioPicks.length; s += 1) {
+      if (!scenarioPicks.length || unsafeNames.length < 3) break;
+      var answer = scenarioPicks[s];
       addQuestion(bank, {
         id: "scenario:" + answer.name, kind: "scenario", kicker: "Scenario check", section: answer.section,
         dishName: answer.name,
         prompt: "A guest has a severe tree-nut and shellfish allergy. Which of these is safe as-is, with no modification?",
-        correct: answer.name, pool: unsafe.map(function (d) { return d.name; })
+        correct: answer.name, pool: unsafeNames
       });
     }
 
@@ -718,6 +725,8 @@
     return hay.indexOf(needle) !== -1;
   }
   function dishMatchesSafe(dish) {
+    // A tentative dish cannot be filtered in as safe on any allergen.
+    if (dish.allergenTentative && (safe.gf || safe.df || safe.nf || safe.shellfish)) return false;
     if (safe.gf && has(dish, "Gluten")) return false;
     if (safe.df && has(dish, "Dairy")) return false;
     if (safe.nf && has(dish, "Tree Nuts")) return false;
@@ -1159,6 +1168,12 @@
     loadState();
     state.missed = state.missed.filter(function (id) { return !!BY_ID[id]; });
     state.mastered = state.mastered.filter(function (id) { return id.indexOf("fc:") === 0; });
+    // Question ids can change between builds (allergen checks embed a random
+    // allergen). Drop answers that no longer point at a live question, or the
+    // score total keeps counting them.
+    Object.keys(state.answered).forEach(function (id) {
+      if (!BY_ID[id]) delete state.answered[id];
+    });
     rebuildQuizDeck();
     state.index = state.deck.length ? Math.min(state.index, state.deck.length - 1) : 0;
 

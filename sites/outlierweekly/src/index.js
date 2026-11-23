@@ -68,9 +68,10 @@ function isMfgPath(pathname) {
   return p === MFG_PREFIX || p.startsWith(`${MFG_PREFIX}/`);
 }
 
-// HMAC-SHA256 over a fixed string, keyed by the shared password. The cookie
-// value is the hex digest, so the password itself never leaves the worker.
-async function mfgSessionValue(secret) {
+// HMAC-SHA256 over the session input plus an expiry timestamp, keyed by the
+// shared password. Signing the expiry means a copied cookie stops working when
+// it times out, unlike a digest of a constant.
+async function mfgSessionValue(secret, expiresAt) {
   const key = await crypto.subtle.importKey(
     "raw",
     MFG_TEXT_ENCODER.encode(secret),
@@ -81,7 +82,7 @@ async function mfgSessionValue(secret) {
   const signature = await crypto.subtle.sign(
     "HMAC",
     key,
-    MFG_TEXT_ENCODER.encode(MFG_SESSION_INPUT)
+    MFG_TEXT_ENCODER.encode(`${MFG_SESSION_INPUT}:${expiresAt}`)
   );
   return Array.from(new Uint8Array(signature))
     .map((byte) => byte.toString(16).padStart(2, "0"))
@@ -122,8 +123,18 @@ async function mfgIsAuthed(request, env) {
   if (!secret) return false;
   const value = parseCookies(request)[MFG_COOKIE];
   if (!value) return false;
-  const expected = await mfgSessionValue(secret);
-  return mfgSafeEqual(value, expected);
+  const dot = value.indexOf(".");
+  if (dot < 1) return false;
+  const expiresAt = Number(value.slice(0, dot));
+  const signature = value.slice(dot + 1);
+  if (!Number.isFinite(expiresAt) || expiresAt * 1000 <= Date.now()) return false;
+  const expected = await mfgSessionValue(secret, expiresAt);
+  return mfgSafeEqual(signature, expected);
+}
+
+async function mfgSessionCookieValue(secret) {
+  const expiresAt = Math.floor(Date.now() / 1000) + MFG_MAX_AGE;
+  return `${expiresAt}.${await mfgSessionValue(secret, expiresAt)}`;
 }
 
 function mfgSessionCookie(value, maxAge) {
@@ -213,23 +224,26 @@ async function handleMfg(request, env) {
   const method = request.method.toUpperCase();
   const wantsJson = pathname === `${MFG_PREFIX}/data.json`;
 
-  // Reject a form POST that a browser sends from another site. Same-origin
-  // forms send an Origin header that matches the request host.
+  // Reject a form POST that a browser sends from another site. Some browsers
+  // send "Origin: null" (privacy modes, sandboxed contexts), so only a header
+  // that parses to a different host is rejected; Referer is the fallback.
   if (method === "POST") {
-    const origin = request.headers.get("Origin");
-    if (origin) {
-      let originHost = "";
+    const sourceHost = (value) => {
+      if (!value || value === "null") return "";
       try {
-        originHost = new URL(origin).host;
+        return new URL(value).host;
       } catch {
-        originHost = "invalid";
+        return "";
       }
-      if (originHost !== url.host) {
-        return new Response("Forbidden", {
-          status: 403,
-          headers: mfgNoStoreHeaders({ "Content-Type": "text/plain; charset=utf-8" }),
-        });
-      }
+    };
+    const originHost = sourceHost(request.headers.get("Origin"));
+    const refererHost = sourceHost(request.headers.get("Referer"));
+    const claimed = originHost || refererHost;
+    if (claimed && claimed !== url.host) {
+      return new Response("Forbidden", {
+        status: 403,
+        headers: mfgNoStoreHeaders({ "Content-Type": "text/plain; charset=utf-8" }),
+      });
     }
   }
 
@@ -244,7 +258,7 @@ async function handleMfg(request, env) {
     }
     const secret = mfgSecret(env);
     if (secret && password.length > 0 && mfgSafeEqual(password, secret)) {
-      const session = await mfgSessionValue(secret);
+      const session = await mfgSessionCookieValue(secret);
       return new Response(null, {
         status: 303,
         headers: mfgNoStoreHeaders({
