@@ -171,7 +171,7 @@
         <div class="options" id="q-options"></div>
         <div class="explain" id="q-explain" aria-live="polite"></div>
         <div class="controls">
-          <span class="muted small">Tap an option or press <b>1-4 / A-D</b>. <b>Space / Enter / →</b> next, <b>←</b> previous.</span>
+          <span class="muted small">Say it in your own words — the packet line is a reference, not a script. <br>Tap an option or press <b>1-4 / A-D</b>. <b>Space / Enter / →</b> next, <b>←</b> previous.</span>
           <div style="display:flex;gap:8px;">
             <button type="button" id="prev-btn">← Prev</button>
             <button type="button" id="next-btn" class="active">Next →</button>
@@ -189,7 +189,7 @@
         <p class="muted small" style="margin-top:14px;">Tap the card or press <b>Space</b> to flip. <span id="fc-pos">1 / 1</span> · Mastered: <b id="fc-mastered">0</b></p>
       </div>
       <div class="grade-row">
-        <button type="button" id="fc-nailed">Nailed it</button>
+        <button type="button" id="fc-nailed">Covered the details</button>
         <button type="button" id="fc-again">Review again</button>
       </div>
       <div class="grade-row">
@@ -229,7 +229,7 @@
         <p class="muted small">Hide the list. Say both approaches out loud. Tap the panel to reveal, then grade yourself.</p>
         <div class="recite" id="recite-panel" role="button" tabindex="0">Tap to reveal the service steps</div>
         <div class="grade-row" id="recite-grades" hidden>
-          <button type="button" id="recite-nailed">Nailed it</button>
+          <button type="button" id="recite-nailed">Covered the details</button>
           <button type="button" id="recite-again">Review again</button>
         </div>
         <p class="muted small" id="recite-status"></p>
@@ -362,9 +362,13 @@
     var seen = {};
     var out = [];
     raw.forEach(function (tok) {
-      if (tok.length < 4 || STOP_WORDS[tok] || seen[tok]) return;
-      seen[tok] = true;
-      out.push(tok);
+      if (tok.length < 4 || STOP_WORDS[tok]) return;
+      // Plural and singular are the same word for matching ("meatballs" / "meatball").
+      var stem = tok.replace(/(es|s)$/, "");
+      if (stem.length < 4) stem = tok;
+      if (seen[stem]) return;
+      seen[stem] = true;
+      out.push(stem);
     });
     return out;
   }
@@ -419,6 +423,24 @@
     var chosen = near.length >= count ? near.slice(0, count) : ranked.slice(0, count);
     return chosen.map(function (row) { return row.text; });
   }
+  // Split a description into its component phrases. Used to ask which detail
+  // belongs to a dish, instead of demanding the packet sentence word for word.
+  function segments(text) {
+    return String(text || "")
+      .split(/[,;]/)
+      .map(function (s) { return s.replace(/^[^A-Za-z0-9]+/, "").replace(/[^A-Za-z0-9)]+$/, "").trim(); })
+      .filter(function (s) {
+        if (s.length < 6 || s.length > 60) return false;
+        if (/[()]/.test(s)) return false;                                  // stage directions
+        if (/^(show|announce|say|offer|finish|slices?)\b/i.test(s)) return false;
+        return true;
+      });
+  }
+  function keySegment(text) {
+    var parts = segments(text);
+    if (!parts.length) return null;
+    return parts.slice().sort(function (a, b) { return b.length - a.length; })[0];
+  }
   function addQuestion(bank, spec) {
     var correct = trim(spec.correct);
     if (!spec.prompt || !correct) return;
@@ -459,19 +481,14 @@
       bySection[d.section].push(d);
     });
 
-    // Candidate pools list the same-section strings first. pickDecoys scores every
-    // candidate, so a cross-section near-miss can still win; ties stay in-section.
-    var allNames = data.dishes.map(function (d) { return d.name; });
-    var allOneLiners = data.dishes.map(function (d) { return trim(d.oneLiner); });
-    var allDropLines = data.dishes.map(function (d) { return trim(d.dropLine); });
+    // Options stay inside the dish's own menu section. That is the honest test:
+    // a guest would never confuse a Dolci with a Secondi.
     var allMods = data.dishes.map(function (d) { return trim(d.mods); });
 
     data.dishes.forEach(function (dish) {
       var section = bySection[dish.section] || [];
       var siblings = section.filter(function (x) { return x.name !== dish.name; });
-      var siblingNames = siblings.map(function (x) { return x.name; }).concat(allNames);
-      var siblingOne = siblings.map(function (x) { return trim(x.oneLiner); }).concat(allOneLiners);
-      var siblingDrop = siblings.map(function (x) { return trim(x.dropLine); }).concat(allDropLines);
+      var siblingNames = siblings.map(function (x) { return x.name; });
       var one = trim(dish.oneLiner);
       var drop = trim(dish.dropLine);
 
@@ -480,11 +497,24 @@
           id: "one:" + dish.name, kind: "one", kicker: "One-liner → dish", section: dish.section,
           dishName: dish.name, prompt: one, correct: dish.name, pool: siblingNames
         });
-        addQuestion(bank, {
-          id: "dishone:" + dish.name, kind: "dishone", kicker: "Dish → one-liner", section: dish.section,
-          dishName: dish.name, prompt: "Which one-liner does the packet print for " + dish.name + "?",
-          correct: one, pool: siblingOne
-        });
+        // Ask for a real detail, not the printed sentence: staff are expected to
+        // describe the dish in their own words.
+        var oneDetail = keySegment(one);
+        if (oneDetail) {
+          var detailPool = [];
+          siblings.forEach(function (other) {
+            segments(trim(other.oneLiner)).forEach(function (s) { detailPool.push(s); });
+          });
+          data.dishes.forEach(function (other) {
+            if (other.name === dish.name || other.section === dish.section) return;
+            segments(trim(other.oneLiner)).forEach(function (s) { detailPool.push(s); });
+          });
+          addQuestion(bank, {
+            id: "detail:" + dish.name, kind: "detail", kicker: "Guest description", section: dish.section,
+            dishName: dish.name, prompt: "Which key detail belongs in your description of " + dish.name + "?",
+            correct: oneDetail, pool: detailPool
+          });
+        }
       }
       if (drop) {
         // A drop line cannot identify one dish when two dishes share it, when it is
@@ -502,11 +532,23 @@
             dishName: dish.name, prompt: drop, correct: dish.name, pool: siblingNames
           });
         }
-        addQuestion(bank, {
-          id: "dropl:" + dish.name, kind: "dropl", kicker: "Dish → drop line", section: dish.section,
-          dishName: dish.name, prompt: "What is the drop line for " + dish.name + "?",
-          correct: drop, pool: siblingDrop
-        });
+        // Same principle: ask which component to announce, not which sentence to recite.
+        var dropDetail = keySegment(drop);
+        if (dropDetail) {
+          var dropPool = [];
+          siblings.forEach(function (other) {
+            segments(trim(other.dropLine)).forEach(function (s) { dropPool.push(s); });
+          });
+          data.dishes.forEach(function (other) {
+            if (other.name === dish.name || other.section === dish.section) return;
+            segments(trim(other.dropLine)).forEach(function (s) { dropPool.push(s); });
+          });
+          addQuestion(bank, {
+            id: "dropdetail:" + dish.name, kind: "dropdetail", kicker: "At the table", section: dish.section,
+            dishName: dish.name, prompt: "When you set down " + dish.name + ", which component do you announce?",
+            correct: dropDetail, pool: dropPool
+          });
+        }
       }
 
       // Allergen checks: one "contains" and one "does not contain" per dish.
