@@ -66,7 +66,10 @@
   .pill.on { background: var(--accent); border-color: var(--accent); color: #000; }
   .chip { display: inline-block; padding: 3px 9px; border-radius: 99px; font-size: 0.7rem; font-weight: 700; background: var(--chip); color: var(--chip-text); margin: 2px 4px 2px 0; }
   .chip.contains { background: var(--contains); color: var(--contains-text); }
-  .db-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  .db-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); }
+  /* Long unbroken tokens (allergen names, URLs) must not widen a grid track. */
+  .db-grid > * { min-width: 0; }
+  .db-item, .dish-card, .card { min-width: 0; overflow-wrap: anywhere; word-break: break-word; }
   .db-item { background: #0f172a; border: 1px solid var(--border); border-radius: 10px; padding: 14px; font-size: 0.88rem; line-height: 1.45; overflow-wrap: anywhere; }
   .db-item h3 { margin: 0 0 6px 0; color: var(--accent); font-size: 1rem; }
   .db-meta { margin-top: 6px; color: var(--muted); }
@@ -79,9 +82,11 @@
   th, td { border: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; overflow-wrap: anywhere; }
   th { background: #0f172a; color: var(--accent); white-space: nowrap; }
   .step-card h2 { margin-bottom: 4px; }
-  .step-card .step-title { color: var(--text); font-weight: 700; margin: 0 0 12px; }
-  ol.step-list { margin: 0; padding-left: 22px; line-height: 1.7; }
-  ol.step-list li { margin-bottom: 6px; overflow-wrap: anywhere; }
+  .step-card .step-title { color: var(--text); font-weight: 700; margin: 0 0 8px; }
+  .step-note { color: var(--muted); font-size: 0.85rem; margin: 0 0 12px; }
+  ul.step-list { margin: 0; padding-left: 0; list-style: none; line-height: 1.7; }
+  ul.step-list li { position: relative; margin-bottom: 6px; padding-left: 1.6em; overflow-wrap: anywhere; }
+  ul.step-list li::before { content: "☐"; position: absolute; left: 0; color: var(--accent); }
   .recite { background: #0f172a; border: 1px dashed var(--border); border-radius: 10px; padding: 18px; text-align: center; cursor: pointer; min-height: 88px; display: flex; align-items: center; justify-content: center; color: var(--muted); }
   .recite.revealed { display: block; text-align: left; cursor: default; color: var(--text); border-style: solid; }
   .tiny-note { color: var(--muted); font-size: 0.78rem; margin-top: 26px; text-align: center; }
@@ -244,7 +249,7 @@
     one: ["one", "dishone"],
     drop: ["drop", "dropl"],
     allergy: ["contains", "notcontains", "scenario"],
-    steps: ["seq", "approach", "next"]
+    steps: ["member", "notmember", "sort"]
   };
 
   var DATA = null;
@@ -348,25 +353,87 @@
   }
 
   // ------------------------------------------------------------- questions
-  function pickDecoys(pool, correct, count) {
+  var STOP_WORDS = { the: true, with: true, and: true, our: true, for: true };
+  var STEP_NOTE = "Checklist, not a fixed order — follow the table's lead.";
+
+  function contentTokens(text) {
+    var folded = String(text || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    var raw = folded.match(/[a-z0-9]+/g) || [];
     var seen = {};
-    seen[correct] = true;
     var out = [];
-    shuffle(pool).forEach(function (raw) {
-      if (out.length >= count) return;
-      var text = trim(raw);
-      if (!text || seen[text]) return;
-      seen[text] = true;
-      out.push(text);
+    raw.forEach(function (tok) {
+      if (tok.length < 4 || STOP_WORDS[tok] || seen[tok]) return;
+      seen[tok] = true;
+      out.push(tok);
     });
     return out;
   }
+  function nearMissScore(candidate, correct, prompt) {
+    var answerSet = {};
+    var promptSet = {};
+    contentTokens(correct).forEach(function (tok) { answerSet[tok] = true; });
+    contentTokens(prompt).forEach(function (tok) { promptSet[tok] = true; });
+    var sharedAnswer = 0;
+    var sharedPrompt = 0;
+    contentTokens(candidate).forEach(function (tok) {
+      if (answerSet[tok]) sharedAnswer += 1;
+      if (promptSet[tok]) sharedPrompt += 1;
+    });
+    var score = 0;
+    if (sharedAnswer > 0) score += 3;
+    if (sharedPrompt > 0) score += 2;
+    var correctLen = String(correct || "").length;
+    var candidateLen = String(candidate || "").length;
+    if (correctLen > 0 && Math.abs(candidateLen - correctLen) / correctLen <= 0.25) score += 1;
+    return { score: score, sharedAnswer: sharedAnswer, sharedPrompt: sharedPrompt };
+  }
+  function pickDecoys(pool, correct, count, prompt) {
+    var seen = {};
+    var correctText = trim(correct);
+    seen[correctText] = true;
+    var unique = [];
+    (pool || []).forEach(function (raw) {
+      var text = trim(raw);
+      if (!text || seen[text]) return;
+      seen[text] = true;
+      unique.push(text);
+    });
+    var ranked = unique.map(function (text, index) {
+      var scored = nearMissScore(text, correctText, prompt || "");
+      return {
+        text: text,
+        score: scored.score,
+        sharedAnswer: scored.sharedAnswer,
+        sharedPrompt: scored.sharedPrompt,
+        index: index
+      };
+    });
+    ranked.sort(function (a, b) {
+      if (b.score !== a.score) return b.score - a.score;
+      if (b.sharedAnswer !== a.sharedAnswer) return b.sharedAnswer - a.sharedAnswer;
+      if (b.sharedPrompt !== a.sharedPrompt) return b.sharedPrompt - a.sharedPrompt;
+      return a.index - b.index;
+    });
+    // Near-misses sort first. Fewer than 3 of them: fill from the rest of the pool.
+    var near = ranked.filter(function (row) { return row.score > 0; });
+    var chosen = near.length >= count ? near.slice(0, count) : ranked.slice(0, count);
+    return chosen.map(function (row) { return row.text; });
+  }
   function addQuestion(bank, spec) {
-    if (!spec.prompt || !spec.correct) return;
-    var decoys = pickDecoys(spec.pool || [], spec.correct, 3);
+    var correct = trim(spec.correct);
+    if (!spec.prompt || !correct) return;
+    var decoys = pickDecoys(spec.pool || [], correct, 3, spec.prompt);
     if (decoys.length !== 3) return;
-    var options = shuffle([spec.correct].concat(decoys));
-    var index = options.indexOf(spec.correct);
+    var options = shuffle([correct].concat(decoys));
+    var seenOpt = {};
+    var uniqueCount = 0;
+    options.forEach(function (opt) {
+      if (seenOpt[opt]) return;
+      seenOpt[opt] = true;
+      uniqueCount += 1;
+    });
+    if (uniqueCount !== 4) return;
+    var index = options.indexOf(correct);
     if (index < 0) return;
     bank.push({
       id: spec.id,
@@ -377,7 +444,7 @@
       prompt: spec.prompt,
       options: options,
       correctIndex: index,
-      correctText: spec.correct,
+      correctText: correct,
       explainKind: spec.explainKind || "dish",
       stepsApproach: spec.stepsApproach || null
     });
@@ -392,12 +459,19 @@
       bySection[d.section].push(d);
     });
 
+    // Candidate pools list the same-section strings first. pickDecoys scores every
+    // candidate, so a cross-section near-miss can still win; ties stay in-section.
+    var allNames = data.dishes.map(function (d) { return d.name; });
+    var allOneLiners = data.dishes.map(function (d) { return trim(d.oneLiner); });
+    var allDropLines = data.dishes.map(function (d) { return trim(d.dropLine); });
+    var allMods = data.dishes.map(function (d) { return trim(d.mods); });
+
     data.dishes.forEach(function (dish) {
       var section = bySection[dish.section] || [];
       var siblings = section.filter(function (x) { return x.name !== dish.name; });
-      var siblingNames = siblings.map(function (x) { return x.name; });
-      var siblingOne = siblings.map(function (x) { return trim(x.oneLiner); });
-      var siblingDrop = siblings.map(function (x) { return trim(x.dropLine); });
+      var siblingNames = siblings.map(function (x) { return x.name; }).concat(allNames);
+      var siblingOne = siblings.map(function (x) { return trim(x.oneLiner); }).concat(allOneLiners);
+      var siblingDrop = siblings.map(function (x) { return trim(x.dropLine); }).concat(allDropLines);
       var one = trim(dish.oneLiner);
       var drop = trim(dish.dropLine);
 
@@ -413,10 +487,21 @@
         });
       }
       if (drop) {
-        addQuestion(bank, {
-          id: "drop:" + dish.name, kind: "drop", kicker: "Drop line → dish", section: dish.section,
-          dishName: dish.name, prompt: drop, correct: dish.name, pool: siblingNames
+        // A drop line cannot identify one dish when two dishes share it, when it is
+        // the generic "tableside move" line, or when it just repeats the dish name.
+        var dropOwners = 0;
+        data.dishes.forEach(function (other) {
+          if (trim(other.dropLine) === drop) dropOwners += 1;
         });
+        var dropBare = drop.toLowerCase().replace(/\.+$/g, "").trim();
+        var dropGeneric = dropBare === "tableside move";
+        var dropIsName = dropBare === dish.name.toLowerCase().replace(/\.+$/g, "").trim();
+        if (dropOwners < 2 && !dropGeneric && !dropIsName) {
+          addQuestion(bank, {
+            id: "drop:" + dish.name, kind: "drop", kicker: "Drop line → dish", section: dish.section,
+            dishName: dish.name, prompt: drop, correct: dish.name, pool: siblingNames
+          });
+        }
         addQuestion(bank, {
           id: "dropl:" + dish.name, kind: "dropl", kicker: "Dish → drop line", section: dish.section,
           dishName: dish.name, prompt: "What is the drop line for " + dish.name + "?",
@@ -450,7 +535,8 @@
       if (mod) {
         var otherMods = data.dishes
           .filter(function (x) { return x.name !== dish.name; })
-          .map(function (x) { return trim(x.mods); });
+          .map(function (x) { return trim(x.mods); })
+          .concat(allMods);
         addQuestion(bank, {
           id: "mod:" + dish.name, kind: "mod", kicker: "Modification check", section: dish.section,
           dishName: dish.name, prompt: "What modification does the packet allow for " + dish.name + "?",
@@ -478,37 +564,48 @@
       });
     }
 
-    // Steps of service.
-    var allSteps = [];
+    // Steps of service are a checklist. Questions use the printed step text only.
+    var approachLabels = [];
+    var seenLabels = {};
     data.steps.forEach(function (approach) {
-      approach.steps.forEach(function (step) { allSteps.push(step); });
+      if (!approach.approach || seenLabels[approach.approach]) return;
+      seenLabels[approach.approach] = true;
+      approachLabels.push(approach.approach);
     });
-    var approachNames = data.steps.map(function (a) { return a.approach; });
-
     data.steps.forEach(function (approach) {
-      var steps = approach.steps;
-      steps.forEach(function (step, i) {
+      var own = approach.steps.slice();
+      var foreign = [];
+      data.steps.forEach(function (other) {
+        if (other.approach === approach.approach) return;
+        other.steps.forEach(function (step) { foreign.push(step); });
+      });
+      own.forEach(function (step, i) {
         addQuestion(bank, {
-          id: "seq:" + approach.approach + ":" + i, kind: "seq", kicker: "Steps of service", section: null,
-          prompt: "What is step " + (i + 1) + " of the " + approach.approach + " (" + approach.title + ")?",
-          correct: step, pool: allSteps.filter(function (x) { return x !== step; }),
+          id: "member:" + approach.approach + ":" + i, kind: "member", kicker: "Steps of service", section: null,
+          prompt: "Which of these is part of the " + approach.approach + " checklist?",
+          correct: step, pool: foreign,
           explainKind: "steps", stepsApproach: approach.approach
         });
+      });
+      foreign.forEach(function (step, i) {
         addQuestion(bank, {
-          id: "approach:" + approach.approach + ":" + i, kind: "approach", kicker: "Steps of service", section: null,
-          prompt: "Which approach includes the step \"" + step + "\"?",
-          correct: approach.approach,
-          pool: approachNames.concat(["Neither approach", "Both approaches"]),
+          id: "notmember:" + approach.approach + ":" + i, kind: "notmember", kicker: "Steps of service", section: null,
+          prompt: "Which of these is NOT part of the " + approach.approach + "?",
+          correct: step, pool: own,
           explainKind: "steps", stepsApproach: approach.approach
         });
-        if (i + 1 < steps.length) {
-          addQuestion(bank, {
-            id: "next:" + approach.approach + ":" + i, kind: "next", kicker: "Steps of service", section: null,
-            prompt: "What comes immediately after \"" + step + "\"?",
-            correct: steps[i + 1], pool: allSteps.filter(function (x) { return x !== steps[i + 1]; }),
-            explainKind: "steps", stepsApproach: approach.approach
-          });
-        }
+      });
+      // Approach sorting needs four unique real approach labels.
+      // "Neither approach" is not in the data. Skip when four labels do not exist.
+      own.forEach(function (step, i) {
+        var decoyLabels = approachLabels.filter(function (name) { return name !== approach.approach; });
+        if (decoyLabels.length < 3) return;
+        addQuestion(bank, {
+          id: "sort:" + approach.approach + ":" + i, kind: "sort", kicker: "Steps of service", section: null,
+          prompt: "Which approach includes \"" + step + "\"?",
+          correct: approach.approach, pool: decoyLabels,
+          explainKind: "steps", stepsApproach: approach.approach
+        });
       });
     });
 
@@ -556,11 +653,15 @@
       (trim(dish.portionNote) ? '<div class="row"><b>Portion:</b> ' + esc(dish.portionNote) + "</div>" : "") +
       (trim(dish.notes) ? '<div class="row"><b>Notes:</b> ' + esc(dish.notes) + "</div>" : "");
   }
+  function stepsChecklist(approach) {
+    return '<p class="step-note">' + esc(STEP_NOTE) + "</p>" +
+      '<ul class="step-list">' + approach.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul>";
+  }
   function stepsRecord(approachName) {
     var approach = DATA.steps.filter(function (a) { return a.approach === approachName; })[0];
     if (!approach) return "";
     return '<div class="row"><b>' + esc(approach.approach) + " — " + esc(approach.title) + "</b></div>" +
-      "<ol class=\"step-list\">" + approach.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol>";
+      stepsChecklist(approach);
   }
 
   function dishMatchesSearch(dish, needle) {
@@ -586,6 +687,7 @@
       return '' +
         '<div class="db-item" id="db-' + i + '">' +
         "<h3>" + esc(d.name) + "</h3>" +
+        (d.tableside === true ? '<span class="badge">Tableside move</span>' : "") +
         '<div class="db-meta"><b>Section:</b> ' + esc(d.section) + "</div>" +
         (trim(d.oneLiner) ? '<div class="db-meta">' + esc(d.oneLiner) + "</div>" : "") +
         (trim(d.dropLine) ? '<div class="db-meta"><b>Drop:</b> ' + esc(d.dropLine) + "</div>" : "") +
@@ -697,7 +799,7 @@
           section: "Steps of Service",
           kicker: approach.approach,
           front: approach.approach + " — " + approach.title,
-          back: "<ol class=\"step-list\">" + approach.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol>"
+          back: stepsChecklist(approach)
         });
       });
       return cards;
@@ -709,6 +811,7 @@
         if ((mode === "ALL" || mode === "one") && !trim(d.oneLiner) && !trim(d.dropLine)) return;
         if (mode === "allergy" && !d.allergens.length) return;
         var backParts = [];
+        if (d.tableside === true) backParts.push('<span class="badge">Tableside move</span>');
         if (trim(d.oneLiner)) backParts.push("<div><b>One-liner:</b> " + esc(d.oneLiner) + "</div>");
         if (trim(d.dropLine)) backParts.push("<div><b>Drop line:</b> " + esc(d.dropLine) + "</div>");
         backParts.push("<div><b>Allergens:</b> " + chips(d.allergens) + "</div>");
@@ -791,12 +894,11 @@
   }
 
   function renderSteps() {
-    $("steps-cards").innerHTML = DATA.steps.map(function (approach, i) {
+    $("steps-cards").innerHTML = DATA.steps.map(function (approach) {
       return '<div class="card step-card">' +
-        '<div class="kicker">Approach ' + (i + 1) + "</div>" +
         "<h2>" + esc(approach.approach) + "</h2>" +
         '<p class="step-title">' + esc(approach.title) + "</p>" +
-        '<ol class="step-list">' + approach.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol>" +
+        stepsChecklist(approach) +
         "</div>";
     }).join("");
     renderRecite();
@@ -814,7 +916,7 @@
       panel.className = "recite revealed";
       panel.innerHTML = DATA.steps.map(function (approach) {
         return '<div class="row"><b>' + esc(approach.approach) + " — " + esc(approach.title) + "</b></div>" +
-          '<ol class="step-list">' + approach.steps.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ol>";
+          stepsChecklist(approach);
       }).join("");
       grades.hidden = false;
       status.textContent = reciteState === "nailed" ? "Graded: nailed it." : (reciteState === "again" ? "Graded: review again." : "");
