@@ -364,7 +364,12 @@
     raw.forEach(function (tok) {
       if (tok.length < 4 || STOP_WORDS[tok]) return;
       // Plural and singular are the same word for matching ("meatballs" / "meatball").
-      var stem = tok.replace(/(es|s)$/, "");
+      // Only strip a real plural ending: "fries"→"fry", "tomatoes"→"tomato",
+      // "cheeses"→"cheese". A bare /(es|s)$/ turned "fries" into "frie".
+      var stem = tok;
+      if (tok.length > 4 && /ies$/.test(tok)) stem = tok.slice(0, -3) + "y";
+      else if (/(oes|ches|shes|sses|xes|zes)$/.test(tok)) stem = tok.slice(0, -2);
+      else if (/s$/.test(tok) && !/ss$/.test(tok)) stem = tok.slice(0, -1);
       if (stem.length < 4) stem = tok;
       if (seen[stem]) return;
       seen[stem] = true;

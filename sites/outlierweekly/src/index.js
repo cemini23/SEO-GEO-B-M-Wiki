@@ -208,9 +208,30 @@ async function mfgFetchAsset(request, env, pathname) {
 }
 
 async function handleMfg(request, env) {
-  const pathname = stripTrailingSlash(new URL(request.url).pathname).toLowerCase();
+  const url = new URL(request.url);
+  const pathname = stripTrailingSlash(url.pathname).toLowerCase();
   const method = request.method.toUpperCase();
   const wantsJson = pathname === `${MFG_PREFIX}/data.json`;
+
+  // Reject a form POST that a browser sends from another site. Same-origin
+  // forms send an Origin header that matches the request host.
+  if (method === "POST") {
+    const origin = request.headers.get("Origin");
+    if (origin) {
+      let originHost = "";
+      try {
+        originHost = new URL(origin).host;
+      } catch {
+        originHost = "invalid";
+      }
+      if (originHost !== url.host) {
+        return new Response("Forbidden", {
+          status: 403,
+          headers: mfgNoStoreHeaders({ "Content-Type": "text/plain; charset=utf-8" }),
+        });
+      }
+    }
+  }
 
   if (method === "POST" && pathname === `${MFG_PREFIX}/login`) {
     let password = "";
