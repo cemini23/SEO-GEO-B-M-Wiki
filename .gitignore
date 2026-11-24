@@ -66,3 +66,5 @@ sites/outlierweekly/src/mfg-data.js
 sites/outlierweekly/src/mfg-data.local.js
 # Local captures of the training packet and the QR deck export
 caruso-source/
+# Local snapshot of the MFG training deck (menu text, never committed)
+sites/outlierweekly/.mfg-deck-snapshot.txt
