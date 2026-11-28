@@ -145,9 +145,10 @@
       <select id="section-filter" aria-label="Menu section"></select>
       <select id="focus-filter" aria-label="Question focus">
         <option value="ALL">All topics</option>
+        <option value="allergy">Allergies</option>
+        <option value="ingredient">Ingredients</option>
         <option value="one">One-Liners</option>
         <option value="drop">Drop Lines</option>
-        <option value="allergy">Allergies</option>
         <option value="steps">Steps of Service</option>
       </select>
     </div>
@@ -249,6 +250,7 @@
     one: ["one", "detail"],
     drop: ["drop", "dropdetail"],
     allergy: ["contains", "notcontains", "scenario", "mod"],
+    ingredient: ["ingredient", "notingredient"],
     steps: ["member", "notmember", "sort"]
   };
 
@@ -257,7 +259,7 @@
   var BY_ID = {};
   var state = { missed: [], answered: {}, deck: [], index: 0, streak: 0, mastered: [] };
   var view = "db";
-  var filters = { section: "ALL", focus: "ALL" };
+  var filters = { section: "ALL", focus: "allergy" };
   var safe = { gf: false, df: false, nf: false, shellfish: false };
   var flashIndex = 0;
   var flashFlipped = false;
@@ -448,12 +450,29 @@
     if (!parts.length) return null;
     return parts.slice().sort(function (a, b) { return b.length - a.length; })[0];
   }
+  // Two options that differ only by a trailing qualifier ("120 Day Aged Pecorino"
+  // vs "120 day aged Pecorino Toscano") make a question unfair, not hard.
+  function tooSimilar(a, b) {
+    var A = contentTokens(a), B = contentTokens(b);
+    if (!A.length || !B.length) return false;
+    var setB = {};
+    B.forEach(function (t) { setB[t] = true; });
+    var shared = A.filter(function (t) { return setB[t]; }).length;
+    var union = new Set(A.concat(B)).size;
+    if (shared === Math.min(A.length, B.length)) return true;   // one is a subset of the other
+    return union > 0 && shared / union > 0.6;
+  }
   function addQuestion(bank, spec) {
     var correct = trim(spec.correct);
     if (!spec.prompt || !correct) return;
     var decoys = pickDecoys(spec.pool || [], correct, 3, spec.prompt);
     if (decoys.length !== 3) return;
     var options = shuffle([correct].concat(decoys));
+    for (var i = 0; i < options.length; i++) {
+      for (var j = i + 1; j < options.length; j++) {
+        if (tooSimilar(options[i], options[j])) return;
+      }
+    }
     var seenOpt = {};
     var uniqueCount = 0;
     options.forEach(function (opt) {
@@ -578,6 +597,34 @@
           dishName: dish.name, prompt: "Which of these does " + dish.name + " NOT contain?",
           correct: no, pool: dish.allergens
         });
+      }
+
+      // Ingredient checks: one "is in" and one "is not in" per dish. Allergens
+      // and ingredients are the two areas the trainer tests hardest.
+      var ingSegs = segments(dish.ingredients);
+      if (ingSegs.length >= 4) {
+        var lower = function (x) { return String(x || "").toLowerCase(); };
+        var others = [];
+        data.dishes.forEach(function (other) {
+          if (other.name === dish.name) return;
+          segments(other.ingredients).forEach(function (s) {
+            if (!ingSegs.some(function (x) { return lower(x) === lower(s); })) others.push(s);
+          });
+        });
+        if (others.length >= 3) {
+          var inIt = ingSegs[Math.floor(Math.random() * ingSegs.length)];
+          addQuestion(bank, {
+            id: "ingredient:" + dish.name, kind: "ingredient", kicker: "Ingredient check", section: dish.section,
+            dishName: dish.name, prompt: "Which of these is an ingredient in " + dish.name + "?",
+            correct: inIt, pool: others
+          });
+          var notIt = others[Math.floor(Math.random() * others.length)];
+          addQuestion(bank, {
+            id: "notingredient:" + dish.name, kind: "notingredient", kicker: "Ingredient check", section: dish.section,
+            dishName: dish.name, prompt: "Which of these is NOT an ingredient in " + dish.name + "?",
+            correct: notIt, pool: ingSegs
+          });
+        }
       }
 
       // Modification check: only where the packet states a modification.
@@ -1037,6 +1084,8 @@
   }
 
   function initFilters() {
+    // Allergens and ingredients are the tested areas, so the quiz opens there.
+    $("focus-filter").value = filters.focus;
     var sectionSelect = $("section-filter");
     var options = ['<option value="ALL">All sections</option>'].concat(
       DATA.sections.map(function (s) { return '<option value="' + esc(s) + '">' + esc(s) + "</option>"; })

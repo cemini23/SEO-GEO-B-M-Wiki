@@ -17,7 +17,7 @@ import pathlib
 import sys
 import urllib.request
 
-DECK_ID = "1s735bAqavvM-UfEFM4KW-Z6vKiyNMb1DzI_0U2XNybg"
+DECK_ID = "1-Bqp4cqMcA0wGt-jDop2ocG2_nPlpdVRyo1R7qUTtgA"
 EXPORT_URL = f"https://docs.google.com/presentation/d/{DECK_ID}/export/txt"
 
 HERE = pathlib.Path(__file__).resolve().parent.parent
